@@ -1,0 +1,68 @@
+{
+  "brand": "Victor Hernandez",
+  "show": { "profile": 1, "experience": 1, "education": 1, "courses": 1, "projects": 1 },
+
+  "hero": {
+    "title": "Victor Hernandez — Portfolio",
+    "subtitle": "Guadalajara · Renewable Energy · iOS/SwiftUI · Food Science",
+    "about": "I build simple, useful products. With a background in science and project management, I now prototype iOS apps with SwiftUI and analyze data with lightweight dashboards. I value clarity, focus, and steady progress.",
+    "linkedin": "https://www.linkedin.com/in/victorhugohc"
+  },
+
+  "experience": [
+    {
+      "role": "Inside Sales · Rockwell Automation Distributor",
+      "meta": "2023—Present · Guadalajara",
+      "desc": "Technical–commercial support, quotation follow-up, and coordination with engineering to deliver practical automation solutions."
+    }
+  ],
+
+  "education": [
+    {
+      "school": "Universidad XYZ",
+      "degree": "M.Sc. in Renewable Energy",
+      "meta": "Project Management (2023—2025)",
+      "desc": "Capstone on PV plant sizing at Lake Chapala, with technical and financial constraints.",
+      "link": "msc-summary.html",
+      "linkLabel": "View work"
+    },
+    {
+      "school": "Engineering (related field)",
+      "degree": "B.Eng.",
+      "meta": "—",
+      "desc": "Projects in 3D modelling and process optimization."
+    }
+  ],
+
+  "courses": [
+    {
+      "title": "Sales Diploma",
+      "meta": "Diploma · Commercial / Inside Sales",
+      "desc": "Consultative selling, funnel/CRM hygiene, and negotiation basics."
+    }
+  ],
+
+    "projects": [
+    {
+      "name": "Pathway (iOS)",
+      "meta": "SwiftUI · Timeline · Multilanguage",
+      "desc": "Personal project manager with sections for Active, Ideas, Completed, and Archived plus a clean Timeline view.",
+      "status": {
+        "stages": ["Idea", "Research/Design", "Prototype", "In development", "Shipped"],
+        "current": 2,
+        "store": ""
+      }
+    },
+    {
+      "name": "Payroll (iOS)",
+      "meta": "SwiftUI · Statistics · Finance",
+      "desc": "Tracks base salary and commissions with monthly/annual averages and a simple net vs. commissions view.",
+      "status": {
+        "stages": ["Idea", "Research/Design", "Prototype", "In development", "Shipped"],
+        "current": 1
+      }
+    }
+    
+  ]
+
+}

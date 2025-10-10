@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Victor Hernandez — Portfolio</title>
+  <meta name="description" content="Ultra-minimal one-column, monospace portfolio. Bilingual (EN/ES) via JSON. No hardcoded content." />
+  <link rel="canonical" href="https://victorhugohc.com/" />
+  <style>
+    :root{
+      --bg:#FBFBFD; --ink:#111113; --subtle:#6B6F76;
+      --max:800px; --lh:1.95; --space:44px; --space-inner:26px;
+      --border:1px solid rgba(0,0,0,.08); --panel:#FFFFFF;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0; background:var(--bg); color:var(--ink);
+      font-family:SFMono-Regular, ui-monospace, Menlo, Consolas, "Liberation Mono", Monaco, monospace;
+      line-height:var(--lh); font-size:16.4px; -webkit-font-smoothing:antialiased;
+    }
+    a{color:inherit; text-decoration:underline; text-underline-offset:3px}
+    a:hover{opacity:.9}
+    header{position:sticky; top:0; background:var(--panel); border-bottom:var(--border)}
+    .head{max-width:var(--max); margin:0 auto; padding:12px 18px; display:flex; align-items:center; justify-content:space-between}
+    .brand{font-weight:700; letter-spacing:.02em}
+    .lang{display:flex; gap:10px; align-items:center; font-size:13px}
+    .lang a{text-decoration:none; border:1px solid rgba(0,0,0,.12); padding:6px 10px; border-radius:999px}
+    .lang a[aria-current="true"]{background:#111; color:#fff; border-color:#111}
+    .wrap{max-width:var(--max); margin:0 auto; padding:38px 18px 80px}
+    h1,h2,h3{font-weight:700; letter-spacing:.045em; text-transform:uppercase; margin:0 0 12px}
+    h1{font-size:28px}
+    h2{font-size:18px; color:var(--subtle); margin-top:6px}
+    h3{font-size:14px}
+    p{margin:0 0 1.2rem}
+    .meta{color:var(--subtle)}
+    section{padding-top:var(--space)}
+    .block{padding:var(--space-inner) 0; border-bottom:var(--border)}
+    .block:last-of-type{border-bottom:none}
+    .list{display:grid; gap:22px}
+    .foot{text-align:center}
+    .hidden{display:none !important}
+    .notice{background:#fff; border:var(--border); padding:12px 14px; border-radius:10px; margin:14px 0}
+    @media (min-width:480px){ body{font-size:16.8px} h1{font-size:30px} h2{font-size:19px} }
+    @media (min-width:880px){ body{font-size:17.4px} h1{font-size:32px} h2{font-size:20px} }
+  </style>
+</head>
+<body>
+  <!-- Header: non-clickable brand + language toggle -->
+  <header>
+    <div class="head">
+      <div class="brand" id="brand">Victor Hernandez</div>
+      <nav class="lang" aria-label="Language">
+        <a href="#" data-lang="en" aria-current="true">EN</a>
+        <a href="#" data-lang="es">ES</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="wrap">
+    <!-- PROFILE -->
+    <section id="profile" class="block hidden">
+      <h1 id="title"></h1>
+      <h2 id="subtitle"></h2>
+      <p id="about"></p>
+      <p>
+        <strong id="quick-contact-label"></strong>
+        <!-- LinkedIn always opens in a new tab -->
+        <a id="linkedin" href="#" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects-section" class="block hidden">
+      <h2 id="projects-title"></h2>
+      <div class="list" id="projects"></div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience-section" class="block hidden">
+      <h2 id="experience-title"></h2>
+      <div class="list" id="experience"></div>
+    </section>
+
+    <!-- EDUCATION (no “View work” link by design) -->
+    <section id="education-section" class="block hidden">
+      <h2 id="education-title"></h2>
+      <div class="list" id="education"></div>
+    </section>
+
+    <!-- COURSES -->
+    <section id="courses-section" class="block hidden">
+      <h2 id="courses-title"></h2>
+      <div class="list" id="courses"></div>
+    </section>
+
+    <p class="meta foot">© <span id="year"></span> Victor Hernandez — One column · Monospace · Single scroll</p>
+  </main>
+
+  <script>
+    // ========== Small utilities ==========
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const $  = (id) => document.getElementById(id);
+    const el = (tag, attrs={}) => { const n=document.createElement(tag); Object.assign(n, attrs); return n; };
+    const showIf = (id, on) => { const n=$(id); if(n) n.classList.toggle('hidden', !on); };
+
+    // Minimal defaults (no content). All copy comes from JSON.
+    // Sections are hidden by default until JSON toggles them on.
+    const defaults = {
+      lang: 'en', // primary language
+      show: { profile: 0, projects: 0, experience: 0, education: 0, courses: 0 },
+      // Static labels per language (used for section titles)
+      i18n: {
+        en: { quickContact: 'Quick contact:', projects: 'Projects', experience: 'Experience', education: 'Education', courses: 'Courses', status: 'Status' },
+        es: { quickContact: 'Contacto rápido:', projects: 'Proyectos', experience: 'Experiencia', education: 'Educación', courses: 'Cursos', status: 'Estatus' }
+      }
+    };
+
+    function currentLang(){
+      // Priority: URL ?lang= → localStorage → defaults.lang
+      const qs = new URLSearchParams(location.search);
+      return (qs.get('lang') || localStorage.getItem('lang') || defaults.lang).toLowerCase();
+    }
+
+    function showError(msg){
+      const box = el('div', { className:'notice' });
+      box.innerHTML = `<p class="meta">${msg}</p>`;
+      $('content').prepend(box);
+    }
+
+    // Render UI from merged data (defaults + content JSON)
+    function render(data, lang){
+      // Toggle sections
+      const sv = Object.assign({}, defaults.show, data.show || {});
+      showIf('profile',           !!sv.profile);
+      showIf('projects-section',  !!sv.projects);
+      showIf('experience-section',!!sv.experience);
+      showIf('education-section', !!sv.education);
+      showIf('courses-section',   !!sv.courses);
+
+      // Labels (per language)
+      const t = (defaults.i18n[lang] || defaults.i18n.en);
+      $('projects-title').textContent   = t.projects;
+      $('experience-title').textContent = t.experience;
+      $('education-title').textContent  = t.education;
+      $('courses-title').textContent    = t.courses;
+      $('quick-contact-label').textContent = t.quickContact;
+
+      // Brand & Hero
+      if (data.brand) $('brand').textContent = data.brand;
+      const h = data.hero || {};
+      if (h.title)    { document.title = h.title; $('title').textContent = h.title; } else { $('title').textContent=''; }
+      if (h.subtitle) $('subtitle').textContent = h.subtitle; else $('subtitle').textContent = '';
+      if (h.about)    $('about').textContent    = h.about;    else $('about').textContent = '';
+      if (h.linkedin) $('linkedin').href        = h.linkedin; // target _blank set in HTML
+
+      // Projects (status line; App Store same tab)
+      const pw = $('projects'); pw.innerHTML = '';
+      (data.projects || []).forEach(p => {
+        const box = el('div');
+        let statusHTML = '';
+        if (p.status && Array.isArray(p.status.stages)) {
+          const cur  = typeof p.status.current === 'number' ? p.status.current : -1;
+          const line = p.status.stages.map((s,i)=> i===cur ? `<strong>${s}</strong>` : s).join(' — ');
+          const store = p.status.store ? ` — <a href="${p.status.store}">App Store</a>` : '';
+          statusHTML = `<p class="meta"><strong>${t.status}:</strong> ${line}${store}</p>`;
+        }
+        box.innerHTML =
+          `<h3>${p.name || ''}</h3>` +
+          (p.meta ? `<p class="meta">${p.meta}</p>` : '') +
+          (p.desc ? `<p>${p.desc}</p>` : '') +
+          statusHTML;
+        pw.appendChild(box);
+      });
+
+      // Experience
+      const ex = $('experience'); ex.innerHTML = '';
+      (data.experience || []).forEach(x => {
+        const d = el('div');
+        d.innerHTML =
+          `<h3>${x.role || ''}</h3>` +
+          (x.meta ? `<p class="meta">${x.meta}</p>` : '') +
+          (x.desc ? `<p>${x.desc}</p>` : '');
+        ex.appendChild(d);
+      });
+
+      // Education (no “View work” link)
+      const ed = $('education'); ed.innerHTML = '';
+      (data.education || []).forEach(x => {
+        const d = el('div');
+        const school = x.school ? `<h3>${x.school}</h3>` : '';
+        const degree = x.degree
+          ? `<p><strong>${x.degree}</strong>${x.meta ? ` — <span class="meta">${x.meta}</span>` : ''}</p>`
+          : (x.meta ? `<p class="meta">${x.meta}</p>` : '');
+        const desc = x.desc ? `<p>${x.desc}</p>` : '';
+        d.innerHTML = school + degree + desc;
+        ed.appendChild(d);
+      });
+
+      // Courses
+      const cs = $('courses'); cs.innerHTML = '';
+      (data.courses || []).forEach(c => {
+        const d = el('div');
+        d.innerHTML =
+          `<h3>${c.title || ''}</h3>` +
+          (c.meta ? `<p class="meta">${c.meta}</p>` : '') +
+          (c.desc ? `<p>${c.desc}</p>` : '');
+        cs.appendChild(d);
+      });
+    }
+
+    // Load JSON: tries language-specific first, then common
+    async function loadJSON(url){
+      const res = await fetch(url, { cache:'no-store' });
+      if (!res.ok) throw new Error('fetch failed');
+      return res.json();
+    }
+
+    async function boot(){
+      const lang = currentLang();
+      // reflect current language in the UI chips
+      document.documentElement.lang = lang;
+      document.querySelectorAll('.lang a')
+        .forEach(a => a.setAttribute('aria-current', a.dataset.lang === lang ? 'true' : 'false'));
+
+      let data = { ...defaults };
+      let loaded = false;
+
+      // 1) content.[lang].json (recommended)
+      try { data = { ...data, ...(await loadJSON(`./content.${lang}.json`)) }; loaded = true; } catch {}
+      // 2) content.json (optional, shared)
+      try { data = { ...data, ...(await loadJSON('./content.json')) }; loaded = true || loaded; } catch {}
+
+      if (!loaded) {
+        // No content loaded → show a friendly notice and still render empty sections
+        showError(lang === 'es'
+          ? 'No se pudo cargar el contenido. Verifica content.es.json o content.json.'
+          : 'Could not load content. Please check content.en.json or content.json.'
+        );
+      }
+
+      render(data, lang);
+    }
+
+    // Language toggle: persist in localStorage and URL (?lang=)
+    document.querySelectorAll('.lang a').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const lang = a.dataset.lang;
+        localStorage.setItem('lang', lang);
+        const url = new URL(location.href);
+        url.searchParams.set('lang', lang);
+        history.replaceState({}, '', url);
+        boot();
+      });
+    });
+
+    // Go!
+    document.getElementById('year').textContent = new Date().getFullYear();
+    boot();
+  </script>
+</body>
+</html>
