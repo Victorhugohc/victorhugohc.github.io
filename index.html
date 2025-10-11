@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Victor Hernandez — Portfolio</title>
-  <meta name="description" content="Ultra-minimal one-column, monospace portfolio. Bilingual (EN/ES) via JSON. No hardcoded content." />
+  <title>Víctor Hernández</title>
+  <meta name="description" content="Online resume." />
   <link rel="canonical" href="https://victorhugohc.com/" />
   <style>
     :root{
@@ -46,10 +46,10 @@
   </style>
 </head>
 <body>
-  <!-- Header: non-clickable brand + language toggle -->
+  <!-- HEADER -->
   <header>
     <div class="head">
-      <div class="brand" id="brand">Victor Hernandez</div>
+      <div class="brand" id="brand">Víctor Hernández</div>
       <nav class="lang" aria-label="Language">
         <a href="#" data-lang="en" aria-current="true">EN</a>
         <a href="#" data-lang="es">ES</a>
@@ -70,19 +70,13 @@
       </p>
     </section>
 
-    <!-- PROJECTS -->
-    <section id="projects-section" class="block hidden">
-      <h2 id="projects-title"></h2>
-      <div class="list" id="projects"></div>
-    </section>
-
     <!-- EXPERIENCE -->
     <section id="experience-section" class="block hidden">
       <h2 id="experience-title"></h2>
       <div class="list" id="experience"></div>
     </section>
 
-    <!-- EDUCATION (no “View work” link by design) -->
+    <!-- EDUCATION -->
     <section id="education-section" class="block hidden">
       <h2 id="education-title"></h2>
       <div class="list" id="education"></div>
@@ -94,7 +88,13 @@
       <div class="list" id="courses"></div>
     </section>
 
-    <p class="meta foot">© <span id="year"></span> Victor Hernandez — One column · Monospace · Single scroll</p>
+        <!-- PROJECTS -->
+    <section id="projects-section" class="block hidden">
+      <h2 id="projects-title"></h2>
+      <div class="list" id="projects"></div>
+    </section>
+
+    <p class="meta foot">© <span id="year"></span> Víctor Hernández — Resume</p>
   </main>
 
   <script>
@@ -152,9 +152,9 @@
       if (h.title)    { document.title = h.title; $('title').textContent = h.title; } else { $('title').textContent=''; }
       if (h.subtitle) $('subtitle').textContent = h.subtitle; else $('subtitle').textContent = '';
       if (h.about)    $('about').textContent    = h.about;    else $('about').textContent = '';
-      if (h.linkedin) $('linkedin').href        = h.linkedin; // target _blank set in HTML
+      if (h.linkedin) $('linkedin').href        = h.linkedin;
 
-      // Projects (status line; App Store same tab)
+      // Projects 
       const pw = $('projects'); pw.innerHTML = '';
       (data.projects || []).forEach(p => {
         const box = el('div');
@@ -184,7 +184,7 @@
         ex.appendChild(d);
       });
 
-      // Education (no “View work” link)
+      // Education
       const ed = $('education'); ed.innerHTML = '';
       (data.education || []).forEach(x => {
         const d = el('div');

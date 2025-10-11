@@ -1,68 +1,97 @@
 {
-  "brand": "Victor Hernandez",
+  "brand": "Víctor Hernández",
   "show": { "profile": 1, "experience": 1, "education": 1, "courses": 1, "projects": 1 },
 
   "hero": {
-    "title": "Victor Hernandez — Portfolio",
-    "subtitle": "Guadalajara · Renewable Energy · iOS/SwiftUI · Food Science",
-    "about": "I build simple, useful products. With a background in science and project management, I now prototype iOS apps with SwiftUI and analyze data with lightweight dashboards. I value clarity, focus, and steady progress.",
+    "title": "Víctor Hernández - Currículum",
+    "subtitle": "Guadalajara · Ventas Internas · Automatización Industrial",
+    "about": "Profesional en ventas internas y soporte técnico, con experiencia en la gestión de cotizaciones, órdenes de compra y atención a clientes en entornos industriales. Valoro la comunicación clara, la resolución de problemas y el trabajo en equipo para asegurar operaciones eficientes y un servicio confiable.",
     "linkedin": "https://www.linkedin.com/in/victorhugohc"
   },
 
   "experience": [
     {
-      "role": "Inside Sales · Rockwell Automation Distributor",
-      "meta": "2023—Present · Guadalajara",
-      "desc": "Technical–commercial support, quotation follow-up, and coordination with engineering to deliver practical automation solutions."
+      "role": "Ventas Internas · ABSA (Distribuidor Rockwell Automation)",
+      "meta": "Ene 2025 — Presente · Guadalajara",
+      "desc": "Especialista en ventas internas con formación técnica y enfoque al cliente. Experiencia en cotizaciones, coordinación y soporte industrial."
+    },
+    {
+      "role": "Cotizador de Proyectos · Panel One Custom",
+      "meta": "Dic 2022 — Ene 2025 · Guadalajara",
+      "desc": "Brindé soporte técnico y administrativo en la cotización y documentación de tableros eléctricos. Experiencia en revisión de planos, elaboración de listas de materiales y coordinación con ingeniería."
+    },
+    {
+      "role": "Ingeniero Residente Auxiliar · GRUCO Instalaciones Eléctricas",
+      "meta": "Jun 2022 — Dic 2022 · Guadalajara",
+      "desc": "Apoyé en la etapa final de un proyecto eléctrico, asegurando la precisión de planos 'as-built' y documentación técnica. Colaboré con equipos en campo para verificar planos y cumplimiento de requerimientos del cliente."
     }
   ],
 
   "education": [
     {
-      "school": "Universidad XYZ",
-      "degree": "M.Sc. in Renewable Energy",
-      "meta": "Project Management (2023—2025)",
-      "desc": "Capstone on PV plant sizing at Lake Chapala, with technical and financial constraints.",
-      "link": "msc-summary.html",
-      "linkLabel": "View work"
+      "school": "VIU – Universidad Internacional de Valencia",
+      "degree": "Maestría en Energías Renovables",
+      "meta": "Oct 2024 — Oct 2025 · Gestión de Proyectos",
+      "desc": "Formación enfocada en tecnologías limpias, eficiencia energética y gestión de proyectos en el ámbito de la transición energética. Proyecto final sobre dimensionamiento de planta fotovoltaica en el Lago de Chapala."
     },
     {
-      "school": "Engineering (related field)",
-      "degree": "B.Eng.",
-      "meta": "—",
-      "desc": "Projects in 3D modelling and process optimization."
+      "school": "Universidad de Guadalajara",
+      "degree": "Ingeniería Mecánica Eléctrica",
+      "meta": "Ene 2017 — Dic 2021",
+      "desc": "Carrera centrada en el análisis, diseño y operación de sistemas eléctricos y mecánicos, con énfasis en eficiencia energética y automatización industrial."
     }
   ],
 
   "courses": [
     {
-      "title": "Sales Diploma",
-      "meta": "Diploma · Commercial / Inside Sales",
-      "desc": "Consultative selling, funnel/CRM hygiene, and negotiation basics."
+      "title": "Certificado en Ventas",
+      "meta": "Universidad Tecmilenio · Jun 2024",
+      "desc": "Enfocado en fundamentos de ventas, comunicación con el cliente y técnicas consultivas para fortalecer las relaciones comerciales y el desempeño en ventas."
+    },
+    {
+      "title": "ITD School México",
+      "meta": "Rockwell Automation · Abr 2024",
+      "desc": "Programa de capacitación en conocimiento de productos Rockwell, sistemas de automatización y fundamentos de aplicación en entornos industriales."
+    },
+    {
+      "title": "UL Knowledge Solutions",
+      "meta": "UL Solutions · Mar 2024",
+      "desc": "Introducción a las normas UL y requisitos de seguridad para equipos eléctricos y electrónicos en aplicaciones industriales."
+    },
+    {
+      "title": "ConnectABB",
+      "meta": "ABB · Ago 2023",
+      "desc": "Certificación sobre soluciones, componentes y sistemas de control de automatización industrial de ABB."
     }
   ],
 
-    "projects": [
+  "projects": [
     {
       "name": "Pathway (iOS)",
-      "meta": "SwiftUI · Timeline · Multilanguage",
-      "desc": "Personal project manager with sections for Active, Ideas, Completed, and Archived plus a clean Timeline view.",
+      "meta": "SwiftUI · Línea de tiempo · Multilenguaje",
+      "desc": "Aplicación para registrar proyectos personales y visualizar el progreso a lo largo del año, ayudando a reflexionar sobre logros y metas pendientes. Actualmente en fase de prototipo.",
       "status": {
-        "stages": ["Idea", "Research/Design", "Prototype", "In development", "Shipped"],
-        "current": 2,
-        "store": ""
+        "stages": ["Idea", "Diseño", "Prototipo", "En desarrollo", "Completado"],
+        "current": 2
       }
     },
     {
       "name": "Payroll (iOS)",
-      "meta": "SwiftUI · Statistics · Finance",
-      "desc": "Tracks base salary and commissions with monthly/annual averages and a simple net vs. commissions view.",
+      "meta": "SwiftUI · Finanzas · Ventas",
+      "desc": "Aplicación de nóminas y comisiones para profesionales de ventas. Calcula promedios mensuales y anuales, e incluye un apartado de presupuestos para distribuir ingresos por porcentaje. En fase de diseño.",
       "status": {
-        "stages": ["Idea", "Research/Design", "Prototype", "In development", "Shipped"],
+        "stages": ["Idea", "Diseño", "Prototipo", "En desarrollo", "Completado"],
         "current": 1
       }
+    },
+    {
+      "name": "Videojuego sin título (iOS)",
+      "meta": "SpriteKit · Pixel Art · Tycoon",
+      "desc": "Videojuego móvil tipo 'tycoon' inspirado en Egg Inc y Unpacking, con estética pixel art y jugabilidad sencilla similar a Crossy Road. En fase de idea.",
+      "status": {
+        "stages": ["Idea", "Diseño", "Prototipo", "En desarrollo", "Completado"],
+        "current": 0
+      }
     }
-   
   ]
-
 }

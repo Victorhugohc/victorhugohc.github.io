@@ -1,44 +1,67 @@
 {
-  "brand": "Victor Hernandez",
+  "brand": "Víctor Hernández",
   "show": { "profile": 1, "experience": 1, "education": 1, "courses": 1, "projects": 1 },
 
   "hero": {
-    "title": "Victor Hernandez — Portfolio",
-    "subtitle": "Guadalajara · Renewable Energy · iOS/SwiftUI · Food Science",
-    "about": "I build simple, useful products. With a background in science and project management, I now prototype iOS apps with SwiftUI and analyze data with lightweight dashboards. I value clarity, focus, and steady progress.",
+    "title": "Víctor Hernández - Resume",
+    "subtitle": "Guadalajara · Inside Sales · Industrial Automation",
+    "about": "Professional in inside sales and technical support with experience managing quotes, purchase orders, and customer requests in industrial environments. I value clear communication, problem-solving, and teamwork to ensure efficient operations and reliable service.",
     "linkedin": "https://www.linkedin.com/in/victorhugohc"
   },
 
   "experience": [
     {
-      "role": "Inside Sales · Rockwell Automation Distributor",
-      "meta": "2023—Present · Guadalajara",
-      "desc": "Technical–commercial support, quotation follow-up, and coordination with engineering to deliver practical automation solutions."
+      "role": "Inside Sales · ABSA (Rockwell Automation Distributor)",
+      "meta": "Jan 2025 — Present · Guadalajara",
+      "desc": "Inside sales specialist with technical background and customer-focused mindset. Skilled in quoting, coordination, and industrial support."
+    },
+    {
+      "role": "Project Quoting · Panel One Custom",
+      "meta": "Dec 2022 — Jan 2025 · Guadalajara",
+      "desc": "Inside sales specialist with technical background and customer-focused mindset. Skilled in quoting, coordination, and industrial support."
+    },
+    {
+      "role": "Assistant Site Engineer · GRUCO Electrical Installations",
+      "meta": "Jun 2022 — Dec 2022 · Guadalajara",
+      "desc": "Supported the final stage of an electrical project, ensuring as-built accuracy and technical documentation. Collaborated with field teams to verify plans and compliance with client requirements."
     }
   ],
 
   "education": [
     {
-      "school": "Universidad XYZ",
+      "school": "VIU – International University of Valencia",
       "degree": "M.Sc. in Renewable Energy",
-      "meta": "Project Management (2023—2025)",
-      "desc": "Capstone on PV plant sizing at Lake Chapala, with technical and financial constraints.",
-      "link": "msc-summary.html",
-      "linkLabel": "View work"
+      "meta": "Oct 2024 — Oct 2025 · Project Management",
+      "desc": "Focused on clean technologies, energy efficiency, and project management for the energy transition. Master's project on PV plant sizing at Lake Chapala."
     },
     {
-      "school": "Engineering (related field)",
-      "degree": "B.Eng.",
-      "meta": "—",
-      "desc": "Projects in 3D modelling and process optimization."
+      "school": "University of Guadalajara",
+      "degree": "B.Eng. in Mechanical Electrical Engineering",
+      "meta": "Jan 2017 — Dec 2021",
+      "desc": "Engineering degree focused on analysis, design, and operation of electrical and mechanical systems with emphasis on energy efficiency and industrial automation."
     }
   ],
 
   "courses": [
     {
-      "title": "Sales Diploma",
-      "meta": "Diploma · Commercial / Inside Sales",
-      "desc": "Consultative selling, funnel/CRM hygiene, and negotiation basics."
+      "title": "Sales Certificate",
+      "meta": "Universidad Tecmilenio · Jun 2024",
+      "desc": "Focused on sales fundamentals, customer communication, and consultative techniques to enhance client engagement and performance."
+    },
+    {
+      "title": "ITD School México",
+      "meta": "Rockwell Automation · Apr 2024",
+      "desc": "Training program covering Rockwell product knowledge, automation systems, and application fundamentals for industrial environments."
+    },
+    {
+      "title": "UL Knowledge Solutions",
+      "meta": "UL Solutions · Mar 2024",
+      "desc": "Introduction to UL standards and safety requirements for electrical and electronic equipment in industrial applications."
+    },
+    {
+      "title": "ConnectABB",
+      "meta": "ABB · Aug 2023",
+      "desc": "Product certification focused on ABB industrial automation solutions, components, and control systems."
     }
   ],
 
@@ -46,23 +69,29 @@
     {
       "name": "Pathway (iOS)",
       "meta": "SwiftUI · Timeline · Multilanguage",
-      "desc": "Personal project manager with sections for Active, Ideas, Completed, and Archived plus a clean Timeline view.",
+      "desc": "App to track personal projects and visualize progress through a yearly timeline — helping users reflect on achievements and ongoing goals. Currently in prototype phase.",
       "status": {
-        "stages": ["Idea", "Research/Design", "Prototype", "In development", "Shipped"],
-        "current": 2,
-        "store": ""
+        "stages": ["Idea", "Design", "Prototype", "In development", "Completed"],
+        "current": 2
       }
     },
     {
       "name": "Payroll (iOS)",
-      "meta": "SwiftUI · Statistics · Finance",
-      "desc": "Tracks base salary and commissions with monthly/annual averages and a simple net vs. commissions view.",
+      "meta": "SwiftUI · Finance · Sales",
+      "desc": "Payroll and commission tracker designed for sales professionals. Calculates monthly and yearly averages, with a budgeting section to allocate income by percentage. In design phase.",
       "status": {
-        "stages": ["Idea", "Research/Design", "Prototype", "In development", "Shipped"],
+        "stages": ["Idea", "Design", "Prototype", "In development", "Completed"],
         "current": 1
       }
+    },
+    {
+      "name": "Unnamed Game (iOS)",
+      "meta": "SpriteKit · Pixel Art · Tycoon",
+      "desc": "Mobile tycoon-style game inspired by Egg Inc and Unpacking, featuring pixel-art aesthetics and simple gameplay mechanics similar to Crossy Road. Concept stage.",
+      "status": {
+        "stages": ["Idea", "Design", "Prototype", "In development", "Completed"],
+        "current": 0
+      }
     }
-    
   ]
-
 }
