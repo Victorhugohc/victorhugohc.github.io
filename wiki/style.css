@@ -1,0 +1,273 @@
+:root{
+
+--bg:#ffffff;
+--text:#111;
+--border:#e5e5e5;
+--hover:#f3f3f3;
+--sidebar:#fafafa;
+
+--input-bg:#ffffff;
+--button-bg:#ffffff;
+
+}
+
+body.dark{
+
+--bg:#0f1115;
+--text:#e6e6e6;
+--border:#2a2a2a;
+--hover:#1a1d22;
+--sidebar:#14171c;
+
+--input-bg:#1a1d22;
+--button-bg:#1a1d22;
+
+}
+
+*{
+box-sizing:border-box;
+}
+
+body{
+
+margin:0;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto;
+background:var(--bg);
+color:var(--text);
+
+}
+
+/* HEADER */
+
+.header{
+
+display:flex;
+align-items:center;
+gap:16px;
+
+height:56px;
+padding:0 16px;
+
+border-bottom:1px solid var(--border);
+background:var(--bg);
+
+}
+
+.logo{
+font-weight:600;
+white-space:nowrap;
+}
+
+/* SEARCH */
+
+.search{
+
+flex:1;
+max-width:420px;
+
+padding:8px 10px;
+
+border:1px solid var(--border);
+border-radius:6px;
+
+background:var(--input-bg);
+color:var(--text);
+
+}
+
+.search::placeholder{
+color:#888;
+}
+
+/* BUTTONS */
+
+.header-actions{
+
+display:flex;
+align-items:center;
+gap:8px;
+
+}
+
+.icon-btn{
+
+border:none;
+background:none;
+cursor:pointer;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+color:var(--text);
+
+}
+
+.lang-btn{
+
+border:1px solid var(--border);
+
+padding:6px 10px;
+
+border-radius:6px;
+
+background:var(--button-bg);
+color:var(--text);
+
+cursor:pointer;
+
+}
+
+/* LAYOUT */
+
+.layout{
+
+display:flex;
+min-height:calc(100vh - 56px);
+
+}
+
+/* SIDEBAR */
+
+.sidebar{
+
+width:260px;
+flex-shrink:0;
+
+border-right:1px solid var(--border);
+
+background:var(--sidebar);
+
+overflow-y:auto;
+
+padding:12px;
+
+transition:left .25s;
+
+}
+
+/* CONTENT */
+
+.content{
+
+flex:1;
+
+padding:40px;
+
+max-width:900px;
+width:100%;
+
+margin:0 auto;
+
+}
+
+/* NAVIGATION TREE */
+
+.nav-tree{
+list-style:none;
+margin:0;
+padding:0;
+}
+
+.nav-tree ul{
+
+list-style:none;
+
+margin:6px 0 6px 14px;
+padding-left:12px;
+
+border-left:1px solid var(--border);
+
+}
+
+.nav-item{
+
+display:block;
+width:100%;
+
+text-align:left;
+
+background:none;
+border:none;
+
+padding:6px 8px;
+
+border-radius:6px;
+
+cursor:pointer;
+
+font-size:14px;
+
+color:var(--text);
+
+}
+
+.nav-item:hover{
+
+background:var(--hover);
+
+}
+
+/* FOLDERS */
+
+.folder>ul{
+display:none;
+}
+
+.folder.open>ul{
+display:block;
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+.header{
+flex-wrap:wrap;
+height:auto;
+padding:8px 12px;
+}
+
+.search{
+
+order:3;
+width:100%;
+max-width:none;
+
+margin-top:6px;
+
+}
+
+.sidebar{
+
+position:fixed;
+top:56px;
+left:-260px;
+
+height:calc(100vh - 56px);
+
+}
+
+.sidebar.open{
+left:0;
+}
+
+.content{
+padding:20px;
+}
+
+}
+
+/* ocultar botón en desktop */
+#menu-toggle{
+display:none;
+}
+
+/* mostrarlo solo en mobile */
+@media (max-width:900px){
+
+#menu-toggle{
+display:flex;
+}
+
+}

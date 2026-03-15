@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Automation Handbook</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+</head>
+
+<body>
+
+<header class="header">
+
+<button id="menu-toggle" class="icon-btn">
+<span class="material-icons">menu</span>
+</button>
+
+<div class="logo">
+Automation Handbook
+</div>
+
+<input class="search" placeholder="Search documentation...">
+
+<div class="header-actions">
+
+<button id="lang-toggle" class="lang-btn">
+EN
+</button>
+
+<button id="theme-toggle" class="icon-btn">
+<span class="material-icons">dark_mode</span>
+</button>
+
+</div>
+
+</header>
+
+
+<div class="layout">
+
+<nav id="sidebar" class="sidebar">
+
+<ul class="nav-tree">
+
+<li><button class="nav-item page" data-page="home.md">Home</button></li>
+<li><button class="nav-item page" data-page="donations.md">Donations</button></li>
+<li><button class="nav-item page" data-page="become-a-partner.md">Become a Partner</button></li>
+<li><button class="nav-item page" data-page="contribute.md">Contribute</button></li>
+
+
+<li class="folder">
+
+<div class="nav-item folder-title">Getting Started</div>
+
+<ul>
+
+<li><button class="nav-item page" data-page="getting-started/what-is-this.md">What is this handbook</button></li>
+<li><button class="nav-item page" data-page="getting-started/how-to-use.md">How to use the handbook</button></li>
+<li><button class="nav-item page" data-page="getting-started/who-is-it-for.md">Who is it for</button></li>
+
+</ul>
+
+</li>
+
+
+<li class="folder">
+
+<div class="nav-item folder-title">Electrical Fundamentals</div>
+
+<ul>
+
+<li><button class="nav-item page" data-page="electrical-fundamentals/voltage.md">Voltage</button></li>
+<li><button class="nav-item page" data-page="electrical-fundamentals/current.md">Current</button></li>
+<li><button class="nav-item page" data-page="electrical-fundamentals/resistance.md">Resistance</button></li>
+<li><button class="nav-item page" data-page="electrical-fundamentals/ohms-law.md">Ohm's Law</button></li>
+<li><button class="nav-item page" data-page="electrical-fundamentals/ac-vs-dc.md">AC vs DC</button></li>
+<li><button class="nav-item page" data-page="electrical-fundamentals/power.md">Power</button></li>
+
+</ul>
+
+</li>
+
+
+<li class="folder">
+
+<div class="nav-item folder-title">Industrial Control</div>
+
+<ul>
+
+<li class="folder">
+
+<div class="nav-item folder-title">PLC</div>
+
+<ul>
+
+<li><button class="nav-item page" data-page="industrial-control/plc/what-is-a-plc.md">What is a PLC</button></li>
+<li><button class="nav-item page" data-page="industrial-control/plc/plc-architecture.md">PLC Architecture</button></li>
+<li><button class="nav-item page" data-page="industrial-control/plc/scan-cycle.md">PLC Scan Cycle</button></li>
+<li><button class="nav-item page" data-page="industrial-control/plc/io.md">Inputs and Outputs</button></li>
+<li><button class="nav-item page" data-page="industrial-control/plc/languages.md">PLC Programming Languages</button></li>
+
+</ul>
+
+</li>
+
+<li class="folder">
+
+<div class="nav-item folder-title">HMI</div>
+
+<ul>
+
+<li><button class="nav-item page" data-page="industrial-control/hmi/what-is-an-hmi.md">What is an HMI</button></li>
+<li><button class="nav-item page" data-page="industrial-control/hmi/hmi-architecture.md">HMI Architecture</button></li>
+
+</ul>
+
+</li>
+
+
+<li class="folder">
+
+<div class="nav-item folder-title">SCADA</div>
+
+<ul>
+
+<li><button class="nav-item page" data-page="industrial-control/scada/what-is-scada.md">What is SCADA</button></li>
+<li><button class="nav-item page" data-page="industrial-control/scada/components.md">SCADA Components</button></li>
+<li><button class="nav-item page" data-page="industrial-control/scada/applications.md">SCADA Applications</button></li>
+
+</ul>
+
+</li>
+
+</ul>
+
+</li>
+
+</ul>
+
+</nav>
+
+<main id="content" class="content">
+Loading...
+</main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
