@@ -7,8 +7,8 @@ import { sidebarES } from './sidebar.es.ts'
 import { searchConfig } from './search.ts'
 
 export default defineConfig({
-  base: '/wiki-dev/',
-  outDir: '../../../wiki/wiki-dev',
+  base: '/wiki/',
+  outDir: '../../wiki/',
 
   themeConfig: {
     search: searchConfig

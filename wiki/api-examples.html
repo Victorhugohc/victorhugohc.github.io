@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Runtime API Examples | Industrial Systems Handbook</title>
+    <meta name="description" content="Technical documentation for industrial systems.">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/wiki/assets/style.Br27QhT8.css" as="style">
+    <link rel="preload stylesheet" href="/wiki/vp-icons.css" as="style">
+    
+    <script type="module" src="/wiki/assets/app.BaSEpbIF.js"></script>
+    <link rel="preload" href="/wiki/assets/inter-roman-latin.Di8DUHzh.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="modulepreload" href="/wiki/assets/chunks/theme.B5Ocfp0u.js">
+    <link rel="modulepreload" href="/wiki/assets/chunks/framework.ByAj6Cie.js">
+    <link rel="modulepreload" href="/wiki/assets/api-examples.md.BMlveDd7.lean.js">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+  </head>
+  <body>
+    <div id="app"><div class="Layout" data-v-5d98c3a5><!--[--><!--]--><!--[--><span tabindex="-1" data-v-0b0ada53></span><a href="#VPContent" class="VPSkipLink visually-hidden" data-v-0b0ada53>Skip to content</a><!--]--><!----><header class="VPNav" data-v-5d98c3a5 data-v-ae24b3ad><div class="VPNavBar" data-v-ae24b3ad data-v-6aa21345><div class="wrapper" data-v-6aa21345><div class="container" data-v-6aa21345><div class="title" data-v-6aa21345><div class="VPNavBarTitle has-sidebar" data-v-6aa21345 data-v-1168a8e4><a class="title" href="/wiki/" data-v-1168a8e4><!--[--><!--]--><!----><span data-v-1168a8e4>Industrial Systems Handbook</span><!--[--><!--]--></a></div></div><div class="content" data-v-6aa21345><div class="content-body" data-v-6aa21345><!--[--><!--]--><div class="VPNavBarSearch search" data-v-6aa21345><!--[--><!----><div id="local-search"><button type="button" class="DocSearch DocSearch-Button" aria-label="Search"><span class="DocSearch-Button-Container"><span class="vp-icon DocSearch-Search-Icon"></span><span class="DocSearch-Button-Placeholder">Search</span></span><span class="DocSearch-Button-Keys"><kbd class="DocSearch-Button-Key"></kbd><kbd class="DocSearch-Button-Key">K</kbd></span></button></div><!--]--></div><nav aria-labelledby="main-nav-aria-label" class="VPNavBarMenu menu" data-v-6aa21345 data-v-dc692963><span id="main-nav-aria-label" class="visually-hidden" data-v-dc692963> Main Navigation </span><!--[--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/wiki/" tabindex="0" data-v-dc692963 data-v-e56f3d57><!--[--><span data-v-e56f3d57>Home</span><!--]--></a><!--]--><!--[--><a class="VPLink link vp-external-link-icon VPNavBarMenuLink" href="https://github.com/" target="_blank" rel="noreferrer" tabindex="0" data-v-dc692963 data-v-e56f3d57><!--[--><span data-v-e56f3d57>GitHub</span><!--]--></a><!--]--><!--]--></nav><div class="VPFlyout VPNavBarTranslations translations" data-v-6aa21345 data-v-88af2de4 data-v-cf11d7a2><button type="button" class="button" aria-haspopup="true" aria-expanded="false" aria-label="Change language" data-v-cf11d7a2><span class="text" data-v-cf11d7a2><span class="vpi-languages option-icon" data-v-cf11d7a2></span><!----><span class="vpi-chevron-down text-icon" data-v-cf11d7a2></span></span></button><div class="menu" data-v-cf11d7a2><div class="VPMenu" data-v-cf11d7a2 data-v-b98bc113><!----><!--[--><!--[--><div class="items" data-v-88af2de4><p class="title" data-v-88af2de4>English</p><!--[--><div class="VPMenuLink" data-v-88af2de4 data-v-35975db6><a class="VPLink link" href="/wiki/es/api-examples.html" data-v-35975db6><!--[--><span data-v-35975db6>Español</span><!--]--></a></div><!--]--></div><!--]--><!--]--></div></div></div><div class="VPNavBarAppearance appearance" data-v-6aa21345 data-v-6c893767><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title aria-checked="false" data-v-6c893767 data-v-5337faa4 data-v-1d5665e3><span class="check" data-v-1d5665e3><span class="icon" data-v-1d5665e3><!--[--><span class="vpi-sun sun" data-v-5337faa4></span><span class="vpi-moon moon" data-v-5337faa4></span><!--]--></span></span></button></div><!----><div class="VPFlyout VPNavBarExtra extra" data-v-6aa21345 data-v-bb2aa2f0 data-v-cf11d7a2><button type="button" class="button" aria-haspopup="true" aria-expanded="false" aria-label="extra navigation" data-v-cf11d7a2><span class="vpi-more-horizontal icon" data-v-cf11d7a2></span></button><div class="menu" data-v-cf11d7a2><div class="VPMenu" data-v-cf11d7a2 data-v-b98bc113><!----><!--[--><!--[--><div class="group translations" data-v-bb2aa2f0><p class="trans-title" data-v-bb2aa2f0>English</p><!--[--><div class="VPMenuLink" data-v-bb2aa2f0 data-v-35975db6><a class="VPLink link" href="/wiki/es/api-examples.html" data-v-35975db6><!--[--><span data-v-35975db6>Español</span><!--]--></a></div><!--]--></div><div class="group" data-v-bb2aa2f0><div class="item appearance" data-v-bb2aa2f0><p class="label" data-v-bb2aa2f0>Appearance</p><div class="appearance-action" data-v-bb2aa2f0><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title aria-checked="false" data-v-bb2aa2f0 data-v-5337faa4 data-v-1d5665e3><span class="check" data-v-1d5665e3><span class="icon" data-v-1d5665e3><!--[--><span class="vpi-sun sun" data-v-5337faa4></span><span class="vpi-moon moon" data-v-5337faa4></span><!--]--></span></span></button></div></div></div><!----><!--]--><!--]--></div></div></div><!--[--><!--]--><button type="button" class="VPNavBarHamburger hamburger" aria-label="mobile navigation" aria-expanded="false" aria-controls="VPNavScreen" data-v-6aa21345 data-v-e5dd9c1c><span class="container" data-v-e5dd9c1c><span class="top" data-v-e5dd9c1c></span><span class="middle" data-v-e5dd9c1c></span><span class="bottom" data-v-e5dd9c1c></span></span></button></div></div></div></div><div class="divider" data-v-6aa21345><div class="divider-line" data-v-6aa21345></div></div></div><!----></header><div class="VPLocalNav has-sidebar empty" data-v-5d98c3a5 data-v-a6f0e41e><div class="container" data-v-a6f0e41e><button class="menu" aria-expanded="false" aria-controls="VPSidebarNav" data-v-a6f0e41e><span class="vpi-align-left menu-icon" data-v-a6f0e41e></span><span class="menu-text" data-v-a6f0e41e>Menu</span></button><div class="VPLocalNavOutlineDropdown" style="--vp-vh:0px;" data-v-a6f0e41e data-v-8a42e2b4><button data-v-8a42e2b4>Return to top</button><!----></div></div></div><aside class="VPSidebar" data-v-5d98c3a5 data-v-319d5ca6><div class="curtain" data-v-319d5ca6></div><nav class="nav" id="VPSidebarNav" aria-labelledby="sidebar-aria-label" tabindex="-1" data-v-319d5ca6><span class="visually-hidden" id="sidebar-aria-label" data-v-319d5ca6> Sidebar Navigation </span><!--[--><!--]--><!--[--><div class="no-transition group" data-v-c40bc020><section class="VPSidebarItem level-0 collapsible" data-v-c40bc020 data-v-b3fd67f8><div class="item" role="button" tabindex="0" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><h2 class="text" data-v-b3fd67f8>Home</h2><div class="caret" role="button" aria-label="toggle section" tabindex="0" data-v-b3fd67f8><span class="vpi-chevron-right caret-icon" data-v-b3fd67f8></span></div></div><div class="items" data-v-b3fd67f8><!--[--><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/home/overview.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Overview</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/home/project-goals.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Project Goals</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/home/donations.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Donations</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/home/become-a-partner.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Become a Partner</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/home/how-to-contribute.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>How to Contribute</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><div class="no-transition group" data-v-c40bc020><section class="VPSidebarItem level-0 collapsible" data-v-c40bc020 data-v-b3fd67f8><div class="item" role="button" tabindex="0" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><h2 class="text" data-v-b3fd67f8>Getting Started</h2><div class="caret" role="button" aria-label="toggle section" tabindex="0" data-v-b3fd67f8><span class="vpi-chevron-right caret-icon" data-v-b3fd67f8></span></div></div><div class="items" data-v-b3fd67f8><!--[--><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/getting-started/what-is-this-handbook.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>What is the Handbook</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/getting-started/how-to-use-this-handbook.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>How to Use This Handbook</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/getting-started/who-this-is-for.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Who This Is For</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/getting-started/how-to-navigate-the-handbook.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>How to Navigate the Handbook</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><div class="no-transition group" data-v-c40bc020><section class="VPSidebarItem level-0 collapsible collapsed" data-v-c40bc020 data-v-b3fd67f8><div class="item" role="button" tabindex="0" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><h2 class="text" data-v-b3fd67f8>Electrical Fundamentals</h2><div class="caret" role="button" aria-label="toggle section" tabindex="0" data-v-b3fd67f8><span class="vpi-chevron-right caret-icon" data-v-b3fd67f8></span></div></div><div class="items" data-v-b3fd67f8><!--[--><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electrical-fundamentals/voltage.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Voltage</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electrical-fundamentals/current.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Current</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electrical-fundamentals/resistance.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Resistance</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electrical-fundamentals/ohms-law.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Ohm's Law</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electrical-fundamentals/electric-power.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Electric Power</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electrical-fundamentals/ac-vs-dc.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>AC vs DC</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electrical-fundamentals/single-phase-systems.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Single Phase Systems</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electrical-fundamentals/three-phase-systems.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Three Phase Systems</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electrical-fundamentals/power-factor.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Power Factor</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electrical-fundamentals/grounding.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Grounding</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electrical-fundamentals/electrical-noise.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Electrical Noise</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><div class="no-transition group" data-v-c40bc020><section class="VPSidebarItem level-0 collapsible collapsed" data-v-c40bc020 data-v-b3fd67f8><div class="item" role="button" tabindex="0" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><h2 class="text" data-v-b3fd67f8>Power Quality</h2><div class="caret" role="button" aria-label="toggle section" tabindex="0" data-v-b3fd67f8><span class="vpi-chevron-right caret-icon" data-v-b3fd67f8></span></div></div><div class="items" data-v-b3fd67f8><!--[--><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/power-quality/what-is-power-quality.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>What is Power Quality</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/power-quality/voltage-sags.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Voltage Sags</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/power-quality/voltage-swells.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Voltage Swells</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/power-quality/harmonics.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Harmonics</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/power-quality/total-harmonic-distortion.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Total Harmonic Distortion</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/power-quality/power-factor-correction.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Power Factor Correction</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/power-quality/flicker.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Flicker</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/power-quality/transients-and-surges.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Transients and Surges</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/power-quality/power-quality-monitoring.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Power Quality Monitoring</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><div class="no-transition group" data-v-c40bc020><section class="VPSidebarItem level-0 collapsible collapsed" data-v-c40bc020 data-v-b3fd67f8><div class="item" role="button" tabindex="0" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><h2 class="text" data-v-b3fd67f8>Power Distribution</h2><div class="caret" role="button" aria-label="toggle section" tabindex="0" data-v-b3fd67f8><span class="vpi-chevron-right caret-icon" data-v-b3fd67f8></span></div></div><div class="items" data-v-b3fd67f8><!--[--><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/power-distribution/electrical-distribution-systems.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Electrical Distribution Systems</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/power-distribution/low-voltage-distribution.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Low Voltage Distribution</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/power-distribution/medium-voltage-distribution.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Medium Voltage Distribution</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/power-distribution/main-distribution-panels.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Main Distribution Panels</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/power-distribution/sub-distribution-panels.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Sub Distribution Panels</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/power-distribution/switchgear.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Switchgear</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/power-distribution/switchboards.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Switchboards</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/power-distribution/busbars.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Busbars</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/power-distribution/transformers.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Transformers</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/power-distribution/grounding-systems.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Grounding Systems</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><div class="no-transition group" data-v-c40bc020><section class="VPSidebarItem level-0 collapsible collapsed" data-v-c40bc020 data-v-b3fd67f8><div class="item" role="button" tabindex="0" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><h2 class="text" data-v-b3fd67f8>Electric Motors</h2><div class="caret" role="button" aria-label="toggle section" tabindex="0" data-v-b3fd67f8><span class="vpi-chevron-right caret-icon" data-v-b3fd67f8></span></div></div><div class="items" data-v-b3fd67f8><!--[--><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electric-motors/motor-fundamentals.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Motor Fundamentals</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electric-motors/ac-motors.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>AC Motors</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electric-motors/dc-motors.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>DC Motors</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electric-motors/induction-motors.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Induction Motors</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electric-motors/synchronous-motors.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Synchronous Motors</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electric-motors/servo-motors.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Servo Motors</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electric-motors/stepper-motors.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Stepper Motors</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electric-motors/motor-nameplates.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Motor Nameplates</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electric-motors/motor-efficiency.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Motor Efficiency</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electric-motors/motor-cooling.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Motor Cooling</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electric-motors/motor-protection.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Motor Protection</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><div class="no-transition group" data-v-c40bc020><section class="VPSidebarItem level-0 collapsible collapsed" data-v-c40bc020 data-v-b3fd67f8><div class="item" role="button" tabindex="0" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><h2 class="text" data-v-b3fd67f8>Motor Control</h2><div class="caret" role="button" aria-label="toggle section" tabindex="0" data-v-b3fd67f8><span class="vpi-chevron-right caret-icon" data-v-b3fd67f8></span></div></div><div class="items" data-v-b3fd67f8><!--[--><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/motor-control/motor-control-centers.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Motor Control Centers</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/motor-control/mcc-architecture.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>MCC Architecture</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/motor-control/mcc-buckets.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>MCC Buckets</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/motor-control/motor-starters.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Motor Starters</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/motor-control/direct-on-line-starters.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Direct On Line Starters</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/motor-control/star-delta-starters.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Star Delta Starters</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/motor-control/soft-starters.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Soft Starters</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/motor-control/variable-frequency-drives.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Variable Frequency Drives</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><div class="no-transition group" data-v-c40bc020><section class="VPSidebarItem level-0 collapsible collapsed" data-v-c40bc020 data-v-b3fd67f8><div class="item" role="button" tabindex="0" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><h2 class="text" data-v-b3fd67f8>Cables and Wiring</h2><div class="caret" role="button" aria-label="toggle section" tabindex="0" data-v-b3fd67f8><span class="vpi-chevron-right caret-icon" data-v-b3fd67f8></span></div></div><div class="items" data-v-b3fd67f8><!--[--><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/cables-and-wiring/electrical-cables-overview.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Electrical Cables Overview</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/cables-and-wiring/conductor-materials.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Conductor Materials</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/cables-and-wiring/cable-types.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Cable Types</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/cables-and-wiring/shielded-cables.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Shielded Cables</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/cables-and-wiring/instrumentation-cables.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Instrumentation Cables</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/cables-and-wiring/power-cables.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Power Cables</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/cables-and-wiring/control-cables.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Control Cables</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/cables-and-wiring/communication-cables.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Communication Cables</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/cables-and-wiring/cable-sizing.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Cable Sizing</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/cables-and-wiring/voltage-drop.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Voltage Drop</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/cables-and-wiring/current-carrying-capacity.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Current Carrying Capacity</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/cables-and-wiring/cable-routing.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Cable Routing</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/cables-and-wiring/cable-trays.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Cable Trays</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/cables-and-wiring/conduit-systems.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Conduit Systems</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><div class="no-transition group" data-v-c40bc020><section class="VPSidebarItem level-0 collapsible collapsed" data-v-c40bc020 data-v-b3fd67f8><div class="item" role="button" tabindex="0" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><h2 class="text" data-v-b3fd67f8>Industrial Control</h2><div class="caret" role="button" aria-label="toggle section" tabindex="0" data-v-b3fd67f8><span class="vpi-chevron-right caret-icon" data-v-b3fd67f8></span></div></div><div class="items" data-v-b3fd67f8><!--[--><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-control/plc/what-is-a-plc.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>What is a PLC</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-control/plc/plc-architecture.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>PLC Architecture</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-control/plc/plc-scan-cycle.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>PLC Scan Cycle</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-control/plc/plc-cpu.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>PLC CPU</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-control/plc/plc-memory.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>PLC Memory</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-control/plc/plc-io-modules.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>PLC I/O Modules</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-control/plc/inputs-and-outputs.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Inputs and Outputs</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-control/plc/digital-vs-analog-signals.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Digital vs Analog Signals</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-control/plc/ladder-logic.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Ladder Logic</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-control/plc/function-block-diagram.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Function Block Diagram</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-control/plc/structured-text.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Structured Text</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-control/plc/sequential-function-chart.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Sequential Function Chart</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-control/plc/how-to-select-a-plc.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>How to Select a PLC</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-control/hmi/what-is-an-hmi.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>What is an HMI</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-control/hmi/hmi-architecture.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>HMI Architecture</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-control/hmi/hmi-design-principles.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>HMI Design Principles</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-control/hmi/alarm-management.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Alarm Management</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-control/scada/what-is-scada.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>What is SCADA</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-control/scada/scada-architecture.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>SCADA Architecture</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-control/scada/data-historian.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Data Historian</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-control/scada/scada-vs-hmi.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>SCADA vs HMI</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><div class="no-transition group" data-v-c40bc020><section class="VPSidebarItem level-0 collapsible collapsed" data-v-c40bc020 data-v-b3fd67f8><div class="item" role="button" tabindex="0" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><h2 class="text" data-v-b3fd67f8>Industrial Networks</h2><div class="caret" role="button" aria-label="toggle section" tabindex="0" data-v-b3fd67f8><span class="vpi-chevron-right caret-icon" data-v-b3fd67f8></span></div></div><div class="items" data-v-b3fd67f8><!--[--><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-networks/industrial-ethernet.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Industrial Ethernet</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-networks/ethernet-ip.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Ethernet/IP</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-networks/modbus-rtu.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Modbus RTU</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-networks/modbus-tcp.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Modbus TCP</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-networks/profinet.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Profinet</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-networks/profibus.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Profibus</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-networks/can-bus.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>CAN Bus</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-networks/devicenet.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>DeviceNet</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-networks/opc-ua.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>OPC UA</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-networks/industrial-gateways.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Industrial Gateways</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><div class="no-transition group" data-v-c40bc020><section class="VPSidebarItem level-0 collapsible collapsed" data-v-c40bc020 data-v-b3fd67f8><div class="item" role="button" tabindex="0" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><h2 class="text" data-v-b3fd67f8>Sensors</h2><div class="caret" role="button" aria-label="toggle section" tabindex="0" data-v-b3fd67f8><span class="vpi-chevron-right caret-icon" data-v-b3fd67f8></span></div></div><div class="items" data-v-b3fd67f8><!--[--><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/sensors/what-is-a-sensor.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>What is a Sensor</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/sensors/inductive-sensors.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Inductive Sensors</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/sensors/capacitive-sensors.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Capacitive Sensors</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/sensors/photoelectric-sensors.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Photoelectric Sensors</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/sensors/ultrasonic-sensors.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Ultrasonic Sensors</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/sensors/temperature-sensors.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Temperature Sensors</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/sensors/pressure-sensors.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Pressure Sensors</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/sensors/level-sensors.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Level Sensors</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/sensors/encoders.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Encoders</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/sensors/limit-switches.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Limit Switches</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><div class="no-transition group" data-v-c40bc020><section class="VPSidebarItem level-0 collapsible collapsed" data-v-c40bc020 data-v-b3fd67f8><div class="item" role="button" tabindex="0" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><h2 class="text" data-v-b3fd67f8>Actuators</h2><div class="caret" role="button" aria-label="toggle section" tabindex="0" data-v-b3fd67f8><span class="vpi-chevron-right caret-icon" data-v-b3fd67f8></span></div></div><div class="items" data-v-b3fd67f8><!--[--><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/actuators/what-is-an-actuator.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>What is an Actuator</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/actuators/electric-actuators.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Electric Actuators</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/actuators/pneumatic-cylinders.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Pneumatic Cylinders</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/actuators/hydraulic-cylinders.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Hydraulic Cylinders</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/actuators/solenoids.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Solenoids</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/actuators/control-valves.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Control Valves</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><div class="no-transition group" data-v-c40bc020><section class="VPSidebarItem level-0 collapsible collapsed" data-v-c40bc020 data-v-b3fd67f8><div class="item" role="button" tabindex="0" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><h2 class="text" data-v-b3fd67f8>Drives and Motion</h2><div class="caret" role="button" aria-label="toggle section" tabindex="0" data-v-b3fd67f8><span class="vpi-chevron-right caret-icon" data-v-b3fd67f8></span></div></div><div class="items" data-v-b3fd67f8><!--[--><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/drives-and-motion/variable-frequency-drives.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Variable Frequency Drives</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/drives-and-motion/servo-drives.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Servo Drives</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/drives-and-motion/motion-controllers.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Motion Controllers</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/drives-and-motion/speed-control.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Speed Control</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/drives-and-motion/torque-control.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Torque Control</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><div class="no-transition group" data-v-c40bc020><section class="VPSidebarItem level-0 collapsible collapsed" data-v-c40bc020 data-v-b3fd67f8><div class="item" role="button" tabindex="0" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><h2 class="text" data-v-b3fd67f8>Electrical Panels</h2><div class="caret" role="button" aria-label="toggle section" tabindex="0" data-v-b3fd67f8><span class="vpi-chevron-right caret-icon" data-v-b3fd67f8></span></div></div><div class="items" data-v-b3fd67f8><!--[--><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electrical-panels/control-panels.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Control Panels</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electrical-panels/panel-layout.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Panel Layout</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electrical-panels/panel-wiring.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Panel Wiring</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electrical-panels/cable-management.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Cable Management</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electrical-panels/breakers.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Breakers</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electrical-panels/contactors.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Contactors</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electrical-panels/overload-relays.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Overload Relays</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electrical-panels/power-supplies.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Power Supplies</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/electrical-panels/terminal-blocks.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Terminal Blocks</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><div class="no-transition group" data-v-c40bc020><section class="VPSidebarItem level-0 collapsible collapsed" data-v-c40bc020 data-v-b3fd67f8><div class="item" role="button" tabindex="0" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><h2 class="text" data-v-b3fd67f8>Industrial Safety</h2><div class="caret" role="button" aria-label="toggle section" tabindex="0" data-v-b3fd67f8><span class="vpi-chevron-right caret-icon" data-v-b3fd67f8></span></div></div><div class="items" data-v-b3fd67f8><!--[--><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-safety/machine-safety-basics.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Machine Safety Basics</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-safety/risk-assessment.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Risk Assessment</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-safety/safety-categories.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Safety Categories</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-safety/emergency-stop-circuits.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Emergency Stop Circuits</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-safety/safety-relays.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Safety Relays</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-safety/safety-plc.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Safety PLC</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-safety/lockout-tagout.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Lockout Tagout</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><div class="no-transition group" data-v-c40bc020><section class="VPSidebarItem level-0 collapsible collapsed" data-v-c40bc020 data-v-b3fd67f8><div class="item" role="button" tabindex="0" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><h2 class="text" data-v-b3fd67f8>OT and IT</h2><div class="caret" role="button" aria-label="toggle section" tabindex="0" data-v-b3fd67f8><span class="vpi-chevron-right caret-icon" data-v-b3fd67f8></span></div></div><div class="items" data-v-b3fd67f8><!--[--><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/ot-and-it/ot-vs-it.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>OT vs IT</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/ot-and-it/industrial-network-architecture.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Industrial Network Architecture</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/ot-and-it/purdue-model.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Purdue Model</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/ot-and-it/edge-computing.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Edge Computing</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/ot-and-it/industrial-data-collection.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Industrial Data Collection</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/ot-and-it/cloud-integration.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Cloud Integration</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/ot-and-it/industrial-iot.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Industrial IoT</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><div class="no-transition group" data-v-c40bc020><section class="VPSidebarItem level-0 collapsible collapsed" data-v-c40bc020 data-v-b3fd67f8><div class="item" role="button" tabindex="0" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><h2 class="text" data-v-b3fd67f8>Industrial Cybersecurity</h2><div class="caret" role="button" aria-label="toggle section" tabindex="0" data-v-b3fd67f8><span class="vpi-chevron-right caret-icon" data-v-b3fd67f8></span></div></div><div class="items" data-v-b3fd67f8><!--[--><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-cybersecurity/why-industrial-cybersecurity-matters.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Why Industrial Cybersecurity Matters</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-cybersecurity/common-threats-in-ot.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Common Threats in OT</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-cybersecurity/network-segmentation.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Network Segmentation</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-cybersecurity/firewalls-in-industrial-networks.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Firewalls in Industrial Networks</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-cybersecurity/secure-remote-access.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Secure Remote Access</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-cybersecurity/patch-management.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>Patch Management</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-cybersecurity/user-access-control.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>User Access Control</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/industrial-cybersecurity/iec-62443.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>IEC 62443</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><div class="no-transition group" data-v-c40bc020><section class="VPSidebarItem level-0 collapsible collapsed" data-v-c40bc020 data-v-b3fd67f8><div class="item" role="button" tabindex="0" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><h2 class="text" data-v-b3fd67f8>Standards</h2><div class="caret" role="button" aria-label="toggle section" tabindex="0" data-v-b3fd67f8><span class="vpi-chevron-right caret-icon" data-v-b3fd67f8></span></div></div><div class="items" data-v-b3fd67f8><!--[--><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/standards/ul.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>UL</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/standards/iec.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>IEC</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/standards/iso.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>ISO</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/standards/nema.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>NEMA</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b3fd67f8 data-v-b3fd67f8><div class="item" data-v-b3fd67f8><div class="indicator" data-v-b3fd67f8></div><a class="VPLink link link" href="/wiki/standards/nom.html" data-v-b3fd67f8><!--[--><p class="text" data-v-b3fd67f8>NOM</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><!--]--><!--[--><!--]--></nav></aside><div class="VPContent has-sidebar" id="VPContent" data-v-5d98c3a5 data-v-1428d186><div class="VPDoc has-sidebar has-aside" data-v-1428d186 data-v-39a288b8><!--[--><!--]--><div class="container" data-v-39a288b8><div class="aside" data-v-39a288b8><div class="aside-curtain" data-v-39a288b8></div><div class="aside-container" data-v-39a288b8><div class="aside-content" data-v-39a288b8><div class="VPDocAside" data-v-39a288b8 data-v-3f215769><!--[--><!--]--><!--[--><!--]--><nav aria-labelledby="doc-outline-aria-label" class="VPDocAsideOutline" data-v-3f215769 data-v-a5bbad30><div class="content" data-v-a5bbad30><div class="outline-marker" data-v-a5bbad30></div><div aria-level="2" class="outline-title" id="doc-outline-aria-label" role="heading" data-v-a5bbad30>On this page</div><ul class="VPDocOutlineItem root" data-v-a5bbad30 data-v-b933a997><!--[--><!--]--></ul></div></nav><!--[--><!--]--><div class="spacer" data-v-3f215769></div><!--[--><!--]--><!----><!--[--><!--]--><!--[--><!--]--></div></div></div></div><div class="content" data-v-39a288b8><div class="content-container" data-v-39a288b8><!--[--><!--]--><main class="main" data-v-39a288b8><div style="position:relative;" class="vp-doc _wiki_api-examples" data-v-39a288b8><div><h1 id="runtime-api-examples" tabindex="-1">Runtime API Examples <a class="header-anchor" href="#runtime-api-examples" aria-label="Permalink to &quot;Runtime API Examples&quot;">​</a></h1><p>This page demonstrates usage of some of the runtime APIs provided by VitePress.</p><p>The main <code>useData()</code> API can be used to access site, theme, and page data for the current page. It works in both <code>.md</code> and <code>.vue</code> files:</p><div class="language-md vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">md</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;script setup&gt;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">import { useData } from &#39;vitepress&#39;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">const { theme, page, frontmatter } = useData()</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;/script&gt;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-light-font-weight:bold;--shiki-dark:#79B8FF;--shiki-dark-font-weight:bold;">## Results</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-light-font-weight:bold;--shiki-dark:#79B8FF;--shiki-dark-font-weight:bold;">### Theme Data</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;pre&gt;{{ theme }}&lt;/pre&gt;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-light-font-weight:bold;--shiki-dark:#79B8FF;--shiki-dark-font-weight:bold;">### Page Data</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;pre&gt;{{ page }}&lt;/pre&gt;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-light-font-weight:bold;--shiki-dark:#79B8FF;--shiki-dark-font-weight:bold;">### Page Frontmatter</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;pre&gt;{{ frontmatter }}&lt;/pre&gt;</span></span></code></pre></div><h2 id="results" tabindex="-1">Results <a class="header-anchor" href="#results" aria-label="Permalink to &quot;Results&quot;">​</a></h2><h3 id="theme-data" tabindex="-1">Theme Data <a class="header-anchor" href="#theme-data" aria-label="Permalink to &quot;Theme Data&quot;">​</a></h3><pre>{
+  &quot;search&quot;: {
+    &quot;provider&quot;: &quot;local&quot;,
+    &quot;options&quot;: {
+      &quot;locales&quot;: {
+        &quot;root&quot;: {
+          &quot;translations&quot;: {
+            &quot;button&quot;: {
+              &quot;buttonText&quot;: &quot;Search&quot;,
+              &quot;buttonAriaLabel&quot;: &quot;Search&quot;
+            },
+            &quot;modal&quot;: {
+              &quot;noResultsText&quot;: &quot;No results&quot;,
+              &quot;resetButtonTitle&quot;: &quot;Clear search&quot;,
+              &quot;footer&quot;: {
+                &quot;selectText&quot;: &quot;Select&quot;,
+                &quot;navigateText&quot;: &quot;Navigate&quot;,
+                &quot;closeText&quot;: &quot;Close&quot;
+              }
+            }
+          }
+        },
+        &quot;es&quot;: {
+          &quot;translations&quot;: {
+            &quot;button&quot;: {
+              &quot;buttonText&quot;: &quot;Buscar&quot;,
+              &quot;buttonAriaLabel&quot;: &quot;Buscar&quot;
+            },
+            &quot;modal&quot;: {
+              &quot;noResultsText&quot;: &quot;Sin resultados&quot;,
+              &quot;resetButtonTitle&quot;: &quot;Limpiar búsqueda&quot;,
+              &quot;footer&quot;: {
+                &quot;selectText&quot;: &quot;Seleccionar&quot;,
+                &quot;navigateText&quot;: &quot;Navegar&quot;,
+                &quot;closeText&quot;: &quot;Cerrar&quot;
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  &quot;nav&quot;: [
+    {
+      &quot;text&quot;: &quot;Home&quot;,
+      &quot;link&quot;: &quot;/&quot;
+    },
+    {
+      &quot;text&quot;: &quot;GitHub&quot;,
+      &quot;link&quot;: &quot;https://github.com/&quot;
+    }
+  ],
+  &quot;sidebar&quot;: [
+    {
+      &quot;text&quot;: &quot;Home&quot;,
+      &quot;collapsed&quot;: false,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;Overview&quot;,
+          &quot;link&quot;: &quot;/home/overview&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Project Goals&quot;,
+          &quot;link&quot;: &quot;/home/project-goals&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Donations&quot;,
+          &quot;link&quot;: &quot;/home/donations&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Become a Partner&quot;,
+          &quot;link&quot;: &quot;/home/become-a-partner&quot;
+        },
+        {
+          &quot;text&quot;: &quot;How to Contribute&quot;,
+          &quot;link&quot;: &quot;/home/how-to-contribute&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;Getting Started&quot;,
+      &quot;collapsed&quot;: false,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;What is the Handbook&quot;,
+          &quot;link&quot;: &quot;/getting-started/what-is-this-handbook&quot;
+        },
+        {
+          &quot;text&quot;: &quot;How to Use This Handbook&quot;,
+          &quot;link&quot;: &quot;/getting-started/how-to-use-this-handbook&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Who This Is For&quot;,
+          &quot;link&quot;: &quot;/getting-started/who-this-is-for&quot;
+        },
+        {
+          &quot;text&quot;: &quot;How to Navigate the Handbook&quot;,
+          &quot;link&quot;: &quot;/getting-started/how-to-navigate-the-handbook&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;Electrical Fundamentals&quot;,
+      &quot;collapsed&quot;: true,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;Voltage&quot;,
+          &quot;link&quot;: &quot;/electrical-fundamentals/voltage&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Current&quot;,
+          &quot;link&quot;: &quot;/electrical-fundamentals/current&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Resistance&quot;,
+          &quot;link&quot;: &quot;/electrical-fundamentals/resistance&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Ohm&#39;s Law&quot;,
+          &quot;link&quot;: &quot;/electrical-fundamentals/ohms-law&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Electric Power&quot;,
+          &quot;link&quot;: &quot;/electrical-fundamentals/electric-power&quot;
+        },
+        {
+          &quot;text&quot;: &quot;AC vs DC&quot;,
+          &quot;link&quot;: &quot;/electrical-fundamentals/ac-vs-dc&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Single Phase Systems&quot;,
+          &quot;link&quot;: &quot;/electrical-fundamentals/single-phase-systems&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Three Phase Systems&quot;,
+          &quot;link&quot;: &quot;/electrical-fundamentals/three-phase-systems&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Power Factor&quot;,
+          &quot;link&quot;: &quot;/electrical-fundamentals/power-factor&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Grounding&quot;,
+          &quot;link&quot;: &quot;/electrical-fundamentals/grounding&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Electrical Noise&quot;,
+          &quot;link&quot;: &quot;/electrical-fundamentals/electrical-noise&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;Power Quality&quot;,
+      &quot;collapsed&quot;: true,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;What is Power Quality&quot;,
+          &quot;link&quot;: &quot;/power-quality/what-is-power-quality&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Voltage Sags&quot;,
+          &quot;link&quot;: &quot;/power-quality/voltage-sags&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Voltage Swells&quot;,
+          &quot;link&quot;: &quot;/power-quality/voltage-swells&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Harmonics&quot;,
+          &quot;link&quot;: &quot;/power-quality/harmonics&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Total Harmonic Distortion&quot;,
+          &quot;link&quot;: &quot;/power-quality/total-harmonic-distortion&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Power Factor Correction&quot;,
+          &quot;link&quot;: &quot;/power-quality/power-factor-correction&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Flicker&quot;,
+          &quot;link&quot;: &quot;/power-quality/flicker&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Transients and Surges&quot;,
+          &quot;link&quot;: &quot;/power-quality/transients-and-surges&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Power Quality Monitoring&quot;,
+          &quot;link&quot;: &quot;/power-quality/power-quality-monitoring&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;Power Distribution&quot;,
+      &quot;collapsed&quot;: true,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;Electrical Distribution Systems&quot;,
+          &quot;link&quot;: &quot;/power-distribution/electrical-distribution-systems&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Low Voltage Distribution&quot;,
+          &quot;link&quot;: &quot;/power-distribution/low-voltage-distribution&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Medium Voltage Distribution&quot;,
+          &quot;link&quot;: &quot;/power-distribution/medium-voltage-distribution&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Main Distribution Panels&quot;,
+          &quot;link&quot;: &quot;/power-distribution/main-distribution-panels&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Sub Distribution Panels&quot;,
+          &quot;link&quot;: &quot;/power-distribution/sub-distribution-panels&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Switchgear&quot;,
+          &quot;link&quot;: &quot;/power-distribution/switchgear&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Switchboards&quot;,
+          &quot;link&quot;: &quot;/power-distribution/switchboards&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Busbars&quot;,
+          &quot;link&quot;: &quot;/power-distribution/busbars&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Transformers&quot;,
+          &quot;link&quot;: &quot;/power-distribution/transformers&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Grounding Systems&quot;,
+          &quot;link&quot;: &quot;/power-distribution/grounding-systems&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;Electric Motors&quot;,
+      &quot;collapsed&quot;: true,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;Motor Fundamentals&quot;,
+          &quot;link&quot;: &quot;/electric-motors/motor-fundamentals&quot;
+        },
+        {
+          &quot;text&quot;: &quot;AC Motors&quot;,
+          &quot;link&quot;: &quot;/electric-motors/ac-motors&quot;
+        },
+        {
+          &quot;text&quot;: &quot;DC Motors&quot;,
+          &quot;link&quot;: &quot;/electric-motors/dc-motors&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Induction Motors&quot;,
+          &quot;link&quot;: &quot;/electric-motors/induction-motors&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Synchronous Motors&quot;,
+          &quot;link&quot;: &quot;/electric-motors/synchronous-motors&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Servo Motors&quot;,
+          &quot;link&quot;: &quot;/electric-motors/servo-motors&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Stepper Motors&quot;,
+          &quot;link&quot;: &quot;/electric-motors/stepper-motors&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Motor Nameplates&quot;,
+          &quot;link&quot;: &quot;/electric-motors/motor-nameplates&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Motor Efficiency&quot;,
+          &quot;link&quot;: &quot;/electric-motors/motor-efficiency&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Motor Cooling&quot;,
+          &quot;link&quot;: &quot;/electric-motors/motor-cooling&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Motor Protection&quot;,
+          &quot;link&quot;: &quot;/electric-motors/motor-protection&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;Motor Control&quot;,
+      &quot;collapsed&quot;: true,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;Motor Control Centers&quot;,
+          &quot;link&quot;: &quot;/motor-control/motor-control-centers&quot;
+        },
+        {
+          &quot;text&quot;: &quot;MCC Architecture&quot;,
+          &quot;link&quot;: &quot;/motor-control/mcc-architecture&quot;
+        },
+        {
+          &quot;text&quot;: &quot;MCC Buckets&quot;,
+          &quot;link&quot;: &quot;/motor-control/mcc-buckets&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Motor Starters&quot;,
+          &quot;link&quot;: &quot;/motor-control/motor-starters&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Direct On Line Starters&quot;,
+          &quot;link&quot;: &quot;/motor-control/direct-on-line-starters&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Star Delta Starters&quot;,
+          &quot;link&quot;: &quot;/motor-control/star-delta-starters&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Soft Starters&quot;,
+          &quot;link&quot;: &quot;/motor-control/soft-starters&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Variable Frequency Drives&quot;,
+          &quot;link&quot;: &quot;/motor-control/variable-frequency-drives&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;Cables and Wiring&quot;,
+      &quot;collapsed&quot;: true,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;Electrical Cables Overview&quot;,
+          &quot;link&quot;: &quot;/cables-and-wiring/electrical-cables-overview&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Conductor Materials&quot;,
+          &quot;link&quot;: &quot;/cables-and-wiring/conductor-materials&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Cable Types&quot;,
+          &quot;link&quot;: &quot;/cables-and-wiring/cable-types&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Shielded Cables&quot;,
+          &quot;link&quot;: &quot;/cables-and-wiring/shielded-cables&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Instrumentation Cables&quot;,
+          &quot;link&quot;: &quot;/cables-and-wiring/instrumentation-cables&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Power Cables&quot;,
+          &quot;link&quot;: &quot;/cables-and-wiring/power-cables&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Control Cables&quot;,
+          &quot;link&quot;: &quot;/cables-and-wiring/control-cables&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Communication Cables&quot;,
+          &quot;link&quot;: &quot;/cables-and-wiring/communication-cables&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Cable Sizing&quot;,
+          &quot;link&quot;: &quot;/cables-and-wiring/cable-sizing&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Voltage Drop&quot;,
+          &quot;link&quot;: &quot;/cables-and-wiring/voltage-drop&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Current Carrying Capacity&quot;,
+          &quot;link&quot;: &quot;/cables-and-wiring/current-carrying-capacity&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Cable Routing&quot;,
+          &quot;link&quot;: &quot;/cables-and-wiring/cable-routing&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Cable Trays&quot;,
+          &quot;link&quot;: &quot;/cables-and-wiring/cable-trays&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Conduit Systems&quot;,
+          &quot;link&quot;: &quot;/cables-and-wiring/conduit-systems&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;Industrial Control&quot;,
+      &quot;collapsed&quot;: true,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;What is a PLC&quot;,
+          &quot;link&quot;: &quot;/industrial-control/plc/what-is-a-plc&quot;
+        },
+        {
+          &quot;text&quot;: &quot;PLC Architecture&quot;,
+          &quot;link&quot;: &quot;/industrial-control/plc/plc-architecture&quot;
+        },
+        {
+          &quot;text&quot;: &quot;PLC Scan Cycle&quot;,
+          &quot;link&quot;: &quot;/industrial-control/plc/plc-scan-cycle&quot;
+        },
+        {
+          &quot;text&quot;: &quot;PLC CPU&quot;,
+          &quot;link&quot;: &quot;/industrial-control/plc/plc-cpu&quot;
+        },
+        {
+          &quot;text&quot;: &quot;PLC Memory&quot;,
+          &quot;link&quot;: &quot;/industrial-control/plc/plc-memory&quot;
+        },
+        {
+          &quot;text&quot;: &quot;PLC I/O Modules&quot;,
+          &quot;link&quot;: &quot;/industrial-control/plc/plc-io-modules&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Inputs and Outputs&quot;,
+          &quot;link&quot;: &quot;/industrial-control/plc/inputs-and-outputs&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Digital vs Analog Signals&quot;,
+          &quot;link&quot;: &quot;/industrial-control/plc/digital-vs-analog-signals&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Ladder Logic&quot;,
+          &quot;link&quot;: &quot;/industrial-control/plc/ladder-logic&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Function Block Diagram&quot;,
+          &quot;link&quot;: &quot;/industrial-control/plc/function-block-diagram&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Structured Text&quot;,
+          &quot;link&quot;: &quot;/industrial-control/plc/structured-text&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Sequential Function Chart&quot;,
+          &quot;link&quot;: &quot;/industrial-control/plc/sequential-function-chart&quot;
+        },
+        {
+          &quot;text&quot;: &quot;How to Select a PLC&quot;,
+          &quot;link&quot;: &quot;/industrial-control/plc/how-to-select-a-plc&quot;
+        },
+        {
+          &quot;text&quot;: &quot;What is an HMI&quot;,
+          &quot;link&quot;: &quot;/industrial-control/hmi/what-is-an-hmi&quot;
+        },
+        {
+          &quot;text&quot;: &quot;HMI Architecture&quot;,
+          &quot;link&quot;: &quot;/industrial-control/hmi/hmi-architecture&quot;
+        },
+        {
+          &quot;text&quot;: &quot;HMI Design Principles&quot;,
+          &quot;link&quot;: &quot;/industrial-control/hmi/hmi-design-principles&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Alarm Management&quot;,
+          &quot;link&quot;: &quot;/industrial-control/hmi/alarm-management&quot;
+        },
+        {
+          &quot;text&quot;: &quot;What is SCADA&quot;,
+          &quot;link&quot;: &quot;/industrial-control/scada/what-is-scada&quot;
+        },
+        {
+          &quot;text&quot;: &quot;SCADA Architecture&quot;,
+          &quot;link&quot;: &quot;/industrial-control/scada/scada-architecture&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Data Historian&quot;,
+          &quot;link&quot;: &quot;/industrial-control/scada/data-historian&quot;
+        },
+        {
+          &quot;text&quot;: &quot;SCADA vs HMI&quot;,
+          &quot;link&quot;: &quot;/industrial-control/scada/scada-vs-hmi&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;Industrial Networks&quot;,
+      &quot;collapsed&quot;: true,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;Industrial Ethernet&quot;,
+          &quot;link&quot;: &quot;/industrial-networks/industrial-ethernet&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Ethernet/IP&quot;,
+          &quot;link&quot;: &quot;/industrial-networks/ethernet-ip&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Modbus RTU&quot;,
+          &quot;link&quot;: &quot;/industrial-networks/modbus-rtu&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Modbus TCP&quot;,
+          &quot;link&quot;: &quot;/industrial-networks/modbus-tcp&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Profinet&quot;,
+          &quot;link&quot;: &quot;/industrial-networks/profinet&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Profibus&quot;,
+          &quot;link&quot;: &quot;/industrial-networks/profibus&quot;
+        },
+        {
+          &quot;text&quot;: &quot;CAN Bus&quot;,
+          &quot;link&quot;: &quot;/industrial-networks/can-bus&quot;
+        },
+        {
+          &quot;text&quot;: &quot;DeviceNet&quot;,
+          &quot;link&quot;: &quot;/industrial-networks/devicenet&quot;
+        },
+        {
+          &quot;text&quot;: &quot;OPC UA&quot;,
+          &quot;link&quot;: &quot;/industrial-networks/opc-ua&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Industrial Gateways&quot;,
+          &quot;link&quot;: &quot;/industrial-networks/industrial-gateways&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;Sensors&quot;,
+      &quot;collapsed&quot;: true,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;What is a Sensor&quot;,
+          &quot;link&quot;: &quot;/sensors/what-is-a-sensor&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Inductive Sensors&quot;,
+          &quot;link&quot;: &quot;/sensors/inductive-sensors&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Capacitive Sensors&quot;,
+          &quot;link&quot;: &quot;/sensors/capacitive-sensors&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Photoelectric Sensors&quot;,
+          &quot;link&quot;: &quot;/sensors/photoelectric-sensors&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Ultrasonic Sensors&quot;,
+          &quot;link&quot;: &quot;/sensors/ultrasonic-sensors&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Temperature Sensors&quot;,
+          &quot;link&quot;: &quot;/sensors/temperature-sensors&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Pressure Sensors&quot;,
+          &quot;link&quot;: &quot;/sensors/pressure-sensors&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Level Sensors&quot;,
+          &quot;link&quot;: &quot;/sensors/level-sensors&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Encoders&quot;,
+          &quot;link&quot;: &quot;/sensors/encoders&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Limit Switches&quot;,
+          &quot;link&quot;: &quot;/sensors/limit-switches&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;Actuators&quot;,
+      &quot;collapsed&quot;: true,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;What is an Actuator&quot;,
+          &quot;link&quot;: &quot;/actuators/what-is-an-actuator&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Electric Actuators&quot;,
+          &quot;link&quot;: &quot;/actuators/electric-actuators&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Pneumatic Cylinders&quot;,
+          &quot;link&quot;: &quot;/actuators/pneumatic-cylinders&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Hydraulic Cylinders&quot;,
+          &quot;link&quot;: &quot;/actuators/hydraulic-cylinders&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Solenoids&quot;,
+          &quot;link&quot;: &quot;/actuators/solenoids&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Control Valves&quot;,
+          &quot;link&quot;: &quot;/actuators/control-valves&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;Drives and Motion&quot;,
+      &quot;collapsed&quot;: true,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;Variable Frequency Drives&quot;,
+          &quot;link&quot;: &quot;/drives-and-motion/variable-frequency-drives&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Servo Drives&quot;,
+          &quot;link&quot;: &quot;/drives-and-motion/servo-drives&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Motion Controllers&quot;,
+          &quot;link&quot;: &quot;/drives-and-motion/motion-controllers&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Speed Control&quot;,
+          &quot;link&quot;: &quot;/drives-and-motion/speed-control&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Torque Control&quot;,
+          &quot;link&quot;: &quot;/drives-and-motion/torque-control&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;Electrical Panels&quot;,
+      &quot;collapsed&quot;: true,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;Control Panels&quot;,
+          &quot;link&quot;: &quot;/electrical-panels/control-panels&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Panel Layout&quot;,
+          &quot;link&quot;: &quot;/electrical-panels/panel-layout&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Panel Wiring&quot;,
+          &quot;link&quot;: &quot;/electrical-panels/panel-wiring&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Cable Management&quot;,
+          &quot;link&quot;: &quot;/electrical-panels/cable-management&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Breakers&quot;,
+          &quot;link&quot;: &quot;/electrical-panels/breakers&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Contactors&quot;,
+          &quot;link&quot;: &quot;/electrical-panels/contactors&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Overload Relays&quot;,
+          &quot;link&quot;: &quot;/electrical-panels/overload-relays&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Power Supplies&quot;,
+          &quot;link&quot;: &quot;/electrical-panels/power-supplies&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Terminal Blocks&quot;,
+          &quot;link&quot;: &quot;/electrical-panels/terminal-blocks&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;Industrial Safety&quot;,
+      &quot;collapsed&quot;: true,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;Machine Safety Basics&quot;,
+          &quot;link&quot;: &quot;/industrial-safety/machine-safety-basics&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Risk Assessment&quot;,
+          &quot;link&quot;: &quot;/industrial-safety/risk-assessment&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Safety Categories&quot;,
+          &quot;link&quot;: &quot;/industrial-safety/safety-categories&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Emergency Stop Circuits&quot;,
+          &quot;link&quot;: &quot;/industrial-safety/emergency-stop-circuits&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Safety Relays&quot;,
+          &quot;link&quot;: &quot;/industrial-safety/safety-relays&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Safety PLC&quot;,
+          &quot;link&quot;: &quot;/industrial-safety/safety-plc&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Lockout Tagout&quot;,
+          &quot;link&quot;: &quot;/industrial-safety/lockout-tagout&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;OT and IT&quot;,
+      &quot;collapsed&quot;: true,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;OT vs IT&quot;,
+          &quot;link&quot;: &quot;/ot-and-it/ot-vs-it&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Industrial Network Architecture&quot;,
+          &quot;link&quot;: &quot;/ot-and-it/industrial-network-architecture&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Purdue Model&quot;,
+          &quot;link&quot;: &quot;/ot-and-it/purdue-model&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Edge Computing&quot;,
+          &quot;link&quot;: &quot;/ot-and-it/edge-computing&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Industrial Data Collection&quot;,
+          &quot;link&quot;: &quot;/ot-and-it/industrial-data-collection&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Cloud Integration&quot;,
+          &quot;link&quot;: &quot;/ot-and-it/cloud-integration&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Industrial IoT&quot;,
+          &quot;link&quot;: &quot;/ot-and-it/industrial-iot&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;Industrial Cybersecurity&quot;,
+      &quot;collapsed&quot;: true,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;Why Industrial Cybersecurity Matters&quot;,
+          &quot;link&quot;: &quot;/industrial-cybersecurity/why-industrial-cybersecurity-matters&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Common Threats in OT&quot;,
+          &quot;link&quot;: &quot;/industrial-cybersecurity/common-threats-in-ot&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Network Segmentation&quot;,
+          &quot;link&quot;: &quot;/industrial-cybersecurity/network-segmentation&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Firewalls in Industrial Networks&quot;,
+          &quot;link&quot;: &quot;/industrial-cybersecurity/firewalls-in-industrial-networks&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Secure Remote Access&quot;,
+          &quot;link&quot;: &quot;/industrial-cybersecurity/secure-remote-access&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Patch Management&quot;,
+          &quot;link&quot;: &quot;/industrial-cybersecurity/patch-management&quot;
+        },
+        {
+          &quot;text&quot;: &quot;User Access Control&quot;,
+          &quot;link&quot;: &quot;/industrial-cybersecurity/user-access-control&quot;
+        },
+        {
+          &quot;text&quot;: &quot;IEC 62443&quot;,
+          &quot;link&quot;: &quot;/industrial-cybersecurity/iec-62443&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;Standards&quot;,
+      &quot;collapsed&quot;: true,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;UL&quot;,
+          &quot;link&quot;: &quot;/standards/ul&quot;
+        },
+        {
+          &quot;text&quot;: &quot;IEC&quot;,
+          &quot;link&quot;: &quot;/standards/iec&quot;
+        },
+        {
+          &quot;text&quot;: &quot;ISO&quot;,
+          &quot;link&quot;: &quot;/standards/iso&quot;
+        },
+        {
+          &quot;text&quot;: &quot;NEMA&quot;,
+          &quot;link&quot;: &quot;/standards/nema&quot;
+        },
+        {
+          &quot;text&quot;: &quot;NOM&quot;,
+          &quot;link&quot;: &quot;/standards/nom&quot;
+        }
+      ]
+    }
+  ],
+  &quot;docFooter&quot;: {
+    &quot;prev&quot;: &quot;Previous page&quot;,
+    &quot;next&quot;: &quot;Next page&quot;
+  }
+}</pre><h3 id="page-data" tabindex="-1">Page Data <a class="header-anchor" href="#page-data" aria-label="Permalink to &quot;Page Data&quot;">​</a></h3><pre>{
+  &quot;title&quot;: &quot;Runtime API Examples&quot;,
+  &quot;description&quot;: &quot;&quot;,
+  &quot;frontmatter&quot;: {
+    &quot;outline&quot;: &quot;deep&quot;
+  },
+  &quot;headers&quot;: [],
+  &quot;relativePath&quot;: &quot;api-examples.md&quot;,
+  &quot;filePath&quot;: &quot;api-examples.md&quot;
+}</pre><h3 id="page-frontmatter" tabindex="-1">Page Frontmatter <a class="header-anchor" href="#page-frontmatter" aria-label="Permalink to &quot;Page Frontmatter&quot;">​</a></h3><pre>{
+  &quot;outline&quot;: &quot;deep&quot;
+}</pre><h2 id="more" tabindex="-1">More <a class="header-anchor" href="#more" aria-label="Permalink to &quot;More&quot;">​</a></h2><p>Check out the documentation for the <a href="https://vitepress.dev/reference/runtime-api#usedata" target="_blank" rel="noreferrer">full list of runtime APIs</a>.</p></div></div></main><footer class="VPDocFooter" data-v-39a288b8 data-v-e257564d><!--[--><!--]--><!----><nav class="prev-next" aria-labelledby="doc-footer-aria-label" data-v-e257564d><span class="visually-hidden" id="doc-footer-aria-label" data-v-e257564d>Pager</span><div class="pager" data-v-e257564d><!----></div><div class="pager" data-v-e257564d><a class="VPLink link pager-link next" href="/wiki/home/overview.html" data-v-e257564d><!--[--><span class="desc" data-v-e257564d>Next page</span><span class="title" data-v-e257564d>Overview</span><!--]--></a></div></nav></footer><!--[--><!--]--></div></div></div><!--[--><!--]--></div></div><!----><!--[--><!--]--></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"api-examples.md\":\"BMlveDd7\",\"es_home_overview.md\":\"BuL5qXi0\",\"es_index.md\":\"mqE2Aix7\",\"home_overview.md\":\"voICTkOs\",\"index.md\":\"pbME0d2f\",\"markdown-examples.md\":\"BgZuPEt9\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"VitePress\",\"description\":\"A VitePress site\",\"base\":\"/wiki/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"search\":{\"provider\":\"local\",\"options\":{\"locales\":{\"root\":{\"translations\":{\"button\":{\"buttonText\":\"Search\",\"buttonAriaLabel\":\"Search\"},\"modal\":{\"noResultsText\":\"No results\",\"resetButtonTitle\":\"Clear search\",\"footer\":{\"selectText\":\"Select\",\"navigateText\":\"Navigate\",\"closeText\":\"Close\"}}}},\"es\":{\"translations\":{\"button\":{\"buttonText\":\"Buscar\",\"buttonAriaLabel\":\"Buscar\"},\"modal\":{\"noResultsText\":\"Sin resultados\",\"resetButtonTitle\":\"Limpiar búsqueda\",\"footer\":{\"selectText\":\"Seleccionar\",\"navigateText\":\"Navegar\",\"closeText\":\"Cerrar\"}}}}}}}},\"locales\":{\"root\":{\"label\":\"English\",\"lang\":\"en\",\"title\":\"Industrial Systems Handbook\",\"description\":\"Technical documentation for industrial systems.\",\"themeConfig\":{\"nav\":[{\"text\":\"Home\",\"link\":\"/\"},{\"text\":\"GitHub\",\"link\":\"https://github.com/\"}],\"sidebar\":[{\"text\":\"Home\",\"collapsed\":false,\"items\":[{\"text\":\"Overview\",\"link\":\"/home/overview\"},{\"text\":\"Project Goals\",\"link\":\"/home/project-goals\"},{\"text\":\"Donations\",\"link\":\"/home/donations\"},{\"text\":\"Become a Partner\",\"link\":\"/home/become-a-partner\"},{\"text\":\"How to Contribute\",\"link\":\"/home/how-to-contribute\"}]},{\"text\":\"Getting Started\",\"collapsed\":false,\"items\":[{\"text\":\"What is the Handbook\",\"link\":\"/getting-started/what-is-this-handbook\"},{\"text\":\"How to Use This Handbook\",\"link\":\"/getting-started/how-to-use-this-handbook\"},{\"text\":\"Who This Is For\",\"link\":\"/getting-started/who-this-is-for\"},{\"text\":\"How to Navigate the Handbook\",\"link\":\"/getting-started/how-to-navigate-the-handbook\"}]},{\"text\":\"Electrical Fundamentals\",\"collapsed\":true,\"items\":[{\"text\":\"Voltage\",\"link\":\"/electrical-fundamentals/voltage\"},{\"text\":\"Current\",\"link\":\"/electrical-fundamentals/current\"},{\"text\":\"Resistance\",\"link\":\"/electrical-fundamentals/resistance\"},{\"text\":\"Ohm's Law\",\"link\":\"/electrical-fundamentals/ohms-law\"},{\"text\":\"Electric Power\",\"link\":\"/electrical-fundamentals/electric-power\"},{\"text\":\"AC vs DC\",\"link\":\"/electrical-fundamentals/ac-vs-dc\"},{\"text\":\"Single Phase Systems\",\"link\":\"/electrical-fundamentals/single-phase-systems\"},{\"text\":\"Three Phase Systems\",\"link\":\"/electrical-fundamentals/three-phase-systems\"},{\"text\":\"Power Factor\",\"link\":\"/electrical-fundamentals/power-factor\"},{\"text\":\"Grounding\",\"link\":\"/electrical-fundamentals/grounding\"},{\"text\":\"Electrical Noise\",\"link\":\"/electrical-fundamentals/electrical-noise\"}]},{\"text\":\"Power Quality\",\"collapsed\":true,\"items\":[{\"text\":\"What is Power Quality\",\"link\":\"/power-quality/what-is-power-quality\"},{\"text\":\"Voltage Sags\",\"link\":\"/power-quality/voltage-sags\"},{\"text\":\"Voltage Swells\",\"link\":\"/power-quality/voltage-swells\"},{\"text\":\"Harmonics\",\"link\":\"/power-quality/harmonics\"},{\"text\":\"Total Harmonic Distortion\",\"link\":\"/power-quality/total-harmonic-distortion\"},{\"text\":\"Power Factor Correction\",\"link\":\"/power-quality/power-factor-correction\"},{\"text\":\"Flicker\",\"link\":\"/power-quality/flicker\"},{\"text\":\"Transients and Surges\",\"link\":\"/power-quality/transients-and-surges\"},{\"text\":\"Power Quality Monitoring\",\"link\":\"/power-quality/power-quality-monitoring\"}]},{\"text\":\"Power Distribution\",\"collapsed\":true,\"items\":[{\"text\":\"Electrical Distribution Systems\",\"link\":\"/power-distribution/electrical-distribution-systems\"},{\"text\":\"Low Voltage Distribution\",\"link\":\"/power-distribution/low-voltage-distribution\"},{\"text\":\"Medium Voltage Distribution\",\"link\":\"/power-distribution/medium-voltage-distribution\"},{\"text\":\"Main Distribution Panels\",\"link\":\"/power-distribution/main-distribution-panels\"},{\"text\":\"Sub Distribution Panels\",\"link\":\"/power-distribution/sub-distribution-panels\"},{\"text\":\"Switchgear\",\"link\":\"/power-distribution/switchgear\"},{\"text\":\"Switchboards\",\"link\":\"/power-distribution/switchboards\"},{\"text\":\"Busbars\",\"link\":\"/power-distribution/busbars\"},{\"text\":\"Transformers\",\"link\":\"/power-distribution/transformers\"},{\"text\":\"Grounding Systems\",\"link\":\"/power-distribution/grounding-systems\"}]},{\"text\":\"Electric Motors\",\"collapsed\":true,\"items\":[{\"text\":\"Motor Fundamentals\",\"link\":\"/electric-motors/motor-fundamentals\"},{\"text\":\"AC Motors\",\"link\":\"/electric-motors/ac-motors\"},{\"text\":\"DC Motors\",\"link\":\"/electric-motors/dc-motors\"},{\"text\":\"Induction Motors\",\"link\":\"/electric-motors/induction-motors\"},{\"text\":\"Synchronous Motors\",\"link\":\"/electric-motors/synchronous-motors\"},{\"text\":\"Servo Motors\",\"link\":\"/electric-motors/servo-motors\"},{\"text\":\"Stepper Motors\",\"link\":\"/electric-motors/stepper-motors\"},{\"text\":\"Motor Nameplates\",\"link\":\"/electric-motors/motor-nameplates\"},{\"text\":\"Motor Efficiency\",\"link\":\"/electric-motors/motor-efficiency\"},{\"text\":\"Motor Cooling\",\"link\":\"/electric-motors/motor-cooling\"},{\"text\":\"Motor Protection\",\"link\":\"/electric-motors/motor-protection\"}]},{\"text\":\"Motor Control\",\"collapsed\":true,\"items\":[{\"text\":\"Motor Control Centers\",\"link\":\"/motor-control/motor-control-centers\"},{\"text\":\"MCC Architecture\",\"link\":\"/motor-control/mcc-architecture\"},{\"text\":\"MCC Buckets\",\"link\":\"/motor-control/mcc-buckets\"},{\"text\":\"Motor Starters\",\"link\":\"/motor-control/motor-starters\"},{\"text\":\"Direct On Line Starters\",\"link\":\"/motor-control/direct-on-line-starters\"},{\"text\":\"Star Delta Starters\",\"link\":\"/motor-control/star-delta-starters\"},{\"text\":\"Soft Starters\",\"link\":\"/motor-control/soft-starters\"},{\"text\":\"Variable Frequency Drives\",\"link\":\"/motor-control/variable-frequency-drives\"}]},{\"text\":\"Cables and Wiring\",\"collapsed\":true,\"items\":[{\"text\":\"Electrical Cables Overview\",\"link\":\"/cables-and-wiring/electrical-cables-overview\"},{\"text\":\"Conductor Materials\",\"link\":\"/cables-and-wiring/conductor-materials\"},{\"text\":\"Cable Types\",\"link\":\"/cables-and-wiring/cable-types\"},{\"text\":\"Shielded Cables\",\"link\":\"/cables-and-wiring/shielded-cables\"},{\"text\":\"Instrumentation Cables\",\"link\":\"/cables-and-wiring/instrumentation-cables\"},{\"text\":\"Power Cables\",\"link\":\"/cables-and-wiring/power-cables\"},{\"text\":\"Control Cables\",\"link\":\"/cables-and-wiring/control-cables\"},{\"text\":\"Communication Cables\",\"link\":\"/cables-and-wiring/communication-cables\"},{\"text\":\"Cable Sizing\",\"link\":\"/cables-and-wiring/cable-sizing\"},{\"text\":\"Voltage Drop\",\"link\":\"/cables-and-wiring/voltage-drop\"},{\"text\":\"Current Carrying Capacity\",\"link\":\"/cables-and-wiring/current-carrying-capacity\"},{\"text\":\"Cable Routing\",\"link\":\"/cables-and-wiring/cable-routing\"},{\"text\":\"Cable Trays\",\"link\":\"/cables-and-wiring/cable-trays\"},{\"text\":\"Conduit Systems\",\"link\":\"/cables-and-wiring/conduit-systems\"}]},{\"text\":\"Industrial Control\",\"collapsed\":true,\"items\":[{\"text\":\"What is a PLC\",\"link\":\"/industrial-control/plc/what-is-a-plc\"},{\"text\":\"PLC Architecture\",\"link\":\"/industrial-control/plc/plc-architecture\"},{\"text\":\"PLC Scan Cycle\",\"link\":\"/industrial-control/plc/plc-scan-cycle\"},{\"text\":\"PLC CPU\",\"link\":\"/industrial-control/plc/plc-cpu\"},{\"text\":\"PLC Memory\",\"link\":\"/industrial-control/plc/plc-memory\"},{\"text\":\"PLC I/O Modules\",\"link\":\"/industrial-control/plc/plc-io-modules\"},{\"text\":\"Inputs and Outputs\",\"link\":\"/industrial-control/plc/inputs-and-outputs\"},{\"text\":\"Digital vs Analog Signals\",\"link\":\"/industrial-control/plc/digital-vs-analog-signals\"},{\"text\":\"Ladder Logic\",\"link\":\"/industrial-control/plc/ladder-logic\"},{\"text\":\"Function Block Diagram\",\"link\":\"/industrial-control/plc/function-block-diagram\"},{\"text\":\"Structured Text\",\"link\":\"/industrial-control/plc/structured-text\"},{\"text\":\"Sequential Function Chart\",\"link\":\"/industrial-control/plc/sequential-function-chart\"},{\"text\":\"How to Select a PLC\",\"link\":\"/industrial-control/plc/how-to-select-a-plc\"},{\"text\":\"What is an HMI\",\"link\":\"/industrial-control/hmi/what-is-an-hmi\"},{\"text\":\"HMI Architecture\",\"link\":\"/industrial-control/hmi/hmi-architecture\"},{\"text\":\"HMI Design Principles\",\"link\":\"/industrial-control/hmi/hmi-design-principles\"},{\"text\":\"Alarm Management\",\"link\":\"/industrial-control/hmi/alarm-management\"},{\"text\":\"What is SCADA\",\"link\":\"/industrial-control/scada/what-is-scada\"},{\"text\":\"SCADA Architecture\",\"link\":\"/industrial-control/scada/scada-architecture\"},{\"text\":\"Data Historian\",\"link\":\"/industrial-control/scada/data-historian\"},{\"text\":\"SCADA vs HMI\",\"link\":\"/industrial-control/scada/scada-vs-hmi\"}]},{\"text\":\"Industrial Networks\",\"collapsed\":true,\"items\":[{\"text\":\"Industrial Ethernet\",\"link\":\"/industrial-networks/industrial-ethernet\"},{\"text\":\"Ethernet/IP\",\"link\":\"/industrial-networks/ethernet-ip\"},{\"text\":\"Modbus RTU\",\"link\":\"/industrial-networks/modbus-rtu\"},{\"text\":\"Modbus TCP\",\"link\":\"/industrial-networks/modbus-tcp\"},{\"text\":\"Profinet\",\"link\":\"/industrial-networks/profinet\"},{\"text\":\"Profibus\",\"link\":\"/industrial-networks/profibus\"},{\"text\":\"CAN Bus\",\"link\":\"/industrial-networks/can-bus\"},{\"text\":\"DeviceNet\",\"link\":\"/industrial-networks/devicenet\"},{\"text\":\"OPC UA\",\"link\":\"/industrial-networks/opc-ua\"},{\"text\":\"Industrial Gateways\",\"link\":\"/industrial-networks/industrial-gateways\"}]},{\"text\":\"Sensors\",\"collapsed\":true,\"items\":[{\"text\":\"What is a Sensor\",\"link\":\"/sensors/what-is-a-sensor\"},{\"text\":\"Inductive Sensors\",\"link\":\"/sensors/inductive-sensors\"},{\"text\":\"Capacitive Sensors\",\"link\":\"/sensors/capacitive-sensors\"},{\"text\":\"Photoelectric Sensors\",\"link\":\"/sensors/photoelectric-sensors\"},{\"text\":\"Ultrasonic Sensors\",\"link\":\"/sensors/ultrasonic-sensors\"},{\"text\":\"Temperature Sensors\",\"link\":\"/sensors/temperature-sensors\"},{\"text\":\"Pressure Sensors\",\"link\":\"/sensors/pressure-sensors\"},{\"text\":\"Level Sensors\",\"link\":\"/sensors/level-sensors\"},{\"text\":\"Encoders\",\"link\":\"/sensors/encoders\"},{\"text\":\"Limit Switches\",\"link\":\"/sensors/limit-switches\"}]},{\"text\":\"Actuators\",\"collapsed\":true,\"items\":[{\"text\":\"What is an Actuator\",\"link\":\"/actuators/what-is-an-actuator\"},{\"text\":\"Electric Actuators\",\"link\":\"/actuators/electric-actuators\"},{\"text\":\"Pneumatic Cylinders\",\"link\":\"/actuators/pneumatic-cylinders\"},{\"text\":\"Hydraulic Cylinders\",\"link\":\"/actuators/hydraulic-cylinders\"},{\"text\":\"Solenoids\",\"link\":\"/actuators/solenoids\"},{\"text\":\"Control Valves\",\"link\":\"/actuators/control-valves\"}]},{\"text\":\"Drives and Motion\",\"collapsed\":true,\"items\":[{\"text\":\"Variable Frequency Drives\",\"link\":\"/drives-and-motion/variable-frequency-drives\"},{\"text\":\"Servo Drives\",\"link\":\"/drives-and-motion/servo-drives\"},{\"text\":\"Motion Controllers\",\"link\":\"/drives-and-motion/motion-controllers\"},{\"text\":\"Speed Control\",\"link\":\"/drives-and-motion/speed-control\"},{\"text\":\"Torque Control\",\"link\":\"/drives-and-motion/torque-control\"}]},{\"text\":\"Electrical Panels\",\"collapsed\":true,\"items\":[{\"text\":\"Control Panels\",\"link\":\"/electrical-panels/control-panels\"},{\"text\":\"Panel Layout\",\"link\":\"/electrical-panels/panel-layout\"},{\"text\":\"Panel Wiring\",\"link\":\"/electrical-panels/panel-wiring\"},{\"text\":\"Cable Management\",\"link\":\"/electrical-panels/cable-management\"},{\"text\":\"Breakers\",\"link\":\"/electrical-panels/breakers\"},{\"text\":\"Contactors\",\"link\":\"/electrical-panels/contactors\"},{\"text\":\"Overload Relays\",\"link\":\"/electrical-panels/overload-relays\"},{\"text\":\"Power Supplies\",\"link\":\"/electrical-panels/power-supplies\"},{\"text\":\"Terminal Blocks\",\"link\":\"/electrical-panels/terminal-blocks\"}]},{\"text\":\"Industrial Safety\",\"collapsed\":true,\"items\":[{\"text\":\"Machine Safety Basics\",\"link\":\"/industrial-safety/machine-safety-basics\"},{\"text\":\"Risk Assessment\",\"link\":\"/industrial-safety/risk-assessment\"},{\"text\":\"Safety Categories\",\"link\":\"/industrial-safety/safety-categories\"},{\"text\":\"Emergency Stop Circuits\",\"link\":\"/industrial-safety/emergency-stop-circuits\"},{\"text\":\"Safety Relays\",\"link\":\"/industrial-safety/safety-relays\"},{\"text\":\"Safety PLC\",\"link\":\"/industrial-safety/safety-plc\"},{\"text\":\"Lockout Tagout\",\"link\":\"/industrial-safety/lockout-tagout\"}]},{\"text\":\"OT and IT\",\"collapsed\":true,\"items\":[{\"text\":\"OT vs IT\",\"link\":\"/ot-and-it/ot-vs-it\"},{\"text\":\"Industrial Network Architecture\",\"link\":\"/ot-and-it/industrial-network-architecture\"},{\"text\":\"Purdue Model\",\"link\":\"/ot-and-it/purdue-model\"},{\"text\":\"Edge Computing\",\"link\":\"/ot-and-it/edge-computing\"},{\"text\":\"Industrial Data Collection\",\"link\":\"/ot-and-it/industrial-data-collection\"},{\"text\":\"Cloud Integration\",\"link\":\"/ot-and-it/cloud-integration\"},{\"text\":\"Industrial IoT\",\"link\":\"/ot-and-it/industrial-iot\"}]},{\"text\":\"Industrial Cybersecurity\",\"collapsed\":true,\"items\":[{\"text\":\"Why Industrial Cybersecurity Matters\",\"link\":\"/industrial-cybersecurity/why-industrial-cybersecurity-matters\"},{\"text\":\"Common Threats in OT\",\"link\":\"/industrial-cybersecurity/common-threats-in-ot\"},{\"text\":\"Network Segmentation\",\"link\":\"/industrial-cybersecurity/network-segmentation\"},{\"text\":\"Firewalls in Industrial Networks\",\"link\":\"/industrial-cybersecurity/firewalls-in-industrial-networks\"},{\"text\":\"Secure Remote Access\",\"link\":\"/industrial-cybersecurity/secure-remote-access\"},{\"text\":\"Patch Management\",\"link\":\"/industrial-cybersecurity/patch-management\"},{\"text\":\"User Access Control\",\"link\":\"/industrial-cybersecurity/user-access-control\"},{\"text\":\"IEC 62443\",\"link\":\"/industrial-cybersecurity/iec-62443\"}]},{\"text\":\"Standards\",\"collapsed\":true,\"items\":[{\"text\":\"UL\",\"link\":\"/standards/ul\"},{\"text\":\"IEC\",\"link\":\"/standards/iec\"},{\"text\":\"ISO\",\"link\":\"/standards/iso\"},{\"text\":\"NEMA\",\"link\":\"/standards/nema\"},{\"text\":\"NOM\",\"link\":\"/standards/nom\"}]}],\"docFooter\":{\"prev\":\"Previous page\",\"next\":\"Next page\"}}},\"es\":{\"label\":\"Español\",\"lang\":\"es\",\"link\":\"/es/\",\"title\":\"Industrial Systems Handbook\",\"description\":\"Documentación técnica de automatización industrial.\",\"themeConfig\":{\"nav\":[{\"text\":\"Inicio\",\"link\":\"/\"},{\"text\":\"GitHub\",\"link\":\"https://github.com/\"}],\"sidebar\":[{\"text\":\"Inicio\",\"collapsed\":false,\"items\":[{\"text\":\"Descripción general\",\"link\":\"/es/home/overview\"},{\"text\":\"Objetivos del proyecto\",\"link\":\"/es/home/project-goals\"},{\"text\":\"Donaciones\",\"link\":\"/es/home/donations\"},{\"text\":\"Conviértete en socio\",\"link\":\"/es/home/become-a-partner\"},{\"text\":\"Cómo contribuir\",\"link\":\"/es/home/how-to-contribute\"}]},{\"text\":\"Primeros pasos\",\"collapsed\":false,\"items\":[{\"text\":\"Qué es este Handbook\",\"link\":\"/es/getting-started/what-is-this-handbook\"},{\"text\":\"Cómo usar este Handbook\",\"link\":\"/es/getting-started/how-to-use-this-handbook\"},{\"text\":\"Para quién es\",\"link\":\"/es/getting-started/who-this-is-for\"},{\"text\":\"Cómo navegar el Handbook\",\"link\":\"/es/getting-started/how-to-navigate-the-handbook\"}]},{\"text\":\"Fundamentos eléctricos\",\"collapsed\":true,\"items\":[{\"text\":\"Voltaje\",\"link\":\"/es/electrical-fundamentals/voltage\"},{\"text\":\"Corriente\",\"link\":\"/es/electrical-fundamentals/current\"},{\"text\":\"Resistencia\",\"link\":\"/es/electrical-fundamentals/resistance\"},{\"text\":\"Ley de Ohm\",\"link\":\"/es/electrical-fundamentals/ohms-law\"},{\"text\":\"Potencia eléctrica\",\"link\":\"/es/electrical-fundamentals/electric-power\"},{\"text\":\"CA vs CC\",\"link\":\"/es/electrical-fundamentals/ac-vs-dc\"},{\"text\":\"Sistemas monofásicos\",\"link\":\"/es/electrical-fundamentals/single-phase-systems\"},{\"text\":\"Sistemas trifásicos\",\"link\":\"/es/electrical-fundamentals/three-phase-systems\"},{\"text\":\"Factor de potencia\",\"link\":\"/es/electrical-fundamentals/power-factor\"},{\"text\":\"Puesta a tierra\",\"link\":\"/es/electrical-fundamentals/grounding\"},{\"text\":\"Ruido eléctrico\",\"link\":\"/es/electrical-fundamentals/electrical-noise\"}]},{\"text\":\"Calidad de energía\",\"collapsed\":true,\"items\":[{\"text\":\"Qué es la calidad de energía\",\"link\":\"/es/power-quality/what-is-power-quality\"},{\"text\":\"Caídas de voltaje\",\"link\":\"/es/power-quality/voltage-sags\"},{\"text\":\"Elevaciones de voltaje\",\"link\":\"/es/power-quality/voltage-swells\"},{\"text\":\"Armónicos\",\"link\":\"/es/power-quality/harmonics\"},{\"text\":\"Distorsión armónica total\",\"link\":\"/es/power-quality/total-harmonic-distortion\"},{\"text\":\"Corrección del factor de potencia\",\"link\":\"/es/power-quality/power-factor-correction\"},{\"text\":\"Flicker\",\"link\":\"/es/power-quality/flicker\"},{\"text\":\"Transientes y sobretensiones\",\"link\":\"/es/power-quality/transients-and-surges\"},{\"text\":\"Monitoreo de calidad de energía\",\"link\":\"/es/power-quality/power-quality-monitoring\"}]},{\"text\":\"Distribución eléctrica\",\"collapsed\":true,\"items\":[{\"text\":\"Sistemas de distribución eléctrica\",\"link\":\"/es/power-distribution/electrical-distribution-systems\"},{\"text\":\"Distribución de baja tensión\",\"link\":\"/es/power-distribution/low-voltage-distribution\"},{\"text\":\"Distribución de media tensión\",\"link\":\"/es/power-distribution/medium-voltage-distribution\"},{\"text\":\"Tableros principales\",\"link\":\"/es/power-distribution/main-distribution-panels\"},{\"text\":\"Subtableros\",\"link\":\"/es/power-distribution/sub-distribution-panels\"},{\"text\":\"Switchgear\",\"link\":\"/es/power-distribution/switchgear\"},{\"text\":\"Switchboards\",\"link\":\"/es/power-distribution/switchboards\"},{\"text\":\"Barras colectoras\",\"link\":\"/es/power-distribution/busbars\"},{\"text\":\"Transformadores\",\"link\":\"/es/power-distribution/transformers\"},{\"text\":\"Sistemas de puesta a tierra\",\"link\":\"/es/power-distribution/grounding-systems\"}]},{\"text\":\"Motores eléctricos\",\"collapsed\":true,\"items\":[{\"text\":\"Fundamentos de motores\",\"link\":\"/es/electric-motors/motor-fundamentals\"},{\"text\":\"Motores AC\",\"link\":\"/es/electric-motors/ac-motors\"},{\"text\":\"Motores DC\",\"link\":\"/es/electric-motors/dc-motors\"},{\"text\":\"Motores de inducción\",\"link\":\"/es/electric-motors/induction-motors\"},{\"text\":\"Motores síncronos\",\"link\":\"/es/electric-motors/synchronous-motors\"},{\"text\":\"Servomotores\",\"link\":\"/es/electric-motors/servo-motors\"},{\"text\":\"Motores paso a paso\",\"link\":\"/es/electric-motors/stepper-motors\"},{\"text\":\"Placas de datos\",\"link\":\"/es/electric-motors/motor-nameplates\"},{\"text\":\"Eficiencia de motores\",\"link\":\"/es/electric-motors/motor-efficiency\"},{\"text\":\"Enfriamiento\",\"link\":\"/es/electric-motors/motor-cooling\"},{\"text\":\"Protección\",\"link\":\"/es/electric-motors/motor-protection\"}]},{\"text\":\"Control de motores\",\"collapsed\":true,\"items\":[{\"text\":\"Centros de control de motores\",\"link\":\"/es/motor-control/motor-control-centers\"},{\"text\":\"Arquitectura MCC\",\"link\":\"/es/motor-control/mcc-architecture\"},{\"text\":\"Buckets de MCC\",\"link\":\"/es/motor-control/mcc-buckets\"},{\"text\":\"Arrancadores de motor\",\"link\":\"/es/motor-control/motor-starters\"},{\"text\":\"Arranque directo (DOL)\",\"link\":\"/es/motor-control/direct-on-line-starters\"},{\"text\":\"Arranque estrella-delta\",\"link\":\"/es/motor-control/star-delta-starters\"},{\"text\":\"Soft starters\",\"link\":\"/es/motor-control/soft-starters\"},{\"text\":\"Variadores de frecuencia\",\"link\":\"/es/motor-control/variable-frequency-drives\"}]},{\"text\":\"Cables y cableado\",\"collapsed\":true,\"items\":[{\"text\":\"Introducción a cables\",\"link\":\"/es/cables-and-wiring/electrical-cables-overview\"},{\"text\":\"Materiales conductores\",\"link\":\"/es/cables-and-wiring/conductor-materials\"},{\"text\":\"Tipos de cable\",\"link\":\"/es/cables-and-wiring/cable-types\"},{\"text\":\"Cables blindados\",\"link\":\"/es/cables-and-wiring/shielded-cables\"},{\"text\":\"Cables de instrumentación\",\"link\":\"/es/cables-and-wiring/instrumentation-cables\"},{\"text\":\"Cables de potencia\",\"link\":\"/es/cables-and-wiring/power-cables\"},{\"text\":\"Cables de control\",\"link\":\"/es/cables-and-wiring/control-cables\"},{\"text\":\"Cables de comunicación\",\"link\":\"/es/cables-and-wiring/communication-cables\"},{\"text\":\"Dimensionamiento de cables\",\"link\":\"/es/cables-and-wiring/cable-sizing\"},{\"text\":\"Caída de voltaje\",\"link\":\"/es/cables-and-wiring/voltage-drop\"},{\"text\":\"Capacidad de corriente\",\"link\":\"/es/cables-and-wiring/current-carrying-capacity\"},{\"text\":\"Ruteo de cables\",\"link\":\"/es/cables-and-wiring/cable-routing\"},{\"text\":\"Bandejas portacables\",\"link\":\"/es/cables-and-wiring/cable-trays\"},{\"text\":\"Sistemas de conduit\",\"link\":\"/es/cables-and-wiring/conduit-systems\"}]},{\"text\":\"Control industrial\",\"collapsed\":true,\"items\":[{\"text\":\"Qué es un PLC\",\"link\":\"/es/industrial-control/plc/what-is-a-plc\"},{\"text\":\"Arquitectura de PLC\",\"link\":\"/es/industrial-control/plc/plc-architecture\"},{\"text\":\"Ciclo de escaneo del PLC\",\"link\":\"/es/industrial-control/plc/plc-scan-cycle\"},{\"text\":\"CPU del PLC\",\"link\":\"/es/industrial-control/plc/plc-cpu\"},{\"text\":\"Memoria del PLC\",\"link\":\"/es/industrial-control/plc/plc-memory\"},{\"text\":\"Módulos I/O del PLC\",\"link\":\"/es/industrial-control/plc/plc-io-modules\"},{\"text\":\"Entradas y salidas\",\"link\":\"/es/industrial-control/plc/inputs-and-outputs\"},{\"text\":\"Señales digitales vs analógicas\",\"link\":\"/es/industrial-control/plc/digital-vs-analog-signals\"},{\"text\":\"Lógica Ladder\",\"link\":\"/es/industrial-control/plc/ladder-logic\"},{\"text\":\"Diagrama de bloques de función\",\"link\":\"/es/industrial-control/plc/function-block-diagram\"},{\"text\":\"Texto estructurado\",\"link\":\"/es/industrial-control/plc/structured-text\"},{\"text\":\"Sequential Function Chart\",\"link\":\"/es/industrial-control/plc/sequential-function-chart\"},{\"text\":\"Cómo seleccionar un PLC\",\"link\":\"/es/industrial-control/plc/how-to-select-a-plc\"},{\"text\":\"Qué es un HMI\",\"link\":\"/es/industrial-control/hmi/what-is-an-hmi\"},{\"text\":\"Arquitectura HMI\",\"link\":\"/es/industrial-control/hmi/hmi-architecture\"},{\"text\":\"Principios de diseño HMI\",\"link\":\"/es/industrial-control/hmi/hmi-design-principles\"},{\"text\":\"Gestión de alarmas\",\"link\":\"/es/industrial-control/hmi/alarm-management\"},{\"text\":\"Qué es SCADA\",\"link\":\"/es/industrial-control/scada/what-is-scada\"},{\"text\":\"Arquitectura SCADA\",\"link\":\"/es/industrial-control/scada/scada-architecture\"},{\"text\":\"Historiador de datos\",\"link\":\"/es/industrial-control/scada/data-historian\"},{\"text\":\"SCADA vs HMI\",\"link\":\"/es/industrial-control/scada/scada-vs-hmi\"}]},{\"text\":\"Redes industriales\",\"collapsed\":true,\"items\":[{\"text\":\"Ethernet industrial\",\"link\":\"/es/industrial-networks/industrial-ethernet\"},{\"text\":\"EtherNet/IP\",\"link\":\"/es/industrial-networks/ethernet-ip\"},{\"text\":\"Modbus RTU\",\"link\":\"/es/industrial-networks/modbus-rtu\"},{\"text\":\"Modbus TCP\",\"link\":\"/es/industrial-networks/modbus-tcp\"},{\"text\":\"Profinet\",\"link\":\"/es/industrial-networks/profinet\"},{\"text\":\"Profibus\",\"link\":\"/es/industrial-networks/profibus\"},{\"text\":\"CAN Bus\",\"link\":\"/es/industrial-networks/can-bus\"},{\"text\":\"DeviceNet\",\"link\":\"/es/industrial-networks/devicenet\"},{\"text\":\"OPC UA\",\"link\":\"/es/industrial-networks/opc-ua\"},{\"text\":\"Gateways industriales\",\"link\":\"/es/industrial-networks/industrial-gateways\"}]},{\"text\":\"Sensores\",\"collapsed\":true,\"items\":[{\"text\":\"Qué es un sensor\",\"link\":\"/es/sensors/what-is-a-sensor\"},{\"text\":\"Sensores inductivos\",\"link\":\"/es/sensors/inductive-sensors\"},{\"text\":\"Sensores capacitivos\",\"link\":\"/es/sensors/capacitive-sensors\"},{\"text\":\"Sensores fotoeléctricos\",\"link\":\"/es/sensors/photoelectric-sensors\"},{\"text\":\"Sensores ultrasónicos\",\"link\":\"/es/sensors/ultrasonic-sensors\"},{\"text\":\"Sensores de temperatura\",\"link\":\"/es/sensors/temperature-sensors\"},{\"text\":\"Sensores de presión\",\"link\":\"/es/sensors/pressure-sensors\"},{\"text\":\"Sensores de nivel\",\"link\":\"/es/sensors/level-sensors\"},{\"text\":\"Encoders\",\"link\":\"/es/sensors/encoders\"},{\"text\":\"Interruptores de límite\",\"link\":\"/es/sensors/limit-switches\"}]},{\"text\":\"Actuadores\",\"collapsed\":true,\"items\":[{\"text\":\"Qué es un actuador\",\"link\":\"/es/actuators/what-is-an-actuator\"},{\"text\":\"Actuadores eléctricos\",\"link\":\"/es/actuators/electric-actuators\"},{\"text\":\"Cilindros neumáticos\",\"link\":\"/es/actuators/pneumatic-cylinders\"},{\"text\":\"Cilindros hidráulicos\",\"link\":\"/es/actuators/hydraulic-cylinders\"},{\"text\":\"Solenoides\",\"link\":\"/es/actuators/solenoids\"},{\"text\":\"Válvulas de control\",\"link\":\"/es/actuators/control-valves\"}]},{\"text\":\"Drives y movimiento\",\"collapsed\":true,\"items\":[{\"text\":\"Variadores de frecuencia\",\"link\":\"/es/drives-and-motion/variable-frequency-drives\"},{\"text\":\"Servo drives\",\"link\":\"/es/drives-and-motion/servo-drives\"},{\"text\":\"Controladores de movimiento\",\"link\":\"/es/drives-and-motion/motion-controllers\"},{\"text\":\"Control de velocidad\",\"link\":\"/es/drives-and-motion/speed-control\"},{\"text\":\"Control de torque\",\"link\":\"/es/drives-and-motion/torque-control\"}]},{\"text\":\"Tableros eléctricos\",\"collapsed\":true,\"items\":[{\"text\":\"Tableros de control\",\"link\":\"/es/electrical-panels/control-panels\"},{\"text\":\"Diseño de tableros\",\"link\":\"/es/electrical-panels/panel-layout\"},{\"text\":\"Cableado de tableros\",\"link\":\"/es/electrical-panels/panel-wiring\"},{\"text\":\"Gestión de cables\",\"link\":\"/es/electrical-panels/cable-management\"},{\"text\":\"Interruptores automáticos\",\"link\":\"/es/electrical-panels/breakers\"},{\"text\":\"Contactores\",\"link\":\"/es/electrical-panels/contactors\"},{\"text\":\"Relés de sobrecarga\",\"link\":\"/es/electrical-panels/overload-relays\"},{\"text\":\"Fuentes de alimentación\",\"link\":\"/es/electrical-panels/power-supplies\"},{\"text\":\"Bloques terminales\",\"link\":\"/es/electrical-panels/terminal-blocks\"}]},{\"text\":\"Seguridad industrial\",\"collapsed\":true,\"items\":[{\"text\":\"Fundamentos de seguridad en maquinaria\",\"link\":\"/es/industrial-safety/machine-safety-basics\"},{\"text\":\"Evaluación de riesgos\",\"link\":\"/es/industrial-safety/risk-assessment\"},{\"text\":\"Categorías de seguridad\",\"link\":\"/es/industrial-safety/safety-categories\"},{\"text\":\"Circuitos de paro de emergencia\",\"link\":\"/es/industrial-safety/emergency-stop-circuits\"},{\"text\":\"Relés de seguridad\",\"link\":\"/es/industrial-safety/safety-relays\"},{\"text\":\"PLC de seguridad\",\"link\":\"/es/industrial-safety/safety-plc\"},{\"text\":\"Lockout Tagout (LOTO)\",\"link\":\"/es/industrial-safety/lockout-tagout\"}]},{\"text\":\"OT y IT\",\"collapsed\":true,\"items\":[{\"text\":\"OT vs IT\",\"link\":\"/es/ot-and-it/ot-vs-it\"},{\"text\":\"Arquitectura de red industrial\",\"link\":\"/es/ot-and-it/industrial-network-architecture\"},{\"text\":\"Modelo Purdue\",\"link\":\"/es/ot-and-it/purdue-model\"},{\"text\":\"Edge computing\",\"link\":\"/es/ot-and-it/edge-computing\"},{\"text\":\"Recolección de datos industriales\",\"link\":\"/es/ot-and-it/industrial-data-collection\"},{\"text\":\"Integración con la nube\",\"link\":\"/es/ot-and-it/cloud-integration\"},{\"text\":\"IoT industrial\",\"link\":\"/es/ot-and-it/industrial-iot\"}]},{\"text\":\"Ciberseguridad industrial\",\"collapsed\":true,\"items\":[{\"text\":\"Por qué importa la ciberseguridad industrial\",\"link\":\"/es/industrial-cybersecurity/why-industrial-cybersecurity-matters\"},{\"text\":\"Amenazas comunes en OT\",\"link\":\"/es/industrial-cybersecurity/common-threats-in-ot\"},{\"text\":\"Segmentación de red\",\"link\":\"/es/industrial-cybersecurity/network-segmentation\"},{\"text\":\"Firewalls en redes industriales\",\"link\":\"/es/industrial-cybersecurity/firewalls-in-industrial-networks\"},{\"text\":\"Acceso remoto seguro\",\"link\":\"/es/industrial-cybersecurity/secure-remote-access\"},{\"text\":\"Gestión de parches\",\"link\":\"/es/industrial-cybersecurity/patch-management\"},{\"text\":\"Control de acceso de usuarios\",\"link\":\"/es/industrial-cybersecurity/user-access-control\"},{\"text\":\"IEC 62443\",\"link\":\"/es/industrial-cybersecurity/iec-62443\"}]},{\"text\":\"Normativas\",\"collapsed\":true,\"items\":[{\"text\":\"UL\",\"link\":\"/es/standards/ul\"},{\"text\":\"IEC\",\"link\":\"/es/standards/iec\"},{\"text\":\"ISO\",\"link\":\"/es/standards/iso\"},{\"text\":\"NEMA\",\"link\":\"/es/standards/nema\"},{\"text\":\"NOM\",\"link\":\"/es/standards/nom\"}]}],\"docFooter\":{\"prev\":\"Página anterior\",\"next\":\"Página siguiente\"}}}},\"scrollOffset\":134,\"cleanUrls\":false}");</script>
+    
+  </body>
+</html>
