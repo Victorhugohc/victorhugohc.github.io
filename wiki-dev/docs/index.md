@@ -14,28 +14,28 @@ hero:
       link: https://github.com/
 ---
 
-<script>
-  (function () {
-    const savedLang = localStorage.getItem('preferred-lang')
+<script setup>
+import { onMounted } from 'vue'
 
-    // Si ya eligió idioma antes → usar ese
-    if (savedLang) {
-      if (savedLang === 'es' && location.pathname === '/') {
-        window.location.replace('/es/')
-      }
-      return
+onMounted(() => {
+  const savedLang = localStorage.getItem('preferred-lang')
+
+  if (savedLang) {
+    if (savedLang === 'es' && location.pathname === '/') {
+      window.location.replace('/es/')
     }
+    return
+  }
 
-    // Detectar idioma del navegador
-    const userLang = navigator.language || navigator.userLanguage
+  const userLang = navigator.language || navigator.userLanguage
 
-    if (userLang.startsWith('es')) {
-      localStorage.setItem('preferred-lang', 'es')
-      if (location.pathname === '/') {
-        window.location.replace('/es/')
-      }
-    } else {
-      localStorage.setItem('preferred-lang', 'en')
+  if (userLang.startsWith('es')) {
+    localStorage.setItem('preferred-lang', 'es')
+    if (location.pathname === '/') {
+      window.location.replace('/es/')
     }
-  })()
+  } else {
+    localStorage.setItem('preferred-lang', 'en')
+  }
+})
 </script>
