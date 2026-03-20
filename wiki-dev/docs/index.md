@@ -13,3 +13,29 @@ hero:
       text: GitHub
       link: https://github.com/
 ---
+
+<script>
+  (function () {
+    const savedLang = localStorage.getItem('preferred-lang')
+
+    // Si ya eligió idioma antes → usar ese
+    if (savedLang) {
+      if (savedLang === 'es' && location.pathname === '/') {
+        window.location.replace('/es/')
+      }
+      return
+    }
+
+    // Detectar idioma del navegador
+    const userLang = navigator.language || navigator.userLanguage
+
+    if (userLang.startsWith('es')) {
+      localStorage.setItem('preferred-lang', 'es')
+      if (location.pathname === '/') {
+        window.location.replace('/es/')
+      }
+    } else {
+      localStorage.setItem('preferred-lang', 'en')
+    }
+  })()
+</script>

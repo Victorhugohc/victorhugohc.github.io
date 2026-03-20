@@ -6,285 +6,495 @@ export const sidebarEN: DefaultTheme.Sidebar = [
     collapsed: false,
     items: [
       { text: 'Overview', link: '/home/overview' },
-      { text: 'Project Goals', link: '/home/project-goals' },
-      { text: 'Donations', link: '/home/donations' },
-      { text: 'Become a Partner', link: '/home/become-a-partner' },
-      { text: 'How to Contribute', link: '/home/how-to-contribute' }
+      { text: 'Road Map', link: '/home/road-map' },
+      { text: 'Support', link: '/home/support' },
+      { text: 'Contribute', link: '/home/contribute' }
     ]
   },
-  
+
   {
-    text: 'Getting Started',
+    text: 'Concepts',
     collapsed: false,
     items: [
-      { text: 'What is the Handbook', link: '/getting-started/what-is-this-handbook' },
-      { text: 'How to Use This Handbook', link: '/getting-started/how-to-use-this-handbook' },
-      { text: 'Who This Is For', link: '/getting-started/who-this-is-for' },
-      { text: 'How to Navigate the Handbook', link: '/getting-started/how-to-navigate-the-handbook' }
+      { text: 'System Overview', link: '/concepts/system-overview' },
+      { text: 'How Industrial Systems Work', link: '/concepts/how-industrial-systems-work' }
     ]
   },
 
+//   {
+//     text: 'Electrical Fundamentals',
+//     collapsed: true,
+//     items: [
+//       { text: 'Voltage', link: '/electrical-fundamentals/voltage' },
+//       { text: 'Current', link: '/electrical-fundamentals/current' },
+//       { text: 'Resistance', link: '/electrical-fundamentals/resistance' },
+//       { text: "Ohm's Law", link: '/electrical-fundamentals/ohms-law' },
+//       { text: 'Electric Power', link: '/electrical-fundamentals/electric-power' },
+//       { text: 'AC vs DC', link: '/electrical-fundamentals/ac-vs-dc' },
+//       { text: 'Single Phase', link: '/electrical-fundamentals/single-phase' },
+//       { text: 'Three Phase', link: '/electrical-fundamentals/three-phase' },
+//       { text: 'Power Factor', link: '/electrical-fundamentals/power-factor' },
+//       { text: 'Grounding', link: '/electrical-fundamentals/grounding' },
+//       { text: 'Electrical Noise', link: '/electrical-fundamentals/electrical-noise' }
+//     ]
+//   },
+
+//     {
+//     text: 'Power Systems',
+//     collapsed: true,
+//     items: [
+//       { text: 'Overview', link: '/power-systems/overview' },
+
+//       {
+//         text: 'Distribution',
+//         collapsed: true,
+//         items: [
+//           { text: 'Distribution Systems', link: '/power-systems/distribution/distribution-systems' },
+//           { text: 'Low Voltage', link: '/power-systems/distribution/low-voltage' },
+//           { text: 'Medium Voltage', link: '/power-systems/distribution/medium-voltage' },
+//           { text: 'Transformers', link: '/power-systems/distribution/transformers' }
+//         ]
+//       },
+
+//       {
+//         text: 'Equipment',
+//         collapsed: true,
+//         items: [
+//           { text: 'Switchgear', link: '/power-systems/equipment/switchgear' },
+//           { text: 'Switchboards', link: '/power-systems/equipment/switchboards' },
+//           { text: 'Busbars', link: '/power-systems/equipment/busbars' },
+//           { text: 'Distribution Panels', link: '/power-systems/equipment/distribution-panels' }
+//         ]
+//       },
+
+//       {
+//         text: 'Protection',
+//         collapsed: true,
+//         items: [
+//           { text: 'Protection Basics', link: '/power-systems/protection/protection-basics' },
+//           { text: 'Protective Devices', link: '/power-systems/protection/protective-devices' },
+//           { text: 'Overcurrent Protection', link: '/power-systems/protection/overcurrent-protection' },
+//           { text: 'Coordination of Protections', link: '/power-systems/protection/coordination-of-protections' },
+//           { text: 'Arc Flash Basics', link: '/power-systems/protection/arc-flash-basics' }
+//         ]
+//       },
+
+//       {
+//         text: 'Studies',
+//         collapsed: true,
+//         items: [
+//           { text: 'Short Circuit Analysis', link: '/power-systems/studies/short-circuit-analysis' }
+//         ]
+//       },
+
+//       { text: 'Equipment Selection', link: '/power-systems/equipment-selection' }
+//     ]
+//   },
+
+//   {
+//     text: 'Power Quality',
+//     collapsed: true,
+//     items: [
+//       { text: 'Overview', link: '/power-quality/overview' },
+//       { text: 'Voltage Sags', link: '/power-quality/voltage-sags' },
+//       { text: 'Voltage Swells', link: '/power-quality/voltage-swells' },
+//       { text: 'Harmonics', link: '/power-quality/harmonics' },
+//       { text: 'THD', link: '/power-quality/thd' },
+//       { text: 'Power Factor Correction', link: '/power-quality/power-factor-correction' },
+//       { text: 'Flicker', link: '/power-quality/flicker' },
+//       { text: 'Transients & Surges', link: '/power-quality/transients-surges' },
+//       { text: 'Monitoring', link: '/power-quality/monitoring' }
+//     ]
+//   },
+
   {
-    text: 'Electrical Fundamentals',
-    collapsed: true,
+    text: 'Cables',
+    collapsed: false,
     items: [
-      { text: 'Voltage', link: '/electrical-fundamentals/voltage' },
-      { text: 'Current', link: '/electrical-fundamentals/current' },
-      { text: 'Resistance', link: '/electrical-fundamentals/resistance' },
-      { text: "Ohm's Law", link: '/electrical-fundamentals/ohms-law' },
-      { text: 'Electric Power', link: '/electrical-fundamentals/electric-power' },
-      { text: 'AC vs DC', link: '/electrical-fundamentals/ac-vs-dc' },
-      { text: 'Single Phase Systems', link: '/electrical-fundamentals/single-phase-systems' },
-      { text: 'Three Phase Systems', link: '/electrical-fundamentals/three-phase-systems' },
-      { text: 'Power Factor', link: '/electrical-fundamentals/power-factor' },
-      { text: 'Grounding', link: '/electrical-fundamentals/grounding' },
-      { text: 'Electrical Noise', link: '/electrical-fundamentals/electrical-noise' }
+      { text: 'Overview', link: '/cables/overview' },
+      { text: 'Conductor Materials', link: '/cables/conductor-materials' },
+      { text: 'Cable Types', link: '/cables/cable-types' },
+      { text: 'Power Cables', link: '/cables/power-cables' },
+      { text: 'Control Cables', link: '/cables/control-cables' },
+      { text: 'Communication Cables', link: '/cables/communication-cables' },
+      { text: 'Shielded Cables', link: '/cables/shielded' },
+      { text: 'Instrumentation Cables', link: '/cables/instrumentation' },
+      { text: 'Cable Sizing', link: '/cables/cable-sizing' },
+      { text: 'Voltage Drop', link: '/cables/voltage-drop' },
+      { text: 'Current Capacity', link: '/cables/current-capacity' },
+      { text: 'Routing', link: '/cables/routing' },
+      { text: 'Cable Trays', link: '/cables/trays' },
+      { text: 'Conduit', link: '/cables/conduit' },
+      { text: 'Cable Selection', link: '/cables/cable-selection' }
     ]
   },
 
-  {
-    text: 'Power Quality',
-    collapsed: true,
-    items: [
-      { text: 'What is Power Quality', link: '/power-quality/what-is-power-quality' },
-      { text: 'Voltage Sags', link: '/power-quality/voltage-sags' },
-      { text: 'Voltage Swells', link: '/power-quality/voltage-swells' },
-      { text: 'Harmonics', link: '/power-quality/harmonics' },
-      { text: 'Total Harmonic Distortion', link: '/power-quality/total-harmonic-distortion' },
-      { text: 'Power Factor Correction', link: '/power-quality/power-factor-correction' },
-      { text: 'Flicker', link: '/power-quality/flicker' },
-      { text: 'Transients and Surges', link: '/power-quality/transients-and-surges' },
-      { text: 'Power Quality Monitoring', link: '/power-quality/power-quality-monitoring' }
-    ]
-  },
+//     {
+//     text: 'Industrial Equipment',
+//     collapsed: true,
+//     items: [
+//       {
+//         text: 'Motors',
+//         collapsed: true,
+//         items: [
+//           { text: 'Motors Overview', link: '/industrial-equipment/motors/motors-overview' },
+//           { text: 'Motor Types', link: '/industrial-equipment/motors/motor-types' },
+//           { text: 'Induction Motors', link: '/industrial-equipment/motors/induction-motors' },
+//           { text: 'Synchronous Motors', link: '/industrial-equipment/motors/synchronous-motors' },
+//           { text: 'DC Motors', link: '/industrial-equipment/motors/dc-motors' },
+//           { text: 'Servo Motors', link: '/industrial-equipment/motors/servo-motors' },
+//           { text: 'Stepper Motors', link: '/industrial-equipment/motors/stepper-motors' },
+//           { text: 'Motor Nameplates', link: '/industrial-equipment/motors/motor-nameplates' },
+//           { text: 'Motor Efficiency', link: '/industrial-equipment/motors/motor-efficiency' },
+//           { text: 'Motor Cooling', link: '/industrial-equipment/motors/motor-cooling' },
+//           { text: 'Motor Protection', link: '/industrial-equipment/motors/motor-protection' },
+//           { text: 'Motor Selection', link: '/industrial-equipment/motors/motor-selection' }
+//         ]
+//       },
 
-  {
-    text: 'Power Distribution',
-    collapsed: true,
-    items: [
-      { text: 'Electrical Distribution Systems', link: '/power-distribution/electrical-distribution-systems' },
-      { text: 'Low Voltage Distribution', link: '/power-distribution/low-voltage-distribution' },
-      { text: 'Medium Voltage Distribution', link: '/power-distribution/medium-voltage-distribution' },
-      { text: 'Main Distribution Panels', link: '/power-distribution/main-distribution-panels' },
-      { text: 'Sub Distribution Panels', link: '/power-distribution/sub-distribution-panels' },
-      { text: 'Switchgear', link: '/power-distribution/switchgear' },
-      { text: 'Switchboards', link: '/power-distribution/switchboards' },
-      { text: 'Busbars', link: '/power-distribution/busbars' },
-      { text: 'Transformers', link: '/power-distribution/transformers' },
-      { text: 'Grounding Systems', link: '/power-distribution/grounding-systems' }
-    ]
-  },
+//       {
+//         text: 'Drives',
+//         collapsed: true,
+//         items: [
+//           { text: 'Drives Overview', link: '/industrial-equipment/drives/drives-overview' },
+//           { text: 'VFD', link: '/industrial-equipment/drives/vfd' },
+//           { text: 'Servo Drives', link: '/industrial-equipment/drives/servo-drives' },
+//           { text: 'Motion Controllers', link: '/industrial-equipment/drives/motion-controllers' },
+//           { text: 'Speed Control', link: '/industrial-equipment/drives/speed-control' },
+//           { text: 'Torque Control', link: '/industrial-equipment/drives/torque-control' },
+//           { text: 'Drive Selection', link: '/industrial-equipment/drives/drive-selection' }
+//         ]
+//       },
 
-  {
-    text: 'Electric Motors',
-    collapsed: true,
-    items: [
-      { text: 'Motor Fundamentals', link: '/electric-motors/motor-fundamentals' },
-      { text: 'AC Motors', link: '/electric-motors/ac-motors' },
-      { text: 'DC Motors', link: '/electric-motors/dc-motors' },
-      { text: 'Induction Motors', link: '/electric-motors/induction-motors' },
-      { text: 'Synchronous Motors', link: '/electric-motors/synchronous-motors' },
-      { text: 'Servo Motors', link: '/electric-motors/servo-motors' },
-      { text: 'Stepper Motors', link: '/electric-motors/stepper-motors' },
-      { text: 'Motor Nameplates', link: '/electric-motors/motor-nameplates' },
-      { text: 'Motor Efficiency', link: '/electric-motors/motor-efficiency' },
-      { text: 'Motor Cooling', link: '/electric-motors/motor-cooling' },
-      { text: 'Motor Protection', link: '/electric-motors/motor-protection' }
-    ]
-  },
+//       {
+//         text: 'Sensors',
+//         collapsed: true,
+//         items: [
+//           { text: 'Sensors Overview', link: '/industrial-equipment/sensors/sensors-overview' },
+//           { text: 'Sensor Types', link: '/industrial-equipment/sensors/sensor-types' },
+//           { text: 'Sensor Selection', link: '/industrial-equipment/sensors/sensor-selection' }
+//         ]
+//       },
 
-  {
-  text: 'Motor Control',
-  collapsed: true,
-  items: [
-    { text: 'Motor Control Centers', link: '/motor-control/motor-control-centers' },
-    { text: 'MCC Architecture', link: '/motor-control/mcc-architecture' },
-    { text: 'MCC Buckets', link: '/motor-control/mcc-buckets' },
-    { text: 'Motor Starters', link: '/motor-control/motor-starters' },
-    { text: 'Direct On Line Starters', link: '/motor-control/direct-on-line-starters' },
-    { text: 'Star Delta Starters', link: '/motor-control/star-delta-starters' },
-    { text: 'Soft Starters', link: '/motor-control/soft-starters' },
-    { text: 'Variable Frequency Drives', link: '/motor-control/variable-frequency-drives' }
-  ]
-},
+//       {
+//         text: 'Actuators',
+//         collapsed: true,
+//         items: [
+//           { text: 'Actuators Overview', link: '/industrial-equipment/actuators/actuators-overview' },
+//           { text: 'Electric Actuators', link: '/industrial-equipment/actuators/electric-actuators' },
+//           { text: 'Pneumatic', link: '/industrial-equipment/actuators/pneumatic' },
+//           { text: 'Hydraulic', link: '/industrial-equipment/actuators/hydraulic' },
+//           { text: 'Solenoids', link: '/industrial-equipment/actuators/solenoids' },
+//           { text: 'Control Valves', link: '/industrial-equipment/actuators/control-valves' },
+//           { text: 'Actuator Selection', link: '/industrial-equipment/actuators/actuator-selection' }
+//         ]
+//       }
+//     ]
+//   },
 
-{
-  text: 'Cables and Wiring',
-  collapsed: true,
-  items: [
-    { text: 'Electrical Cables Overview', link: '/cables-and-wiring/electrical-cables-overview' },
-    { text: 'Conductor Materials', link: '/cables-and-wiring/conductor-materials' },
-    { text: 'Cable Types', link: '/cables-and-wiring/cable-types' },
-    { text: 'Shielded Cables', link: '/cables-and-wiring/shielded-cables' },
-    { text: 'Instrumentation Cables', link: '/cables-and-wiring/instrumentation-cables' },
-    { text: 'Power Cables', link: '/cables-and-wiring/power-cables' },
-    { text: 'Control Cables', link: '/cables-and-wiring/control-cables' },
-    { text: 'Communication Cables', link: '/cables-and-wiring/communication-cables' },
-    { text: 'Cable Sizing', link: '/cables-and-wiring/cable-sizing' },
-    { text: 'Voltage Drop', link: '/cables-and-wiring/voltage-drop' },
-    { text: 'Current Carrying Capacity', link: '/cables-and-wiring/current-carrying-capacity' },
-    { text: 'Cable Routing', link: '/cables-and-wiring/cable-routing' },
-    { text: 'Cable Trays', link: '/cables-and-wiring/cable-trays' },
-    { text: 'Conduit Systems', link: '/cables-and-wiring/conduit-systems' }
-  ]
-},
+//   {
+//     text: 'Control Systems',
+//     collapsed: true,
+//     items: [
+//       {
+//         text: 'Basics',
+//         collapsed: true,
+//         items: [
+//           { text: 'Control Philosophy', link: '/control-systems/basics/control-philosophy' },
+//           { text: 'Open vs Closed Loop', link: '/control-systems/basics/open-vs-closed-loop' },
+//           { text: 'PID Basics', link: '/control-systems/basics/pid-basics' }
+//         ]
+//       },
 
-{
-  text: 'Industrial Control',
-  collapsed: true,
-  items: [
-    { text: 'What is a PLC', link: '/industrial-control/plc/what-is-a-plc' },
-    { text: 'PLC Architecture', link: '/industrial-control/plc/plc-architecture' },
-    { text: 'PLC Scan Cycle', link: '/industrial-control/plc/plc-scan-cycle' },
-    { text: 'PLC CPU', link: '/industrial-control/plc/plc-cpu' },
-    { text: 'PLC Memory', link: '/industrial-control/plc/plc-memory' },
-    { text: 'PLC I/O Modules', link: '/industrial-control/plc/plc-io-modules' },
-    { text: 'Inputs and Outputs', link: '/industrial-control/plc/inputs-and-outputs' },
-    { text: 'Digital vs Analog Signals', link: '/industrial-control/plc/digital-vs-analog-signals' },
-    { text: 'Ladder Logic', link: '/industrial-control/plc/ladder-logic' },
-    { text: 'Function Block Diagram', link: '/industrial-control/plc/function-block-diagram' },
-    { text: 'Structured Text', link: '/industrial-control/plc/structured-text' },
-    { text: 'Sequential Function Chart', link: '/industrial-control/plc/sequential-function-chart' },
-    { text: 'How to Select a PLC', link: '/industrial-control/plc/how-to-select-a-plc' },
-    { text: 'What is an HMI', link: '/industrial-control/hmi/what-is-an-hmi' },
-    { text: 'HMI Architecture', link: '/industrial-control/hmi/hmi-architecture' },
-    { text: 'HMI Design Principles', link: '/industrial-control/hmi/hmi-design-principles' },
-    { text: 'Alarm Management', link: '/industrial-control/hmi/alarm-management' },
-    { text: 'What is SCADA', link: '/industrial-control/scada/what-is-scada' },
-    { text: 'SCADA Architecture', link: '/industrial-control/scada/scada-architecture' },
-    { text: 'Data Historian', link: '/industrial-control/scada/data-historian' },
-    { text: 'SCADA vs HMI', link: '/industrial-control/scada/scada-vs-hmi' }
-  ]
-},
+//       {
+//         text: 'PLC',
+//         collapsed: true,
+//         items: [
+//           { text: 'PLC Overview', link: '/control-systems/plc/plc-overview' },
+//           { text: 'PLC Architecture', link: '/control-systems/plc/plc-architecture' },
+//           { text: 'PLC Scan Cycle', link: '/control-systems/plc/plc-scan-cycle' },
+//           { text: 'PLC CPU', link: '/control-systems/plc/plc-cpu' },
+//           { text: 'PLC Memory', link: '/control-systems/plc/plc-memory' },
+//           { text: 'PLC I/O', link: '/control-systems/plc/plc-io' },
+//           { text: 'Digital vs Analog', link: '/control-systems/plc/digital-vs-analog' },
+//           { text: 'PLC Communication', link: '/control-systems/plc/plc-communication' },
+//           { text: 'Ladder Logic', link: '/control-systems/plc/ladder-logic' },
+//           { text: 'Function Block', link: '/control-systems/plc/function-block' },
+//           { text: 'Structured Text', link: '/control-systems/plc/structured-text' },
+//           { text: 'SFC', link: '/control-systems/plc/sfc' },
+//           { text: 'PLC Selection', link: '/control-systems/plc/plc-selection' },
+//           { text: 'PLC Basic Design', link: '/control-systems/plc/plc-basic-design' }
+//         ]
+//       },
 
-{
-  text: 'Industrial Networks',
-  collapsed: true,
-  items: [
-    { text: 'Industrial Ethernet', link: '/industrial-networks/industrial-ethernet' },
-    { text: 'Ethernet/IP', link: '/industrial-networks/ethernet-ip' },
-    { text: 'Modbus RTU', link: '/industrial-networks/modbus-rtu' },
-    { text: 'Modbus TCP', link: '/industrial-networks/modbus-tcp' },
-    { text: 'Profinet', link: '/industrial-networks/profinet' },
-    { text: 'Profibus', link: '/industrial-networks/profibus' },
-    { text: 'CAN Bus', link: '/industrial-networks/can-bus' },
-    { text: 'DeviceNet', link: '/industrial-networks/devicenet' },
-    { text: 'OPC UA', link: '/industrial-networks/opc-ua' },
-    { text: 'Industrial Gateways', link: '/industrial-networks/industrial-gateways' }
-  ]
-},
+//       {
+//         text: 'HMI',
+//         collapsed: true,
+//         items: [
+//           { text: 'HMI Overview', link: '/control-systems/hmi/hmi-overview' },
+//           { text: 'HMI Architecture', link: '/control-systems/hmi/hmi-architecture' },
+//           { text: 'HMI Design', link: '/control-systems/hmi/hmi-design' },
+//           { text: 'Alarm Management', link: '/control-systems/hmi/alarm-management' }
+//         ]
+//       },
 
-{
-  text: 'Sensors',
-  collapsed: true,
-  items: [
-    { text: 'What is a Sensor', link: '/sensors/what-is-a-sensor' },
-    { text: 'Inductive Sensors', link: '/sensors/inductive-sensors' },
-    { text: 'Capacitive Sensors', link: '/sensors/capacitive-sensors' },
-    { text: 'Photoelectric Sensors', link: '/sensors/photoelectric-sensors' },
-    { text: 'Ultrasonic Sensors', link: '/sensors/ultrasonic-sensors' },
-    { text: 'Temperature Sensors', link: '/sensors/temperature-sensors' },
-    { text: 'Pressure Sensors', link: '/sensors/pressure-sensors' },
-    { text: 'Level Sensors', link: '/sensors/level-sensors' },
-    { text: 'Encoders', link: '/sensors/encoders' },
-    { text: 'Limit Switches', link: '/sensors/limit-switches' }
-  ]
-},
+//       {
+//         text: 'SCADA',
+//         collapsed: true,
+//         items: [
+//           { text: 'SCADA Overview', link: '/control-systems/scada/scada-overview' },
+//           { text: 'SCADA Architecture', link: '/control-systems/scada/scada-architecture' },
+//           { text: 'Historian', link: '/control-systems/scada/historian' },
+//           { text: 'SCADA vs HMI', link: '/control-systems/scada/scada-vs-hmi' }
+//         ]
+//       }
+//     ]
+//   },
 
-{
-  text: 'Actuators',
-  collapsed: true,
-  items: [
-    { text: 'What is an Actuator', link: '/actuators/what-is-an-actuator' },
-    { text: 'Electric Actuators', link: '/actuators/electric-actuators' },
-    { text: 'Pneumatic Cylinders', link: '/actuators/pneumatic-cylinders' },
-    { text: 'Hydraulic Cylinders', link: '/actuators/hydraulic-cylinders' },
-    { text: 'Solenoids', link: '/actuators/solenoids' },
-    { text: 'Control Valves', link: '/actuators/control-valves' }
-  ]
-},
+//     {
+//     text: 'Instrumentation',
+//     collapsed: true,
+//     items: [
+//       { text: 'Measurement Basics', link: '/instrumentation/measurement-basics' },
+//       { text: '4-20 mA Signals', link: '/instrumentation/4-20ma-signals' },
+//       { text: 'Analog vs Digital Signals', link: '/instrumentation/analog-vs-digital-signals' },
+//       { text: 'Signal Conditioning', link: '/instrumentation/signal-conditioning' },
+//       { text: 'Noise and Interference', link: '/instrumentation/noise-and-interference' },
+//       { text: 'Grounding and Shielding', link: '/instrumentation/grounding-and-shielding' },
+//       { text: 'Calibration', link: '/instrumentation/calibration' },
+//       { text: 'Instrumentation Selection', link: '/instrumentation/instrumentation-selection' }
+//     ]
+//   },
 
-{
-  text: 'Drives and Motion',
-  collapsed: true,
-  items: [
-    { text: 'Variable Frequency Drives', link: '/drives-and-motion/variable-frequency-drives' },
-    { text: 'Servo Drives', link: '/drives-and-motion/servo-drives' },
-    { text: 'Motion Controllers', link: '/drives-and-motion/motion-controllers' },
-    { text: 'Speed Control', link: '/drives-and-motion/speed-control' },
-    { text: 'Torque Control', link: '/drives-and-motion/torque-control' }
-  ]
-},
+//   {
+//     text: 'Networks',
+//     collapsed: true,
+//     items: [
+//       {
+//         text: 'Protocols',
+//         collapsed: true,
+//         items: [
+//           { text: 'Ethernet', link: '/networks/protocols/ethernet' },
+//           { text: 'EtherNet/IP', link: '/networks/protocols/ethernet-ip' },
+//           { text: 'Modbus RTU', link: '/networks/protocols/modbus-rtu' },
+//           { text: 'Modbus TCP', link: '/networks/protocols/modbus-tcp' },
+//           { text: 'Profinet', link: '/networks/protocols/profinet' },
+//           { text: 'Profibus', link: '/networks/protocols/profibus' },
+//           { text: 'CAN Bus', link: '/networks/protocols/can-bus' },
+//           { text: 'DeviceNet', link: '/networks/protocols/devicenet' },
+//           { text: 'OPC UA', link: '/networks/protocols/opc-ua' }
+//         ]
+//       },
 
-{
-  text: 'Electrical Panels',
-  collapsed: true,
-  items: [
-    { text: 'Control Panels', link: '/electrical-panels/control-panels' },
-    { text: 'Panel Layout', link: '/electrical-panels/panel-layout' },
-    { text: 'Panel Wiring', link: '/electrical-panels/panel-wiring' },
-    { text: 'Cable Management', link: '/electrical-panels/cable-management' },
-    { text: 'Breakers', link: '/electrical-panels/breakers' },
-    { text: 'Contactors', link: '/electrical-panels/contactors' },
-    { text: 'Overload Relays', link: '/electrical-panels/overload-relays' },
-    { text: 'Power Supplies', link: '/electrical-panels/power-supplies' },
-    { text: 'Terminal Blocks', link: '/electrical-panels/terminal-blocks' }
-  ]
-},
+//       {
+//         text: 'Hardware',
+//         collapsed: true,
+//         items: [
+//           { text: 'Switches', link: '/networks/hardware/switches' },
+//           { text: 'Routers', link: '/networks/hardware/routers' },
+//           { text: 'Gateways', link: '/networks/hardware/gateways' },
+//           { text: 'Firewalls', link: '/networks/hardware/firewalls' }
+//         ]
+//       },
 
-{
-  text: 'Industrial Safety',
-  collapsed: true,
-  items: [
-    { text: 'Machine Safety Basics', link: '/industrial-safety/machine-safety-basics' },
-    { text: 'Risk Assessment', link: '/industrial-safety/risk-assessment' },
-    { text: 'Safety Categories', link: '/industrial-safety/safety-categories' },
-    { text: 'Emergency Stop Circuits', link: '/industrial-safety/emergency-stop-circuits' },
-    { text: 'Safety Relays', link: '/industrial-safety/safety-relays' },
-    { text: 'Safety PLC', link: '/industrial-safety/safety-plc' },
-    { text: 'Lockout Tagout', link: '/industrial-safety/lockout-tagout' }
-  ]
-},
+//       {
+//         text: 'Remote Access',
+//         collapsed: true,
+//         items: [
+//           { text: 'Remote Access', link: '/networks/remote-access/remote-access' },
+//           { text: 'VPN', link: '/networks/remote-access/vpn' },
+//           { text: 'Secure Remote Access', link: '/networks/remote-access/secure-remote-access' }
+//         ]
+//       },
 
-{
-  text: 'OT and IT',
-  collapsed: true,
-  items: [
-    { text: 'OT vs IT', link: '/ot-and-it/ot-vs-it' },
-    { text: 'Industrial Network Architecture', link: '/ot-and-it/industrial-network-architecture' },
-    { text: 'Purdue Model', link: '/ot-and-it/purdue-model' },
-    { text: 'Edge Computing', link: '/ot-and-it/edge-computing' },
-    { text: 'Industrial Data Collection', link: '/ot-and-it/industrial-data-collection' },
-    { text: 'Cloud Integration', link: '/ot-and-it/cloud-integration' },
-    { text: 'Industrial IoT', link: '/ot-and-it/industrial-iot' }
-  ]
-},
+//       { text: 'Architectures', link: '/networks/architectures' },
+//       { text: 'Use Cases', link: '/networks/use-cases' },
+//       { text: 'Network Design', link: '/networks/network-design' }
+//     ]
+//   },
 
-{
-  text: 'Industrial Cybersecurity',
-  collapsed: true,
-  items: [
-    { text: 'Why Industrial Cybersecurity Matters', link: '/industrial-cybersecurity/why-industrial-cybersecurity-matters' },
-    { text: 'Common Threats in OT', link: '/industrial-cybersecurity/common-threats-in-ot' },
-    { text: 'Network Segmentation', link: '/industrial-cybersecurity/network-segmentation' },
-    { text: 'Firewalls in Industrial Networks', link: '/industrial-cybersecurity/firewalls-in-industrial-networks' },
-    { text: 'Secure Remote Access', link: '/industrial-cybersecurity/secure-remote-access' },
-    { text: 'Patch Management', link: '/industrial-cybersecurity/patch-management' },
-    { text: 'User Access Control', link: '/industrial-cybersecurity/user-access-control' },
-    { text: 'IEC 62443', link: '/industrial-cybersecurity/iec-62443' }
-  ]
-},
+//   {
+//     text: 'Control Panels',
+//     collapsed: true,
+//     items: [
+//       { text: 'Overview', link: '/control-panels/overview' },
+//       { text: 'Layout', link: '/control-panels/layout' },
+//       { text: 'Wiring', link: '/control-panels/wiring' },
+//       { text: 'Cable Management', link: '/control-panels/cable-management' },
+//       { text: 'Breakers', link: '/control-panels/breakers' },
+//       { text: 'Contactors', link: '/control-panels/contactors' },
+//       { text: 'Overload Relays', link: '/control-panels/overload-relays' },
+//       { text: 'Power Supplies', link: '/control-panels/power-supplies' },
+//       { text: 'Terminal Blocks', link: '/control-panels/terminal-blocks' },
+//       { text: 'Panel Design', link: '/control-panels/panel-design' },
+//       { text: 'Component Selection', link: '/control-panels/component-selection' }
+//     ]
+//   },
 
-{
-  text: 'Standards',
-  collapsed: true,
-  items: [
-    { text: 'UL', link: '/standards/ul' },
-    { text: 'IEC', link: '/standards/iec' },
-    { text: 'ISO', link: '/standards/iso' },
-    { text: 'NEMA', link: '/standards/nema' },
-    { text: 'NOM', link: '/standards/nom' }
-  ]
-}
+//   {
+//     text: 'Safety',
+//     collapsed: true,
+//     items: [
+//       { text: 'Basics', link: '/safety/basics' },
+//       { text: 'Risk Assessment', link: '/safety/risk-assessment' },
+//       { text: 'Categories', link: '/safety/categories' },
+//       { text: 'Emergency Stop', link: '/safety/emergency-stop' },
+//       { text: 'Safety Relays', link: '/safety/safety-relays' },
+//       { text: 'Safety PLC', link: '/safety/safety-plc' },
+//       { text: 'Lockout Tagout', link: '/safety/lockout-tagout' }
+//     ]
+//   },
 
+//   {
+//     text: 'Commissioning',
+//     collapsed: true,
+//     items: [
+//       { text: 'Pre-Commissioning', link: '/commissioning/pre-commissioning' },
+//       { text: 'Loop Checks', link: '/commissioning/loop-checks' },
+//       { text: 'Startup', link: '/commissioning/startup' },
+//       { text: 'Testing and Validation', link: '/commissioning/testing-and-validation' },
+//       { text: 'Documentation', link: '/commissioning/documentation' }
+//     ]
+//   },
+
+//     {
+//     text: 'Industrial Practices',
+//     collapsed: true,
+//     items: [
+//       { text: 'Overview', link: '/industrial-practices/overview' },
+
+//       {
+//         text: 'Labeling',
+//         collapsed: true,
+//         items: [
+//           { text: 'Labeling Overview', link: '/industrial-practices/labeling/labeling-overview' },
+//           { text: 'Why Labeling Matters', link: '/industrial-practices/labeling/why-labeling-matters' },
+//           { text: 'Labeling Standards', link: '/industrial-practices/labeling/labeling-standards' },
+//           { text: 'Label Types', link: '/industrial-practices/labeling/label-types' },
+//           { text: 'Materials and Durability', link: '/industrial-practices/labeling/materials-and-durability' },
+//           { text: 'Cable and Wire Labeling', link: '/industrial-practices/labeling/cable-and-wire-labeling' },
+//           { text: 'Panel and Component Labeling', link: '/industrial-practices/labeling/panel-and-component-labeling' },
+//           { text: 'Machine Documentation', link: '/industrial-practices/labeling/machine-documentation' },
+//           { text: 'Best Practices', link: '/industrial-practices/labeling/best-practices' }
+//         ]
+//       },
+
+//       {
+//         text: 'Lighting',
+//         collapsed: true,
+//         items: [
+//           { text: 'Lighting Overview', link: '/industrial-practices/lighting/lighting-overview' },
+//           { text: 'Why Lighting Matters', link: '/industrial-practices/lighting/why-lighting-matters' },
+//           { text: 'Lighting Types', link: '/industrial-practices/lighting/lighting-types' },
+//           { text: 'Placement and Distribution', link: '/industrial-practices/lighting/placement-and-distribution' },
+//           { text: 'Illumination Levels (Lux)', link: '/industrial-practices/lighting/illumination-levels-lux' },
+//           { text: 'Power and Efficiency', link: '/industrial-practices/lighting/power-and-efficiency' },
+//           { text: 'Industrial Environments', link: '/industrial-practices/lighting/industrial-environments' },
+//           { text: 'Safety and Emergency Lighting', link: '/industrial-practices/lighting/safety-and-emergency-lighting' },
+//           { text: 'Lighting Design Basics', link: '/industrial-practices/lighting/lighting-design-basics' }
+//         ]
+//       },
+
+//       {
+//         text: 'Documentation',
+//         collapsed: true,
+//         items: [
+//           { text: 'Documentation Overview', link: '/industrial-practices/documentation/documentation-overview' },
+//           { text: 'Machine Instructions', link: '/industrial-practices/documentation/machine-instructions' },
+//           { text: 'Electrical Drawings', link: '/industrial-practices/documentation/electrical-drawings' },
+//           { text: 'Maintenance Guides', link: '/industrial-practices/documentation/maintenance-guides' },
+//           { text: 'Operator Information', link: '/industrial-practices/documentation/operator-information' }
+//         ]
+//       },
+
+//       {
+//         text: 'Installation & Mounting',
+//         collapsed: true,
+//         items: [
+//           { text: 'Overview', link: '/industrial-practices/installation-and-mounting/overview' },
+//           { text: 'General Principles', link: '/industrial-practices/installation-and-mounting/general-principles' },
+//           { text: 'Alignment', link: '/industrial-practices/installation-and-mounting/alignment' },
+//           { text: 'Vibrations', link: '/industrial-practices/installation-and-mounting/vibrations' },
+//           { text: 'Common Mistakes', link: '/industrial-practices/installation-and-mounting/common-mistakes' }
+//         ]
+//       },
+
+//       {
+//         text: 'Environmental Conditions',
+//         collapsed: true,
+//         items: [
+//           { text: 'Overview', link: '/industrial-practices/environmental-conditions/overview' },
+//           { text: 'Factors', link: '/industrial-practices/environmental-conditions/factors' },
+//           { text: 'IP Ratings', link: '/industrial-practices/environmental-conditions/ip-ratings' },
+//           { text: 'General Selection', link: '/industrial-practices/environmental-conditions/general-selection' }
+//         ]
+//       }
+//     ]
+//   },
+
+//   {
+//     text: 'Energy Efficiency',
+//     collapsed: true,
+//     items: [
+//       { text: 'Overview', link: '/energy-efficiency/overview' },
+//       { text: 'Where Energy is Used', link: '/energy-efficiency/where-energy-is-used' },
+//       { text: 'Energy Saving Opportunities', link: '/energy-efficiency/energy-saving-opportunities' },
+//       { text: 'Renewable Integration', link: '/energy-efficiency/renewable-integration' }
+//     ]
+//   },
+
+//   {
+//     text: 'Tools',
+//     collapsed: true,
+//     items: [
+//       { text: 'Formulas', link: '/tools/formulas' },
+//       { text: 'Unit Conversions', link: '/tools/unit-conversions' },
+//       { text: 'Typical Values', link: '/tools/typical-values' },
+//       { text: 'Rules of Thumb', link: '/tools/rules-of-thumb' }
+//     ]
+//   },
+
+//   {
+//     text: 'Standards',
+//     collapsed: true,
+//     items: [
+//       { text: 'Overview', link: '/standards/overview' },
+//       { text: 'UL', link: '/standards/ul' },
+//       { text: 'UL 508A', link: '/standards/ul-508a' },
+//       { text: 'UL 489', link: '/standards/ul-489' },
+//       { text: 'IEC', link: '/standards/iec' },
+//       { text: 'ISO', link: '/standards/iso' },
+//       { text: 'NEMA', link: '/standards/nema' },
+//       { text: 'NOM', link: '/standards/nom' }
+//     ]
+//   },
+
+//   {
+//     text: 'Cybersecurity',
+//     collapsed: true,
+//     items: [
+//       { text: 'Overview', link: '/cybersecurity/overview' },
+//       { text: 'Threats', link: '/cybersecurity/threats' },
+//       { text: 'Segmentation', link: '/cybersecurity/segmentation' },
+//       { text: 'Firewalls', link: '/cybersecurity/firewalls' },
+//       { text: 'Secure Remote Access', link: '/cybersecurity/secure-remote-access' },
+//       { text: 'Patching', link: '/cybersecurity/patching' },
+//       { text: 'User Access', link: '/cybersecurity/user-access' },
+//       { text: 'IEC 62443', link: '/cybersecurity/iec-62443' }
+//     ]
+//   },
+
+//   {
+//     text: 'Digitalization',
+//     collapsed: true,
+//     items: [
+//       { text: 'OT vs IT', link: '/digitalization/ot-vs-it' },
+//       { text: 'Network Architecture', link: '/digitalization/network-architecture' },
+//       { text: 'Purdue Model', link: '/digitalization/purdue-model' },
+//       { text: 'Edge Computing', link: '/digitalization/edge-computing' },
+//       { text: 'Data Collection', link: '/digitalization/data-collection' },
+//       { text: 'Cloud', link: '/digitalization/cloud' },
+//       { text: 'IIoT', link: '/digitalization/iiot' }
+//     ]
+//   }
 ]

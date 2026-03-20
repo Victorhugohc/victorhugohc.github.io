@@ -1,0 +1,80 @@
+/* Center wrapper */
+.donation-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+/* Card container */
+.donation-box {
+  width: 100%;
+  max-width: 520px;
+  padding: 1.5rem;
+  border-radius: 16px;
+
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+
+  text-align: center;
+
+  transition: all 0.25s ease;
+}
+
+/* Subtle hover effect */
+.donation-box:hover {
+  border-color: var(--vp-c-brand-1);
+  transform: translateY(-2px);
+}
+
+/* Description text */
+.donation-text {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  color: var(--vp-c-text-2);
+}
+
+/* Pill-style button */
+.donate-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+
+  padding: 0.5rem 1.4rem 0.5rem 0.5rem;
+  border-radius: 999px;
+
+  background: var(--vp-c-brand-1);
+  color: white;
+
+  font-size: 0.9rem;
+  font-weight: 500;
+
+  text-decoration: none;
+
+  transition: all 0.25s ease;
+}
+
+/* Icon circle */
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 28px;
+  height: 28px;
+
+  border-radius: 50%;
+  background: white;
+}
+
+/* Heart icon */
+.icon {
+  width: 14px;
+  height: 14px;
+  fill: var(--vp-c-brand-1);
+}
+
+/* Button hover */
+.donate-button:hover {
+  background: var(--vp-c-brand-2);
+  transform: scale(1.05);
+}

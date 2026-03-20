@@ -23,12 +23,15 @@ export default defineConfig({
       themeConfig: {
         nav: navEN,
         sidebar: sidebarEN,
+        outline: {
+          label: 'On this page'
+        },
         docFooter: {
           prev: 'Previous page',
           next: 'Next page'
         }
       }
-    },
+  },
 
     es: {
       label: "Español",
@@ -39,11 +42,15 @@ export default defineConfig({
       themeConfig: {
         nav: navES,
         sidebar: sidebarES,
+        outline: {
+          label: 'En esta página'
+        },
         docFooter: {
           prev: 'Página anterior',
           next: 'Página siguiente'
         }
       }
-    }
   }
+}
+
 })
