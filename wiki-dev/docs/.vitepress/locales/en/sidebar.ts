@@ -1,6 +1,6 @@
 import type { DefaultTheme } from 'vitepress'
 
-export const sidebarEN: DefaultTheme.Sidebar = [
+export const sidebar: DefaultTheme.Sidebar = [
   {
     text: 'Home',
     collapsed: false,

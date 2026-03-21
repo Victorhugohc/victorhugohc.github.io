@@ -1,6 +1,6 @@
 import type { DefaultTheme } from 'vitepress'
 
-export const navES: DefaultTheme.NavItem[] = [
+export const nav: DefaultTheme.NavItem[] = [
   { text: 'Inicio', link: '/' },
   { 
     text: 'GitHub', 

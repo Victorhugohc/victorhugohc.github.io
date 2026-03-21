@@ -1,6 +1,6 @@
 import type { DefaultTheme } from 'vitepress'
 
-export const sidebarES: DefaultTheme.Sidebar = [
+export const sidebar: DefaultTheme.Sidebar = [
   {
     text: 'Inicio',
     collapsed: false,
