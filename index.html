@@ -41,6 +41,45 @@
     .foot{text-align:center}
     .hidden{display:none !important}
     .notice{background:#fff; border:var(--border); padding:12px 14px; border-radius:10px; margin:14px 0}
+
+    /* === Featured project (Wiki) === */
+    /* Subtle card that matches the existing minimalist system */
+
+    .featured{
+      border: var(--border);
+      border-radius: 12px;
+      padding: 18px 16px;
+      background: #fff;
+    }
+
+    /* Title inside the block */
+    .featured h3{
+      margin-bottom: 6px;
+    }
+
+    /* Description spacing */
+    .featured p{
+      margin-bottom: 12px;
+    }
+
+    /* Button styled to match mono/minimal aesthetic */
+    .featured a.btn{
+      display: inline-block;
+      text-decoration: none;
+      border: 1px solid rgba(0,0,0,.15);
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 13px;
+      transition: all .15s ease;
+    }
+
+    /* Hover interaction (very subtle) */
+    .featured a.btn:hover{
+      background: #111;
+      color: #fff;
+      border-color: #111;
+    }
+
     @media (min-width:480px){ body{font-size:16.8px} h1{font-size:30px} h2{font-size:19px} }
     @media (min-width:880px){ body{font-size:17.4px} h1{font-size:32px} h2{font-size:20px} }
   </style>
@@ -68,6 +107,16 @@
         <!-- LinkedIn always opens in a new tab -->
         <a id="linkedin" href="#" target="_blank" rel="noopener">LinkedIn</a>
       </p>
+    </section>
+
+    <!-- FEATURED PROJECT (dynamic from JSON) -->
+    <section id="featured-section" class="block hidden">
+      <div class="featured">
+        <h3 id="featured-title"></h3>
+        <p id="featured-meta" class="meta"></p>
+        <p id="featured-desc"></p>
+        <a id="featured-link" class="btn" target="_blank" rel="noopener"></a>
+      </div>
     </section>
 
     <!-- EXPERIENCE -->
@@ -172,6 +221,22 @@
           statusHTML;
         pw.appendChild(box);
       });
+
+      // ========== FEATURED PROJECT ==========
+      const fv = data.featured || {};
+      showIf('featured-section', !!fv.show);
+
+      if (fv.show) {
+        if (fv.title) $('featured-title').textContent = fv.title;
+        if (fv.meta)  $('featured-meta').textContent  = fv.meta;
+        if (fv.desc)  $('featured-desc').textContent  = fv.desc;
+
+        if (fv.link) {
+          $('featured-link').href = fv.link;
+        }
+
+        $('featured-link').textContent = fv.cta || 'Open';
+      }
 
       // Experience
       const ex = $('experience'); ex.innerHTML = '';

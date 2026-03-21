@@ -28,19 +28,6 @@ This is the simplest way to help keep the project alive and growing.
 
 ---
 
-### About ads
-
-This site includes advertising to help keep the project available for free.
-
-The goal is to keep it as non-intrusive as possible.
-
-Ads help cover:
-- Development and maintenance time  
-- Infrastructure and hosting  
-- Content growth  
-
----
-
 ## Contribute
 
 If you prefer not to support financially, you can also contribute by helping improve the content.

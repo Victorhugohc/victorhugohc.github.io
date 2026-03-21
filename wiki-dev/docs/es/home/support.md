@@ -28,19 +28,6 @@ Es la forma más sencilla de ayudar a que el proyecto siga creciendo.
 
 ---
 
-### Sobre la publicidad
-
-Este sitio incluye publicidad para ayudar a mantener el proyecto disponible de forma gratuita.
-
-El objetivo es que sea lo menos intrusiva posible.
-
-La publicidad ayuda a cubrir:
-- Tiempo de desarrollo y mantenimiento  
-- Infraestructura y hosting  
-- Crecimiento del contenido  
-
----
-
 ## Contribuir
 
 Si prefieres no apoyar económicamente, también puedes contribuir ayudando a mejorar el contenido.

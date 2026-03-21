@@ -11,5 +11,5 @@ hero:
       link: /es/home/overview.md
     - theme: alt
       text: GitHub
-      link: https://github.com/
+      link: https://github.com/Victorhugohc/victorhugohc.github.io
 ---

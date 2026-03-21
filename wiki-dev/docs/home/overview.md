@@ -107,17 +107,6 @@ If you find this useful:
 - You can support the project (donations)
 - You can contribute through GitHub
 
-### About ads
-
-This site includes advertising to help keep the project available for free.
-
-The goal is to keep it as non-intrusive as possible.
-
-Ads help cover:
-- Development and maintenance time  
-- Infrastructure and hosting  
-- Content growth  
-
 More information:
 - `/home/support`
 - `/home/contribute`

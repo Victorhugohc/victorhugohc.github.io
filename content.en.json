@@ -1,12 +1,21 @@
 {
   "brand": "Víctor Hernández",
-  "show": { "profile": 1, "experience": 1, "education": 1, "courses": 1, "projects": 0 },
+  "show": { "profile": 1, "featured": 1, "experience": 1, "education": 1, "courses": 1, "projects": 0 },
 
   "hero": {
     "title": "Víctor Hernández - Resume",
     "subtitle": "Guadalajara · Inside Sales · Industrial Automation",
     "about": "Professional in inside sales and technical support with experience managing quotes, purchase orders, and customer requests in industrial environments. I value clear communication, problem-solving, and teamwork to ensure efficient operations and reliable service.",
     "linkedin": "https://www.linkedin.com/in/victorhugohc"
+  },
+
+  "featured": {
+  "show": 1,
+  "title": "Industrial Systems Handbook",
+  "meta": "VitePress · Technical Documentation · Industrial Automation",
+  "desc": "A structured technical knowledge base focused on industrial systems, automation, and engineering fundamentals. Designed to centralize learning, documentation, and practical insights from real-world experience.",
+  "cta": "Open handbook →",
+  "link": "./wiki/index.html"
   },
 
   "experience": [
@@ -72,7 +81,7 @@
       "desc": "App to track personal projects and visualize progress through a yearly timeline — helping users reflect on achievements and ongoing goals. Currently in prototype phase.",
       "status": {
         "stages": ["Idea", "Design", "Prototype", "In development", "Completed"],
-        "current": 2
+        "current": 0
       }
     },
     {
@@ -81,7 +90,7 @@
       "desc": "Payroll and commission tracker designed for sales professionals. Calculates monthly and yearly averages, with a budgeting section to allocate income by percentage. In design phase.",
       "status": {
         "stages": ["Idea", "Design", "Prototype", "In development", "Completed"],
-        "current": 1
+        "current": 0
       }
     },
     {

@@ -2,5 +2,16 @@ import type { DefaultTheme } from 'vitepress'
 
 export const navEN: DefaultTheme.NavItem[] = [
   { text: 'Home', link: '/' },
-  { text: 'GitHub', link: 'https://github.com/' }
+  { 
+    text: 'GitHub', 
+    link: 'https://github.com/Victorhugohc/victorhugohc.github.io',
+    target: '_blank',
+    rel: 'noopener noreferrer'
+  },
+  { 
+    text: 'LinkedIn', 
+    link: 'https://www.linkedin.com/in/victorhugohc',
+    target: '_blank',
+    rel: 'noopener noreferrer'
+  }
 ]

@@ -1,12 +1,21 @@
 {
   "brand": "Víctor Hernández",
-  "show": { "profile": 1, "experience": 1, "education": 1, "courses": 1, "projects": 0 },
+  "show": { "profile": 1, "featured": 1,"experience": 1, "education": 1, "courses": 1, "projects": 0 },
 
   "hero": {
     "title": "Víctor Hernández - Currículum",
     "subtitle": "Guadalajara · Ventas Internas · Automatización Industrial",
     "about": "Profesional en ventas internas y soporte técnico, con experiencia en la gestión de cotizaciones, órdenes de compra y atención a clientes en entornos industriales. Valoro la comunicación clara, la resolución de problemas y el trabajo en equipo para asegurar operaciones eficientes y un servicio confiable.",
     "linkedin": "https://www.linkedin.com/in/victorhugohc"
+  },
+
+  "featured": {
+  "show": 1,
+  "title": "Industrial Systems Handbook",
+  "meta": "VitePress · Documentación Técnica · Automatización Industrial",
+  "desc": "Una base de conocimiento técnico estructurada enfocada en sistemas industriales, automatización y fundamentos de ingeniería. Diseñada para centralizar el aprendizaje, la documentación y conocimientos prácticos basados en experiencia real.",
+  "cta": "Abrir documentación →",
+  "link": "./wiki/index.html"
   },
 
   "experience": [

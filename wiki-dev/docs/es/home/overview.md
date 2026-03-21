@@ -107,17 +107,6 @@ Si este proyecto te resulta útil:
 - Puedes apoyarlo (donaciones)
 - Puedes contribuir a través de GitHub
 
-### Sobre los anuncios
-
-Este sitio incluye publicidad para ayudar a mantener el proyecto disponible de forma gratuita.
-
-La idea es mantenerlo lo menos intrusivo posible.
-
-Los anuncios ayudan a cubrir:
-- Tiempo de desarrollo y mantenimiento  
-- Infraestructura y hosting  
-- Crecimiento del contenido  
-
 Más información:
 - `/home/support`
 - `/home/contribute`
