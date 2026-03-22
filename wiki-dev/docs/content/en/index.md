@@ -13,29 +13,3 @@ hero:
       text: GitHub
       link: https://github.com/Victorhugohc/victorhugohc.github.io
 ---
-
-<script setup>
-import { onMounted } from 'vue'
-
-onMounted(() => {
-  const savedLang = localStorage.getItem('preferred-lang')
-
-  if (savedLang) {
-    if (savedLang === 'es' && location.pathname === '/') {
-      window.location.replace('/es/')
-    }
-    return
-  }
-
-  const userLang = navigator.language || navigator.userLanguage
-
-  if (userLang.startsWith('es')) {
-    localStorage.setItem('preferred-lang', 'es')
-    if (location.pathname === '/') {
-      window.location.replace('/es/')
-    }
-  } else {
-    localStorage.setItem('preferred-lang', 'en')
-  }
-})
-</script>
