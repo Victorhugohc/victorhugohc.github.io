@@ -3,41 +3,45 @@ import type { DefaultTheme } from 'vitepress'
 export const sidebar: DefaultTheme.Sidebar = [
   {
     text: 'Inicio',
+    base: '/es/home/',
     collapsed: false,
     items: [
-      { text: 'Descripción general', link: '/es/home/overview' },
-      { text: 'Road Map', link: '/es/home/road-map' },
-      { text: 'Apoya', link: '/es/home/support' },
-      { text: 'Cómo contribuir', link: '/es/home/contribute' }
+      { text: 'Descripción general', link: 'overview' },
+      { text: 'Road Map', link: 'road-map' },
+      { text: 'Apoya', link: 'support' },
+      { text: 'Cómo contribuir', link: 'contribute' }
     ]
   },
 
   {
     text: 'Conceptos',
+    base: '/es/concepts/',
     collapsed: false,
     items: [
-      { text: 'Visión del sistema', link: '/es/concepts/system-overview' },
-      { text: 'Cómo funcionan los sistemas industriales', link: '/es/concepts/how-industrial-systems-work' }
+      { text: 'Visión del sistema', link: 'system-overview' },
+      { text: 'Cómo funcionan los sistemas industriales', link: 'how-industrial-systems-work' }
     ]
   },
 
-//   {
-//     text: 'Fundamentos eléctricos',
-//     collapsed: true,
-//     items: [
-//       { text: 'Voltaje', link: '/es/electrical-fundamentals/voltage' },
-//       { text: 'Corriente', link: '/es/electrical-fundamentals/current' },
-//       { text: 'Resistencia', link: '/es/electrical-fundamentals/resistance' },
-//       { text: 'Ley de Ohm', link: '/es/electrical-fundamentals/ohms-law' },
-//       { text: 'Potencia eléctrica', link: '/es/electrical-fundamentals/electric-power' },
-//       { text: 'CA vs CD', link: '/es/electrical-fundamentals/ac-vs-dc' },
-//       { text: 'Monofásico', link: '/es/electrical-fundamentals/single-phase' },
-//       { text: 'Trifásico', link: '/es/electrical-fundamentals/three-phase' },
-//       { text: 'Factor de potencia', link: '/es/electrical-fundamentals/power-factor' },
-//       { text: 'Puesta a tierra', link: '/es/electrical-fundamentals/grounding' },
-//       { text: 'Ruido eléctrico', link: '/es/electrical-fundamentals/electrical-noise' }
-//     ]
-//   },
+  {
+    text: 'Fundamentos eléctricos',
+    base: '/es/electrical-fundamentals/',
+    collapsed: true,
+    items: [
+      { text: 'Descripción general', link: 'overview' },
+      { text: 'Voltaje', link: 'voltage' },
+      { text: 'Corriente', link: 'current' },
+      { text: 'Resistencia', link: 'resistance' },
+      { text: 'Ley de Ohm', link: 'ohms-law' },
+      { text: 'Potencia eléctrica', link: 'electric-power' },
+      { text: 'CA vs CD', link: 'ac-vs-dc' },
+      { text: 'Monofásico', link: 'single-phase' },
+      { text: 'Trifásico', link: 'three-phase' },
+      { text: 'Factor de potencia', link: 'power-factor' },
+      { text: 'Puesta a tierra', link: 'grounding' },
+      { text: 'Ruido eléctrico', link: 'electrical-noise' }
+    ]
+  },
 
 //     {
 //     text: 'Sistemas de potencia',
@@ -108,26 +112,67 @@ export const sidebar: DefaultTheme.Sidebar = [
 //   },
 
   {
-    text: 'Cables',
-    collapsed: false,
-    items: [
-      { text: 'Descripción general', link: '/es/cables/overview' },
-      { text: 'Materiales conductores', link: '/es/cables/conductor-materials' },
-      { text: 'Tipos de cables', link: '/es/cables/cable-types' },
-      { text: 'Cables de potencia', link: '/es/cables/power-cables' },
-      { text: 'Cables de control', link: '/es/cables/control-cables' },
-      { text: 'Cables de comunicación', link: '/es/cables/communication-cables' },
-      { text: 'Cables apantallados', link: '/es/cables/shielded' },
-      { text: 'Cables de instrumentación', link: '/es/cables/instrumentation' },
-      { text: 'Cálculo de cables', link: '/es/cables/cable-sizing' },
-      { text: 'Caída de tensión', link: '/es/cables/voltage-drop' },
-      { text: 'Capacidad de corriente', link: '/es/cables/current-capacity' },
-      { text: 'Ruteo', link: '/es/cables/routing' },
-      { text: 'Charolas', link: '/es/cables/trays' },
-      { text: 'Conduit', link: '/es/cables/conduit' },
-      { text: 'Selección de cables', link: '/es/cables/cable-selection' }
-    ]
-  },
+  text: 'Cables',
+  base: '/es/cables/',
+  collapsed: false,
+  items: [
+    { text: 'Descripción general', link: 'overview' },
+
+    {
+      text: 'Fundamentos',
+      base: '/es/cables/fundamentals/',
+      collapsed: false,
+      items: [
+        { text: 'Materiales conductores', link: 'conductor-materials' },
+        { text: 'Capacidad de corriente', link: 'current-capacity' },
+        { text: 'Caída de tensión', link: 'voltage-drop' }
+      ]
+    },
+
+    {
+      text: 'Tipos de cables',
+      base: '/es/cables/cable-types/',
+      collapsed: false,
+      items: [
+        { text: 'Descripción de tipos de cables', link: 'cable-types' },
+        { text: 'Cables de potencia', link: 'power-cables' },
+        { text: 'Cables de control', link: 'control-cables' },
+        { text: 'Cables de comunicación', link: 'communication-cables' },
+        { text: 'Cables de instrumentación', link: 'instrumentation-cables' }
+      ]
+    },
+
+    {
+      text: 'Diseño',
+      base: '/es/cables/design/',
+      collapsed: false,
+      items: [
+        { text: 'Dimensionamiento de cables', link: 'cable-sizing' },
+        { text: 'Cables apantallados', link: 'shielded' }
+      ]
+    },
+
+    {
+      text: 'Instalación',
+      base: '/es/cables/installation/',
+      collapsed: false,
+      items: [
+        { text: 'Enrutamiento', link: 'routing' },
+        { text: 'Bandejas portacables', link: 'trays' },
+        { text: 'Conduit (tubería)', link: 'conduit' }
+      ]
+    },
+
+    {
+      text: 'Selección',
+      base: '/es/cables/selection/',
+      collapsed: false,
+      items: [
+        { text: 'Selección de cables', link: 'cable-selection' }
+      ]
+    }
+  ]
+},
 
 //     {
 //     text: 'Equipos industriales',
@@ -454,20 +499,61 @@ export const sidebar: DefaultTheme.Sidebar = [
 //     ]
 //   },
 
-//   {
-//     text: 'Normas',
-//     collapsed: true,
-//     items: [
-//       { text: 'Descripción general', link: '/es/standards/overview' },
-//       { text: 'UL', link: '/es/standards/ul' },
-//       { text: 'UL 508A', link: '/es/standards/ul-508a' },
-//       { text: 'UL 489', link: '/es/standards/ul-489' },
-//       { text: 'IEC', link: '/es/standards/iec' },
-//       { text: 'ISO', link: '/es/standards/iso' },
-//       { text: 'NEMA', link: '/es/standards/nema' },
-//       { text: 'NOM', link: '/es/standards/nom' }
-//     ]
-//   },
+  {
+  text: 'Normas',
+  base: '/es/standards/',
+  collapsed: false,
+  items: [
+    { text: 'Descripción general', link: 'overview' },
+
+    {
+      text: 'Fundamentos',
+      collapsed: false,
+      base: '/es/standards/fundamentals/',
+      items: [
+        { text: '¿Qué es una norma?', link: 'what-is-a-standard' },
+        { text: 'Certificación vs Cumplimiento', link: 'certification-vs-compliance' },
+        { text: 'Diferencias regionales', link: 'regional-differences' }
+      ]
+    },
+
+    {
+      text: 'Eléctrico',
+      collapsed: false,
+      base: '/es/standards/electrical/',
+      items: [
+        { text: 'Descripción general', link: 'overview' },
+        { text: 'Protección de circuitos', link: 'circuit-protection' },
+        { text: 'Tableros de control', link: 'control-panels' },
+        { text: 'Métodos de cableado', link: 'wiring-methods' }
+      ]
+    },
+
+    {
+      text: 'Maquinaria',
+      collapsed: false,
+      base: '/es/standards/machinery/',
+      items: [
+        { text: 'Descripción general', link: 'overview' },
+        { text: 'Seguridad en maquinaria', link: 'machine-safety' },
+        { text: 'Evaluación de riesgos', link: 'risk-assessment' }
+      ]
+    },
+
+    {
+      text: 'Organizaciones',
+      collapsed: false,
+      base: '/es/standards/organizations/',
+      items: [
+        { text: 'UL', link: 'ul' },
+        { text: 'IEC', link: 'iec' },
+        { text: 'ISO', link: 'iso' },
+        { text: 'NEMA', link: 'nema' },
+        { text: 'NOM', link: 'nom' }
+      ]
+    }
+  ]
+}
 
 //   {
 //     text: 'Ciberseguridad',

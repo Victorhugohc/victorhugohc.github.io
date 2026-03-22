@@ -29,6 +29,12 @@ export function createLocale({
       nav,
       sidebar,
 
+      notFound: {
+      title: translations.notFoundTitle,
+      quote: translations.notFoundQuote,
+      linkText: translations.notFoundLink
+    },
+
       outline: {
         label: translations.outline
       },

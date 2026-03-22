@@ -20,6 +20,9 @@ export const es = createLocale({
     menu: 'Menú',
     appearance: 'Apariencia',
     light: 'Cambiar a tema claro',
-    dark: 'Cambiar a tema oscuro'
+    dark: 'Cambiar a tema oscuro',
+    notFoundTitle: 'Página no encontrada',
+    notFoundQuote: 'La página que buscas no existe o fue movida.',
+    notFoundLink: 'Volver al inicio'
   }
 })

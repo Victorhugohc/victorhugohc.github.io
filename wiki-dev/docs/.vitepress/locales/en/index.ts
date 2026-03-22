@@ -19,6 +19,9 @@ export const en = createLocale({
     menu: 'Menu',
     appearance: 'Appearance',
     light: 'Switch to light theme',
-    dark: 'Switch to dark theme'
+    dark: 'Switch to dark theme',
+    notFoundTitle: 'Page not found',
+    notFoundQuote: 'The page you’re looking for doesn’t exist or has been moved.',
+    notFoundLink: 'Back to home'
   }
 })

@@ -3,41 +3,45 @@ import type { DefaultTheme } from 'vitepress'
 export const sidebar: DefaultTheme.Sidebar = [
   {
     text: 'Home',
+    base: '/en/home/',
     collapsed: false,
     items: [
-      { text: 'Overview', link: '/en/home/overview' },
-      { text: 'Road Map', link: '/en/home/road-map' },
-      { text: 'Support', link: '/en/home/support' },
-      { text: 'Contribute', link: '/en/home/contribute' }
+      { text: 'Overview', link: 'overview' },
+      { text: 'Road Map', link: 'road-map' },
+      { text: 'Support', link: 'support' },
+      { text: 'Contribute', link: 'contribute' }
     ]
   },
 
   {
     text: 'Concepts',
+    base: '/en/concepts/',
     collapsed: false,
     items: [
-      { text: 'System Overview', link: '/en/concepts/system-overview' },
-      { text: 'How Industrial Systems Work', link: '/en/concepts/how-industrial-systems-work' }
+      { text: 'System Overview', link: 'system-overview' },
+      { text: 'How Industrial Systems Work', link: 'how-industrial-systems-work' }
     ]
   },
 
-//   {
-//     text: 'Electrical Fundamentals',
-//     collapsed: true,
-//     items: [
-//       { text: 'Voltage', link: '/en/electrical-fundamentals/voltage' },
-//       { text: 'Current', link: '/en/electrical-fundamentals/current' },
-//       { text: 'Resistance', link: '/en/electrical-fundamentals/resistance' },
-//       { text: "Ohm's Law", link: '/en/electrical-fundamentals/ohms-law' },
-//       { text: 'Electric Power', link: '/en/electrical-fundamentals/electric-power' },
-//       { text: 'AC vs DC', link: '/en/electrical-fundamentals/ac-vs-dc' },
-//       { text: 'Single Phase', link: '/en/electrical-fundamentals/single-phase' },
-//       { text: 'Three Phase', link: '/en/electrical-fundamentals/three-phase' },
-//       { text: 'Power Factor', link: '/en/electrical-fundamentals/power-factor' },
-//       { text: 'Grounding', link: '/en/electrical-fundamentals/grounding' },
-//       { text: 'Electrical Noise', link: '/en/electrical-fundamentals/electrical-noise' }
-//     ]
-//   },
+  {
+    text: 'Electrical Fundamentals',
+    base: '/en/electrical-fundamentals/',
+    collapsed: false,
+    items: [
+      { text: 'Overview', link: 'overview' },
+      { text: 'Voltage', link: 'voltage' },
+      { text: 'Current', link: 'current' },
+      { text: 'Resistance', link: 'resistance' },
+      { text: "Ohm's Law", link: 'ohms-law' },
+      { text: 'Electric Power', link: 'electric-power' },
+      { text: 'AC vs DC', link: 'ac-vs-dc' },
+      { text: 'Single Phase', link: 'single-phase' },
+      { text: 'Three Phase', link: 'three-phase' },
+      { text: 'Power Factor', link: 'power-factor' },
+      { text: 'Grounding', link: 'grounding' },
+      { text: 'Electrical Noise', link: 'electrical-noise' }
+    ]
+  },
 
 //     {
 //     text: 'Power Systems',
@@ -108,26 +112,67 @@ export const sidebar: DefaultTheme.Sidebar = [
 //   },
 
   {
-    text: 'Cables',
-    collapsed: false,
-    items: [
-      { text: 'Overview', link: '/en/cables/overview' },
-      { text: 'Conductor Materials', link: '/en/cables/conductor-materials' },
-      { text: 'Cable Types', link: '/en/cables/cable-types' },
-      { text: 'Power Cables', link: '/en/cables/power-cables' },
-      { text: 'Control Cables', link: '/en/cables/control-cables' },
-      { text: 'Communication Cables', link: '/en/cables/communication-cables' },
-      { text: 'Shielded Cables', link: '/en/cables/shielded' },
-      { text: 'Instrumentation Cables', link: '/en/cables/instrumentation' },
-      { text: 'Cable Sizing', link: '/en/cables/cable-sizing' },
-      { text: 'Voltage Drop', link: '/en/cables/voltage-drop' },
-      { text: 'Current Capacity', link: '/en/cables/current-capacity' },
-      { text: 'Routing', link: '/en/cables/routing' },
-      { text: 'Cable Trays', link: '/en/cables/trays' },
-      { text: 'Conduit', link: '/en/cables/conduit' },
-      { text: 'Cable Selection', link: '/en/cables/cable-selection' }
-    ]
-  },
+  text: 'Cables',
+  base: '/en/cables/',
+  collapsed: false,
+  items: [
+    { text: 'Overview', link: 'overview' },
+
+    {
+      text: 'Fundamentals',
+      base: '/en/cables/fundamentals/',
+      collapsed: false,
+      items: [
+        { text: 'Conductor Materials', link: 'conductor-materials' },
+        { text: 'Current Capacity', link: 'current-capacity' },
+        { text: 'Voltage Drop', link: 'voltage-drop' }
+      ]
+    },
+
+    {
+      text: 'Cable Types',
+      base: '/en/cables/cable-types/',
+      collapsed: false,
+      items: [
+        { text: 'Cable Types Overview', link: 'cable-types' },
+        { text: 'Power Cables', link: 'power-cables' },
+        { text: 'Control Cables', link: 'control-cables' },
+        { text: 'Communication Cables', link: 'communication-cables' },
+        { text: 'Instrumentation Cables', link: 'instrumentation-cables' }
+      ]
+    },
+
+    {
+      text: 'Design',
+      base: '/en/cables/design/',
+      collapsed: false,
+      items: [
+        { text: 'Cable Sizing', link: 'cable-sizing' },
+        { text: 'Shielded Cables', link: 'shielded' }
+      ]
+    },
+
+    {
+      text: 'Installation',
+      base: '/en/cables/installation/',
+      collapsed: false,
+      items: [
+        { text: 'Routing', link: 'routing' },
+        { text: 'Cable Trays', link: 'trays' },
+        { text: 'Conduit', link: 'conduit' }
+      ]
+    },
+
+    {
+      text: 'Selection',
+      base: '/en/cables/selection/',
+      collapsed: false,
+      items: [
+        { text: 'Cable Selection', link: 'cable-selection' }
+      ]
+    }
+  ]
+},
 
 //     {
 //     text: 'Industrial Equipment',
@@ -454,20 +499,61 @@ export const sidebar: DefaultTheme.Sidebar = [
 //     ]
 //   },
 
-//   {
-//     text: 'Standards',
-//     collapsed: true,
-//     items: [
-//       { text: 'Overview', link: '/en/standards/overview' },
-//       { text: 'UL', link: '/en/standards/ul' },
-//       { text: 'UL 508A', link: '/en/standards/ul-508a' },
-//       { text: 'UL 489', link: '/en/standards/ul-489' },
-//       { text: 'IEC', link: '/en/standards/iec' },
-//       { text: 'ISO', link: '/en/standards/iso' },
-//       { text: 'NEMA', link: '/en/standards/nema' },
-//       { text: 'NOM', link: '/en/standards/nom' }
-//     ]
-//   },
+{
+  text: 'Standards',
+  base: '/en/standards/',
+  collapsed: false,
+  items: [
+    { text: 'Overview', link: 'overview' },
+
+    {
+      text: 'Fundamentals',
+      collapsed: false,
+      base: '/en/standards/fundamentals/',
+      items: [
+        { text: 'What is a Standard', link: 'what-is-a-standard' },
+        { text: 'Certification vs Compliance', link: 'certification-vs-compliance' },
+        { text: 'Regional Differences', link: 'regional-differences' }
+      ]
+    },
+
+    {
+      text: 'Electrical',
+      collapsed: false,
+      base: '/en/standards/electrical/',
+      items: [
+        { text: 'Overview', link: 'overview' },
+        { text: 'Circuit Protection', link: 'circuit-protection' },
+        { text: 'Control Panels', link: 'control-panels' },
+        { text: 'Wiring Methods', link: 'wiring-methods' }
+      ]
+    },
+
+    {
+      text: 'Machinery',
+      collapsed: false,
+      base: '/en/standards/machinery/',
+      items: [
+        { text: 'Overview', link: 'overview' },
+        { text: 'Machine Safety', link: 'machine-safety' },
+        { text: 'Risk Assessment', link: 'risk-assessment' }
+      ]
+    },
+
+    {
+      text: 'Organizations',
+      collapsed: false,
+      base: '/en/standards/organizations/',
+      items: [
+        { text: 'UL', link: 'ul' },
+        { text: 'IEC', link: 'iec' },
+        { text: 'ISO', link: 'iso' },
+        { text: 'NEMA', link: 'nema' },
+        { text: 'NOM', link: 'nom' }
+      ]
+    }
+  ]
+},
 
 //   {
 //     text: 'Cybersecurity',

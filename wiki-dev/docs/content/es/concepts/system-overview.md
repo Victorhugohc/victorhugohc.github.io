@@ -1,4 +1,4 @@
-# System Overview
+# Descripción General del Sistema
 
 ## ¿Qué es un sistema industrial?
 

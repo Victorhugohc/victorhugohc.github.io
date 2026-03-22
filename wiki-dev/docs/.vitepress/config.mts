@@ -10,6 +10,10 @@ export default defineConfig({
 
   cleanUrls: true,
 
+  markdown: {
+    math: 'mathjax3'
+  },
+
   themeConfig: {
   search: searchConfig
   },
