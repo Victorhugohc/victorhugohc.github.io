@@ -6,13 +6,22 @@ import { searchConfig } from './search'
 export default defineConfig({
   base: '/wiki/',
   outDir: '../../wiki/',
+  srcDir: 'content',
+
+  cleanUrls: true,
 
   themeConfig: {
   search: searchConfig
   },
 
   locales: {
-    root: en,
-    es
+    en: {
+      ...en,
+      link: '/en/'
+    },
+    es: {
+      ...es,
+      link: '/es/'
+    }
   }
 })
