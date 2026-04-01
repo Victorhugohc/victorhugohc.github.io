@@ -1,75 +1,59 @@
-# Contribuir
+# Contribute
 
-Este proyecto es abierto y se mantiene como un manual curado.
+## Overview
 
-Las contribuciones son bienvenidas, pero se revisan para asegurar claridad, consistencia y calidad.
+This handbook is a curated technical resource focused on clarity, consistency, and practical understanding.
 
----
+Contributions are welcome, but they are reviewed to ensure the content maintains a consistent structure and engineering-focused approach.
 
-## Visión general
+## Contribution Scope
 
-El objetivo de este proyecto es hacer que el conocimiento industrial sea práctico y fácil de entender.
+This page is intended for **direct contributions to the content**, such as:
 
-Para lograrlo, todo el contenido sigue una estructura clara y un estilo definido.
+- Editing existing pages  
+- Adding new topics  
+- Improving structure or technical clarity  
 
----
+For general comments, suggestions, or corrections, use the feedback page.
 
-## Formas de contribuir
+## How to Contribute
 
-Puedes contribuir de diferentes maneras:
+1. Fork the repository  
+2. Create a new branch  
+3. Make your changes  
+4. Submit a pull request  
 
-- Reportar errores o explicaciones poco claras  
-- Sugerir mejoras o nuevos temas  
-- Enviar contenido o ediciones  
+## What to Expect
 
----
+All contributions are reviewed before being accepted.
 
-## Cómo contribuir
+- Content may be edited to match the handbook style  
+- Structural adjustments may be applied  
+- Some contributions may not be accepted  
 
-1. Haz un fork del repositorio  
-2. Crea una nueva rama  
-3. Realiza tus cambios  
-4. Envía un pull request  
+This process ensures consistency across all topics.
 
----
+## Content Guidelines
 
-## Qué esperar
+When contributing, follow these principles:
 
-Todas las contribuciones se revisan antes de ser aceptadas.
+- Keep explanations clear and practical  
+- Focus on understanding, not excessive theory  
+- Maintain a structured and consistent format  
+- Avoid redundancy with existing content  
 
-Ten en cuenta:
+## Writing Approach
 
-- No todas las contribuciones serán aceptadas  
-- Los cambios pueden modificarse para ajustarse al estilo y estructura del manual  
-- Puede proporcionarse retroalimentación  
+Content should help the reader:
 
-Este proceso ayuda a mantener la consistencia del proyecto.
+- Understand what a component or concept is  
+- Understand why it is used  
+- Understand how to apply it in real scenarios  
 
----
+The goal is not to replace manuals, but to make them easier to understand and use.
 
-## Lineamientos
+## Final Note
 
-Al contribuir, procura:
+Well-structured contributions are more likely to be accepted.
 
-- Mantener explicaciones claras y prácticas  
-- Evitar complejidad innecesaria  
-- Seguir la estructura de las páginas existentes  
-- Enfocarte en la comprensión y aplicación, no solo en la teoría  
-
----
-
-## Enfoque del contenido
-
-Este manual está diseñado para:
-
-- Explicar conceptos de forma simple y práctica  
-- Ayudar a tomar decisiones en escenarios reales  
-- Reducir la brecha entre teoría y aplicación  
-
----
-
-## Nota final
-
-Todas las contribuciones son valiosas, ya sean pequeñas o grandes.
-
-Incluso reportar un problema o sugerir una mejora ayuda a hacer este proyecto mejor.
+Small improvements, corrections, or clarifications are valuable and help improve the overall quality of the handbook.

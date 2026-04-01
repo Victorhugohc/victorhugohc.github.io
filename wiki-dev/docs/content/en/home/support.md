@@ -1,44 +1,40 @@
 # Support this project
 
-This project is built to make industrial knowledge more accessible, practical, and easier to understand.
+## Overview
 
-If you find it useful, there are several ways you can support it.
+This project is built to make industrial knowledge more accessible, practical, and easier to apply in real-world scenarios.
 
----
+If you find it useful, you can support its development.
 
-## Why support?
+## Why Support
 
-Maintaining and growing this handbook requires time, effort, and resources.
+Creating and maintaining this handbook requires continuous effort.
 
-Your support helps to:
+Support helps to:
+
 - Keep the content free and accessible  
-- Improve existing topics  
-- Expand into new areas  
+- Improve clarity and quality across topics  
+- Expand coverage into new areas  
 - Maintain and improve the platform  
 
----
-
-## Ways to support
+## Ways to Support
 
 ### Donations
 
-You can support the project directly through donations.
+You can support the project directly through a donation.
 
-This is the simplest way to help keep the project alive and growing.
+This helps sustain ongoing development and improvement.
 
----
+### Contribution
 
-## Contribute
+You can also support by improving the content:
 
-If you prefer not to support financially, you can also contribute by helping improve the content.
+- Reporting issues  
+- Suggesting improvements  
+- Contributing edits or new topics  
 
-More information:
-- `/home/contribute`
+## Final Note
 
----
+Support is optional, but it directly impacts how much the project can grow and improve.
 
-## Final note
-
-Every form of support helps — whether it's a donation, or simply sharing the project.
-
-It all contributes to making this resource better for everyone.
+Even small contributions help maintain this as a useful and reliable resource.

@@ -1,279 +1,55 @@
-# Roadmap
-
-This roadmap shows the current progress and future direction of the **Industrial Systems Handbook**.
-
----
-
-## Status
-
-<span style="color:#16a34a; font-weight:600;">Completed</span>  
-<span style="color:#eab308; font-weight:600;">In Progress</span>  
-<span style="color:#9ca3af; font-weight:600;">Planned</span>
-
----
-
-## Electrical Fundamentals
-
-<span style="color:#9ca3af; font-weight:600;">Planned</span>
-
-- Voltage  
-- Current  
-- Resistance  
-- Ohm’s Law  
-- Electric Power  
-- AC vs DC  
-- Single Phase  
-- Three Phase  
-- Power Factor  
-- Grounding  
-- Electrical Noise  
-
----
-
-## Power Systems
-
-<span style="color:#9ca3af; font-weight:600;">Planned</span>
-
-- Distribution Systems  
-- Low Voltage  
-- Medium Voltage  
-- Transformers  
-- Switchgear  
-- Switchboards  
-- Busbars  
-- Protection Basics  
-- Overcurrent Protection  
-- Arc Flash  
-- Short Circuit Analysis  
-- Equipment Selection  
-
----
-
-## Power Quality
+# Project Evolution
 
-<span style="color:#9ca3af; font-weight:600;">Planned</span>
+## Overview
 
-- Voltage Sags  
-- Voltage Swells  
-- Harmonics  
-- THD  
-- Power Factor Correction  
-- Flicker  
-- Transients / Surges  
-- Monitoring  
-
----
-
-## Cables
+This handbook is developed as a complete, structured resource from the beginning, and continuously improved over time.
 
-<span style="color:#16a34a; font-weight:600;">Completed</span> 
+The focus is not on releasing isolated sections, but on building a coherent system that becomes more refined with each iteration.
 
-- Conductor Materials  
-- Cable Types  
-- Power Cables  
-- Control Cables  
-- Communication Cables  
-- Shielded Cables  
-- Instrumentation Cables  
-- Cable Sizing  
-- Voltage Drop  
-- Current Capacity  
-- Routing  
-- Cable Trays  
-- Conduit  
-- Cable Selection  
+## Development Approach
 
----
+The project follows an iterative approach:
 
-## Industrial Equipment
+- The initial version includes all major topics  
+- Content may not be perfect, but it is functional and usable  
+- Each iteration improves clarity, depth, and structure  
 
-<span style="color:#9ca3af; font-weight:600;">Planned</span>
+This allows the handbook to be useful early, while continuously evolving.
 
-### Motors
-- Motor Types  
-- Induction Motors  
-- Synchronous Motors  
-- DC Motors  
-- Servo Motors  
-- Stepper Motors  
-- Motor Protection  
-- Motor Selection  
+## Current Focus
 
-### Drives
-- VFD  
-- Servo Drives  
-- Motion Controllers  
-- Speed Control  
-- Torque Control  
+The current priority is:
 
-### Sensors & Actuators
-- Sensor Types  
-- Electric Actuators  
-- Pneumatic Systems  
-- Hydraulic Systems  
+- Completing core topics across all sections  
+- Ensuring consistency in structure and terminology  
+- Building a solid foundation for future improvements  
 
----
+## Continuous Improvement
 
-## Control Systems
+After the initial version, improvements focus on:
 
-<span style="color:#9ca3af; font-weight:600;">Planned</span>
+- Refining explanations  
+- Adding practical insights  
+- Reducing ambiguity and redundancy  
+- Improving navigation and usability  
 
-### PLC
-- PLC Overview  
-- PLC Architecture  
-- PLC Scan Cycle  
-- Ladder Logic  
-- Function Block  
-- Structured Text  
-- PLC Selection  
+## Future Direction
 
-### HMI / SCADA
-- HMI Design  
-- Alarm Management  
-- SCADA Architecture  
-- Historian  
+Planned enhancements include:
 
----
-
-## Instrumentation
-
-<span style="color:#9ca3af; font-weight:600;">Planned</span>
-
-- 4–20 mA Signals  
-- Analog vs Digital  
-- Signal Conditioning  
-- Noise & Interference  
-- Grounding & Shielding  
-- Calibration  
-
----
-
-## Networks
-
-<span style="color:#9ca3af; font-weight:600;">Planned</span>
-
-- Ethernet / Ethernet-IP  
-- Modbus RTU / TCP  
-- Profinet / Profibus  
-- CAN Bus / DeviceNet  
-- OPC UA  
-- Network Design  
-- Remote Access / VPN  
-
----
-
-## Control Panels
-
-<span style="color:#9ca3af; font-weight:600;">Planned</span>
-
-- Panel Layout  
-- Wiring  
-- Breakers  
-- Contactors  
-- Overload Relays  
-- Power Supplies  
-- Terminal Blocks  
-- Panel Design  
-
----
-
-## Safety
-
-<span style="color:#9ca3af; font-weight:600;">Planned</span>
-
-- Risk Assessment  
-- Safety Categories  
-- Emergency Stop  
-- Safety Relays  
-- Safety PLC  
-- Lockout / Tagout  
-
----
-
-## Commissioning
-
-<span style="color:#9ca3af; font-weight:600;">Planned</span>
-
-- Pre-commissioning  
-- Loop Checks  
-- Startup  
-- Testing & Validation  
-- Documentation  
-
----
-
-## Industrial Practices
-
-<span style="color:#9ca3af; font-weight:600;">Planned</span>
-
-- Labeling  
-- Lighting  
-- Documentation  
-- Installation & Mounting  
-- Environmental Conditions  
-
----
-
-## Energy Efficiency
-
-<span style="color:#9ca3af; font-weight:600;">Planned</span>
-
-- Energy Usage  
-- Saving Opportunities  
-- Renewable Integration  
-
----
-
-## Tools
-
-<span style="color:#9ca3af; font-weight:600;">Planned</span>
-
-- Formulas  
-- Unit Conversions  
-- Typical Values  
-- Rules of Thumb  
-
----
-
-## Standards
-
-<span style="color:#9ca3af; font-weight:600;">Planned</span>
-
-- UL / UL508A / UL489  
-- IEC  
-- ISO  
-- NEMA  
-- NOM  
-
----
-
-## Cybersecurity
-
-<span style="color:#9ca3af; font-weight:600;">Planned</span>
-
-- Threats  
-- Segmentation  
-- Firewalls  
-- Secure Remote Access  
-- IEC 62443  
-
----
-
-## Digitalization
-
-<span style="color:#9ca3af; font-weight:600;">Planned</span>
-
-- OT vs IT  
-- Purdue Model  
-- Edge Computing  
-- Cloud  
-- IIoT  
-
----
-
-## Future Vision
-
-- Component comparisons (PLC brands, drives, etc.)  
+- Component comparisons (e.g., PLC families, drives, sensors)  
 - Real-world case studies  
-- Interactive tools  
-- Engineering templates  
+- Interactive tools and calculators  
+- Engineering templates and reference material  
+
+## Philosophy
+
+This handbook is not intended to be “finished”.
+
+It is designed to evolve with:
+
+- Real-world use  
+- User feedback  
+- Practical experience  
+
+The goal is long-term usefulness, not initial perfection.

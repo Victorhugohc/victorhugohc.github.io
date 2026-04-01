@@ -4,57 +4,43 @@ A practical guide to understand, design, and select industrial systems — witho
 
 ---
 
-## What is this?
+## Overview
 
 Industrial Systems Handbook is a curated collection of concepts, components, and practical knowledge used in industrial environments.
 
-It is not meant to replace datasheets, standards, or detailed engineering design.
+It is designed to help you understand how systems actually work and make better engineering decisions in real scenarios.
 
-Instead, it helps you:
-- Understand **what things are**
-- Learn **how they work**
-- Know **when and why to use them**
+This handbook does not replace datasheets, standards, or detailed design.  
+It helps you interpret them and use them effectively.
 
 ---
 
-## Why this exists
+## Why It Exists
 
-In real-world engineering, people rarely start from theory.
+In real-world engineering, problems rarely start from theory.
 
 They start with questions like:
-- *What cable should I use?*
-- *What is the difference between this PLC and that one?*
-- *Why is this system failing?*
 
-The problem is that most resources are either:
-- Too **basic** (not useful in practice), or  
-- Too **complex** (hard to apply quickly)
+- What cable should be used in this installation?  
+- What is the difference between two similar components?  
+- Why is a system not behaving as expected?  
 
-This project exists to bridge that gap.
+Most available resources are either too basic or too complex to apply quickly.
+
+This handbook bridges that gap by focusing on practical understanding.
 
 ---
 
-## Who is this for?
+## Who This Is For
 
 - Students learning industrial systems  
-- Engineers starting or transitioning into industry  
+- Engineers entering or transitioning into industry  
 - Technicians working with real equipment  
-- Anyone who wants to understand how systems actually work  
+- Anyone who needs to understand how systems behave in practice  
 
 ---
 
-## How to use this site
-
-You don’t need to read everything in order.
-
-You can:
-- Start from fundamentals (recommended if you're new)
-- Jump directly to a topic (cables, PLCs, motors, etc.)
-- Use it as a reference when something is unclear
-
----
-
-## What you will find
+## What You Will Find
 
 - Electrical fundamentals  
 - Power systems and protection  
@@ -63,17 +49,18 @@ You can:
 - Control systems (PLC, HMI, SCADA)  
 - Instrumentation and signals  
 - Industrial networks  
-- Practical engineering decisions  
+- Practical engineering considerations  
 
 ---
 
-## What you will NOT find
+## What You Will Not Find
 
 - Brand-specific bias  
 - Overly academic explanations  
 - Unnecessary complexity  
 
-When deeper detail is required, you will still need:
+When deeper detail is required, refer to:
+
 - Datasheets  
 - Standards  
 - Manufacturer documentation  
@@ -82,31 +69,27 @@ When deeper detail is required, you will still need:
 
 ## Philosophy
 
-This is not about knowing everything.
+This handbook focuses on practical understanding.
 
-It is about understanding enough to:
+The objective is to help you:
+
 - Make better decisions  
-- Ask better questions  
-- Learn faster in real environments  
+- Ask better technical questions  
+- Learn faster from real systems and documentation  
 
 ---
 
-## Project status
+## Project Nature
 
-This is an evolving project.
+This is a continuously evolving handbook.
 
-Some sections are complete, others are still in development.  
-You can check progress in the roadmap.
+Content is published as a complete structure and refined over time to improve clarity, depth, and usability.
 
 ---
 
-## Support & Contribute
+## Support and Contribution
 
 If you find this useful:
 
-- You can support the project (donations)
-- You can contribute through GitHub
-
-More information:
-- `/home/support`
-- `/home/contribute`
+- You can support the project  
+- You can contribute to the content  

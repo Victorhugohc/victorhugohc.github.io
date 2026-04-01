@@ -1,75 +1,59 @@
 # Contribute
 
-This project is open and maintained as a curated handbook.
-
-Contributions are welcome, but they are reviewed to ensure clarity, consistency, and quality.
-
----
-
 ## Overview
 
-The goal of this project is to make industrial knowledge practical and easy to understand.
+This handbook is a curated technical resource focused on clarity, consistency, and practical understanding.
 
-To achieve this, all content follows a clear structure and a specific style.
+Contributions are welcome, but they are reviewed to ensure the content maintains a consistent structure and engineering-focused approach.
 
----
+## Contribution Scope
 
-## Ways to contribute
+This page is intended for **direct contributions to the content**, such as:
 
-You can contribute in different ways:
+- Editing existing pages  
+- Adding new topics  
+- Improving structure or technical clarity  
 
-- Report errors or unclear explanations  
-- Suggest improvements or new topics  
-- Submit content or edits  
+For general comments, suggestions, or corrections, use the feedback page.
 
----
+## How to Contribute
 
-## How to contribute
-
-1. Fork the repository
+1. Fork the repository  
 2. Create a new branch  
 3. Make your changes  
 4. Submit a pull request  
 
----
-
-## What to expect
+## What to Expect
 
 All contributions are reviewed before being accepted.
 
-Please note:
+- Content may be edited to match the handbook style  
+- Structural adjustments may be applied  
+- Some contributions may not be accepted  
 
-- Not all contributions will be accepted  
-- Changes may be modified to fit the style and structure of the handbook  
-- Feedback may be provided  
+This process ensures consistency across all topics.
 
-This process helps maintain consistency across the project.
+## Content Guidelines
 
----
-
-## Guidelines
-
-When contributing, please try to:
+When contributing, follow these principles:
 
 - Keep explanations clear and practical  
-- Avoid unnecessary complexity  
-- Follow the structure used in existing pages  
-- Focus on understanding and application, not just theory  
+- Focus on understanding, not excessive theory  
+- Maintain a structured and consistent format  
+- Avoid redundancy with existing content  
 
----
+## Writing Approach
 
-## Content approach
+Content should help the reader:
 
-This handbook is designed to:
+- Understand what a component or concept is  
+- Understand why it is used  
+- Understand how to apply it in real scenarios  
 
-- Explain concepts in a simple and practical way  
-- Help users make decisions in real scenarios  
-- Bridge the gap between theory and application  
+The goal is not to replace manuals, but to make them easier to understand and use.
 
----
+## Final Note
 
-## Final note
+Well-structured contributions are more likely to be accepted.
 
-Contributions are appreciated, whether small or large.
-
-Even reporting an issue or suggesting an improvement helps make the project better.
+Small improvements, corrections, or clarifications are valuable and help improve the overall quality of the handbook.

@@ -1,44 +1,40 @@
-# Apoya este proyecto
+# Support this project
 
-Este proyecto está creado para hacer el conocimiento industrial más accesible, práctico y fácil de entender.
+## Overview
 
-Si te resulta útil, hay varias formas en las que puedes apoyarlo.
+This project is built to make industrial knowledge more accessible, practical, and easier to apply in real-world scenarios.
 
----
+If you find it useful, you can support its development.
 
-## ¿Por qué apoyar?
+## Why Support
 
-Mantener y hacer crecer este manual requiere tiempo, esfuerzo y recursos.
+Creating and maintaining this handbook requires continuous effort.
 
-Tu apoyo ayuda a:
-- Mantener el contenido gratuito y accesible  
-- Mejorar los temas existentes  
-- Expandir a nuevas áreas  
-- Mantener y mejorar la plataforma  
+Support helps to:
 
----
+- Keep the content free and accessible  
+- Improve clarity and quality across topics  
+- Expand coverage into new areas  
+- Maintain and improve the platform  
 
-## Formas de apoyar
+## Ways to Support
 
-### Donaciones
+### Donations
 
-Puedes apoyar el proyecto directamente mediante donaciones.
+You can support the project directly through a donation.
 
-Es la forma más sencilla de ayudar a que el proyecto siga creciendo.
+This helps sustain ongoing development and improvement.
 
----
+### Contribution
 
-## Contribuir
+You can also support by improving the content:
 
-Si prefieres no apoyar económicamente, también puedes contribuir ayudando a mejorar el contenido.
+- Reporting issues  
+- Suggesting improvements  
+- Contributing edits or new topics  
 
-Más información:
-- `/home/contribute`
+## Final Note
 
----
+Support is optional, but it directly impacts how much the project can grow and improve.
 
-## Nota final
-
-Toda forma de apoyo suma — ya sea una donación o simplemente compartir el proyecto.
-
-Todo contribuye a hacer este recurso mejor para todos.
+Even small contributions help maintain this as a useful and reliable resource.
