@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Indulity - Caso Completo</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left, .right {
+    padding: 20px;
+}
+
+.left {
+    width: 60%;
+    border-right: 1px solid #334155;
+}
+
+.right {
+    width: 40%;
+}
+
+.system {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.component {
+    padding: 25px;
+    border-radius: 10px;
+    background: #020617;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #334155;
+    transition: 0.2s;
+}
+
+.component:hover {
+    background: #1e293b;
+}
+
+.ok { border-color: #22c55e; }
+.fail { border-color: #ef4444; }
+.unknown { border-color: #334155; }
+
+.log {
+    margin-top: 20px;
+    padding: 15px;
+    background: #020617;
+    border-radius: 10px;
+    height: 250px;
+    overflow-y: auto;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+.success { color: #22c55e; }
+.error { color: #ef4444; }
+.hint { color: #facc15; }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="left">
+    <div class="header">
+        <h2>🏭 Sistema</h2>
+        <span id="mode">🧭 Guiado</span>
+    </div>
+
+
+<p id="objective">Objetivo: aprender diagnóstico paso a paso</p>
+
+<div class="system">
+    <div id="breaker" class="component unknown" onclick="inspect('breaker')">⚡ Breaker</div>
+    <div id="contactor" class="component unknown" onclick="inspect('contactor')">🔌 Contactor</div>
+    <div id="overload" class="component unknown" onclick="inspect('overload')">⚠️ Overload</div>
+    <div id="motor" class="component unknown" onclick="inspect('motor')">⚙️ Motor</div>
+</div>
+
+<button onclick="measureVoltage()">Medir voltaje</button>
+<button onclick="resetOverload()">Reset overload</button>
+<button onclick="startMotor()">Arrancar motor</button>
+
+
+</div>
+
+<div class="right">
+    <h2>🧠 Diagnóstico</h2>
+
+
+<button onclick="hint()">💡 Pista</button>
+<button onclick="nextStep()" id="nextBtn">➡️ Siguiente</button>
+
+<div class="log" id="log"></div>
+
+
+</div>
+
+</div>
+
+<script>
+
+// estado sistema
+let system = {
+    breaker: "ok",
+    overload: "tripped",
+    contactor: "idle",
+    motor: "stopped"
+};
+
+// modo
+let guided = true;
+let step = 0;
+
+const steps = [
+    "Primero revisamos si hay voltaje.",
+    "Si no hay voltaje, revisamos protecciones.",
+    "El overload está disparado. Debes resetearlo.",
+    "Ahora intenta arrancar el sistema."
+];
+
+function log(msg, type="") {
+    const logDiv = document.getElementById("log");
+    const p = document.createElement("p");
+    p.innerText = msg;
+    if(type) p.classList.add(type);
+    logDiv.appendChild(p);
+    logDiv.scrollTop = logDiv.scrollHeight;
+}
+
+// inspección
+function inspect(comp) {
+
+    switch(comp) {
+        case "breaker":
+            log("Breaker OK.");
+            setState("breaker","ok");
+            break;
+
+        case "contactor":
+            log("Contactor no energizado.");
+            break;
+
+        case "overload":
+            if(system.overload === "tripped") {
+                log("⚠️ Overload disparado.", "error");
+                setState("overload","fail");
+            } else {
+                log("Overload OK.", "success");
+                setState("overload","ok");
+            }
+            break;
+
+        case "motor":
+            log("Motor detenido.");
+            break;
+    }
+}
+
+// acciones
+function measureVoltage() {
+    if(system.overload === "tripped") {
+        log("❌ No hay voltaje en la salida.", "error");
+    } else {
+        log("✅ Voltaje presente.", "success");
+    }
+}
+
+function resetOverload() {
+    if(system.overload === "tripped") {
+        system.overload = "ok";
+        log("🔄 Overload reseteado.", "success");
+        setState("overload","ok");
+    } else {
+        log("Overload ya estaba bien.");
+    }
+}
+
+function startMotor() {
+    if(system.overload === "ok") {
+        system.motor = "running";
+        log("🚀 Sistema funcionando.", "success");
+
+        if(!guided) {
+            log("🏁 Caso resuelto correctamente.", "success");
+        }
+
+    } else {
+        log("❌ No arranca.", "error");
+    }
+}
+
+// visual
+function setState(id, state) {
+    const el = document.getElementById(id);
+    el.classList.remove("ok","fail","unknown");
+    el.classList.add(state);
+}
+
+// guía
+function nextStep() {
+
+    if(step < steps.length) {
+        log("🧭 " + steps[step]);
+        step++;
+    } else {
+        startChallenge();
+    }
+}
+
+// reto
+function startChallenge() {
+    guided = false;
+    document.getElementById("mode").innerText = "🎯 Reto";
+    document.getElementById("objective").innerText = "Objetivo: diagnosticar sin ayuda";
+    document.getElementById("nextBtn").style.display = "none";
+
+    system.overload = "tripped";
+    system.motor = "stopped";
+
+    resetVisuals();
+
+    log("----- NUEVO INTENTO -----");
+}
+
+// reset UI
+function resetVisuals() {
+    ["breaker","overload"].forEach(id=>{
+        document.getElementById(id).className = "component unknown";
+    });
+}
+
+// pistas
+function hint() {
+    if(system.overload === "tripped") {
+        log("💡 Revisa protecciones.", "hint");
+    } else {
+        log("💡 Intenta arrancar.", "hint");
+    }
+}
+
+</script>
+
+</body>
+</html>
