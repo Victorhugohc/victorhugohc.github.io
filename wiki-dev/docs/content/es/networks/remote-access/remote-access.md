@@ -1,101 +1,101 @@
-# Remote Access
+# Acceso remoto
 
-## Overview
+## Descripción general
 
-Remote access allows users to connect to industrial systems from a different physical location.
+El acceso remoto permite a los usuarios conectarse a sistemas industriales desde una ubicación física diferente.
 
-It enables monitoring, troubleshooting, and limited control without being on site.
+Habilita el monitoreo, la resolución de problemas y el control limitado sin estar en el sitio.
 
-Remote access is commonly used for maintenance, support, and system supervision.
+El acceso remoto se utiliza comúnmente para mantenimiento, soporte y supervisión de sistemas.
 
-## Purpose
+## Propósito
 
-The purpose of remote access is to provide convenient and efficient access to systems while reducing the need for physical presence.
+El propósito del acceso remoto es proporcionar un acceso conveniente y eficiente a los sistemas mientras reduce la necesidad de presencia física.
 
-It is used to:
+Se utiliza para:
 
-- Monitor system status remotely  
-- Perform diagnostics and troubleshooting  
-- Update configurations or software  
-- Support maintenance and technical assistance  
+- Monitorear el estado del sistema de forma remota  
+- Realizar diagnósticos y resolución de problemas  
+- Actualizar configuraciones o software  
+- Respaldar el mantenimiento y la asistencia técnica  
 
-It improves response time and reduces operational costs.
+Mejora el tiempo de respuesta y reduce los costos operativos.
 
-## How It Works
+## Cómo funciona
 
-Remote access connects a remote user to the industrial network through communication infrastructure.
+El acceso remoto conecta a un usuario remoto con la red industrial a través de infraestructura de comunicación.
 
-### Connection Path
+### Ruta de conexión
 
-A connection is established between the remote user and the target system.
+Se establece una conexión entre el usuario remoto y el sistema destino.
 
-- Through the internet or private networks  
-- Using secure communication channels  
+- A través de internet o redes privadas  
+- Utilizando canales de comunicación seguros  
 
-The user accesses devices as if locally connected.
+El usuario accede a los dispositivos como si estuviera conectado localmente.
 
-### Access Methods
+### Métodos de acceso
 
-Different methods can be used.
+Se pueden utilizar diferentes métodos.
 
-- Direct connection to network devices  
-- Remote desktop to operator or engineering stations  
-- Web based interfaces  
+- Conexión directa a dispositivos de red  
+- Escritorio remoto a estaciones de operador o ingeniería  
+- Interfaces basadas en web  
 
-The method depends on system design and requirements.
+El método depende del diseño del sistema y los requisitos.
 
-### Authentication
+### Autenticación
 
-Access must be controlled.
+El acceso debe controlarse.
 
-- User credentials verify identity  
-- Permissions define what actions are allowed  
+- Las credenciales de usuario verifican la identidad  
+- Los permisos definen qué acciones están permitidas  
 
-This ensures only authorized users can connect.
+Esto garantiza que solo usuarios autorizados puedan conectarse.
 
-### Data Exchange
+### Intercambio de datos
 
-Once connected, the user can:
+Una vez conectado, el usuario puede:
 
-- View system data  
-- Interact with HMIs or software  
-- Perform configuration changes  
+- Ver datos del sistema  
+- Interactuar con HMIs o software  
+- Realizar cambios de configuración  
 
-All communication occurs through the established connection.
+Toda la comunicación ocurre a través de la conexión establecida.
 
-## Applications
+## Aplicaciones
 
-Remote access is used in many industrial scenarios.
+El acceso remoto se utiliza en muchos escenarios industriales.
 
-Typical applications include:
+Las aplicaciones típicas incluyen:
 
-- Remote monitoring of plants and equipment  
-- Technical support from external teams  
-- Maintenance of distributed systems  
-- Access to SCADA or control systems  
+- Monitoreo remoto de plantas y equipos  
+- Soporte técnico de equipos externos  
+- Mantenimiento de sistemas distribuidos  
+- Acceso a sistemas SCADA o de control  
 
-It is especially useful in geographically dispersed operations.
+Es especialmente útil en operaciones geográficamente dispersas.
 
-## Key Considerations
+## Consideraciones clave
 
-Security is critical. Unauthorized access can compromise the system.
+La seguridad es crítica. El acceso no autorizado puede comprometer el sistema.
 
-Connection reliability affects usability.
+La confiabilidad de la conexión afecta la usabilidad.
 
-Access permissions must be clearly defined.
+Los permisos de acceso deben definirse con claridad.
 
-Network configuration must support remote connectivity.
+La configuración de red debe admitir conectividad remota.
 
-System performance may be affected by network latency.
+El rendimiento del sistema puede verse afectado por la latencia de red.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is enabling remote access without proper security controls.
+Un error común es habilitar el acceso remoto sin controles de seguridad adecuados.
 
-Limit access to necessary users and functions only.
+Limite el acceso solo a los usuarios y funciones necesarios.
 
-Use secure communication methods instead of open connections.
+Utilice métodos de comunicación seguros en lugar de conexiones abiertas.
 
-Log remote access activity for traceability.
+Registre la actividad de acceso remoto para trazabilidad.
 
-Disable remote access when not needed to reduce risk.
+Deshabilite el acceso remoto cuando no sea necesario para reducir el riesgo.

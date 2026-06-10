@@ -1,95 +1,95 @@
-# Where Energy Is Used
+# Dónde se usa la energía
 
-## Overview
+## Descripción general
 
-Understanding where energy is used in an industrial facility is essential for identifying inefficiencies and improvement opportunities.
+Comprender dónde se utiliza la energía en una instalación industrial es esencial para identificar ineficiencias y oportunidades de mejora.
 
-Energy consumption is not evenly distributed. A small number of systems typically account for the majority of total usage.
+El consumo de energía no se distribuye de manera uniforme. Un número reducido de sistemas suele representar la mayor parte del consumo total.
 
-Identifying these major consumers allows focused and effective optimization efforts.
+Identificar estos grandes consumidores permite enfocar los esfuerzos de optimización de forma efectiva.
 
-## Purpose
+## Propósito
 
-The purpose of analyzing energy usage is to:
+El propósito de analizar el uso de energía es:
 
-- Identify the largest energy consumers in the facility  
-- Prioritize efficiency improvements  
-- Reduce operational costs  
-- Improve overall system performance  
-- Support data driven decision making  
+- Identificar los mayores consumidores de energía en la instalación  
+- Priorizar mejoras de eficiencia  
+- Reducir costos operativos  
+- Mejorar el desempeño general del sistema  
+- Apoyar la toma de decisiones basada en datos  
 
-Knowing where energy is used is the first step toward reducing consumption.
+Saber dónde se usa la energía es el primer paso para reducir el consumo.
 
-## How It Works
+## Cómo funciona
 
-Energy usage is analyzed by measuring or estimating consumption across different systems and processes.
+El uso de energía se analiza midiendo o estimando el consumo en diferentes sistemas y procesos.
 
-This can be done through:
+Esto puede realizarse mediante:
 
-- Energy meters at main and sub distribution points  
-- Equipment level monitoring for critical loads  
-- Analysis of operating hours and load profiles  
+- Medidores de energía en puntos principales y subdistribución  
+- Monitoreo a nivel de equipo para cargas críticas  
+- Análisis de horas de operación y perfiles de carga  
 
-Energy consumption is typically grouped by type of use, allowing comparison between different systems.
+El consumo energético suele agruparse por tipo de uso, lo que permite comparar entre diferentes sistemas.
 
-Patterns such as peak demand, idle consumption, and variable loads are identified to understand behavior.
+Se identifican patrones como demanda máxima, consumo en vacío y cargas variables para entender el comportamiento.
 
-## Applications
+## Aplicaciones
 
-Energy usage analysis is applied in:
+El análisis del uso de energía se aplica en:
 
-- Industrial plants with high energy demand  
-- Facilities seeking cost reduction and efficiency improvements  
-- Energy management programs  
-- Audits and performance evaluations  
-- System design and optimization projects  
+- Plantas industriales con alta demanda energética  
+- Instalaciones que buscan reducir costos y mejorar eficiencia  
+- Programas de gestión energética  
+- Auditorías y evaluaciones de desempeño  
+- Proyectos de diseño y optimización de sistemas  
 
-It is relevant in both existing and new installations.
+Es relevante tanto en instalaciones existentes como nuevas.
 
-## Key Areas of Energy Use
+## Principales áreas de consumo de energía
 
-- **Motor driven systems**  
-  Pumps, fans, compressors, and conveyors are often the largest consumers  
+- **Sistemas accionados por motores**  
+  Bombas, ventiladores, compresores y transportadores suelen ser los mayores consumidores  
 
-- **Heating and thermal processes**  
-  Electric heaters, furnaces, and process heating systems  
+- **Procesos térmicos**  
+  Calentadores eléctricos, hornos y sistemas de calentamiento de procesos  
 
-- **Compressed air systems**  
-  Typically inefficient and often oversized or poorly controlled  
+- **Sistemas de aire comprimido**  
+  Generalmente ineficientes y frecuentemente sobredimensionados o mal controlados  
 
-- **Lighting systems**  
-  Continuous loads that can be optimized with efficient technologies  
+- **Sistemas de iluminación**  
+  Cargas continuas que pueden optimizarse con tecnologías eficientes  
 
-- **Power distribution losses**  
-  Losses in transformers, cables, and connections  
+- **Pérdidas en distribución eléctrica**  
+  Pérdidas en transformadores, cables y conexiones  
 
-- **Control and auxiliary systems**  
-  PLCs, drives, and support equipment with continuous operation  
+- **Sistemas de control y auxiliares**  
+  PLC, variadores y equipos de soporte con operación continua  
 
-## Key Considerations
+## Consideraciones clave
 
-- **Load distribution**  
-  A few systems usually dominate total energy consumption  
+- **Distribución de carga**  
+  Pocos sistemas suelen concentrar la mayor parte del consumo  
 
-- **Operating hours**  
-  Continuous loads have higher impact than intermittent ones  
+- **Horas de operación**  
+  Las cargas continuas tienen mayor impacto que las intermitentes  
 
-- **Efficiency of equipment**  
-  Older or poorly maintained equipment consumes more energy  
+- **Eficiencia de los equipos**  
+  Equipos antiguos o mal mantenidos consumen más energía  
 
-- **Idle consumption**  
-  Equipment running without performing useful work wastes energy  
+- **Consumo en vacío**  
+  Equipos operando sin realizar trabajo útil desperdician energía  
 
-- **Measurement accuracy**  
-  Reliable data is necessary for correct analysis  
+- **Precisión de medición**  
+  Datos confiables son necesarios para un análisis correcto  
 
-- **Interaction between systems**  
-  Changes in one system can affect overall energy usage  
+- **Interacción entre sistemas**  
+  Cambios en un sistema pueden afectar el consumo total  
 
-## Practical Notes
+## Notas prácticas
 
-- Motor systems often represent the majority of industrial energy use  
-- Compressed air is one of the most expensive forms of energy if not managed properly  
-- Energy audits help identify hidden inefficiencies  
-- Sub metering improves visibility and control of energy consumption  
-- Focusing on the largest loads provides the greatest impact  
+- Los sistemas de motores suelen representar la mayor parte del consumo energético industrial  
+- El aire comprimido es una de las formas más costosas de energía si no se gestiona adecuadamente  
+- Las auditorías energéticas ayudan a identificar ineficiencias ocultas  
+- La submedición mejora la visibilidad y el control del consumo  
+- Enfocarse en las cargas principales genera el mayor impacto  

@@ -1,123 +1,123 @@
-# Network Use Cases
+# Casos de uso de red
 
-## Overview
+## Descripción general
 
-Network use cases describe how communication networks are applied in real industrial systems.
+Los casos de uso de red describen cómo se aplican las redes de comunicación en sistemas industriales reales.
 
-They show how different devices, protocols, and architectures are combined to achieve specific operational goals.
+Muestran cómo se combinan diferentes dispositivos, protocolos y arquitecturas para lograr objetivos operativos específicos.
 
-Understanding common use cases helps in selecting the right technologies and designing effective networks.
+Comprender los casos de uso comunes ayuda a seleccionar las tecnologías adecuadas y diseñar redes efectivas.
 
-## Purpose
+## Propósito
 
-The purpose of defining network use cases is to guide design decisions based on real requirements.
+El propósito de definir casos de uso de red es orientar las decisiones de diseño según requisitos reales.
 
-It helps to:
+Ayuda a:
 
-- Match network solutions to application needs  
-- Understand typical system configurations  
-- Identify appropriate technologies  
-- Avoid overdesign or underdesign  
+- Ajustar las soluciones de red a las necesidades de la aplicación  
+- Comprender configuraciones típicas de sistemas  
+- Identificar tecnologías apropiadas  
+- Evitar el sobrediseño o el subdiseño  
 
-Use cases provide practical context for network implementation.
+Los casos de uso proporcionan contexto práctico para la implementación de redes.
 
-## How It Works
+## Cómo funciona
 
-Each use case is defined by the type of system, communication needs, and operational constraints.
+Cada caso de uso se define por el tipo de sistema, las necesidades de comunicación y las restricciones operativas.
 
-### Machine Level Control
+### Control a nivel de máquina
 
-A single machine or small system with local control.
+Una sola máquina o sistema pequeño con control local.
 
-- PLC connected to local I O and HMI  
-- Limited number of devices  
-- Real time control is critical  
+- PLC conectado a E/S local y HMI  
+- Número limitado de dispositivos  
+- El control en tiempo real es crítico  
 
-Typically uses simple Ethernet or fieldbus communication.
+Típicamente utiliza comunicación Ethernet simple o fieldbus.
 
-### Production Line Integration
+### Integración de línea de producción
 
-Multiple machines connected within a production line.
+Múltiples máquinas conectadas dentro de una línea de producción.
 
-- PLC to PLC communication  
-- Coordination between stations  
-- Shared data across systems  
+- Comunicación de PLC a PLC  
+- Coordinación entre estaciones  
+- Datos compartidos entre sistemas  
 
-Requires structured Ethernet networks and reliable communication.
+Requiere redes Ethernet estructuradas y comunicación confiable.
 
-### Distributed Systems
+### Sistemas distribuidos
 
-Systems spread across large areas or multiple locations.
+Sistemas extendidos en áreas grandes o múltiples ubicaciones.
 
-- Remote I O and controllers  
-- Long distance communication  
-- Central monitoring through SCADA  
+- E/S y controladores remotos  
+- Comunicación a larga distancia  
+- Monitoreo central mediante SCADA  
 
-Requires robust network design and possibly remote access solutions.
+Requiere un diseño de red robusto y posiblemente soluciones de acceso remoto.
 
-### Process Control Systems
+### Sistemas de control de procesos
 
-Continuous processes with many measurement points.
+Procesos continuos con muchos puntos de medición.
 
-- Integration of instrumentation and controllers  
-- High reliability requirements  
-- Data collection and analysis  
+- Integración de instrumentación y controladores  
+- Altos requisitos de confiabilidad  
+- Recopilación y análisis de datos  
 
-Uses a combination of fieldbus and Ethernet based protocols.
+Utiliza una combinación de protocolos fieldbus y basados en Ethernet.
 
-### Remote Monitoring and Support
+### Monitoreo y soporte remoto
 
-Systems accessed from remote locations.
+Sistemas accedidos desde ubicaciones remotas.
 
-- Remote access for maintenance  
-- Data collection for analysis  
-- Limited control capabilities  
+- Acceso remoto para mantenimiento  
+- Recopilación de datos para análisis  
+- Capacidades de control limitadas  
 
-Requires secure communication and network segmentation.
+Requiere comunicación segura y segmentación de red.
 
-### Enterprise Integration
+### Integración empresarial
 
-Connection between industrial systems and business systems.
+Conexión entre sistemas industriales y sistemas de negocio.
 
-- Data exchange with databases or cloud platforms  
-- Performance and production reporting  
-- Integration with IT systems  
+- Intercambio de datos con bases de datos o plataformas en la nube  
+- Informes de rendimiento y producción  
+- Integración con sistemas de TI  
 
-Requires careful network design and security measures.
+Requiere un diseño de red cuidadoso y medidas de seguridad.
 
-## Applications
+## Aplicaciones
 
-These use cases apply across industries.
+Estos casos de uso se aplican en diversas industrias.
 
-Typical environments include:
+Los entornos típicos incluyen:
 
-- Manufacturing plants  
-- Process industries  
-- Energy and utility systems  
-- Infrastructure and facilities  
+- Plantas de manufactura  
+- Industrias de procesos  
+- Sistemas de energía y servicios públicos  
+- Infraestructura e instalaciones  
 
-Each environment may combine multiple use cases.
+Cada entorno puede combinar múltiples casos de uso.
 
-## Key Considerations
+## Consideraciones clave
 
-Application requirements define network design choices.
+Los requisitos de la aplicación definen las decisiones de diseño de red.
 
-Real time needs affect protocol and architecture selection.
+Las necesidades en tiempo real afectan la selección de protocolos y arquitectura.
 
-Scalability must be considered for system growth.
+La escalabilidad debe considerarse para el crecimiento del sistema.
 
-Security is critical, especially in connected systems.
+La seguridad es crítica, especialmente en sistemas conectados.
 
-Reliability requirements vary depending on process criticality.
+Los requisitos de confiabilidad varían según la criticidad del proceso.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is applying the same network design to all systems without considering specific needs.
+Un error común es aplicar el mismo diseño de red a todos los sistemas sin considerar necesidades específicas.
 
-Start with a clear understanding of the application before selecting technologies.
+Comience con una comprensión clara de la aplicación antes de seleccionar tecnologías.
 
-Avoid unnecessary complexity in simple systems.
+Evite complejidad innecesaria en sistemas simples.
 
-Combine use cases carefully to ensure compatibility.
+Combine los casos de uso con cuidado para garantizar compatibilidad.
 
-Validate network performance under real operating conditions.
+Valide el rendimiento de la red bajo condiciones operativas reales.

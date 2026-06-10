@@ -1,74 +1,74 @@
-# Medium Voltage
+# Media tensión
 
-## Overview
+## Descripción general
 
-Medium voltage systems are used to distribute electrical power at higher voltage levels within industrial facilities.
+Los sistemas de media tensión (MV) se utilizan para distribuir energía eléctrica a niveles de voltaje más altos dentro de instalaciones industriales.
 
-They typically operate in the range of 1 kV to 36 kV, depending on regional standards and application requirements.
+Típicamente operan en el rango de 1 kV a 36 kV, dependiendo de las normas regionales y los requisitos de la aplicación.
 
-Medium voltage is used to move power efficiently over longer distances and to supply large loads before stepping down to low voltage.
+La media tensión se utiliza para transportar energía de manera eficiente a largas distancias y para alimentar cargas grandes antes de reducir a baja tensión.
 
-## Purpose
+## Propósito
 
-The purpose of medium voltage systems is to:
+El propósito de los sistemas de media tensión es:
 
-- Reduce current for a given power level, minimizing losses  
-- Enable efficient distribution across large facilities  
-- Supply high power equipment directly when required  
-- Provide a structured interface between utility supply and internal distribution  
+- Reducir la corriente para un nivel de potencia dado, minimizando las pérdidas  
+- Permitir distribución eficiente en instalaciones grandes  
+- Alimentar equipo de alta potencia directamente cuando se requiere  
+- Proporcionar una interfaz estructurada entre el suministro del servicio público y la distribución interna  
 
-Using higher voltage levels allows more compact conductors and improved system efficiency.
+El uso de niveles de voltaje más altos permite conductores más compactos y mayor eficiencia del sistema.
 
-## How It Works
+## Cómo funciona
 
-Electrical power enters the facility from the utility, usually at medium voltage.
+La energía eléctrica ingresa a la instalación desde el servicio público, generalmente a media tensión.
 
-From there, the system distributes power through:
+A partir de ahí, el sistema distribuye energía a través de:
 
-- Medium voltage switchgear for control and protection  
-- Feeders that supply different areas or processes  
-- Transformers that step voltage down to low voltage levels  
-- Direct connections to large equipment such as motors or substations  
+- Switchgear (celdas de media tensión) para control y protección  
+- Alimentadores que suministran diferentes áreas o procesos  
+- Transformadores que reducen el voltaje a niveles de baja tensión  
+- Conexiones directas a equipo grande como motores o subestaciones  
 
-Protection systems monitor current and voltage to detect faults and isolate affected sections.
+Los sistemas de protección monitorean corriente y voltaje para detectar fallas y aislar las secciones afectadas.
 
-Switching devices allow sections of the system to be energized or de energized safely.
+Los dispositivos de conmutación permiten energizar o desenergizar secciones del sistema de manera segura.
 
-## Applications
+## Aplicaciones
 
-Medium voltage systems are used in:
+Los sistemas de media tensión se utilizan en:
 
-- Large industrial plants with significant power demand  
-- Mining, oil and gas, and heavy manufacturing facilities  
-- Facilities with long distances between loads  
-- High power motor applications such as compressors and mills  
-- Internal distribution networks in large campuses or complexes  
+- Plantas industriales grandes con demanda de potencia significativa  
+- Instalaciones de minería, petróleo y gas, y manufactura pesada  
+- Instalaciones con largas distancias entre cargas  
+- Aplicaciones de motores de alta potencia como compresores y molinos  
+- Redes de distribución interna en campus o complejos grandes  
 
-They are essential where low voltage distribution would result in excessive current and losses.
+Son esenciales donde la distribución en baja tensión resultaría en corrientes excesivas y pérdidas.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Voltage level selection**  
-  Must balance efficiency, equipment cost, and compatibility with utility supply  
+- **Selección del nivel de voltaje**  
+  Debe equilibrar eficiencia, costo del equipo y compatibilidad con el suministro del servicio público  
 
-- **Insulation and clearance**  
-  Higher voltage requires stricter insulation design and physical spacing  
+- **Aislamiento y distancias de seguridad**  
+  Un voltaje más alto requiere un diseño de aislamiento más estricto y mayor separación física  
 
-- **Protection systems**  
-  More complex than low voltage, often involving relays and coordinated schemes  
+- **Sistemas de protección**  
+  Más complejos que en baja tensión, a menudo involucran relevadores y esquemas coordinados  
 
-- **Short circuit levels**  
-  Fault currents can be very high and must be considered in equipment ratings  
+- **Niveles de cortocircuito**  
+  Las corrientes de falla pueden ser muy altas y deben considerarse en las capacidades del equipo  
 
-- **Safety requirements**  
-  Operation and maintenance require trained personnel and strict procedures  
+- **Requisitos de seguridad**  
+  La operación y el mantenimiento requieren personal capacitado y procedimientos estrictos  
 
-- **System configuration**  
-  Radial, loop, or ring configurations impact reliability and fault response  
+- **Configuración del sistema**  
+  Las configuraciones radial, en lazo o en anillo impactan la confiabilidad y la respuesta ante fallas  
 
-## Practical Notes
+## Notas prácticas
 
-- Medium voltage systems reduce conductor size but increase equipment complexity  
-- Improper insulation or installation can lead to severe faults and outages  
-- Maintenance and testing are more critical compared to low voltage systems  
-- Direct medium voltage motor connections are common in high power applications  
+- Los sistemas de media tensión reducen el tamaño de los conductores pero aumentan la complejidad del equipo  
+- Un aislamiento o instalación inadecuados pueden provocar fallas severas e interrupciones  
+- El mantenimiento y las pruebas son más críticos en comparación con los sistemas de baja tensión  
+- Las conexiones directas de motores a media tensión son comunes en aplicaciones de alta potencia  

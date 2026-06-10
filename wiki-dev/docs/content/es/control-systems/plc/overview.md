@@ -1,74 +1,74 @@
 # PLC
 
-## Overview
+## Descripción general
 
-A Programmable Logic Controller is an industrial computer used to control machines and processes.
+Un Controlador Lógico Programable (PLC) es una computadora industrial utilizada para controlar máquinas y procesos.
 
-It monitors inputs, executes control logic, and updates outputs in real time. PLCs are designed for reliability, deterministic operation, and operation in harsh industrial environments.
+Monitorea entradas, ejecuta lógica de control y actualiza salidas en tiempo real. Los PLC están diseñados para alta confiabilidad, operación determinística y funcionamiento en entornos industriales exigentes.
 
-## Purpose
+## Propósito
 
-The purpose of a PLC is to automate control tasks in a flexible and maintainable way.
+El propósito de un PLC es automatizar tareas de control de manera flexible y mantenible.
 
-It replaces hardwired relay logic and allows control behavior to be modified through software instead of physical rewiring.
+Reemplaza la lógica cableada basada en relevadores y permite modificar el comportamiento del control mediante software en lugar de recableado físico.
 
-PLCs are used to:
+Los PLC se utilizan para:
 
-- Automate sequences and machine operations  
-- Control industrial processes  
-- Interface with sensors and actuators  
-- Provide consistent and repeatable operation  
+- Automatizar secuencias y operaciones de máquinas  
+- Controlar procesos industriales  
+- Interfaz con sensores y actuadores  
+- Proporcionar operación consistente y repetible  
 
-## How It Works
+## Cómo funciona
 
-A PLC operates in a continuous loop known as the scan cycle.
+Un PLC opera en un ciclo continuo conocido como ciclo de escaneo.
 
-Basic operation:
+Operación básica:
 
-- Read input signals from field devices  
-- Execute the control program  
-- Update output signals to actuators  
+- Leer señales de entrada desde dispositivos de campo  
+- Ejecutar el programa de control  
+- Actualizar señales de salida hacia actuadores  
 
-Inputs can be digital or analog signals from sensors, switches, or instruments.
+Las entradas pueden ser señales digitales o analógicas provenientes de sensores, interruptores o instrumentos.
 
-The control program processes these signals using logic, timers, counters, and control functions.
+El programa de control procesa estas señales utilizando lógica, temporizadores, contadores y funciones de control.
 
-Outputs drive devices such as motors, valves, relays, and alarms.
+Las salidas accionan dispositivos como motores, válvulas, relevadores y alarmas.
 
-This cycle repeats continuously, allowing the PLC to respond to changes in the process.
+Este ciclo se repite continuamente, permitiendo al PLC responder a cambios en el proceso.
 
-## Applications
+## Aplicaciones
 
-PLCs are used across a wide range of industrial systems, including:
+Los PLC se utilizan en una amplia variedad de sistemas industriales, incluyendo:
 
-- Manufacturing and assembly lines  
-- Packaging machines  
-- Material handling systems  
-- Water and wastewater treatment  
-- Energy and utility systems  
+- Líneas de manufactura y ensamblaje  
+- Máquinas de empaque  
+- Sistemas de manejo de materiales  
+- Tratamiento de agua y aguas residuales  
+- Sistemas de energía y servicios  
 
-They are suitable for both discrete control and continuous process control.
+Son adecuados tanto para control discreto como para control de procesos continuos.
 
-## Key Considerations
+## Consideraciones clave
 
-Reliability is critical. PLCs are designed to operate continuously with minimal downtime.
+La confiabilidad es crítica. Los PLC están diseñados para operar continuamente con mínimo tiempo de inactividad.
 
-Deterministic behavior ensures predictable response times.
+El comportamiento determinístico asegura tiempos de respuesta predecibles.
 
-I/O requirements must match the system. Number and type of signals should be defined early.
+Los requerimientos de I/O deben coincidir con el sistema. El número y tipo de señales deben definirse desde el inicio.
 
-Processing capacity must support the control logic and communication needs.
+La capacidad de procesamiento debe soportar la lógica de control y las necesidades de comunicación.
 
-Environmental conditions such as temperature, vibration, and electrical noise must be considered.
+Las condiciones ambientales como temperatura, vibración y ruido eléctrico deben considerarse.
 
-Integration with other systems such as HMIs and networks is often required.
+La integración con otros sistemas como HMI y redes suele ser necesaria.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is underestimating future expansion. Leave space for additional I/O and program capacity.
+Un error común es subestimar la expansión futura. Deja espacio para I/O adicionales y capacidad de programa.
 
-Overcomplicating the program can make troubleshooting difficult. Keep logic structured and clear.
+Sobrecargar el programa puede dificultar el diagnóstico. Mantén la lógica estructurada y clara.
 
-Proper wiring and signal quality are as important as the PLC itself.
+El cableado adecuado y la calidad de señal son tan importantes como el PLC.
 
-Choose hardware and software that are familiar to the maintenance team to reduce downtime.
+Elige hardware y software conocidos por el equipo de mantenimiento para reducir tiempos de paro.

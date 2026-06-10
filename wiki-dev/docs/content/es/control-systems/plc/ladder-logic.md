@@ -1,99 +1,99 @@
-# Ladder Logic
+# Lógica Ladder
 
-## Overview
+## Descripción general
 
-Ladder logic is a graphical programming language used in PLCs. It represents control logic using symbols similar to electrical relay circuits.
+La lógica ladder es un lenguaje de programación gráfico utilizado en PLCs. Representa la lógica de control mediante símbolos similares a los circuitos eléctricos de relevadores.
 
-Programs are organized in horizontal lines called rungs, which define how inputs and conditions control outputs.
+Los programas se organizan en líneas horizontales llamadas peldaños (rungs), que definen cómo las entradas y condiciones controlan las salidas.
 
-## Purpose
+## Propósito
 
-The purpose of ladder logic is to provide a simple and intuitive way to implement control logic.
+El propósito de la lógica ladder es proporcionar una forma simple e intuitiva de implementar lógica de control.
 
-It allows engineers and technicians to:
+Permite a ingenieros y técnicos:
 
-- Design and understand control sequences  
-- Translate relay based systems into software  
-- Troubleshoot logic using a familiar format  
+- Diseñar y comprender secuencias de control  
+- Traducir sistemas basados en relevadores a software  
+- Diagnosticar lógica utilizando un formato familiar  
 
-It is widely used due to its clarity and industry acceptance.
+Es ampliamente utilizada por su claridad y aceptación en la industria.
 
-## How It Works
+## Cómo funciona
 
-Ladder logic is based on evaluating conditions from left to right across each rung.
+La lógica ladder se basa en evaluar condiciones de izquierda a derecha en cada peldaño.
 
-### Basic Elements
+### Elementos básicos
 
-- Contacts represent input conditions  
-- Coils represent outputs or actions  
+- Los contactos representan condiciones de entrada  
+- Las bobinas representan salidas o acciones  
 
-Contacts can be:
+Los contactos pueden ser:
 
-- Normally open, true when the condition is active  
-- Normally closed, true when the condition is not active  
+- Normalmente abiertos, verdaderos cuando la condición está activa  
+- Normalmente cerrados, verdaderos cuando la condición no está activa  
 
-### Logic Execution
+### Ejecución de la lógica
 
-Each rung is evaluated during the scan cycle.
+Cada peldaño se evalúa durante el ciclo de escaneo.
 
-- If the conditions on the left side are true  
-- The logic path is completed  
-- The output on the right side is energized  
+- Si las condiciones del lado izquierdo son verdaderas  
+- Se completa el camino lógico  
+- La salida del lado derecho se energiza  
 
-If the conditions are false, the output is deactivated.
+Si las condiciones son falsas, la salida se desactiva.
 
-### Logical Operations
+### Operaciones lógicas
 
-Ladder logic supports basic logic functions.
+La lógica ladder soporta funciones lógicas básicas.
 
-- Series contacts represent AND conditions  
-- Parallel branches represent OR conditions  
+- Contactos en serie representan condiciones AND  
+- Ramas en paralelo representan condiciones OR  
 
-This allows building complex control logic from simple elements.
+Esto permite construir lógica compleja a partir de elementos simples.
 
-### Internal Elements
+### Elementos internos
 
-Ladder logic can also include:
+La lógica ladder también puede incluir:
 
-- Internal bits  
-- Timers  
-- Counters  
-- Comparison instructions  
+- Bits internos  
+- Temporizadores  
+- Contadores  
+- Instrucciones de comparación  
 
-These elements allow more advanced control behavior.
+Estos elementos permiten comportamientos de control más avanzados.
 
-## Applications
+## Aplicaciones
 
-Ladder logic is used in a wide range of PLC applications.
+La lógica ladder se utiliza en una amplia variedad de aplicaciones de PLC.
 
-Typical uses include:
+Usos típicos incluyen:
 
-- Machine control sequences  
-- Interlocks and safety conditions  
-- Motor control circuits  
-- Alarm logic  
-- Basic automation tasks  
+- Secuencias de control de maquinaria  
+- Interbloqueos y condiciones de seguridad  
+- Circuitos de control de motores  
+- Lógica de alarmas  
+- Tareas básicas de automatización  
 
-It is especially common in discrete control systems.
+Es especialmente común en sistemas de control discreto.
 
-## Key Considerations
+## Consideraciones clave
 
-Readability is important. Clear structure simplifies troubleshooting.
+La legibilidad es fundamental. Una estructura clara facilita el diagnóstico.
 
-Program organization should follow logical grouping of functions.
+La organización del programa debe seguir una agrupación lógica de funciones.
 
-Complex logic can become difficult to maintain if not structured properly.
+La lógica compleja puede volverse difícil de mantener si no se estructura adecuadamente.
 
-Execution order matters. Rungs are evaluated sequentially.
+El orden de ejecución es importante. Los peldaños se evalúan secuencialmente.
 
-Consistency in naming and layout improves understanding.
+La consistencia en nombres y estructura mejora la comprensión.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is creating overly complex rungs. Break logic into smaller sections for clarity.
+Un error común es crear peldaños demasiado complejos. Divide la lógica en secciones más pequeñas para mayor claridad.
 
-Avoid duplicating logic across multiple rungs. Use internal variables when needed.
+Evita duplicar lógica en múltiples peldaños. Usa variables internas cuando sea necesario.
 
-Use comments and clear labeling to document the purpose of each rung.
+Utiliza comentarios y etiquetado claro para documentar el propósito de cada peldaño.
 
-Keep the structure similar to real system behavior to make troubleshooting easier.
+Mantén una estructura similar al comportamiento real del sistema para facilitar el diagnóstico.

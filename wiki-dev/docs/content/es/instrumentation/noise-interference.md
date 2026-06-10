@@ -1,94 +1,94 @@
-# Noise and Interference
+# Ruido e interferencia
 
-## Overview
+## Descripción general
 
-Noise and interference refer to unwanted electrical signals that affect the accuracy and stability of measurement and control signals.
+El ruido y la interferencia se refieren a señales eléctricas no deseadas que afectan la precisión y la estabilidad de las señales de medición y control.
 
-They can distort analog signals, create false readings, or cause unreliable system behavior.
+Pueden distorsionar señales analógicas, crear lecturas falsas o causar un comportamiento poco confiable del sistema.
 
-Managing noise is essential for reliable instrumentation and control systems.
+El manejo del ruido es esencial para sistemas de instrumentación y control confiables.
 
-## Purpose
+## Propósito
 
-The purpose of understanding and controlling noise is to maintain signal integrity.
+El propósito de comprender y controlar el ruido es mantener la integridad de la señal.
 
-It helps to:
+Ayuda a:
 
-- Ensure accurate measurements  
-- Prevent false signals or triggers  
-- Improve system reliability  
-- Protect sensitive equipment  
+- Asegurar mediciones precisas  
+- Prevenir señales o disparos falsos  
+- Mejorar la confiabilidad del sistema  
+- Proteger equipo sensible  
 
-Proper noise control is critical in industrial environments.
+El control adecuado del ruido es crítico en entornos industriales.
 
-## How It Works
+## Cómo funciona
 
-Noise is introduced through various mechanisms and can affect signals in different ways.
+El ruido se introduce a través de diversos mecanismos y puede afectar las señales de diferentes maneras.
 
-### Types of Noise
+### Tipos de ruido
 
-Common sources include:
+Las fuentes comunes incluyen:
 
-- Electromagnetic interference from motors and drives  
-- Switching devices such as contactors and relays  
-- Power lines and high current cables  
-- Radio frequency signals  
+- Interferencia electromagnética de motores y variadores  
+- Dispositivos de conmutación tales como contactores y relevadores  
+- Líneas de potencia y cables de alta corriente  
+- Señales de radiofrecuencia  
 
-These sources generate unwanted electrical disturbances.
+Estas fuentes generan perturbaciones eléctricas no deseadas.
 
-### Coupling Mechanisms
+### Mecanismos de acoplamiento
 
-Noise can enter signal lines through different paths.
+El ruido puede ingresar a las líneas de señal a través de diferentes rutas.
 
-- Inductive coupling from nearby current carrying conductors  
-- Capacitive coupling from voltage variations  
-- Conductive coupling through shared circuits or grounds  
+- Acoplamiento inductivo de conductores cercanos que transportan corriente  
+- Acoplamiento capacitivo por variaciones de voltaje  
+- Acoplamiento conductivo a través de circuitos o tierras compartidas  
 
-Understanding these mechanisms helps in designing protection.
+Comprender estos mecanismos ayuda en el diseño de la protección.
 
-### Effects on Signals
+### Efectos en las señales
 
-Noise affects signals differently depending on type.
+El ruido afecta las señales de manera diferente dependiendo del tipo.
 
-- Analog signals may show fluctuations or drift  
-- Digital signals may experience false switching  
-- Communication signals may lose data or errors  
+- Las señales analógicas pueden mostrar fluctuaciones o deriva  
+- Las señales digitales pueden experimentar conmutaciones falsas  
+- Las señales de comunicación pueden perder datos o presentar errores  
 
-The impact depends on signal sensitivity and system design.
+El impacto depende de la sensibilidad de la señal y del diseño del sistema.
 
-## Applications
+## Aplicaciones
 
-Noise control is important in all industrial systems.
+El control del ruido es importante en todos los sistemas industriales.
 
-Typical situations include:
+Las situaciones típicas incluyen:
 
-- Analog measurement systems  
-- Long cable runs  
-- Systems with high power equipment  
-- Communication networks  
+- Sistemas de medición analógica  
+- Tendidos largos de cable  
+- Sistemas con equipo de alta potencia  
+- Redes de comunicación  
 
-It is especially critical in precision measurement and control.
+Es especialmente crítico en medición y control de precisión.
 
-## Key Considerations
+## Consideraciones clave
 
-Signal type influences sensitivity to noise. Analog signals are more affected than digital.
+El tipo de señal influye en la sensibilidad al ruido. Las señales analógicas se ven más afectadas que las digitales.
 
-Cable routing plays a major role in noise reduction.
+El tendido del cable desempeña un papel importante en la reducción del ruido.
 
-Shielding and grounding practices are essential.
+Las prácticas de blindaje y puesta a tierra son esenciales.
 
-Separation between power and signal cables reduces interference.
+La separación entre cables de potencia y de señal reduce la interferencia.
 
-Proper equipment selection can improve immunity.
+La selección adecuada del equipo puede mejorar la inmunidad.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is running signal cables close to power cables. Always separate them when possible.
+Un error común es tender cables de señal cerca de cables de potencia. Siempre sepárelos cuando sea posible.
 
-Use shielded cables for sensitive signals and ground the shield correctly.
+Utilice cables blindados para señales sensibles y conecte el blindaje a tierra correctamente.
 
-Avoid ground loops by designing proper grounding systems.
+Evite lazos de tierra diseñando sistemas de puesta a tierra adecuados.
 
-Check connections and terminations to prevent noise pickup.
+Revise las conexiones y terminaciones para prevenir la captación de ruido.
 
-When possible, use current signals such as 4 to 20 mA for better noise immunity.
+Cuando sea posible, utilice señales de corriente tales como 4 a 20 mA para una mejor inmunidad al ruido.

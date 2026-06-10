@@ -1,80 +1,80 @@
-# Transformers
+# Transformadores
 
-## Overview
+## Descripción general
 
-Transformers are electrical devices used to change voltage levels in power systems.
+Los transformadores son dispositivos eléctricos utilizados para cambiar los niveles de voltaje en sistemas de potencia.
 
-They allow energy to be transferred between circuits at different voltage levels while maintaining the same frequency.
+Permiten transferir energía entre circuitos a diferentes niveles de voltaje manteniendo la misma frecuencia.
 
-Transformers are essential for connecting medium voltage distribution to low voltage systems and for adapting power to the requirements of different equipment.
+Los transformadores son esenciales para conectar la distribución en media tensión con los sistemas de baja tensión y para adaptar la energía a los requisitos de diferentes equipos.
 
-## Purpose
+## Propósito
 
-The purpose of transformers is to:
+El propósito de los transformadores es:
 
-- Step down voltage for safe use by equipment  
-- Step up voltage for efficient transmission and distribution  
-- Provide electrical isolation between circuits  
-- Adapt power levels to match system requirements  
+- Reducir el voltaje para uso seguro del equipo  
+- Elevar el voltaje para transmisión y distribución eficientes  
+- Proporcionar aislamiento eléctrico entre circuitos  
+- Adaptar los niveles de potencia a los requisitos del sistema  
 
-Without transformers, efficient power distribution and safe utilization would not be possible.
+Sin transformadores, la distribución eficiente de energía y su utilización segura no serían posibles.
 
-## How It Works
+## Cómo funciona
 
-Transformers operate based on electromagnetic induction.
+Los transformadores operan basándose en la inducción electromagnética.
 
-They consist of two main windings:
+Consisten en dos devanados principales:
 
-- Primary winding connected to the input voltage  
-- Secondary winding connected to the output  
+- Devanado primario conectado al voltaje de entrada  
+- Devanado secundario conectado a la salida  
 
-When alternating current flows through the primary winding, it creates a magnetic field in the core.
+Cuando la corriente alterna fluye a través del devanado primario, crea un campo magnético en el núcleo.
 
-This changing magnetic field induces a voltage in the secondary winding.
+Este campo magnético variable induce un voltaje en el devanado secundario.
 
-The voltage ratio depends on the number of turns in each winding:
+La relación de voltaje depende del número de espiras en cada devanado:
 
-- More turns in the secondary results in higher output voltage  
-- Fewer turns in the secondary results in lower output voltage  
+- Más espiras en el secundario resultan en mayor voltaje de salida  
+- Menos espiras en el secundario resultan en menor voltaje de salida  
 
-Power is transferred magnetically, with no direct electrical connection between windings.
+La energía se transfiere magnéticamente, sin conexión eléctrica directa entre los devanados.
 
-## Applications
+## Aplicaciones
 
-Transformers are used in:
+Los transformadores se utilizan en:
 
-- Stepping down medium voltage to low voltage in industrial facilities  
-- Supplying control panels and auxiliary systems  
-- Power distribution substations within plants  
-- Isolation of sensitive equipment  
-- Dedicated supplies for specific loads such as drives or lighting  
+- Reducción de media tensión a baja tensión en instalaciones industriales  
+- Alimentación de tableros de control y sistemas auxiliares  
+- Subestaciones de distribución de energía dentro de plantas  
+- Aislamiento de equipo sensible  
+- Suministros dedicados para cargas específicas como variadores o iluminación  
 
-They are present at multiple levels within a power system.
+Están presentes en múltiples niveles dentro de un sistema de potencia.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Power rating**  
-  Must match or exceed the expected load demand  
+- **Capacidad de potencia**  
+  Debe coincidir o exceder la demanda de carga esperada  
 
-- **Voltage ratio**  
-  Defined by system requirements on both primary and secondary sides  
+- **Relación de voltaje**  
+  Definida por los requisitos del sistema en los lados primario y secundario  
 
-- **Cooling method**  
-  Dry type or oil filled designs affect installation and maintenance  
+- **Método de enfriamiento**  
+  Los diseños de tipo seco o con aceite afectan la instalación y el mantenimiento  
 
-- **Impedance**  
-  Influences voltage regulation and short circuit current levels  
+- **Impedancia**  
+  Influye en la regulación de voltaje y los niveles de corriente de cortocircuito  
 
-- **Efficiency and losses**  
-  Includes core losses and load losses, important for continuous operation  
+- **Eficiencia y pérdidas**  
+  Incluye pérdidas en el núcleo y pérdidas por carga, importantes para operación continua  
 
-- **Installation environment**  
-  Indoor or outdoor use, temperature, ventilation, and safety requirements  
+- **Entorno de instalación**  
+  Uso en interiores o exteriores, temperatura, ventilación y requisitos de seguridad  
 
-## Practical Notes
+## Notas prácticas
 
-- Transformers operate continuously, so efficiency has a significant impact on energy consumption  
-- Oversizing increases cost and idle losses  
-- Undersizing leads to overheating and reduced lifespan  
-- Proper grounding and protection are critical for safe operation  
-- Placement close to loads reduces voltage drop and cable costs  
+- Los transformadores operan de forma continua, por lo que la eficiencia tiene un impacto significativo en el consumo de energía  
+- El sobredimensionamiento aumenta el costo y las pérdidas en vacío  
+- El subdimensionamiento provoca sobrecalentamiento y reducción de la vida útil  
+- La puesta a tierra y la protección adecuadas son críticas para una operación segura  
+- La ubicación cercana a las cargas reduce la caída de voltaje y los costos de cableado  

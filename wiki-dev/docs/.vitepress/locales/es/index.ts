@@ -6,7 +6,7 @@ export const es = createLocale({
   label: 'Español',
   lang: 'es',
   link: '/es/',
-  title: 'Industrial Systems Handbook',
+  title: 'Manual de Sistemas Industriales',
   description: 'Documentación técnica de automatización industrial.',
   nav,
   sidebar,

@@ -1,85 +1,85 @@
-# Overcurrent Protection
+# Protección contra sobrecorriente
 
-## Overview
+## Descripción general
 
-Overcurrent protection is a fundamental method used to protect electrical systems from excessive current levels.
+La protección contra sobrecorriente es un método fundamental utilizado para proteger los sistemas eléctricos de niveles excesivos de corriente.
 
-It covers both overload conditions and short circuits, which can damage equipment, overheat conductors, and create safety hazards.
+Abarca tanto condiciones de sobrecarga como cortocircuitos, que pueden dañar el equipo, sobrecalentar conductores y crear riesgos de seguridad.
 
-Overcurrent protection is applied at all levels of power systems, from medium voltage feeders to final low voltage circuits.
+La protección contra sobrecorriente se aplica en todos los niveles de los sistemas de potencia, desde alimentadores de media tensión hasta circuitos finales de baja tensión.
 
-## Purpose
+## Propósito
 
-The purpose of overcurrent protection is to:
+El propósito de la protección contra sobrecorriente es:
 
-- Prevent overheating of cables and equipment  
-- Limit damage caused by short circuits  
-- Reduce the risk of fire and insulation failure  
-- Isolate faulty circuits quickly and safely  
+- Prevenir el sobrecalentamiento de cables y equipo  
+- Limitar el daño causado por cortocircuitos  
+- Reducir el riesgo de incendio y falla de aislamiento  
+- Aislar circuitos con falla de manera rápida y segura  
 
-It ensures that current remains within safe operating limits.
+Asegura que la corriente permanezca dentro de límites de operación seguros.
 
-## How It Works
+## Cómo funciona
 
-Overcurrent protection devices monitor the current flowing through a circuit.
+Los dispositivos de protección contra sobrecorriente monitorean la corriente que fluye a través de un circuito.
 
-Two main types of conditions are detected:
+Se detectan dos tipos principales de condiciones:
 
-- **Overload**  
-  Moderate overcurrent over a longer period, typically caused by excessive load or mechanical issues  
+- **Sobrecarga**  
+  Sobrecorriente moderada durante un período más largo, típicamente causada por carga excesiva o problemas mecánicos  
 
-- **Short circuit**  
-  Very high current caused by a fault with low impedance  
+- **Cortocircuito**  
+  Corriente muy alta causada por una falla con baja impedancia  
 
-Protection devices respond using time current characteristics:
+Los dispositivos de protección responden utilizando curvas tiempo-corriente:
 
-- For overloads, the device allows temporary overcurrent but trips if it persists  
-- For short circuits, the device trips almost instantly  
+- Para sobrecargas, el dispositivo permite sobrecorriente temporal pero se dispara si persiste  
+- Para cortocircuitos, el dispositivo se dispara casi instantáneamente  
 
-This behavior allows normal operation during transient conditions while still protecting the system.
+Este comportamiento permite operación normal durante condiciones transitorias mientras protege el sistema.
 
-Devices used for overcurrent protection include:
+Los dispositivos utilizados para protección contra sobrecorriente incluyen:
 
-- Circuit breakers with thermal and magnetic elements  
-- Fuses with defined melting characteristics  
-- Protective relays in medium voltage systems  
+- Interruptores automáticos con elementos térmicos y magnéticos  
+- Fusibles con características de fusión definidas  
+- Relevadores de protección en sistemas de media tensión  
 
-## Applications
+## Aplicaciones
 
-Overcurrent protection is used in:
+La protección contra sobrecorriente se utiliza en:
 
-- Feeders supplying distribution systems  
-- Transformers and distribution equipment  
-- Motor circuits and industrial machinery  
-- Branch circuits for lighting and auxiliary loads  
-- Medium voltage and low voltage systems  
+- Alimentadores que suministran sistemas de distribución  
+- Transformadores y equipo de distribución  
+- Circuitos de motores y maquinaria industrial  
+- Circuitos derivados para iluminación y cargas auxiliares  
+- Sistemas de media y baja tensión  
 
-It is one of the most widely applied protection methods.
+Es uno de los métodos de protección más ampliamente aplicados.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Device rating**  
-  Must be higher than normal operating current but low enough to protect equipment  
+- **Capacidad del dispositivo**  
+  Debe ser mayor que la corriente de operación normal pero lo suficientemente baja para proteger el equipo  
 
-- **Time current characteristics**  
-  Must match the behavior of the load and system requirements  
+- **Curvas tiempo-corriente**  
+  Deben coincidir con el comportamiento de la carga y los requisitos del sistema  
 
-- **Coordination with other devices**  
-  Ensures only the closest device to the fault operates  
+- **Coordinación con otros dispositivos**  
+  Asegura que solo opere el dispositivo más cercano a la falla  
 
-- **Available fault current**  
-  Devices must safely interrupt the maximum expected short circuit current  
+- **Corriente de falla disponible**  
+  Los dispositivos deben interrumpir de manera segura la corriente máxima esperada de cortocircuito  
 
-- **Cable protection**  
-  Protection must align with conductor thermal limits  
+- **Protección del cableado**  
+  La protección debe alinearse con los límites térmicos del conductor  
 
-- **Load type**  
-  Motor loads and inrush currents require special consideration  
+- **Tipo de carga**  
+  Las cargas de motores y las corrientes de arranque requieren consideración especial  
 
-## Practical Notes
+## Notas prácticas
 
-- Oversized protection devices may fail to protect conductors properly  
-- Undersized devices can cause nuisance tripping during normal operation  
-- Motor starting currents often require adjustable or delayed protection  
-- Fuse and breaker characteristics must be selected carefully to achieve coordination  
-- Proper settings are as important as correct device selection  
+- Los dispositivos de protección sobredimensionados pueden no proteger adecuadamente los conductores  
+- Los dispositivos subdimensionados pueden provocar disparos molestos durante la operación normal  
+- Las corrientes de arranque de motores a menudo requieren protección ajustable o con retardo  
+- Las características de fusibles e interruptores automáticos deben seleccionarse cuidadosamente para lograr coordinación  
+- Las configuraciones adecuadas son tan importantes como la selección correcta del dispositivo  

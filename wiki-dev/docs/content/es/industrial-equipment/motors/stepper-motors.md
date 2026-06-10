@@ -1,78 +1,78 @@
-# Stepper Motors
+# Motores paso a paso
 
-## Overview
+## Descripción general
 
-Stepper motors are electric motors that move in discrete steps instead of continuous rotation.
+Los motores paso a paso son motores eléctricos que se mueven en pasos discretos en lugar de rotación continua.
 
-Each electrical pulse sent to the motor results in a fixed angular movement, allowing precise control of position without the need for feedback in many applications.
+Cada pulso eléctrico enviado al motor resulta en un movimiento angular fijo, permitiendo control preciso de posición sin necesidad de retroalimentación en muchas aplicaciones.
 
-They are commonly used in systems where simple and repeatable positioning is required.
+Se utilizan comúnmente en sistemas donde se requiere posicionamiento simple y repetible.
 
-## Purpose
+## Propósito
 
-The purpose of stepper motors is to:
+El propósito de los motores paso a paso es:
 
-- Provide precise position control through discrete steps  
-- Enable simple control without complex feedback systems  
-- Maintain position when holding torque is required  
-- Support low to medium performance motion applications  
+- Proporcionar control de posición preciso mediante pasos discretos  
+- Habilitar control simple sin sistemas de retroalimentación complejos  
+- Mantener posición cuando se requiere torque de retención  
+- Soportar aplicaciones de movimiento de bajo a medio desempeño  
 
-They are suitable for applications where accuracy and simplicity are more important than speed or efficiency.
+Son adecuados para aplicaciones donde la precisión y la simplicidad son más importantes que la velocidad o la eficiencia.
 
-## How It Works
+## Cómo funciona
 
-Stepper motors operate by energizing stator windings in a specific sequence.
+Los motores paso a paso operan energizando los devanados del estator en una secuencia específica.
 
-- The stator creates a magnetic field that moves in steps  
-- The rotor aligns with each new magnetic position  
-- Each input pulse advances the rotor by a fixed angle  
+- El estator crea un campo magnético que se mueve en pasos  
+- El rotor se alinea con cada nueva posición magnética  
+- Cada pulso de entrada avanza el rotor un ángulo fijo  
 
-The step angle depends on the motor design.
+El ángulo de paso depende del diseño del motor.
 
-By controlling the pulse sequence:
+Al controlar la secuencia de pulsos:
 
-- Position is controlled by the number of pulses  
-- Speed is controlled by pulse frequency  
-- Direction is controlled by the order of pulses  
+- La posición se controla por el número de pulsos  
+- La velocidad se controla por la frecuencia de pulsos  
+- La dirección se controla por el orden de los pulsos  
 
-Because movement is incremental, position can be tracked without feedback under certain conditions.
+Debido a que el movimiento es incremental, la posición puede rastrearse sin retroalimentación bajo ciertas condiciones.
 
-## Applications
+## Aplicaciones
 
-Stepper motors are used in:
+Los motores paso a paso se utilizan en:
 
-- Positioning systems and indexing applications  
-- 3D printers and small CNC machines  
-- Packaging and labeling equipment  
-- Instrumentation and control devices  
-- Light duty automation systems  
+- Sistemas de posicionamiento y aplicaciones de indexado  
+- Impresoras 3D y máquinas CNC pequeñas  
+- Equipos de empaque y etiquetado  
+- Instrumentación y dispositivos de control  
+- Sistemas de automatización de carga ligera  
 
-They are common in applications with moderate precision requirements.
+Son comunes en aplicaciones con requerimientos de precisión moderada.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Step resolution**  
-  Determines positioning accuracy  
+- **Resolución de paso**  
+  Determina la precisión de posicionamiento  
 
-- **Torque characteristics**  
-  Torque decreases at higher speeds  
+- **Características de torque**  
+  El torque disminuye a velocidades más altas  
 
-- **Open loop operation**  
-  Loss of steps can occur under high load  
+- **Operación en lazo abierto**  
+  La pérdida de pasos puede ocurrir bajo alta carga  
 
-- **Speed limitations**  
-  Not suitable for high speed applications  
+- **Limitaciones de velocidad**  
+  No son adecuados para aplicaciones de alta velocidad  
 
-- **Efficiency**  
-  Typically lower compared to other motor types  
+- **Eficiencia**  
+  Típicamente menor en comparación con otros tipos de motores  
 
-- **Control simplicity**  
-  Easier to control than closed loop systems  
+- **Simplicidad de control**  
+  Más fáciles de controlar que sistemas de lazo cerrado  
 
-## Practical Notes
+## Notas prácticas
 
-- Stepper motors are simple to implement but can lose position if overloaded  
-- They are best suited for low to medium speed applications  
-- Microstepping improves smoothness and resolution  
-- Continuous current draw can lead to heating even at standstill  
-- For higher performance, servo systems are often preferred  
+- Los motores paso a paso son simples de implementar pero pueden perder posición si se sobrecargan  
+- Son más adecuados para aplicaciones de baja a media velocidad  
+- El microstepping mejora la suavidad y la resolución  
+- El consumo continuo de corriente puede provocar calentamiento incluso en reposo  
+- Para mayor desempeño, los sistemas servo son a menudo preferidos  

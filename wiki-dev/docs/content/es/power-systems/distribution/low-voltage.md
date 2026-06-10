@@ -1,73 +1,73 @@
-# Low Voltage
+# Baja tensión
 
-## Overview
+## Descripción general
 
-Low voltage systems are used to distribute electrical power at levels suitable for direct use by most industrial equipment.
+Los sistemas de baja tensión (LV) se utilizan para distribuir energía eléctrica a niveles adecuados para el uso directo de la mayoría del equipo industrial.
 
-In industrial environments, low voltage typically refers to systems up to 1000 V AC.
+En entornos industriales, la baja tensión típicamente se refiere a sistemas de hasta 1000 V CA.
 
-These systems are the final stage of power distribution before energy reaches loads such as motors, control panels, lighting, and auxiliary systems.
+Estos sistemas son la etapa final de distribución de energía antes de que la energía llegue a cargas como motores, tableros de control, iluminación y sistemas auxiliares.
 
-## Purpose
+## Propósito
 
-The purpose of low voltage systems is to:
+El propósito de los sistemas de baja tensión es:
 
-- Provide usable voltage levels for industrial equipment  
-- Enable safe operation and maintenance  
-- Support protection and control of electrical loads  
-- Distribute power efficiently within localized areas  
+- Proporcionar niveles de voltaje utilizables para el equipo industrial  
+- Permitir operación y mantenimiento seguros  
+- Soportar la protección y el control de cargas eléctricas  
+- Distribuir energía de manera eficiente dentro de áreas localizadas  
 
-Low voltage is where power is actually consumed and converted into mechanical, thermal, or control functions.
+La baja tensión es donde la energía se consume realmente y se convierte en funciones mecánicas, térmicas o de control.
 
-## How It Works
+## Cómo funciona
 
-Electrical power is stepped down from medium voltage using transformers to low voltage levels.
+La energía eléctrica se reduce desde media tensión mediante transformadores a niveles de baja tensión.
 
-Once at low voltage, power is distributed through:
+Una vez en baja tensión, la energía se distribuye a través de:
 
-- Switchboards and distribution panels  
-- Busbars and feeders  
-- Branch circuits supplying individual loads  
+- Tableros de distribución y paneles de distribución  
+- Barras colectoras y alimentadores  
+- Circuitos derivados que alimentan cargas individuales  
 
-Protection devices such as circuit breakers and fuses are installed to detect faults and disconnect affected circuits.
+Los dispositivos de protección, como interruptores automáticos y fusibles, se instalan para detectar fallas y desconectar los circuitos afectados.
 
-Loads are connected through dedicated circuits sized according to current demand and installation conditions.
+Las cargas se conectan a través de circuitos dedicados dimensionados según la demanda de corriente y las condiciones de instalación.
 
-## Applications
+## Aplicaciones
 
-Low voltage systems are used in:
+Los sistemas de baja tensión se utilizan en:
 
-- Motor supply for pumps, conveyors, compressors, and fans  
-- Control panels and automation systems  
-- Lighting systems and auxiliary services  
-- Heating and process equipment  
-- Commercial and building infrastructure within industrial sites  
+- Alimentación de motores para bombas, transportadores, compresores y ventiladores  
+- Tableros de control y sistemas de automatización  
+- Sistemas de iluminación y servicios auxiliares  
+- Equipo de calefacción y de proceso  
+- Infraestructura comercial y de edificios dentro de sitios industriales  
 
-Most end user equipment operates at low voltage levels.
+La mayoría del equipo de usuario final opera a niveles de baja tensión.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Voltage levels**  
-  Common industrial levels include 120 V, 230 V, 400 V, and 480 V depending on region and application  
+- **Niveles de voltaje**  
+  Los niveles industriales comunes incluyen 120 V, 230 V, 400 V y 480 V según la región y la aplicación  
 
-- **Current levels**  
-  Lower voltage results in higher current for the same power, affecting conductor sizing and losses  
+- **Niveles de corriente**  
+  Un voltaje más bajo resulta en mayor corriente para la misma potencia, afectando el dimensionamiento de conductores y las pérdidas  
 
-- **Protection devices**  
-  Proper selection of breakers and fuses is critical for safety and equipment protection  
+- **Dispositivos de protección**  
+  La selección adecuada de interruptores automáticos y fusibles es crítica para la seguridad y la protección del equipo  
 
-- **Short circuit capacity**  
-  Equipment must be rated to handle available fault current at the installation point  
+- **Capacidad de cortocircuito**  
+  El equipo debe estar dimensionado para manejar la corriente de falla disponible en el punto de instalación  
 
-- **Voltage drop**  
-  Long cable runs can reduce voltage at the load, affecting performance  
+- **Caída de voltaje**  
+  Recorridos largos de cable pueden reducir el voltaje en la carga, afectando el desempeño  
 
-- **Installation environment**  
-  Temperature, grouping of cables, and routing impact current carrying capacity  
+- **Entorno de instalación**  
+  La temperatura, la agrupación de cables y el enrutamiento impactan la capacidad de conducción de corriente  
 
-## Practical Notes
+## Notas prácticas
 
-- Low voltage systems are more accessible, which increases exposure to human interaction and risk  
-- High current levels require careful design to avoid overheating and excessive losses  
-- Poor panel design and wiring practices are common sources of faults  
-- Standardization of voltage levels simplifies maintenance and equipment replacement  
+- Los sistemas de baja tensión son más accesibles, lo que aumenta la exposición a la interacción humana y el riesgo  
+- Los niveles altos de corriente requieren un diseño cuidadoso para evitar sobrecalentamiento y pérdidas excesivas  
+- El diseño deficiente de paneles y las prácticas de cableado son fuentes comunes de fallas  
+- La estandarización de niveles de voltaje simplifica el mantenimiento y el reemplazo de equipo  

@@ -1,79 +1,79 @@
-# Protection Basics
+# Fundamentos de protección
 
-## Overview
+## Descripción general
 
-Electrical protection is the set of methods and devices used to detect abnormal conditions and isolate faulty parts of a power system.
+La protección eléctrica es el conjunto de métodos y dispositivos utilizados para detectar condiciones anormales y aislar las partes con falla de un sistema de potencia.
 
-Its main role is to prevent damage to equipment, reduce safety risks, and maintain system stability.
+Su función principal es prevenir daños al equipo, reducir riesgos de seguridad y mantener la estabilidad del sistema.
 
-Protection is applied at all levels of a power system, from medium voltage distribution to final low voltage circuits.
+La protección se aplica en todos los niveles de un sistema de potencia, desde la distribución en media tensión hasta los circuitos finales de baja tensión.
 
-## Purpose
+## Propósito
 
-The purpose of electrical protection is to:
+El propósito de la protección eléctrica es:
 
-- Detect faults such as short circuits and overloads  
-- Disconnect only the affected part of the system  
-- Limit damage to equipment and infrastructure  
-- Protect personnel from electrical hazards  
-- Maintain continuity of service in unaffected areas  
+- Detectar fallas como cortocircuitos y sobrecargas  
+- Desconectar solo la parte afectada del sistema  
+- Limitar el daño al equipo y la infraestructura  
+- Proteger al personal de peligros eléctricos  
+- Mantener la continuidad del servicio en áreas no afectadas  
 
-Effective protection minimizes both risk and downtime.
+Una protección efectiva minimiza tanto el riesgo como el tiempo de inactividad.
 
-## How It Works
+## Cómo funciona
 
-Protection systems continuously monitor electrical parameters such as current, voltage, and sometimes frequency.
+Los sistemas de protección monitorean continuamente parámetros eléctricos como corriente, voltaje y, en algunos casos, frecuencia.
 
-When abnormal conditions are detected:
+Cuando se detectan condiciones anormales:
 
-- A protection device or relay identifies the fault  
-- A trip signal is sent to a switching device  
-- The affected circuit is disconnected from the system  
+- Un dispositivo de protección o relevador identifica la falla  
+- Se envía una señal de disparo a un dispositivo de conmutación  
+- El circuito afectado se desconecta del sistema  
 
-The process must be fast enough to limit damage but selective enough to avoid unnecessary shutdowns.
+El proceso debe ser lo suficientemente rápido para limitar el daño pero lo suficientemente selectivo para evitar paradas innecesarias.
 
-Different types of faults require different detection methods, including:
+Diferentes tipos de fallas requieren diferentes métodos de detección, incluyendo:
 
-- Overcurrent conditions caused by overload or short circuit  
-- Ground faults caused by insulation failure  
-- Voltage abnormalities such as under or overvoltage  
+- Condiciones de sobrecorriente causadas por sobrecarga o cortocircuito  
+- Fallas a tierra causadas por falla de aislamiento  
+- Anomalías de voltaje como subvoltaje o sobrevoltaje  
 
-## Applications
+## Aplicaciones
 
-Protection is used in:
+La protección se utiliza en:
 
-- Medium voltage switchgear and feeders  
-- Transformers and distribution equipment  
-- Low voltage panels and final circuits  
-- Motors and critical industrial loads  
-- Utility interfaces and substations  
+- Switchgear (celdas de media tensión) y alimentadores  
+- Transformadores y equipo de distribución  
+- Paneles de baja tensión y circuitos finales  
+- Motores y cargas industriales críticas  
+- Interfaces con el servicio público y subestaciones  
 
-Every level of the power system requires appropriate protection.
+Cada nivel del sistema de potencia requiere protección apropiada.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Selectivity**  
-  Only the device closest to the fault should operate  
+- **Selectividad**  
+  Solo debe operar el dispositivo más cercano a la falla  
 
-- **Speed of operation**  
-  Faster protection reduces damage but must remain coordinated  
+- **Velocidad de operación**  
+  Una protección más rápida reduce el daño pero debe permanecer coordinada  
 
-- **Sensitivity**  
-  Devices must detect faults without reacting to normal variations  
+- **Sensibilidad**  
+  Los dispositivos deben detectar fallas sin reaccionar a variaciones normales  
 
-- **Coordination**  
-  Protection devices must operate in a defined sequence  
+- **Coordinación**  
+  Los dispositivos de protección deben operar en una secuencia definida  
 
-- **System configuration**  
-  The distribution layout affects protection strategy  
+- **Configuración del sistema**  
+  El diseño de distribución afecta la estrategia de protección  
 
-- **Reliability**  
-  Protection must operate correctly under all conditions  
+- **Confiabilidad**  
+  La protección debe operar correctamente bajo todas las condiciones  
 
-## Practical Notes
+## Notas prácticas
 
-- Poorly coordinated protection can cause large portions of a facility to lose power  
-- Overly sensitive settings can lead to nuisance trips  
-- Insufficient sensitivity may fail to detect dangerous faults  
-- Regular testing and verification are essential for reliable operation  
-- Protection design should be considered early in system planning  
+- Una protección mal coordinada puede provocar que grandes porciones de una instalación pierdan energía  
+- Configuraciones excesivamente sensibles pueden provocar disparos molestos  
+- Una sensibilidad insuficiente puede no detectar fallas peligrosas  
+- Las pruebas y verificaciones regulares son esenciales para una operación confiable  
+- El diseño de protección debe considerarse desde etapas tempranas de la planificación del sistema  

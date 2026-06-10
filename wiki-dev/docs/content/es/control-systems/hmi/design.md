@@ -1,116 +1,116 @@
-# HMI Design
+# Diseño de HMI
 
-## Overview
+## Descripción general
 
-HMI design defines how information is presented and how operators interact with a control system.
+El diseño de HMI define cómo se presenta la información y cómo los operadores interactúan con un sistema de control.
 
-It focuses on usability, clarity, and efficiency rather than only visual appearance.
+Se enfoca en la usabilidad, claridad y eficiencia, más allá de la apariencia visual.
 
-A well designed HMI allows operators to understand system status quickly and take correct actions.
+Un HMI bien diseñado permite a los operadores comprender rápidamente el estado del sistema y tomar decisiones correctas.
 
-## Purpose
+## Propósito
 
-The purpose of HMI design is to support safe and effective operation.
+El propósito del diseño de HMI es apoyar una operación segura y efectiva.
 
-It helps to:
+Ayuda a:
 
-- Improve operator awareness  
-- Reduce human error  
-- Enable fast decision making  
-- Simplify system interaction  
+- Mejorar la conciencia situacional del operador  
+- Reducir errores humanos  
+- Permitir una toma de decisiones rápida  
+- Simplificar la interacción con el sistema  
 
-Good design directly impacts system performance and safety.
+Un buen diseño impacta directamente en el desempeño y la seguridad del sistema.
 
-## How It Works
+## Cómo funciona
 
-HMI design is based on organizing information and interaction in a clear and structured way.
+El diseño de HMI se basa en organizar la información y la interacción de forma clara y estructurada.
 
-### Screen Structure
+### Estructura de pantallas
 
-Screens should follow a logical hierarchy.
+Las pantallas deben seguir una jerarquía lógica.
 
-- Overview screens for general status  
-- Detail screens for specific equipment  
-- Alarm and diagnostic screens  
+- Pantallas generales para el estado global  
+- Pantallas de detalle para equipos específicos  
+- Pantallas de alarmas y diagnóstico  
 
-Each screen should have a clear purpose.
+Cada pantalla debe tener un propósito claro.
 
-### Visual Elements
+### Elementos visuales
 
-Information is displayed using standard elements.
+La información se presenta mediante elementos estándar.
 
-- Numeric values and indicators  
-- Status icons  
-- Graphs and trends  
-- Process diagrams  
+- Valores numéricos e indicadores  
+- Íconos de estado  
+- Gráficas y tendencias  
+- Diagramas de proceso  
 
-Elements should represent real system conditions accurately.
+Los elementos deben representar con precisión las condiciones reales del sistema.
 
-### Color Usage
+### Uso del color
 
-Colors should be used consistently and with meaning.
+Los colores deben utilizarse de forma consistente y con significado.
 
-- Neutral colors for normal operation  
-- Highlight colors for abnormal conditions  
-- Limited color palette to avoid confusion  
+- Colores neutros para operación normal  
+- Colores de alerta para condiciones anormales  
+- Paleta limitada para evitar confusión  
 
-Color should support understanding, not decoration.
+El color debe apoyar la comprensión, no ser decorativo.
 
-### Navigation
+### Navegación
 
-Navigation must be simple and intuitive.
+La navegación debe ser simple e intuitiva.
 
-- Clear buttons and labels  
-- Minimal steps between screens  
-- Logical grouping of functions  
+- Botones y etiquetas claras  
+- Mínimos pasos entre pantallas  
+- Agrupación lógica de funciones  
 
-Operators should reach critical information quickly.
+El operador debe acceder rápidamente a la información crítica.
 
-### User Interaction
+### Interacción del usuario
 
-Controls must be clear and reliable.
+Los controles deben ser claros y confiables.
 
-- Confirm critical actions  
-- Prevent accidental operation  
-- Provide feedback after commands  
+- Confirmar acciones críticas  
+- Evitar operaciones accidentales  
+- Proporcionar retroalimentación después de comandos  
 
-Interaction design should match operator expectations.
+El diseño de interacción debe alinearse con las expectativas del operador.
 
-## Applications
+## Aplicaciones
 
-HMI design is critical in all systems with operator interaction.
+El diseño de HMI es crítico en todos los sistemas con interacción humana.
 
-Typical applications include:
+Aplicaciones típicas incluyen:
 
-- Industrial machines  
-- Process control systems  
-- Control rooms  
-- Monitoring systems  
+- Máquinas industriales  
+- Sistemas de control de procesos  
+- Salas de control  
+- Sistemas de monitoreo  
 
-It is especially important in systems with high operational risk.
+Es especialmente importante en sistemas con alto riesgo operativo.
 
-## Key Considerations
+## Consideraciones clave
 
-Clarity is more important than visual complexity.
+La claridad es más importante que la complejidad visual.
 
-Consistency across all screens improves usability.
+La consistencia entre pantallas mejora la usabilidad.
 
-Response time must be fast to reflect real conditions.
+El tiempo de respuesta debe ser rápido para reflejar condiciones reales.
 
-Alarm visibility and prioritization are essential.
+La visibilidad y priorización de alarmas es esencial.
 
-Operator workload should be minimized through good design.
+La carga de trabajo del operador debe minimizarse mediante un buen diseño.
 
-Different user roles may require different access and views.
+Diferentes roles de usuario pueden requerir distintos accesos y vistas.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is designing screens based on piping diagrams instead of operator needs.
+Un error común es diseñar pantallas basadas en diagramas de proceso en lugar de necesidades del operador.
 
-Avoid excessive animations or graphics that do not add value.
+Evita animaciones o gráficos excesivos que no aporten valor.
 
-Limit the amount of information per screen to what is necessary.
+Limita la cantidad de información por pantalla a lo necesario.
 
-Use trends to help operators understand changes over time.
+Utiliza tendencias para ayudar a entender cambios en el tiempo.
 
-Validate the design with real operators before final deployment.
+Valida el diseño con operadores reales antes de su implementación final.

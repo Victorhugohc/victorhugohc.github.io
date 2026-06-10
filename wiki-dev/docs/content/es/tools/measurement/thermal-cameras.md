@@ -1,64 +1,64 @@
-# Thermal Cameras
+# Cámaras térmicas
 
-## Overview
+## Descripción general
 
-Thermal cameras are instruments used to detect and visualize temperature differences across surfaces.
+Las cámaras térmicas son instrumentos utilizados para detectar y visualizar diferencias de temperatura en superficies.
 
-They create images based on infrared radiation emitted by objects, allowing users to identify temperature variations without direct contact.
+Crean imágenes basadas en la radiación infrarroja emitida por los objetos, permitiendo a los usuarios identificar variaciones de temperatura sin contacto directo.
 
-## Purpose
+## Propósito
 
-The purpose of thermal cameras is to:
+El propósito de las cámaras térmicas es:
 
-- Detect overheating in electrical and mechanical systems  
-- Identify potential failures before they occur  
-- Support preventive and predictive maintenance  
-- Improve safety by identifying abnormal thermal conditions  
+- Detectar sobrecalentamiento en sistemas eléctricos y mecánicos  
+- Identificar posibles fallas antes de que ocurran  
+- Respaldar el mantenimiento preventivo y predictivo  
+- Mejorar la seguridad al identificar condiciones térmicas anormales  
 
-They provide a fast and non contact method to assess system condition.
+Proporcionan un método rápido y sin contacto para evaluar el estado del sistema.
 
-## How It Works
+## Cómo funciona
 
-Thermal cameras detect infrared radiation emitted by objects and convert it into a visual image.
+Las cámaras térmicas detectan la radiación infrarroja emitida por los objetos y la convierten en una imagen visual.
 
-Each pixel in the image represents a temperature value, typically displayed using a color scale where different colors indicate temperature differences.
+Cada píxel en la imagen representa un valor de temperatura, típicamente mostrado mediante una escala de colores donde diferentes colores indican diferencias de temperatura.
 
-Key factors include:
+Los factores clave incluyen:
 
-- Emissivity of the surface being measured  
-- Distance between the camera and the target  
-- Environmental conditions such as ambient temperature  
+- Emisividad de la superficie medida  
+- Distancia entre la cámara y el objetivo  
+- Condiciones ambientales como temperatura ambiente  
 
-The camera processes the detected radiation and generates a thermal image that highlights hot and cold areas.
+La cámara procesa la radiación detectada y genera una imagen térmica que resalta áreas calientes y frías.
 
-## Applications
+## Aplicaciones
 
-Thermal cameras are used in:
+Las cámaras térmicas se utilizan en:
 
-- Inspection of electrical panels and connections  
-- Detection of overheating in motors and drives  
-- Identification of insulation issues in buildings and equipment  
-- Monitoring of mechanical components such as bearings  
-- Process temperature analysis  
+- Inspección de tableros de control eléctricos y conexiones  
+- Detección de sobrecalentamiento en motores y variadores  
+- Identificación de problemas de aislamiento en edificios y equipos  
+- Monitoreo de componentes mecánicos como rodamientos  
+- Análisis de temperatura de proceso  
 
-They are widely used in maintenance, inspection, and diagnostics.
+Se utilizan ampliamente en mantenimiento, inspección y diagnóstico.
 
-## Key Considerations
+## Consideraciones clave
 
-- Emissivity settings must match the material being measured  
-- Reflective surfaces can produce misleading readings  
-- Environmental conditions can affect accuracy  
-- Resolution affects the level of detail in the image  
-- Temperature readings are approximate and require interpretation  
+- La configuración de emisividad debe coincidir con el material medido  
+- Las superficies reflectantes pueden producir lecturas engañosas  
+- Las condiciones ambientales pueden afectar la precisión  
+- La resolución afecta el nivel de detalle en la imagen  
+- Las lecturas de temperatura son aproximadas y requieren interpretación  
 
-Incorrect interpretation can lead to false conclusions.
+La interpretación incorrecta puede conducir a conclusiones erróneas.
 
-## Practical Notes
+## Notas prácticas
 
-- Use thermal imaging as a comparative tool rather than absolute measurement  
-- Compare similar components under similar conditions  
-- Inspect systems under normal operating load  
-- Combine thermal data with other measurements for accurate diagnosis  
-- Regular inspections help identify trends over time  
+- Utilizar la imagen térmica como herramienta comparativa en lugar de medición absoluta  
+- Comparar componentes similares bajo condiciones similares  
+- Inspeccionar los sistemas bajo carga operativa normal  
+- Combinar datos térmicos con otras mediciones para un diagnóstico preciso  
+- Las inspecciones regulares ayudan a identificar tendencias a lo largo del tiempo  
 
-Thermal cameras provide valuable insight into system condition by revealing temperature patterns that are not visible to the eye.
+Las cámaras térmicas proporcionan información valiosa sobre el estado del sistema al revelar patrones de temperatura que no son visibles a simple vista.

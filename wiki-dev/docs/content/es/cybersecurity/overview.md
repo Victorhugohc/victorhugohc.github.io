@@ -1,66 +1,66 @@
-# Cybersecurity
+# Ciberseguridad
 
-## Overview
+## Descripción general
 
-Cybersecurity in industrial systems focuses on protecting control systems, networks, and devices from unauthorized access, disruption, or damage.
+La ciberseguridad en sistemas industriales se enfoca en proteger los sistemas de control, redes y dispositivos contra accesos no autorizados, interrupciones o daños.
 
-Industrial environments combine operational technology and information technology. This creates exposure to risks that can affect both digital assets and physical processes.
+Los entornos industriales combinan tecnología operativa (OT) y tecnología de la información (IT). Esto genera exposición a riesgos que pueden afectar tanto a los activos digitales como a los procesos físicos.
 
-Cybersecurity is not only about preventing attacks. It is also about ensuring system availability, integrity, and safe operation.
+La ciberseguridad no se trata únicamente de prevenir ataques. También implica garantizar la disponibilidad, integridad y operación segura de los sistemas.
 
-## Purpose
+## Propósito
 
-The purpose of cybersecurity in industrial systems is to:
+El propósito de la ciberseguridad en sistemas industriales es:
 
-- Protect critical processes from interruption  
-- Prevent unauthorized access to control systems  
-- Ensure data integrity and reliability  
-- Reduce the risk of safety incidents caused by cyber events  
+- Proteger procesos críticos de interrupciones  
+- Prevenir accesos no autorizados a sistemas de control  
+- Asegurar la integridad y confiabilidad de los datos  
+- Reducir el riesgo de incidentes de seguridad causados por eventos cibernéticos  
 
-Industrial systems are often part of essential infrastructure. A failure can lead to production loss, equipment damage, or safety hazards.
+Los sistemas industriales suelen formar parte de infraestructura esencial. Una falla puede provocar pérdidas de producción, daño a equipos o riesgos de seguridad.
 
-## How It Works
+## Cómo funciona
 
-Cybersecurity in industrial environments is implemented through multiple layers of protection.
+La ciberseguridad en entornos industriales se implementa mediante múltiples capas de protección.
 
-These layers typically include:
+Estas capas generalmente incluyen:
 
-- Network protection to control communication between systems  
-- Access control to restrict who can interact with devices  
-- Monitoring to detect abnormal behavior  
-- System hardening to reduce vulnerabilities  
-- Maintenance practices to keep systems updated and secure  
+- Protección de red para controlar la comunicación entre sistemas  
+- Control de acceso para restringir quién puede interactuar con los dispositivos  
+- Monitoreo para detectar comportamientos anómalos  
+- Endurecimiento del sistema (*system hardening*) para reducir vulnerabilidades  
+- Prácticas de mantenimiento para mantener los sistemas actualizados y seguros  
 
-The approach is based on defense in depth. No single measure is sufficient on its own. Security is achieved by combining multiple controls that work together.
+El enfoque se basa en defensa en profundidad (*defense in depth*). Ninguna medida por sí sola es suficiente. La seguridad se logra combinando múltiples controles que trabajan en conjunto.
 
-## Applications
+## Aplicaciones
 
-Cybersecurity is applied across all levels of industrial systems, including:
+La ciberseguridad se aplica en todos los niveles de los sistemas industriales, incluyendo:
 
-- PLC and control systems  
-- SCADA and HMI systems  
-- Industrial networks and communication infrastructure  
-- Remote access solutions  
-- Engineering workstations and servers  
+- PLC y sistemas de control  
+- Sistemas SCADA y HMI  
+- Redes industriales e infraestructura de comunicación  
+- Soluciones de acceso remoto  
+- Estaciones de ingeniería y servidores  
 
-It is especially critical in industries such as manufacturing, energy, water treatment, and oil and gas.
+Es especialmente crítica en industrias como manufactura, energía, tratamiento de agua y oil & gas.
 
-## Key Considerations
+## Consideraciones clave
 
-- Availability is often the top priority in industrial systems  
-- Security measures must not disrupt real time operation  
-- Legacy equipment may have limited security capabilities  
-- Network design has a direct impact on security effectiveness  
-- Human factors are a common source of vulnerabilities  
+- La disponibilidad suele ser la prioridad principal en sistemas industriales  
+- Las medidas de seguridad no deben interrumpir la operación en tiempo real  
+- El equipo legacy puede tener capacidades limitadas de seguridad  
+- El diseño de red impacta directamente la efectividad de la seguridad  
+- El factor humano es una fuente común de vulnerabilidades  
 
-Cybersecurity must be integrated during system design, not added later.
+La ciberseguridad debe integrarse desde el diseño del sistema, no añadirse posteriormente.
 
-## Practical Notes
+## Notas prácticas
 
-- Avoid direct exposure of control systems to public networks  
-- Limit access to only what is required for operation  
-- Keep system configurations simple and well documented  
-- Regularly review user permissions and network architecture  
-- Treat cybersecurity as part of system reliability, not only IT  
+- Evitar la exposición directa de sistemas de control a redes públicas  
+- Limitar el acceso únicamente a lo necesario para la operación  
+- Mantener configuraciones simples y bien documentadas  
+- Revisar periódicamente permisos de usuarios y arquitectura de red  
+- Tratar la ciberseguridad como parte de la confiabilidad del sistema, no solo de IT  
 
-A secure industrial system is one that continues to operate safely even when exposed to threats.
+Un sistema industrial seguro es aquel que continúa operando de forma segura incluso cuando está expuesto a amenazas.

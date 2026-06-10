@@ -1,73 +1,73 @@
-# Induction Motors
+# Motores de inducción
 
-## Overview
+## Descripción general
 
-Induction motors are the most widely used type of electric motor in industrial applications.
+Los motores de inducción son el tipo de motor eléctrico más ampliamente utilizado en aplicaciones industriales.
 
-They operate using electromagnetic induction to generate torque in the rotor without direct electrical connection.
+Operan utilizando inducción electromagnética para generar torque en el rotor sin conexión eléctrica directa.
 
-Their simple construction, reliability, and low maintenance make them the standard choice for most industrial drives.
+Su construcción simple, confiabilidad y bajo mantenimiento los convierten en la opción estándar para la mayoría de los accionamientos industriales.
 
-## Purpose
+## Propósito
 
-The purpose of induction motors is to:
+El propósito de los motores de inducción es:
 
-- Provide reliable and efficient mechanical power  
-- Operate with minimal maintenance requirements  
-- Drive a wide range of industrial equipment  
-- Support continuous operation in demanding environments  
+- Proporcionar potencia mecánica confiable y eficiente  
+- Operar con requerimientos mínimos de mantenimiento  
+- Accionar una amplia gama de equipos industriales  
+- Soportar operación continua en entornos exigentes  
 
-They are commonly used where robust and cost effective solutions are required.
+Se utilizan comúnmente donde se requieren soluciones robustas y rentables.
 
-## How It Works
+## Cómo funciona
 
-Induction motors consist of a stator and a rotor separated by an air gap.
+Los motores de inducción consisten en un estator y un rotor separados por un entrehierro.
 
-- The stator is supplied with alternating current, creating a rotating magnetic field  
-- This rotating field induces current in the rotor conductors  
-- The induced current creates its own magnetic field  
-- The interaction between these fields produces torque and causes the rotor to rotate  
+- El estator se alimenta con corriente alterna, creando un campo magnético rotativo  
+- Este campo rotativo induce corriente en los conductores del rotor  
+- La corriente inducida crea su propio campo magnético  
+- La interacción entre estos campos produce torque y hace que el rotor gire  
 
-The rotor always rotates slightly slower than the stator magnetic field.
+El rotor siempre gira ligeramente más lento que el campo magnético del estator.
 
-This difference in speed is called slip and is necessary for torque production.
+Esta diferencia de velocidad se denomina deslizamiento (*slip*) y es necesaria para la producción de torque.
 
-## Applications
+## Aplicaciones
 
-Induction motors are used in:
+Los motores de inducción se utilizan en:
 
-- Pumps, fans, and compressors  
-- Conveyor systems and material handling  
-- Industrial machinery and production equipment  
-- HVAC systems  
-- General purpose motor applications  
+- Bombas, ventiladores y compresores  
+- Sistemas de transportadores y manejo de materiales  
+- Maquinaria industrial y equipos de producción  
+- Sistemas HVAC  
+- Aplicaciones de motores de propósito general  
 
-They are suitable for most constant speed or variable speed industrial loads.
+Son adecuados para la mayoría de las cargas industriales a velocidad constante o variable.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Starting current**  
-  High inrush current can affect the power system  
+- **Corriente de arranque**  
+  La corriente de arranque elevada puede afectar el sistema de potencia  
 
-- **Speed control**  
-  Typically requires a variable frequency drive for precise control  
+- **Control de velocidad**  
+  Típicamente requiere un Variador de Frecuencia (VFD) para control preciso  
 
-- **Efficiency**  
-  High efficiency designs reduce energy consumption  
+- **Eficiencia**  
+  Los diseños de alta eficiencia reducen el consumo de energía  
 
-- **Load characteristics**  
-  Must match motor torque and speed behavior  
+- **Características de la carga**  
+  Deben coincidir con el comportamiento de torque y velocidad del motor  
 
-- **Cooling and environment**  
-  Proper enclosure and cooling method are important  
+- **Enfriamiento y entorno**  
+  La carcasa y el método de enfriamiento adecuados son importantes  
 
-- **Slip**  
-  Affects speed and performance under load  
+- **Deslizamiento**  
+  Afecta la velocidad y el desempeño bajo carga  
 
-## Practical Notes
+## Notas prácticas
 
-- Induction motors are the default choice for most industrial applications  
-- Direct on line starting is simple but can cause high current peaks  
-- Variable frequency drives improve control and energy efficiency  
-- Oversizing reduces efficiency during normal operation  
-- Proper alignment and maintenance extend motor lifespan  
+- Los motores de inducción son la opción predeterminada para la mayoría de las aplicaciones industriales  
+- El arranque directo en línea es simple pero puede causar picos de corriente elevados  
+- Los Variadores de Frecuencia (VFD) mejoran el control y la eficiencia energética  
+- El sobredimensionamiento reduce la eficiencia durante la operación normal  
+- La alineación y el mantenimiento adecuados extienden la vida útil del motor  

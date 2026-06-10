@@ -1,78 +1,78 @@
-# Hydraulic Actuators
+# Actuadores hidráulicos
 
-## Overview
+## Descripción general
 
-Hydraulic actuators use pressurized fluid to generate mechanical motion and force.
+Los actuadores hidráulicos utilizan fluido presurizado para generar movimiento mecánico y fuerza.
 
-They are capable of producing very high force and are commonly used in heavy duty industrial applications.
+Son capaces de producir fuerza muy elevada y se utilizan comúnmente en aplicaciones industriales de trabajo pesado.
 
-Hydraulic systems are suitable where high power density and precise force control are required.
+Los sistemas hidráulicos son adecuados donde se requiere alta densidad de potencia y control preciso de fuerza.
 
-## Purpose
+## Propósito
 
-The purpose of hydraulic actuators is to:
+El propósito de los actuadores hidráulicos es:
 
-- Generate high force or torque in compact systems  
-- Control heavy loads with precision  
-- Provide smooth and stable motion under varying conditions  
-- Enable operation in demanding industrial environments  
+- Generar alta fuerza o torque en sistemas compactos  
+- Controlar cargas pesadas con precisión  
+- Proporcionar movimiento suave y estable bajo condiciones variables  
+- Habilitar operación en entornos industriales exigentes  
 
-They are ideal for applications where electric or pneumatic systems are not sufficient.
+Son ideales para aplicaciones donde los sistemas eléctricos o neumáticos no son suficientes.
 
-## How It Works
+## Cómo funciona
 
-Hydraulic actuators operate by using pressurized fluid, typically oil.
+Los actuadores hidráulicos operan utilizando fluido presurizado, típicamente aceite.
 
-The process is:
+El proceso es:
 
-- A pump generates fluid pressure  
-- Pressurized fluid is directed into the actuator  
-- The fluid acts on a piston or motor to produce motion  
-- Fluid returns to the reservoir after use  
+- Una bomba genera presión de fluido  
+- El fluido presurizado se dirige al actuador  
+- El fluido actúa sobre un pistón o motor para producir movimiento  
+- El fluido regresa al depósito después de su uso  
 
-Common types include:
+Los tipos comunes incluyen:
 
-- Hydraulic cylinders for linear motion  
-- Hydraulic motors for rotational motion  
+- Cilindros hidráulicos para movimiento lineal  
+- Motores hidráulicos para movimiento rotativo  
 
-Control is achieved through valves that regulate fluid flow and pressure.
+El control se logra mediante válvulas que regulan el flujo y la presión del fluido.
 
-## Applications
+## Aplicaciones
 
-Hydraulic actuators are used in:
+Los actuadores hidráulicos se utilizan en:
 
-- Heavy machinery and industrial equipment  
-- Presses and forming machines  
-- Construction and mining equipment  
-- Lifting systems and material handling  
-- Injection molding and manufacturing processes  
+- Maquinaria pesada y equipos industriales  
+- Prensas y máquinas de conformado  
+- Equipos de construcción y minería  
+- Sistemas de elevación y manejo de materiales  
+- Procesos de moldeo por inyección y manufactura  
 
-They are common in high force and heavy load applications.
+Son comunes en aplicaciones de alta fuerza y carga pesada.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Force and pressure**  
-  Must match application requirements  
+- **Fuerza y presión**  
+  Deben coincidir con los requerimientos de la aplicación  
 
-- **Speed control**  
-  Determined by fluid flow rate  
+- **Control de velocidad**  
+  Determinado por la tasa de flujo del fluido  
 
-- **System complexity**  
-  Requires pumps, valves, and fluid management  
+- **Complejidad del sistema**  
+  Requiere bombas, válvulas y gestión de fluido  
 
-- **Maintenance**  
-  Fluid condition and sealing are critical  
+- **Mantenimiento**  
+  La condición del fluido y el sellado son críticos  
 
-- **Leakage risk**  
-  Can affect performance and safety  
+- **Riesgo de fugas**  
+  Puede afectar el desempeño y la seguridad  
 
-- **Environmental conditions**  
-  Temperature and contamination affect system behavior  
+- **Condiciones ambientales**  
+  La temperatura y la contaminación afectan el comportamiento del sistema  
 
-## Practical Notes
+## Notas prácticas
 
-- Hydraulic systems provide high force but require more maintenance  
-- Fluid leaks are a common issue and must be controlled  
-- Proper filtration is essential to prevent damage  
-- Systems can be very efficient in high power applications  
-- Safety measures are important due to high pressures involved  
+- Los sistemas hidráulicos proporcionan alta fuerza pero requieren más mantenimiento  
+- Las fugas de fluido son un problema común y deben controlarse  
+- La filtración adecuada es esencial para prevenir daños  
+- Los sistemas pueden ser muy eficientes en aplicaciones de alta potencia  
+- Las medidas de seguridad son importantes debido a las altas presiones involucradas  

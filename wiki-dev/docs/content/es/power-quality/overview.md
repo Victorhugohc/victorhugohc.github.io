@@ -1,76 +1,76 @@
-# Power Quality Overview
+# Calidad de energía
 
-## Overview
+## Descripción general
 
-Power quality refers to how stable and suitable the electrical supply is for proper operation of equipment.
+La calidad de energía se refiere a qué tan estable y adecuado es el suministro eléctrico para la operación correcta del equipo.
 
-It describes deviations from ideal conditions such as constant voltage, stable frequency, and clean waveforms.
+Describe desviaciones respecto a condiciones ideales, como voltaje constante, frecuencia estable y formas de onda limpias.
 
-Poor power quality can affect performance, reduce equipment lifespan, and cause unexpected failures.
+Una calidad de energía deficiente puede afectar el desempeño, reducir la vida útil del equipo y causar fallas inesperadas.
 
-## Purpose
+## Propósito
 
-The purpose of managing power quality is to:
+El propósito de gestionar la calidad de energía es:
 
-- Ensure reliable operation of electrical and electronic equipment  
-- Prevent malfunctions and production interruptions  
-- Reduce stress on electrical components  
-- Improve overall system efficiency and stability  
+- Garantizar la operación confiable de equipos eléctricos y electrónicos  
+- Prevenir mal funcionamientos e interrupciones de producción  
+- Reducir el estrés en los componentes eléctricos  
+- Mejorar la eficiencia y estabilidad general del sistema  
 
-Maintaining good power quality is critical in modern industrial systems with sensitive electronics.
+Mantener una buena calidad de energía es crítico en sistemas industriales modernos con electrónica sensible.
 
-## How It Works
+## Cómo funciona
 
-An ideal power system provides:
+Un sistema de potencia ideal proporciona:
 
-- Constant voltage within acceptable limits  
-- Stable frequency  
-- Sinusoidal waveforms without distortion  
+- Voltaje constante dentro de límites aceptables  
+- Frecuencia estable  
+- Formas de onda sinusoidales sin distorsión  
 
-In real systems, various disturbances can occur due to:
+En sistemas reales, diversas perturbaciones pueden ocurrir debido a:
 
-- Load changes such as motor starting or switching  
-- Nonlinear loads like drives and power electronics  
-- External events such as faults or utility disturbances  
+- Cambios de carga, como arranque de motores o conmutación  
+- Cargas no lineales, como variadores y electrónica de potencia  
+- Eventos externos, como fallas o perturbaciones de la compañía eléctrica  
 
-Power quality analysis involves identifying these deviations and applying mitigation methods such as filtering, voltage regulation, or system redesign.
+El análisis de calidad de energía implica identificar estas desviaciones y aplicar métodos de mitigación, como filtrado, regulación de voltaje o rediseño del sistema.
 
-## Applications
+## Aplicaciones
 
-Power quality considerations are important in:
+Las consideraciones de calidad de energía son importantes en:
 
-- Industrial automation systems with PLCs and drives  
-- Facilities with sensitive electronic equipment  
-- Data centers and critical infrastructure  
-- Manufacturing processes requiring consistent operation  
-- Systems with high levels of nonlinear loads  
+- Sistemas de automatización industrial con PLC y variadores  
+- Instalaciones con equipos electrónicos sensibles  
+- Centros de datos e infraestructura crítica  
+- Procesos de manufactura que requieren operación consistente  
+- Sistemas con altos niveles de cargas no lineales  
 
-It is especially relevant where process continuity and equipment reliability are critical.
+Es especialmente relevante donde la continuidad del proceso y la confiabilidad del equipo son críticas.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Voltage stability**  
-  Deviations can cause equipment malfunction or shutdown  
+- **Estabilidad de voltaje**  
+  Las desviaciones pueden causar mal funcionamiento o apagado del equipo  
 
-- **Waveform distortion**  
-  Harmonics affect efficiency and can damage equipment  
+- **Distorsión de la forma de onda**  
+  Los armónicos afectan la eficiencia y pueden dañar el equipo  
 
-- **Load behavior**  
-  Rapid or large load changes impact system stability  
+- **Comportamiento de la carga**  
+  Cambios rápidos o grandes de carga impactan la estabilidad del sistema  
 
-- **System impedance**  
-  Influences how disturbances propagate through the system  
+- **Impedancia del sistema**  
+  Influye en cómo se propagan las perturbaciones a través del sistema  
 
-- **Equipment sensitivity**  
-  Some devices tolerate disturbances better than others  
+- **Sensibilidad del equipo**  
+  Algunos dispositivos toleran las perturbaciones mejor que otros  
 
-- **Monitoring and measurement**  
-  Proper tools are required to detect and analyze issues  
+- **Monitoreo y medición**  
+  Se requieren herramientas adecuadas para detectar y analizar problemas  
 
-## Practical Notes
+## Notas prácticas
 
-- Many power quality issues originate from the facility itself, not the utility  
-- Nonlinear loads such as variable speed drives are a common source of distortion  
-- Early detection of power quality problems prevents long term equipment damage  
-- Solutions should target the root cause, not only the symptoms  
-- Regular monitoring helps maintain stable operation over time  
+- Muchos problemas de calidad de energía se originan en la propia instalación, no en la compañía eléctrica  
+- Las cargas no lineales, como los variadores de velocidad, son una fuente común de distorsión  
+- La detección temprana de problemas de calidad de energía previene daños a largo plazo en el equipo  
+- Las soluciones deben abordar la causa raíz, no solo los síntomas  
+- El monitoreo regular ayuda a mantener una operación estable a lo largo del tiempo  

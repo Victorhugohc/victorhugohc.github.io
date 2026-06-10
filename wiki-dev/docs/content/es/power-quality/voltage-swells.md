@@ -1,79 +1,79 @@
-# Voltage Swells
+# Sobretensiones de voltaje
 
-## Overview
+## Descripción general
 
-Voltage swells are short duration increases in voltage magnitude above normal levels.
+Las sobretensiones de voltaje son incrementos de corta duración en la magnitud del voltaje por encima de los niveles normales.
 
-They typically last from a few milliseconds to a few seconds and are less common than voltage sags, but can still cause significant issues in industrial systems.
+Típicamente duran desde unos pocos milisegundos hasta unos pocos segundos y son menos comunes que las caídas de voltaje, pero aún pueden causar problemas significativos en sistemas industriales.
 
-Voltage swells can stress insulation, damage equipment, and disrupt normal operation.
+Las sobretensiones de voltaje pueden estresar el aislamiento, dañar el equipo y interrumpir la operación normal.
 
-## Purpose
+## Propósito
 
-Understanding voltage swells is important to:
+Comprender las sobretensiones de voltaje es importante para:
 
-- Protect equipment from overvoltage conditions  
-- Prevent damage to insulation and electronic components  
-- Maintain stable operation of industrial systems  
-- Reduce unexpected failures and downtime  
+- Proteger el equipo de condiciones de sobrevoltaje  
+- Prevenir daños al aislamiento y componentes electrónicos  
+- Mantener la operación estable de sistemas industriales  
+- Reducir fallas inesperadas y tiempo de inactividad  
 
-Managing voltage swells helps ensure long term reliability of electrical equipment.
+La gestión de sobretensiones de voltaje ayuda a garantizar la confiabilidad a largo plazo del equipo eléctrico.
 
-## How It Works
+## Cómo funciona
 
-A voltage swell occurs when there is a sudden reduction in load or a disturbance in the system that causes voltage to rise.
+Una sobretensión de voltaje ocurre cuando hay una reducción súbita de la carga o una perturbación en el sistema que provoca que el voltaje aumente.
 
-Common causes include:
+Las causas comunes incluyen:
 
-- Sudden disconnection of large loads  
-- Switching operations in the network  
-- Faults in nearby systems, especially ground faults  
-- Improper voltage regulation  
+- Desconexión súbita de cargas de gran tamaño  
+- Operaciones de conmutación en la red  
+- Fallas en sistemas cercanos, especialmente fallas a tierra  
+- Regulación de voltaje inadecuada  
 
-When current decreases rapidly, the voltage drop across system impedance is reduced, causing the voltage at the load to rise temporarily.
+Cuando la corriente disminuye rápidamente, la caída de voltaje a través de la impedancia del sistema se reduce, provocando que el voltaje en la carga aumente temporalmente.
 
-The impact depends on:
+El impacto depende de:
 
-- Magnitude of the voltage increase  
-- Duration of the event  
-- Sensitivity of connected equipment  
+- Magnitud del incremento de voltaje  
+- Duración del evento  
+- Sensibilidad del equipo conectado  
 
-## Applications
+## Aplicaciones
 
-Voltage swell considerations are important in:
+Las consideraciones sobre sobretensiones de voltaje son importantes en:
 
-- Systems with large or rapidly changing loads  
-- Facilities with sensitive electronic equipment  
-- Automation systems and control panels  
-- Variable frequency drives and power electronics  
-- Installations with frequent switching operations  
+- Sistemas con cargas de gran tamaño o que cambian rápidamente  
+- Instalaciones con equipos electrónicos sensibles  
+- Sistemas de automatización y tableros de control  
+- Variadores de frecuencia y electrónica de potencia  
+- Instalaciones con operaciones de conmutación frecuentes  
 
-They are relevant wherever voltage stability is critical.
+Son relevantes dondequiera que la estabilidad de voltaje sea crítica.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Swell magnitude**  
-  Higher voltage levels increase the risk of equipment damage  
+- **Magnitud de la sobretensión**  
+  Niveles de voltaje más altos incrementan el riesgo de daño al equipo  
 
-- **Duration**  
-  Longer swells have a greater impact on insulation and components  
+- **Duración**  
+  Sobretensiones más prolongadas tienen mayor impacto en el aislamiento y los componentes  
 
-- **Equipment tolerance**  
-  Some devices are more sensitive to overvoltage conditions  
+- **Tolerancia del equipo**  
+  Algunos dispositivos son más sensibles a condiciones de sobrevoltaje  
 
-- **System regulation**  
-  Voltage control methods influence the occurrence of swells  
+- **Regulación del sistema**  
+  Los métodos de control de voltaje influyen en la ocurrencia de sobretensiones  
 
-- **Switching operations**  
-  Frequent switching can introduce voltage fluctuations  
+- **Operaciones de conmutación**  
+  La conmutación frecuente puede introducir fluctuaciones de voltaje  
 
-- **Protection and mitigation**  
-  Overvoltage protection devices may be required  
+- **Protección y mitigación**  
+  Pueden requerirse dispositivos de protección contra sobrevoltaje  
 
-## Practical Notes
+## Notas prácticas
 
-- Sudden load removal is a common internal cause of voltage swells  
-- Electronic equipment can fail even with short duration overvoltage  
-- Proper voltage regulation reduces the frequency of swells  
-- Surge protection devices can help limit overvoltage effects  
-- Monitoring is useful to detect recurring swell conditions  
+- La eliminación súbita de carga es una causa interna común de sobretensiones de voltaje  
+- El equipo electrónico puede fallar incluso con sobrevoltajes de corta duración  
+- Una regulación de voltaje adecuada reduce la frecuencia de sobretensiones  
+- Los dispositivos de protección contra sobretensiones pueden ayudar a limitar los efectos del sobrevoltaje  
+- El monitoreo es útil para detectar condiciones recurrentes de sobretensión  

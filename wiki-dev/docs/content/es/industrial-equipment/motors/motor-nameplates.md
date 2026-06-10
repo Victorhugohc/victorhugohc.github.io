@@ -1,80 +1,80 @@
-# Motor Nameplates
+# Placas de identificación de motores
 
-## Overview
+## Descripción general
 
-Motor nameplates provide essential technical information about a motor’s electrical and mechanical characteristics.
+Las placas de identificación de motores proporcionan información técnica esencial sobre las características eléctricas y mecánicas de un motor.
 
-They contain standardized data required for installation, operation, protection, and maintenance.
+Contienen datos estandarizados requeridos para instalación, operación, protección y mantenimiento.
 
-Understanding nameplate information is critical for selecting, connecting, and operating motors correctly.
+Comprender la información de la placa es crítico para seleccionar, conectar y operar motores correctamente.
 
-## Purpose
+## Propósito
 
-The purpose of motor nameplates is to:
+El propósito de las placas de identificación de motores es:
 
-- Define the operating limits of the motor  
-- Provide key electrical and performance data  
-- Ensure proper installation and connection  
-- Support correct selection of protection and control devices  
+- Definir los límites de operación del motor  
+- Proporcionar datos eléctricos y de desempeño clave  
+- Asegurar instalación y conexión adecuadas  
+- Soportar la selección correcta de dispositivos de protección y control  
 
-Nameplates act as the primary reference for motor specifications.
+Las placas actúan como la referencia principal para las especificaciones del motor.
 
-## How It Works
+## Cómo funciona
 
-The nameplate is attached to the motor housing and includes rated values determined by the manufacturer.
+La placa se adhiere a la carcasa del motor e incluye valores nominales determinados por el fabricante.
 
-These values define the conditions under which the motor is designed to operate safely and efficiently.
+Estos valores definen las condiciones bajo las cuales el motor está diseñado para operar de forma segura y eficiente.
 
-Common information includes:
+La información común incluye:
 
-- Rated voltage and frequency  
-- Full load current  
-- Power rating  
-- Speed  
-- Power factor and efficiency  
-- Insulation class and temperature limits  
+- Voltaje y frecuencia nominales  
+- Corriente a plena carga  
+- Potencia nominal  
+- Velocidad  
+- Factor de potencia y eficiencia  
+- Clase de aislamiento y límites de temperatura  
 
-This data is used to configure the electrical system and verify compatibility with the application.
+Estos datos se utilizan para configurar el sistema eléctrico y verificar compatibilidad con la aplicación.
 
-## Applications
+## Aplicaciones
 
-Motor nameplates are used in:
+Las placas de identificación de motores se utilizan en:
 
-- Installation and commissioning of motors  
-- Selection of cables, breakers, and protection devices  
-- Setting up drives and control systems  
-- Maintenance and troubleshooting  
-- Verification of motor performance  
+- Instalación y puesta en marcha de motores  
+- Selección de cables, interruptores y dispositivos de protección  
+- Configuración de variadores y sistemas de control  
+- Mantenimiento y resolución de problemas  
+- Verificación del desempeño del motor  
 
-They are essential throughout the motor lifecycle.
+Son esenciales a lo largo del ciclo de vida del motor.
 
-## Key Parameters
+## Parámetros clave
 
-- **Voltage and frequency**  
-  Must match the power supply  
+- **Voltaje y frecuencia**  
+  Deben coincidir con el suministro de potencia  
 
-- **Current rating**  
-  Used for sizing protection and conductors  
+- **Corriente nominal**  
+  Se utiliza para dimensionar protección y conductores  
 
-- **Power rating**  
-  Indicates mechanical output capability  
+- **Potencia nominal**  
+  Indica la capacidad de salida mecánica  
 
-- **Speed**  
-  Defines operating characteristics under load  
+- **Velocidad**  
+  Define las características de operación bajo carga  
 
-- **Efficiency**  
-  Indicates energy performance  
+- **Eficiencia**  
+  Indica el desempeño energético  
 
-- **Service factor**  
-  Defines allowable overload capacity under specific conditions  
+- **Factor de servicio**  
+  Define la capacidad de sobrecarga permitida bajo condiciones específicas  
 
-- **Insulation class**  
-  Determines thermal limits and durability  
+- **Clase de aislamiento**  
+  Determina los límites térmicos y la durabilidad  
 
-## Practical Notes
+## Notas prácticas
 
-- Always verify nameplate data before connecting a motor  
-- Incorrect voltage or frequency can cause immediate damage  
-- Protection devices must be set based on nameplate current  
-- Service factor should not be used for continuous overload operation  
-- Nameplate data represents rated conditions, not all possible operating scenarios  
+- Siempre verificar los datos de la placa antes de conectar un motor  
+- Voltaje o frecuencia incorrectos pueden causar daño inmediato  
+- Los dispositivos de protección deben configurarse según la corriente de la placa  
+- El factor de servicio no debe utilizarse para operación continua en sobrecarga  
+- Los datos de la placa representan condiciones nominales, no todos los escenarios de operación posibles  

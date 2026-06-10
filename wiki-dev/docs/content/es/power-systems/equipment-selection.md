@@ -1,77 +1,77 @@
-# Equipment Selection
+# Selección de equipo
 
-## Overview
+## Descripción general
 
-Equipment selection in power systems involves choosing components that meet the electrical, operational, and environmental requirements of an installation.
+La selección de equipo en sistemas de potencia implica elegir componentes que cumplan con los requisitos eléctricos, operativos y ambientales de una instalación.
 
-This includes selecting devices such as transformers, switchgear, switchboards, protection devices, and distribution equipment.
+Esto incluye la selección de dispositivos como transformadores, switchgear (celdas de media tensión), tableros de distribución, dispositivos de protección y equipo de distribución.
 
-Proper selection ensures that the system operates safely, reliably, and efficiently under all expected conditions.
+Una selección adecuada asegura que el sistema opere de manera segura, confiable y eficiente bajo todas las condiciones esperadas.
 
-## Purpose
+## Propósito
 
-The purpose of equipment selection is to:
+El propósito de la selección de equipo es:
 
-- Match equipment capabilities to system requirements  
-- Ensure safe operation under normal and fault conditions  
-- Optimize performance, cost, and reliability  
-- Support future expansion and system flexibility  
+- Ajustar las capacidades del equipo a los requisitos del sistema  
+- Asegurar operación segura bajo condiciones normales y de falla  
+- Optimizar el desempeño, el costo y la confiabilidad  
+- Apoyar la expansión futura y la flexibilidad del sistema  
 
-Incorrect selection can lead to failures, safety risks, and costly modifications.
+Una selección incorrecta puede provocar fallas, riesgos de seguridad y modificaciones costosas.
 
-## How It Works
+## Cómo funciona
 
-Equipment selection is based on analyzing system requirements and matching them with equipment ratings and characteristics.
+La selección de equipo se basa en analizar los requisitos del sistema y compararlos con las capacidades y características del equipo.
 
-Key steps include:
+Los pasos clave incluyen:
 
-- Defining system voltage levels and configuration  
-- Calculating load demand and diversity  
-- Determining available short circuit current  
-- Identifying environmental and installation conditions  
-- Selecting equipment ratings and protection characteristics  
+- Definir los niveles de voltaje y la configuración del sistema  
+- Calcular la demanda de carga y la diversidad  
+- Determinar la corriente de cortocircuito disponible  
+- Identificar las condiciones ambientales y de instalación  
+- Seleccionar las capacidades del equipo y las características de protección  
 
-Each component must be compatible with both upstream and downstream elements.
+Cada componente debe ser compatible tanto con los elementos aguas arriba como aguas abajo.
 
-## Applications
+## Aplicaciones
 
-Equipment selection is required in:
+La selección de equipo es necesaria en:
 
-- New industrial facility design  
-- Expansion of existing systems  
-- Retrofit and modernization projects  
-- Temporary or modular installations  
-- Any modification affecting electrical distribution  
+- Diseño de nuevas instalaciones industriales  
+- Expansión de sistemas existentes  
+- Proyectos de retrofit y modernización  
+- Instalaciones temporales o modulares  
+- Cualquier modificación que afecte la distribución eléctrica  
 
-It applies to all levels of the power system.
+Se aplica a todos los niveles del sistema de potencia.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Voltage rating**  
-  Equipment must match system voltage and insulation requirements  
+- **Capacidad de voltaje**  
+  El equipo debe coincidir con el voltaje del sistema y los requisitos de aislamiento  
 
-- **Current rating**  
-  Must support expected load and potential future growth  
+- **Capacidad de corriente**  
+  Debe soportar la carga esperada y el posible crecimiento futuro  
 
-- **Short circuit rating**  
-  Must withstand and interrupt available fault current  
+- **Capacidad de cortocircuito**  
+  Debe soportar e interrumpir la corriente de falla disponible  
 
-- **Protection compatibility**  
-  Devices must align with coordination and protection strategy  
+- **Compatibilidad de protección**  
+  Los dispositivos deben alinearse con la estrategia de coordinación y protección  
 
-- **Environmental conditions**  
-  Temperature, humidity, dust, and location affect selection  
+- **Condiciones ambientales**  
+  La temperatura, la humedad, el polvo y la ubicación afectan la selección  
 
-- **Standards and compliance**  
-  Equipment must meet applicable regulations and certifications  
+- **Normas y cumplimiento**  
+  El equipo debe cumplir con las regulaciones y certificaciones aplicables  
 
-- **Maintenance and accessibility**  
-  Design should allow safe operation and servicing  
+- **Mantenimiento y accesibilidad**  
+  El diseño debe permitir operación y servicio seguros  
 
-## Practical Notes
+## Notas prácticas
 
-- Selection should consider worst case operating conditions, not only nominal values  
-- Underrated equipment is a major cause of failures and safety incidents  
-- Oversizing improves margin but increases cost and may reduce efficiency  
-- Standardizing equipment simplifies maintenance and spare parts management  
-- Early coordination between design and operation teams improves long term performance  
+- La selección debe considerar las condiciones de operación en el peor caso, no solo los valores nominales  
+- El equipo subdimensionado es una causa importante de fallas e incidentes de seguridad  
+- El sobredimensionamiento mejora el margen pero aumenta el costo y puede reducir la eficiencia  
+- Estandarizar el equipo simplifica el mantenimiento y la gestión de refacciones  
+- La coordinación temprana entre los equipos de diseño y operación mejora el desempeño a largo plazo  

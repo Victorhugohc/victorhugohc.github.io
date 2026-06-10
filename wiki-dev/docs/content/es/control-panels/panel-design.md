@@ -1,125 +1,125 @@
-# Panel Design
+# Diseño de Tableros
 
-## Overview
+## Descripción general
 
-Panel design defines how a control panel is planned, structured, and engineered before assembly.
+El diseño de tableros define cómo se planifica, estructura y desarrolla un tablero de control antes de su ensamblaje.
 
-It includes electrical design, component selection, layout, and integration to ensure the system operates safely and reliably.
+Incluye el diseño eléctrico, la selección de componentes, la distribución y la integración para asegurar que el sistema opere de forma segura y confiable.
 
-A good panel design connects all elements into a coherent and functional system.
+Un buen diseño integra todos los elementos en un sistema coherente y funcional.
 
-## Purpose
+## Propósito
 
-The purpose of panel design is to create a control panel that meets operational, safety, and performance requirements.
+El propósito del diseño de tableros es crear un sistema que cumpla con los requisitos operativos, de seguridad y de desempeño.
 
-It is used to:
+Se utiliza para:
 
-- Define system structure and components  
-- Ensure safe and reliable operation  
-- Simplify installation and maintenance  
-- Support future expansion  
+- Definir la estructura del sistema y sus componentes  
+- Asegurar una operación segura y confiable  
+- Simplificar la instalación y el mantenimiento  
+- Facilitar futuras expansiones  
 
-Proper design reduces errors and improves system quality.
+Un diseño adecuado reduce errores y mejora la calidad del sistema.
 
-## How It Works
+## Cómo funciona
 
-Panel design follows a structured process from requirements to implementation.
+El diseño de tableros sigue un proceso estructurado desde los requisitos hasta la implementación.
 
-### Define Requirements
+### Definición de requisitos
 
-Identify system needs.
+Identificación de las necesidades del sistema.
 
-- Type of application  
-- Power requirements  
-- Number and type of I O  
-- Environmental conditions  
+- Tipo de aplicación  
+- Requerimientos de potencia  
+- Número y tipo de I/O  
+- Condiciones ambientales  
 
-This defines the design constraints.
+Esto define las restricciones de diseño.
 
-### Electrical Design
+### Diseño eléctrico
 
-Create electrical diagrams.
+Creación de diagramas eléctricos.
 
-- Power distribution  
-- Control circuits  
-- Protection devices  
+- Distribución de energía  
+- Circuitos de control  
+- Dispositivos de protección  
 
-These diagrams guide wiring and assembly.
+Estos diagramas guían el cableado y el ensamblaje.
 
-### Component Selection
+### Selección de componentes
 
-Select appropriate components.
+Elección de los componentes adecuados.
 
-- Breakers, contactors, relays  
-- PLCs and control devices  
-- Power supplies and terminals  
+- Interruptores automáticos, contactores, relevadores  
+- PLCs y dispositivos de control  
+- Fuentes de alimentación y borneras  
 
-Components must meet technical and environmental requirements.
+Los componentes deben cumplir con los requisitos técnicos y ambientales.
 
-### Layout Planning
+### Planeación de la distribución
 
-Define physical arrangement inside the panel.
+Definición de la disposición física dentro del tablero.
 
-- Component placement  
-- Separation of power and control  
-- Space for wiring and airflow  
+- Ubicación de componentes  
+- Separación de potencia y control  
+- Espacio para cableado y ventilación  
 
-Layout affects performance and maintainability.
+La distribución impacta el desempeño y el mantenimiento.
 
-### Integration
+### Integración
 
-Ensure all elements work together.
+Asegurar que todos los elementos funcionen en conjunto.
 
-- Electrical compatibility  
-- Communication between devices  
-- Coordination of protection systems  
+- Compatibilidad eléctrica  
+- Comunicación entre dispositivos  
+- Coordinación de protecciones  
 
-Integration ensures correct system operation.
+La integración garantiza la operación correcta del sistema.
 
-### Documentation
+### Documentación
 
-Prepare complete documentation.
+Preparación de la documentación completa.
 
-- Electrical drawings  
-- Bill of materials  
-- Layout diagrams  
-- Labeling and identification  
+- Diagramas eléctricos  
+- Lista de materiales  
+- Planos de distribución  
+- Etiquetado e identificación  
 
-Documentation supports installation and maintenance.
+La documentación respalda la instalación y el mantenimiento.
 
-## Applications
+## Aplicaciones
 
-Panel design is required in all control systems.
+El diseño de tableros es necesario en todos los sistemas de control.
 
-Typical applications include:
+Aplicaciones típicas incluyen:
 
-- Machine control panels  
-- Motor control systems  
-- Process automation panels  
-- Power distribution panels  
+- Tableros de control de maquinaria  
+- Sistemas de control de motores  
+- Tableros de automatización de procesos  
+- Tableros de distribución de energía  
 
-It is essential for both simple and complex systems.
+Es esencial tanto en sistemas simples como complejos.
 
-## Key Considerations
+## Consideraciones clave
 
-Safety must be prioritized in all design decisions.
+La seguridad debe ser prioritaria en todas las decisiones de diseño.
 
-Standards and regulations must be followed.
+Se deben cumplir normas y regulaciones.
 
-Heat management must be considered.
+La gestión térmica debe considerarse desde el diseño.
 
-Scalability should allow future expansion.
+La escalabilidad debe permitir futuras expansiones.
 
-Component compatibility is critical.
+La compatibilidad de componentes es crítica.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is starting assembly without a complete design.
+Un error común es iniciar el ensamblaje sin un diseño completo.
 
-Avoid underestimating space and cooling requirements.
+Evita subestimar el espacio y los requerimientos de enfriamiento.
 
-Keep design consistent across projects.
+Mantén consistencia en el diseño entre proyectos.
 
-Review design thoroughly before implementation.
+Revisa el diseño detalladamente antes de implementarlo.
 
-Coordinate closely with installation and operation teams.
+Coordina estrechamente con los equipos de instalación y operación.

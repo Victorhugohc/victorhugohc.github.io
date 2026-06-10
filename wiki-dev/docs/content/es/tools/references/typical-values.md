@@ -1,69 +1,69 @@
-# Typical Values
+# Valores típicos
 
-## Overview
+## Descripción general
 
-Typical values are commonly observed ranges or reference numbers used as a baseline in industrial systems.
+Los valores típicos son rangos observados comúnmente o números de referencia utilizados como línea base en sistemas industriales.
 
-They provide practical guidance for expected conditions, helping engineers and technicians quickly assess whether a system is operating normally.
+Proporcionan orientación práctica para condiciones esperadas, ayudando a ingenieros y técnicos a evaluar rápidamente si un sistema opera normalmente.
 
-## Purpose
+## Propósito
 
-The purpose of typical values is to:
+El propósito de los valores típicos es:
 
-- Provide reference points for comparison  
-- Support quick estimation and validation  
-- Assist in troubleshooting and diagnostics  
-- Reduce the need for detailed calculations in early stages  
-- Improve understanding of expected system behavior  
+- Proporcionar puntos de referencia para comparación  
+- Respaldar estimación y validación rápidas  
+- Asistir en la resolución de problemas y el diagnóstico  
+- Reducir la necesidad de cálculos detallados en etapas iniciales  
+- Mejorar la comprensión del comportamiento esperado del sistema  
 
-They serve as a practical starting point for engineering decisions.
+Sirven como punto de partida práctico para decisiones de ingeniería.
 
-## How It Works
+## Cómo funciona
 
-Typical values are derived from experience, standards, and common industry practices.
+Los valores típicos se derivan de la experiencia, normas y prácticas comunes de la industria.
 
-They represent:
+Representan:
 
-- Normal operating ranges for variables  
-- Expected performance of equipment  
-- Common design assumptions  
+- Rangos operativos normales para variables  
+- Rendimiento esperado del equipo  
+- Supuestos de diseño comunes  
 
-These values are used to:
+Estos valores se utilizan para:
 
-- Compare measured data against expected ranges  
-- Identify deviations that may indicate problems  
-- Guide initial design or selection decisions  
+- Comparar datos medidos contra rangos esperados  
+- Identificar desviaciones que pueden indicar problemas  
+- Guiar decisiones iniciales de diseño o selección  
 
-They are not exact values but practical references.
+No son valores exactos, sino referencias prácticas.
 
-## Applications
+## Aplicaciones
 
-Typical values are used in:
+Los valores típicos se utilizan en:
 
-- Electrical systems such as voltage levels and current ranges  
-- Mechanical systems such as vibration or torque ranges  
-- Process variables such as temperature, pressure, and flow  
-- Equipment performance benchmarks  
-- Quick validation during troubleshooting  
+- Sistemas eléctricos como niveles de voltaje y rangos de corriente  
+- Sistemas mecánicos como rangos de vibración o par torsional  
+- Variables de proceso como temperatura, presión y flujo  
+- Referencias de rendimiento de equipos  
+- Validación rápida durante la resolución de problemas  
 
-They are useful in both design and field work.
+Son útiles tanto en diseño como en trabajo de campo.
 
-## Key Considerations
+## Consideraciones clave
 
-- Typical values vary depending on application and environment  
-- They should not replace detailed calculations when required  
-- Using incorrect reference values can lead to wrong conclusions  
-- Always consider system specific conditions  
-- Values must be updated based on actual data when available  
+- Los valores típicos varían según la aplicación y el entorno  
+- No deben reemplazar cálculos detallados cuando se requieran  
+- Utilizar valores de referencia incorrectos puede conducir a conclusiones erróneas  
+- Considerar siempre las condiciones específicas del sistema  
+- Los valores deben actualizarse según datos reales cuando estén disponibles  
 
-Typical does not mean correct for every case.
+Típico no significa correcto en todos los casos.
 
-## Practical Notes
+## Notas prácticas
 
-- Use typical values for quick checks and estimations  
-- Compare values under similar operating conditions  
-- Validate against actual measurements whenever possible  
-- Build your own reference values based on experience  
-- Treat typical values as guidance, not absolute limits  
+- Utilizar valores típicos para verificaciones y estimaciones rápidas  
+- Comparar valores bajo condiciones operativas similares  
+- Validar contra mediciones reales siempre que sea posible  
+- Construir sus propios valores de referencia basados en experiencia  
+- Tratar los valores típicos como orientación, no como límites absolutos  
 
-Typical values help identify what is normal and what requires attention in industrial systems.
+Los valores típicos ayudan a identificar qué es normal y qué requiere atención en sistemas industriales.

@@ -1,72 +1,72 @@
-# Data Acquisition
+# Adquisición de datos
 
-## Overview
+## Descripción general
 
-Data acquisition is the process of collecting, digitizing, and storing signals from sensors and instruments for analysis.
+La adquisición de datos es el proceso de recopilar, digitalizar y almacenar señales de sensores e instrumentos para su análisis.
 
-It enables the capture of real world variables and converts them into usable digital data for monitoring, testing, and evaluation.
+Permite capturar variables del mundo real y convertirlas en datos digitales utilizables para monitoreo, pruebas y evaluación.
 
-## Purpose
+## Propósito
 
-The purpose of data acquisition is to:
+El propósito de la adquisición de datos es:
 
-- Collect data from multiple sources in a structured way  
-- Enable analysis of system behavior over time  
-- Support testing, validation, and troubleshooting  
-- Provide data for reporting and decision making  
-- Integrate measurements with software tools and systems  
+- Recopilar datos de múltiples fuentes de manera estructurada  
+- Habilitar el análisis del comportamiento del sistema a lo largo del tiempo  
+- Respaldar pruebas, validación y resolución de problemas  
+- Proporcionar datos para informes y toma de decisiones  
+- Integrar mediciones con herramientas y sistemas de software  
 
-It allows detailed insight beyond simple real time measurements.
+Permite una visión detallada más allá de las mediciones simples en tiempo real.
 
-## How It Works
+## Cómo funciona
 
-Data acquisition systems gather signals from sensors and convert them into digital values.
+Los sistemas de adquisición de datos recopilan señales de sensores y las convierten en valores digitales.
 
-The process typically includes:
+El proceso generalmente incluye:
 
-- **Sensors** that detect physical variables  
-- **Signal conditioning** to adjust and protect signals  
-- **Analog to digital conversion** to digitize signals  
-- **Data processing and storage** for analysis  
+- **Sensores** que detectan variables físicas  
+- **Acondicionamiento de señal** para ajustar y proteger las señales  
+- **Conversión analógica a digital** para digitalizar las señales  
+- **Procesamiento y almacenamiento de datos** para el análisis  
 
-Data can be sampled at defined intervals depending on the required resolution and application.
+Los datos pueden muestrearse a intervalos definidos según la resolución y la aplicación requeridas.
 
-Acquisition systems may include:
+Los sistemas de adquisición pueden incluir:
 
-- Portable data loggers  
-- Computer based acquisition systems  
-- Integrated modules in control systems  
+- Registradores de datos portátiles  
+- Sistemas de adquisición basados en computadora  
+- Módulos integrados en sistemas de control  
 
-The collected data can be displayed, stored, or exported for further analysis.
+Los datos recopilados pueden mostrarse, almacenarse o exportarse para un análisis posterior.
 
-## Applications
+## Aplicaciones
 
-Data acquisition is used in:
+La adquisición de datos se utiliza en:
 
-- Equipment testing and validation  
-- Process monitoring and optimization  
-- Vibration and condition monitoring  
-- Energy and performance analysis  
-- Research and development  
+- Pruebas y validación de equipos  
+- Monitoreo y optimización de procesos  
+- Monitoreo de vibración y condición  
+- Análisis de energía y rendimiento  
+- Investigación y desarrollo  
 
-It is essential when detailed or long term data analysis is required.
+Es esencial cuando se requiere un análisis de datos detallado o a largo plazo.
 
-## Key Considerations
+## Consideraciones clave
 
-- Sampling rate must match the dynamics of the measured signal  
-- Resolution affects measurement accuracy  
-- Number of channels determines system capability  
-- Data storage and management must be planned  
-- Signal quality impacts the reliability of results  
+- La tasa de muestreo debe coincidir con la dinámica de la señal medida  
+- La resolución afecta la precisión de la medición  
+- El número de canales determina la capacidad del sistema  
+- El almacenamiento y la gestión de datos deben planificarse  
+- La calidad de la señal impacta la confiabilidad de los resultados  
 
-Improper configuration can result in incomplete or misleading data.
+Una configuración inadecuada puede resultar en datos incompletos o engañosos.
 
-## Practical Notes
+## Notas prácticas
 
-- Define measurement objectives before setting up acquisition  
-- Select appropriate sensors and input ranges  
-- Avoid unnecessary high sampling rates that generate excessive data  
-- Ensure proper synchronization when measuring multiple signals  
-- Validate data before using it for analysis  
+- Definir los objetivos de medición antes de configurar la adquisición  
+- Seleccionar sensores y rangos de entrada adecuados  
+- Evitar tasas de muestreo innecesariamente altas que generen datos excesivos  
+- Asegurar la sincronización adecuada al medir múltiples señales  
+- Validar los datos antes de utilizarlos para el análisis  
 
-Data acquisition enables deeper understanding of systems by capturing and analyzing real operating conditions.
+La adquisición de datos permite una comprensión más profunda de los sistemas al capturar y analizar condiciones operativas reales.

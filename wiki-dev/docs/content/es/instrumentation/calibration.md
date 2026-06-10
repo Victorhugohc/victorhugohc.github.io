@@ -1,97 +1,97 @@
-# Calibration
+# Calibración
 
-## Overview
+## Descripción general
 
-Calibration is the process of verifying and adjusting an instrument to ensure its measurements are accurate and consistent with a known reference.
+La calibración es el proceso de verificar y ajustar un instrumento para asegurar que sus mediciones sean precisas y consistentes con una referencia conocida.
 
-It ensures that the values reported by sensors and instruments reflect the real process conditions.
+Asegura que los valores reportados por sensores e instrumentos reflejen las condiciones reales del proceso.
 
-## Purpose
+## Propósito
 
-The purpose of calibration is to maintain measurement accuracy over time.
+El propósito de la calibración es mantener la precisión de medición a lo largo del tiempo.
 
-It is used to:
+Se utiliza para:
 
-- Detect measurement errors  
-- Adjust instruments to match reference standards  
-- Ensure reliable control and monitoring  
-- Meet quality and regulatory requirements  
+- Detectar errores de medición  
+- Ajustar instrumentos para que coincidan con estándares de referencia  
+- Asegurar un control y monitoreo confiables  
+- Cumplir con requisitos de calidad y regulatorios  
 
-Accurate measurements are essential for correct system operation.
+Las mediciones precisas son esenciales para la operación correcta del sistema.
 
-## How It Works
+## Cómo funciona
 
-Calibration compares the instrument output with a known reference and adjusts it if necessary.
+La calibración compara la salida del instrumento con una referencia conocida y lo ajusta si es necesario.
 
-### Reference Standard
+### Estándar de referencia
 
-A known and traceable reference is used.
+Se utiliza una referencia conocida y trazable.
 
-- Calibrators or standard instruments  
-- Certified reference devices  
+- Calibradores o instrumentos estándar  
+- Dispositivos de referencia certificados  
 
-The reference must be more accurate than the instrument being tested.
+La referencia debe ser más precisa que el instrumento que se está probando.
 
-### Measurement Comparison
+### Comparación de medición
 
-The instrument is exposed to known input values.
+El instrumento se expone a valores de entrada conocidos.
 
-- Multiple points across the measurement range  
-- Comparison between expected and actual output  
+- Múltiples puntos a lo largo del rango de medición  
+- Comparación entre la salida esperada y la real  
 
-This identifies deviations or errors.
+Esto identifica desviaciones o errores.
 
-### Adjustment
+### Ajuste
 
-If errors are detected, the instrument is adjusted.
+Si se detectan errores, el instrumento se ajusta.
 
-- Zero adjustment for the lower range  
-- Span adjustment for the upper range  
+- Ajuste de cero para el rango inferior  
+- Ajuste de span para el rango superior  
 
-Some instruments allow digital calibration through software.
+Algunos instrumentos permiten calibración digital a través de software.
 
-### Verification
+### Verificación
 
-After adjustment, the instrument is tested again.
+Después del ajuste, el instrumento se prueba nuevamente.
 
-- Confirms accuracy within acceptable limits  
-- Ensures proper operation  
+- Confirma la precisión dentro de límites aceptables  
+- Asegura el funcionamiento adecuado  
 
-Results are documented for traceability.
+Los resultados se documentan para trazabilidad.
 
-## Applications
+## Aplicaciones
 
-Calibration is required in all systems where measurement accuracy is important.
+La calibración es necesaria en todos los sistemas donde la precisión de medición es importante.
 
-Typical applications include:
+Las aplicaciones típicas incluyen:
 
-- Process instrumentation  
-- Quality control systems  
-- Energy measurement  
-- Safety critical systems  
+- Instrumentación de procesos  
+- Sistemas de control de calidad  
+- Medición de energía  
+- Sistemas críticos para la seguridad  
 
-It is essential in regulated industries.
+Es esencial en industrias reguladas.
 
-## Key Considerations
+## Consideraciones clave
 
-Calibration frequency depends on process criticality and instrument stability.
+La frecuencia de calibración depende de la criticidad del proceso y la estabilidad del instrumento.
 
-Environmental conditions can affect calibration accuracy.
+Las condiciones ambientales pueden afectar la precisión de la calibración.
 
-Traceability to recognized standards is important for quality assurance.
+La trazabilidad a estándares reconocidos es importante para el aseguramiento de calidad.
 
-Instrument drift must be monitored over time.
+La deriva del instrumento debe monitorearse a lo largo del tiempo.
 
-Documentation is required for maintenance and compliance.
+La documentación es necesaria para el mantenimiento y el cumplimiento normativo.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is calibrating instruments without proper reference standards.
+Un error común es calibrar instrumentos sin estándares de referencia adecuados.
 
-Do not skip intermediate points. Multi point calibration improves accuracy.
+No omita puntos intermedios. La calibración multipunto mejora la precisión.
 
-Record all calibration results for future comparison.
+Registre todos los resultados de calibración para comparación futura.
 
-Schedule calibration as part of preventive maintenance.
+Programe la calibración como parte del mantenimiento preventivo.
 
-Verify instrument performance after installation and before operation.
+Verifique el desempeño del instrumento después de la instalación y antes de la operación.

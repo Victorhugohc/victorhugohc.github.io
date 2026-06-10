@@ -1,107 +1,107 @@
-# PLC I/O
+# I/O de PLC
 
-## Overview
+## Descripción general
 
-PLC I O refers to the interface between the controller and the physical world.
+Las I/O de un PLC representan la interfaz entre el controlador y el mundo físico.
 
-Inputs receive signals from field devices. Outputs send commands to actuators. These signals allow the PLC to monitor conditions and control equipment.
+Las entradas reciben señales de dispositivos de campo. Las salidas envían comandos a actuadores. Estas señales permiten al PLC monitorear condiciones y controlar equipos.
 
-## Purpose
+## Propósito
 
-The purpose of I O is to connect the control logic to real processes.
+El propósito de las I/O es conectar la lógica de control con los procesos reales.
 
-It enables the PLC to:
+Permiten que el PLC:
 
-- Detect system states  
-- Measure process variables  
-- Control machines and devices  
-- Execute automation tasks  
+- Detecte estados del sistema  
+- Mida variables de proceso  
+- Controle máquinas y dispositivos  
+- Ejecute tareas de automatización  
 
-Without I O, the PLC cannot interact with the system.
+Sin I/O, el PLC no puede interactuar con el sistema.
 
-## How It Works
+## Cómo funciona
 
-I O modules act as the bridge between electrical signals and the PLC internal data.
+Los módulos de I/O actúan como el enlace entre las señales eléctricas y los datos internos del PLC.
 
-### Inputs
+### Entradas
 
-Input modules receive signals from sensors and devices.
+Los módulos de entrada reciben señales de sensores y dispositivos.
 
-Typical inputs include:
+Entradas típicas incluyen:
 
-- Push buttons and switches  
-- Proximity and limit sensors  
-- Temperature, pressure, or flow transmitters  
+- Botones y switches  
+- Sensores de proximidad y finales de carrera  
+- Transmisores de temperatura, presión o flujo  
 
-The module converts these signals into values the PLC can process and stores them in input memory.
+El módulo convierte estas señales en valores que el PLC puede procesar y los almacena en la memoria de entrada.
 
-### Outputs
+### Salidas
 
-Output modules send signals from the PLC to actuators.
+Los módulos de salida envían señales desde el PLC hacia los actuadores.
 
-Typical outputs include:
+Salidas típicas incluyen:
 
-- Contactors and relays  
-- Valves and solenoids  
-- Indicator lights and alarms  
-- Motor starters or drives  
+- Contactores y relevadores  
+- Válvulas y solenoides  
+- Indicadores luminosos y alarmas  
+- Arrancadores de motor o variadores  
 
-The PLC writes output values to memory, and the module converts them into electrical signals.
+El PLC escribe valores en la memoria de salida, y el módulo los convierte en señales eléctricas.
 
-### Signal Types
+### Tipos de señal
 
-I O signals can be digital or analog.
+Las señales de I/O pueden ser digitales o analógicas.
 
-- Digital signals represent ON or OFF states  
-- Analog signals represent continuous values  
+- Las señales digitales representan estados ON/OFF  
+- Las señales analógicas representan valores continuos  
 
-The type of module must match the signal type of the device.
+El tipo de módulo debe coincidir con el tipo de señal del dispositivo.
 
-### Signal Flow
+### Flujo de señal
 
-- Field device generates a signal  
-- Input module receives and converts it  
-- CPU processes the signal in the program  
-- Output value is calculated  
-- Output module sends the signal to the actuator  
+- El dispositivo de campo genera una señal  
+- El módulo de entrada la recibe y convierte  
+- La CPU procesa la señal en el programa  
+- Se calcula el valor de salida  
+- El módulo de salida envía la señal al actuador  
 
-This process repeats every scan cycle.
+Este proceso se repite en cada ciclo de escaneo.
 
-## Applications
+## Aplicaciones
 
-I O is used in all PLC controlled systems.
+Las I/O se utilizan en todos los sistemas controlados por PLC.
 
-Examples include:
+Ejemplos incluyen:
 
-- Reading sensors in production lines  
-- Controlling motors, valves, and alarms  
-- Monitoring process variables  
-- Interfacing with safety and auxiliary systems  
+- Lectura de sensores en líneas de producción  
+- Control de motores, válvulas y alarmas  
+- Monitoreo de variables de proceso  
+- Interfaz con sistemas de seguridad y auxiliares  
 
-The number and type of I O depend on the system complexity.
+La cantidad y tipo de I/O dependen de la complejidad del sistema.
 
-## Key Considerations
+## Consideraciones clave
 
-Signal compatibility must be verified. Voltage and current levels must match between devices and modules.
+Debe verificarse la compatibilidad de señales. Los niveles de voltaje y corriente deben coincidir entre dispositivos y módulos.
 
-Isolation and protection are important to prevent damage from electrical faults.
+El aislamiento y la protección son importantes para prevenir daños por fallas eléctricas.
 
-I O count should include spare capacity for future expansion.
+El número de I/O debe considerar capacidad adicional para futuras expansiones.
 
-Wiring layout affects reliability and troubleshooting.
+La disposición del cableado afecta la confiabilidad y el diagnóstico.
 
-Response time of modules can impact system performance.
+El tiempo de respuesta de los módulos puede afectar el desempeño del sistema.
 
-Environmental conditions may require specific module ratings.
+Las condiciones ambientales pueden requerir especificaciones particulares.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is mixing incompatible signal types. Always verify device specifications.
+Un error común es mezclar tipos de señal incompatibles. Siempre verifica las especificaciones de los dispositivos.
 
-Label all I O clearly. This simplifies commissioning and maintenance.
+Etiqueta claramente todas las I/O para facilitar el comisionamiento y mantenimiento.
 
-Group signals logically to improve wiring organization.
+Agrupa las señales de forma lógica para mejorar la organización del cableado.
 
-Plan spare I O points to avoid future hardware limitations.
+Planea puntos de I/O adicionales para evitar limitaciones futuras.
 
-Check signal quality, especially for analog inputs, to avoid unstable readings.
+Verifica la calidad de la señal, especialmente en entradas analógicas, para evitar lecturas inestables.

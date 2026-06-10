@@ -1,113 +1,113 @@
-# Documentation
+# Documentación
 
-## Overview
+## Descripción general
 
-Documentation includes all records, drawings, and information required to understand, operate, and maintain an industrial system.
+La documentación incluye todos los registros, planos e información necesarios para comprender, operar y mantener un sistema industrial.
 
-It provides a complete reference of how the system is designed, built, and configured.
+Proporciona una referencia completa de cómo el sistema está diseñado, construido y configurado.
 
-Good documentation is essential for long term reliability and support.
+Una buena documentación es esencial para la confiabilidad y el soporte a largo plazo.
 
-## Purpose
+## Propósito
 
-The purpose of documentation is to ensure that all system information is available and clear.
+El propósito de la documentación es asegurar que toda la información del sistema esté disponible y sea clara.
 
-It is used to:
+Se utiliza para:
 
-- Support operation and maintenance  
-- Enable troubleshooting and repairs  
-- Provide reference for future modifications  
-- Ensure compliance with standards and requirements  
+- Apoyar la operación y el mantenimiento  
+- Facilitar la resolución de problemas y reparaciones  
+- Servir como referencia para futuras modificaciones  
+- Garantizar el cumplimiento de normas y requisitos  
 
-Proper documentation reduces downtime and dependency on individuals.
+Una documentación adecuada reduce el tiempo de inactividad y la dependencia de personas específicas.
 
-## How It Works
+## Cómo funciona
 
-Documentation is created and maintained throughout the project lifecycle.
+La documentación se crea y se mantiene a lo largo de todo el ciclo de vida del proyecto.
 
-### Electrical Drawings
+### Planos eléctricos
 
-Provide detailed system representation.
+Proporcionan una representación detallada del sistema.
 
-- Power distribution diagrams  
-- Control circuits  
-- Wiring diagrams  
+- Diagramas de distribución de potencia  
+- Circuitos de control  
+- Diagramas de cableado  
 
-These are the primary reference for electrical systems.
+Son la referencia principal para los sistemas eléctricos.
 
-### System Configuration
+### Configuración del sistema
 
-Includes control and communication setup.
+Incluye la configuración de control y comunicación.
 
-- PLC programs and configurations  
-- Network settings and addressing  
-- Device parameters  
+- Programas y configuraciones de PLC  
+- Configuración de red y direccionamiento  
+- Parámetros de dispositivos  
 
-This defines how the system operates.
+Define cómo opera el sistema.
 
-### I O Lists and Tagging
+### Listas de I/O y etiquetado
 
-Define all signals and identifiers.
+Definen todas las señales e identificadores.
 
-- Input and output lists  
-- Tag names and descriptions  
-- Signal types and ranges  
+- Listas de entradas y salidas  
+- Nombres de etiquetas y descripciones  
+- Tipos de señal y rangos  
 
-Ensures consistent identification across the system.
+Asegura una identificación consistente en todo el sistema.
 
-### Manuals and Procedures
+### Manuales y procedimientos
 
-Provide operational guidance.
+Proporcionan guía operativa.
 
-- Operating instructions  
-- Maintenance procedures  
-- Safety instructions  
+- Instrucciones de operación  
+- Procedimientos de mantenimiento  
+- Instrucciones de seguridad  
 
-These support daily use and servicing.
+Apoyan el uso diario y el servicio del sistema.
 
-### Records and Reports
+### Registros e informes
 
-Include project and testing information.
+Incluyen información del proyecto y pruebas.
 
-- Test results and commissioning reports  
-- Change records and revisions  
-- Maintenance history  
+- Resultados de pruebas e informes de puesta en marcha  
+- Registros de cambios y revisiones  
+- Historial de mantenimiento  
 
-These provide traceability over time.
+Proporcionan trazabilidad a lo largo del tiempo.
 
-## Applications
+## Aplicaciones
 
-Documentation is required in all industrial systems.
+La documentación es necesaria en todos los sistemas industriales.
 
-Typical applications include:
+Aplicaciones típicas incluyen:
 
-- New installations  
-- System upgrades  
-- Maintenance and troubleshooting  
-- Training and handover  
+- Nuevas instalaciones  
+- Actualizaciones del sistema  
+- Mantenimiento y solución de problemas  
+- Capacitación y entrega del sistema  
 
-It is essential throughout the system lifecycle.
+Es esencial durante todo el ciclo de vida del sistema.
 
-## Key Considerations
+## Consideraciones clave
 
-Documentation must match the actual system.
+La documentación debe coincidir con el sistema real.
 
-Clarity and organization are critical.
+La claridad y organización son fundamentales.
 
-Updates must be maintained after changes.
+Debe actualizarse después de cualquier cambio.
 
-Accessibility for users is important.
+La accesibilidad para los usuarios es importante.
 
-Standard formats improve consistency.
+El uso de formatos estándar mejora la consistencia.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is not updating documentation after modifications.
+Un error común es no actualizar la documentación después de modificaciones.
 
-Keep documents organized and easy to access.
+Mantén los documentos organizados y fáciles de acceder.
 
-Use clear naming and labeling conventions.
+Utiliza convenciones claras de nombres y etiquetado.
 
-Store backups to prevent loss of information.
+Guarda respaldos para evitar la pérdida de información.
 
-Ensure all stakeholders have access to relevant documentation.
+Asegura que todos los involucrados tengan acceso a la documentación relevante.

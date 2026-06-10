@@ -1,78 +1,78 @@
-# Protective Devices
+# Dispositivos de protección
 
-## Overview
+## Descripción general
 
-Protective devices are components used to detect abnormal electrical conditions and disconnect circuits to prevent damage and hazards.
+Los dispositivos de protección son componentes utilizados para detectar condiciones eléctricas anormales y desconectar circuitos para prevenir daños y peligros.
 
-They are installed throughout power systems to protect cables, equipment, and personnel from faults such as overloads, short circuits, and ground faults.
+Se instalan en todo el sistema de potencia para proteger cables, equipo y personal de fallas como sobrecargas, cortocircuitos y fallas a tierra.
 
-Each device is designed to respond to specific types of conditions and operate within defined limits.
+Cada dispositivo está diseñado para responder a tipos específicos de condiciones y operar dentro de límites definidos.
 
-## Purpose
+## Propósito
 
-The purpose of protective devices is to:
+El propósito de los dispositivos de protección es:
 
-- Interrupt fault currents before damage occurs  
-- Prevent overheating of conductors and equipment  
-- Reduce risk of fire and electrical hazards  
-- Isolate faulty sections while keeping the rest of the system energized  
+- Interrumpir corrientes de falla antes de que ocurra el daño  
+- Prevenir el sobrecalentamiento de conductores y equipo  
+- Reducir el riesgo de incendio y peligros eléctricos  
+- Aislar secciones con falla mientras mantienen el resto del sistema energizado  
 
-They are essential for safe and reliable operation of any electrical installation.
+Son esenciales para la operación segura y confiable de cualquier instalación eléctrica.
 
-## How It Works
+## Cómo funciona
 
-Protective devices monitor electrical parameters such as current and, in some cases, voltage.
+Los dispositivos de protección monitorean parámetros eléctricos como corriente y, en algunos casos, voltaje.
 
-When a threshold is exceeded:
+Cuando se excede un umbral:
 
-- The device detects the abnormal condition  
-- A mechanism is triggered to open the circuit  
-- The flow of current is interrupted  
+- El dispositivo detecta la condición anormal  
+- Se activa un mecanismo para abrir el circuito  
+- Se interrumpe el flujo de corriente  
 
-Different devices use different operating principles:
+Diferentes dispositivos utilizan diferentes principios de operación:
 
-- Thermal mechanisms respond to sustained overcurrent  
-- Magnetic mechanisms respond to high fault currents  
-- Electronic protection uses sensors and logic for precise control  
+- Los mecanismos térmicos responden a sobrecorriente sostenida  
+- Los mecanismos magnéticos responden a altas corrientes de falla  
+- La protección electrónica utiliza sensores y lógica para control preciso  
 
-Once the circuit is opened, the faulted section is isolated from the rest of the system.
+Una vez abierto el circuito, la sección con falla queda aislada del resto del sistema.
 
-## Applications
+## Aplicaciones
 
-Protective devices are used in:
+Los dispositivos de protección se utilizan en:
 
-- Low voltage distribution panels and switchboards  
-- Medium voltage switchgear with relay based protection  
-- Motor circuits and control panels  
-- Transformers and feeders  
-- Final branch circuits supplying equipment  
+- Paneles de distribución y tableros de distribución en baja tensión  
+- Switchgear (celdas de media tensión) con protección basada en relevadores  
+- Circuitos de motores y tableros de control  
+- Transformadores y alimentadores  
+- Circuitos derivados finales que alimentan equipo  
 
-They are applied at multiple levels to provide layered protection.
+Se aplican en múltiples niveles para proporcionar protección en capas.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Type of device**  
-  Circuit breakers, fuses, and relays are selected based on application  
+- **Tipo de dispositivo**  
+  Los interruptores automáticos, fusibles y relevadores se seleccionan según la aplicación  
 
-- **Current rating**  
-  Must match the expected load without nuisance tripping  
+- **Capacidad de corriente**  
+  Debe coincidir con la carga esperada sin disparos molestos  
 
-- **Interrupting capacity**  
-  Must safely handle maximum fault current at the installation point  
+- **Capacidad de interrupción**  
+  Debe manejar de manera segura la corriente máxima de falla en el punto de instalación  
 
-- **Trip characteristics**  
-  Time current behavior must align with system requirements  
+- **Características de disparo**  
+  El comportamiento tiempo-corriente debe alinearse con los requisitos del sistema  
 
-- **Coordination**  
-  Devices must operate in sequence to isolate only the faulted section  
+- **Coordinación**  
+  Los dispositivos deben operar en secuencia para aislar solo la sección con falla  
 
-- **Reset and maintenance**  
-  Some devices are resettable, while others require replacement  
+- **Restablecimiento y mantenimiento**  
+  Algunos dispositivos son rearmables, mientras que otros requieren reemplazo  
 
-## Practical Notes
+## Notas prácticas
 
-- Circuit breakers are reusable but require proper selection and maintenance  
-- Fuses are simple and fast but must be replaced after operation  
-- Incorrect device selection can lead to equipment damage or unnecessary downtime  
-- Protection should be layered, not dependent on a single device  
-- Regular inspection ensures devices operate as expected  
+- Los interruptores automáticos son reutilizables pero requieren selección y mantenimiento adecuados  
+- Los fusibles son simples y rápidos pero deben reemplazarse después de operar  
+- La selección incorrecta de dispositivos puede provocar daño al equipo o tiempo de inactividad innecesario  
+- La protección debe estar en capas, no depender de un solo dispositivo  
+- La inspección regular asegura que los dispositivos operen según lo esperado  

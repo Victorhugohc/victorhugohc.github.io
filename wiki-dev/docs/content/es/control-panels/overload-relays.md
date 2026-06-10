@@ -1,100 +1,100 @@
-# Overload Relays
+# Relevadores de Sobrecarga
 
-## Overview
+## Descripción general
 
-Overload relays are protective devices used to prevent damage to motors caused by prolonged overcurrent conditions.
+Los relevadores de sobrecarga son dispositivos de protección utilizados para prevenir daños en motores causados por condiciones prolongadas de sobrecorriente.
 
-They monitor motor current and disconnect the control circuit when the current exceeds safe limits over time.
+Monitorean la corriente del motor y desconectan el circuito de control cuando la corriente excede los límites seguros durante un periodo de tiempo.
 
-Overload relays are typically used together with contactors in motor control circuits.
+Normalmente se utilizan en conjunto con contactores en circuitos de control de motores.
 
-## Purpose
+## Propósito
 
-The purpose of an overload relay is to protect motors from overheating and damage.
+El propósito de un relevador de sobrecarga es proteger los motores contra sobrecalentamiento y daños.
 
-It is used to:
+Se utiliza para:
 
-- Detect sustained overcurrent conditions  
-- Prevent motor overheating  
-- Protect against mechanical overload  
-- Extend motor lifespan  
+- Detectar condiciones de sobrecorriente sostenida  
+- Prevenir el sobrecalentamiento del motor  
+- Proteger contra sobrecargas mecánicas  
+- Extender la vida útil del motor  
 
-It provides protection that breakers alone cannot offer.
+Proporciona una protección que los interruptores automáticos por sí solos no pueden ofrecer.
 
-## How It Works
+## Cómo funciona
 
-Overload relays monitor current and respond based on time and magnitude.
+Los relevadores de sobrecarga monitorean la corriente y responden en función del tiempo y la magnitud.
 
-### Current Monitoring
+### Monitoreo de corriente
 
-The relay measures the current flowing to the motor.
+El relevador mide la corriente que fluye hacia el motor.
 
-- Normal operation stays within set limits  
-- Overload conditions increase current over time  
+- En operación normal se mantiene dentro de los límites establecidos  
+- Las condiciones de sobrecarga incrementan la corriente con el tiempo  
 
-The relay evaluates both level and duration.
+El relevador evalúa tanto el nivel como la duración.
 
-### Trip Mechanism
+### Mecanismo de disparo
 
-When an overload condition is detected:
+Cuando se detecta una condición de sobrecarga:
 
-- The relay trips after a defined time delay  
-- It opens the control circuit of the contactor  
-- The contactor disconnects power to the motor  
+- El relevador dispara después de un tiempo definido  
+- Abre el circuito de control del contactor  
+- El contactor desconecta la energía al motor  
 
-This stops the motor before damage occurs.
+Esto detiene el motor antes de que ocurra daño.
 
-### Thermal Behavior
+### Comportamiento térmico
 
-Many overload relays simulate motor heating.
+Muchos relevadores de sobrecarga simulan el calentamiento del motor.
 
-- Thermal models track heat buildup  
-- Trip time depends on current level  
+- Modelos térmicos siguen la acumulación de calor  
+- El tiempo de disparo depende del nivel de corriente  
 
-This matches real motor protection needs.
+Esto se ajusta a las necesidades reales de protección del motor.
 
-### Reset Function
+### Función de reinicio
 
-After a trip:
+Después de un disparo:
 
-- Manual or automatic reset is required  
-- Motor should not restart until the cause is resolved  
+- Se requiere un reinicio manual o automático  
+- El motor no debe reiniciarse hasta resolver la causa  
 
-Reset restores normal operation.
+El reinicio restablece la operación normal.
 
-## Applications
+## Aplicaciones
 
-Overload relays are used in motor control systems.
+Los relevadores de sobrecarga se utilizan en sistemas de control de motores.
 
-Typical applications include:
+Aplicaciones típicas incluyen:
 
-- Pumps and compressors  
-- Conveyors and production equipment  
-- Fans and HVAC systems  
-- General motor driven systems  
+- Bombas y compresores  
+- Transportadores y equipos de producción  
+- Ventiladores y sistemas HVAC  
+- Sistemas accionados por motores en general  
 
-They are essential for protecting motors in industrial environments.
+Son esenciales para la protección de motores en entornos industriales.
 
-## Key Considerations
+## Consideraciones clave
 
-Relay setting must match motor rated current.
+El ajuste del relevador debe coincidir con la corriente nominal del motor.
 
-Trip class should match application characteristics.
+La clase de disparo debe adecuarse a las características de la aplicación.
 
-Coordination with contactors and breakers is important.
+La coordinación con contactores e interruptores automáticos es importante.
 
-Ambient temperature can affect relay performance.
+La temperatura ambiente puede afectar el desempeño del relevador.
 
-Proper installation ensures accurate current sensing.
+Una instalación adecuada asegura una medición correcta de la corriente.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is incorrect current setting. Always set according to motor nameplate.
+Un error común es ajustar incorrectamente la corriente. Siempre configura según la placa del motor.
 
-Do not bypass overload protection during operation.
+No omitas la protección de sobrecarga durante la operación.
 
-Allow the motor to cool before resetting after a trip.
+Permite que el motor se enfríe antes de reiniciar después de un disparo.
 
-Verify correct wiring of the relay in the control circuit.
+Verifica el cableado correcto del relevador en el circuito de control.
 
-Test protection during commissioning to ensure proper operation.
+Prueba la protección durante el comisionamiento para asegurar su correcto funcionamiento.

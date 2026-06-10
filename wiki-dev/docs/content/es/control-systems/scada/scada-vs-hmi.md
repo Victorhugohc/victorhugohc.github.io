@@ -1,96 +1,96 @@
 # SCADA vs HMI
 
-## Overview
+## Descripción general
 
-SCADA and HMI are both used to monitor and interact with industrial systems, but they operate at different levels and serve different roles.
+SCADA y HMI se utilizan para monitorear e interactuar con sistemas industriales, pero operan en distintos niveles y cumplen funciones diferentes.
 
-An HMI is focused on local interaction with a machine or process. SCADA provides centralized monitoring and supervision across multiple systems.
+Una HMI se enfoca en la interacción local con una máquina o proceso. SCADA proporciona monitoreo centralizado y supervisión sobre múltiples sistemas.
 
-## Purpose
+## Propósito
 
-The purpose of distinguishing SCADA and HMI is to understand their roles in system design.
+El propósito de diferenciar SCADA y HMI es entender su rol dentro del diseño del sistema.
 
-- HMI is used for direct operator interaction  
-- SCADA is used for supervisory control and data management  
+- La HMI se utiliza para interacción directa con el operador  
+- SCADA se utiliza para control supervisado y gestión de datos  
 
-Both are complementary and often used together.
+Ambos son complementarios y frecuentemente se utilizan juntos.
 
-## How It Works
-
-### HMI
-
-An HMI is directly connected to a controller such as a PLC.
-
-- Displays real time data  
-- Allows operator input  
-- Controls a specific machine or process  
-
-It typically operates at the equipment or local level.
-
-### SCADA
-
-A SCADA system connects to multiple controllers and systems.
-
-- Collects data from various sources  
-- Provides centralized monitoring  
-- Stores historical data  
-- Allows supervisory control  
-
-It operates at the system or plant level.
-
-### Key Differences
-
-- Scope  
-  - HMI focuses on a single machine or area  
-  - SCADA covers multiple systems or locations  
-
-- Data Handling  
-  - HMI displays current data  
-  - SCADA manages real time and historical data  
-
-- Architecture  
-  - HMI is usually a single device or station  
-  - SCADA involves servers, networks, and multiple clients  
-
-- Control Level  
-  - HMI provides direct operator control  
-  - SCADA provides supervisory control  
-
-## Applications
+## Cómo funciona
 
 ### HMI
 
-- Machine level control panels  
-- Local operator stations  
-- Standalone equipment  
+Una HMI se conecta directamente a un controlador como un PLC.
+
+- Muestra datos en tiempo real  
+- Permite la interacción del operador  
+- Controla una máquina o proceso específico  
+
+Generalmente opera a nivel de equipo o local.
 
 ### SCADA
 
-- Plant wide monitoring  
-- Distributed systems  
-- Utility and infrastructure networks  
-- Remote operations  
+Un sistema SCADA se conecta a múltiples controladores y sistemas.
 
-Most industrial systems use both HMI and SCADA together.
+- Recopila datos de diversas fuentes  
+- Proporciona monitoreo centralizado  
+- Almacena datos históricos  
+- Permite control supervisado  
 
-## Key Considerations
+Opera a nivel de sistema o planta.
 
-System size and complexity determine whether SCADA is required.
+### Diferencias clave
 
-HMI is sufficient for small or standalone systems.
+- Alcance  
+  - La HMI se enfoca en una máquina o área  
+  - SCADA cubre múltiples sistemas o ubicaciones  
 
-SCADA is necessary for centralized monitoring and data analysis.
+- Manejo de datos  
+  - La HMI muestra datos actuales  
+  - SCADA gestiona datos en tiempo real e históricos  
 
-Integration between HMI, SCADA, and controllers must be well defined.
+- Arquitectura  
+  - La HMI suele ser un solo dispositivo o estación  
+  - SCADA involucra servidores, redes y múltiples clientes  
 
-Cost and complexity increase with SCADA implementation.
+- Nivel de control  
+  - La HMI proporciona control directo del operador  
+  - SCADA proporciona control supervisado  
 
-## Practical Notes
+## Aplicaciones
 
-A common mistake is using SCADA for tasks that can be handled by an HMI. This adds unnecessary complexity.
+### HMI
 
-Avoid placing critical control logic in SCADA. Control should remain in the PLC.
+- Paneles de control a nivel máquina  
+- Estaciones locales de operación  
+- Equipos independientes  
 
-Use HMI for fast operator interaction and SCADA for system level visibility.
+### SCADA
 
-Design both systems to present consistent information to avoid confusion.
+- Monitoreo a nivel planta  
+- Sistemas distribuidos  
+- Redes de servicios e infraestructura  
+- Operaciones remotas  
+
+La mayoría de los sistemas industriales utilizan HMI y SCADA en conjunto.
+
+## Consideraciones clave
+
+El tamaño y la complejidad del sistema determinan si se requiere SCADA.
+
+Una HMI es suficiente para sistemas pequeños o independientes.
+
+SCADA es necesario para monitoreo centralizado y análisis de datos.
+
+La integración entre HMI, SCADA y controladores debe estar bien definida.
+
+El costo y la complejidad aumentan con la implementación de SCADA.
+
+## Notas prácticas
+
+Un error común es usar SCADA para tareas que pueden resolverse con una HMI, agregando complejidad innecesaria.
+
+Evita colocar lógica de control crítica en SCADA. El control debe permanecer en el PLC.
+
+Utiliza HMI para interacción rápida con el operador y SCADA para visibilidad a nivel sistema.
+
+Diseña ambos sistemas con información consistente para evitar confusión.

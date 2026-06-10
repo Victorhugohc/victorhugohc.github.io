@@ -1,70 +1,70 @@
-# Torque Measurement
+# Medición de par torsional
 
-## Overview
+## Descripción general
 
-Torque measurement is the process of determining the rotational force applied to a shaft, fastener, or mechanical component.
+La medición de par torsional es el proceso de determinar la fuerza rotacional aplicada a un eje, sujeción o componente mecánico.
 
-It is a critical parameter in mechanical systems, affecting performance, efficiency, and structural integrity.
+Es un parámetro crítico en sistemas mecánicos, afectando el rendimiento, la eficiencia y la integridad estructural.
 
-## Purpose
+## Propósito
 
-The purpose of torque measurement is to:
+El propósito de la medición de par torsional es:
 
-- Ensure correct tightening of fasteners  
-- Monitor mechanical load in rotating equipment  
-- Prevent overloading and mechanical failure  
-- Verify assembly and maintenance quality  
-- Support performance analysis of mechanical systems  
+- Garantizar el apriete correcto de sujeciones  
+- Monitorear la carga mecánica en equipos rotativos  
+- Prevenir sobrecarga y falla mecánica  
+- Verificar la calidad del ensamblaje y el mantenimiento  
+- Respaldar el análisis de rendimiento de sistemas mecánicos  
 
-Accurate torque control is essential for safe and reliable operation.
+El control preciso del par torsional es esencial para una operación segura y confiable.
 
-## How It Works
+## Cómo funciona
 
-Torque is measured by detecting the force applied at a distance from a rotational axis.
+El par torsional se mide detectando la fuerza aplicada a una distancia del eje de rotación.
 
-Common measurement methods include:
+Los métodos de medición comunes incluyen:
 
-- **Torque wrenches** that indicate applied torque during tightening  
-- **Strain gauge sensors** that measure deformation in shafts  
-- **Rotary torque transducers** that measure torque in rotating systems  
+- **Llaves dinamométricas** que indican el par aplicado durante el apriete  
+- **Sensores de galga extensométrica** que miden la deformación en ejes  
+- **Transductores de par rotativo** que miden el par en sistemas rotativos  
 
-The measurement is based on the relationship between force and lever arm distance.
+La medición se basa en la relación entre la fuerza y la distancia del brazo de palanca.
 
-Torque values are typically expressed in units such as:
+Los valores de par torsional se expresan típicamente en unidades como:
 
-- Newton meters  
-- Pound feet  
+- Newton metros  
+- Libra pies  
 
-The measured signal can be displayed directly or transmitted to monitoring systems.
+La señal medida puede mostrarse directamente o transmitirse a sistemas de monitoreo.
 
-## Applications
+## Aplicaciones
 
-Torque measurement is used in:
+La medición de par torsional se utiliza en:
 
-- Assembly and tightening of mechanical components  
-- Monitoring load in motors and drive systems  
-- Testing of engines and rotating machinery  
-- Quality control in manufacturing processes  
-- Maintenance of critical mechanical systems  
+- Ensamblaje y apriete de componentes mecánicos  
+- Monitoreo de carga en motores y sistemas de transmisión  
+- Prueba de motores y maquinaria rotativa  
+- Control de calidad en procesos de fabricación  
+- Mantenimiento de sistemas mecánicos críticos  
 
-It is widely used in both installation and operation phases.
+Se utiliza ampliamente tanto en fases de instalación como de operación.
 
-## Key Considerations
+## Consideraciones clave
 
-- Measurement range must match expected torque values  
-- Accuracy requirements depend on the application  
-- Calibration is necessary for reliable results  
-- Installation method affects measurement quality  
-- Dynamic and static torque may require different tools  
+- El rango de medición debe coincidir con los valores de par esperados  
+- Los requisitos de precisión dependen de la aplicación  
+- La calibración es necesaria para resultados confiables  
+- El método de instalación afecta la calidad de la medición  
+- El par dinámico y estático pueden requerir herramientas diferentes  
 
-Incorrect torque can lead to mechanical failure or poor performance.
+Un par incorrecto puede conducir a falla mecánica o rendimiento deficiente.
 
-## Practical Notes
+## Notas prácticas
 
-- Use calibrated tools for critical tightening tasks  
-- Follow specified torque values from equipment guidelines  
-- Avoid over tightening or under tightening fasteners  
-- Consider lubrication effects on torque values  
-- Record torque measurements when required for quality control  
+- Utilizar herramientas calibradas para tareas de apriete críticas  
+- Seguir los valores de par especificados en las directrices del equipo  
+- Evitar el sobreapriete o subapriete de sujeciones  
+- Considerar los efectos de la lubricación en los valores de par  
+- Registrar las mediciones de par cuando se requiera para control de calidad  
 
-Torque measurement ensures proper assembly and reliable operation of mechanical systems.
+La medición de par torsional garantiza el ensamblaje adecuado y la operación confiable de sistemas mecánicos.

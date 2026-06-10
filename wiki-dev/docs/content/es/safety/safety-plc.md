@@ -1,99 +1,99 @@
-# Safety PLC
+# PLC de Seguridad
 
-## Overview
+## Descripción general
 
-A Safety PLC is a programmable controller designed to execute safety related control functions.
+Un PLC de seguridad es un controlador programable diseñado para ejecutar funciones de control relacionadas con la seguridad.
 
-It is built with certified hardware and software to meet safety standards and ensure reliable operation in critical applications.
+Está construido con hardware y software certificados para cumplir normas de seguridad y asegurar una operación confiable en aplicaciones críticas.
 
-Safety PLCs are used when safety logic is complex or requires flexibility beyond simple safety devices.
+Los PLC de seguridad se utilizan cuando la lógica de seguridad es compleja o requiere flexibilidad más allá de dispositivos de seguridad simples.
 
-## Purpose
+## Propósito
 
-The purpose of a Safety PLC is to manage safety functions with high reliability and flexibility.
+El propósito de un PLC de seguridad es gestionar funciones de seguridad con alta confiabilidad y flexibilidad.
 
-It is used to:
+Se utiliza para:
 
-- Implement complex safety logic  
-- Integrate multiple safety devices  
-- Monitor and control safety functions  
-- Ensure compliance with safety requirements  
+- Implementar lógica de seguridad compleja  
+- Integrar múltiples dispositivos de seguridad  
+- Monitorear y controlar funciones de seguridad  
+- Asegurar el cumplimiento de los requisitos de seguridad  
 
-It allows centralized and programmable safety control.
+Permite un control de seguridad centralizado y programable.
 
-## How It Works
+## Cómo funciona
 
-A Safety PLC operates similarly to a standard PLC but includes additional safety features.
+Un PLC de seguridad opera de forma similar a un PLC estándar, pero incluye características adicionales de seguridad.
 
-### Redundant Architecture
+### Arquitectura redundante
 
-Safety PLCs use internal redundancy.
+Los PLC de seguridad utilizan redundancia interna.
 
-- Multiple processors or channels  
-- Continuous cross checking of results  
+- Múltiples procesadores o canales  
+- Verificación cruzada continua de resultados  
 
-This ensures correct operation even in case of faults.
+Esto asegura una operación correcta incluso en caso de fallas.
 
-### Safety Inputs and Outputs
+### Entradas y salidas de seguridad
 
-Dedicated safety I O modules are used.
+Se utilizan módulos de E/S dedicados de seguridad.
 
-- Monitor safety devices such as emergency stops and interlocks  
-- Control outputs that bring the system to a safe state  
+- Monitorean dispositivos de seguridad como paros de emergencia y enclavamientos  
+- Controlan salidas que llevan el sistema a un estado seguro  
 
-These modules are designed for fault detection.
+Estos módulos están diseñados para detección de fallas.
 
-### Certified Logic Execution
+### Ejecución de lógica certificada
 
-Safety programs are executed with verification.
+Los programas de seguridad se ejecutan con verificación.
 
-- Logic is checked for consistency  
-- Faults in execution are detected  
+- La lógica se verifica por consistencia  
+- Las fallas en la ejecución se detectan  
 
-Only validated operations are allowed.
+Solo se permiten operaciones validadas.
 
-### Diagnostics and Monitoring
+### Diagnóstico y monitoreo
 
-Safety PLCs continuously monitor system health.
+Los PLC de seguridad monitorean continuamente la salud del sistema.
 
-- Detect hardware and communication faults  
-- Provide diagnostic information  
+- Detectan fallas de hardware y comunicación  
+- Proporcionan información de diagnóstico  
 
-This improves reliability and troubleshooting.
+Esto mejora la confiabilidad y la resolución de problemas.
 
-## Applications
+## Aplicaciones
 
-Safety PLCs are used in systems with complex safety requirements.
+Los PLC de seguridad se utilizan en sistemas con requisitos de seguridad complejos.
 
-Typical applications include:
+Las aplicaciones típicas incluyen:
 
-- Large machines with multiple safety zones  
-- Automated production lines  
-- Process safety systems  
-- Systems requiring integration of many safety devices  
+- Máquinas grandes con múltiples zonas de seguridad  
+- Líneas de producción automatizadas  
+- Sistemas de seguridad de proceso  
+- Sistemas que requieren integración de muchos dispositivos de seguridad  
 
-They are suitable for advanced safety control.
+Son adecuados para control de seguridad avanzado.
 
-## Key Considerations
+## Consideraciones clave
 
-Safety requirements must be defined through risk assessment.
+Los requisitos de seguridad deben definirse mediante evaluación de riesgos.
 
-Programming must follow safety standards and guidelines.
+La programación debe seguir normas y directrices de seguridad.
 
-Validation and testing are critical.
+La validación y las pruebas son críticas.
 
-System complexity increases compared to simple safety devices.
+La complejidad del sistema aumenta en comparación con dispositivos de seguridad simples.
 
-Cost is higher but justified in complex applications.
+El costo es mayor, pero se justifica en aplicaciones complejas.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is using a standard PLC for safety functions. Always use certified safety controllers.
+Un error común es usar un PLC estándar para funciones de seguridad. Siempre utilizar controladores de seguridad certificados.
 
-Keep safety logic separate and clearly structured.
+Mantener la lógica de seguridad separada y claramente estructurada.
 
-Test all safety scenarios, including fault conditions.
+Probar todos los escenarios de seguridad, incluyendo condiciones de falla.
 
-Document safety functions and logic thoroughly.
+Documentar exhaustivamente las funciones y la lógica de seguridad.
 
-Ensure maintenance personnel understand the safety system.
+Asegurar que el personal de mantenimiento comprenda el sistema de seguridad.

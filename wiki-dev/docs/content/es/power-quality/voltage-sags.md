@@ -1,81 +1,81 @@
-# Voltage Sags
+# Caídas de voltaje
 
-## Overview
+## Descripción general
 
-Voltage sags are short duration reductions in voltage magnitude, typically lasting from a few milliseconds to a few seconds.
+Las caídas de voltaje son reducciones de corta duración en la magnitud del voltaje, que típicamente duran desde unos pocos milisegundos hasta unos pocos segundos.
 
-They are one of the most common power quality disturbances in industrial systems and can affect equipment operation even when the reduction is relatively small.
+Son una de las perturbaciones de calidad de energía más comunes en sistemas industriales y pueden afectar la operación del equipo incluso cuando la reducción es relativamente pequeña.
 
-Voltage sags do not completely interrupt power but reduce it below normal levels.
+Las caídas de voltaje no interrumpen completamente la potencia, pero la reducen por debajo de los niveles normales.
 
-## Purpose
+## Propósito
 
-Understanding voltage sags is important to:
+Comprender las caídas de voltaje es importante para:
 
-- Prevent unexpected equipment shutdowns  
-- Maintain continuity of industrial processes  
-- Protect sensitive electronic devices  
-- Improve system reliability  
+- Prevenir apagados inesperados del equipo  
+- Mantener la continuidad de los procesos industriales  
+- Proteger dispositivos electrónicos sensibles  
+- Mejorar la confiabilidad del sistema  
 
-Managing voltage sags reduces production losses and operational disruptions.
+La gestión de caídas de voltaje reduce las pérdidas de producción y las interrupciones operativas.
 
-## How It Works
+## Cómo funciona
 
-A voltage sag occurs when there is a sudden increase in current demand or a fault in the system.
+Una caída de voltaje ocurre cuando hay un aumento súbito en la demanda de corriente o una falla en el sistema.
 
-This causes a temporary drop in voltage due to system impedance.
+Esto provoca una caída temporal de voltaje debido a la impedancia del sistema.
 
-Common causes include:
+Las causas comunes incluyen:
 
-- Motor starting, especially large motors  
-- Short circuits or faults in nearby systems  
-- Energizing transformers or heavy loads  
-- Utility disturbances affecting the supply  
+- Arranque de motores, especialmente motores de gran tamaño  
+- Cortocircuitos o fallas en sistemas cercanos  
+- Energización de transformadores o cargas pesadas  
+- Perturbaciones de la compañía eléctrica que afectan el suministro  
 
-The severity of a sag depends on:
+La severidad de una caída depende de:
 
-- Depth of the voltage reduction  
-- Duration of the event  
-- Sensitivity of connected equipment  
+- Profundidad de la reducción de voltaje  
+- Duración del evento  
+- Sensibilidad del equipo conectado  
 
-Even short sags can cause control systems or drives to trip.
+Incluso caídas breves pueden provocar que los sistemas de control o variadores se disparen.
 
-## Applications
+## Aplicaciones
 
-Voltage sag considerations are important in:
+Las consideraciones sobre caídas de voltaje son importantes en:
 
-- Motor driven systems such as pumps and compressors  
-- Automated production lines  
-- PLC based control systems  
-- Variable frequency drives and power electronics  
-- Facilities with continuous processes  
+- Sistemas accionados por motores, como bombas y compresores  
+- Líneas de producción automatizadas  
+- Sistemas de control basados en PLC  
+- Variadores de frecuencia y electrónica de potencia  
+- Instalaciones con procesos continuos  
 
-They are critical in environments where even brief interruptions affect production.
+Son críticas en entornos donde incluso interrupciones breves afectan la producción.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Sag depth**  
-  Greater voltage reduction increases the likelihood of equipment malfunction  
+- **Profundidad de la caída**  
+  Una mayor reducción de voltaje incrementa la probabilidad de mal funcionamiento del equipo  
 
-- **Duration**  
-  Longer sags are more likely to cause trips or shutdowns  
+- **Duración**  
+  Caídas más prolongadas tienen mayor probabilidad de provocar disparos o apagados  
 
-- **Load sensitivity**  
-  Electronic devices are more sensitive than resistive loads  
+- **Sensibilidad de la carga**  
+  Los dispositivos electrónicos son más sensibles que las cargas resistivas  
 
-- **System strength**  
-  Systems with lower impedance experience smaller voltage drops  
+- **Robustez del sistema**  
+  Los sistemas con menor impedancia experimentan caídas de voltaje menores  
 
-- **Starting methods**  
-  Motor starting techniques can reduce sag impact  
+- **Métodos de arranque**  
+  Las técnicas de arranque de motores pueden reducir el impacto de las caídas  
 
-- **Coordination with protection**  
-  Protection settings must avoid unnecessary trips during temporary sags  
+- **Coordinación con la protección**  
+  Los ajustes de protección deben evitar disparos innecesarios durante caídas temporales  
 
-## Practical Notes
+## Notas prácticas
 
-- Large motor starting is a common internal cause of voltage sags  
-- Drives and control systems often trip before motors are affected  
-- Soft starters and variable speed drives can reduce sag severity  
-- Separating sensitive loads from heavy loads improves stability  
-- Monitoring helps identify the source and frequency of sag events  
+- El arranque de motores de gran tamaño es una causa interna común de caídas de voltaje  
+- Los variadores y sistemas de control suelen dispararse antes de que los motores se vean afectados  
+- Los arrancadores suaves y variadores de velocidad pueden reducir la severidad de las caídas  
+- Separar las cargas sensibles de las cargas pesadas mejora la estabilidad  
+- El monitoreo ayuda a identificar la fuente y la frecuencia de los eventos de caída  

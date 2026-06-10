@@ -1,63 +1,63 @@
-# Machine Documentation
+# Documentación de Máquina
 
-## Overview
+## Descripción general
 
-Machine documentation is the structured set of information that describes how a machine is built, operates, and should be maintained.
+La documentación de máquina es el conjunto estructurado de información que describe cómo se construye, opera y debe mantenerse una máquina.
 
-It connects the physical system with its design, configuration, and operational requirements. Documentation allows users to understand the system without relying on assumptions or prior knowledge.
+Conecta el sistema físico con su diseño, configuración y requisitos operativos. La documentación permite a los usuarios comprender el sistema sin depender de suposiciones o conocimiento previo.
 
-## Purpose
+## Propósito
 
-The purpose of machine documentation is to provide clear and reliable information for anyone interacting with the system.
+El propósito de la documentación de máquina es proporcionar información clara y confiable para cualquier persona que interactúe con el sistema.
 
-This helps to:
+Esto ayuda a:
 
-- Support safe operation of the machine  
-- Enable correct maintenance and troubleshooting  
-- Ensure consistency between design and implementation  
-- Preserve system knowledge over time  
+- Apoyar la operación segura de la máquina  
+- Permitir un mantenimiento y diagnóstico correctos  
+- Asegurar la consistencia entre el diseño y la implementación  
+- Preservar el conocimiento del sistema con el tiempo  
 
-Without proper documentation, systems become dependent on individual experience.
+Sin documentación adecuada, los sistemas dependen de la experiencia individual.
 
-## How It Works
+## Cómo funciona
 
-Machine documentation is created during design and updated during installation and commissioning.
+La documentación de máquina se crea durante el diseño y se actualiza durante la instalación y la puesta en marcha.
 
-It typically includes:
+Típicamente incluye:
 
-- System descriptions and operating principles  
-- Electrical and control drawings  
-- Component lists and specifications  
-- Labeling and identification references  
-- Operating procedures  
-- Maintenance instructions  
+- Descripciones del sistema y principios de operación  
+- Planos eléctricos y de control  
+- Listas de componentes y especificaciones  
+- Referencias de etiquetado e identificación  
+- Procedimientos de operación  
+- Instrucciones de mantenimiento  
 
-All documentation must reflect the actual installed system. Any changes made in the field must be updated to maintain accuracy.
+Toda la documentación debe reflejar el sistema instalado real. Cualquier cambio realizado en campo debe actualizarse para mantener la precisión.
 
-## Applications
+## Aplicaciones
 
-Machine documentation is used in:
+La documentación de máquina se utiliza en:
 
-- Daily operation by operators  
-- Troubleshooting by technicians and engineers  
-- Preventive and corrective maintenance  
-- System upgrades and modifications  
-- Training of new personnel  
+- Operación diaria por operadores  
+- Diagnóstico por técnicos e ingenieros  
+- Mantenimiento preventivo y correctivo  
+- Actualizaciones y modificaciones del sistema  
+- Capacitación de nuevo personal  
 
-It is essential throughout the entire lifecycle of the machine.
+Es esencial a lo largo de todo el ciclo de vida de la máquina.
 
-## Key Considerations
+## Consideraciones clave
 
-- Documentation must match the real installation exactly  
-- Information must be clear and easy to interpret  
-- Version control is necessary to avoid outdated information  
-- Documentation should be accessible when needed  
-- Level of detail must match system complexity  
+- La documentación debe coincidir exactamente con la instalación real  
+- La información debe ser clara y fácil de interpretar  
+- El control de versiones es necesario para evitar información desactualizada  
+- La documentación debe ser accesible cuando se necesite  
+- El nivel de detalle debe corresponder a la complejidad del sistema  
 
-## Practical Notes
+## Notas prácticas
 
-- Outdated documentation is a common source of errors  
-- Missing information increases troubleshooting time  
-- Clear structure improves usability under time pressure  
-- Standardized formats help different teams work efficiently  
-- Always update documentation after any modification  
+- La documentación desactualizada es una fuente común de errores  
+- La información faltante aumenta el tiempo de diagnóstico  
+- Una estructura clara mejora la usabilidad bajo presión de tiempo  
+- Los formatos estandarizados ayudan a diferentes equipos a trabajar eficientemente  
+- Siempre actualice la documentación después de cualquier modificación

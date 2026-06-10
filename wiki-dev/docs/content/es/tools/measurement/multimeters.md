@@ -1,72 +1,72 @@
-# Multimeters
+# Multímetros
 
-## Overview
+## Descripción general
 
-A multimeter is a measurement instrument used to measure electrical variables such as voltage, current, and resistance.
+Un multímetro es un instrumento de medición utilizado para medir variables eléctricas como voltaje, corriente y resistencia.
 
-It is one of the most common tools in industrial environments for troubleshooting, verification, and maintenance of electrical systems.
+Es una de las herramientas más comunes en entornos industriales para la resolución de problemas, la verificación y el mantenimiento de sistemas eléctricos.
 
-## Purpose
+## Propósito
 
-The purpose of a multimeter is to:
+El propósito de un multímetro es:
 
-- Measure electrical parameters in circuits  
-- Verify presence or absence of voltage  
-- Diagnose faults in electrical systems  
-- Check continuity of wiring and components  
-- Support commissioning and maintenance tasks  
+- Medir parámetros eléctricos en circuitos  
+- Verificar la presencia o ausencia de voltaje  
+- Diagnosticar fallas en sistemas eléctricos  
+- Comprobar la continuidad del cableado y los componentes  
+- Respaldar las tareas de puesta en marcha y mantenimiento  
 
-It provides a quick and versatile way to evaluate electrical conditions.
+Proporciona una forma rápida y versátil de evaluar las condiciones eléctricas.
 
-## How It Works
+## Cómo funciona
 
-A multimeter connects to a circuit and measures electrical values based on the selected function.
+Un multímetro se conecta a un circuito y mide valores eléctricos según la función seleccionada.
 
-Typical measurements include:
+Las mediciones típicas incluyen:
 
-- **Voltage** measured in parallel with the circuit  
-- **Current** measured in series with the circuit  
-- **Resistance** measured across a component with the circuit de-energized  
+- **Voltaje** medido en paralelo con el circuito  
+- **Corriente** medida en serie con el circuito  
+- **Resistencia** medida a través de un componente con el circuito desenergizado  
 
-The instrument converts electrical signals into readable values displayed on a screen.
+El instrumento convierte las señales eléctricas en valores legibles mostrados en una pantalla.
 
-Modern digital multimeters may include additional functions such as:
+Los multímetros digitales modernos pueden incluir funciones adicionales como:
 
-- Continuity testing with audible indication  
-- Diode testing  
-- Frequency measurement  
-- Capacitance measurement  
+- Prueba de continuidad con indicación audible  
+- Prueba de diodos  
+- Medición de frecuencia  
+- Medición de capacitancia  
 
-Measurement accuracy depends on proper range selection and correct connection.
+La precisión de la medición depende de la selección adecuada del rango y de la conexión correcta.
 
-## Applications
+## Aplicaciones
 
-Multimeters are used in:
+Los multímetros se utilizan en:
 
-- Electrical panel troubleshooting  
-- Verification of power supply and control circuits  
-- Testing wiring and connections  
-- Maintenance of motors and drives  
-- General electrical diagnostics  
+- Resolución de problemas en tableros de control eléctricos  
+- Verificación de circuitos de alimentación y control  
+- Prueba de cableado y conexiones  
+- Mantenimiento de motores y variadores  
+- Diagnóstico eléctrico general  
 
-They are essential tools for electricians, technicians, and engineers.
+Son herramientas esenciales para electricistas, técnicos e ingenieros.
 
-## Key Considerations
+## Consideraciones clave
 
-- Always select the correct measurement function before connecting  
-- Ensure the measurement range is appropriate  
-- Incorrect connection can damage the instrument or create hazards  
-- Measurement category rating must match the application  
-- Input protection is critical in industrial environments  
+- Seleccionar siempre la función de medición correcta antes de conectar  
+- Asegurar que el rango de medición sea el adecuado  
+- Una conexión incorrecta puede dañar el instrumento o crear riesgos  
+- La categoría de medición debe coincidir con la aplicación  
+- La protección de entrada es crítica en entornos industriales  
 
-Improper use can lead to incorrect readings or safety risks.
+El uso inadecuado puede conducir a lecturas incorrectas o riesgos de seguridad.
 
-## Practical Notes
+## Notas prácticas
 
-- Verify voltage before performing resistance or continuity tests  
-- Use proper test leads rated for the application  
-- Avoid measuring current unless necessary and properly configured  
-- Start with higher measurement ranges and adjust as needed  
-- Inspect the instrument regularly for damage or wear  
+- Verificar el voltaje antes de realizar pruebas de resistencia o continuidad  
+- Utilizar puntas de prueba adecuadas clasificadas para la aplicación  
+- Evitar medir corriente a menos que sea necesario y esté correctamente configurado  
+- Comenzar con rangos de medición más altos y ajustar según sea necesario  
+- Inspeccionar el instrumento regularmente en busca de daños o desgaste  
 
-A multimeter is a basic but critical tool for safe and effective electrical work.
+Un multímetro es una herramienta básica pero crítica para un trabajo eléctrico seguro y eficaz.

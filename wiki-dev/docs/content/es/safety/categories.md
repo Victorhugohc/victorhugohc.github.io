@@ -1,108 +1,108 @@
-# Safety Categories
+# Categorías de Seguridad
 
-## Overview
+## Descripción general
 
-Safety categories define the structure and reliability of safety related control systems.
+Las categorías de seguridad definen la estructura y la confiabilidad de los sistemas de control relacionados con la seguridad.
 
-They describe how a system is designed to respond to faults and how likely it is to maintain its safety function.
+Describen cómo un sistema está diseñado para responder ante fallas y qué tan probable es que mantenga su función de seguridad.
 
-Categories are used to classify safety performance based on design principles and fault tolerance.
+Las categorías se utilizan para clasificar el desempeño de seguridad según principios de diseño y tolerancia a fallas.
 
-## Purpose
+## Propósito
 
-The purpose of safety categories is to ensure that safety systems provide the required level of protection.
+El propósito de las categorías de seguridad es asegurar que los sistemas de seguridad proporcionen el nivel de protección requerido.
 
-They are used to:
+Se utilizan para:
 
-- Define the reliability of safety functions  
-- Guide system design  
-- Support risk reduction measures  
-- Ensure compliance with safety standards  
+- Definir la confiabilidad de las funciones de seguridad  
+- Guiar el diseño del sistema  
+- Apoyar las medidas de reducción de riesgos  
+- Asegurar el cumplimiento de las normas de seguridad  
 
-They help match system design to the level of risk.
+Ayudan a alinear el diseño del sistema con el nivel de riesgo.
 
-## How It Works
+## Cómo funciona
 
-Safety categories are defined by how the system handles faults and maintains safety functions.
+Las categorías de seguridad se definen por cómo el sistema maneja las fallas y mantiene las funciones de seguridad.
 
-### Category B
+### Categoría B
 
-Basic safety principles are applied.
+Se aplican principios básicos de seguridad.
 
-- No specific fault tolerance  
-- Failure may lead to loss of safety function  
+- Sin tolerancia específica a fallas  
+- Una falla puede provocar la pérdida de la función de seguridad  
 
-Used for low risk applications.
+Se utiliza en aplicaciones de bajo riesgo.
 
-### Category 1
+### Categoría 1
 
-Uses well proven components and principles.
+Utiliza componentes y principios bien probados.
 
-- Improved reliability compared to basic design  
-- Still no fault detection  
+- Mayor confiabilidad que el diseño básico  
+- Aún sin detección de fallas  
 
-Suitable for low to moderate risk.
+Adecuada para riesgo bajo a moderado.
 
-### Category 2
+### Categoría 2
 
-Includes periodic testing of safety functions.
+Incluye pruebas periódicas de las funciones de seguridad.
 
-- Faults may be detected during testing  
-- Safety function may be lost between tests  
+- Las fallas pueden detectarse durante las pruebas  
+- La función de seguridad puede perderse entre pruebas  
 
-Provides higher reliability than Category 1.
+Proporciona mayor confiabilidad que la Categoría 1.
 
-### Category 3
+### Categoría 3
 
-Designed with redundancy.
+Diseñada con redundancia.
 
-- Single fault does not lead to loss of safety function  
-- Some faults may not be detected  
+- Una falla simple no provoca la pérdida de la función de seguridad  
+- Algunas fallas pueden no detectarse  
 
-Provides high reliability.
+Proporciona alta confiabilidad.
 
-### Category 4
+### Categoría 4
 
-Highest level of reliability.
+Nivel más alto de confiabilidad.
 
-- Faults are detected continuously  
-- Safety function is maintained even with faults  
+- Las fallas se detectan continuamente  
+- La función de seguridad se mantiene incluso con fallas  
 
-Used in high risk applications.
+Se utiliza en aplicaciones de alto riesgo.
 
-## Applications
+## Aplicaciones
 
-Safety categories are used in systems where safety functions are required.
+Las categorías de seguridad se utilizan en sistemas donde se requieren funciones de seguridad.
 
-Typical applications include:
+Las aplicaciones típicas incluyen:
 
-- Emergency stop systems  
-- Safety interlocks  
-- Machine guarding systems  
-- Process safety systems  
+- Sistemas de paro de emergencia  
+- Enclavamientos de seguridad  
+- Sistemas de protección de maquinaria  
+- Sistemas de seguridad de proceso  
 
-They are critical in systems with potential hazards.
+Son críticas en sistemas con peligros potenciales.
 
-## Key Considerations
+## Consideraciones clave
 
-Category selection depends on risk assessment.
+La selección de categoría depende de la evaluación de riesgos.
 
-Higher categories increase complexity and cost.
+Las categorías más altas aumentan la complejidad y el costo.
 
-Fault detection and redundancy improve safety performance.
+La detección de fallas y la redundancia mejoran el desempeño de seguridad.
 
-System design must follow defined principles for each category.
+El diseño del sistema debe seguir los principios definidos para cada categoría.
 
-Compliance with standards is required.
+El cumplimiento de normas es obligatorio.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is selecting a category without proper risk assessment.
+Un error común es seleccionar una categoría sin una evaluación de riesgos adecuada.
 
-Do not assume higher category is always better. Match it to the application.
+No asumir que una categoría más alta siempre es mejor. Debe coincidir con la aplicación.
 
-Ensure all components meet the required category.
+Asegurar que todos los componentes cumplan la categoría requerida.
 
-Verify system performance through testing.
+Verificar el desempeño del sistema mediante pruebas.
 
-Document safety design clearly for validation and maintenance.
+Documentar claramente el diseño de seguridad para validación y mantenimiento.

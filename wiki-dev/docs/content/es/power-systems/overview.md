@@ -1,73 +1,73 @@
-# Power Systems Overview
+# Descripción general de sistemas de potencia
 
-## Overview
+## Descripción general
 
-Power systems in industrial environments are responsible for delivering electrical energy from the source to the loads in a safe, reliable, and controlled manner.
+Los sistemas de potencia en entornos industriales son responsables de entregar energía eléctrica desde la fuente hasta las cargas de manera segura, confiable y controlada.
 
-They include all elements involved in power distribution, transformation, protection, and utilization within a facility.
+Incluyen todos los elementos involucrados en la distribución, transformación, protección y utilización de energía dentro de una instalación.
 
-A well designed power system ensures that equipment operates correctly, downtime is minimized, and risks are controlled.
+Un sistema de potencia bien diseñado asegura que el equipo opere correctamente, se minimice el tiempo de inactividad y se controlen los riesgos.
 
-## Purpose
+## Propósito
 
-The purpose of an industrial power system is to:
+El propósito de un sistema de potencia industrial es:
 
-- Distribute electrical energy efficiently across the facility  
-- Provide appropriate voltage levels for different types of equipment  
-- Protect people, equipment, and infrastructure from electrical faults  
-- Maintain continuity of operation under normal and abnormal conditions  
+- Distribuir energía eléctrica de manera eficiente en toda la instalación  
+- Proporcionar niveles de voltaje apropiados para diferentes tipos de equipo  
+- Proteger a las personas, el equipo y la infraestructura de fallas eléctricas  
+- Mantener la continuidad de operación bajo condiciones normales y anormales  
 
-Without a proper power system, even well designed automation or mechanical systems cannot operate reliably.
+Sin un sistema de potencia adecuado, incluso los sistemas de automatización o mecánicos bien diseñados no pueden operar de manera confiable.
 
-## How It Works
+## Cómo funciona
 
-Electrical energy typically enters an industrial facility from a utility connection at medium or high voltage.
+La energía eléctrica típicamente ingresa a una instalación industrial desde una conexión de servicio público a media o alta tensión.
 
-From there, the system performs several key functions:
+A partir de ahí, el sistema realiza varias funciones clave:
 
-- Voltage transformation to usable levels  
-- Distribution through feeders and bus systems  
-- Protection using devices that detect and isolate faults  
-- Control and switching of power to different loads  
+- Transformación de voltaje a niveles utilizables  
+- Distribución a través de alimentadores y sistemas de barras  
+- Protección mediante dispositivos que detectan y aíslan fallas  
+- Control y conmutación de energía hacia diferentes cargas  
 
-Energy flows through a structured path from the source to final loads such as motors, drives, heaters, and control systems.
+La energía fluye a través de una ruta estructurada desde la fuente hasta las cargas finales, como motores, variadores, calentadores y sistemas de control.
 
-Each stage is designed to manage specific requirements such as capacity, safety, and reliability.
+Cada etapa está diseñada para gestionar requisitos específicos como capacidad, seguridad y confiabilidad.
 
-## Applications
+## Aplicaciones
 
-Industrial power systems are used in:
+Los sistemas de potencia industriales se utilizan en:
 
-- Manufacturing plants  
-- Process industries such as oil and gas, mining, and chemical plants  
-- Commercial and large infrastructure facilities  
-- Data centers and critical power installations  
+- Plantas de manufactura  
+- Industrias de proceso como petróleo y gas, minería y plantas químicas  
+- Instalaciones comerciales y de gran infraestructura  
+- Centros de datos e instalaciones de energía crítica  
 
-The complexity of the system depends on factors such as load size, continuity requirements, and safety constraints.
+La complejidad del sistema depende de factores como el tamaño de la carga, los requisitos de continuidad y las restricciones de seguridad.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Voltage levels**  
-  Selection of medium and low voltage levels affects equipment design and losses  
+- **Niveles de voltaje**  
+  La selección de niveles de media y baja tensión afecta el diseño del equipo y las pérdidas  
 
-- **Load characteristics**  
-  Motor loads, nonlinear loads, and sensitive equipment require different approaches  
+- **Características de la carga**  
+  Cargas de motores, cargas no lineales y equipo sensible requieren enfoques diferentes  
 
-- **System reliability**  
-  Redundancy, backup sources, and fault isolation strategies impact uptime  
+- **Confiabilidad del sistema**  
+  La redundancia, las fuentes de respaldo y las estrategias de aislamiento de fallas impactan el tiempo de actividad  
 
-- **Protection strategy**  
-  Proper coordination of protective devices is critical to limit damage and outages  
+- **Estrategia de protección**  
+  La coordinación adecuada de los dispositivos de protección es crítica para limitar daños e interrupciones  
 
-- **Short circuit levels**  
-  Equipment must be rated to withstand available fault currents  
+- **Niveles de cortocircuito**  
+  El equipo debe estar dimensionado para soportar las corrientes de falla disponibles  
 
-- **Scalability**  
-  Systems should allow future expansion without major redesign  
+- **Escalabilidad**  
+  Los sistemas deben permitir expansión futura sin un rediseño mayor  
 
-## Practical Notes
+## Notas prácticas
 
-- Oversizing equipment increases cost and may reduce efficiency  
-- Undersizing creates overheating, voltage drops, and premature failures  
-- Poor grounding and protection design are common causes of equipment damage  
-- Early system planning simplifies integration of new loads and technologies  
+- Sobredimensionar el equipo aumenta el costo y puede reducir la eficiencia  
+- Subdimensionar provoca sobrecalentamiento, caídas de voltaje y fallas prematuras  
+- El diseño deficiente de puesta a tierra y protección son causas comunes de daño al equipo  
+- La planificación temprana del sistema simplifica la integración de nuevas cargas y tecnologías  

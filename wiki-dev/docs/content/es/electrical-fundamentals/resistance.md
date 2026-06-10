@@ -1,6 +1,6 @@
 # Resistencia
 
-## Resistencia
+## Descripción general
 
 La resistencia es la oposición al flujo de corriente eléctrica en un conductor o componente. Determina qué tan fácilmente puede pasar la corriente a través de un material.
 

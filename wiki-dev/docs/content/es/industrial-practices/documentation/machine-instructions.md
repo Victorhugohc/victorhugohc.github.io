@@ -1,60 +1,60 @@
-# Machine Instructions
+# Instrucciones de Máquina
 
-## Overview
+## Descripción general
 
-Machine instructions are the set of guidelines that explain how to safely operate, monitor, and interact with a machine.
+Las instrucciones de máquina son el conjunto de directrices que explican cómo operar, monitorear e interactuar con una máquina de forma segura.
 
-They provide clear information for operators and technicians to understand what actions are required during normal operation and under abnormal conditions.
+Proporcionan información clara para que operadores y técnicos comprendan qué acciones se requieren durante la operación normal y bajo condiciones anormales.
 
-## Purpose
+## Propósito
 
-The purpose of machine instructions is to ensure that the machine is used correctly and safely.
+El propósito de las instrucciones de máquina es asegurar que la máquina se utilice de manera correcta y segura.
 
-This helps to:
+Esto ayuda a:
 
-- Prevent incorrect operation and damage  
-- Reduce safety risks  
-- Standardize how the machine is used  
-- Support consistent performance  
+- Prevenir operación incorrecta y daños  
+- Reducir riesgos de seguridad  
+- Estandarizar cómo se utiliza la máquina  
+- Apoyar un rendimiento consistente  
 
-## How It Works
+## Cómo funciona
 
-Machine instructions define step by step actions and expected behaviors.
+Las instrucciones de máquina definen acciones paso a paso y comportamientos esperados.
 
-They typically include:
+Típicamente incluyen:
 
-- Startup and shutdown procedures  
-- Normal operating conditions and limits  
-- Description of controls and indicators  
-- Alarm and fault responses  
-- Basic troubleshooting guidance  
+- Procedimientos de arranque y parada  
+- Condiciones y límites de operación normal  
+- Descripción de controles e indicadores  
+- Respuestas a alarmas y fallas  
+- Orientación básica para diagnóstico  
 
-Instructions must be written in a clear and structured way so they can be followed without ambiguity.
+Las instrucciones deben redactarse de forma clara y estructurada para que puedan seguirse sin ambigüedad.
 
-## Applications
+## Aplicaciones
 
-Machine instructions are used in:
+Las instrucciones de máquina se utilizan en:
 
-- Daily operation by machine operators  
-- Training of new personnel  
-- Maintenance activities  
-- Troubleshooting during faults  
-- System handover and commissioning  
+- Operación diaria por operadores de máquina  
+- Capacitación de nuevo personal  
+- Actividades de mantenimiento  
+- Diagnóstico durante fallas  
+- Entrega del sistema y puesta en marcha  
 
-They are essential for both simple and complex systems.
+Son esenciales tanto para sistemas simples como complejos.
 
-## Key Considerations
+## Consideraciones clave
 
-- Instructions must be clear, concise, and easy to follow  
-- Safety related actions must be clearly highlighted  
-- Information must match the actual machine behavior  
-- Language and terminology must be consistent  
-- Instructions must be accessible at the point of use  
+- Las instrucciones deben ser claras, concisas y fáciles de seguir  
+- Las acciones relacionadas con la seguridad deben estar claramente destacadas  
+- La información debe coincidir con el comportamiento real de la máquina  
+- El lenguaje y la terminología deben ser consistentes  
+- Las instrucciones deben ser accesibles en el punto de uso  
 
-## Practical Notes
+## Notas prácticas
 
-- Overly complex instructions are often ignored  
-- Missing steps can lead to unsafe conditions  
-- Clear sequencing reduces operator errors  
-- Visual aids can improve understanding when available  
-- Instructions should be reviewed after system changes  
+- Las instrucciones excesivamente complejas a menudo se ignoran  
+- Los pasos faltantes pueden conducir a condiciones inseguras  
+- Una secuencia clara reduce errores del operador  
+- Los recursos visuales pueden mejorar la comprensión cuando están disponibles  
+- Las instrucciones deben revisarse después de cambios en el sistema

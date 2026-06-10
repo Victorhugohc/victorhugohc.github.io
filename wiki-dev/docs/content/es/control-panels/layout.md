@@ -1,112 +1,112 @@
-# Control Panel Layout
+# Distribución de Tablero de Control
 
-## Overview
+## Descripción general
 
-Control panel layout defines how components are physically arranged inside an enclosure.
+La distribución del tablero de control define cómo se organizan físicamente los componentes dentro de un gabinete.
 
-It determines accessibility, wiring efficiency, heat distribution, and overall system reliability.
+Determina la accesibilidad, la eficiencia del cableado, la distribución del calor y la confiabilidad general del sistema.
 
-A well planned layout improves installation, operation, and maintenance.
+Un diseño bien planificado mejora la instalación, la operación y el mantenimiento.
 
-## Purpose
+## Propósito
 
-The purpose of panel layout is to organize components in a way that is safe, functional, and easy to maintain.
+El propósito de la distribución del tablero es organizar los componentes de manera segura, funcional y fácil de mantener.
 
-It helps to:
+Ayuda a:
 
-- Optimize space usage  
-- Simplify wiring  
-- Improve cooling and heat dissipation  
-- Enhance accessibility for maintenance  
+- Optimizar el uso del espacio  
+- Simplificar el cableado  
+- Mejorar la disipación de calor  
+- Facilitar el acceso para mantenimiento  
 
-Good layout reduces errors and improves system performance.
+Un buen diseño reduce errores y mejora el desempeño del sistema.
 
-## How It Works
+## Cómo funciona
 
-Panel layout is based on grouping components and organizing them according to function.
+La distribución del tablero se basa en agrupar componentes y organizarlos según su función.
 
-### Functional Grouping
+### Agrupación funcional
 
-Components are arranged by purpose.
+Los componentes se organizan según su propósito.
 
-- Power components such as breakers and contactors  
-- Control components such as PLCs and relays  
-- Communication devices and interfaces  
+- Componentes de potencia como interruptores automáticos y contactores  
+- Componentes de control como PLCs y relevadores  
+- Dispositivos de comunicación e interfaces  
 
-Grouping improves clarity and reduces wiring complexity.
+La agrupación mejora la claridad y reduce la complejidad del cableado.
 
-### Separation of Power and Control
+### Separación de potencia y control
 
-Power and control circuits should be physically separated.
+Los circuitos de potencia y control deben separarse físicamente.
 
-- Reduces electrical noise  
-- Improves safety  
-- Simplifies troubleshooting  
+- Reduce el ruido eléctrico  
+- Mejora la seguridad  
+- Facilita el diagnóstico de fallas  
 
-This is a key design practice.
+Es una práctica clave de diseño.
 
-### Vertical Arrangement
+### Disposición vertical
 
-Components are often arranged vertically.
+Los componentes suelen organizarse verticalmente.
 
-- Power distribution at the top or bottom depending on design  
-- Control devices in accessible areas  
-- Terminal blocks positioned for easy wiring  
+- Distribución de potencia en la parte superior o inferior según el diseño  
+- Dispositivos de control en zonas accesibles  
+- Borneras ubicadas para facilitar el cableado  
 
-This supports logical flow and accessibility.
+Esto favorece un flujo lógico y accesibilidad.
 
-### Wiring Space
+### Espacio para cableado
 
-Adequate space must be left for wiring.
+Debe dejarse suficiente espacio para el cableado.
 
-- Routing paths for cables  
-- Space between components  
-- Access for installation and maintenance  
+- Rutas de paso para cables  
+- Espacio entre componentes  
+- Acceso para instalación y mantenimiento  
 
-Crowded layouts lead to errors and overheating.
+Diseños saturados generan errores y sobrecalentamiento.
 
-### Heat Management
+### Gestión térmica
 
-Heat generating components must be placed carefully.
+Los componentes que generan calor deben ubicarse cuidadosamente.
 
-- Allow airflow around devices  
-- Separate high heat components from sensitive electronics  
+- Permitir flujo de aire alrededor de los dispositivos  
+- Separar componentes de alta temperatura de electrónica sensible  
 
-Proper layout supports cooling.
+Una buena distribución favorece la disipación de calor.
 
-## Applications
+## Aplicaciones
 
-Panel layout is critical in all control panels.
+La distribución del tablero es crítica en todos los tableros de control.
 
-Typical applications include:
+Aplicaciones típicas incluyen:
 
-- Machine control panels  
-- Motor control centers  
-- Process control systems  
-- Distribution panels  
+- Tableros de control de maquinaria  
+- Centros de control de motores  
+- Sistemas de control de procesos  
+- Tableros de distribución  
 
-It affects both small and large systems.
+Impacta tanto en sistemas pequeños como grandes.
 
-## Key Considerations
+## Consideraciones clave
 
-Accessibility is important for maintenance and troubleshooting.
+La accesibilidad es fundamental para mantenimiento y diagnóstico.
 
-Spacing must allow for wiring and airflow.
+El espaciamiento debe permitir cableado y ventilación adecuados.
 
-Component size and mounting requirements must be considered.
+Se deben considerar el tamaño y montaje de los componentes.
 
-Future expansion should be planned.
+Debe contemplarse la expansión futura.
 
-Standards and best practices should guide layout decisions.
+Las normas y buenas prácticas deben guiar el diseño.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is placing components too close together. Always allow sufficient spacing.
+Un error común es colocar componentes demasiado juntos. Siempre deja espacio suficiente.
 
-Keep frequently accessed components at reachable positions.
+Mantén los componentes de acceso frecuente en posiciones alcanzables.
 
-Align components neatly to improve readability and wiring.
+Alinea los componentes de forma ordenada para mejorar la lectura y el cableado.
 
-Use consistent layout practices across panels.
+Utiliza criterios de diseño consistentes entre tableros.
 
-Review layout before assembly to avoid modifications later.
+Revisa la distribución antes del ensamblaje para evitar retrabajos.

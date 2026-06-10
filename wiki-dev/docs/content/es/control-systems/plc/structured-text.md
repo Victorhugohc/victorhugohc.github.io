@@ -1,99 +1,99 @@
-# Structured Text
+# Texto Estructurado
 
-## Overview
+## Descripción general
 
-Structured Text is a high level programming language used in PLCs. It is text based and similar to traditional programming languages such as Pascal or C.
+El Texto Estructurado es un lenguaje de programación de alto nivel utilizado en PLCs. Es basado en texto y similar a lenguajes tradicionales como Pascal o C.
 
-It is designed for implementing complex logic, calculations, and data handling in control systems.
+Está diseñado para implementar lógica compleja, cálculos y manejo de datos en sistemas de control.
 
-## Purpose
+## Propósito
 
-The purpose of Structured Text is to provide a flexible and powerful way to write control logic that is difficult to implement in graphical languages.
+El propósito del Texto Estructurado es proporcionar una forma flexible y potente de escribir lógica de control que es difícil de implementar con lenguajes gráficos.
 
-It is used to:
+Se utiliza para:
 
-- Handle complex algorithms  
-- Perform mathematical operations  
-- Process large amounts of data  
-- Implement structured and reusable code  
+- Manejar algoritmos complejos  
+- Realizar operaciones matemáticas  
+- Procesar grandes cantidades de datos  
+- Implementar código estructurado y reutilizable  
 
-It complements other PLC programming languages.
+Complementa otros lenguajes de programación de PLC.
 
-## How It Works
+## Cómo funciona
 
-Structured Text uses statements, variables, and control structures to define logic.
+El Texto Estructurado utiliza instrucciones, variables y estructuras de control para definir la lógica.
 
-### Basic Structure
+### Estructura básica
 
-Programs are written as a sequence of instructions.
+Los programas se escriben como una secuencia de instrucciones.
 
-- Variables store data  
-- Expressions perform calculations  
-- Statements define actions  
+- Las variables almacenan datos  
+- Las expresiones realizan cálculos  
+- Las instrucciones definen acciones  
 
-Example concepts include assignments, conditions, and loops.
+Incluye conceptos como asignaciones, condiciones y ciclos.
 
-### Control Structures
+### Estructuras de control
 
-Structured Text supports common programming constructs.
+El Texto Estructurado soporta construcciones comunes de programación.
 
-- IF statements for conditional logic  
-- CASE statements for multiple conditions  
-- FOR and WHILE loops for repetition  
+- Sentencias IF para lógica condicional  
+- Sentencias CASE para múltiples condiciones  
+- Bucles FOR y WHILE para repetición  
 
-These allow precise control over program flow.
+Estas permiten un control preciso del flujo del programa.
 
-### Functions and Blocks
+### Funciones y bloques
 
-Structured Text can call:
+El Texto Estructurado puede llamar:
 
-- Functions that return values  
-- Function blocks with internal states  
+- Funciones que retornan valores  
+- Bloques de función con estados internos  
 
-This supports modular and reusable programming.
+Esto permite programación modular y reutilizable.
 
-### Data Handling
+### Manejo de datos
 
-Structured Text is well suited for:
+El Texto Estructurado es adecuado para:
 
-- Arrays and structured data  
-- String handling  
-- Complex calculations  
+- Arreglos y datos estructurados  
+- Manejo de cadenas de texto  
+- Cálculos complejos  
 
-It allows more advanced data manipulation compared to graphical languages.
+Permite manipulación de datos más avanzada que los lenguajes gráficos.
 
-## Applications
+## Aplicaciones
 
-Structured Text is commonly used in:
+El Texto Estructurado se utiliza comúnmente en:
 
-- Advanced machine control  
-- Data processing and calculations  
-- Motion control systems  
-- Complex decision logic  
-- Communication and data handling tasks  
+- Control avanzado de maquinaria  
+- Procesamiento de datos y cálculos  
+- Sistemas de control de movimiento  
+- Lógica de decisión compleja  
+- Tareas de comunicación y manejo de datos  
 
-It is often used alongside other languages within the same PLC.
+Frecuentemente se usa junto con otros lenguajes en el mismo PLC.
 
-## Key Considerations
+## Consideraciones clave
 
-Code readability depends on structure and naming. Poorly written code can be difficult to maintain.
+La legibilidad del código depende de su estructura y nomenclatura. Código mal organizado es difícil de mantener.
 
-Execution time must be considered, especially with loops and large data operations.
+El tiempo de ejecución debe considerarse, especialmente con bucles y grandes volúmenes de datos.
 
-Debugging requires familiarity with text based programming.
+El diagnóstico requiere familiaridad con programación basada en texto.
 
-Consistency in coding style improves maintainability.
+La consistencia en el estilo de codificación mejora la mantenibilidad.
 
-Not all technicians are comfortable with text based logic compared to graphical methods.
+No todos los técnicos están familiarizados con lógica basada en texto en comparación con métodos gráficos.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is using Structured Text for simple logic that could be implemented more clearly in ladder logic.
+Un error común es usar Texto Estructurado para lógica simple que sería más clara en lógica ladder.
 
-Avoid overly complex code. Keep functions small and focused.
+Evita código excesivamente complejo. Mantén las funciones pequeñas y enfocadas.
 
-Use comments and clear variable names to improve understanding.
+Utiliza comentarios y nombres de variables claros para mejorar la comprensión.
 
-Test logic carefully, especially when using loops or complex conditions.
+Prueba la lógica cuidadosamente, especialmente al usar bucles o condiciones complejas.
 
-Structured Text is powerful but should be used where it provides clear advantages.
+El Texto Estructurado es muy potente, pero debe usarse donde realmente aporte ventajas.

@@ -1,76 +1,76 @@
-# Torque Control
+# Control de torque
 
-## Overview
+## Descripción general
 
-Torque control refers to the ability to regulate the force produced by a motor rather than its speed.
+El control de torque se refiere a la capacidad de regular la fuerza producida por un motor en lugar de su velocidad.
 
-It is used in applications where controlling force or tension is more important than maintaining a specific speed.
+Se utiliza en aplicaciones donde controlar la fuerza o la tensión es más importante que mantener una velocidad específica.
 
-Torque control is essential in processes that involve material handling, tension control, or load regulation.
+El control de torque es esencial en procesos que involucran manejo de materiales, control de tensión o regulación de carga.
 
-## Purpose
+## Propósito
 
-The purpose of torque control is to:
+El propósito del control de torque es:
 
-- Maintain consistent force on a load  
-- Prevent mechanical damage from excessive stress  
-- Control tension in materials such as webs or cables  
-- Improve process quality and stability  
+- Mantener fuerza consistente sobre una carga  
+- Prevenir daño mecánico por estrés excesivo  
+- Controlar la tensión en materiales como telas o cables  
+- Mejorar la calidad y estabilidad del proceso  
 
-It allows systems to operate safely under varying load conditions.
+Permite que los sistemas operen de forma segura bajo condiciones de carga variables.
 
-## How It Works
+## Cómo funciona
 
-Motor torque is directly related to the current supplied to the motor.
+El torque del motor está directamente relacionado con la corriente suministrada al motor.
 
-In controlled systems:
+En sistemas controlados:
 
-- The drive regulates motor current to achieve the desired torque  
-- Feedback may be used to measure actual torque or related variables  
+- El variador regula la corriente del motor para lograr el torque deseado  
+- La retroalimentación puede utilizarse para medir el torque real o variables relacionadas  
 
-Torque control can be implemented as:
+El control de torque puede implementarse como:
 
-- Open loop, where torque is estimated from current  
-- Closed loop, where feedback ensures accurate torque regulation  
+- Lazo abierto, donde el torque se estima a partir de la corriente  
+- Lazo cerrado, donde la retroalimentación asegura regulación precisa de torque  
 
-Advanced drives use control algorithms to maintain torque independently of speed.
+Los variadores avanzados utilizan algoritmos de control para mantener el torque independientemente de la velocidad.
 
-## Applications
+## Aplicaciones
 
-Torque control is used in:
+El control de torque se utiliza en:
 
-- Conveyor systems handling variable loads  
-- Winding and unwinding processes  
-- Extruders and mixers  
-- Hoists, cranes, and lifting systems  
-- Tension control in manufacturing processes  
+- Sistemas de transportadores que manejan cargas variables  
+- Procesos de bobinado y desbobinado  
+- Extrusoras y mezcladoras  
+- Polipastos, grúas y sistemas de elevación  
+- Control de tensión en procesos de manufactura  
 
-It is critical where force control directly affects performance.
+Es crítico donde el control de fuerza afecta directamente el desempeño.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Control accuracy**  
-  Depends on feedback and drive capability  
+- **Precisión de control**  
+  Depende de la retroalimentación y la capacidad del variador  
 
-- **Load behavior**  
-  Variable loads require responsive control  
+- **Comportamiento de la carga**  
+  Las cargas variables requieren control responsivo  
 
-- **Motor and drive compatibility**  
-  System must support torque control operation  
+- **Compatibilidad motor y variador**  
+  El sistema debe soportar operación de control de torque  
 
-- **Response time**  
-  Fast adjustment may be required in dynamic systems  
+- **Tiempo de respuesta**  
+  El ajuste rápido puede ser requerido en sistemas dinámicos  
 
-- **Safety requirements**  
-  Excessive torque can damage equipment or materials  
+- **Requerimientos de seguridad**  
+  El torque excesivo puede dañar equipos o materiales  
 
-- **Integration with other controls**  
-  Often combined with speed or position control  
+- **Integración con otros controles**  
+  A menudo se combina con control de velocidad o posición  
 
-## Practical Notes
+## Notas prácticas
 
-- Torque control is often used together with speed limits for safe operation  
-- Current measurement is commonly used as an indirect torque reference  
-- Poor tuning can cause instability or oscillation  
-- Accurate control improves product quality in tension based processes  
-- Drives with advanced control modes provide better torque performance  
+- El control de torque a menudo se utiliza junto con límites de velocidad para operación segura  
+- La medición de corriente se utiliza comúnmente como referencia indirecta de torque  
+- Una sintonización deficiente puede causar inestabilidad u oscilación  
+- El control preciso mejora la calidad del producto en procesos basados en tensión  
+- Los variadores con modos de control avanzados proporcionan mejor desempeño de torque  

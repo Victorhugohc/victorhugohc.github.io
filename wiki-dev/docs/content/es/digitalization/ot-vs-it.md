@@ -1,89 +1,89 @@
 # OT vs IT
 
-## Overview
+## Descripción general
 
-OT and IT represent two different domains within industrial environments.
+OT e IT representan dos dominios diferentes dentro de los entornos industriales.
 
-- **Operational Technology (OT)** refers to systems that monitor and control physical processes  
-- **Information Technology (IT)** refers to systems that manage data, computing, and business operations  
+- **Operational Technology (OT)** se refiere a sistemas que monitorean y controlan procesos físicos  
+- **Information Technology (IT)** se refiere a sistemas que gestionan datos, cómputo y operaciones de negocio  
 
-Both domains are increasingly connected, but they have different priorities, architectures, and constraints.
+Ambos dominios están cada vez más conectados, pero tienen diferentes prioridades, arquitecturas y restricciones.
 
-## Purpose
+## Propósito
 
-Understanding the difference between OT and IT helps to:
+Comprender la diferencia entre OT e IT ayuda a:
 
-- Design systems that operate reliably and securely  
-- Integrate industrial processes with business systems  
-- Apply appropriate technologies and practices to each domain  
-- Reduce risks when connecting control systems to external networks  
+- Diseñar sistemas que operen de forma confiable y segura  
+- Integrar procesos industriales con sistemas de negocio  
+- Aplicar tecnologías y prácticas adecuadas a cada dominio  
+- Reducir riesgos al conectar sistemas de control a redes externas  
 
-Clear separation of roles is essential for effective system design.
+Una separación clara de roles es esencial para un diseño efectivo.
 
-## How It Works
+## Cómo funciona
 
-OT and IT systems operate with different objectives and requirements.
+Los sistemas OT e IT operan con diferentes objetivos y requisitos.
 
-### Operational Technology (OT)
+### Tecnología Operacional (OT)
 
-OT systems interact directly with physical equipment and processes.
+Los sistemas OT interactúan directamente con equipos y procesos físicos.
 
-Characteristics include:
+Características:
 
-- Real time or near real time operation  
-- High priority on availability and reliability  
-- Direct control of machines, sensors, and actuators  
-- Use of industrial protocols and specialized hardware  
+- Operación en tiempo real o casi en tiempo real  
+- Alta prioridad en disponibilidad y confiabilidad  
+- Control directo de máquinas, sensores y actuadores  
+- Uso de protocolos industriales y hardware especializado  
 
-Examples include PLCs, SCADA systems, and industrial networks.
+Ejemplos incluyen PLC, sistemas SCADA y redes industriales.
 
-### Information Technology (IT)
+### Tecnología de la Información (IT)
 
-IT systems focus on data processing, storage, and communication.
+Los sistemas IT se enfocan en el procesamiento, almacenamiento y comunicación de datos.
 
-Characteristics include:
+Características:
 
-- Priority on data integrity and confidentiality  
-- Use of standard computing platforms and networks  
-- Frequent updates and changes  
-- Integration with business systems and services  
+- Prioridad en integridad y confidencialidad de la información  
+- Uso de plataformas de cómputo y redes estándar  
+- Actualizaciones y cambios frecuentes  
+- Integración con sistemas y servicios empresariales  
 
-Examples include servers, databases, enterprise systems, and cloud platforms.
+Ejemplos incluyen servidores, bases de datos, sistemas empresariales y plataformas cloud.
 
-### Convergence
+### Convergencia
 
-Modern industrial systems increasingly connect OT and IT.
+Los sistemas industriales modernos conectan cada vez más OT e IT.
 
-Data from OT systems is shared with IT systems for analysis, reporting, and optimization. This integration enables digitalization but also introduces new challenges.
+Los datos de sistemas OT se comparten con sistemas IT para análisis, reportes y optimización. Esta integración permite la digitalización, pero también introduce nuevos retos.
 
-## Applications
+## Aplicaciones
 
-The interaction between OT and IT is used in:
+La interacción entre OT e IT se utiliza en:
 
-- Production monitoring and reporting  
-- Integration with enterprise resource planning systems  
-- Predictive maintenance and analytics  
-- Remote access and centralized supervision  
-- Industrial data platforms and cloud services  
+- Monitoreo y reporte de producción  
+- Integración con sistemas ERP  
+- Mantenimiento predictivo y analítica  
+- Acceso remoto y supervisión centralizada  
+- Plataformas de datos industriales y servicios cloud  
 
-It is a key element in modern industrial architectures.
+Es un elemento clave en arquitecturas industriales modernas.
 
-## Key Considerations
+## Consideraciones clave
 
-- OT systems cannot tolerate frequent downtime  
-- IT practices may not be directly applicable to OT environments  
-- Security requirements differ between OT and IT  
-- Communication between domains must be controlled  
-- Integration increases system complexity and risk  
+- Los sistemas OT no toleran paros frecuentes  
+- Las prácticas de IT no siempre aplican directamente en OT  
+- Los requisitos de seguridad difieren entre OT e IT  
+- La comunicación entre dominios debe ser controlada  
+- La integración incrementa la complejidad y el riesgo  
 
-Balancing the needs of both domains is critical for successful implementation.
+Equilibrar las necesidades de ambos dominios es crítico para una implementación exitosa.
 
-## Practical Notes
+## Notas prácticas
 
-- Keep OT systems isolated from IT when possible  
-- Control and monitor data exchange between domains  
-- Avoid applying IT updates directly to OT without validation  
-- Use dedicated architectures for integration  
-- Ensure collaboration between engineering and IT teams  
+- Mantener sistemas OT aislados de IT cuando sea posible  
+- Controlar y monitorear el intercambio de datos entre dominios  
+- Evitar aplicar actualizaciones de IT directamente en OT sin validación  
+- Utilizar arquitecturas dedicadas para la integración  
+- Asegurar colaboración entre equipos de ingeniería y IT  
 
-OT and IT serve different purposes, but their coordination is essential in modern industrial systems.
+OT e IT tienen propósitos distintos, pero su coordinación es esencial en sistemas industriales modernos.

@@ -1,85 +1,85 @@
-# Arc Flash Basics
+# Fundamentos de arco eléctrico
 
-## Overview
+## Descripción general
 
-Arc flash is a dangerous electrical event where an unintended arc releases a large amount of energy in a very short time.
+El arco eléctrico es un evento eléctrico peligroso en el que un arco no intencional libera una gran cantidad de energía en un tiempo muy corto.
 
-It produces extreme heat, intense light, pressure waves, and molten metal, creating serious risks for personnel and equipment.
+Produce calor extremo, luz intensa, ondas de presión y metal fundido, creando riesgos serios para el personal y el equipo.
 
-Arc flash can occur in both low voltage and medium voltage systems, especially during faults or improper operation.
+El arco eléctrico puede ocurrir tanto en sistemas de baja como de media tensión, especialmente durante fallas u operación inadecuada.
 
-## Purpose
+## Propósito
 
-Understanding arc flash is essential to:
+Comprender el arco eléctrico es esencial para:
 
-- Protect personnel working on or near energized equipment  
-- Reduce the risk of severe injuries and fatalities  
-- Limit damage to electrical equipment  
-- Define safe working practices and protection measures  
+- Proteger al personal que trabaja en o cerca de equipo energizado  
+- Reducir el riesgo de lesiones graves y fatalidades  
+- Limitar el daño al equipo eléctrico  
+- Definir prácticas de trabajo seguras y medidas de protección  
 
-Proper design and procedures help reduce both the likelihood and impact of arc flash events.
+El diseño y los procedimientos adecuados ayudan a reducir tanto la probabilidad como el impacto de los eventos de arco eléctrico.
 
-## How It Works
+## Cómo funciona
 
-An arc flash occurs when electrical current flows through air between conductors or between a conductor and ground.
+Un arco eléctrico ocurre cuando la corriente eléctrica fluye a través del aire entre conductores o entre un conductor y tierra.
 
-This can be caused by:
+Esto puede ser causado por:
 
-- Insulation failure  
-- Loose connections  
-- Dust, moisture, or contamination  
-- Accidental contact with tools or conductive objects  
+- Falla de aislamiento  
+- Conexiones flojas  
+- Polvo, humedad o contaminación  
+- Contacto accidental con herramientas u objetos conductores  
 
-Once initiated, the arc creates a plasma that allows very high current to flow.
+Una vez iniciado, el arco crea un plasma que permite que fluya corriente muy alta.
 
-This results in:
+Esto resulta en:
 
-- Rapid temperature rise, often exceeding several thousand degrees  
-- Expansion of air, creating a pressure wave  
-- Emission of intense light and sound  
+- Elevación rápida de temperatura, a menudo superior a varios miles de grados  
+- Expansión del aire, creando una onda de presión  
+- Emisión de luz y sonido intensos  
 
-The severity of an arc flash depends on:
+La severidad de un arco eléctrico depende de:
 
-- Available fault current  
-- Duration of the arc  
-- Distance from the source  
+- La corriente de falla disponible  
+- La duración del arco  
+- La distancia desde la fuente  
 
-## Applications
+## Aplicaciones
 
-Arc flash considerations apply to:
+Las consideraciones de arco eléctrico aplican a:
 
-- Switchgear and medium voltage equipment  
-- Switchboards and distribution panels  
-- Motor control centers  
-- Electrical rooms and substations  
-- Any location where energized equipment may be accessed  
+- Switchgear (celdas de media tensión) y equipo de media tensión  
+- Tableros de distribución y paneles de distribución  
+- Centros de control de motores  
+- Cuartos eléctricos y subestaciones  
+- Cualquier ubicación donde se pueda acceder a equipo energizado  
 
-It is relevant wherever maintenance, operation, or troubleshooting is performed.
+Es relevante donde se realiza mantenimiento, operación o diagnóstico.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Incident energy**  
-  Determines the severity of the arc and required protection measures  
+- **Energía incidente**  
+  Determina la severidad del arco y las medidas de protección requeridas  
 
-- **Clearing time**  
-  Faster protection reduces arc energy significantly  
+- **Tiempo de despeje**  
+  Una protección más rápida reduce significativamente la energía del arco  
 
-- **Working distance**  
-  Distance from the arc source affects exposure level  
+- **Distancia de trabajo**  
+  La distancia desde la fuente del arco afecta el nivel de exposición  
 
-- **Equipment design**  
-  Arc resistant equipment can help contain energy  
+- **Diseño del equipo**  
+  El equipo resistente al arco puede ayudar a contener la energía  
 
-- **Protection coordination**  
-  Proper settings can reduce fault duration and arc severity  
+- **Coordinación de protección**  
+  Las configuraciones adecuadas pueden reducir la duración de la falla y la severidad del arco  
 
-- **Maintenance condition**  
-  Poor maintenance increases the likelihood of arc faults  
+- **Condición de mantenimiento**  
+  Un mantenimiento deficiente aumenta la probabilidad de fallas por arco  
 
-## Practical Notes
+## Notas prácticas
 
-- De energizing equipment is the most effective way to eliminate arc flash risk  
-- Personal protective equipment must match calculated incident energy levels  
-- Loose connections and contamination are common triggers of arc flash  
-- Faster protection devices can significantly reduce damage and injury risk  
-- Clear labeling and hazard analysis improve safety during operation  
+- Desenergizar el equipo es la forma más efectiva de eliminar el riesgo de arco eléctrico  
+- El equipo de protección personal debe coincidir con los niveles de energía incidente calculados  
+- Las conexiones flojas y la contaminación son desencadenantes comunes del arco eléctrico  
+- Los dispositivos de protección más rápidos pueden reducir significativamente el riesgo de daño y lesiones  
+- El etiquetado claro y el análisis de riesgos mejoran la seguridad durante la operación  

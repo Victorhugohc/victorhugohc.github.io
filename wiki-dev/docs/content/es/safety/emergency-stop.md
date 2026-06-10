@@ -1,100 +1,100 @@
-# Emergency Stop
+# Paro de Emergencia
 
-## Overview
+## Descripción general
 
-An emergency stop is a safety function designed to immediately stop a machine or process in a hazardous situation.
+Un paro de emergencia es una función de seguridad diseñada para detener inmediatamente una máquina o proceso en una situación peligrosa.
 
-It is typically implemented using a dedicated device that, when activated, removes energy or brings the system to a safe state as quickly as possible.
+Típicamente se implementa mediante un dispositivo dedicado que, al activarse, elimina la energía o lleva el sistema a un estado seguro lo más rápido posible.
 
-Emergency stops are a critical part of industrial safety systems.
+Los paros de emergencia son una parte crítica de los sistemas de seguridad industrial.
 
-## Purpose
+## Propósito
 
-The purpose of an emergency stop is to reduce risk during abnormal or dangerous conditions.
+El propósito de un paro de emergencia es reducir el riesgo durante condiciones anormales o peligrosas.
 
-It is used to:
+Se utiliza para:
 
-- Stop hazardous motion or processes  
-- Protect personnel from injury  
-- Prevent equipment damage  
-- Provide a quick and accessible safety action  
+- Detener movimientos o procesos peligrosos  
+- Proteger al personal de lesiones  
+- Prevenir daños al equipo  
+- Proporcionar una acción de seguridad rápida y accesible  
 
-It is intended for emergency situations, not for normal operation.
+Está destinado a situaciones de emergencia, no a la operación normal.
 
-## How It Works
+## Cómo funciona
 
-An emergency stop system interrupts control or power circuits to stop the system safely.
+Un sistema de paro de emergencia interrumpe los circuitos de control o de potencia para detener el sistema de forma segura.
 
-### Activation Device
+### Dispositivo de activación
 
-The emergency stop is usually a push button.
+El paro de emergencia suele ser un botón pulsador.
 
-- Red button with a yellow background  
-- Latching mechanism that stays engaged when pressed  
+- Botón rojo con fondo amarillo  
+- Mecanismo de enclavamiento que permanece activado al presionarse  
 
-It must be easily accessible to operators.
+Debe ser fácilmente accesible para los operadores.
 
-### Safety Circuit
+### Circuito de seguridad
 
-The emergency stop is connected to a safety circuit.
+El paro de emergencia se conecta a un circuito de seguridad.
 
-- Typically uses normally closed contacts  
-- Opening the circuit triggers the stop  
+- Típicamente utiliza contactos normalmente cerrados  
+- La apertura del circuito activa el paro  
 
-This ensures fail safe behavior.
+Esto asegura un comportamiento a prueba de fallos.
 
-### Stop Action
+### Acción de paro
 
-When activated:
+Al activarse:
 
-- Power to actuators is removed or controlled safely  
-- Motion is stopped as quickly as possible  
-- System enters a safe state  
+- Se elimina o controla de forma segura la potencia a los actuadores  
+- El movimiento se detiene lo más rápido posible  
+- El sistema entra en un estado seguro  
 
-The exact stop method depends on the system design.
+El método exacto de paro depende del diseño del sistema.
 
-### Reset Function
+### Función de reinicio
 
-After activation:
+Después de la activación:
 
-- The device must be manually reset  
-- Restart requires a separate deliberate action  
+- El dispositivo debe reiniciarse manualmente  
+- El arranque requiere una acción deliberada separada  
 
-This prevents automatic restart after a fault.
+Esto previene el reinicio automático después de una falla.
 
-## Applications
+## Aplicaciones
 
-Emergency stops are used in all industrial systems.
+Los paros de emergencia se utilizan en todos los sistemas industriales.
 
-Typical applications include:
+Las aplicaciones típicas incluyen:
 
-- Machinery and production lines  
-- Motor driven equipment  
-- Automated systems  
-- Process plants  
+- Maquinaria y líneas de producción  
+- Equipos accionados por motores  
+- Sistemas automatizados  
+- Plantas de proceso  
 
-They are required wherever hazards are present.
+Son obligatorios donde existen peligros.
 
-## Key Considerations
+## Consideraciones clave
 
-Emergency stops must be easily accessible and clearly visible.
+Los paros de emergencia deben ser fácilmente accesibles y claramente visibles.
 
-The stop function must be reliable and fail safe.
+La función de paro debe ser confiable y a prueba de fallos.
 
-The stopping method must match the type of hazard.
+El método de paro debe coincidir con el tipo de peligro.
 
-Integration with safety systems must be properly designed.
+La integración con los sistemas de seguridad debe diseñarse correctamente.
 
-Standards and regulations must be followed.
+Deben seguirse las normas y regulaciones.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is using emergency stop for normal stopping. It should only be used in emergencies.
+Un error común es usar el paro de emergencia para paradas normales. Solo debe usarse en emergencias.
 
-Do not bypass or disable emergency stop circuits.
+No omitir ni deshabilitar los circuitos de paro de emergencia.
 
-Ensure proper placement so operators can reach it quickly.
+Asegurar una ubicación adecuada para que los operadores puedan alcanzarlo rápidamente.
 
-Test emergency stop functionality regularly.
+Probar la funcionalidad del paro de emergencia regularmente.
 
-Verify that the system remains in a safe state after activation.
+Verificar que el sistema permanezca en un estado seguro después de la activación.

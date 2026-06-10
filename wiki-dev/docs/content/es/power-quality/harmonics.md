@@ -1,79 +1,79 @@
-# Harmonics
+# Armónicos
 
-## Overview
+## Descripción general
 
-Harmonics are voltage or current components that occur at multiples of the fundamental frequency of the power system.
+Los armónicos son componentes de voltaje o corriente que ocurren en múltiplos de la frecuencia fundamental del sistema de potencia.
 
-They distort the ideal sinusoidal waveform and are mainly caused by nonlinear loads.
+Distorsionan la forma de onda sinusoidal ideal y son causados principalmente por cargas no lineales.
 
-Harmonics are a common power quality issue in modern industrial systems with widespread use of power electronics.
+Los armónicos son un problema común de calidad de energía en sistemas industriales modernos con uso extendido de electrónica de potencia.
 
-## Purpose
+## Propósito
 
-Understanding harmonics is important to:
+Comprender los armónicos es importante para:
 
-- Maintain efficient and stable operation of electrical systems  
-- Prevent overheating of equipment and conductors  
-- Avoid malfunction of sensitive devices  
-- Reduce losses and improve power quality  
+- Mantener una operación eficiente y estable de los sistemas eléctricos  
+- Prevenir sobrecalentamiento de equipos y conductores  
+- Evitar el mal funcionamiento de dispositivos sensibles  
+- Reducir pérdidas y mejorar la calidad de energía  
 
-Managing harmonics helps protect both equipment and system performance.
+La gestión de armónicos ayuda a proteger tanto el equipo como el desempeño del sistema.
 
-## How It Works
+## Cómo funciona
 
-In an ideal system, current and voltage follow a pure sinusoidal waveform at the fundamental frequency.
+En un sistema ideal, la corriente y el voltaje siguen una forma de onda sinusoidal pura a la frecuencia fundamental.
 
-Nonlinear loads draw current in a non sinusoidal manner, creating additional frequency components.
+Las cargas no lineales consumen corriente de manera no sinusoidal, creando componentes de frecuencia adicionales.
 
-These components are called harmonics and occur at integer multiples of the base frequency:
+Estos componentes se denominan armónicos y ocurren en múltiplos enteros de la frecuencia base:
 
-- 2nd harmonic, 3rd harmonic, 5th harmonic, and so on  
+- 2.º armónico, 3.º armónico, 5.º armónico, y así sucesivamente  
 
-Common sources of harmonics include:
+Las fuentes comunes de armónicos incluyen:
 
-- Variable frequency drives  
-- Power supplies and rectifiers  
-- UPS systems  
-- LED lighting and electronic equipment  
+- Variadores de frecuencia  
+- Fuentes de alimentación y rectificadores  
+- Sistemas UPS  
+- Iluminación LED y equipos electrónicos  
 
-These harmonic currents flow through the system and interact with impedance, causing voltage distortion.
+Estas corrientes armónicas circulan por el sistema e interactúan con la impedancia, causando distorsión de voltaje.
 
-## Applications
+## Aplicaciones
 
-Harmonics are relevant in:
+Los armónicos son relevantes en:
 
-- Industrial facilities with large numbers of drives and converters  
-- Data centers and electronic intensive environments  
-- Automation systems with sensitive control equipment  
-- Facilities with significant nonlinear loads  
-- Power systems requiring high power quality  
+- Instalaciones industriales con gran cantidad de variadores y convertidores  
+- Centros de datos y entornos con alta densidad de equipos electrónicos  
+- Sistemas de automatización con equipos de control sensibles  
+- Instalaciones con cargas no lineales significativas  
+- Sistemas de potencia que requieren alta calidad de energía  
 
-They are present in most modern electrical installations.
+Están presentes en la mayoría de las instalaciones eléctricas modernas.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Harmonic order**  
-  Lower order harmonics tend to have greater impact on the system  
+- **Orden armónico**  
+  Los armónicos de orden bajo tienden a tener mayor impacto en el sistema  
 
-- **Total distortion level**  
-  Combined effect of all harmonics determines overall impact  
+- **Nivel de distorsión total**  
+  El efecto combinado de todos los armónicos determina el impacto general  
 
-- **System impedance**  
-  Influences how harmonics affect voltage distortion  
+- **Impedancia del sistema**  
+  Influye en cómo los armónicos afectan la distorsión de voltaje  
 
-- **Resonance conditions**  
-  Can amplify harmonic levels and create severe issues  
+- **Condiciones de resonancia**  
+  Pueden amplificar los niveles armónicos y crear problemas severos  
 
-- **Equipment sensitivity**  
-  Some devices are more affected by waveform distortion  
+- **Sensibilidad del equipo**  
+  Algunos dispositivos se ven más afectados por la distorsión de la forma de onda  
 
-- **Mitigation methods**  
-  Filters, reactors, and proper system design reduce harmonics  
+- **Métodos de mitigación**  
+  Filtros, reactores y un diseño adecuado del sistema reducen los armónicos  
 
-## Practical Notes
+## Notas prácticas
 
-- Drives are one of the main sources of harmonics in industrial systems  
-- Harmonics can cause overheating in transformers and neutral conductors  
-- Capacitor banks can interact with harmonics and create resonance  
-- Proper system design reduces harmonic propagation  
-- Measurement is essential to identify harmonic problems and their sources  
+- Los variadores son una de las principales fuentes de armónicos en sistemas industriales  
+- Los armónicos pueden causar sobrecalentamiento en transformadores y conductores de neutro  
+- Los bancos de capacitores pueden interactuar con armónicos y crear resonancia  
+- Un diseño adecuado del sistema reduce la propagación de armónicos  
+- La medición es esencial para identificar problemas armónicos y sus fuentes  

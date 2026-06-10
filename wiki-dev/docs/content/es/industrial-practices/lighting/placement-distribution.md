@@ -1,63 +1,63 @@
-# Placement and Distribution
+# Colocación y Distribución
 
-## Overview
+## Descripción general
 
-Placement and distribution refer to how lighting fixtures are positioned and how light is spread across an industrial space.
+La colocación y distribución se refieren a cómo se posicionan las luminarias y cómo se distribuye la luz en un espacio industrial.
 
-Proper placement ensures that illumination is delivered where it is needed, while distribution determines how evenly light is applied across the area.
+La colocación adecuada asegura que la iluminación se entregue donde se necesita, mientras que la distribución determina qué tan uniformemente se aplica la luz en el área.
 
-Both factors are critical to achieving effective and usable lighting.
+Ambos factores son críticos para lograr una iluminación efectiva y utilizable.
 
-## Purpose
+## Propósito
 
-The purpose of proper placement and distribution is to provide uniform visibility across the workspace.
+El propósito de una colocación y distribución adecuadas es proporcionar visibilidad uniforme en todo el espacio de trabajo.
 
-This helps to:
+Esto ayuda a:
 
-- Eliminate dark areas and excessive shadows  
-- Improve task visibility and accuracy  
-- Reduce glare and visual discomfort  
-- Ensure consistent lighting conditions  
+- Eliminar áreas oscuras y sombras excesivas  
+- Mejorar la visibilidad y precisión de las tareas  
+- Reducir el deslumbramiento y la molestia visual  
+- Asegurar condiciones de iluminación consistentes  
 
-## How It Works
+## Cómo funciona
 
-Lighting placement is defined by the location and spacing of fixtures.
+La colocación de iluminación se define por la ubicación y el espaciado de las luminarias.
 
-Distribution depends on the fixture design and how light is emitted.
+La distribución depende del diseño de la luminaria y de cómo se emite la luz.
 
-Key aspects include:
+Los aspectos clave incluyen:
 
-- Mounting height, which affects coverage area and intensity  
-- Spacing between fixtures to ensure uniform illumination  
-- Beam angle and light pattern of the fixture  
-- Orientation to avoid direct glare and shadows  
+- Altura de montaje, que afecta el área de cobertura y la intensidad  
+- Espaciado entre luminarias para asegurar iluminación uniforme  
+- Ángulo de haz y patrón de luz de la luminaria  
+- Orientación para evitar deslumbramiento directo y sombras  
 
-A well designed layout balances coverage and intensity to avoid over lighting or under lighting specific areas.
+Un diseño bien planificado equilibra la cobertura y la intensidad para evitar sobre-iluminar o sub-iluminar áreas específicas.
 
-## Applications
+## Aplicaciones
 
-Placement and distribution are important in:
+La colocación y distribución son importantes en:
 
-- Production areas with continuous operations  
-- Warehouses with shelving and aisles  
-- Control panels and workstations  
-- Maintenance areas requiring detailed work  
-- Outdoor spaces with wide coverage requirements  
+- Áreas de producción con operaciones continuas  
+- Almacenes con estanterías y pasillos  
+- Tableros de control y estaciones de trabajo  
+- Áreas de mantenimiento que requieren trabajo detallado  
+- Espacios exteriores con requisitos de cobertura amplia  
 
-Each application requires a different approach based on layout and task requirements.
+Cada aplicación requiere un enfoque diferente según la disposición y los requisitos de la tarea.
 
-## Key Considerations
+## Consideraciones clave
 
-- Uniformity is more important than localized high intensity  
-- Shadows must be minimized in work areas  
-- Glare must be controlled to protect visibility  
-- Fixture placement must consider obstacles such as equipment or structures  
-- Mounting height must match the type of fixture and space  
+- La uniformidad es más importante que la alta intensidad localizada  
+- Las sombras deben minimizarse en las áreas de trabajo  
+- El deslumbramiento debe controlarse para proteger la visibilidad  
+- La colocación de luminarias debe considerar obstáculos como equipo o estructuras  
+- La altura de montaje debe coincidir con el tipo de luminaria y el espacio  
 
-## Practical Notes
+## Notas prácticas
 
-- Uneven lighting creates fatigue and reduces efficiency  
-- Fixtures placed too far apart create dark zones  
-- Poor placement can hide important details or hazards  
-- Task lighting should complement general lighting, not replace it  
-- Always evaluate lighting from the operator point of view  
+- La iluminación desigual crea fatiga y reduce la eficiencia  
+- Las luminarias colocadas muy separadas crean zonas oscuras  
+- Una colocación deficiente puede ocultar detalles o peligros importantes  
+- La iluminación de tarea debe complementar la iluminación general, no reemplazarla  
+- Siempre evalúe la iluminación desde el punto de vista del operador

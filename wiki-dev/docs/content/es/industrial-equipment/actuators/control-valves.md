@@ -1,80 +1,80 @@
-# Control Valves
+# Válvulas de control
 
-## Overview
+## Descripción general
 
-Control valves are actuators used to regulate the flow of fluids such as liquids, gases, or steam within a system.
+Las válvulas de control son actuadores utilizados para regular el flujo de fluidos como líquidos, gases o vapor dentro de un sistema.
 
-They adjust the flow rate by changing the valve opening in response to control signals.
+Ajustan la tasa de flujo cambiando la apertura de la válvula en respuesta a señales de control.
 
-Control valves are essential in process industries where precise regulation of flow, pressure, or temperature is required.
+Las válvulas de control son esenciales en las industrias de proceso donde se requiere regulación precisa de flujo, presión o temperatura.
 
-## Purpose
+## Propósito
 
-The purpose of control valves is to:
+El propósito de las válvulas de control es:
 
-- Regulate flow rate within a process  
-- Maintain desired process conditions such as pressure or temperature  
-- Enable automatic control of fluid systems  
-- Improve stability and efficiency of operations  
+- Regular la tasa de flujo dentro de un proceso  
+- Mantener las condiciones de proceso deseadas como presión o temperatura  
+- Habilitar el control automático de sistemas de fluidos  
+- Mejorar la estabilidad y eficiencia de las operaciones  
 
-They act as the final control element in many process control loops.
+Actúan como el elemento de control final en muchos lazos de control de proceso.
 
-## How It Works
+## Cómo funciona
 
-Control valves operate by adjusting the position of an internal element that restricts or allows fluid flow.
+Las válvulas de control operan ajustando la posición de un elemento interno que restringe o permite el flujo de fluido.
 
-Key components include:
+Los componentes clave incluyen:
 
-- Valve body that contains the flow path  
-- Internal element such as a plug, ball, or disc  
-- Actuator that moves the internal element  
-- Positioner that ensures accurate valve positioning  
+- Cuerpo de válvula que contiene la trayectoria del flujo  
+- Elemento interno como obturador, esfera o disco  
+- Actuador que mueve el elemento interno  
+- Posicionador que asegura un posicionamiento preciso de la válvula  
 
-The process is:
+El proceso es:
 
-- A control signal is sent from a controller  
-- The actuator moves the valve to a specific position  
-- The valve opening changes, adjusting flow rate  
-- Feedback ensures the valve maintains the desired position  
+- Se envía una señal de control desde un controlador  
+- El actuador mueve la válvula a una posición específica  
+- La apertura de la válvula cambia, ajustando la tasa de flujo  
+- La retroalimentación asegura que la válvula mantenga la posición deseada  
 
-The relationship between valve position and flow depends on valve design and characteristics.
+La relación entre la posición de la válvula y el flujo depende del diseño y las características de la válvula.
 
-## Applications
+## Aplicaciones
 
-Control valves are used in:
+Las válvulas de control se utilizan en:
 
-- Chemical and process industries  
-- Water and wastewater systems  
-- Oil and gas facilities  
-- HVAC and thermal systems  
-- Industrial fluid handling systems  
+- Industrias químicas y de proceso  
+- Sistemas de agua y aguas residuales  
+- Instalaciones de petróleo y gas  
+- Sistemas HVAC y térmicos  
+- Sistemas industriales de manejo de fluidos  
 
-They are critical in systems requiring continuous regulation.
+Son críticas en sistemas que requieren regulación continua.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Flow characteristics**  
-  Linear, equal percentage, or other response types  
+- **Características de flujo**  
+  Lineales, porcentaje igual u otros tipos de respuesta  
 
-- **Actuator type**  
-  Pneumatic, electric, or hydraulic  
+- **Tipo de actuador**  
+  Neumático, eléctrico o hidráulico  
 
-- **Pressure and temperature**  
-  Must match process conditions  
+- **Presión y temperatura**  
+  Deben coincidir con las condiciones del proceso  
 
-- **Sizing**  
-  Proper sizing ensures stable and accurate control  
+- **Dimensionamiento**  
+  Un dimensionamiento adecuado asegura control estable y preciso  
 
-- **Response time**  
-  Important for dynamic processes  
+- **Tiempo de respuesta**  
+  Importante para procesos dinámicos  
 
-- **Material compatibility**  
-  Must withstand the fluid and environment  
+- **Compatibilidad de materiales**  
+  Deben soportar el fluido y el entorno  
 
-## Practical Notes
+## Notas prácticas
 
-- Oversized valves can lead to poor control and instability  
-- Undersized valves restrict flow and limit system performance  
-- Positioners improve accuracy and repeatability  
-- Regular maintenance prevents leakage and sticking  
-- Proper installation orientation affects performance and lifespan  
+- Las válvulas sobredimensionadas pueden provocar mal control e inestabilidad  
+- Las válvulas subdimensionadas restringen el flujo y limitan el desempeño del sistema  
+- Los posicionadores mejoran la precisión y repetibilidad  
+- El mantenimiento regular previene fugas y atascamiento  
+- La orientación correcta de instalación afecta el desempeño y la vida útil  

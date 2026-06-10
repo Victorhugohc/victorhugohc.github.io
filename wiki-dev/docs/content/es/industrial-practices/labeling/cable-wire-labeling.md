@@ -1,71 +1,71 @@
-# Cable and Wire Labeling
+# Etiquetado de Cables y Conductores
 
-## Overview
+## Descripción general
 
-Cable and wire labeling is the process of identifying conductors and connections within an electrical or control system.
+El etiquetado de cables y conductores es el proceso de identificar conductores y conexiones dentro de un sistema eléctrico o de control.
 
-It ensures that each wire or cable can be clearly traced, verified, and matched to its function and corresponding documentation.
+Asegura que cada cable o conductor pueda rastrearse, verificarse y hacerse coincidir claramente con su función y la documentación correspondiente.
 
-Proper labeling is essential for understanding system wiring without relying on assumptions or manual tracing.
+El etiquetado adecuado es esencial para comprender el cableado del sistema sin depender de suposiciones o rastreo manual.
 
-## Purpose
+## Propósito
 
-The purpose of cable and wire labeling is to provide clear identification of electrical connections.
+El propósito del etiquetado de cables y conductores es proporcionar identificación clara de las conexiones eléctricas.
 
-This helps to:
+Esto ayuda a:
 
-- Simplify installation and verification  
-- Reduce wiring errors  
-- Speed up troubleshooting  
-- Support safe maintenance activities  
-- Ensure consistency with electrical drawings  
+- Simplificar la instalación y la verificación  
+- Reducir errores de cableado  
+- Acelerar el diagnóstico  
+- Apoyar actividades de mantenimiento seguras  
+- Asegurar la consistencia con los planos eléctricos  
 
-Without proper labeling, tracing wires becomes time consuming and error prone.
+Sin un etiquetado adecuado, rastrear conductores se vuelve lento y propenso a errores.
 
-## How It Works
+## Cómo funciona
 
-Each wire or cable is assigned an identifier based on a defined naming convention.
+Cada cable o conductor se le asigna un identificador basado en una convención de nomenclatura definida.
 
-This identifier is applied physically using labels such as:
+Este identificador se aplica físicamente mediante etiquetas como:
 
-- Heat shrink sleeves  
-- Wrap around labels  
-- Clip on markers  
+- Manguitos termocontraíbles  
+- Etiquetas envolventes  
+- Marcadores de clip  
 
-Labels are typically placed at both ends of the wire, and in some cases at intermediate points for long runs.
+Las etiquetas típicamente se colocan en ambos extremos del conductor y, en algunos casos, en puntos intermedios para tramos largos.
 
-The identification usually corresponds to:
+La identificación usualmente corresponde a:
 
-- Wire number or tag  
-- Terminal connection points  
-- Signal or function  
+- Número de conductor o etiqueta  
+- Puntos de conexión de terminales  
+- Señal o función  
 
-This allows technicians to quickly match the physical wiring with diagrams.
+Esto permite a los técnicos hacer coincidir rápidamente el cableado físico con los diagramas.
 
-## Applications
+## Aplicaciones
 
-Cable and wire labeling is used in:
+El etiquetado de cables y conductores se utiliza en:
 
-- Control panels and electrical cabinets  
-- Field wiring between equipment  
-- Instrumentation and signal wiring  
-- Power distribution connections  
-- Communication and network cables  
+- Tableros de control y gabinetes eléctricos  
+- Cableado de campo entre equipos  
+- Cableado de instrumentación y señales  
+- Conexiones de distribución de energía  
+- Cables de comunicación y red  
 
-It is critical during installation, commissioning, and maintenance.
+Es crítico durante la instalación, la puesta en marcha y el mantenimiento.
 
-## Key Considerations
+## Consideraciones clave
 
-- Labels must be placed at both ends of each wire  
-- Identification must match drawings exactly  
-- Labels must remain readable after installation  
-- The labeling method must suit the wire size and environment  
-- Routing and bundling should not hide or damage labels  
+- Las etiquetas deben colocarse en ambos extremos de cada conductor  
+- La identificación debe coincidir exactamente con los planos  
+- Las etiquetas deben permanecer legibles después de la instalación  
+- El método de etiquetado debe ser adecuado para el tamaño del conductor y el entorno  
+- El tendido y agrupación no deben ocultar o dañar las etiquetas  
 
-## Practical Notes
+## Notas prácticas
 
-- Missing labels often lead to incorrect connections during maintenance  
-- Overcrowded wiring can make labels difficult to read  
-- Consistent numbering improves troubleshooting speed  
-- Avoid placing labels where they will be cut or removed during termination  
-- Label before final termination to ensure proper placement  
+- Las etiquetas faltantes a menudo conducen a conexiones incorrectas durante el mantenimiento  
+- El cableado sobrecargado puede dificultar la lectura de las etiquetas  
+- La numeración consistente mejora la velocidad de diagnóstico  
+- Evite colocar etiquetas donde serán cortadas o removidas durante la terminación  
+- Etiquete antes de la terminación final para asegurar una colocación adecuada

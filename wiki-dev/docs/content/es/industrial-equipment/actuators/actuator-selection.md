@@ -1,78 +1,78 @@
-# Actuator Selection
+# Selección de actuadores
 
-## Overview
+## Descripción general
 
-Actuator selection is the process of choosing the appropriate device to produce the required motion, force, or control action in a system.
+La selección de actuadores es el proceso de elegir el dispositivo adecuado para generar el movimiento, fuerza o acción de control requerida en un sistema.
 
-It involves matching the actuator type and characteristics with the mechanical load, control requirements, and operating conditions.
+Implica hacer coincidir el tipo de actuador y sus características con la carga mecánica, los requisitos de control y las condiciones de operación.
 
-Proper selection ensures reliable operation, accurate performance, and long service life.
+Una selección adecuada asegura operación confiable, desempeño preciso y larga vida útil.
 
-## Purpose
+## Propósito
 
-The purpose of actuator selection is to:
+El propósito de la selección de actuadores es:
 
-- Ensure the actuator can handle the required force or torque  
-- Achieve the desired motion and control performance  
-- Match the actuator with the available energy source  
-- Avoid failures, inefficiencies, and excessive wear  
+- Asegurar que el actuador pueda manejar la fuerza o torque requerido  
+- Lograr el movimiento y desempeño de control deseado  
+- Compatibilizar el actuador con la fuente de energía disponible  
+- Evitar fallas, ineficiencias y desgaste excesivo  
 
-A well selected actuator improves system effectiveness and reliability.
+Un actuador bien seleccionado mejora la efectividad y confiabilidad del sistema.
 
-## How It Works
+## Cómo funciona
 
-Actuator selection begins by defining the application requirements.
+La selección de actuadores comienza definiendo los requisitos de la aplicación.
 
-Key steps include:
+Los pasos clave incluyen:
 
-- Determining required motion type, linear or rotational  
-- Calculating force or torque needed to move the load  
-- Defining speed and response time requirements  
-- Identifying control method such as on off or precise positioning  
-- Evaluating environmental and installation conditions  
+- Determinar el tipo de movimiento requerido, lineal o rotativo  
+- Calcular la fuerza o torque necesario para mover la carga  
+- Definir velocidad y tiempo de respuesta requeridos  
+- Identificar el método de control, como encendido/apagado (*on/off*) o posicionamiento preciso  
+- Evaluar condiciones ambientales y de instalación  
 
-Based on these factors, the appropriate actuator type is selected and sized.
+Con base en estos factores, se selecciona y dimensiona el tipo de actuador adecuado.
 
-## Applications
+## Aplicaciones
 
-Actuator selection is required in:
+La selección de actuadores es necesaria en:
 
-- Industrial automation systems  
-- Fluid control and valve systems  
-- Material handling and positioning equipment  
-- Robotics and motion control  
-- Safety and shutdown systems  
+- Sistemas de automatización industrial  
+- Sistemas de control de fluidos y válvulas  
+- Equipos de manejo de materiales y posicionamiento  
+- Robótica y control de movimiento  
+- Sistemas de seguridad y paro  
 
-It applies to any system where controlled motion is needed.
+Aplica en cualquier sistema donde se requiera movimiento controlado.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Force or torque requirements**  
-  Must match or exceed load demands  
+- **Requerimientos de fuerza o torque**  
+  Deben igualar o superar la demanda de la carga  
 
-- **Motion type**  
-  Linear or rotational depending on application  
+- **Tipo de movimiento**  
+  Lineal o rotativo según la aplicación  
 
-- **Speed and response**  
-  Required performance for the process  
+- **Velocidad y respuesta**  
+  Desempeño requerido por el proceso  
 
-- **Control precision**  
-  Simple actuation or precise positioning  
+- **Precisión de control**  
+  Actuación simple o posicionamiento preciso  
 
-- **Energy source**  
-  Electrical, pneumatic, or hydraulic  
+- **Fuente de energía**  
+  Eléctrica, neumática o hidráulica  
 
-- **Environmental conditions**  
-  Temperature, contamination, and installation constraints  
+- **Condiciones ambientales**  
+  Temperatura, contaminación y restricciones de instalación  
 
-- **Duty cycle**  
-  Frequency and duration of operation  
+- **Ciclo de trabajo**  
+  Frecuencia y duración de operación  
 
-## Practical Notes
+## Notas prácticas
 
-- Oversizing increases cost and may reduce control performance  
-- Undersizing leads to failure or poor operation  
-- Electric actuators offer precision and easy integration  
-- Pneumatic actuators are simple and fast but less precise  
-- Hydraulic actuators are suitable for high force applications  
-- Always consider real operating conditions, not only nominal values  
+- Sobredimensionar incrementa el costo y puede reducir el desempeño de control  
+- Subdimensionar provoca fallas o mala operación  
+- Los actuadores eléctricos ofrecen alta precisión y fácil integración  
+- Los actuadores neumáticos son simples y rápidos, pero menos precisos  
+- Los actuadores hidráulicos son adecuados para aplicaciones de alta fuerza  
+- Siempre considerar condiciones reales de operación, no solo valores nominales  

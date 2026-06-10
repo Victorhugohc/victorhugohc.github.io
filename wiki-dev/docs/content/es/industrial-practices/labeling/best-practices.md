@@ -1,60 +1,60 @@
-# Labeling Best Practices
+# Mejores Prácticas de Etiquetado
 
-## Overview
+## Descripción general
 
-Labeling best practices define how identification should be applied to ensure clarity, consistency, and long term reliability.
+Las mejores prácticas de etiquetado definen cómo debe aplicarse la identificación para asegurar claridad, consistencia y confiabilidad a largo plazo.
 
-They are based on field experience and aim to reduce errors, improve safety, and simplify maintenance.
+Se basan en experiencia de campo y tienen como objetivo reducir errores, mejorar la seguridad y simplificar el mantenimiento.
 
-## Purpose
+## Propósito
 
-The purpose of following best practices is to ensure that labeling remains effective throughout the system lifecycle.
+El propósito de seguir las mejores prácticas es asegurar que el etiquetado permanezca efectivo a lo largo del ciclo de vida del sistema.
 
-This helps to:
+Esto ayuda a:
 
-- Improve system understanding  
-- Reduce human error  
-- Speed up troubleshooting and maintenance  
-- Maintain alignment with documentation  
+- Mejorar la comprensión del sistema  
+- Reducir el error humano  
+- Acelerar el diagnóstico y el mantenimiento  
+- Mantener la alineación con la documentación  
 
-## How It Works
+## Cómo funciona
 
-Best practices are implemented by applying consistent rules across all labeling activities.
+Las mejores prácticas se implementan aplicando reglas consistentes en todas las actividades de etiquetado.
 
-This includes:
+Esto incluye:
 
-- Using a defined and simple naming convention  
-- Applying labels in consistent locations  
-- Selecting appropriate label types and materials  
-- Ensuring all labels match documentation exactly  
+- Utilizar una convención de nomenclatura definida y simple  
+- Aplicar etiquetas en ubicaciones consistentes  
+- Seleccionar tipos y materiales de etiqueta apropiados  
+- Asegurar que todas las etiquetas coincidan exactamente con la documentación  
 
-These practices must be followed during design, installation, and maintenance.
+Estas prácticas deben seguirse durante el diseño, la instalación y el mantenimiento.
 
-## Applications
+## Aplicaciones
 
-Labeling best practices apply to:
+Las mejores prácticas de etiquetado se aplican a:
 
-- Cables and wires  
-- Control panels and components  
-- Field devices and instrumentation  
-- Power and distribution systems  
-- Machine interfaces and sections  
+- Cables y conductores  
+- Tableros de control y componentes  
+- Dispositivos de campo e instrumentación  
+- Sistemas de energía y distribución  
+- Interfaces y secciones de máquina  
 
-They are relevant in both new installations and system upgrades.
+Son relevantes tanto en instalaciones nuevas como en actualizaciones de sistemas.
 
-## Key Considerations
+## Consideraciones clave
 
-- Consistency across the entire system is essential  
-- Labels must be readable under real operating conditions  
-- Identification must be unique and unambiguous  
-- Placement must allow quick visibility  
-- Materials must match environmental conditions  
+- La consistencia en todo el sistema es esencial  
+- Las etiquetas deben ser legibles bajo condiciones reales de operación  
+- La identificación debe ser única y sin ambigüedad  
+- La colocación debe permitir visibilidad rápida  
+- Los materiales deben corresponder a las condiciones ambientales  
 
-## Practical Notes
+## Notas prácticas
 
-- Label both ends of every wire and cable  
-- Avoid handwritten labels in permanent installations  
-- Do not reuse identifiers for different components  
-- Keep labeling simple and structured  
-- Verify labels during installation and commissioning  
-- Replace damaged or unreadable labels immediately  
+- Etiquete ambos extremos de cada cable y conductor  
+- Evite etiquetas manuscritas en instalaciones permanentes  
+- No reutilice identificadores para diferentes componentes  
+- Mantenga el etiquetado simple y estructurado  
+- Verifique las etiquetas durante la instalación y la puesta en marcha  
+- Reemplace etiquetas dañadas o ilegibles de inmediato

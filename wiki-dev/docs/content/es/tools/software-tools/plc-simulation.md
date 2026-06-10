@@ -1,66 +1,66 @@
-# PLC Simulation
+# Simulación de PLC
 
-## Overview
+## Descripción general
 
-PLC simulation is the use of software tools to replicate the behavior of a programmable logic controller and its associated process.
+La simulación de PLC es el uso de herramientas de software para replicar el comportamiento de un controlador lógico programable y su proceso asociado.
 
-It allows testing of control logic without requiring physical hardware or connection to real equipment.
+Permite probar la lógica de control sin requerir hardware físico ni conexión a equipos reales.
 
-## Purpose
+## Propósito
 
-The purpose of PLC simulation is to:
+El propósito de la simulación de PLC es:
 
-- Validate control logic before deployment  
-- Test sequences and interlocks safely  
-- Reduce commissioning time and errors  
-- Train users on control systems  
-- Troubleshoot logic issues without affecting production  
+- Validar la lógica de control antes de la implementación  
+- Probar secuencias e interbloqueos de forma segura  
+- Reducir el tiempo de puesta en marcha y los errores  
+- Capacitar usuarios en sistemas de control  
+- Resolver problemas de lógica sin afectar la producción  
 
-It provides a safe environment to verify system behavior.
+Proporciona un entorno seguro para verificar el comportamiento del sistema.
 
-## How It Works
+## Cómo funciona
 
-PLC simulation recreates the PLC execution environment and simulates inputs and outputs.
+La simulación de PLC recrea el entorno de ejecución del PLC y simula entradas y salidas.
 
-This typically involves:
+Esto generalmente involucra:
 
-- Running the control program in a virtual PLC environment  
-- Simulating input signals such as sensors or operator commands  
-- Observing output behavior such as actuators or system responses  
-- Monitoring logic execution in real time  
+- Ejecutar el programa de control en un entorno de PLC virtual  
+- Simular señales de entrada como sensores o comandos del operador  
+- Observar el comportamiento de salida como actuadores o respuestas del sistema  
+- Monitorear la ejecución de la lógica en tiempo real  
 
-Some simulations include process models that mimic real system behavior, allowing more realistic testing.
+Algunas simulaciones incluyen modelos de proceso que imitan el comportamiento real del sistema, permitiendo pruebas más realistas.
 
-The simulator executes the same logic structure as a real PLC, enabling validation of sequences, timing, and conditions.
+El simulador ejecuta la misma estructura de lógica que un PLC real, habilitando la validación de secuencias, tiempos y condiciones.
 
-## Applications
+## Aplicaciones
 
-PLC simulation is used in:
+La simulación de PLC se utiliza en:
 
-- Development and testing of control programs  
-- Verification of machine sequences and safety logic  
-- Training of operators and engineers  
-- Troubleshooting logic before applying changes to real systems  
-- Demonstration and validation of control concepts  
+- Desarrollo y prueba de programas de control  
+- Verificación de secuencias de máquinas y lógica de seguridad  
+- Capacitación de operadores e ingenieros  
+- Resolución de problemas de lógica antes de aplicar cambios a sistemas reales  
+- Demostración y validación de conceptos de control  
 
-It is widely used in automation projects before commissioning.
+Se utiliza ampliamente en proyectos de automatización antes de la puesta en marcha.
 
-## Key Considerations
+## Consideraciones clave
 
-- Simulated inputs may not fully represent real world conditions  
-- Timing behavior may differ from actual hardware  
-- Hardware specific features may not be fully supported  
-- Complex processes require accurate modeling for realistic results  
-- Validation on real systems is still necessary  
+- Las entradas simuladas pueden no representar completamente las condiciones del mundo real  
+- El comportamiento temporal puede diferir del hardware real  
+- Las funciones específicas del hardware pueden no estar completamente soportadas  
+- Los procesos complejos requieren modelado preciso para resultados realistas  
+- La validación en sistemas reales sigue siendo necesaria  
 
-Simulation reduces risk but does not replace real testing.
+La simulación reduce el riesgo pero no reemplaza las pruebas reales.
 
-## Practical Notes
+## Notas prácticas
 
-- Test all possible operating conditions, including faults  
-- Validate critical logic sequences carefully  
-- Use simulation to debug before field deployment  
-- Keep simulation models aligned with actual system design  
-- Document test scenarios and results  
+- Probar todas las condiciones operativas posibles, incluyendo fallas  
+- Validar cuidadosamente las secuencias de lógica críticas  
+- Utilizar la simulación para depurar antes de la implementación en campo  
+- Mantener los modelos de simulación alineados con el diseño real del sistema  
+- Documentar escenarios de prueba y resultados  
 
-PLC simulation improves development efficiency and reduces errors during implementation.
+La simulación de PLC mejora la eficiencia del desarrollo y reduce errores durante la implementación.

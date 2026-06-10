@@ -1,83 +1,83 @@
-# Short Circuit Analysis
+# Análisis de cortocircuito
 
-## Overview
+## Descripción general
 
-Short circuit analysis is the study of fault currents in a power system under abnormal conditions.
+El análisis de cortocircuito es el estudio de las corrientes de falla en un sistema de potencia bajo condiciones anormales.
 
-It determines the magnitude of current that can flow during faults and how the system responds.
+Determina la magnitud de la corriente que puede fluir durante fallas y cómo responde el sistema.
 
-This analysis is essential for selecting equipment, defining protection settings, and ensuring safe operation.
+Este análisis es esencial para seleccionar equipo, definir configuraciones de protección y asegurar una operación segura.
 
-## Purpose
+## Propósito
 
-The purpose of short circuit analysis is to:
+El propósito del análisis de cortocircuito es:
 
-- Calculate maximum and minimum fault current levels  
-- Verify that equipment can withstand and interrupt fault currents  
-- Support proper selection of protective devices  
-- Define protection settings and coordination  
-- Reduce risk of equipment damage and safety hazards  
+- Calcular los niveles máximos y mínimos de corriente de falla  
+- Verificar que el equipo pueda soportar e interrumpir corrientes de falla  
+- Apoyar la selección adecuada de dispositivos de protección  
+- Definir configuraciones de protección y coordinación  
+- Reducir el riesgo de daño al equipo y peligros de seguridad  
 
-It provides the foundation for reliable and safe power system design.
+Proporciona la base para un diseño de sistema de potencia confiable y seguro.
 
-## How It Works
+## Cómo funciona
 
-Short circuit analysis evaluates the system by modeling sources and impedances.
+El análisis de cortocircuito evalúa el sistema modelando fuentes e impedancias.
 
-Key elements include:
+Los elementos clave incluyen:
 
-- Power sources such as utility supply and generators  
-- Transformers with defined impedance  
-- Cables and busbars contributing to system impedance  
+- Fuentes de energía como suministro del servicio público y generadores  
+- Transformadores con impedancia definida  
+- Cables y barras colectoras que contribuyen a la impedancia del sistema  
 
-When a fault occurs, the total impedance between the source and the fault determines the fault current.
+Cuando ocurre una falla, la impedancia total entre la fuente y la falla determina la corriente de falla.
 
-Lower impedance results in higher fault current.
+Una impedancia menor resulta en mayor corriente de falla.
 
-Typical fault types analyzed include:
+Los tipos de falla típicamente analizados incluyen:
 
-- Three phase faults  
-- Phase to phase faults  
-- Phase to ground faults  
+- Fallas trifásicas  
+- Fallas fase a fase  
+- Fallas fase a tierra  
 
-The analysis calculates current at different points in the system to identify worst case conditions.
+El análisis calcula la corriente en diferentes puntos del sistema para identificar las condiciones en el peor caso.
 
-## Applications
+## Aplicaciones
 
-Short circuit analysis is used in:
+El análisis de cortocircuito se utiliza en:
 
-- Design of new industrial power systems  
-- Expansion or modification of existing installations  
-- Selection of switchgear, breakers, and protective devices  
-- Verification of equipment ratings  
-- Arc flash studies and safety assessments  
+- Diseño de nuevos sistemas de potencia industriales  
+- Expansión o modificación de instalaciones existentes  
+- Selección de switchgear (celdas de media tensión), interruptores automáticos y dispositivos de protección  
+- Verificación de capacidades del equipo  
+- Estudios de arco eléctrico y evaluaciones de seguridad  
 
-It is a standard requirement in engineering design and system validation.
+Es un requisito estándar en el diseño de ingeniería y la validación del sistema.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Available fault current**  
-  Must be calculated at each point in the system  
+- **Corriente de falla disponible**  
+  Debe calcularse en cada punto del sistema  
 
-- **Equipment ratings**  
-  Must exceed calculated fault levels  
+- **Capacidades del equipo**  
+  Deben exceder los niveles de falla calculados  
 
-- **System impedance**  
-  Transformers and cables significantly influence results  
+- **Impedancia del sistema**  
+  Los transformadores y cables influyen significativamente en los resultados  
 
-- **Multiple sources**  
-  Generators and parallel supplies increase fault levels  
+- **Múltiples fuentes**  
+  Los generadores y suministros en paralelo aumentan los niveles de falla  
 
-- **Minimum fault current**  
-  Important for ensuring protection devices operate correctly  
+- **Corriente mínima de falla**  
+  Importante para asegurar que los dispositivos de protección operen correctamente  
 
-- **Future expansion**  
-  Additional loads or sources can change fault levels  
+- **Expansión futura**  
+  Cargas o fuentes adicionales pueden cambiar los niveles de falla  
 
-## Practical Notes
+## Notas prácticas
 
-- Fault current is highest close to the power source and decreases with distance  
-- Transformer impedance is a key factor in limiting fault current  
-- Ignoring future expansion can lead to underrated equipment  
-- Both maximum and minimum fault scenarios must be considered  
-- Accurate data is critical for reliable results  
+- La corriente de falla es mayor cerca de la fuente de energía y disminuye con la distancia  
+- La impedancia del transformador es un factor clave para limitar la corriente de falla  
+- Ignorar la expansión futura puede provocar equipo subdimensionado  
+- Deben considerarse tanto los escenarios de falla máxima como mínima  
+- Los datos precisos son críticos para resultados confiables  

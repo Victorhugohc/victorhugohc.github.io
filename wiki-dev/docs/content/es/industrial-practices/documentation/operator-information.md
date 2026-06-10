@@ -1,60 +1,60 @@
-# Operator Information
+# Información para el Operador
 
-## Overview
+## Descripción general
 
-Operator information is the set of instructions, references, and visual elements that help operators interact with a machine or system during normal operation.
+La información para el operador es el conjunto de instrucciones, referencias y elementos visuales que ayudan a los operadores a interactuar con una máquina o sistema durante la operación normal.
 
-It provides the necessary knowledge to monitor conditions, respond to changes, and operate equipment safely and efficiently.
+Proporciona el conocimiento necesario para monitorear condiciones, responder a cambios y operar el equipo de forma segura y eficiente.
 
-## Purpose
+## Propósito
 
-The purpose of operator information is to ensure that operators can understand and control the system without confusion.
+El propósito de la información para el operador es asegurar que los operadores puedan comprender y controlar el sistema sin confusión.
 
-This helps to:
+Esto ayuda a:
 
-- Maintain safe operation  
-- Reduce operator errors  
-- Ensure consistent system performance  
-- Enable quick response to alarms and abnormal conditions  
+- Mantener una operación segura  
+- Reducir errores del operador  
+- Asegurar un rendimiento consistente del sistema  
+- Permitir una respuesta rápida a alarmas y condiciones anormales  
 
-## How It Works
+## Cómo funciona
 
-Operator information is presented in a clear and accessible format, typically at or near the point of operation.
+La información para el operador se presenta en un formato claro y accesible, típicamente en o cerca del punto de operación.
 
-It may include:
+Puede incluir:
 
-- Control interface descriptions such as buttons, switches, and displays  
-- Operating limits and normal conditions  
-- Alarm meanings and required actions  
-- Basic system status indicators  
-- Quick reference instructions  
+- Descripciones de la interfaz de control como botones, interruptores y pantallas  
+- Límites de operación y condiciones normales  
+- Significados de alarmas y acciones requeridas  
+- Indicadores básicos de estado del sistema  
+- Instrucciones de referencia rápida  
 
-This information is designed to be easily understood during real time operation.
+Esta información está diseñada para ser fácilmente comprendida durante la operación en tiempo real.
 
-## Applications
+## Aplicaciones
 
-Operator information is used in:
+La información para el operador se utiliza en:
 
-- Control panels and operator stations  
-- Human machine interfaces  
-- Local control boxes and field devices  
-- Process monitoring systems  
-- Any system requiring human interaction  
+- Tableros de control y estaciones de operador  
+- Interfaces hombre-máquina  
+- Cajas de control locales y dispositivos de campo  
+- Sistemas de monitoreo de procesos  
+- Cualquier sistema que requiera interacción humana  
 
-It is essential for both continuous and intermittent operations.
+Es esencial tanto para operaciones continuas como intermitentes.
 
-## Key Considerations
+## Consideraciones clave
 
-- Information must be clear and easy to interpret under real conditions  
-- Critical information must be immediately visible  
-- Terminology must be consistent with system labeling and documentation  
-- Instructions must match actual system behavior  
-- Information must be accessible without interrupting operation  
+- La información debe ser clara y fácil de interpretar bajo condiciones reales  
+- La información crítica debe ser inmediatamente visible  
+- La terminología debe ser consistente con el etiquetado y la documentación del sistema  
+- Las instrucciones deben coincidir con el comportamiento real del sistema  
+- La información debe ser accesible sin interrumpir la operación  
 
-## Practical Notes
+## Notas prácticas
 
-- Overloading operators with information reduces effectiveness  
-- Clear labeling and simple instructions improve response time  
-- Visual consistency across interfaces reduces confusion  
-- Operators should not rely on memory alone  
-- Regular updates are required after system changes  
+- Sobrecargar a los operadores con información reduce la efectividad  
+- El etiquetado claro y las instrucciones simples mejoran el tiempo de respuesta  
+- La consistencia visual entre interfaces reduce la confusión  
+- Los operadores no deben depender únicamente de la memoria  
+- Se requieren actualizaciones regulares después de cambios en el sistema

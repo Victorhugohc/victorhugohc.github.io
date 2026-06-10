@@ -1,100 +1,100 @@
 # EtherNet/IP
 
-## Overview
+## Descripción general
 
-EtherNet/IP is an industrial communication protocol that operates over standard Ethernet.
+EtherNet/IP es un protocolo de comunicación industrial que opera sobre Ethernet estándar.
 
-It is based on the Common Industrial Protocol and is widely used for communication between industrial devices such as PLCs, drives, sensors, and HMIs.
+Se basa en el Common Industrial Protocol y se utiliza ampliamente para la comunicación entre dispositivos industriales como PLCs, variadores, sensores y HMIs.
 
-It enables both real time control and general data exchange within the same network.
+Habilita tanto el control en tiempo real como el intercambio general de datos dentro de la misma red.
 
-## Purpose
+## Propósito
 
-The purpose of EtherNet/IP is to provide a unified communication system for industrial automation.
+El propósito de EtherNet/IP es proporcionar un sistema de comunicación unificado para la automatización industrial.
 
-It is used to:
+Se utiliza para:
 
-- Exchange control data between devices  
-- Integrate different types of equipment  
-- Support real time and non real time communication  
-- Enable scalable and flexible network design  
+- Intercambiar datos de control entre dispositivos  
+- Integrar diferentes tipos de equipos  
+- Admitir comunicación en tiempo real y no en tiempo real  
+- Habilitar un diseño de red escalable y flexible  
 
-It allows multiple devices to communicate using a common standard.
+Permite que múltiples dispositivos se comuniquen utilizando un estándar común.
 
-## How It Works
+## Cómo funciona
 
-EtherNet/IP uses standard Ethernet hardware but defines specific rules for industrial communication.
+EtherNet/IP utiliza hardware Ethernet estándar pero define reglas específicas para la comunicación industrial.
 
-### CIP Protocol
+### Protocolo CIP
 
-The Common Industrial Protocol defines how data is organized and exchanged.
+El Common Industrial Protocol define cómo se organizan e intercambian los datos.
 
-- Standard objects represent device functions  
-- Services define how data is accessed  
-- Devices expose data through structured parameters  
+- Los objetos estándar representan funciones de dispositivos  
+- Los servicios definen cómo se accede a los datos  
+- Los dispositivos exponen datos mediante parámetros estructurados  
 
-This allows consistent communication across different devices.
+Esto permite una comunicación consistente entre diferentes dispositivos.
 
-### Messaging Types
+### Tipos de mensajería
 
-EtherNet/IP supports two main types of communication.
+EtherNet/IP admite dos tipos principales de comunicación.
 
-- Explicit messaging for configuration and non critical data  
-- Implicit messaging for real time control data  
+- Mensajería explícita para configuración y datos no críticos  
+- Mensajería implícita para datos de control en tiempo real  
 
-Implicit messaging is cyclic and used for fast updates.
+La mensajería implícita es cíclica y se utiliza para actualizaciones rápidas.
 
-### Producer Consumer Model
+### Modelo productor-consumidor
 
-Data is shared using a producer consumer approach.
+Los datos se comparten mediante un enfoque productor-consumidor.
 
-- One device produces data  
-- Multiple devices can consume the same data  
+- Un dispositivo produce datos  
+- Múltiples dispositivos pueden consumir los mismos datos  
 
-This reduces network load and improves efficiency.
+Esto reduce la carga de red y mejora la eficiencia.
 
-### Network Structure
+### Estructura de red
 
-Devices are connected through standard Ethernet networks.
+Los dispositivos se conectan a través de redes Ethernet estándar.
 
-- Switch based topology  
-- IP addressing for device identification  
+- Topología basada en switches  
+- Direccionamiento IP para identificación de dispositivos  
 
-Communication occurs over TCP or UDP depending on the message type.
+La comunicación ocurre sobre TCP o UDP según el tipo de mensaje.
 
-## Applications
+## Aplicaciones
 
-EtherNet/IP is widely used in industrial automation.
+EtherNet/IP se utiliza ampliamente en automatización industrial.
 
-Typical applications include:
+Las aplicaciones típicas incluyen:
 
-- PLC to PLC communication  
-- Integration of drives and motor control systems  
-- Remote I O systems  
-- HMI and SCADA connectivity  
+- Comunicación de PLC a PLC  
+- Integración de variadores y sistemas de control de motores  
+- Sistemas de E/S remotas  
+- Conectividad de HMI y SCADA  
 
-It is common in systems requiring high integration and flexibility.
+Es común en sistemas que requieren alta integración y flexibilidad.
 
-## Key Considerations
+## Consideraciones clave
 
-Network performance affects real time communication.
+El rendimiento de la red afecta la comunicación en tiempo real.
 
-Proper configuration of update rates is important for system stability.
+La configuración adecuada de las tasas de actualización es importante para la estabilidad del sistema.
 
-Device compatibility must be verified.
+La compatibilidad de dispositivos debe verificarse.
 
-IP addressing and network management must be planned carefully.
+El direccionamiento IP y la gestión de red deben planificarse cuidadosamente.
 
-Industrial network design practices should be followed.
+Deben seguirse las prácticas de diseño de redes industriales.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is mixing control and non critical traffic without proper network design. This can affect performance.
+Un error común es mezclar tráfico de control y no crítico sin un diseño de red adecuado. Esto puede afectar el rendimiento.
 
-Use managed switches to control traffic and improve reliability.
+Utilice switches gestionados para controlar el tráfico y mejorar la confiabilidad.
 
-Keep real time traffic isolated when possible.
+Mantenga el tráfico en tiempo real aislado cuando sea posible.
 
-Document IP addresses and network structure clearly.
+Documente las direcciones IP y la estructura de red con claridad.
 
-Test communication under load conditions to verify performance.
+Pruebe la comunicación bajo condiciones de carga para verificar el rendimiento.

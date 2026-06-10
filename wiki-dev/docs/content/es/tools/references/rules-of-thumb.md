@@ -1,69 +1,69 @@
-# Rules of Thumb
+# Reglas empíricas
 
-## Overview
+## Descripción general
 
-Rules of thumb are simple guidelines based on practical experience that help make quick engineering decisions.
+Las reglas empíricas son directrices simples basadas en experiencia práctica que ayudan a tomar decisiones de ingeniería rápidas.
 
-They provide approximate solutions without detailed calculations, allowing faster evaluation of systems and conditions.
+Proporcionan soluciones aproximadas sin cálculos detallados, permitiendo una evaluación más rápida de sistemas y condiciones.
 
-## Purpose
+## Propósito
 
-The purpose of rules of thumb is to:
+El propósito de las reglas empíricas es:
 
-- Enable quick estimation and decision making  
-- Simplify complex problems in early stages  
-- Support troubleshooting and field work  
-- Provide practical guidance based on experience  
-- Reduce time spent on preliminary analysis  
+- Habilitar estimación y toma de decisiones rápidas  
+- Simplificar problemas complejos en etapas iniciales  
+- Respaldar la resolución de problemas y el trabajo de campo  
+- Proporcionar orientación práctica basada en experiencia  
+- Reducir el tiempo dedicado al análisis preliminar  
 
-They are useful when speed is more important than precision.
+Son útiles cuando la velocidad es más importante que la precisión.
 
-## How It Works
+## Cómo funciona
 
-Rules of thumb are derived from repeated observations, industry practices, and empirical knowledge.
+Las reglas empíricas se derivan de observaciones repetidas, prácticas de la industria y conocimiento empírico.
 
-They typically:
+Generalmente:
 
-- Use simplified assumptions  
-- Provide approximate values or relationships  
-- Apply to common scenarios  
+- Utilizan supuestos simplificados  
+- Proporcionan valores o relaciones aproximados  
+- Se aplican a escenarios comunes  
 
-They are used to:
+Se utilizan para:
 
-- Estimate expected values  
-- Identify abnormal conditions  
-- Guide initial design decisions  
+- Estimar valores esperados  
+- Identificar condiciones anormales  
+- Guiar decisiones de diseño iniciales  
 
-They are not exact and should be refined with detailed analysis when required.
+No son exactas y deben refinarse con análisis detallado cuando sea necesario.
 
-## Applications
+## Aplicaciones
 
-Rules of thumb are used in:
+Las reglas empíricas se utilizan en:
 
-- Electrical system estimation and troubleshooting  
-- Mechanical system evaluation  
-- Equipment sizing and selection  
-- Field diagnostics and quick checks  
-- Early stage design decisions  
+- Estimación y resolución de problemas en sistemas eléctricos  
+- Evaluación de sistemas mecánicos  
+- Dimensionamiento y selección de equipos  
+- Diagnóstico de campo y verificaciones rápidas  
+- Decisiones de diseño en etapas iniciales  
 
-They are widely used by engineers and technicians in practical environments.
+Se utilizan ampliamente por ingenieros y técnicos en entornos prácticos.
 
-## Key Considerations
+## Consideraciones clave
 
-- Accuracy is limited and context dependent  
-- Not all rules apply to every situation  
-- Overreliance can lead to incorrect decisions  
-- Must be supported by engineering judgment  
-- Should be validated in critical applications  
+- La precisión es limitada y depende del contexto  
+- No todas las reglas se aplican a cada situación  
+- La dependencia excesiva puede conducir a decisiones incorrectas  
+- Deben respaldarse con criterio de ingeniería  
+- Deben validarse en aplicaciones críticas  
 
-They are guidance tools, not precise methods.
+Son herramientas de orientación, no métodos precisos.
 
-## Practical Notes
+## Notas prácticas
 
-- Use rules of thumb for initial assessment only  
-- Confirm results with calculations or measurements when needed  
-- Understand the assumptions behind each rule  
-- Build personal experience to refine their use  
-- Avoid applying them outside their intended context  
+- Utilizar reglas empíricas solo para evaluación inicial  
+- Confirmar resultados con cálculos o mediciones cuando sea necesario  
+- Comprender los supuestos detrás de cada regla  
+- Desarrollar experiencia personal para refinar su uso  
+- Evitar aplicarlas fuera de su contexto previsto  
 
-Rules of thumb provide fast and practical guidance, but should always be used with caution and understanding.
+Las reglas empíricas proporcionan orientación rápida y práctica, pero siempre deben utilizarse con precaución y comprensión.

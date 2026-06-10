@@ -1,71 +1,71 @@
-# Network Architecture
+# Arquitectura de red
 
-## Overview
+## Descripción general
 
-Network architecture defines how devices, systems, and communication paths are organized within an industrial network.
+La arquitectura de red define cómo se organizan los dispositivos, sistemas y rutas de comunicación dentro de una red industrial.
 
-It determines how data flows between field devices, control systems, and higher level platforms. A well designed architecture improves reliability, performance, and security.
+Determina cómo fluye la información entre dispositivos de campo, sistemas de control y plataformas de nivel superior. Una arquitectura bien diseñada mejora la confiabilidad, el desempeño y la seguridad.
 
-## Purpose
+## Propósito
 
-The purpose of network architecture is to:
+El propósito de la arquitectura de red es:
 
-- Ensure reliable communication between systems  
-- Support real time and non real time data exchange  
-- Enable integration between different system levels  
-- Provide a structured foundation for scalability and maintenance  
+- Asegurar una comunicación confiable entre sistemas  
+- Soportar el intercambio de datos en tiempo real y no en tiempo real  
+- Permitir la integración entre diferentes niveles del sistema  
+- Proporcionar una base estructurada para escalabilidad y mantenimiento  
 
-A clear architecture reduces complexity and improves system stability.
+Una arquitectura clara reduce la complejidad y mejora la estabilidad del sistema.
 
-## How It Works
+## Cómo funciona
 
-Network architecture is based on organizing devices into structured layers and defining how they communicate.
+La arquitectura de red se basa en organizar los dispositivos en capas estructuradas y definir cómo se comunican.
 
-Typical elements include:
+Los elementos típicos incluyen:
 
-- Field devices such as sensors and actuators  
-- Control systems such as PLCs  
-- Supervisory systems such as HMI and SCADA  
-- Higher level systems such as servers or enterprise platforms  
+- Dispositivos de campo como sensores y actuadores  
+- Sistemas de control como PLC  
+- Sistemas de supervisión como HMI y SCADA  
+- Sistemas de nivel superior como servidores o plataformas empresariales  
 
-Communication is established using industrial protocols over physical networks.
+La comunicación se establece mediante protocolos industriales sobre redes físicas.
 
-Architectures can vary depending on system requirements, but common approaches include:
+Las arquitecturas pueden variar según los requisitos del sistema, pero los enfoques comunes incluyen:
 
-- Hierarchical structures with defined levels  
-- Segmented networks that isolate functions  
-- Redundant paths to improve availability  
+- Estructuras jerárquicas con niveles definidos  
+- Redes segmentadas que aíslan funciones  
+- Rutas redundantes para mejorar la disponibilidad  
 
-The design focuses on ensuring that each system can communicate efficiently without unnecessary complexity.
+El diseño se enfoca en asegurar que cada sistema pueda comunicarse de manera eficiente sin complejidad innecesaria.
 
-## Applications
+## Aplicaciones
 
-Network architecture is applied in:
+La arquitectura de red se aplica en:
 
-- Manufacturing systems with multiple production lines  
-- Facilities with centralized monitoring and control  
-- Distributed systems with remote assets  
-- Integration between industrial and enterprise systems  
-- Data collection and digitalization platforms  
+- Sistemas de manufactura con múltiples líneas de producción  
+- Instalaciones con monitoreo y control centralizado  
+- Sistemas distribuidos con activos remotos  
+- Integración entre sistemas industriales y empresariales  
+- Plataformas de recolección de datos y digitalización  
 
-It is essential in any system that relies on communication between multiple devices.
+Es esencial en cualquier sistema que dependa de la comunicación entre múltiples dispositivos.
 
-## Key Considerations
+## Consideraciones clave
 
-- Define clear communication paths between systems  
-- Ensure network performance meets timing requirements  
-- Avoid unnecessary traffic in critical control networks  
-- Design for scalability and future expansion  
-- Incorporate security measures into the architecture  
+- Definir rutas de comunicación claras entre sistemas  
+- Asegurar que el desempeño de la red cumpla con los requisitos de tiempo  
+- Evitar tráfico innecesario en redes críticas de control  
+- Diseñar para escalabilidad y futuras expansiones  
+- Incorporar medidas de seguridad dentro de la arquitectura  
 
-Poor architecture can lead to communication failures and difficult troubleshooting.
+Una mala arquitectura puede provocar fallas de comunicación y dificultar el diagnóstico de problemas.
 
-## Practical Notes
+## Notas prácticas
 
-- Use structured layouts instead of ad hoc connections  
-- Separate critical control traffic from general network traffic  
-- Document all network connections and configurations  
-- Plan for redundancy in critical systems  
-- Validate network performance under real operating conditions  
+- Utilizar estructuras organizadas en lugar de conexiones improvisadas  
+- Separar el tráfico crítico de control del tráfico general de red  
+- Documentar todas las conexiones y configuraciones de red  
+- Planificar redundancia en sistemas críticos  
+- Validar el desempeño de la red bajo condiciones reales de operación  
 
-A well designed network architecture supports reliable operation and simplifies system management.
+Una arquitectura de red bien diseñada soporta una operación confiable y simplifica la gestión del sistema.

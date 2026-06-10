@@ -1,77 +1,77 @@
-# Sensor Selection
+# Selección de sensores
 
-## Overview
+## Descripción general
 
-Sensor selection is the process of choosing a sensor that provides accurate, reliable, and stable measurement for a specific application.
+La selección de sensores es el proceso de elegir un sensor que proporcione medición precisa, confiable y estable para una aplicación específica.
 
-It involves matching the sensor type, performance, and installation conditions with the requirements of the process.
+Implica hacer coincidir el tipo de sensor, el desempeño y las condiciones de instalación con los requerimientos del proceso.
 
-Proper selection ensures correct system behavior and avoids measurement errors.
+Una selección adecuada asegura comportamiento correcto del sistema y evita errores de medición.
 
-## Purpose
+## Propósito
 
-The purpose of sensor selection is to:
+El propósito de la selección de sensores es:
 
-- Obtain accurate and consistent measurements  
-- Ensure compatibility with control and monitoring systems  
-- Maintain reliable operation under real conditions  
-- Avoid failures and unnecessary maintenance  
+- Obtener mediciones precisas y consistentes  
+- Asegurar compatibilidad con sistemas de control y monitoreo  
+- Mantener operación confiable bajo condiciones reales  
+- Evitar fallas y mantenimiento innecesario  
 
-A well selected sensor improves overall system performance.
+Un sensor bien seleccionado mejora el desempeño general del sistema.
 
-## How It Works
+## Cómo funciona
 
-Sensor selection begins by defining the measurement requirements and operating conditions.
+La selección de sensores comienza definiendo los requerimientos de medición y las condiciones de operación.
 
-Key steps include:
+Los pasos clave incluyen:
 
-- Identifying the physical variable to be measured  
-- Defining measurement range and required accuracy  
-- Evaluating environmental conditions  
-- Selecting sensor type and technology  
-- Ensuring compatibility with signal and control systems  
+- Identificar la variable física a medir  
+- Definir el rango de medición y la precisión requerida  
+- Evaluar condiciones ambientales  
+- Seleccionar tipo y tecnología de sensor  
+- Asegurar compatibilidad con señales y sistemas de control  
 
-The selected sensor must perform correctly under both normal and extreme conditions.
+El sensor seleccionado debe desempeñarse correctamente bajo condiciones normales y extremas.
 
-## Applications
+## Aplicaciones
 
-Sensor selection is required in:
+La selección de sensores es necesaria en:
 
-- Industrial automation systems  
-- Process control applications  
-- Manufacturing and production lines  
-- Safety and monitoring systems  
-- Equipment design and integration  
+- Sistemas de automatización industrial  
+- Aplicaciones de control de procesos  
+- Líneas de manufactura y producción  
+- Sistemas de seguridad y monitoreo  
+- Diseño e integración de equipos  
 
-It applies to all systems that rely on measurement and feedback.
+Aplica en todos los sistemas que dependen de medición y retroalimentación.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Measurement range**  
-  Must cover expected minimum and maximum values  
+- **Rango de medición**  
+  Debe cubrir los valores mínimos y máximos esperados  
 
-- **Accuracy and resolution**  
-  Depends on process requirements  
+- **Precisión y resolución**  
+  Depende de los requerimientos del proceso  
 
-- **Response time**  
-  Important for dynamic or fast changing systems  
+- **Tiempo de respuesta**  
+  Importante para sistemas dinámicos o de cambio rápido  
 
-- **Environmental conditions**  
-  Temperature, humidity, vibration, and contaminants  
+- **Condiciones ambientales**  
+  Temperatura, humedad, vibración y contaminantes  
 
-- **Output signal**  
-  Must match input requirements of controllers or instruments  
+- **Señal de salida**  
+  Debe coincidir con los requerimientos de entrada de controladores o instrumentos  
 
-- **Mounting and installation**  
-  Placement affects measurement reliability  
+- **Montaje e instalación**  
+  La ubicación afecta la confiabilidad de la medición  
 
-- **Maintenance requirements**  
-  Some sensors require regular calibration or replacement  
+- **Requerimientos de mantenimiento**  
+  Algunos sensores requieren calibración o reemplazo regular  
 
-## Practical Notes
+## Notas prácticas
 
-- Overspecifying accuracy increases cost without added benefit  
-- Underspecifying leads to poor control and unstable processes  
-- Installation location is critical for reliable measurement  
-- Shielding and grounding may be required to avoid noise  
-- Always consider real operating conditions, not only nominal values  
+- Especificar excesiva precisión incrementa el costo sin beneficio adicional  
+- Especificar insuficiente precisión provoca mal control y procesos inestables  
+- La ubicación de instalación es crítica para medición confiable  
+- El blindaje y la puesta a tierra pueden ser requeridos para evitar ruido  
+- Siempre considerar condiciones reales de operación, no solo valores nominales  

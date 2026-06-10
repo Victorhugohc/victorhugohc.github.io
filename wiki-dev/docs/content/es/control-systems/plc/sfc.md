@@ -1,99 +1,99 @@
-# Sequential Function Chart (SFC)
+# Diagrama de Función Secuencial (SFC)
 
-## Overview
+## Descripción general
 
-Sequential Function Chart is a graphical programming language used in PLCs to represent sequential processes.
+El Diagrama de Función Secuencial (SFC) es un lenguaje de programación gráfico utilizado en PLCs para representar procesos secuenciales.
 
-It is based on steps and transitions, showing how a system moves from one state to another in a defined order.
+Se basa en pasos y transiciones, mostrando cómo un sistema avanza de un estado a otro en un orden definido.
 
-SFC is well suited for processes that follow clear sequences.
+El SFC es especialmente adecuado para procesos que siguen secuencias claras.
 
-## Purpose
+## Propósito
 
-The purpose of SFC is to organize control logic into structured sequences.
+El propósito del SFC es organizar la lógica de control en secuencias estructuradas.
 
-It is used to:
+Se utiliza para:
 
-- Define step by step operations  
-- Simplify complex sequences  
-- Improve clarity of process flow  
-- Separate sequence logic from detailed actions  
+- Definir operaciones paso a paso  
+- Simplificar secuencias complejas  
+- Mejorar la claridad del flujo del proceso  
+- Separar la lógica secuencial de las acciones detalladas  
 
-It provides a clear view of how a system progresses over time.
+Proporciona una visión clara de cómo el sistema evoluciona en el tiempo.
 
-## How It Works
+## Cómo funciona
 
-SFC represents a process as a series of steps connected by transitions.
+El SFC representa un proceso como una serie de pasos conectados por transiciones.
 
-### Steps
+### Pasos
 
-A step represents a state in the process.
+Un paso representa un estado dentro del proceso.
 
-- Each step can activate actions  
-- Only active steps execute their associated logic  
+- Cada paso puede activar acciones  
+- Solo los pasos activos ejecutan su lógica asociada  
 
-Steps define what the system is doing at a given moment.
+Los pasos definen lo que el sistema está haciendo en un momento dado.
 
-### Transitions
+### Transiciones
 
-Transitions define the conditions required to move from one step to the next.
+Las transiciones definen las condiciones necesarias para pasar de un paso al siguiente.
 
-- Evaluated continuously  
-- When the condition is true, the transition occurs  
-- The next step becomes active  
+- Se evalúan continuamente  
+- Cuando la condición es verdadera, ocurre la transición  
+- El siguiente paso se activa  
 
-### Actions
+### Acciones
 
-Each step can trigger actions.
+Cada paso puede activar acciones.
 
-- Control outputs  
-- Execute logic  
-- Call functions or function blocks  
+- Control de salidas  
+- Ejecución de lógica  
+- Llamadas a funciones o bloques de función  
 
-Actions run while the step is active.
+Las acciones se ejecutan mientras el paso esté activo.
 
-### Sequence Flow
+### Flujo de secuencia
 
-The process follows a defined path:
+El proceso sigue una ruta definida:
 
-- Initial step is activated  
-- Transition conditions are evaluated  
-- System moves through steps based on conditions  
+- Se activa el paso inicial  
+- Se evalúan las condiciones de transición  
+- El sistema avanza entre pasos según las condiciones  
 
-Branches and parallel paths can be used for more complex sequences.
+Se pueden utilizar ramificaciones y rutas paralelas para secuencias más complejas.
 
-## Applications
+## Aplicaciones
 
-SFC is commonly used in:
+El SFC se utiliza comúnmente en:
 
-- Batch processes  
-- Machine sequences  
-- Start up and shutdown procedures  
-- Packaging and assembly systems  
-- Processes with defined states and transitions  
+- Procesos por lotes  
+- Secuencias de maquinaria  
+- Procedimientos de arranque y paro  
+- Sistemas de empaque y ensamblaje  
+- Procesos con estados y transiciones definidos  
 
-It is effective when operations follow a clear order.
+Es efectivo cuando las operaciones siguen un orden claro.
 
-## Key Considerations
+## Consideraciones clave
 
-Sequence design must reflect real system operation.
+El diseño de la secuencia debe reflejar la operación real del sistema.
 
-Transitions must be clearly defined to avoid unexpected behavior.
+Las transiciones deben definirse claramente para evitar comportamientos inesperados.
 
-Parallel sequences increase complexity and require careful coordination.
+Las secuencias paralelas aumentan la complejidad y requieren coordinación cuidadosa.
 
-Step activation and deactivation must be well understood.
+La activación y desactivación de pasos debe entenderse correctamente.
 
-Integration with other programming languages is often required for detailed logic.
+La integración con otros lenguajes de programación suele ser necesaria para lógica detallada.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is overcomplicating sequences with too many steps. Keep the flow clear and logical.
+Un error común es complicar demasiado las secuencias con demasiados pasos. Mantén el flujo claro y lógico.
 
-Ensure all transitions have well defined conditions. Missing conditions can stop the process.
+Asegura que todas las transiciones tengan condiciones bien definidas. Condiciones faltantes pueden detener el proceso.
 
-Use SFC for sequence control, not for detailed calculations.
+Utiliza SFC para control secuencial, no para cálculos detallados.
 
-Test all possible paths, including abnormal conditions, to verify correct behavior.
+Prueba todas las rutas posibles, incluyendo condiciones anormales, para verificar el comportamiento correcto.
 
-Document step purpose clearly to simplify troubleshooting.
+Documenta claramente el propósito de cada paso para facilitar el diagnóstico.

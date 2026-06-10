@@ -1,78 +1,78 @@
-# Pneumatic Actuators
+# Actuadores neumáticos
 
-## Overview
+## Descripción general
 
-Pneumatic actuators use compressed air to produce mechanical motion.
+Los actuadores neumáticos utilizan aire comprimido para producir movimiento mecánico.
 
-They are widely used in industrial systems due to their simplicity, fast response, and reliability in repetitive operations.
+Se utilizan ampliamente en sistemas industriales debido a su simplicidad, respuesta rápida y confiabilidad en operaciones repetitivas.
 
-Pneumatic actuators are commonly applied where moderate force and speed are required without the need for high precision.
+Los actuadores neumáticos se aplican comúnmente donde se requiere fuerza y velocidad moderadas sin necesidad de alta precisión.
 
-## Purpose
+## Propósito
 
-The purpose of pneumatic actuators is to:
+El propósito de los actuadores neumáticos es:
 
-- Provide fast and repeatable motion  
-- Enable simple and robust actuation  
-- Operate safely in harsh or hazardous environments  
-- Support automation with low complexity  
+- Proporcionar movimiento rápido y repetible  
+- Habilitar actuación simple y robusta  
+- Operar de forma segura en entornos hostiles o peligrosos  
+- Soportar automatización con baja complejidad  
 
-They are ideal for applications requiring quick and reliable movement.
+Son ideales para aplicaciones que requieren movimiento rápido y confiable.
 
-## How It Works
+## Cómo funciona
 
-Pneumatic actuators convert the energy of compressed air into motion.
+Los actuadores neumáticos convierten la energía del aire comprimido en movimiento.
 
-The basic process is:
+El proceso básico es:
 
-- Compressed air is supplied to the actuator  
-- Air pressure acts on a piston or diaphragm  
-- The pressure generates force and produces movement  
-- Air is exhausted to allow return motion  
+- Se suministra aire comprimido al actuador  
+- La presión del aire actúa sobre un pistón o diafragma  
+- La presión genera fuerza y produce movimiento  
+- El aire se evacúa para permitir el movimiento de retorno  
 
-Common configurations include:
+Las configuraciones comunes incluyen:
 
-- Single acting actuators using air pressure in one direction and a spring return  
-- Double acting actuators using air pressure for both extension and retraction  
+- Actuadores de simple efecto que utilizan presión de aire en una dirección y retorno por resorte  
+- Actuadores de doble efecto que utilizan presión de aire para extensión y retracción  
 
-Control is typically achieved using valves that regulate airflow.
+El control se logra típicamente mediante válvulas que regulan el flujo de aire.
 
-## Applications
+## Aplicaciones
 
-Pneumatic actuators are used in:
+Los actuadores neumáticos se utilizan en:
 
-- Pick and place systems  
-- Packaging and assembly lines  
-- Clamping and positioning operations  
-- Valve actuation in fluid systems  
-- Repetitive industrial processes  
+- Sistemas de recogida y colocación (*pick and place*)  
+- Líneas de empaque y ensamble  
+- Operaciones de sujeción y posicionamiento  
+- Actuación de válvulas en sistemas de fluidos  
+- Procesos industriales repetitivos  
 
-They are common in high cycle automation environments.
+Son comunes en entornos de automatización de alto ciclo.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Force output**  
-  Depends on air pressure and actuator size  
+- **Salida de fuerza**  
+  Depende de la presión de aire y el tamaño del actuador  
 
-- **Speed**  
-  Controlled by airflow and valve configuration  
+- **Velocidad**  
+  Controlada por el flujo de aire y la configuración de válvulas  
 
-- **Control precision**  
-  Limited compared to electric systems  
+- **Precisión de control**  
+  Limitada en comparación con sistemas eléctricos  
 
-- **Air supply quality**  
-  Clean and dry air is required for reliable operation  
+- **Calidad del suministro de aire**  
+  Se requiere aire limpio y seco para operación confiable  
 
-- **Energy efficiency**  
-  Compressed air systems can be inefficient  
+- **Eficiencia energética**  
+  Los sistemas de aire comprimido pueden ser ineficientes  
 
-- **Installation and maintenance**  
-  Requires piping, valves, and air preparation systems  
+- **Instalación y mantenimiento**  
+  Requiere tuberías, válvulas y sistemas de preparación de aire  
 
-## Practical Notes
+## Notas prácticas
 
-- Pneumatic systems are simple and robust but less precise  
-- Air leaks can significantly reduce efficiency  
-- Regular maintenance of air supply systems is essential  
-- They are well suited for fast, repetitive tasks  
-- Not ideal for applications requiring precise positioning or variable control  
+- Los sistemas neumáticos son simples y robustos pero menos precisos  
+- Las fugas de aire pueden reducir significativamente la eficiencia  
+- El mantenimiento regular de los sistemas de suministro de aire es esencial  
+- Son adecuados para tareas rápidas y repetitivas  
+- No son ideales para aplicaciones que requieren posicionamiento preciso o control variable  

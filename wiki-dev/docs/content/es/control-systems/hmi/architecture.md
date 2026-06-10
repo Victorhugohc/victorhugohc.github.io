@@ -1,119 +1,119 @@
-# HMI Architecture
+# Arquitectura HMI
 
-## Overview
+## Descripción general
 
-HMI architecture defines how the Human Machine Interface is structured and connected within a control system.
+La arquitectura HMI define cómo se estructura y se conecta la Interfaz Hombre-Máquina dentro de un sistema de control.
 
-It describes how hardware, software, and communication components are organized to provide visualization and operator interaction.
+Describe cómo se organizan los componentes de hardware, software y comunicación para proporcionar visualización e interacción con el operador.
 
-## Purpose
+## Propósito
 
-The purpose of HMI architecture is to ensure reliable access to system data and consistent operator interaction.
+El propósito de la arquitectura HMI es garantizar acceso confiable a los datos del sistema y una interacción consistente con el operador.
 
-A well designed architecture provides:
+Una arquitectura bien diseñada proporciona:
 
-- Stable communication with controllers  
-- Scalable system design  
-- Efficient data handling  
-- Clear separation between control and visualization  
+- Comunicación estable con los controladores  
+- Diseño escalable del sistema  
+- Manejo eficiente de datos  
+- Separación clara entre control y visualización  
 
-## How It Works
+## Cómo funciona
 
-HMI architecture is based on the interaction between three main elements.
+La arquitectura HMI se basa en la interacción entre tres elementos principales.
 
-### HMI Device or Software
+### Dispositivo o software HMI
 
-The interface where operators interact with the system.
+La interfaz donde los operadores interactúan con el sistema.
 
-- Panel mounted HMI terminals  
-- Industrial computers running HMI software  
-- Web based interfaces  
+- Terminales HMI montadas en panel  
+- Computadoras industriales con software HMI  
+- Interfaces basadas en web  
 
-This layer handles visualization and user input.
+Esta capa gestiona la visualización y la entrada del usuario.
 
-### Control System
+### Sistema de control
 
-The HMI connects to controllers such as PLCs.
+La HMI se conecta a controladores como PLCs.
 
-- Reads process data  
-- Writes operator commands  
+- Lectura de datos del proceso  
+- Escritura de comandos del operador  
 
-The PLC remains responsible for executing control logic.
+El PLC sigue siendo responsable de ejecutar la lógica de control.
 
-### Communication Layer
+### Capa de comunicación
 
-Data exchange occurs through industrial networks.
+El intercambio de datos se realiza a través de redes industriales.
 
-- Ethernet based communication  
-- Industrial protocols such as Modbus, Ethernet IP, or PROFINET  
+- Comunicación basada en Ethernet  
+- Protocolos industriales como Modbus, Ethernet/IP o PROFINET  
 
-This layer defines how data is transmitted between devices.
+Esta capa define cómo se transmiten los datos entre dispositivos.
 
-## Architecture Types
+## Tipos de arquitectura
 
-### Standalone HMI
+### HMI independiente
 
-A single HMI connected to one controller.
+Una sola HMI conectada a un controlador.
 
-- Simple setup  
-- Limited scalability  
-- Used in small machines  
+- Configuración simple  
+- Escalabilidad limitada  
+- Usada en máquinas pequeñas  
 
-### Networked HMI
+### HMI en red
 
-Multiple HMIs connected to one or more controllers.
+Múltiples HMIs conectadas a uno o varios controladores.
 
-- Shared data across devices  
-- Flexible operator access  
-- Common in production lines  
+- Datos compartidos entre dispositivos  
+- Acceso flexible para operadores  
+- Común en líneas de producción  
 
-### Client Server Architecture
+### Arquitectura cliente-servidor
 
-Central server with multiple client interfaces.
+Servidor central con múltiples interfaces cliente.
 
-- Server manages data and communication  
-- Clients display information  
-- Scalable and suitable for large systems  
+- El servidor gestiona datos y comunicación  
+- Los clientes muestran la información  
+- Escalable y adecuada para sistemas grandes  
 
-### Web Based Architecture
+### Arquitectura basada en web
 
-HMI accessed through a web browser.
+Acceso a la HMI mediante navegador web.
 
-- Remote access capability  
-- Platform independent  
-- Requires secure network design  
+- Capacidad de acceso remoto  
+- Independiente de la plataforma  
+- Requiere diseño de red seguro  
 
-## Applications
+## Aplicaciones
 
-HMI architecture depends on system size and complexity.
+La arquitectura HMI depende del tamaño y la complejidad del sistema.
 
-Typical applications include:
+Aplicaciones típicas incluyen:
 
-- Local machine interfaces  
-- Centralized control rooms  
-- Distributed industrial systems  
-- Remote monitoring solutions  
+- Interfaces locales de maquinaria  
+- Salas de control centralizadas  
+- Sistemas industriales distribuidos  
+- Soluciones de monitoreo remoto  
 
-## Key Considerations
+## Consideraciones clave
 
-Communication reliability is critical for consistent operation.
+La confiabilidad de la comunicación es crítica para una operación consistente.
 
-Network performance affects data update speed.
+El rendimiento de la red afecta la velocidad de actualización de datos.
 
-Scalability should be considered for future expansion.
+La escalabilidad debe considerarse para futuras expansiones.
 
-Security is important, especially for networked and remote access systems.
+La seguridad es fundamental, especialmente en sistemas en red o con acceso remoto.
 
-Separation between control and visualization improves system stability.
+La separación entre control y visualización mejora la estabilidad del sistema.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is overloading the PLC with excessive HMI communication. Optimize data exchange.
+Un error común es sobrecargar el PLC con comunicación excesiva de la HMI. Optimiza el intercambio de datos.
 
-Use structured data mapping to simplify integration.
+Utiliza mapeo de datos estructurado para facilitar la integración.
 
-Avoid unnecessary network complexity in small systems.
+Evita complejidad innecesaria en redes de sistemas pequeños.
 
-Plan user access levels to control permissions.
+Define niveles de acceso de usuario para controlar permisos.
 
-Test communication under real operating conditions to ensure stability.
+Prueba la comunicación en condiciones reales de operación para asegurar estabilidad.

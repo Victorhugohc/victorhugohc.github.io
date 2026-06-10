@@ -1,64 +1,64 @@
-# Safety and Emergency Lighting
+# Iluminación de Seguridad y Emergencia
 
-## Overview
+## Descripción general
 
-Safety and emergency lighting provide illumination during abnormal conditions such as power failures, faults, or hazardous situations.
+La iluminación de seguridad y emergencia proporciona iluminación durante condiciones anormales como fallas de energía, averías o situaciones peligrosas.
 
-These systems ensure that critical areas remain visible, allowing safe evacuation, shutdown, or intervention when normal lighting is not available.
+Estos sistemas aseguran que las áreas críticas permanezcan visibles, permitiendo una evacuación segura, parada o intervención cuando la iluminación normal no está disponible.
 
-## Purpose
+## Propósito
 
-The purpose of safety and emergency lighting is to maintain visibility in situations where normal operation is disrupted.
+El propósito de la iluminación de seguridad y emergencia es mantener la visibilidad en situaciones donde la operación normal se interrumpe.
 
-This helps to:
+Esto ayuda a:
 
-- Enable safe evacuation of personnel  
-- Prevent accidents during power loss  
-- Support emergency response actions  
-- Maintain visibility of critical equipment and pathways  
+- Permitir la evacuación segura del personal  
+- Prevenir accidentes durante pérdida de energía  
+- Apoyar acciones de respuesta de emergencia  
+- Mantener la visibilidad de equipo crítico y vías de acceso  
 
-## How It Works
+## Cómo funciona
 
-Emergency lighting systems are designed to operate independently from normal lighting.
+Los sistemas de iluminación de emergencia están diseñados para operar independientemente de la iluminación normal.
 
-They typically include:
+Típicamente incluyen:
 
-- Backup power sources such as batteries or centralized emergency systems  
-- Automatic activation when normal power is lost  
-- Dedicated fixtures or integrated emergency functions within standard luminaires  
+- Fuentes de energía de respaldo como baterías o sistemas de emergencia centralizados  
+- Activación automática cuando se pierde la energía normal  
+- Luminarias dedicadas o funciones de emergencia integradas en luminarias estándar  
 
-Common types of emergency lighting include:
+Los tipos comunes de iluminación de emergencia incluyen:
 
-- Escape route lighting for pathways and exits  
-- Open area lighting to prevent panic in large spaces  
-- High risk task area lighting for critical operations  
+- Iluminación de rutas de escape para vías de acceso y salidas  
+- Iluminación de área abierta para prevenir pánico en espacios grandes  
+- Iluminación de áreas de tarea de alto riesgo para operaciones críticas  
 
-These systems must provide sufficient illumination for a defined period.
+Estos sistemas deben proporcionar iluminación suficiente durante un período definido.
 
-## Applications
+## Aplicaciones
 
-Safety and emergency lighting are used in:
+La iluminación de seguridad y emergencia se utiliza en:
 
-- Industrial facilities and manufacturing plants  
-- Control rooms and electrical areas  
-- Warehouses and storage facilities  
-- Public access and occupied spaces  
-- Areas with hazardous operations  
+- Instalaciones industriales y plantas de manufactura  
+- Salas de control y áreas eléctricas  
+- Almacenes e instalaciones de almacenamiento  
+- Espacios de acceso público y ocupados  
+- Áreas con operaciones peligrosas  
 
-They are essential wherever loss of lighting could create risk.
+Son esenciales dondequiera que la pérdida de iluminación pueda crear riesgo.
 
-## Key Considerations
+## Consideraciones clave
 
-- Emergency lighting must activate automatically and reliably  
-- Illumination levels must be sufficient for safe movement  
-- Backup power duration must meet operational requirements  
-- System must be regularly tested and maintained  
-- Placement must cover escape routes and critical areas  
+- La iluminación de emergencia debe activarse automática y confiablemente  
+- Los niveles de iluminación deben ser suficientes para un movimiento seguro  
+- La duración de la energía de respaldo debe cumplir los requisitos operativos  
+- El sistema debe probarse y mantenerse regularmente  
+- La colocación debe cubrir rutas de escape y áreas críticas  
 
-## Practical Notes
+## Notas prácticas
 
-- Lack of emergency lighting creates serious safety risks during outages  
-- Battery systems degrade over time and require periodic replacement  
-- Emergency fixtures must be clearly identifiable  
-- Testing should be part of routine maintenance procedures  
-- Ensure that emergency lighting is not obstructed by equipment or layout changes  
+- La falta de iluminación de emergencia crea riesgos graves de seguridad durante cortes de energía  
+- Los sistemas de batería se degradan con el tiempo y requieren reemplazo periódico  
+- Las luminarias de emergencia deben ser claramente identificables  
+- Las pruebas deben ser parte de los procedimientos rutinarios de mantenimiento  
+- Asegúrese de que la iluminación de emergencia no esté obstruida por equipo o cambios de disposición

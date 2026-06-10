@@ -1,124 +1,124 @@
 # Switches
 
-## Overview
+## Descripción general
 
-A network switch is a device that connects multiple devices within an Ethernet network and manages data traffic between them.
+Un switch de red es un dispositivo que conecta múltiples dispositivos dentro de una red Ethernet y gestiona el tráfico de datos entre ellos.
 
-It directs data only to the intended destination, improving network efficiency and performance.
+Dirige los datos solo al destino previsto, mejorando la eficiencia y el rendimiento de la red.
 
-Switches are a fundamental component of industrial communication networks.
+Los switches son un componente fundamental de las redes de comunicación industrial.
 
-## Purpose
+## Propósito
 
-The purpose of a switch is to enable reliable and efficient communication between network devices.
+El propósito de un switch es habilitar una comunicación confiable y eficiente entre dispositivos de red.
 
-It is used to:
+Se utiliza para:
 
-- Connect multiple devices in a network  
-- Manage data traffic  
-- Reduce unnecessary data transmission  
-- Improve network performance  
+- Conectar múltiples dispositivos en una red  
+- Gestionar el tráfico de datos  
+- Reducir la transmisión innecesaria de datos  
+- Mejorar el rendimiento de la red  
 
-Switches are essential for building structured and scalable networks.
+Los switches son esenciales para construir redes estructuradas y escalables.
 
-## How It Works
+## Cómo funciona
 
-A switch operates by receiving data frames and forwarding them based on destination addresses.
+Un switch opera recibiendo tramas de datos y reenviándolas según las direcciones de destino.
 
-### MAC Address Learning
+### Aprendizaje de direcciones MAC
 
-Each device has a unique MAC address.
+Cada dispositivo tiene una dirección MAC única.
 
-- The switch learns which devices are connected to each port  
-- It builds a table of addresses and associated ports  
+- El switch aprende qué dispositivos están conectados a cada puerto  
+- Construye una tabla de direcciones y puertos asociados  
 
-This allows the switch to send data only where needed.
+Esto permite que el switch envíe datos solo donde se necesitan.
 
-### Frame Forwarding
+### Reenvío de tramas
 
-When a frame is received:
+Cuando se recibe una trama:
 
-- The switch checks the destination address  
-- Forwards the frame to the correct port  
-- If the destination is unknown, it sends the frame to all ports  
+- El switch verifica la dirección de destino  
+- Reenvía la trama al puerto correcto  
+- Si el destino es desconocido, envía la trama a todos los puertos  
 
-This process is fast and automatic.
+Este proceso es rápido y automático.
 
-### Collision Reduction
+### Reducción de colisiones
 
-Unlike older network hubs, switches:
+A diferencia de los hubs de red antiguos, los switches:
 
-- Send data only to the target device  
-- Allow full duplex communication  
+- Envían datos solo al dispositivo destino  
+- Permiten comunicación en dúplex completo  
 
-This eliminates collisions and improves performance.
+Esto elimina las colisiones y mejora el rendimiento.
 
-### Types of Switching
+### Tipos de conmutación
 
-- Store and forward checks the frame before sending  
-- Cut through forwards data immediately with lower delay  
+- Store and forward verifica la trama antes de enviarla  
+- Cut through reenvía los datos inmediatamente con menor retardo  
 
-The method affects performance and reliability.
+El método afecta el rendimiento y la confiabilidad.
 
-## Types of Switches
+## Tipos de switches
 
-### Unmanaged Switches
+### Switches no gestionados
 
-- No configuration required  
-- Plug and play operation  
-- Limited control and features  
+- No requieren configuración  
+- Operación plug and play  
+- Control y funciones limitados  
 
-Used in simple networks.
+Utilizados en redes simples.
 
-### Managed Switches
+### Switches gestionados
 
-- Configurable settings  
-- Support for VLANs, traffic control, and diagnostics  
-- Better control over network behavior  
+- Configuración ajustable  
+- Soporte para VLANs, control de tráfico y diagnósticos  
+- Mayor control sobre el comportamiento de la red  
 
-Used in industrial and complex systems.
+Utilizados en sistemas industriales y complejos.
 
-### Industrial Switches
+### Switches industriales
 
-- Designed for harsh environments  
-- Resistant to temperature, vibration, and electrical noise  
-- Often include redundant power and network features  
+- Diseñados para entornos hostiles  
+- Resistentes a temperatura, vibración y ruido eléctrico  
+- A menudo incluyen alimentación y funciones de red redundantes  
 
-Used in industrial automation.
+Utilizados en automatización industrial.
 
-## Applications
+## Aplicaciones
 
-Switches are used in all Ethernet based networks.
+Los switches se utilizan en todas las redes basadas en Ethernet.
 
-Typical applications include:
+Las aplicaciones típicas incluyen:
 
-- Connecting PLCs, HMIs, and SCADA systems  
-- Integrating drives and remote I O  
-- Building plant networks  
-- Supporting industrial communication protocols  
+- Conectar PLCs, HMIs y sistemas SCADA  
+- Integrar variadores y E/S remotas  
+- Construir redes de planta  
+- Admitir protocolos de comunicación industrial  
 
-They are the backbone of modern industrial communication.
+Son la base de la comunicación industrial moderna.
 
-## Key Considerations
+## Consideraciones clave
 
-Port count must match the number of connected devices.
+El número de puertos debe coincidir con la cantidad de dispositivos conectados.
 
-Network speed should support application requirements.
+La velocidad de red debe respaldar los requisitos de la aplicación.
 
-Managed features may be required for larger or critical systems.
+Las funciones gestionadas pueden ser necesarias en sistemas más grandes o críticos.
 
-Environmental conditions influence switch selection.
+Las condiciones ambientales influyen en la selección del switch.
 
-Redundancy may be needed in critical networks.
+Puede necesitarse redundancia en redes críticas.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is using unmanaged switches in systems that require traffic control.
+Un error común es utilizar switches no gestionados en sistemas que requieren control de tráfico.
 
-Use managed switches to prioritize critical communication.
+Utilice switches gestionados para priorizar la comunicación crítica.
 
-Avoid network loops unless proper protocols are configured.
+Evite bucles de red a menos que se configuren protocolos adecuados.
 
-Label ports and connections for easier troubleshooting.
+Etiquete puertos y conexiones para facilitar la resolución de problemas.
 
-Verify network performance under load to ensure reliability.
+Verifique el rendimiento de la red bajo carga para garantizar la confiabilidad.

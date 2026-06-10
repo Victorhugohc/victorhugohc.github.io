@@ -1,109 +1,109 @@
-# Cable Management
+# Gestión de Cableado
 
-## Overview
+## Descripción general
 
-Cable management refers to the organization, routing, and support of wires and cables داخل a control panel.
+La gestión de cableado se refiere a la organización, enrutamiento y sujeción de conductores y cables dentro de un tablero de control.
 
-It ensures that wiring is structured, protected, and easy to maintain.
+Asegura que el cableado esté estructurado, protegido y sea fácil de mantener.
 
-Good cable management improves reliability, safety, and overall panel quality.
+Una buena gestión de cableado mejora la confiabilidad, la seguridad y la calidad general del tablero.
 
-## Purpose
+## Propósito
 
-The purpose of cable management is to keep wiring organized and functional.
+El propósito de la gestión de cableado es mantener el cableado organizado y funcional.
 
-It helps to:
+Ayuda a:
 
-- Prevent damage to cables  
-- Reduce electrical interference  
-- Simplify installation and maintenance  
-- Improve airflow داخل the panel  
+- Prevenir daños en los cables  
+- Reducir la interferencia eléctrica  
+- Simplificar la instalación y el mantenimiento  
+- Mejorar el flujo de aire dentro del tablero  
 
-Proper management reduces errors and downtime.
+Una gestión adecuada reduce errores y tiempos de inactividad.
 
-## How It Works
+## Cómo funciona
 
-Cable management uses physical structures and routing practices to control how cables are arranged.
+La gestión de cableado utiliza estructuras físicas y prácticas de enrutamiento para controlar cómo se disponen los cables.
 
-### Cable Routing
+### Enrutamiento de cables
 
-Cables are routed along defined paths.
+Los cables se conducen por rutas definidas.
 
-- Horizontal and vertical cable ducts  
-- Separate paths for power and control wiring  
+- Canaletas horizontales y verticales  
+- Rutas separadas para potencia y control  
 
-This keeps wiring organized and predictable.
+Esto mantiene el cableado organizado y predecible.
 
-### Cable Ducts and Trays
+### Canaletas y bandejas
 
-Plastic or metal ducts are used داخل panels.
+Se utilizan canaletas plásticas o metálicas dentro de los tableros.
 
-- Hold and guide wires  
-- Allow easy access for modifications  
-- Keep wiring contained and protected  
+- Contienen y guían los conductores  
+- Permiten acceso sencillo para modificaciones  
+- Mantienen el cableado protegido  
 
-Duct covers help maintain a clean layout.
+Las tapas de las canaletas ayudan a conservar un diseño limpio.
 
-### Separation of Circuits
+### Separación de circuitos
 
-Different types of wiring should be separated.
+Se deben separar los diferentes tipos de cableado.
 
-- Power cables away from control and signal cables  
-- Communication cables isolated from high current lines  
+- Cables de potencia alejados de control y señal  
+- Cables de comunicación aislados de líneas de alta corriente  
 
-This reduces noise and interference.
+Esto reduce el ruido y la interferencia.
 
-### Securing Cables
+### Fijación de cables
 
-Cables must be fixed in place.
+Los cables deben mantenerse firmes en su lugar.
 
-- Cable ties or clamps  
-- Proper strain relief at entry points  
+- Uso de cinchos (bridas) o abrazaderas  
+- Alivio de tensión adecuado en puntos de entrada  
 
-This prevents movement and mechanical stress.
+Esto evita movimiento y esfuerzos mecánicos.
 
-### Entry and Exit Management
+### Gestión de entradas y salidas
 
-Cables entering or leaving the panel must be controlled.
+Los cables que entran o salen del tablero deben controlarse.
 
-- Use cable glands or entry plates  
-- Seal openings to protect against dust and moisture  
+- Uso de prensaestopas o placas de entrada  
+- Sellado de aberturas contra polvo y humedad  
 
-This maintains enclosure integrity.
+Esto mantiene la integridad del gabinete.
 
-## Applications
+## Aplicaciones
 
-Cable management is used in all control panels.
+La gestión de cableado se utiliza en todos los tableros de control.
 
-Typical applications include:
+Aplicaciones típicas incluyen:
 
-- Machine control panels  
-- Motor control systems  
-- Process control panels  
-- Distribution panels  
+- Tableros de control de maquinaria  
+- Sistemas de control de motores  
+- Tableros de control de procesos  
+- Tableros de distribución  
 
-It is essential for both small and large installations.
+Es esencial tanto en instalaciones pequeñas como grandes.
 
-## Key Considerations
+## Consideraciones clave
 
-Adequate space must be allocated for wiring paths.
+Debe asignarse suficiente espacio para las rutas de cableado.
 
-Future expansion should be considered.
+Se debe considerar la expansión futura.
 
-Cable bending radius must be respected.
+Debe respetarse el radio de curvatura de los cables.
 
-Environmental conditions may require special materials.
+Las condiciones ambientales pueden requerir materiales especiales.
 
-Proper separation improves signal quality and reliability.
+Una correcta separación mejora la calidad de señal y la confiabilidad.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is overcrowding cable ducts. Always leave space for future changes.
+Un error común es saturar las canaletas. Siempre deja espacio para futuras modificaciones.
 
-Avoid mixing different types of cables in the same path.
+Evita mezclar diferentes tipos de cables en la misma ruta.
 
-Keep routing clean and consistent across the panel.
+Mantén el enrutamiento limpio y consistente en todo el tablero.
 
-Label cables clearly to simplify troubleshooting.
+Etiqueta los cables claramente para facilitar el diagnóstico de fallas.
 
-Plan cable entry points early to avoid rework.
+Planifica los puntos de entrada desde el inicio para evitar retrabajos.

@@ -1,78 +1,78 @@
-# Actuators
+# Actuadores
 
-## Overview
+## Descripción general
 
-Actuators are devices that convert electrical, pneumatic, or hydraulic energy into physical motion.
+Los actuadores son dispositivos que convierten energía eléctrica, neumática o hidráulica en movimiento físico.
 
-They are responsible for executing actions in a system, such as moving, opening, closing, lifting, or positioning.
+Son responsables de ejecutar acciones en un sistema, como mover, abrir, cerrar, levantar o posicionar.
 
-Actuators are the output elements of control systems, turning control signals into real world actions.
+Los actuadores son los elementos de salida de los sistemas de control, convirtiendo las señales de control en acciones en el mundo real.
 
-## Purpose
+## Propósito
 
-The purpose of actuators is to:
+El propósito de los actuadores es:
 
-- Perform physical actions based on control commands  
-- Enable automation of mechanical processes  
-- Control movement, force, or position  
-- Translate system decisions into mechanical output  
+- Realizar acciones físicas basadas en comandos de control  
+- Habilitar la automatización de procesos mecánicos  
+- Controlar movimiento, fuerza o posición  
+- Traducir las decisiones del sistema en salida mecánica  
 
-They are essential for interacting with the physical environment.
+Son esenciales para interactuar con el entorno físico.
 
-## How It Works
+## Cómo funciona
 
-Actuators receive a control signal and convert energy into motion.
+Los actuadores reciben una señal de control y convierten energía en movimiento.
 
-This process typically involves:
+Este proceso típicamente involucra:
 
-- An input signal from a controller  
-- An energy source such as electricity, air, or fluid pressure  
-- A mechanism that produces linear or rotational motion  
+- Una señal de entrada desde un controlador  
+- Una fuente de energía como electricidad, aire o presión de fluido  
+- Un mecanismo que produce movimiento lineal o rotativo  
 
-Depending on the type, actuators can:
+Dependiendo del tipo, los actuadores pueden:
 
-- Move continuously or in steps  
-- Apply controlled force or torque  
-- Hold position or follow dynamic commands  
+- Moverse de forma continua o por pasos  
+- Aplicar fuerza o torque controlado  
+- Mantener posición o seguir comandos dinámicos  
 
-The actuator responds to the control system to achieve the desired action.
+El actuador responde al sistema de control para lograr la acción deseada.
 
-## Applications
+## Aplicaciones
 
-Actuators are used in:
+Los actuadores se utilizan en:
 
-- Industrial automation and machinery  
-- Control valves and fluid systems  
-- Robotics and motion control  
-- Material handling systems  
-- Safety and shutdown mechanisms  
+- Automatización industrial y maquinaria  
+- Válvulas de control y sistemas de fluidos  
+- Robótica y control de movimiento  
+- Sistemas de manejo de materiales  
+- Mecanismos de seguridad y paro  
 
-They are present in any system that requires controlled movement.
+Están presentes en cualquier sistema que requiera movimiento controlado.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Type of motion**  
-  Linear or rotational depending on application  
+- **Tipo de movimiento**  
+  Lineal o rotativo según la aplicación  
 
-- **Force or torque requirements**  
-  Must match the mechanical load  
+- **Requerimientos de fuerza o torque**  
+  Deben coincidir con la carga mecánica  
 
-- **Speed and response time**  
-  Important for dynamic systems  
+- **Velocidad y tiempo de respuesta**  
+  Importantes para sistemas dinámicos  
 
-- **Energy source**  
-  Electrical, pneumatic, or hydraulic  
+- **Fuente de energía**  
+  Eléctrica, neumática o hidráulica  
 
-- **Control method**  
-  On off, proportional, or precise positioning  
+- **Método de control**  
+  Encendido/apagado (*on/off*), proporcional o posicionamiento preciso  
 
-- **Environmental conditions**  
-  Temperature, contamination, and installation constraints  
+- **Condiciones ambientales**  
+  Temperatura, contaminación y restricciones de instalación  
 
-## Practical Notes
+## Notas prácticas
 
-- Incorrect actuator sizing leads to poor performance or failure  
-- Response speed affects system productivity and control quality  
-- Pneumatic systems are simple but less precise  
-- Electric actuators offer precise control and easier integration  
-- Maintenance requirements vary significantly by actuator type  
+- Un dimensionamiento incorrecto del actuador provoca mal desempeño o falla  
+- La velocidad de respuesta afecta la productividad del sistema y la calidad del control  
+- Los sistemas neumáticos son simples pero menos precisos  
+- Los actuadores eléctricos ofrecen control preciso e integración más sencilla  
+- Los requerimientos de mantenimiento varían significativamente según el tipo de actuador  

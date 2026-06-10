@@ -1,71 +1,71 @@
-# Measurement Overview
+# Descripción general de la medición
 
-## Overview
+## Descripción general
 
-Measurement in industrial systems refers to the process of obtaining accurate values of physical and electrical variables.
+La medición en sistemas industriales se refiere al proceso de obtener valores precisos de variables físicas y eléctricas.
 
-These measurements provide the information needed to understand system behavior, verify operation, and support maintenance and troubleshooting activities.
+Estas mediciones proporcionan la información necesaria para comprender el comportamiento del sistema, verificar su operación y respaldar las actividades de mantenimiento y resolución de problemas.
 
-## Purpose
+## Propósito
 
-The purpose of measurement is to:
+El propósito de la medición es:
 
-- Verify correct system operation  
-- Detect faults and abnormal conditions  
-- Support commissioning and maintenance tasks  
-- Provide data for analysis and decision making  
-- Ensure compliance with design and safety requirements  
+- Verificar el correcto funcionamiento del sistema  
+- Detectar fallas y condiciones anormales  
+- Respaldar las tareas de puesta en marcha y mantenimiento  
+- Proporcionar datos para el análisis y la toma de decisiones  
+- Garantizar el cumplimiento de los requisitos de diseño y seguridad  
 
-Accurate measurement is essential for reliable and safe industrial operation.
+La medición precisa es esencial para una operación industrial confiable y segura.
 
-## How It Works
+## Cómo funciona
 
-Measurement involves sensing a physical or electrical quantity and converting it into a readable value.
+La medición implica detectar una magnitud física o eléctrica y convertirla en un valor legible.
 
-This typically includes:
+Esto generalmente incluye:
 
-- A sensor or instrument that detects the variable  
-- Signal processing to convert the measurement into a usable form  
-- A display or interface for the user to interpret the value  
+- Un sensor o instrumento que detecta la variable  
+- Procesamiento de señal para convertir la medición en una forma utilizable  
+- Una pantalla o interfaz para que el usuario interprete el valor  
 
-Different tools are used depending on the type of variable being measured, such as voltage, current, temperature, pressure, or vibration.
+Se utilizan diferentes herramientas según el tipo de variable que se mide, como voltaje, corriente, temperatura, presión o vibración.
 
-Measurements can be:
+Las mediciones pueden ser:
 
-- Instantaneous, showing real time values  
-- Recorded over time for analysis  
-- Compared against expected values to identify issues  
+- Instantáneas, mostrando valores en tiempo real  
+- Registradas a lo largo del tiempo para su análisis  
+- Comparadas con valores esperados para identificar problemas  
 
-The accuracy of the measurement depends on both the instrument and how it is used.
+La precisión de la medición depende tanto del instrumento como de cómo se utiliza.
 
-## Applications
+## Aplicaciones
 
-Measurement tools are used in:
+Las herramientas de medición se utilizan en:
 
-- Electrical troubleshooting and verification  
-- Equipment maintenance and diagnostics  
-- Commissioning and system validation  
-- Process monitoring and control  
-- Performance analysis and optimization  
+- Resolución de problemas y verificación eléctrica  
+- Mantenimiento y diagnóstico de equipos  
+- Puesta en marcha y validación de sistemas  
+- Monitoreo y control de procesos  
+- Análisis y optimización del rendimiento  
 
-They are essential in all industrial sectors and system levels.
+Son esenciales en todos los sectores industriales y niveles de sistema.
 
-## Key Considerations
+## Consideraciones clave
 
-- Accuracy and resolution must match the application  
-- Incorrect measurement methods can lead to false conclusions  
-- Environmental conditions can affect readings  
-- Proper instrument selection is critical  
-- Safety must always be considered during measurement  
+- La precisión y la resolución deben coincidir con la aplicación  
+- Los métodos de medición incorrectos pueden conducir a conclusiones erróneas  
+- Las condiciones ambientales pueden afectar las lecturas  
+- La selección adecuada del instrumento es fundamental  
+- La seguridad siempre debe considerarse durante la medición  
 
-Reliable measurements depend on both the tool and the operator.
+Las mediciones confiables dependen tanto de la herramienta como del operador.
 
-## Practical Notes
+## Notas prácticas
 
-- Always verify instrument calibration before critical measurements  
-- Use the correct tool for each type of variable  
-- Follow safe measurement practices, especially in electrical systems  
-- Understand the limitations of each instrument  
-- Cross check measurements when results are uncertain  
+- Verificar siempre la calibración del instrumento antes de mediciones críticas  
+- Utilizar la herramienta correcta para cada tipo de variable  
+- Seguir prácticas de medición seguras, especialmente en sistemas eléctricos  
+- Comprender las limitaciones de cada instrumento  
+- Contrastar las mediciones cuando los resultados sean inciertos  
 
-Measurement is the foundation for understanding, diagnosing, and improving industrial systems.
+La medición es la base para comprender, diagnosticar y mejorar los sistemas industriales.

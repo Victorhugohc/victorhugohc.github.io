@@ -1,77 +1,77 @@
-# Switchgear
+# Switchgear (celdas de media tensión)
 
-## Overview
+## Descripción general
 
-Switchgear is a group of electrical devices used to control, protect, and isolate power systems, primarily at medium voltage levels.
+El switchgear es un conjunto de dispositivos eléctricos utilizados para controlar, proteger y aislar sistemas de potencia, principalmente a niveles de media tensión.
 
-It serves as the central point for managing incoming power, distributing it to feeders, and handling fault conditions safely.
+Sirve como el punto central para gestionar la energía de entrada, distribuirla a los alimentadores y manejar las condiciones de falla de manera segura.
 
-Switchgear combines switching devices, protection systems, and control components into a coordinated assembly.
+El switchgear combina dispositivos de conmutación, sistemas de protección y componentes de control en un conjunto coordinado.
 
-## Purpose
+## Propósito
 
-The purpose of switchgear is to:
+El propósito del switchgear es:
 
-- Control the flow of electrical power within the system  
-- Protect equipment and infrastructure from faults  
-- Isolate sections of the system for maintenance or emergencies  
-- Ensure safe operation of medium voltage networks  
+- Controlar el flujo de energía eléctrica dentro del sistema  
+- Proteger el equipo y la infraestructura de fallas  
+- Aislar secciones del sistema para mantenimiento o emergencias  
+- Asegurar la operación segura de redes de media tensión  
 
-It is a critical element for system reliability and operational safety.
+Es un elemento crítico para la confiabilidad del sistema y la seguridad operativa.
 
-## How It Works
+## Cómo funciona
 
-Switchgear assemblies include several key components:
+Los conjuntos de switchgear incluyen varios componentes clave:
 
-- Circuit breakers that interrupt fault currents  
-- Disconnect switches that provide visible isolation  
-- Protection relays that detect abnormal conditions  
-- Instrument transformers for measurement and monitoring  
+- Interruptores automáticos que interrumpen corrientes de falla  
+- Interruptores de desconexión que proporcionan aislamiento visible  
+- Relevadores de protección que detectan condiciones anormales  
+- Transformadores de instrumentación para medición y monitoreo  
 
-Under normal operation, switchgear allows power to flow through feeders.
+Bajo operación normal, el switchgear permite que la energía fluya a través de los alimentadores.
 
-When a fault occurs, protection relays detect conditions such as overcurrent or short circuit and command the circuit breaker to open.
+Cuando ocurre una falla, los relevadores de protección detectan condiciones como sobrecorriente o cortocircuito y ordenan al interruptor automático que se abra.
 
-This isolates the affected section while keeping the rest of the system energized.
+Esto aísla la sección afectada mientras mantiene el resto del sistema energizado.
 
-Switchgear also allows manual or automatic switching to reconfigure the system as needed.
+El switchgear también permite conmutación manual o automática para reconfigurar el sistema según sea necesario.
 
-## Applications
+## Aplicaciones
 
-Switchgear is used in:
+El switchgear se utiliza en:
 
-- Medium voltage distribution systems in industrial plants  
-- Incoming utility connections  
-- Substations within large facilities  
-- Feeder control for different production areas  
-- Systems requiring high reliability and fault management  
+- Sistemas de distribución en media tensión en plantas industriales  
+- Conexiones de entrada del servicio público  
+- Subestaciones dentro de instalaciones grandes  
+- Control de alimentadores para diferentes áreas de producción  
+- Sistemas que requieren alta confiabilidad y gestión de fallas  
 
-It is essential wherever medium voltage power must be controlled and protected.
+Es esencial donde la energía en media tensión debe controlarse y protegerse.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Voltage and current ratings**  
-  Must match system requirements and available fault levels  
+- **Capacidades de voltaje y corriente**  
+  Deben coincidir con los requisitos del sistema y los niveles de falla disponibles  
 
-- **Interrupting capacity**  
-  Circuit breakers must be able to safely interrupt maximum fault current  
+- **Capacidad de interrupción**  
+  Los interruptores automáticos deben poder interrumpir de manera segura la corriente máxima de falla  
 
-- **Protection scheme**  
-  Proper relay selection and settings are critical for reliable operation  
+- **Esquema de protección**  
+  La selección y configuración adecuadas de relevadores son críticas para una operación confiable  
 
-- **Type of insulation**  
-  Air insulated and gas insulated designs affect size, cost, and maintenance  
+- **Tipo de aislamiento**  
+  Los diseños con aislamiento en aire y en gas afectan el tamaño, el costo y el mantenimiento  
 
-- **Arc containment**  
-  Equipment should be designed to manage internal faults safely  
+- **Contención de arco**  
+  El equipo debe estar diseñado para gestionar fallas internas de manera segura  
 
-- **Accessibility and maintenance**  
-  Layout should allow safe operation and service  
+- **Accesibilidad y mantenimiento**  
+  El diseño debe permitir operación y servicio seguros  
 
-## Practical Notes
+## Notas prácticas
 
-- Switchgear is designed for high fault energy levels and requires strict safety procedures  
-- Poor coordination or incorrect settings can cause unnecessary outages  
-- Regular testing of protection relays and breakers is essential  
-- Gas insulated switchgear reduces footprint but increases complexity  
-- Clear labeling and documentation are critical for safe operation  
+- El switchgear está diseñado para altos niveles de energía de falla y requiere procedimientos de seguridad estrictos  
+- Una coordinación deficiente o configuraciones incorrectas pueden provocar interrupciones innecesarias  
+- Las pruebas regulares de relevadores de protección e interruptores automáticos son esenciales  
+- El switchgear con aislamiento en gas reduce la huella pero aumenta la complejidad  
+- El etiquetado claro y la documentación son críticos para una operación segura  

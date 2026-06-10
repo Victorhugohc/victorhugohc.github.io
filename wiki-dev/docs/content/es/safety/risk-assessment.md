@@ -1,102 +1,102 @@
-# Risk Assessment
+# Evaluación de Riesgos
 
-## Overview
+## Descripción general
 
-Risk assessment is the process of identifying hazards, evaluating risks, and determining measures to reduce those risks to acceptable levels.
+La evaluación de riesgos es el proceso de identificar peligros, evaluar riesgos y determinar medidas para reducirlos a niveles aceptables.
 
-It is a structured approach used to ensure that industrial systems operate safely under all conditions.
+Es un enfoque estructurado utilizado para asegurar que los sistemas industriales operen de forma segura bajo todas las condiciones.
 
-Risk assessment is a key step in safety design and compliance.
+La evaluación de riesgos es un paso clave en el diseño de seguridad y el cumplimiento normativo.
 
-## Purpose
+## Propósito
 
-The purpose of risk assessment is to understand and control potential hazards.
+El propósito de la evaluación de riesgos es comprender y controlar los peligros potenciales.
 
-It is used to:
+Se utiliza para:
 
-- Identify possible sources of harm  
-- Evaluate the severity and likelihood of risks  
-- Define appropriate protective measures  
-- Ensure safe system design and operation  
+- Identificar posibles fuentes de daño  
+- Evaluar la severidad y probabilidad de los riesgos  
+- Definir medidas de protección adecuadas  
+- Asegurar un diseño y operación seguros del sistema  
 
-It provides the basis for all safety decisions.
+Proporciona la base para todas las decisiones de seguridad.
 
-## How It Works
+## Cómo funciona
 
-Risk assessment follows a systematic process.
+La evaluación de riesgos sigue un proceso sistemático.
 
-### Hazard Identification
+### Identificación de peligros
 
-Identify all potential hazards in the system.
+Identificar todos los peligros potenciales en el sistema.
 
-- Mechanical, electrical, and process related risks  
-- Human interaction with equipment  
-- Failure conditions and abnormal scenarios  
+- Riesgos mecánicos, eléctricos y relacionados con el proceso  
+- Interacción humana con el equipo  
+- Condiciones de falla y escenarios anormales  
 
-All possible situations must be considered.
+Todas las situaciones posibles deben considerarse.
 
-### Risk Evaluation
+### Evaluación de riesgos
 
-Assess each hazard based on:
+Evaluar cada peligro según:
 
-- Severity of potential harm  
-- Probability of occurrence  
-- Frequency of exposure  
+- Severidad del daño potencial  
+- Probabilidad de ocurrencia  
+- Frecuencia de exposición  
 
-This determines the level of risk.
+Esto determina el nivel de riesgo.
 
-### Risk Reduction
+### Reducción de riesgos
 
-Apply measures to reduce risk.
+Aplicar medidas para reducir el riesgo.
 
-- Eliminate hazards where possible  
-- Implement protective devices  
-- Improve system design or procedures  
+- Eliminar peligros cuando sea posible  
+- Implementar dispositivos de protección  
+- Mejorar el diseño del sistema o los procedimientos  
 
-Multiple layers of protection may be required.
+Pueden requerirse múltiples capas de protección.
 
-### Verification
+### Verificación
 
-Confirm that risk has been reduced to an acceptable level.
+Confirmar que el riesgo se ha reducido a un nivel aceptable.
 
-- Review implemented measures  
-- Validate system behavior  
+- Revisar las medidas implementadas  
+- Validar el comportamiento del sistema  
 
-Documentation is required for traceability.
+Se requiere documentación para trazabilidad.
 
-## Applications
+## Aplicaciones
 
-Risk assessment is used in all industrial systems.
+La evaluación de riesgos se utiliza en todos los sistemas industriales.
 
-Typical applications include:
+Las aplicaciones típicas incluyen:
 
-- Machine design and automation systems  
-- Process industries  
-- Electrical installations  
-- Maintenance and operation planning  
+- Diseño de maquinaria y sistemas de automatización  
+- Industrias de proceso  
+- Instalaciones eléctricas  
+- Planificación de mantenimiento y operación  
 
-It is essential for both new systems and modifications.
+Es esencial tanto para sistemas nuevos como para modificaciones.
 
-## Key Considerations
+## Consideraciones clave
 
-All operating conditions must be evaluated, including faults and maintenance.
+Todas las condiciones de operación deben evaluarse, incluyendo fallas y mantenimiento.
 
-Human factors must be considered.
+Los factores humanos deben considerarse.
 
-Risk reduction should follow a structured approach.
+La reducción de riesgos debe seguir un enfoque estructurado.
 
-Documentation is critical for compliance and future reference.
+La documentación es crítica para el cumplimiento y la referencia futura.
 
-Standards and regulations must be followed.
+Deben seguirse las normas y regulaciones.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is underestimating rare but severe risks.
+Un error común es subestimar riesgos raros pero severos.
 
-Do not rely on a single protective measure.
+No depender de una sola medida de protección.
 
-Update risk assessments when systems change.
+Actualizar las evaluaciones de riesgos cuando los sistemas cambien.
 
-Involve multiple disciplines to identify all hazards.
+Involucrar múltiples disciplinas para identificar todos los peligros.
 
-Ensure results are clearly documented and accessible.
+Asegurar que los resultados estén claramente documentados y sean accesibles.

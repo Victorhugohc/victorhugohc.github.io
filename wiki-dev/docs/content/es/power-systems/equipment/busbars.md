@@ -1,77 +1,77 @@
-# Busbars
+# Barras colectoras
 
-## Overview
+## Descripción general
 
-Busbars are conductive elements used to distribute electrical power within switchgear, switchboards, and distribution panels.
+Las barras colectoras son elementos conductores utilizados para distribuir energía eléctrica dentro de switchgear (celdas de media tensión), tableros de distribución y paneles de distribución.
 
-They provide a common connection point where multiple circuits can be supplied from a single source.
+Proporcionan un punto de conexión común donde múltiples circuitos pueden alimentarse desde una sola fuente.
 
-Busbars are designed to carry high currents with low losses and high reliability.
+Las barras colectoras están diseñadas para transportar altas corrientes con bajas pérdidas y alta confiabilidad.
 
-## Purpose
+## Propósito
 
-The purpose of busbars is to:
+El propósito de las barras colectoras es:
 
-- Distribute power efficiently within electrical equipment  
-- Provide a compact and organized alternative to multiple cables  
-- Handle high current levels with minimal voltage drop  
-- Simplify connections between incoming supply and outgoing feeders  
+- Distribuir energía de manera eficiente dentro del equipo eléctrico  
+- Proporcionar una alternativa compacta y organizada a múltiples cables  
+- Manejar altos niveles de corriente con caída de voltaje mínima  
+- Simplificar las conexiones entre el suministro de entrada y los alimentadores de salida  
 
-They form the backbone of internal power distribution in electrical assemblies.
+Forman la columna vertebral de la distribución interna de energía en los conjuntos eléctricos.
 
-## How It Works
+## Cómo funciona
 
-Busbars are typically made of copper or aluminum and are mounted inside electrical enclosures.
+Las barras colectoras típicamente están fabricadas de cobre o aluminio y se montan dentro de gabinetes eléctricos.
 
-Power enters the system and is conducted through the busbars, which act as a shared pathway for current.
+La energía ingresa al sistema y se conduce a través de las barras colectoras, que actúan como una vía compartida para la corriente.
 
-Outgoing circuits connect to the busbars through:
+Los circuitos de salida se conectan a las barras colectoras a través de:
 
-- Circuit breakers  
-- Disconnect switches  
-- Tap off points or connectors  
+- Interruptores automáticos  
+- Interruptores de desconexión  
+- Puntos de derivación o conectores  
 
-The cross sectional area of the busbar determines its current carrying capacity.
+El área de la sección transversal de la barra colectora determina su capacidad de conducción de corriente.
 
-Insulation and spacing are used to prevent short circuits between phases and to ground.
+El aislamiento y el espaciado se utilizan para prevenir cortocircuitos entre fases y a tierra.
 
-## Applications
+## Aplicaciones
 
-Busbars are used in:
+Las barras colectoras se utilizan en:
 
-- Switchgear assemblies  
-- Switchboards and distribution panels  
-- Motor control centers  
-- Power distribution units  
-- High current connections between equipment  
+- Conjuntos de switchgear (celdas de media tensión)  
+- Tableros de distribución y paneles de distribución  
+- Centros de control de motores  
+- Unidades de distribución de energía  
+- Conexiones de alta corriente entre equipos  
 
-They are commonly found wherever multiple circuits need to be supplied from a central point.
+Se encuentran comúnmente donde múltiples circuitos necesitan alimentarse desde un punto central.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Material selection**  
-  Copper offers higher conductivity and smaller size  
-  Aluminum reduces cost but requires larger sections  
+- **Selección de material**  
+  El cobre ofrece mayor conductividad y menor tamaño  
+  El aluminio reduce el costo pero requiere secciones más grandes  
 
-- **Current capacity**  
-  Must be sized based on load current and temperature rise limits  
+- **Capacidad de corriente**  
+  Debe dimensionarse según la corriente de carga y los límites de elevación de temperatura  
 
-- **Thermal performance**  
-  Heat dissipation depends on installation, ventilation, and grouping  
+- **Desempeño térmico**  
+  La disipación de calor depende de la instalación, la ventilación y la agrupación  
 
-- **Short circuit strength**  
-  Busbars must withstand mechanical forces during fault conditions  
+- **Resistencia al cortocircuito**  
+  Las barras colectoras deben soportar las fuerzas mecánicas durante condiciones de falla  
 
-- **Insulation and spacing**  
-  Critical to prevent phase to phase and phase to ground faults  
+- **Aislamiento y espaciado**  
+  Críticos para prevenir fallas fase a fase y fase a tierra  
 
-- **Installation method**  
-  Rigid bars or insulated busbar systems affect flexibility and safety  
+- **Método de instalación**  
+  Las barras rígidas o los sistemas de barras aisladas afectan la flexibilidad y la seguridad  
 
-## Practical Notes
+## Notas prácticas
 
-- Loose connections are a common cause of overheating and failure  
-- Surface oxidation can increase resistance, especially in aluminum  
-- Proper support is required to withstand electromagnetic forces during faults  
-- Compact busbar systems improve space usage but require careful design  
-- Regular inspection helps detect hotspots and connection issues early  
+- Las conexiones flojas son una causa común de sobrecalentamiento y falla  
+- La oxidación superficial puede aumentar la resistencia, especialmente en aluminio  
+- Se requiere soporte adecuado para soportar las fuerzas electromagnéticas durante fallas  
+- Los sistemas compactos de barras colectoras mejoran el uso del espacio pero requieren un diseño cuidadoso  
+- La inspección regular ayuda a detectar puntos calientes y problemas de conexión de forma temprana  

@@ -1,69 +1,69 @@
-# Secure Remote Access
+# Acceso remoto seguro
 
-## Overview
+## Descripción general
 
-Secure remote access allows authorized users to connect to industrial systems from outside the local network while maintaining controlled and protected communication.
+El acceso remoto seguro permite a usuarios autorizados conectarse a sistemas industriales desde fuera de la red local, manteniendo una comunicación controlada y protegida.
 
-It is commonly used for maintenance, monitoring, and troubleshooting. Without proper security, remote access becomes a major entry point for cyber threats.
+Se utiliza comúnmente para mantenimiento, monitoreo y resolución de problemas. Sin una seguridad adecuada, el acceso remoto se convierte en un punto importante de entrada para amenazas cibernéticas.
 
-## Purpose
+## Propósito
 
-The purpose of secure remote access is to:
+El propósito del acceso remoto seguro es:
 
-- Enable remote support and diagnostics  
-- Reduce the need for on site intervention  
-- Maintain controlled access to critical systems  
-- Protect systems from unauthorized external connections  
+- Permitir soporte y diagnóstico remoto  
+- Reducir la necesidad de intervención en sitio  
+- Mantener un acceso controlado a sistemas críticos  
+- Proteger los sistemas de conexiones externas no autorizadas  
 
-It provides operational flexibility without compromising system security.
+Proporciona flexibilidad operativa sin comprometer la seguridad del sistema.
 
-## How It Works
+## Cómo funciona
 
-Secure remote access is implemented by creating controlled communication paths between external users and internal systems.
+El acceso remoto seguro se implementa mediante la creación de rutas de comunicación controladas entre usuarios externos y sistemas internos.
 
-This typically involves:
+Esto generalmente implica:
 
-- Authentication to verify user identity  
-- Encrypted communication to protect data in transit  
-- Access control to limit what the user can reach  
-- Network boundaries that isolate remote connections  
+- Autenticación para verificar la identidad del usuario  
+- Comunicación cifrada para proteger los datos en tránsito  
+- Control de acceso para limitar a qué puede acceder el usuario  
+- Límites de red que aíslan las conexiones remotas  
 
-Common implementations include:
+Las implementaciones comunes incluyen:
 
-- Virtual private networks that create secure tunnels  
-- Dedicated remote access gateways  
-- Jump servers that act as controlled entry points  
+- Redes privadas virtuales (VPN) que crean túneles seguros  
+- Gateways dedicados de acceso remoto  
+- Jump servers que actúan como puntos de entrada controlados  
 
-The goal is to ensure that remote users only access what is necessary and nothing more.
+El objetivo es asegurar que los usuarios remotos solo accedan a lo necesario y nada más.
 
-## Applications
+## Aplicaciones
 
-Secure remote access is used in:
+El acceso remoto seguro se utiliza en:
 
-- Remote maintenance of PLC and control systems  
-- Vendor support for equipment and automation systems  
-- Monitoring of distributed facilities  
-- Access to SCADA or engineering workstations  
-- Troubleshooting without physical presence  
+- Mantenimiento remoto de PLC y sistemas de control  
+- Soporte de proveedores para equipos y sistemas de automatización  
+- Monitoreo de instalaciones distribuidas  
+- Acceso a sistemas SCADA o estaciones de ingeniería  
+- Resolución de problemas sin presencia física  
 
-It is essential in modern systems with distributed operations.
+Es esencial en sistemas modernos con operaciones distribuidas.
 
-## Key Considerations
+## Consideraciones clave
 
-- Use strong authentication methods  
-- Limit access to specific systems and functions  
-- Avoid direct exposure of control devices to external networks  
-- Monitor and log all remote sessions  
-- Ensure remote access does not bypass network segmentation  
+- Usar métodos de autenticación robustos  
+- Limitar el acceso a sistemas y funciones específicas  
+- Evitar la exposición directa de dispositivos de control a redes externas  
+- Monitorear y registrar todas las sesiones remotas  
+- Asegurar que el acceso remoto no evite la segmentación de red  
 
-Remote access must be tightly controlled to prevent it from becoming a vulnerability.
+El acceso remoto debe controlarse estrictamente para evitar que se convierta en una vulnerabilidad.
 
-## Practical Notes
+## Notas prácticas
 
-- Disable remote access when it is not required  
-- Avoid shared accounts for remote connections  
-- Use time limited access whenever possible  
-- Separate remote access networks from core control networks  
-- Regularly review active connections and permissions  
+- Deshabilitar el acceso remoto cuando no sea necesario  
+- Evitar cuentas compartidas para conexiones remotas  
+- Usar accesos con tiempo limitado siempre que sea posible  
+- Separar las redes de acceso remoto de las redes principales de control  
+- Revisar periódicamente las conexiones activas y permisos  
 
-Secure remote access should be treated as a controlled exception, not a permanent open path.
+El acceso remoto seguro debe tratarse como una excepción controlada, no como un acceso permanente abierto.

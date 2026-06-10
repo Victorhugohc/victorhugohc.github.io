@@ -1,99 +1,99 @@
-# Control Panels
+# Tableros de Control
 
-## Overview
+## Descripción general
 
-A control panel is an enclosure that houses electrical and control components used to operate and protect industrial systems.
+Un tablero de control es un gabinete que alberga componentes eléctricos y de control utilizados para operar y proteger sistemas industriales.
 
-It serves as the central point where power distribution, control logic, and signal interfaces are integrated.
+Sirve como el punto central donde se integran la distribución de energía, la lógica de control y las interfaces de señal.
 
-Control panels organize and protect components while providing a structured environment for system operation.
+Los tableros de control organizan y protegen los componentes, proporcionando un entorno estructurado para la operación del sistema.
 
-## Purpose
+## Propósito
 
-The purpose of a control panel is to provide a safe, organized, and reliable platform for controlling industrial equipment.
+El propósito de un tablero de control es proporcionar una plataforma segura, organizada y confiable para el control de equipos industriales.
 
-It is used to:
+Se utiliza para:
 
-- Distribute electrical power  
-- House control devices such as PLCs and relays  
-- Interface with field devices  
-- Protect components from environmental conditions  
+- Distribuir energía eléctrica  
+- Alojar dispositivos de control como PLCs y relevadores  
+- Interfaz con dispositivos de campo  
+- Proteger componentes contra condiciones ambientales  
 
-A properly designed panel ensures safe and efficient system operation.
+Un tablero bien diseñado asegura una operación segura y eficiente del sistema.
 
-## How It Works
+## Cómo funciona
 
-A control panel integrates multiple electrical and control elements into a single system.
+Un tablero de control integra múltiples elementos eléctricos y de control en un solo sistema.
 
-### Power Distribution
+### Distribución de energía
 
-Incoming power is distributed to components.
+La energía de entrada se distribuye a los componentes.
 
-- Circuit breakers and protection devices manage power flow  
-- Power supplies convert voltage for control systems  
+- Interruptores automáticos y dispositivos de protección gestionan el flujo de energía  
+- Fuentes de alimentación convierten el voltaje para sistemas de control  
 
-This ensures proper operation and protection.
+Esto asegura una operación adecuada y protección.
 
-### Control System Integration
+### Integración del sistema de control
 
-Control devices are installed inside the panel.
+Los dispositivos de control se instalan dentro del tablero.
 
-- PLCs and controllers execute logic  
-- Relays and contactors control loads  
+- PLCs y controladores ejecutan la lógica  
+- Relevadores y contactores controlan las cargas  
 
-These components manage system behavior.
+Estos componentes gestionan el comportamiento del sistema.
 
-### Signal Interface
+### Interfaz de señales
 
-The panel connects to field devices.
+El tablero se conecta con dispositivos de campo.
 
-- Inputs from sensors  
-- Outputs to actuators  
+- Entradas desde sensores  
+- Salidas hacia actuadores  
 
-Terminal blocks and wiring provide structured connections.
+Las borneras y el cableado proporcionan conexiones organizadas.
 
-### Protection and Enclosure
+### Protección y gabinete
 
-The enclosure protects internal components.
+El gabinete protege los componentes internos.
 
-- Shields against dust, moisture, and mechanical damage  
-- Provides electrical safety  
+- Protege contra polvo, humedad y daños mecánicos  
+- Proporciona seguridad eléctrica  
 
-Environmental protection is critical for reliability.
+La protección ambiental es clave para la confiabilidad.
 
-## Applications
+## Aplicaciones
 
-Control panels are used in all industrial systems.
+Los tableros de control se utilizan en todos los sistemas industriales.
 
-Typical applications include:
+Aplicaciones típicas incluyen:
 
-- Machine control systems  
-- Production lines  
-- Process control systems  
-- Power distribution and motor control  
+- Sistemas de control de maquinaria  
+- Líneas de producción  
+- Sistemas de control de procesos  
+- Distribución de energía y control de motores  
 
-They are essential in any system requiring organized control and protection.
+Son esenciales en cualquier sistema que requiera control y protección organizados.
 
-## Key Considerations
+## Consideraciones clave
 
-Panel size must accommodate all components and allow space for wiring.
+El tamaño del tablero debe acomodar todos los componentes y permitir espacio para cableado.
 
-Heat dissipation must be managed to prevent overheating.
+La disipación de calor debe gestionarse para evitar sobrecalentamiento.
 
-Component layout affects accessibility and maintenance.
+La distribución de componentes afecta la accesibilidad y el mantenimiento.
 
-Environmental conditions determine enclosure type and rating.
+Las condiciones ambientales determinan el tipo y grado de protección del gabinete.
 
-Compliance with standards is required for safety and reliability.
+El cumplimiento de normas es necesario para seguridad y confiabilidad.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is underestimating space requirements. Always allow room for wiring and future expansion.
+Un error común es subestimar el espacio requerido. Siempre deja margen para cableado y expansión futura.
 
-Keep power and control circuits separated to reduce interference.
+Mantén separados los circuitos de potencia y control para reducir interferencias.
 
-Label all components and wiring clearly.
+Etiqueta claramente todos los componentes y cableado.
 
-Plan for maintenance access when arranging components.
+Considera el acceso para mantenimiento al organizar los componentes.
 
-Verify panel design before assembly to avoid rework.
+Verifica el diseño del tablero antes del ensamblaje para evitar retrabajos.

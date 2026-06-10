@@ -1,80 +1,80 @@
-# Renewable Integration
+# Integración de energías renovables
 
-## Overview
+## Descripción general
 
-Renewable integration refers to incorporating energy sources such as solar or wind into industrial power systems.
+La integración de energías renovables se refiere a incorporar fuentes como solar o eólica en sistemas eléctricos industriales.
 
-These sources generate electrical energy without relying on conventional fuels, but their output can be variable and dependent on environmental conditions.
+Estas fuentes generan energía sin depender de combustibles convencionales, pero su producción puede ser variable y dependiente de condiciones ambientales.
 
-Integrating renewables requires coordination with existing power systems to ensure stable and reliable operation.
+Integrarlas requiere coordinación con los sistemas eléctricos existentes para asegurar una operación estable y confiable.
 
-## Purpose
+## Propósito
 
-The purpose of renewable integration is to:
+El propósito de la integración de energías renovables es:
 
-- Reduce dependence on grid supplied or fossil based energy  
-- Lower operating costs over time  
-- Decrease environmental impact  
-- Improve energy resilience and diversification  
-- Support sustainability goals  
+- Reducir la dependencia de la red eléctrica o de combustibles fósiles  
+- Disminuir costos operativos a largo plazo  
+- Reducir el impacto ambiental  
+- Mejorar la resiliencia y diversificación energética  
+- Apoyar objetivos de sostenibilidad  
 
-Proper integration allows renewable sources to complement existing systems.
+Una integración adecuada permite que las fuentes renovables complementen los sistemas existentes.
 
-## How It Works
+## Cómo funciona
 
-Renewable energy systems generate power locally and connect to the facility electrical system.
+Los sistemas de energía renovable generan electricidad localmente y se conectan al sistema eléctrico de la instalación.
 
-Common configurations include:
+Las configuraciones comunes incluyen:
 
-- Grid connected systems that operate alongside utility supply  
-- Systems that supply part of the facility load  
-- Systems with energy storage to manage variability  
+- Sistemas conectados a la red (*grid-tied*) que operan junto con el suministro eléctrico  
+- Sistemas que abastecen una parte de la carga de la instalación  
+- Sistemas con almacenamiento de energía para gestionar la variabilidad  
 
-Key elements include:
+Los elementos clave incluyen:
 
-- Generation source such as solar panels or wind turbines  
-- Power conversion equipment such as inverters  
-- Protection and control systems  
-- Connection to the distribution system  
+- Fuente de generación como paneles solares o aerogeneradores  
+- Equipos de conversión de potencia como inversores  
+- Sistemas de protección y control  
+- Conexión al sistema de distribución  
 
-Because renewable output varies, the system must balance generation and demand in real time.
+Debido a la variabilidad de la generación, el sistema debe equilibrar en tiempo real la oferta y la demanda de energía.
 
-## Applications
+## Aplicaciones
 
-Renewable integration is used in:
+La integración de energías renovables se utiliza en:
 
-- Industrial facilities with high energy consumption  
-- Sites with available space for solar or wind installations  
-- Facilities aiming to reduce energy costs and emissions  
-- Remote or off grid operations  
-- Hybrid systems combining grid, generation, and storage  
+- Instalaciones industriales con alto consumo energético  
+- Sitios con espacio disponible para sistemas solares o eólicos  
+- Instalaciones que buscan reducir costos y emisiones  
+- Operaciones remotas o fuera de la red (*off-grid*)  
+- Sistemas híbridos que combinan red, generación y almacenamiento  
 
-It is increasingly common in modern industrial design.
+Es cada vez más común en el diseño industrial moderno.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Generation variability**  
-  Output depends on environmental conditions and is not constant  
+- **Variabilidad de generación**  
+  La producción depende de condiciones ambientales y no es constante  
 
-- **System capacity**  
-  Must be sized based on load profile and available resources  
+- **Capacidad del sistema**  
+  Debe dimensionarse según el perfil de carga y recursos disponibles  
 
-- **Grid interaction**  
-  Coordination with utility supply affects operation and protection  
+- **Interacción con la red**  
+  La coordinación con el suministro eléctrico afecta operación y protección  
 
-- **Energy storage**  
-  Batteries can help manage fluctuations and improve stability  
+- **Almacenamiento de energía**  
+  Las baterías ayudan a gestionar fluctuaciones y mejorar estabilidad  
 
-- **Power quality**  
-  Inverters and switching can introduce harmonics or disturbances  
+- **Calidad de energía**  
+  Los inversores pueden introducir armónicos o perturbaciones  
 
-- **Protection and control**  
-  Systems must safely handle bidirectional power flow  
+- **Protección y control**  
+  El sistema debe manejar de forma segura flujos de energía bidireccionales  
 
-## Practical Notes
+## Notas prácticas
 
-- Solar generation is the most common option in industrial facilities  
-- Peak renewable generation may not match peak load demand  
-- Energy storage improves reliability but increases cost  
-- Proper integration avoids backfeed and protection issues  
-- Long term benefits depend on correct sizing and system design  
+- La generación solar es la opción más común en instalaciones industriales  
+- La generación renovable máxima puede no coincidir con la demanda máxima  
+- El almacenamiento mejora la confiabilidad, pero incrementa el costo  
+- Una integración adecuada evita problemas de protección y retroalimentación (*backfeed*)  
+- Los beneficios a largo plazo dependen de un correcto dimensionamiento y diseño del sistema  

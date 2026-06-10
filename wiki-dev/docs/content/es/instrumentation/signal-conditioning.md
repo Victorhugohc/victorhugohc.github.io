@@ -1,106 +1,106 @@
-# Signal Conditioning
+# Acondicionamiento de señal
 
-## Overview
+## Descripción general
 
-Signal conditioning is the process of modifying and preparing signals from field instruments before they are used by control systems.
+El acondicionamiento de señal es el proceso de modificar y preparar señales de instrumentos de campo antes de que sean utilizadas por los sistemas de control.
 
-It ensures that signals are accurate, stable, and compatible with the input requirements of controllers.
+Asegura que las señales sean precisas, estables y compatibles con los requisitos de entrada de los controladores.
 
-## Purpose
+## Propósito
 
-The purpose of signal conditioning is to improve signal quality and reliability.
+El propósito del acondicionamiento de señal es mejorar la calidad y la confiabilidad de la señal.
 
-It is used to:
+Se utiliza para:
 
-- Adjust signal levels  
-- Filter noise and interference  
-- Isolate circuits  
-- Convert signal types  
+- Ajustar los niveles de señal  
+- Filtrar ruido e interferencia  
+- Aislar circuitos  
+- Convertir tipos de señal  
 
-Proper conditioning ensures that measurements are correctly interpreted by the control system.
+Un acondicionamiento adecuado asegura que las mediciones sean interpretadas correctamente por el sistema de control.
 
-## How It Works
+## Cómo funciona
 
-Signal conditioning involves different operations depending on the type of signal and application.
+El acondicionamiento de señal involucra diferentes operaciones dependiendo del tipo de señal y la aplicación.
 
-### Amplification and Scaling
+### Amplificación y escalamiento
 
-Signals may need to be adjusted to match the input range of the receiving device.
+Las señales pueden necesitar ajustarse para coincidir con el rango de entrada del dispositivo receptor.
 
-- Increase low level signals  
-- Scale signals to standard ranges such as 4 to 20 mA or 0 to 10 V  
+- Aumentar señales de bajo nivel  
+- Escalar señales a rangos estándar tales como 4 a 20 mA o 0 a 10 V  
 
-This ensures proper resolution and accuracy.
+Esto asegura una resolución y precisión adecuadas.
 
-### Filtering
+### Filtrado
 
-Noise and unwanted variations are removed from the signal.
+El ruido y las variaciones no deseadas se eliminan de la señal.
 
-- Low pass filters reduce high frequency noise  
-- Smoothing improves signal stability  
+- Los filtros paso bajo reducen el ruido de alta frecuencia  
+- El suavizado mejora la estabilidad de la señal  
 
-Filtering improves measurement reliability.
+El filtrado mejora la confiabilidad de la medición.
 
-### Isolation
+### Aislamiento
 
-Electrical isolation protects equipment and improves signal integrity.
+El aislamiento eléctrico protege el equipo y mejora la integridad de la señal.
 
-- Prevents ground loops  
-- Protects against voltage spikes  
-- Separates different electrical circuits  
+- Previene lazos de tierra  
+- Protege contra picos de voltaje  
+- Separa diferentes circuitos eléctricos  
 
-Isolation is critical in industrial environments.
+El aislamiento es crítico en entornos industriales.
 
-### Signal Conversion
+### Conversión de señal
 
-Signals may be converted from one type to another.
+Las señales pueden convertirse de un tipo a otro.
 
-- Current to voltage or voltage to current  
-- Analog to digital or digital to analog  
-- Frequency or pulse to analog signals  
+- Corriente a voltaje o voltaje a corriente  
+- Analógica a digital o digital a analógica  
+- Frecuencia o pulso a señales analógicas  
 
-This allows compatibility between devices.
+Esto permite compatibilidad entre dispositivos.
 
-### Linearization
+### Linealización
 
-Some sensors produce non linear signals.
+Algunos sensores producen señales no lineales.
 
-- Signal conditioning can correct this  
-- Output becomes proportional to the measured variable  
+- El acondicionamiento de señal puede corregir esto  
+- La salida se vuelve proporcional a la variable medida  
 
-This simplifies processing in the control system.
+Esto simplifica el procesamiento en el sistema de control.
 
-## Applications
+## Aplicaciones
 
-Signal conditioning is used wherever signals require adjustment or protection.
+El acondicionamiento de señal se utiliza dondequiera que las señales requieran ajuste o protección.
 
-Typical applications include:
+Las aplicaciones típicas incluyen:
 
-- Connecting sensors to PLC analog inputs  
-- Improving signal quality in noisy environments  
-- Integrating different types of instruments  
-- Protecting control systems from electrical disturbances  
+- Conectar sensores a entradas analógicas del PLC  
+- Mejorar la calidad de señal en entornos ruidosos  
+- Integrar diferentes tipos de instrumentos  
+- Proteger los sistemas de control de perturbaciones eléctricas  
 
-## Key Considerations
+## Consideraciones clave
 
-Signal type and range must match the requirements of the control system.
+El tipo y el rango de señal deben coincidir con los requisitos del sistema de control.
 
-Noise environment determines the need for filtering and shielding.
+El entorno de ruido determina la necesidad de filtrado y blindaje.
 
-Isolation is important in systems with different ground references.
+El aislamiento es importante en sistemas con diferentes referencias de tierra.
 
-Response time must be considered. Excessive filtering can slow down signals.
+Debe considerarse el tiempo de respuesta. Un filtrado excesivo puede ralentizar las señales.
 
-Accuracy of conditioning devices affects overall system performance.
+La precisión de los dispositivos de acondicionamiento afecta el desempeño general del sistema.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is connecting signals directly without conditioning. This can lead to inaccurate readings or equipment damage.
+Un error común es conectar señales directamente sin acondicionamiento. Esto puede llevar a lecturas inexactas o daño al equipo.
 
-Avoid excessive filtering that delays system response.
+Evite un filtrado excesivo que retrase la respuesta del sistema.
 
-Use isolation when connecting devices with different power sources.
+Utilice aislamiento al conectar dispositivos con diferentes fuentes de alimentación.
 
-Verify signal levels before connecting to the PLC.
+Verifique los niveles de señal antes de conectar al PLC.
 
-Document all signal conversions and scaling to simplify maintenance.
+Documente todas las conversiones y escalamientos de señal para simplificar el mantenimiento.

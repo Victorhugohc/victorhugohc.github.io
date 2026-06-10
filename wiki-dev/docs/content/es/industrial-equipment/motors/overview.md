@@ -1,76 +1,76 @@
-# Motors
+# Motores
 
-## Overview
+## Descripción general
 
-Electric motors are devices that convert electrical energy into mechanical motion.
+Los motores eléctricos son dispositivos que convierten energía eléctrica en movimiento mecánico.
 
-They are one of the most widely used components in industrial systems, powering equipment such as pumps, fans, conveyors, compressors, and machine tools.
+Son uno de los componentes más ampliamente utilizados en sistemas industriales, alimentando equipos como bombas, ventiladores, transportadores, compresores y máquinas herramienta.
 
-Motors are responsible for a large portion of total energy consumption in industrial facilities.
+Los motores son responsables de una gran porción del consumo total de energía en instalaciones industriales.
 
-## Purpose
+## Propósito
 
-The purpose of electric motors is to:
+El propósito de los motores eléctricos es:
 
-- Provide mechanical movement and force  
-- Drive industrial processes and machinery  
-- Enable automation and continuous operation  
-- Convert electrical power into usable mechanical work  
+- Proporcionar movimiento mecánico y fuerza  
+- Accionar procesos industriales y maquinaria  
+- Habilitar automatización y operación continua  
+- Convertir potencia eléctrica en trabajo mecánico utilizable  
 
-Motors are essential for transforming electrical energy into productive output.
+Los motores son esenciales para transformar energía eléctrica en producción útil.
 
-## How It Works
+## Cómo funciona
 
-Electric motors operate based on electromagnetic principles.
+Los motores eléctricos operan basándose en principios electromagnéticos.
 
-When electrical current flows through windings, it creates a magnetic field.
+Cuando la corriente eléctrica fluye a través de los devanados, crea un campo magnético.
 
-This magnetic field interacts with another magnetic field, producing a force that causes rotation.
+Este campo magnético interactúa con otro campo magnético, produciendo una fuerza que causa rotación.
 
-The main elements involved are:
+Los elementos principales involucrados son:
 
-- Stator, which generates a magnetic field  
-- Rotor, which rotates due to electromagnetic interaction  
-- Air gap between stator and rotor where the magnetic field acts  
+- Estator, que genera un campo magnético  
+- Rotor, que gira debido a la interacción electromagnética  
+- Entrehierro entre estator y rotor donde actúa el campo magnético  
 
-Different motor designs use different methods to generate and control this interaction, resulting in various performance characteristics.
+Los diferentes diseños de motores utilizan distintos métodos para generar y controlar esta interacción, resultando en diversas características de desempeño.
 
-## Applications
+## Aplicaciones
 
-Electric motors are used in:
+Los motores eléctricos se utilizan en:
 
-- Pumps, fans, and compressors  
-- Conveyor systems and material handling  
-- Machine tools and manufacturing equipment  
-- HVAC systems and building services  
-- Robotics and automated systems  
+- Bombas, ventiladores y compresores  
+- Sistemas de transportadores y manejo de materiales  
+- Máquinas herramienta y equipos de manufactura  
+- Sistemas HVAC y servicios de edificios  
+- Robótica y sistemas automatizados  
 
-They are present in almost every industrial process.
+Están presentes en casi todos los procesos industriales.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Power and torque requirements**  
-  Must match the mechanical load  
+- **Requerimientos de potencia y torque**  
+  Deben coincidir con la carga mecánica  
 
-- **Speed characteristics**  
-  Fixed or variable speed depending on application  
+- **Características de velocidad**  
+  Velocidad fija o variable según la aplicación  
 
-- **Starting method**  
-  Impacts electrical system and mechanical stress  
+- **Método de arranque**  
+  Impacta el sistema eléctrico y el estrés mecánico  
 
-- **Efficiency**  
-  Affects energy consumption and operating cost  
+- **Eficiencia**  
+  Afecta el consumo de energía y el costo de operación  
 
-- **Duty cycle**  
-  Continuous or intermittent operation influences selection  
+- **Ciclo de trabajo**  
+  La operación continua o intermitente influye en la selección  
 
-- **Environmental conditions**  
-  Temperature, dust, and moisture affect motor design  
+- **Condiciones ambientales**  
+  La temperatura, el polvo y la humedad afectan el diseño del motor  
 
-## Practical Notes
+## Notas prácticas
 
-- Motors account for a significant portion of industrial energy use  
-- Incorrect sizing leads to inefficiency or reduced lifespan  
-- Variable speed control improves performance and efficiency in many applications  
-- Proper alignment and installation are critical for reliable operation  
-- Maintenance practices directly impact motor performance and durability  
+- Los motores representan una porción significativa del uso de energía industrial  
+- Un dimensionamiento incorrecto provoca ineficiencia o vida útil reducida  
+- El control de velocidad variable mejora el desempeño y la eficiencia en muchas aplicaciones  
+- La alineación e instalación adecuadas son críticas para operación confiable  
+- Las prácticas de mantenimiento impactan directamente el desempeño y la durabilidad del motor  

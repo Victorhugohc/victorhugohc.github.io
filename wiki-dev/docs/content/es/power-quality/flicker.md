@@ -1,81 +1,81 @@
-# Flicker
+# Parpadeo
 
-## Overview
+## Descripción general
 
-Flicker is a visible fluctuation in lighting intensity caused by rapid changes in voltage.
+El parpadeo es una fluctuación visible en la intensidad de la iluminación causada por cambios rápidos en el voltaje.
 
-It is a power quality issue that affects human perception and can indicate instability in the electrical system.
+Es un problema de calidad de energía que afecta la percepción humana y puede indicar inestabilidad en el sistema eléctrico.
 
-Flicker is typically associated with repetitive or fluctuating loads that cause small but frequent voltage variations.
+El parpadeo se asocia típicamente con cargas repetitivas o fluctuantes que provocan variaciones de voltaje pequeñas pero frecuentes.
 
-## Purpose
+## Propósito
 
-Understanding flicker is important to:
+Comprender el parpadeo es importante para:
 
-- Maintain acceptable lighting conditions for personnel  
-- Prevent discomfort and visual fatigue  
-- Identify unstable load behavior in the system  
-- Improve overall power quality  
+- Mantener condiciones de iluminación aceptables para el personal  
+- Prevenir molestias y fatiga visual  
+- Identificar comportamiento inestable de las cargas en el sistema  
+- Mejorar la calidad de energía general  
 
-Even small voltage variations can become noticeable when they occur repeatedly.
+Incluso pequeñas variaciones de voltaje pueden volverse perceptibles cuando ocurren de forma repetida.
 
-## How It Works
+## Cómo funciona
 
-Flicker occurs when voltage fluctuates over time due to varying current demand.
+El parpadeo ocurre cuando el voltaje fluctúa con el tiempo debido a la demanda variable de corriente.
 
-These fluctuations cause corresponding changes in light output, especially in lighting systems sensitive to voltage variations.
+Estas fluctuaciones provocan cambios correspondientes en la salida de luz, especialmente en sistemas de iluminación sensibles a las variaciones de voltaje.
 
-Common sources include:
+Las fuentes comunes incluyen:
 
-- Equipment with rapidly changing loads  
-- Starting and stopping of large motors  
-- Arc furnaces and welding equipment  
-- Cyclic industrial processes  
+- Equipos con cargas que cambian rápidamente  
+- Arranque y parada de motores de gran tamaño  
+- Hornos de arco y equipos de soldadura  
+- Procesos industriales cíclicos  
 
-The severity of flicker depends on:
+La severidad del parpadeo depende de:
 
-- Magnitude of voltage variation  
-- Frequency of the fluctuations  
-- Sensitivity of the lighting system  
+- Magnitud de la variación de voltaje  
+- Frecuencia de las fluctuaciones  
+- Sensibilidad del sistema de iluminación  
 
-Human perception plays a key role in how flicker is experienced.
+La percepción humana desempeña un papel clave en cómo se experimenta el parpadeo.
 
-## Applications
+## Aplicaciones
 
-Flicker considerations are important in:
+Las consideraciones sobre parpadeo son importantes en:
 
-- Industrial plants with fluctuating loads  
-- Facilities with sensitive lighting requirements  
-- Areas where personnel are continuously present  
-- Installations with large motor starting cycles  
-- Systems with welding or heating processes  
+- Plantas industriales con cargas fluctuantes  
+- Instalaciones con requisitos de iluminación sensibles  
+- Áreas donde el personal está presente de forma continua  
+- Instalaciones con ciclos de arranque de motores de gran tamaño  
+- Sistemas con procesos de soldadura o calentamiento  
 
-It is relevant wherever voltage variations affect visible lighting.
+Es relevante dondequiera que las variaciones de voltaje afecten la iluminación visible.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Voltage variation level**  
-  Larger variations increase flicker severity  
+- **Nivel de variación de voltaje**  
+  Variaciones mayores incrementan la severidad del parpadeo  
 
-- **Frequency of fluctuation**  
-  Certain frequencies are more noticeable to the human eye  
+- **Frecuencia de fluctuación**  
+  Ciertas frecuencias son más perceptibles para el ojo humano  
 
-- **Load behavior**  
-  Rapid and repetitive changes create more visible flicker  
+- **Comportamiento de la carga**  
+  Cambios rápidos y repetitivos generan un parpadeo más visible  
 
-- **Lighting type**  
-  Some lighting technologies are more sensitive than others  
+- **Tipo de iluminación**  
+  Algunas tecnologías de iluminación son más sensibles que otras  
 
-- **System strength**  
-  Stronger systems experience smaller voltage fluctuations  
+- **Robustez del sistema**  
+  Los sistemas más robustos experimentan fluctuaciones de voltaje menores  
 
-- **Mitigation methods**  
-  Equipment and system design can reduce flicker impact  
+- **Métodos de mitigación**  
+  El diseño del equipo y del sistema puede reducir el impacto del parpadeo  
 
-## Practical Notes
+## Notas prácticas
 
-- Flicker is often more noticeable than other power quality issues  
-- Large fluctuating loads are the main cause in industrial systems  
-- LED and electronic lighting can respond differently to voltage changes  
-- Separating sensitive lighting circuits from heavy loads reduces impact  
-- Monitoring helps identify sources and patterns of flicker  
+- El parpadeo suele ser más perceptible que otros problemas de calidad de energía  
+- Las cargas fluctuantes de gran tamaño son la causa principal en sistemas industriales  
+- La iluminación LED y electrónica puede responder de forma diferente a los cambios de voltaje  
+- Separar los circuitos de iluminación sensibles de las cargas pesadas reduce el impacto  
+- El monitoreo ayuda a identificar fuentes y patrones de parpadeo  

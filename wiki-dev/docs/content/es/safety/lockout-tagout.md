@@ -1,119 +1,119 @@
-# Lockout Tagout
+# Bloqueo y Etiquetado
 
-## Overview
+## Descripción general
 
-Lockout Tagout is a safety procedure used to ensure that machines and equipment are properly shut down and cannot be restarted during maintenance or servicing.
+El bloqueo y etiquetado (LOTO) es un procedimiento de seguridad utilizado para asegurar que las máquinas y el equipo estén correctamente apagados y no puedan reiniciarse durante el mantenimiento o la reparación.
 
-It involves isolating energy sources and applying locks and tags to prevent accidental operation.
+Implica aislar las fuentes de energía y aplicar candados y etiquetas para prevenir la operación accidental.
 
-This procedure is essential to protect personnel working on equipment.
+Este procedimiento es esencial para proteger al personal que trabaja en el equipo.
 
-## Purpose
+## Propósito
 
-The purpose of Lockout Tagout is to prevent unexpected energization or release of hazardous energy.
+El propósito del bloqueo y etiquetado es prevenir la energización inesperada o la liberación de energía peligrosa.
 
-It is used to:
+Se utiliza para:
 
-- Protect maintenance personnel  
-- Ensure equipment remains in a safe state  
-- Prevent accidental startup  
-- Control hazardous energy sources  
+- Proteger al personal de mantenimiento  
+- Asegurar que el equipo permanezca en un estado seguro  
+- Prevenir el arranque accidental  
+- Controlar las fuentes de energía peligrosa  
 
-It is a critical part of safe maintenance practices.
+Es una parte crítica de las prácticas seguras de mantenimiento.
 
-## How It Works
+## Cómo funciona
 
-Lockout Tagout follows a defined sequence to isolate and secure equipment.
+El bloqueo y etiquetado sigue una secuencia definida para aislar y asegurar el equipo.
 
-### Shutdown
+### Apagado
 
-The equipment is turned off using normal operating controls.
+El equipo se apaga utilizando los controles de operación normales.
 
-- Stop the machine  
-- Ensure all moving parts have ceased operation  
+- Detener la máquina  
+- Asegurar que todas las partes móviles hayan cesado su operación  
 
-This prepares the system for isolation.
+Esto prepara el sistema para el aislamiento.
 
-### Isolation of Energy Sources
+### Aislamiento de fuentes de energía
 
-All energy sources are disconnected.
+Todas las fuentes de energía se desconectan.
 
-- Electrical power  
-- Mechanical energy  
-- Hydraulic or pneumatic pressure  
+- Energía eléctrica  
+- Energía mecánica  
+- Presión hidráulica o neumática  
 
-Each source must be identified and isolated.
+Cada fuente debe identificarse y aislarse.
 
-### Lockout
+### Bloqueo
 
-Locks are applied to isolation devices.
+Se aplican candados a los dispositivos de aislamiento.
 
-- Prevent reactivation of energy sources  
-- Each worker applies their own lock  
+- Previenen la reactivación de las fuentes de energía  
+- Cada trabajador aplica su propio candado  
 
-The system cannot be energized while locks are in place.
+El sistema no puede energizarse mientras los candados estén en su lugar.
 
-### Tagout
+### Etiquetado
 
-Tags are attached to indicate status.
+Se colocan etiquetas para indicar el estado.
 
-- Identify who applied the lock  
-- Provide warning and information  
+- Identificar quién aplicó el candado  
+- Proporcionar advertencia e información  
 
-Tags communicate that maintenance is in progress.
+Las etiquetas comunican que el mantenimiento está en progreso.
 
-### Verification
+### Verificación
 
-Before work begins:
+Antes de comenzar el trabajo:
 
-- Confirm that all energy sources are isolated  
-- Attempt to start the equipment to verify  
+- Confirmar que todas las fuentes de energía están aisladas  
+- Intentar arrancar el equipo para verificar  
 
-This ensures the system is safe.
+Esto asegura que el sistema es seguro.
 
-### Restoration
+### Restauración
 
-After work is completed:
+Después de completar el trabajo:
 
-- Remove tools and verify system condition  
-- Each worker removes their lock  
-- Restore energy in a controlled manner  
+- Retirar herramientas y verificar la condición del sistema  
+- Cada trabajador retira su candado  
+- Restaurar la energía de forma controlada  
 
-Equipment is returned to operation safely.
+El equipo se devuelve a operación de forma segura.
 
-## Applications
+## Aplicaciones
 
-Lockout Tagout is used in all industrial environments.
+El bloqueo y etiquetado se utiliza en todos los entornos industriales.
 
-Typical applications include:
+Las aplicaciones típicas incluyen:
 
-- Maintenance of machines and equipment  
-- Electrical system servicing  
-- Mechanical repairs  
-- Process system maintenance  
+- Mantenimiento de máquinas y equipo  
+- Servicio de sistemas eléctricos  
+- Reparaciones mecánicas  
+- Mantenimiento de sistemas de proceso  
 
-It is required wherever hazardous energy is present.
+Es obligatorio donde existe energía peligrosa.
 
-## Key Considerations
+## Consideraciones clave
 
-All energy sources must be identified and controlled.
+Todas las fuentes de energía deben identificarse y controlarse.
 
-Each worker must use their own lock.
+Cada trabajador debe usar su propio candado.
 
-Procedures must be clearly defined and followed.
+Los procedimientos deben estar claramente definidos y seguirse.
 
-Training is essential for all personnel.
+La capacitación es esencial para todo el personal.
 
-Compliance with safety regulations is required.
+El cumplimiento de las regulaciones de seguridad es obligatorio.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is failing to identify all energy sources, especially stored energy.
+Un error común es no identificar todas las fuentes de energía, especialmente la energía almacenada.
 
-Never rely only on control system shutdown. Always isolate physically.
+Nunca confiar solo en el apagado del sistema de control. Siempre aislar físicamente.
 
-Do not share locks between workers.
+No compartir candados entre trabajadores.
 
-Verify isolation before starting work.
+Verificar el aislamiento antes de comenzar el trabajo.
 
-Maintain clear procedures and documentation for all equipment.
+Mantener procedimientos y documentación claros para todo el equipo.

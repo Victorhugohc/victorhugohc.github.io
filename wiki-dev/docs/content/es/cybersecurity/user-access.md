@@ -1,70 +1,70 @@
-# User Access
+# Acceso de usuarios
 
-## Overview
+## Descripción general
 
-User access defines how individuals interact with industrial systems and what actions they are allowed to perform.
+El acceso de usuarios define cómo las personas interactúan con los sistemas industriales y qué acciones tienen permitido realizar.
 
-It includes authentication, authorization, and accountability. Proper user access control ensures that only authorized personnel can operate, modify, or maintain systems.
+Incluye autenticación, autorización y trazabilidad (*accountability*). Un control adecuado del acceso garantiza que solo el personal autorizado pueda operar, modificar o mantener los sistemas.
 
-## Purpose
+## Propósito
 
-The purpose of user access control is to:
+El propósito del control de acceso de usuarios es:
 
-- Restrict system interaction to authorized users  
-- Limit actions based on roles and responsibilities  
-- Protect critical systems from misuse or accidental changes  
-- Provide traceability of user activities  
+- Restringir la interacción con el sistema a usuarios autorizados  
+- Limitar acciones según roles y responsabilidades  
+- Proteger sistemas críticos contra uso indebido o cambios accidentales  
+- Proporcionar trazabilidad de las actividades de los usuarios  
 
-Effective access control reduces both intentional and unintentional risks.
+Un control de acceso efectivo reduce riesgos tanto intencionales como no intencionales.
 
-## How It Works
+## Cómo funciona
 
-User access is managed by assigning identities and permissions.
+El acceso de usuarios se gestiona asignando identidades y permisos.
 
-This typically involves:
+Esto generalmente implica:
 
-- Authentication to verify user identity  
-- Authorization to define permitted actions  
-- Logging to record user activity  
+- Autenticación para verificar la identidad del usuario  
+- Autorización para definir las acciones permitidas  
+- Registro (*logging*) para documentar la actividad del usuario  
 
-Access is often structured using roles, where each role has predefined permissions. Users are assigned roles based on their function, such as operator, engineer, or administrator.
+El acceso suele estructurarse mediante roles, donde cada rol tiene permisos predefinidos. Los usuarios se asignan a roles según su función, como operador, ingeniero o administrador.
 
-Systems may include:
+Los sistemas pueden incluir:
 
-- Local user accounts on devices  
-- Centralized authentication systems  
-- Role based access control mechanisms  
+- Cuentas de usuario locales en dispositivos  
+- Sistemas de autenticación centralizados  
+- Mecanismos de control de acceso basado en roles (*RBAC*)  
 
-The goal is to ensure users can perform their tasks without having unnecessary privileges.
+El objetivo es asegurar que los usuarios puedan realizar sus tareas sin tener privilegios innecesarios.
 
-## Applications
+## Aplicaciones
 
-User access control is applied in:
+El control de acceso de usuarios se aplica en:
 
-- PLC programming and configuration tools  
-- SCADA and HMI systems  
-- Engineering workstations  
-- Network devices and servers  
-- Remote access platforms  
+- Herramientas de programación y configuración de PLC  
+- Sistemas SCADA y HMI  
+- Estaciones de ingeniería  
+- Dispositivos de red y servidores  
+- Plataformas de acceso remoto  
 
-It is relevant anywhere a user interacts with a system.
+Es relevante en cualquier lugar donde un usuario interactúe con un sistema.
 
-## Key Considerations
+## Consideraciones clave
 
-- Apply the principle of least privilege  
-- Avoid shared or generic user accounts  
-- Use strong authentication methods  
-- Regularly review and update user permissions  
-- Ensure access control does not interfere with safe operation  
+- Aplicar el principio de mínimo privilegio  
+- Evitar cuentas compartidas o genéricas  
+- Utilizar métodos de autenticación robustos  
+- Revisar y actualizar periódicamente los permisos de usuario  
+- Asegurar que el control de acceso no interfiera con la operación segura  
 
-Poor access control can lead to unauthorized changes or system misuse.
+Un mal control de acceso puede provocar cambios no autorizados o uso indebido del sistema.
 
-## Practical Notes
+## Notas prácticas
 
-- Assign roles based on actual job responsibilities  
-- Remove access when personnel change roles or leave  
-- Use unique user accounts for accountability  
-- Implement session timeouts where appropriate  
-- Monitor and review access logs periodically  
+- Asignar roles basados en responsabilidades reales del puesto  
+- Retirar accesos cuando el personal cambie de rol o deje la organización  
+- Usar cuentas únicas por usuario para garantizar trazabilidad  
+- Implementar tiempos de expiración de sesión cuando sea apropiado  
+- Monitorear y revisar periódicamente los registros de acceso  
 
-User access should be simple to manage but strict enough to protect critical systems.
+El acceso de usuarios debe ser fácil de administrar, pero lo suficientemente estricto para proteger sistemas críticos.

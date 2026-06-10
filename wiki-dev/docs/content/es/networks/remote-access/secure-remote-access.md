@@ -1,107 +1,107 @@
-# Secure Remote Access
+# Acceso remoto seguro
 
-## Overview
+## Descripción general
 
-Secure remote access refers to the methods and practices used to connect to industrial systems from remote locations while protecting against unauthorized access and cyber threats.
+El acceso remoto seguro se refiere a los métodos y prácticas utilizados para conectarse a sistemas industriales desde ubicaciones remotas mientras se protege contra el acceso no autorizado y las amenazas cibernéticas.
 
-It combines communication technologies with security controls to ensure safe interaction with control systems.
+Combina tecnologías de comunicación con controles de seguridad para garantizar una interacción segura con los sistemas de control.
 
-## Purpose
+## Propósito
 
-The purpose of secure remote access is to enable remote connectivity without compromising system integrity.
+El propósito del acceso remoto seguro es habilitar la conectividad remota sin comprometer la integridad del sistema.
 
-It is used to:
+Se utiliza para:
 
-- Protect industrial networks from external threats  
-- Control who can access the system  
-- Ensure data confidentiality and integrity  
-- Maintain safe operation during remote interaction  
+- Proteger las redes industriales de amenazas externas  
+- Controlar quién puede acceder al sistema  
+- Garantizar la confidencialidad e integridad de los datos  
+- Mantener una operación segura durante la interacción remota  
 
-It is essential in modern connected industrial environments.
+Es esencial en entornos industriales modernos conectados.
 
-## How It Works
+## Cómo funciona
 
-Secure remote access is based on controlled connections, authentication, and monitoring.
+El acceso remoto seguro se basa en conexiones controladas, autenticación y monitoreo.
 
-### Secure Connection
+### Conexión segura
 
-Connections are established using secure methods.
+Las conexiones se establecen mediante métodos seguros.
 
-- Encrypted communication channels  
-- Controlled entry points into the network  
+- Canales de comunicación cifrados  
+- Puntos de entrada controlados a la red  
 
-This prevents unauthorized interception of data.
+Esto previene la interceptación no autorizada de datos.
 
-### Authentication and Authorization
+### Autenticación y autorización
 
-Access is granted only to verified users.
+El acceso se concede solo a usuarios verificados.
 
-- User authentication through credentials or certificates  
-- Role based permissions to limit actions  
+- Autenticación de usuario mediante credenciales o certificados  
+- Permisos basados en roles para limitar acciones  
 
-This ensures users can only perform allowed operations.
+Esto garantiza que los usuarios solo puedan realizar operaciones permitidas.
 
-### Network Segmentation
+### Segmentación de red
 
-Access is limited to specific parts of the network.
+El acceso se limita a partes específicas de la red.
 
-- Separation between control systems and external networks  
-- Restricted communication paths  
+- Separación entre sistemas de control y redes externas  
+- Rutas de comunicación restringidas  
 
-This reduces risk in case of compromise.
+Esto reduce el riesgo en caso de compromiso.
 
-### Monitoring and Logging
+### Monitoreo y registro
 
-All access is tracked.
+Todo el acceso se rastrea.
 
-- Logging of user activity  
-- Detection of unusual behavior  
+- Registro de la actividad del usuario  
+- Detección de comportamiento inusual  
 
-This supports security analysis and incident response.
+Esto respalda el análisis de seguridad y la respuesta a incidentes.
 
-### Access Control Policies
+### Políticas de control de acceso
 
-Rules define how access is managed.
+Las reglas definen cómo se gestiona el acceso.
 
-- Time limited access  
-- Approval based connections  
-- Restricted functions  
+- Acceso con límite de tiempo  
+- Conexiones basadas en aprobación  
+- Funciones restringidas  
 
-Policies enforce secure usage.
+Las políticas aplican un uso seguro.
 
-## Applications
+## Aplicaciones
 
-Secure remote access is used in systems requiring remote connectivity with high security.
+El acceso remoto seguro se utiliza en sistemas que requieren conectividad remota con alta seguridad.
 
-Typical applications include:
+Las aplicaciones típicas incluyen:
 
-- Remote maintenance of industrial equipment  
-- Access to SCADA and control systems  
-- Support from external vendors  
-- Monitoring of distributed operations  
+- Mantenimiento remoto de equipos industriales  
+- Acceso a sistemas SCADA y de control  
+- Soporte de proveedores externos  
+- Monitoreo de operaciones distribuidas  
 
-It is critical in systems connected to external networks.
+Es crítico en sistemas conectados a redes externas.
 
-## Key Considerations
+## Consideraciones clave
 
-Security must be integrated from the beginning, not added later.
+La seguridad debe integrarse desde el principio, no añadirse después.
 
-Access should follow the principle of minimum required privileges.
+El acceso debe seguir el principio de privilegios mínimos requeridos.
 
-Network architecture must support segmentation and controlled access.
+La arquitectura de red debe admitir segmentación y acceso controlado.
 
-User management and credential handling are critical.
+La gestión de usuarios y el manejo de credenciales son críticos.
 
-System performance and usability must still be acceptable.
+El rendimiento y la usabilidad del sistema deben seguir siendo aceptables.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is enabling remote access without proper restrictions.
+Un error común es habilitar el acceso remoto sin restricciones adecuadas.
 
-Avoid permanent open connections. Use access only when needed.
+Evite conexiones abiertas permanentes. Utilice el acceso solo cuando sea necesario.
 
-Regularly review user permissions and access logs.
+Revise regularmente los permisos de usuario y los registros de acceso.
 
-Use multi factor authentication when possible.
+Utilice autenticación multifactor cuando sea posible.
 
-Test security measures to ensure they are effective and do not disrupt operations.
+Pruebe las medidas de seguridad para asegurar que sean efectivas y no interrumpan las operaciones.

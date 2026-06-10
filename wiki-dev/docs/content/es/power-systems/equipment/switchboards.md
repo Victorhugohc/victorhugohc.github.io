@@ -1,73 +1,73 @@
-# Switchboards
+# Tableros de distribución
 
-## Overview
+## Descripción general
 
-Switchboards are assemblies used to distribute low voltage power within industrial and commercial facilities.
+Los tableros de distribución son conjuntos utilizados para distribuir energía en baja tensión dentro de instalaciones industriales y comerciales.
 
-They serve as central distribution points where incoming power is divided into multiple outgoing feeders.
+Sirven como puntos centrales de distribución donde la energía de entrada se divide en múltiples alimentadores de salida.
 
-Switchboards typically operate at low voltage and handle high current levels.
+Los tableros de distribución típicamente operan a baja tensión y manejan altos niveles de corriente.
 
-## Purpose
+## Propósito
 
-The purpose of switchboards is to:
+El propósito de los tableros de distribución es:
 
-- Distribute low voltage power to different areas or systems  
-- Provide centralized control and protection of multiple feeders  
-- Organize electrical distribution in a structured and accessible way  
-- Enable safe operation and maintenance of power circuits  
+- Distribuir energía en baja tensión a diferentes áreas o sistemas  
+- Proporcionar control y protección centralizados de múltiples alimentadores  
+- Organizar la distribución eléctrica de manera estructurada y accesible  
+- Permitir operación y mantenimiento seguros de los circuitos de energía  
 
-They act as the main interface between incoming low voltage supply and downstream distribution.
+Actúan como la interfaz principal entre el suministro de baja tensión de entrada y la distribución aguas abajo.
 
-## How It Works
+## Cómo funciona
 
-Power enters the switchboard from a transformer or upstream distribution equipment.
+La energía ingresa al tablero de distribución desde un transformador o equipo de distribución aguas arriba.
 
-Inside the switchboard, power is distributed through:
+Dentro del tablero, la energía se distribuye a través de:
 
-- Main incoming breaker or switch  
-- Busbars that carry power across the assembly  
-- Feeder breakers that supply outgoing circuits  
+- Interruptor automático o interruptor principal de entrada  
+- Barras colectoras que transportan energía a través del conjunto  
+- Interruptores automáticos de alimentadores que suministran los circuitos de salida  
 
-Each feeder is protected by its own device, allowing individual circuits to be isolated without affecting the entire system.
+Cada alimentador está protegido por su propio dispositivo, permitiendo aislar circuitos individuales sin afectar todo el sistema.
 
-Measurement and monitoring devices may also be included to track current, voltage, and energy consumption.
+También pueden incluirse dispositivos de medición y monitoreo para rastrear corriente, voltaje y consumo de energía.
 
-## Applications
+## Aplicaciones
 
-Switchboards are used in:
+Los tableros de distribución se utilizan en:
 
-- Main low voltage distribution points in industrial facilities  
-- Supplying sub distribution panels and motor control centers  
-- Feeding large groups of loads such as production areas  
-- Commercial buildings and infrastructure systems  
+- Puntos principales de distribución en baja tensión en instalaciones industriales  
+- Alimentación de paneles de subdistribución y centros de control de motores  
+- Alimentación de grandes grupos de cargas como áreas de producción  
+- Edificios comerciales y sistemas de infraestructura  
 
-They are typically installed close to the main transformer or incoming supply.
+Típicamente se instalan cerca del transformador principal o del suministro de entrada.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Current rating**  
-  Must handle total load demand and future expansion  
+- **Capacidad de corriente**  
+  Debe manejar la demanda total de carga y la expansión futura  
 
-- **Short circuit rating**  
-  Equipment must withstand available fault current  
+- **Capacidad de cortocircuito**  
+  El equipo debe soportar la corriente de falla disponible  
 
-- **Number of feeders**  
-  Should allow proper load distribution and spare capacity  
+- **Número de alimentadores**  
+  Debe permitir una distribución adecuada de cargas y capacidad de reserva  
 
-- **Protection devices**  
-  Selection of breakers affects coordination and safety  
+- **Dispositivos de protección**  
+  La selección de interruptores automáticos afecta la coordinación y la seguridad  
 
-- **Physical layout**  
-  Accessibility, cable entry, and space for maintenance are important  
+- **Distribución física**  
+  La accesibilidad, la entrada de cables y el espacio para mantenimiento son importantes  
 
-- **Standards and compliance**  
-  Must meet applicable electrical and safety requirements  
+- **Normas y cumplimiento**  
+  Debe cumplir con los requisitos eléctricos y de seguridad aplicables  
 
-## Practical Notes
+## Notas prácticas
 
-- Switchboards handle high currents, requiring proper ventilation and spacing  
-- Poor load balancing can lead to overheating of busbars and feeders  
-- Clear labeling simplifies operation and troubleshooting  
-- Including spare feeder positions reduces future modification effort  
-- Proper torque on connections is critical to avoid failures  
+- Los tableros de distribución manejan altas corrientes, requiriendo ventilación y espaciado adecuados  
+- Un balance deficiente de cargas puede provocar sobrecalentamiento de barras colectoras y alimentadores  
+- El etiquetado claro simplifica la operación y el diagnóstico  
+- Incluir posiciones de alimentadores de reserva reduce el esfuerzo de modificación futura  
+- El torque adecuado en las conexiones es crítico para evitar fallas  

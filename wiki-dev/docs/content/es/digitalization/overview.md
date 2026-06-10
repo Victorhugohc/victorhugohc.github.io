@@ -1,66 +1,66 @@
-# Digitalization Overview
+# Digitalización
 
-## Overview
+## Descripción general
 
-Digitalization in industrial systems refers to the integration of digital technologies to collect, process, and use data for improving operation, visibility, and decision making.
+La digitalización en sistemas industriales se refiere a la integración de tecnologías digitales para recolectar, procesar y utilizar datos con el fin de mejorar la operación, la visibilidad y la toma de decisiones.
 
-It connects physical processes with digital systems, enabling better monitoring, control, and optimization of industrial environments.
+Conecta procesos físicos con sistemas digitales, permitiendo un mejor monitoreo, control y optimización de los entornos industriales.
 
-## Purpose
+## Propósito
 
-The purpose of digitalization is to:
+El propósito de la digitalización es:
 
-- Improve operational efficiency and productivity  
-- Enable data driven decision making  
-- Increase system visibility and transparency  
-- Support predictive maintenance and optimization  
-- Facilitate integration between systems and processes  
+- Mejorar la eficiencia operativa y la productividad  
+- Permitir la toma de decisiones basada en datos  
+- Incrementar la visibilidad y transparencia del sistema  
+- Soportar mantenimiento predictivo y optimización  
+- Facilitar la integración entre sistemas y procesos  
 
-Digitalization transforms raw data into useful information for engineering and operations.
+La digitalización transforma datos en información útil para ingeniería y operación.
 
-## How It Works
+## Cómo funciona
 
-Digitalization is based on capturing data from industrial processes and making it accessible for analysis and action.
+La digitalización se basa en capturar datos de los procesos industriales y hacerlos accesibles para análisis y acción.
 
-This typically involves:
+Esto generalmente implica:
 
-- Sensors and devices generating data from physical processes  
-- Communication networks transferring data between systems  
-- Processing systems analyzing and storing data  
-- Interfaces that present information to users or other systems  
+- Sensores y dispositivos que generan datos de procesos físicos  
+- Redes de comunicación que transfieren datos entre sistemas  
+- Sistemas de procesamiento que analizan y almacenan datos  
+- Interfaces que presentan la información a usuarios u otros sistemas  
 
-Data flows from the field level to higher level systems where it can be monitored, analyzed, or used for automation.
+Los datos fluyen desde el nivel de campo hacia sistemas de nivel superior, donde pueden ser monitoreados, analizados o utilizados para automatización.
 
-The goal is to create a continuous flow of information that supports better control and decision making.
+El objetivo es crear un flujo continuo de información que soporte un mejor control y toma de decisiones.
 
-## Applications
+## Aplicaciones
 
-Digitalization is applied in:
+La digitalización se aplica en:
 
-- Real time monitoring of industrial processes  
-- Predictive maintenance based on equipment data  
-- Performance analysis and optimization  
-- Integration between production and business systems  
-- Remote supervision of distributed assets  
+- Monitoreo en tiempo real de procesos industriales  
+- Mantenimiento predictivo basado en datos de equipos  
+- Análisis de desempeño y optimización  
+- Integración entre sistemas de producción y sistemas empresariales  
+- Supervisión remota de activos distribuidos  
 
-It is widely used in manufacturing, energy systems, logistics, and infrastructure.
+Es ampliamente utilizada en manufactura, sistemas energéticos, logística e infraestructura.
 
-## Key Considerations
+## Consideraciones clave
 
-- Data quality is critical for reliable results  
-- Network reliability affects data availability  
-- Integration between systems can be complex  
-- Cybersecurity must be considered from the beginning  
-- Not all data provides value and should be filtered  
+- La calidad de los datos es crítica para obtener resultados confiables  
+- La confiabilidad de la red afecta la disponibilidad de los datos  
+- La integración entre sistemas puede ser compleja  
+- La ciberseguridad debe considerarse desde el inicio  
+- No todos los datos aportan valor y deben filtrarse  
 
-Digitalization should focus on solving specific operational problems, not only on collecting data.
+La digitalización debe enfocarse en resolver problemas operativos específicos, no solo en recolectar datos.
 
-## Practical Notes
+## Notas prácticas
 
-- Start with clear objectives before implementing digital solutions  
-- Avoid collecting data without a defined use case  
-- Keep system architecture simple and scalable  
-- Ensure compatibility between devices and systems  
-- Validate data before using it for decision making  
+- Definir objetivos claros antes de implementar soluciones digitales  
+- Evitar recolectar datos sin un caso de uso definido  
+- Mantener la arquitectura del sistema simple y escalable  
+- Asegurar compatibilidad entre dispositivos y sistemas  
+- Validar los datos antes de utilizarlos para la toma de decisiones  
 
-Effective digitalization improves understanding and control of industrial systems without adding unnecessary complexity.
+Una digitalización efectiva mejora la comprensión y control de los sistemas industriales sin añadir complejidad innecesaria.

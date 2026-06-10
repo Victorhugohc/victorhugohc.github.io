@@ -1,57 +1,57 @@
-# Why Lighting Matters
+# Por Qué Importa la Iluminación
 
-## Overview
+## Descripción general
 
-Lighting has a direct impact on how safely and effectively industrial systems are operated and maintained.
+La iluminación tiene un impacto directo en qué tan segura y efectivamente se operan y mantienen los sistemas industriales.
 
-It affects visibility, accuracy, and the ability to detect issues in equipment and processes. Inadequate lighting can lead to errors, unsafe conditions, and reduced productivity.
+Afecta la visibilidad, la precisión y la capacidad de detectar problemas en equipos y procesos. La iluminación inadecuada puede conducir a errores, condiciones inseguras y menor productividad.
 
-## Purpose
+## Propósito
 
-The purpose of proper lighting is to provide clear visibility for all tasks performed in an industrial environment.
+El propósito de una iluminación adecuada es proporcionar visibilidad clara para todas las tareas realizadas en un entorno industrial.
 
-This helps to:
+Esto ayuda a:
 
-- Enable safe operation of equipment  
-- Improve accuracy during maintenance and inspection  
-- Reduce operator fatigue  
-- Support quick identification of issues  
+- Permitir la operación segura del equipo  
+- Mejorar la precisión durante el mantenimiento y la inspección  
+- Reducir la fatiga del operador  
+- Apoyar la identificación rápida de problemas  
 
-## How It Works
+## Cómo funciona
 
-Lighting improves system interaction by making visual information accessible.
+La iluminación mejora la interacción con el sistema al hacer accesible la información visual.
 
-With adequate illumination, personnel can:
+Con iluminación adecuada, el personal puede:
 
-- Read labels, indicators, and displays clearly  
-- Identify components and connections  
-- Detect abnormal conditions such as leaks, wear, or overheating  
-- Perform precise tasks without guesswork  
+- Leer etiquetas, indicadores y pantallas claramente  
+- Identificar componentes y conexiones  
+- Detectar condiciones anormales como fugas, desgaste o sobrecalentamiento  
+- Realizar tareas precisas sin conjeturas  
 
-Poor lighting reduces visual clarity and increases reliance on assumptions.
+La iluminación deficiente reduce la claridad visual y aumenta la dependencia de suposiciones.
 
-## Applications
+## Aplicaciones
 
-Lighting is critical in situations such as:
+La iluminación es crítica en situaciones como:
 
-- Operating machinery and control systems  
-- Performing maintenance and troubleshooting  
-- Inspecting equipment and installations  
-- Working in confined or enclosed spaces  
-- Outdoor operations during low light conditions  
+- Operación de maquinaria y sistemas de control  
+- Realización de mantenimiento y diagnóstico  
+- Inspección de equipos e instalaciones  
+- Trabajo en espacios confinados o cerrados  
+- Operaciones exteriores durante condiciones de poca luz  
 
-## Key Considerations
+## Consideraciones clave
 
-- Insufficient lighting increases the risk of accidents  
-- Poor visibility leads to incorrect actions and delays  
-- Excessive glare can be as problematic as low light  
-- Lighting must be adapted to the task and environment  
-- Consistent lighting improves overall working conditions  
+- La iluminación insuficiente aumenta el riesgo de accidentes  
+- La mala visibilidad conduce a acciones incorrectas y retrasos  
+- El deslumbramiento excesivo puede ser tan problemático como la poca luz  
+- La iluminación debe adaptarse a la tarea y al entorno  
+- La iluminación consistente mejora las condiciones generales de trabajo  
 
-## Practical Notes
+## Notas prácticas
 
-- Many operational errors are linked to poor visibility  
-- Temporary lighting solutions are often inadequate for long term use  
-- Good lighting reduces strain and improves focus  
-- Areas with frequent maintenance should have higher lighting quality  
-- Always evaluate lighting conditions during system design and upgrades  
+- Muchos errores operativos están vinculados a la mala visibilidad  
+- Las soluciones de iluminación temporal a menudo son inadecuadas para uso a largo plazo  
+- Una buena iluminación reduce la tensión y mejora la concentración  
+- Las áreas con mantenimiento frecuente deben tener mayor calidad de iluminación  
+- Siempre evalúe las condiciones de iluminación durante el diseño y las actualizaciones del sistema

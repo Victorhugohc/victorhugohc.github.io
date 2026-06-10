@@ -1,82 +1,82 @@
-# Power Factor Correction
+# Corrección del factor de potencia
 
-## Overview
+## Descripción general
 
-Power factor correction is the process of improving the efficiency of power usage by reducing reactive power in an electrical system.
+La corrección del factor de potencia es el proceso de mejorar la eficiencia del uso de potencia al reducir la potencia reactiva en un sistema eléctrico.
 
-It is commonly achieved by adding equipment that compensates for the reactive component of current, allowing more effective use of available power.
+Comúnmente se logra agregando equipo que compensa el componente reactivo de la corriente, permitiendo un uso más efectivo de la potencia disponible.
 
-Poor power factor leads to higher currents, increased losses, and reduced system capacity.
+Un factor de potencia deficiente conduce a corrientes más altas, mayores pérdidas y capacidad reducida del sistema.
 
-## Purpose
+## Propósito
 
-The purpose of power factor correction is to:
+El propósito de la corrección del factor de potencia es:
 
-- Reduce unnecessary current flow in the system  
-- Improve energy efficiency and reduce losses  
-- Increase available capacity of transformers and conductors  
-- Avoid penalties from utility providers  
-- Improve voltage stability  
+- Reducir el flujo innecesario de corriente en el sistema  
+- Mejorar la eficiencia energética y reducir las pérdidas  
+- Incrementar la capacidad disponible de transformadores y conductores  
+- Evitar penalizaciones de las compañías eléctricas  
+- Mejorar la estabilidad de voltaje  
 
-Correcting power factor optimizes overall system performance.
+Corregir el factor de potencia optimiza el desempeño general del sistema.
 
-## How It Works
+## Cómo funciona
 
-In many industrial systems, loads such as motors and transformers draw both active power and reactive power.
+En muchos sistemas industriales, cargas como motores y transformadores consumen tanto potencia activa como potencia reactiva.
 
-Reactive power does not perform useful work but is required for operation.
+La potencia reactiva no realiza trabajo útil, pero es necesaria para la operación.
 
-This results in a power factor less than 1.
+Esto resulta en un factor de potencia menor que 1.
 
-Power factor correction is typically achieved by:
+La corrección del factor de potencia se logra típicamente mediante:
 
-- Installing capacitor banks that supply reactive power locally  
-- Reducing the amount of reactive power drawn from the source  
+- Instalación de bancos de capacitores que suministran potencia reactiva localmente  
+- Reducción de la cantidad de potencia reactiva extraída de la fuente  
 
-By compensating reactive power:
+Al compensar la potencia reactiva:
 
-- Total current in the system decreases  
-- Voltage drops are reduced  
-- System efficiency improves  
+- La corriente total en el sistema disminuye  
+- Las caídas de voltaje se reducen  
+- La eficiencia del sistema mejora  
 
-Automatic systems can switch capacitor stages on or off based on load conditions.
+Los sistemas automáticos pueden conmutar etapas de capacitores según las condiciones de carga.
 
-## Applications
+## Aplicaciones
 
-Power factor correction is used in:
+La corrección del factor de potencia se utiliza en:
 
-- Industrial facilities with large motor loads  
-- Systems with inductive equipment such as transformers and reactors  
-- Plants with high energy consumption and utility penalties  
-- Distribution systems requiring improved efficiency  
-- Installations with fluctuating load conditions  
+- Instalaciones industriales con cargas de motores de gran tamaño  
+- Sistemas con equipo inductivo, como transformadores y reactores  
+- Plantas con alto consumo de energía y penalizaciones de la compañía eléctrica  
+- Sistemas de distribución que requieren mayor eficiencia  
+- Instalaciones con condiciones de carga fluctuantes  
 
-It is widely applied in both industrial and commercial environments.
+Se aplica ampliamente tanto en entornos industriales como comerciales.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Target power factor**  
-  Typically close to unity but not necessarily equal to 1  
+- **Factor de potencia objetivo**  
+  Típicamente cercano a la unidad, pero no necesariamente igual a 1  
 
-- **Load variability**  
-  Changing loads require automatic or staged correction systems  
+- **Variabilidad de la carga**  
+  Las cargas cambiantes requieren sistemas de corrección automáticos o por etapas  
 
-- **Harmonics interaction**  
-  Capacitors can interact with harmonics and create resonance  
+- **Interacción con armónicos**  
+  Los capacitores pueden interactuar con armónicos y crear resonancia  
 
-- **System location**  
-  Correction can be applied centrally or near individual loads  
+- **Ubicación en el sistema**  
+  La corrección puede aplicarse de forma centralizada o cerca de cargas individuales  
 
-- **Overcorrection**  
-  Excessive compensation can lead to leading power factor and voltage rise  
+- **Sobrecorrección**  
+  Una compensación excesiva puede llevar a un factor de potencia adelantado y elevación de voltaje  
 
-- **Equipment sizing**  
-  Must match reactive power requirements without oversizing  
+- **Dimensionamiento del equipo**  
+  Debe coincidir con los requerimientos de potencia reactiva sin sobredimensionar  
 
-## Practical Notes
+## Notas prácticas
 
-- Capacitor banks are the most common solution for power factor correction  
-- Automatic systems improve performance in variable load conditions  
-- Harmonic analysis is important before installing capacitors  
-- Poorly designed systems can create resonance and amplify distortion  
-- Regular inspection ensures capacitors and switching devices operate correctly  
+- Los bancos de capacitores son la solución más común para la corrección del factor de potencia  
+- Los sistemas automáticos mejoran el desempeño en condiciones de carga variable  
+- El análisis armónico es importante antes de instalar capacitores  
+- Los sistemas mal diseñados pueden crear resonancia y amplificar la distorsión  
+- La inspección regular garantiza que los capacitores y dispositivos de conmutación operen correctamente  

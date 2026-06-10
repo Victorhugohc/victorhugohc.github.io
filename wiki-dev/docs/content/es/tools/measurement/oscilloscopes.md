@@ -1,76 +1,76 @@
-# Oscilloscopes
+# Osciloscopios
 
-## Overview
+## Descripción general
 
-Oscilloscopes are instruments used to visualize electrical signals as waveforms over time.
+Los osciloscopios son instrumentos utilizados para visualizar señales eléctricas como formas de onda a lo largo del tiempo.
 
-They provide a graphical representation of voltage changes, allowing detailed analysis of signal behavior that cannot be observed with standard measurement tools.
+Proporcionan una representación gráfica de los cambios de voltaje, permitiendo un análisis detallado del comportamiento de la señal que no puede observarse con herramientas de medición estándar.
 
-## Purpose
+## Propósito
 
-The purpose of an oscilloscope is to:
+El propósito de un osciloscopio es:
 
-- Analyze signal shape and timing  
-- Detect noise, distortion, and transient events  
-- Troubleshoot electronic and control circuits  
-- Verify signal integrity in communication and control systems  
-- Observe dynamic behavior of electrical signals  
+- Analizar la forma y el tiempo de la señal  
+- Detectar ruido, distorsión y eventos transitorios  
+- Resolver problemas en circuitos electrónicos y de control  
+- Verificar la integridad de la señal en sistemas de comunicación y control  
+- Observar el comportamiento dinámico de las señales eléctricas  
 
-They are essential for understanding how signals behave in real conditions.
+Son esenciales para comprender cómo se comportan las señales en condiciones reales.
 
-## How It Works
+## Cómo funciona
 
-An oscilloscope measures voltage and displays it as a waveform plotted against time.
+Un osciloscopio mide el voltaje y lo muestra como una forma de onda trazada en función del tiempo.
 
-The instrument samples the input signal and converts it into a digital representation that is shown on the screen.
+El instrumento muestrea la señal de entrada y la convierte en una representación digital que se muestra en la pantalla.
 
-Key elements include:
+Los elementos clave incluyen:
 
-- **Vertical axis** representing voltage  
-- **Horizontal axis** representing time  
-- **Trigger system** to stabilize and capture repeating signals  
+- **Eje vertical** que representa el voltaje  
+- **Eje horizontal** que representa el tiempo  
+- **Sistema de disparo** para estabilizar y capturar señales repetitivas  
 
-Oscilloscopes can measure:
+Los osciloscopios pueden medir:
 
-- Signal amplitude  
-- Frequency and period  
-- Rise and fall times  
-- Noise and distortions  
+- Amplitud de la señal  
+- Frecuencia y período  
+- Tiempos de subida y bajada  
+- Ruido y distorsiones  
 
-Modern digital oscilloscopes may include advanced features such as:
+Los osciloscopios digitales modernos pueden incluir funciones avanzadas como:
 
-- Signal storage and replay  
-- Mathematical analysis  
-- Protocol decoding  
+- Almacenamiento y reproducción de señales  
+- Análisis matemático  
+- Decodificación de protocolos  
 
-## Applications
+## Aplicaciones
 
-Oscilloscopes are used in:
+Los osciloscopios se utilizan en:
 
-- Troubleshooting control signals in PLC systems  
-- Analyzing communication signals in industrial networks  
-- Diagnosing noise and interference issues  
-- Testing electronic circuits and power electronics  
-- Verifying sensor and actuator signals  
+- Resolución de problemas en señales de control en sistemas PLC  
+- Análisis de señales de comunicación en redes industriales  
+- Diagnóstico de problemas de ruido e interferencia  
+- Prueba de circuitos electrónicos y electrónica de potencia  
+- Verificación de señales de sensores y actuadores  
 
-They are widely used in engineering, maintenance, and development environments.
+Se utilizan ampliamente en entornos de ingeniería, mantenimiento y desarrollo.
 
-## Key Considerations
+## Consideraciones clave
 
-- Bandwidth must match the signal frequency  
-- Sampling rate affects waveform accuracy  
-- Probe selection impacts measurement quality  
-- Improper grounding can distort results or create hazards  
-- Interpretation requires understanding of signal behavior  
+- El ancho de banda debe coincidir con la frecuencia de la señal  
+- La tasa de muestreo afecta la precisión de la forma de onda  
+- La selección de la sonda impacta la calidad de la medición  
+- Una conexión a tierra inadecuada puede distorsionar los resultados o crear riesgos  
+- La interpretación requiere comprensión del comportamiento de la señal  
 
-Incorrect setup can lead to misleading waveforms.
+Una configuración incorrecta puede conducir a formas de onda engañosas.
 
-## Practical Notes
+## Notas prácticas
 
-- Use appropriate probes and compensation settings  
-- Verify grounding before connecting to the circuit  
-- Adjust trigger settings for stable waveform display  
-- Start with known signals to validate configuration  
-- Avoid measuring high power circuits without proper equipment  
+- Utilizar sondas adecuadas y configuraciones de compensación  
+- Verificar la conexión a tierra antes de conectar al circuito  
+- Ajustar la configuración de disparo para una visualización estable de la forma de onda  
+- Comenzar con señales conocidas para validar la configuración  
+- Evitar medir circuitos de alta potencia sin el equipo adecuado  
 
-Oscilloscopes provide detailed insight into electrical signals that cannot be obtained with basic measurement tools.
+Los osciloscopios proporcionan información detallada sobre señales eléctricas que no puede obtenerse con herramientas de medición básicas.

@@ -1,116 +1,116 @@
-# Alarm Management
+# Gestión de Alarmas
 
-## Overview
+## Descripción general
 
-Alarm management defines how abnormal conditions are detected, presented, and handled in a control system.
+La gestión de alarmas define cómo se detectan, presentan y manejan las condiciones anormales en un sistema de control.
 
-It ensures that operators are notified of important events in a clear and actionable way.
+Asegura que los operadores sean notificados de eventos importantes de manera clara y accionable.
 
-An alarm is not just a message. It represents a condition that requires operator attention.
+Una alarma no es solo un mensaje; representa una condición que requiere atención del operador.
 
-## Purpose
+## Propósito
 
-The purpose of alarm management is to support safe and efficient operation by guiding operator response.
+El propósito de la gestión de alarmas es apoyar una operación segura y eficiente, guiando la respuesta del operador.
 
-It is used to:
+Se utiliza para:
 
-- Detect abnormal conditions  
-- Alert operators in real time  
-- Prioritize critical events  
-- Support quick and correct decisions  
+- Detectar condiciones anormales  
+- Alertar a los operadores en tiempo real  
+- Priorizar eventos críticos  
+- Apoyar decisiones rápidas y correctas  
 
-Effective alarm management reduces risk and improves system reliability.
+Una gestión efectiva de alarmas reduce riesgos y mejora la confiabilidad del sistema.
 
-## How It Works
+## Cómo funciona
 
-Alarm management is based on defining conditions, generating alarms, and presenting them to the operator.
+La gestión de alarmas se basa en definir condiciones, generar alarmas y presentarlas al operador.
 
-### Alarm Detection
+### Detección de alarmas
 
-Alarms are triggered when a defined condition is met.
+Las alarmas se activan cuando se cumple una condición definida.
 
-Examples include:
+Ejemplos incluyen:
 
-- Process variable exceeds limits  
-- Equipment failure or fault  
-- Communication loss  
+- Variables de proceso fuera de límites  
+- Fallas o errores en equipos  
+- Pérdida de comunicación  
 
-Each alarm must have a clear and specific trigger condition.
+Cada alarma debe tener una condición de disparo clara y específica.
 
-### Alarm Prioritization
+### Priorización de alarmas
 
-Alarms are assigned priority levels based on severity.
+Las alarmas se clasifican por niveles de prioridad según su severidad.
 
-- High priority for critical conditions  
-- Medium priority for important issues  
-- Low priority for informational alerts  
+- Alta prioridad para condiciones críticas  
+- Prioridad media para problemas importantes  
+- Baja prioridad para alertas informativas  
 
-Prioritization helps operators focus on what matters most.
+La priorización ayuda a enfocar la atención en lo más importante.
 
-### Alarm Presentation
+### Presentación de alarmas
 
-Alarms are displayed in the HMI.
+Las alarmas se muestran en la HMI.
 
-- Alarm lists showing active conditions  
-- Visual and audible indications  
-- Time stamps and descriptions  
+- Listas de alarmas activas  
+- Indicaciones visuales y auditivas  
+- Marcas de tiempo y descripciones  
 
-Information must be clear and easy to understand.
+La información debe ser clara y fácil de entender.
 
-### Alarm Acknowledgment
+### Reconocimiento de alarmas
 
-Operators acknowledge alarms to confirm awareness.
+Los operadores reconocen las alarmas para confirmar que están al tanto.
 
-- Acknowledgment does not remove the condition  
-- Alarm remains active until the condition is resolved  
+- El reconocimiento no elimina la condición  
+- La alarma permanece activa hasta que se resuelva  
 
-This ensures that issues are not ignored.
+Esto asegura que los problemas no sean ignorados.
 
-### Alarm History
+### Historial de alarmas
 
-Alarm events are recorded for analysis.
+Los eventos de alarma se registran para análisis.
 
-- Time of occurrence  
-- Duration  
-- Operator actions  
+- Hora de ocurrencia  
+- Duración  
+- Acciones del operador  
 
-This supports troubleshooting and system improvement.
+Esto apoya el diagnóstico y la mejora del sistema.
 
-## Applications
+## Aplicaciones
 
-Alarm management is used in all systems where monitoring and operator response are required.
+La gestión de alarmas se utiliza en todos los sistemas donde se requiere monitoreo y respuesta del operador.
 
-Typical applications include:
+Aplicaciones típicas incluyen:
 
-- Process industries  
-- Manufacturing systems  
-- Energy and utility systems  
-- Safety related systems  
+- Industrias de proceso  
+- Sistemas de manufactura  
+- Sistemas de energía y servicios  
+- Sistemas relacionados con seguridad  
 
-It is critical in systems where abnormal conditions can cause damage or risk.
+Es crítica en sistemas donde las condiciones anormales pueden generar riesgos o daños.
 
-## Key Considerations
+## Consideraciones clave
 
-Each alarm must be meaningful and actionable.
+Cada alarma debe ser significativa y accionable.
 
-Too many alarms reduce effectiveness and create operator overload.
+Demasiadas alarmas reducen la efectividad y saturan al operador.
 
-Alarm priorities must reflect real risk.
+Las prioridades deben reflejar el riesgo real.
 
-Clear and consistent alarm messages improve response.
+Mensajes claros y consistentes mejoran la respuesta.
 
-Deadbands and delays may be needed to avoid nuisance alarms.
+Pueden requerirse bandas muertas y retardos para evitar alarmas molestas.
 
-Integration with system logic must be well defined.
+La integración con la lógica del sistema debe estar bien definida.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is configuring too many alarms. Only include conditions that require action.
+Un error común es configurar demasiadas alarmas. Solo incluye condiciones que requieran acción.
 
-Avoid duplicate or unnecessary alarms for the same issue.
+Evita alarmas duplicadas o innecesarias para un mismo problema.
 
-Use clear descriptions that indicate cause and possible action.
+Utiliza descripciones claras que indiquen causa y posible acción.
 
-Regularly review alarm history to identify recurring problems.
+Revisa periódicamente el historial para detectar problemas recurrentes.
 
-Test alarm behavior under real conditions to verify effectiveness.
+Prueba el comportamiento de alarmas en condiciones reales para asegurar su efectividad.

@@ -1,71 +1,71 @@
-# Panel and Component Labeling
+# Etiquetado de Tableros y Componentes
 
-## Overview
+## Descripción general
 
-Panel and component labeling is the identification of devices, sections, and interfaces within control panels and industrial equipment.
+El etiquetado de tableros y componentes es la identificación de dispositivos, secciones e interfaces dentro de tableros de control y equipo industrial.
 
-It provides a clear understanding of what each component is, its function, and how it relates to the system.
+Proporciona una comprensión clara de qué es cada componente, su función y cómo se relaciona con el sistema.
 
-This type of labeling is essential for safe operation, efficient maintenance, and accurate troubleshooting.
+Este tipo de etiquetado es esencial para una operación segura, un mantenimiento eficiente y un diagnóstico preciso.
 
-## Purpose
+## Propósito
 
-The purpose of panel and component labeling is to ensure that all elements inside and outside a panel can be quickly identified.
+El propósito del etiquetado de tableros y componentes es asegurar que todos los elementos dentro y fuera de un tablero puedan identificarse rápidamente.
 
-This helps to:
+Esto ayuda a:
 
-- Reduce errors during operation and maintenance  
-- Improve troubleshooting speed  
-- Support safe interaction with energized equipment  
-- Align physical components with documentation  
+- Reducir errores durante la operación y el mantenimiento  
+- Mejorar la velocidad de diagnóstico  
+- Apoyar la interacción segura con equipo energizado  
+- Alinear los componentes físicos con la documentación  
 
-Clear labeling allows users to understand the system without needing to interpret wiring or internal details.
+El etiquetado claro permite a los usuarios comprender el sistema sin necesidad de interpretar el cableado o detalles internos.
 
-## How It Works
+## Cómo funciona
 
-Each component is assigned an identifier based on the system naming convention.
+Cada componente se le asigna un identificador basado en la convención de nomenclatura del sistema.
 
-Labels are applied directly to or near the component and typically include:
+Las etiquetas se aplican directamente sobre o cerca del componente y típicamente incluyen:
 
-- Device tag or identifier  
-- Function or description when needed  
-- Panel or section reference  
+- Etiqueta o identificador del dispositivo  
+- Función o descripción cuando sea necesario  
+- Referencia de tablero o sección  
 
-Common labeled elements include:
+Los elementos comunes etiquetados incluyen:
 
-- Circuit breakers and protection devices  
-- Contactors and relays  
-- Power supplies and control devices  
-- PLC modules and I O points  
-- Terminal blocks and field connections  
-- Panel doors, sections, and interfaces  
+- Interruptores automáticos y dispositivos de protección  
+- Contactores y relevadores  
+- Fuentes de alimentación y dispositivos de control  
+- Módulos de PLC y puntos de E/S  
+- Bloques de terminales y conexiones de campo  
+- Puertas de tableros, secciones e interfaces  
 
-Labels must be placed in a consistent and visible location to allow quick identification.
+Las etiquetas deben colocarse en una ubicación consistente y visible para permitir una identificación rápida.
 
-## Applications
+## Aplicaciones
 
-Panel and component labeling is used in:
+El etiquetado de tableros y componentes se utiliza en:
 
-- Control panels and automation systems  
-- Motor control centers  
-- Power distribution panels  
-- Machine control enclosures  
-- Field mounted control boxes  
+- Tableros de control y sistemas de automatización  
+- Centros de control de motores  
+- Tableros de distribución de energía  
+- Gabinetes de control de máquinas  
+- Cajas de control montadas en campo  
 
-It is critical during operation, maintenance, and system modifications.
+Es crítico durante la operación, el mantenimiento y las modificaciones del sistema.
 
-## Key Considerations
+## Consideraciones clave
 
-- Labels must be clearly visible without removing components  
-- Identification must match drawings and documentation exactly  
-- Placement must not interfere with operation or wiring  
-- Label size must be appropriate for readability  
-- Materials must withstand panel conditions such as heat and handling  
+- Las etiquetas deben ser claramente visibles sin remover componentes  
+- La identificación debe coincidir exactamente con planos y documentación  
+- La colocación no debe interferir con la operación o el cableado  
+- El tamaño de la etiqueta debe ser apropiado para la legibilidad  
+- Los materiales deben resistir las condiciones del tablero como calor y manipulación  
 
-## Practical Notes
+## Notas prácticas
 
-- Labels placed too far from components create confusion  
-- Small or crowded labels reduce readability  
-- Consistent positioning improves usability across panels  
-- Internal and external labeling should follow the same logic  
-- Clear labeling reduces the need to open panels during troubleshooting  
+- Las etiquetas colocadas muy lejos de los componentes crean confusión  
+- Las etiquetas pequeñas o saturadas reducen la legibilidad  
+- El posicionamiento consistente mejora la usabilidad entre tableros  
+- El etiquetado interno y externo debe seguir la misma lógica  
+- El etiquetado claro reduce la necesidad de abrir tableros durante el diagnóstico

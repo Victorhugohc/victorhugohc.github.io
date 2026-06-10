@@ -1,79 +1,79 @@
-# Servo Motors
+# Motores servo
 
-## Overview
+## Descripción general
 
-Servo motors are electric motors designed for precise control of position, speed, and torque.
+Los motores servo son motores eléctricos diseñados para control preciso de posición, velocidad y torque.
 
-They operate as part of a closed loop system that uses feedback to continuously adjust performance.
+Operan como parte de un sistema de lazo cerrado que utiliza retroalimentación para ajustar continuamente el desempeño.
 
-Servo motors are widely used in automation systems where accuracy and dynamic response are critical.
+Los motores servo se utilizan ampliamente en sistemas de automatización donde la precisión y la respuesta dinámica son críticas.
 
-## Purpose
+## Propósito
 
-The purpose of servo motors is to:
+El propósito de los motores servo es:
 
-- Achieve precise motion control  
-- Maintain accurate position and speed under varying loads  
-- Provide fast response to control signals  
-- Enable complex and coordinated movements  
+- Lograr control de movimiento preciso  
+- Mantener posición y velocidad precisas bajo cargas variables  
+- Proporcionar respuesta rápida a señales de control  
+- Habilitar movimientos complejos y coordinados  
 
-They are essential in applications requiring high performance and repeatability.
+Son esenciales en aplicaciones que requieren alto desempeño y repetibilidad.
 
-## How It Works
+## Cómo funciona
 
-Servo motors operate within a feedback control system.
+Los motores servo operan dentro de un sistema de control con retroalimentación.
 
-Key components include:
+Los componentes clave incluyen:
 
-- Motor that provides mechanical motion  
-- Encoder or feedback device that measures position or speed  
-- Drive that controls power to the motor based on feedback  
+- Motor que proporciona movimiento mecánico  
+- Encoder o dispositivo de retroalimentación que mide posición o velocidad  
+- Variador que controla la potencia al motor según la retroalimentación  
 
-The control system works as follows:
+El sistema de control funciona de la siguiente manera:
 
-- A command signal defines the desired position, speed, or torque  
-- The feedback device measures the actual value  
-- The controller compares the desired and actual values  
-- Adjustments are made continuously to minimize error  
+- Una señal de comando define la posición, velocidad o torque deseado  
+- El dispositivo de retroalimentación mide el valor real  
+- El controlador compara los valores deseado y real  
+- Se realizan ajustes continuamente para minimizar el error  
 
-This closed loop operation allows precise and stable control.
+Esta operación de lazo cerrado permite control preciso y estable.
 
-## Applications
+## Aplicaciones
 
-Servo motors are used in:
+Los motores servo se utilizan en:
 
-- Robotics and automated machinery  
-- CNC machines and precision manufacturing  
-- Packaging and assembly systems  
-- Printing and material handling equipment  
-- Motion control systems requiring synchronization  
+- Robótica y maquinaria automatizada  
+- Máquinas CNC y manufactura de precisión  
+- Sistemas de empaque y ensamble  
+- Equipos de impresión y manejo de materiales  
+- Sistemas de control de movimiento que requieren sincronización  
 
-They are common in applications with high accuracy requirements.
+Son comunes en aplicaciones con requerimientos de alta precisión.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Control accuracy**  
-  Determined by feedback resolution and system tuning  
+- **Precisión de control**  
+  Determinada por la resolución de retroalimentación y la sintonización del sistema  
 
-- **Dynamic response**  
-  Ability to accelerate and decelerate quickly  
+- **Respuesta dinámica**  
+  Capacidad de acelerar y desacelerar rápidamente  
 
-- **Torque characteristics**  
-  Must match load requirements across the operating range  
+- **Características de torque**  
+  Deben coincidir con los requerimientos de carga en todo el rango de operación  
 
-- **System complexity**  
-  Requires integration with drives and control systems  
+- **Complejidad del sistema**  
+  Requiere integración con variadores y sistemas de control  
 
-- **Cost**  
-  Higher than standard motor solutions  
+- **Costo**  
+  Mayor que las soluciones de motores estándar  
 
-- **Tuning requirements**  
-  Proper configuration is necessary for optimal performance  
+- **Requerimientos de sintonización**  
+  La configuración adecuada es necesaria para desempeño óptimo  
 
-## Practical Notes
+## Notas prácticas
 
-- Servo systems require careful setup and tuning for stable operation  
-- Feedback devices are critical for accuracy and reliability  
-- Oversizing can reduce control performance and increase cost  
-- Cable quality and shielding are important for signal integrity  
-- They are best suited for applications where precision justifies the added complexity  
+- Los sistemas servo requieren configuración y sintonización cuidadosas para operación estable  
+- Los dispositivos de retroalimentación son críticos para precisión y confiabilidad  
+- El sobredimensionamiento puede reducir el desempeño de control e incrementar el costo  
+- La calidad del cable y el blindaje son importantes para la integridad de la señal  
+- Son más adecuados para aplicaciones donde la precisión justifica la complejidad adicional  

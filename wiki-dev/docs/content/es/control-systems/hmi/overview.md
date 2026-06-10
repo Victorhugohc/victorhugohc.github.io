@@ -1,107 +1,107 @@
-# HMI Overview
+# Interfaz Hombre-Máquina (HMI)
 
-## Overview
+## Descripción general
 
-A Human Machine Interface is the interface between operators and a control system.
+La Interfaz Hombre-Máquina (HMI) es el punto de interacción entre los operadores y un sistema de control.
 
-It allows users to monitor process conditions, interact with equipment, and control operations through graphical screens.
+Permite a los usuarios monitorear las condiciones del proceso, interactuar con los equipos y controlar la operación mediante pantallas gráficas.
 
-HMIs are a key part of industrial automation, providing visibility and control at the operational level.
+Las HMI son una parte clave de la automatización industrial, proporcionando visibilidad y control a nivel operativo.
 
-## Purpose
+## Propósito
 
-The purpose of an HMI is to present information clearly and allow safe and efficient interaction with the system.
+El propósito de una HMI es presentar la información de forma clara y permitir una interacción segura y eficiente con el sistema.
 
-It is used to:
+Se utiliza para:
 
-- Display process variables and system status  
-- Allow operator commands  
-- Visualize alarms and events  
-- Support troubleshooting and operation  
+- Mostrar variables de proceso y estado del sistema  
+- Permitir comandos del operador  
+- Visualizar alarmas y eventos  
+- Apoyar el diagnóstico y la operación  
 
-An effective HMI improves situational awareness and decision making.
+Una HMI efectiva mejora la conciencia situacional y la toma de decisiones.
 
-## How It Works
+## Cómo funciona
 
-An HMI communicates with a PLC or control system to exchange data.
+Una HMI se comunica con un PLC o sistema de control para intercambiar datos.
 
-### Data Acquisition
+### Adquisición de datos
 
-The HMI reads data from the controller.
+La HMI lee datos del controlador.
 
-- Process variables  
-- Equipment status  
-- Alarm conditions  
+- Variables de proceso  
+- Estado de los equipos  
+- Condiciones de alarma  
 
-This data is updated continuously.
+Estos datos se actualizan de forma continua.
 
-### Visualization
+### Visualización
 
-Information is presented through graphical elements.
+La información se presenta mediante elementos gráficos.
 
-- Indicators and values  
-- Buttons and switches  
-- Trends and charts  
-- Mimic diagrams of the process  
+- Indicadores y valores  
+- Botones e interruptores  
+- Tendencias y gráficas  
+- Diagramas de proceso  
 
-The goal is to represent the system in a clear and intuitive way.
+El objetivo es representar el sistema de forma clara e intuitiva.
 
-### User Interaction
+### Interacción del usuario
 
-Operators interact with the system through the HMI.
+Los operadores interactúan con el sistema a través de la HMI.
 
-- Start and stop commands  
-- Setpoint adjustments  
-- Mode selection  
+- Comandos de arranque y paro  
+- Ajuste de setpoints  
+- Selección de modos de operación  
 
-Commands are sent back to the controller for execution.
+Los comandos se envían al controlador para su ejecución.
 
-### Alarm Handling
+### Manejo de alarmas
 
-The HMI displays alarms and notifications.
+La HMI muestra alarmas y notificaciones.
 
-- Active alarms  
-- Alarm history  
-- Priority levels  
+- Alarmas activas  
+- Historial de alarmas  
+- Niveles de prioridad  
 
-This helps operators respond to abnormal conditions.
+Esto ayuda a los operadores a responder a condiciones anormales.
 
-## Applications
+## Aplicaciones
 
-HMIs are used in most industrial systems.
+Las HMI se utilizan en la mayoría de los sistemas industriales.
 
-Typical applications include:
+Aplicaciones típicas incluyen:
 
-- Manufacturing and assembly lines  
-- Process industries  
-- Water and wastewater systems  
-- Energy and utility systems  
-- Building automation  
+- Líneas de manufactura y ensamblaje  
+- Industrias de proceso  
+- Sistemas de agua y tratamiento  
+- Sistemas de energía y servicios  
+- Automatización de edificios  
 
-They are used wherever operator interaction is required.
+Se utilizan en cualquier sistema donde se requiera interacción con el operador.
 
-## Key Considerations
+## Consideraciones clave
 
-Clarity is critical. Screens must be easy to read and understand.
+La claridad es fundamental. Las pantallas deben ser fáciles de leer y entender.
 
-Response time affects usability. Data updates must be fast and consistent.
+El tiempo de respuesta afecta la usabilidad. La actualización de datos debe ser rápida y consistente.
 
-Consistency in design improves operator efficiency.
+La consistencia en el diseño mejora la eficiencia del operador.
 
-Security should be considered to prevent unauthorized access.
+La seguridad debe considerarse para evitar accesos no autorizados.
 
-Integration with the control system must be reliable.
+La integración con el sistema de control debe ser confiable.
 
-Environmental conditions may affect hardware selection.
+Las condiciones ambientales pueden influir en la selección del hardware.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is overloading screens with too much information. Focus on what the operator needs.
+Un error común es saturar las pantallas con demasiada información. Enfócate en lo que el operador necesita.
 
-Use consistent symbols and colors to avoid confusion.
+Utiliza símbolos y colores consistentes para evitar confusión.
 
-Design screens based on operator tasks, not only system layout.
+Diseña las pantallas basadas en las tareas del operador, no solo en la estructura del sistema.
 
-Test the interface with real users to verify usability.
+Prueba la interfaz con usuarios reales para validar su usabilidad.
 
-Keep navigation simple and intuitive.
+Mantén la navegación simple e intuitiva.

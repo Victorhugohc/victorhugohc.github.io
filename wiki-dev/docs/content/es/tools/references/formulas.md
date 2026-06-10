@@ -1,72 +1,72 @@
-# Formulas
+# Fórmulas
 
-## Overview
+## Descripción general
 
-Formulas are mathematical expressions used to describe relationships between variables in industrial systems.
+Las fórmulas son expresiones matemáticas utilizadas para describir relaciones entre variables en sistemas industriales.
 
-They provide a structured way to calculate values, analyze behavior, and support engineering decisions.
+Proporcionan una forma estructurada de calcular valores, analizar comportamiento y respaldar decisiones de ingeniería.
 
-## Purpose
+## Propósito
 
-The purpose of formulas is to:
+El propósito de las fórmulas es:
 
-- Quantify relationships between variables  
-- Support design and sizing of systems  
-- Enable consistent and repeatable calculations  
-- Provide a basis for analysis and troubleshooting  
-- Simplify complex engineering concepts  
+- Cuantificar relaciones entre variables  
+- Respaldar el diseño y dimensionamiento de sistemas  
+- Habilitar cálculos consistentes y repetibles  
+- Proporcionar una base para el análisis y la resolución de problemas  
+- Simplificar conceptos de ingeniería complejos  
 
-Formulas are essential tools for understanding and working with technical systems.
+Las fórmulas son herramientas esenciales para comprender y trabajar con sistemas técnicos.
 
-## How It Works
+## Cómo funciona
 
-Formulas define how variables are related through mathematical operations.
+Las fórmulas definen cómo las variables se relacionan mediante operaciones matemáticas.
 
-This typically involves:
+Esto generalmente involucra:
 
-- Identifying known and unknown variables  
-- Applying the appropriate equation  
-- Solving for the desired value  
-- Interpreting the result in context  
+- Identificar variables conocidas y desconocidas  
+- Aplicar la ecuación adecuada  
+- Resolver el valor deseado  
+- Interpretar el resultado en contexto  
 
-Variables must be expressed in consistent units to ensure correct results.
+Las variables deben expresarse en unidades consistentes para garantizar resultados correctos.
 
-Formulas may represent:
+Las fórmulas pueden representar:
 
-- Electrical relationships such as voltage, current, and power  
-- Mechanical relationships such as force and torque  
-- Fluid relationships such as pressure and flow  
+- Relaciones eléctricas como voltaje, corriente y potencia  
+- Relaciones mecánicas como fuerza y par torsional  
+- Relaciones de fluidos como presión y flujo  
 
-The correct formula depends on the specific problem and conditions.
+La fórmula correcta depende del problema y las condiciones específicas.
 
-## Applications
+## Aplicaciones
 
-Formulas are used in:
+Las fórmulas se utilizan en:
 
-- Electrical system calculations  
-- Mechanical design and analysis  
-- Fluid and process engineering  
-- Equipment sizing and selection  
-- Troubleshooting and validation  
+- Cálculos de sistemas eléctricos  
+- Diseño y análisis mecánico  
+- Ingeniería de fluidos y procesos  
+- Dimensionamiento y selección de equipos  
+- Resolución de problemas y validación  
 
-They are used across all engineering disciplines in industrial systems.
+Se utilizan en todas las disciplinas de ingeniería en sistemas industriales.
 
-## Key Considerations
+## Consideraciones clave
 
-- Units must be consistent and correctly applied  
-- Assumptions behind formulas must be understood  
-- Simplified formulas may not include all real conditions  
-- Incorrect variable identification leads to wrong results  
-- Results should be validated when used in critical applications  
+- Las unidades deben ser consistentes y aplicarse correctamente  
+- Los supuestos detrás de las fórmulas deben comprenderse  
+- Las fórmulas simplificadas pueden no incluir todas las condiciones reales  
+- La identificación incorrecta de variables conduce a resultados erróneos  
+- Los resultados deben validarse cuando se utilizan en aplicaciones críticas  
 
-Using formulas without understanding can lead to errors.
+Utilizar fórmulas sin comprensión puede conducir a errores.
 
-## Practical Notes
+## Notas prácticas
 
-- Always define known and unknown variables clearly  
-- Convert units before performing calculations  
-- Use formulas as a guide, not as the only decision factor  
-- Cross check results when possible  
-- Keep commonly used formulas easily accessible  
+- Definir siempre claramente las variables conocidas y desconocidas  
+- Convertir unidades antes de realizar cálculos  
+- Utilizar fórmulas como guía, no como el único factor de decisión  
+- Contrastar resultados cuando sea posible  
+- Mantener las fórmulas de uso común fácilmente accesibles  
 
-Formulas provide a foundation for accurate and consistent engineering calculations.
+Las fórmulas proporcionan una base para cálculos de ingeniería precisos y consistentes.

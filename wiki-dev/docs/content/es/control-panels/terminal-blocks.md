@@ -1,101 +1,101 @@
-# Terminal Blocks
+# Borneras
 
-## Overview
+## Descripción general
 
-Terminal blocks are components used to connect and organize electrical wires داخل a control panel.
+Las borneras son componentes utilizados para conectar y organizar cables eléctricos dentro de un tablero de control.
 
-They provide a structured and secure interface between internal panel wiring and external field wiring.
+Proporcionan una interfaz estructurada y segura entre el cableado interno del tablero y el cableado externo de campo.
 
-Terminal blocks improve clarity, safety, and maintainability of electrical connections.
+Las borneras mejoran la claridad, la seguridad y la mantenibilidad de las conexiones eléctricas.
 
-## Purpose
+## Propósito
 
-The purpose of terminal blocks is to simplify and standardize wiring connections.
+El propósito de las borneras es simplificar y estandarizar las conexiones eléctricas.
 
-They are used to:
+Se utilizan para:
 
-- Connect internal and external wiring  
-- Organize electrical circuits  
-- Provide clear connection points  
-- Enable easy maintenance and troubleshooting  
+- Conectar el cableado interno y externo  
+- Organizar circuitos eléctricos  
+- Proporcionar puntos de conexión claros  
+- Facilitar el mantenimiento y la solución de problemas  
 
-They act as the interface between the panel and field devices.
+Actúan como la interfaz entre el tablero y los dispositivos de campo.
 
-## How It Works
+## Cómo funciona
 
-Terminal blocks provide connection points where wires are secured and electrically connected.
+Las borneras proporcionan puntos de conexión donde los cables se fijan y se conectan eléctricamente.
 
-### Connection Methods
+### Métodos de conexión
 
-Wires are connected using different mechanisms.
+Los cables se conectan mediante diferentes mecanismos.
 
-- Screw terminals  
-- Spring clamp connections  
-- Push in terminals  
+- Terminales de tornillo  
+- Conexiones por resorte  
+- Terminales push-in  
 
-These methods ensure secure and reliable contact.
+Estos métodos aseguran un contacto confiable y seguro.
 
-### Electrical Continuity
+### Continuidad eléctrica
 
-Terminal blocks allow current to pass between connected wires.
+Las borneras permiten el paso de corriente entre los cables conectados.
 
-- Internal metal conductors connect both sides  
-- Multiple terminals can be linked for distribution  
+- Conductores metálicos internos conectan ambos lados  
+- Varias borneras pueden interconectarse para distribución  
 
-This enables flexible wiring configurations.
+Esto permite configuraciones de cableado flexibles.
 
-### Grouping and Organization
+### Agrupación y organización
 
-Terminal blocks are arranged in rows.
+Las borneras se organizan en filas.
 
-- Grouped by function or circuit  
-- Clearly labeled for identification  
+- Agrupadas por función o circuito  
+- Etiquetadas claramente para su identificación  
 
-This improves readability and maintenance.
+Esto mejora la legibilidad y el mantenimiento.
 
-### Accessories
+### Accesorios
 
-Additional components enhance functionality.
+Componentes adicionales amplían su funcionalidad.
 
-- Jumpers for connecting multiple terminals  
-- End stops and markers  
-- Fuse or disconnect terminals  
+- Puentes para conectar múltiples borneras  
+- Topes finales y marcadores  
+- Borneras con fusible o seccionamiento  
 
-These support different wiring needs.
+Estos elementos se adaptan a diferentes necesidades de cableado.
 
-## Applications
+## Aplicaciones
 
-Terminal blocks are used in all control panels.
+Las borneras se utilizan en todos los tableros de control.
 
-Typical applications include:
+Aplicaciones típicas incluyen:
 
-- Connecting field devices to control systems  
-- Distributing power within panels  
-- Organizing control and signal wiring  
-- Interface for maintenance and testing  
+- Conexión de dispositivos de campo al sistema de control  
+- Distribución de energía dentro del tablero  
+- Organización de cableado de control y señal  
+- Interfaz para mantenimiento y pruebas  
 
-They are essential for structured wiring.
+Son esenciales para un cableado estructurado.
 
-## Key Considerations
+## Consideraciones clave
 
-Terminal type must match wire size and application.
+El tipo de bornera debe coincidir con el calibre del conductor y la aplicación.
 
-Current and voltage ratings must be respected.
+Se deben respetar las capacidades de corriente y voltaje.
 
-Proper labeling is critical for identification.
+El etiquetado adecuado es crítico para la identificación.
 
-Spacing and arrangement affect accessibility.
+El espaciamiento y la disposición afectan la accesibilidad.
 
-Environmental conditions may require specific materials.
+Las condiciones ambientales pueden requerir materiales específicos.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is overcrowding terminals, making wiring difficult.
+Un error común es saturar las borneras, dificultando el cableado.
 
-Always label terminals clearly and consistently.
+Etiqueta siempre de forma clara y consistente.
 
-Use jumpers carefully to avoid unintended connections.
+Usa los puentes con cuidado para evitar conexiones no deseadas.
 
-Ensure all connections are properly tightened or secured.
+Asegura que todas las conexiones estén correctamente apretadas o fijadas.
 
-Plan terminal layout to simplify future modifications.
+Planifica la disposición de borneras para facilitar futuras modificaciones.

@@ -1,95 +1,94 @@
-# Industrial Systems Handbook
 
-A practical guide to understand, design, and select industrial systems — without unnecessary complexity.
-
----
-
-## Overview
-
-Industrial Systems Handbook is a curated collection of concepts, components, and practical knowledge used in industrial environments.
-
-It is designed to help you understand how systems actually work and make better engineering decisions in real scenarios.
-
-This handbook does not replace datasheets, standards, or detailed design.  
-It helps you interpret them and use them effectively.
+Una guía práctica para entender, diseñar y seleccionar sistemas industriales — sin complejidad innecesaria.
 
 ---
 
-## Why It Exists
+## Descripción general
 
-In real-world engineering, problems rarely start from theory.
+Industrial Systems Handbook es una colección curada de conceptos, componentes y conocimiento práctico utilizados en entornos industriales.
 
-They start with questions like:
+Está diseñado para ayudarte a entender cómo funcionan realmente los sistemas y tomar mejores decisiones de ingeniería en escenarios reales.
 
-- What cable should be used in this installation?  
-- What is the difference between two similar components?  
-- Why is a system not behaving as expected?  
-
-Most available resources are either too basic or too complex to apply quickly.
-
-This handbook bridges that gap by focusing on practical understanding.
+Este handbook no reemplaza hojas de datos (*datasheets*), normas o diseño detallado.  
+Te ayuda a interpretarlos y utilizarlos de forma efectiva.
 
 ---
 
-## Who This Is For
+## Por qué existe
 
-- Students learning industrial systems  
-- Engineers entering or transitioning into industry  
-- Technicians working with real equipment  
-- Anyone who needs to understand how systems behave in practice  
+En la ingeniería del mundo real, los problemas rara vez comienzan desde la teoría.
 
----
+Comienzan con preguntas como:
 
-## What You Will Find
+- ¿Qué cable se debe usar en esta instalación?  
+- ¿Cuál es la diferencia entre dos componentes similares?  
+- ¿Por qué un sistema no se comporta como se espera?  
 
-- Electrical fundamentals  
-- Power systems and protection  
-- Cables and installation practices  
-- Industrial equipment (motors, drives, sensors, actuators)  
-- Control systems (PLC, HMI, SCADA)  
-- Instrumentation and signals  
-- Industrial networks  
-- Practical engineering considerations  
+La mayoría de los recursos disponibles son demasiado básicos o demasiado complejos para aplicarse rápidamente.
+
+Este handbook cierra esa brecha enfocándose en la comprensión práctica.
 
 ---
 
-## What You Will Not Find
+## Para quién es
 
-- Brand-specific bias  
-- Overly academic explanations  
-- Unnecessary complexity  
-
-When deeper detail is required, refer to:
-
-- Datasheets  
-- Standards  
-- Manufacturer documentation  
+- Estudiantes que aprenden sistemas industriales  
+- Ingenieros que ingresan o hacen transición a la industria  
+- Técnicos que trabajan con equipos reales  
+- Cualquier persona que necesite entender cómo se comportan los sistemas en la práctica  
 
 ---
 
-## Philosophy
+## Qué encontrarás
 
-This handbook focuses on practical understanding.
-
-The objective is to help you:
-
-- Make better decisions  
-- Ask better technical questions  
-- Learn faster from real systems and documentation  
-
----
-
-## Project Nature
-
-This is a continuously evolving handbook.
-
-Content is published as a complete structure and refined over time to improve clarity, depth, and usability.
+- Fundamentos eléctricos  
+- Sistemas de potencia y protección  
+- Cables y prácticas de instalación  
+- Equipos industriales (motores, variadores, sensores, actuadores)  
+- Sistemas de control (PLC, HMI, SCADA)  
+- Instrumentación y señales  
+- Redes industriales  
+- Consideraciones prácticas de ingeniería  
 
 ---
 
-## Support and Contribution
+## Qué no encontrarás
 
-If you find this useful:
+- Sesgo hacia marcas específicas  
+- Explicaciones excesivamente académicas  
+- Complejidad innecesaria  
 
-- You can support the project  
-- You can contribute to the content  
+Cuando se requiera mayor detalle, consulta:
+
+- Hojas de datos (*datasheets*)  
+- Normas  
+- Documentación de fabricantes  
+
+---
+
+## Filosofía
+
+Este handbook se enfoca en la comprensión práctica.
+
+El objetivo es ayudarte a:
+
+- Tomar mejores decisiones  
+- Hacer mejores preguntas técnicas  
+- Aprender más rápido a partir de sistemas reales y documentación  
+
+---
+
+## Naturaleza del proyecto
+
+Este es un handbook en evolución continua.
+
+El contenido se publica como una estructura completa y se refina con el tiempo para mejorar claridad, profundidad y usabilidad.
+
+---
+
+## Apoyo y contribución
+
+Si encuentras útil este proyecto:
+
+- Puedes apoyarlo  
+- Puedes contribuir al contenido  

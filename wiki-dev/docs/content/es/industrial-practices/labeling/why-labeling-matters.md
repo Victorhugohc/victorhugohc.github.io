@@ -1,52 +1,52 @@
-# Why Labeling Matters
+# Por Qué Importa el Etiquetado
 
-## Overview
+## Descripción general
 
-Labeling is critical in industrial systems because it provides immediate identification of components, connections, and system structure.
+El etiquetado es crítico en sistemas industriales porque proporciona identificación inmediata de componentes, conexiones y estructura del sistema.
 
-Without proper labeling, even simple systems can become difficult to understand, increasing the risk of errors and unsafe conditions.
+Sin un etiquetado adecuado, incluso los sistemas simples pueden volverse difíciles de comprender, aumentando el riesgo de errores y condiciones inseguras.
 
-## Purpose
+## Propósito
 
-The main purpose of labeling is to reduce ambiguity when interacting with a system.
+El propósito principal del etiquetado es reducir la ambigüedad al interactuar con un sistema.
 
-It ensures that operators, technicians, and engineers can quickly identify what they are working with and make correct decisions.
+Asegura que operadores, técnicos e ingenieros puedan identificar rápidamente con qué están trabajando y tomar decisiones correctas.
 
-## How It Works
+## Cómo funciona
 
-Labeling improves system usability by linking physical elements to their function and documentation.
+El etiquetado mejora la usabilidad del sistema al vincular elementos físicos con su función y documentación.
 
-When a component or cable is clearly labeled, it can be:
+Cuando un componente o cable está claramente etiquetado, puede:
 
-- Identified without tracing or guesswork  
-- Matched to diagrams and documentation  
-- Verified before performing actions  
+- Identificarse sin rastreo ni conjeturas  
+- Hacerse coincidir con diagramas y documentación  
+- Verificarse antes de realizar acciones  
 
-This reduces the need for assumptions and minimizes human error.
+Esto reduce la necesidad de suposiciones y minimiza el error humano.
 
-## Applications
+## Aplicaciones
 
-Proper labeling has a direct impact in situations such as:
+El etiquetado adecuado tiene un impacto directo en situaciones como:
 
-- Troubleshooting faults in control panels or field wiring  
-- Performing maintenance or replacing components  
-- Commissioning new systems  
-- Modifying or expanding existing installations  
-- Training new personnel  
+- Diagnóstico de fallas en tableros de control o cableado de campo  
+- Realización de mantenimiento o reemplazo de componentes  
+- Puesta en marcha de sistemas nuevos  
+- Modificación o expansión de instalaciones existentes  
+- Capacitación de nuevo personal  
 
-In all these cases, clear identification saves time and reduces risk.
+En todos estos casos, la identificación clara ahorra tiempo y reduce el riesgo.
 
-## Key Considerations
+## Consideraciones clave
 
-- Unlabeled or poorly labeled systems increase downtime  
-- Incorrect identification can lead to equipment damage or safety incidents  
-- Clear labeling improves coordination between teams  
-- Consistent labeling supports long term system reliability  
-- Labeling must remain legible throughout the system life  
+- Los sistemas sin etiquetar o mal etiquetados aumentan el tiempo de inactividad  
+- La identificación incorrecta puede conducir a daños en el equipo o incidentes de seguridad  
+- El etiquetado claro mejora la coordinación entre equipos  
+- El etiquetado consistente apoya la confiabilidad del sistema a largo plazo  
+- El etiquetado debe permanecer legible a lo largo de la vida del sistema  
 
-## Practical Notes
+## Notas prácticas
 
-- Many field errors are caused by incorrect assumptions due to missing labels  
-- Time spent labeling during installation saves significant time later  
-- Good labeling reduces dependence on specific personnel knowledge  
-- Systems with proper labeling are easier to audit and maintain  
+- Muchos errores de campo son causados por suposiciones incorrectas debido a etiquetas faltantes  
+- El tiempo invertido en etiquetado durante la instalación ahorra tiempo significativo después  
+- Un buen etiquetado reduce la dependencia del conocimiento de personal específico  
+- Los sistemas con etiquetado adecuado son más fáciles de auditar y mantener

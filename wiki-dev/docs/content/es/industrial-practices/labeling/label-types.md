@@ -1,61 +1,61 @@
-# Label Types
+# Tipos de Etiquetas
 
-## Overview
+## Descripción general
 
-Label types refer to the different formats and methods used to identify components, cables, and equipment in industrial systems.
+Los tipos de etiquetas se refieren a los diferentes formatos y métodos utilizados para identificar componentes, cables y equipo en sistemas industriales.
 
-Each type is designed for a specific application, depending on factors such as location, size, environment, and required durability.
+Cada tipo está diseñado para una aplicación específica, dependiendo de factores como ubicación, tamaño, entorno y durabilidad requerida.
 
-Selecting the correct label type ensures that identification remains clear and reliable over time.
+Seleccionar el tipo de etiqueta correcto asegura que la identificación permanezca clara y confiable con el tiempo.
 
-## Purpose
+## Propósito
 
-The purpose of using different label types is to match the labeling method to the physical and environmental conditions of the installation.
+El propósito de utilizar diferentes tipos de etiquetas es adaptar el método de etiquetado a las condiciones físicas y ambientales de la instalación.
 
-This helps to:
+Esto ayuda a:
 
-- Maintain readability in different environments  
-- Ensure labels remain attached and legible over time  
-- Adapt labeling to different components and surfaces  
-- Support efficient installation and maintenance  
+- Mantener la legibilidad en diferentes entornos  
+- Asegurar que las etiquetas permanezcan adheridas y legibles con el tiempo  
+- Adaptar el etiquetado a diferentes componentes y superficies  
+- Apoyar una instalación y mantenimiento eficientes  
 
-## How It Works
+## Cómo funciona
 
-Label types vary based on how they are applied and how the information is presented.
+Los tipos de etiquetas varían según cómo se aplican y cómo se presenta la información.
 
-Common label types include:
+Los tipos comunes de etiquetas incluyen:
 
-- Adhesive labels applied directly to flat surfaces  
-- Heat shrink labels that contract around wires or cables  
-- Wrap around labels used for cable identification  
-- Clip on or snap on markers for terminal blocks or wires  
-- Engraved plates for panels and durable equipment identification  
-- Printed tags attached with ties for temporary or flexible labeling  
+- Etiquetas adhesivas aplicadas directamente sobre superficies planas  
+- Etiquetas termocontraíbles que se contraen alrededor de cables o conductores  
+- Etiquetas envolventes utilizadas para identificación de cables  
+- Marcadores de clip o a presión para bloques de terminales o conductores  
+- Placas grabadas para tableros e identificación durable de equipo  
+- Etiquetas impresas sujetas con amarres para etiquetado temporal o flexible  
 
-Each type is selected based on the application requirements, including size, exposure, and expected lifespan.
+Cada tipo se selecciona según los requisitos de la aplicación, incluyendo tamaño, exposición y vida útil esperada.
 
-## Applications
+## Aplicaciones
 
-Different label types are used in:
+Diferentes tipos de etiquetas se utilizan en:
 
-- Cable and wire identification in control panels and field installations  
-- Terminal blocks and connection points  
-- Equipment and device identification  
-- Panel doors and enclosures  
-- Harsh environments such as outdoor or high temperature areas  
+- Identificación de cables y conductores en tableros de control e instalaciones de campo  
+- Bloques de terminales y puntos de conexión  
+- Identificación de equipos y dispositivos  
+- Puertas de tableros y gabinetes  
+- Entornos severos como áreas exteriores o de alta temperatura  
 
-## Key Considerations
+## Consideraciones clave
 
-- The label type must match the surface and shape of the component  
-- Durability must be suitable for the environment  
-- Labels must remain readable after installation and over time  
-- Installation method should be practical and repeatable  
-- The selected type should support the required level of detail  
+- El tipo de etiqueta debe coincidir con la superficie y forma del componente  
+- La durabilidad debe ser adecuada para el entorno  
+- Las etiquetas deben permanecer legibles después de la instalación y con el tiempo  
+- El método de instalación debe ser práctico y repetible  
+- El tipo seleccionado debe soportar el nivel de detalle requerido  
 
-## Practical Notes
+## Notas prácticas
 
-- Adhesive labels may fail in high temperature or dirty environments  
-- Heat shrink labels provide strong durability for cables but require preparation  
-- Wrap around labels must be applied correctly to remain readable  
-- Engraved labels are more durable but require more effort and cost  
-- Using the wrong label type often leads to premature failure or loss of identification  
+- Las etiquetas adhesivas pueden fallar en entornos de alta temperatura o sucios  
+- Las etiquetas termocontraíbles proporcionan gran durabilidad para cables pero requieren preparación  
+- Las etiquetas envolventes deben aplicarse correctamente para permanecer legibles  
+- Las etiquetas grabadas son más durables pero requieren más esfuerzo y costo  
+- Utilizar el tipo de etiqueta incorrecto a menudo conduce a falla prematura o pérdida de identificación

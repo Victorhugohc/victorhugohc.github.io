@@ -1,108 +1,215 @@
-# Startup
+# Arranque (Startup)
 
-## Overview
+## Descripción general
 
-Startup is the phase where a system is energized and brought into operation after installation and verification.
+El arranque es la fase en la que un sistema se energiza y se pone en operación después de la instalación y verificación.
 
-It involves activating equipment, validating system behavior, and ensuring that all components operate together as intended.
+Implica activar los equipos, validar el comportamiento del sistema y asegurar que todos los componentes funcionen en conjunto según lo previsto.
 
-Startup is a critical step that transitions the system from preparation to actual operation.
+El arranque es un paso crítico que marca la transición de la preparación a la operación real.
 
-## Purpose
+## Propósito
 
-The purpose of startup is to safely initiate system operation and confirm correct performance.
+El propósito del arranque es iniciar de forma segura la operación del sistema y confirmar su desempeño correcto.
 
-It is used to:
+Se utiliza para:
 
-- Energize and activate equipment  
-- Verify system functionality under real conditions  
-- Identify and correct issues early  
-- Prepare the system for normal operation  
+- Energizar y activar los equipos  
+- Verificar la funcionalidad del sistema en condiciones reales  
+- Identificar y corregir problemas de manera temprana  
+- Preparar el sistema para operación normal  
 
-A controlled startup reduces risk and ensures stability.
+Un arranque controlado reduce riesgos y asegura estabilidad.
 
-## How It Works
+## Cómo funciona
 
-Startup is performed in a structured and controlled sequence.
+El arranque se realiza de manera estructurada y controlada.
 
-### Initial Energization
+### Energización inicial
 
-Power is applied to the system.
+Se aplica energía al sistema.
 
-- Verify correct voltage levels  
-- Check for abnormal conditions such as noise, heat, or faults  
+- Verificar niveles de voltaje correctos  
+- Revisar condiciones anormales como ruido, calor o fallas  
 
-This confirms safe energization.
+Esto confirma una energización segura.
 
-### System Activation
+### Activación del sistema
 
-Individual components are activated.
+Se activan los componentes individuales.
 
-- PLCs and control systems are started  
-- Communication between devices is verified  
+- Se inician PLCs y sistemas de control  
+- Se verifica la comunicación entre dispositivos  
 
-Basic system functionality is confirmed.
+Se confirma la funcionalidad básica del sistema.
 
-### Functional Testing
+### Pruebas funcionales
 
-System functions are tested step by step.
+Se prueban las funciones del sistema paso a paso.
 
-- Manual operation of devices  
-- Verification of control sequences  
-- Response of actuators and sensors  
+- Operación manual de dispositivos  
+- Verificación de secuencias de control  
+- Respuesta de actuadores y sensores  
 
-This ensures correct behavior.
+Esto asegura un comportamiento correcto.
 
-### Gradual Operation
+### Operación gradual
 
-The system is brought to full operation gradually.
+El sistema se lleva a operación completa de forma progresiva.
 
-- Start with low load or limited operation  
-- Increase to normal conditions  
+- Iniciar con baja carga o operación limitada  
+- Incrementar hasta condiciones normales  
 
-This reduces stress and risk.
+Esto reduce el esfuerzo y el riesgo.
 
-### Monitoring
+### Monitoreo
 
-System performance is observed.
+Se observa el desempeño del sistema.
 
-- Check for alarms or faults  
-- Monitor critical parameters  
+- Revisar alarmas o fallas  
+- Monitorear parámetros críticos  
 
-Continuous monitoring ensures stability.
+El monitoreo continuo asegura la estabilidad.
 
-## Applications
+## Aplicaciones
 
-Startup is required in all industrial systems.
+El arranque es necesario en todos los sistemas industriales.
 
-Typical applications include:
+Aplicaciones típicas incluyen:
 
-- New installations  
-- System upgrades or modifications  
-- Restart after major maintenance  
+- Nuevas instalaciones  
+- Actualizaciones o modificaciones del sistema  
+- Reinicio después de mantenimiento mayor  
 
-It is essential for safe system operation.
+Es esencial para una operación segura del sistema.
 
-## Key Considerations
+## Consideraciones clave
 
-Startup must follow a defined procedure.
+El arranque debe seguir un procedimiento definido.
 
-Safety systems must be verified before operation.
+Los sistemas de seguridad deben verificarse antes de operar.
 
-Coordination between teams is required.
+Se requiere coordinación entre los equipos.
 
-Unexpected behavior must be addressed immediately.
+Cualquier comportamiento inesperado debe atenderse de inmediato.
 
-Documentation should guide the process.
+La documentación debe guiar el proceso.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is rushing startup without completing previous checks.
+Un error común es apresurar el arranque sin completar las verificaciones previas.
 
-Keep personnel ready to respond to issues.
+Mantén al personal preparado para responder ante problemas.
 
-Operate equipment step by step, not all at once.
+Opera los equipos paso a paso, no todos al mismo tiempo.
 
-Record observations during startup for future reference.
+Registra observaciones durante el arranque para referencia futura.
 
-Do not leave the system unattended during initial operation.
+No dejes el sistema sin supervisión durante la operación inicial.# Arranque (Startup)
+
+## Descripción general
+
+El arranque es la fase en la que un sistema se energiza y se pone en operación después de la instalación y verificación.
+
+Implica activar los equipos, validar el comportamiento del sistema y asegurar que todos los componentes funcionen en conjunto según lo previsto.
+
+El arranque es un paso crítico que marca la transición de la preparación a la operación real.
+
+## Propósito
+
+El propósito del arranque es iniciar de forma segura la operación del sistema y confirmar su desempeño correcto.
+
+Se utiliza para:
+
+- Energizar y activar los equipos  
+- Verificar la funcionalidad del sistema en condiciones reales  
+- Identificar y corregir problemas de manera temprana  
+- Preparar el sistema para operación normal  
+
+Un arranque controlado reduce riesgos y asegura estabilidad.
+
+## Cómo funciona
+
+El arranque se realiza de manera estructurada y controlada.
+
+### Energización inicial
+
+Se aplica energía al sistema.
+
+- Verificar niveles de voltaje correctos  
+- Revisar condiciones anormales como ruido, calor o fallas  
+
+Esto confirma una energización segura.
+
+### Activación del sistema
+
+Se activan los componentes individuales.
+
+- Se inician PLCs y sistemas de control  
+- Se verifica la comunicación entre dispositivos  
+
+Se confirma la funcionalidad básica del sistema.
+
+### Pruebas funcionales
+
+Se prueban las funciones del sistema paso a paso.
+
+- Operación manual de dispositivos  
+- Verificación de secuencias de control  
+- Respuesta de actuadores y sensores  
+
+Esto asegura un comportamiento correcto.
+
+### Operación gradual
+
+El sistema se lleva a operación completa de forma progresiva.
+
+- Iniciar con baja carga o operación limitada  
+- Incrementar hasta condiciones normales  
+
+Esto reduce el esfuerzo y el riesgo.
+
+### Monitoreo
+
+Se observa el desempeño del sistema.
+
+- Revisar alarmas o fallas  
+- Monitorear parámetros críticos  
+
+El monitoreo continuo asegura la estabilidad.
+
+## Aplicaciones
+
+El arranque es necesario en todos los sistemas industriales.
+
+Aplicaciones típicas incluyen:
+
+- Nuevas instalaciones  
+- Actualizaciones o modificaciones del sistema  
+- Reinicio después de mantenimiento mayor  
+
+Es esencial para una operación segura del sistema.
+
+## Consideraciones clave
+
+El arranque debe seguir un procedimiento definido.
+
+Los sistemas de seguridad deben verificarse antes de operar.
+
+Se requiere coordinación entre los equipos.
+
+Cualquier comportamiento inesperado debe atenderse de inmediato.
+
+La documentación debe guiar el proceso.
+
+## Notas prácticas
+
+Un error común es apresurar el arranque sin completar las verificaciones previas.
+
+Mantén al personal preparado para responder ante problemas.
+
+Opera los equipos paso a paso, no todos al mismo tiempo.
+
+Registra observaciones durante el arranque para referencia futura.
+
+No dejes el sistema sin supervisión durante la operación inicial.

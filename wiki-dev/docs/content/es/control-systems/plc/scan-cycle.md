@@ -1,92 +1,92 @@
-# PLC Scan Cycle
+# Ciclo de Escaneo del PLC
 
-## Overview
+## Descripción general
 
-The PLC scan cycle is the continuous sequence of operations that a PLC performs to monitor inputs, execute logic, and update outputs.
+El ciclo de escaneo del PLC es la secuencia continua de operaciones que el controlador realiza para monitorear entradas, ejecutar la lógica y actualizar salidas.
 
-This cycle runs repeatedly and defines how fast the PLC responds to changes in the system.
+Este ciclo se repite constantemente y determina la rapidez con la que el PLC responde a cambios en el sistema.
 
-## Purpose
+## Propósito
 
-The purpose of the scan cycle is to provide deterministic and consistent control.
+El propósito del ciclo de escaneo es proporcionar un control determinístico y consistente.
 
-It ensures that:
+Asegura que:
 
-- Inputs are read in a defined order  
-- Logic is executed consistently  
-- Outputs are updated predictably  
+- Las entradas se lean en un orden definido  
+- La lógica se ejecute de forma consistente  
+- Las salidas se actualicen de manera predecible  
 
-This repeatable process allows reliable automation.
+Este proceso repetitivo permite una automatización confiable.
 
-## How It Works
+## Cómo funciona
 
-A typical scan cycle consists of three main steps.
+Un ciclo de escaneo típico consta de tres etapas principales.
 
-### 1. Input Scan
+### 1. Lectura de entradas
 
-The PLC reads the status of all input signals.
+El PLC lee el estado de todas las señales de entrada.
 
-- Digital inputs are read as ON or OFF  
-- Analog inputs are read as values  
+- Las entradas digitales se leen como ON/OFF  
+- Las entradas analógicas se leen como valores  
 
-These values are stored in memory and used during program execution.
+Estos valores se almacenan en memoria y se utilizan durante la ejecución del programa.
 
-### 2. Program Execution
+### 2. Ejecución del programa
 
-The PLC executes the control logic using the stored input values.
+El PLC ejecuta la lógica de control utilizando los valores de entrada almacenados.
 
-- Logic operations are evaluated  
-- Timers and counters are updated  
-- Control functions are processed  
+- Se evalúan las operaciones lógicas  
+- Se actualizan temporizadores y contadores  
+- Se procesan funciones de control  
 
-The program is executed from top to bottom in a defined order.
+El programa se ejecuta de arriba hacia abajo en un orden definido.
 
-### 3. Output Update
+### 3. Actualización de salidas
 
-The PLC updates the outputs based on the program results.
+El PLC actualiza las salidas con base en los resultados del programa.
 
-- Output signals are written to output modules  
-- Actuators respond to the new commands  
+- Las señales se escriben en los módulos de salida  
+- Los actuadores responden a los nuevos comandos  
 
-Outputs remain in this state until the next scan cycle.
+Las salidas permanecen en ese estado hasta el siguiente ciclo.
 
-### Continuous Loop
+### Bucle continuo
 
-After completing these steps, the PLC immediately starts the next scan.
+Después de completar estas etapas, el PLC inicia inmediatamente el siguiente ciclo.
 
-This loop runs continuously as long as the PLC is powered and in run mode.
+Este proceso se repite continuamente mientras el PLC esté energizado y en modo de ejecución.
 
-## Applications
+## Aplicaciones
 
-The scan cycle is fundamental to all PLC controlled systems.
+El ciclo de escaneo es fundamental en todos los sistemas controlados por PLC.
 
-It affects:
+Afecta:
 
-- Machine control timing  
-- Process response  
-- Synchronization of operations  
+- El tiempo de respuesta en control de máquinas  
+- La dinámica de procesos  
+- La sincronización de operaciones  
 
-It is critical in systems where timing and sequence matter.
+Es crítico en sistemas donde el tiempo y la secuencia son importantes.
 
-## Key Considerations
+## Consideraciones clave
 
-Scan time is the total duration of one cycle.
+El tiempo de escaneo es la duración total de un ciclo.
 
-- Faster scan times improve responsiveness  
-- Slower scan times may be sufficient for slow processes  
+- Tiempos más rápidos mejoran la respuesta  
+- Tiempos más lentos pueden ser suficientes en procesos lentos  
 
-Program size and complexity directly affect scan time.
+El tamaño y la complejidad del programa afectan directamente este tiempo.
 
-Communication tasks and background processes can increase cycle time.
+Las tareas de comunicación y procesos en segundo plano pueden incrementarlo.
 
-Input changes are only recognized once per scan. Fast signals may be missed if the scan time is too long.
+Los cambios en entradas solo se detectan una vez por ciclo. Señales rápidas pueden perderse si el tiempo es largo.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is ignoring scan time in high speed applications. This can lead to missed events or delayed responses.
+Un error común es ignorar el tiempo de escaneo en aplicaciones de alta velocidad, lo que puede causar eventos perdidos o respuestas tardías.
 
-For fast signals, use hardware interrupts or high speed inputs instead of relying only on the standard scan.
+Para señales rápidas, utiliza interrupciones de hardware o entradas de alta velocidad en lugar de depender solo del ciclo estándar.
 
-Keep logic efficient. Unnecessary complexity increases scan time.
+Mantén la lógica eficiente. La complejidad innecesaria incrementa el tiempo de escaneo.
 
-Do not assume outputs change instantly. They are only updated once per scan.
+No asumas que las salidas cambian instantáneamente; solo se actualizan una vez por ciclo.

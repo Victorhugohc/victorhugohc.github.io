@@ -1,97 +1,97 @@
 # Ethernet
 
-## Overview
+## Descripción general
 
-Ethernet is a standard communication technology used to connect devices in a network.
+Ethernet es una tecnología de comunicación estándar utilizada para conectar dispositivos en una red.
 
-It defines how data is transmitted between devices such as PLCs, HMIs, computers, and network equipment using wired connections.
+Define cómo se transmiten los datos entre dispositivos como PLCs, HMIs, computadoras y equipos de red mediante conexiones cableadas.
 
-Ethernet is widely used in industrial systems due to its speed, flexibility, and compatibility.
+Ethernet se utiliza ampliamente en sistemas industriales debido a su velocidad, flexibilidad y compatibilidad.
 
-## Purpose
+## Propósito
 
-The purpose of Ethernet is to enable reliable and high speed communication between devices.
+El propósito de Ethernet es habilitar comunicación confiable y de alta velocidad entre dispositivos.
 
-It is used to:
+Se utiliza para:
 
-- Connect control systems and industrial devices  
-- Enable data exchange across networks  
-- Support integration between systems  
-- Provide a common communication infrastructure  
+- Conectar sistemas de control y dispositivos industriales  
+- Habilitar el intercambio de datos entre redes  
+- Admitir la integración entre sistemas  
+- Proporcionar una infraestructura de comunicación común  
 
-Ethernet serves as the foundation for many industrial communication protocols.
+Ethernet sirve como base para muchos protocolos de comunicación industrial.
 
-## How It Works
+## Cómo funciona
 
-Ethernet transmits data in the form of frames over a physical network.
+Ethernet transmite datos en forma de tramas a través de una red física.
 
-### Physical Layer
+### Capa física
 
-Devices are connected using cables and network hardware.
+Los dispositivos se conectan mediante cables y hardware de red.
 
-- Twisted pair cables such as Cat5e or Cat6  
-- Fiber optic cables for longer distances or high noise environments  
+- Cables de par trenzado como Cat5e o Cat6  
+- Cables de fibra óptica para mayores distancias o entornos con alto ruido  
 
-Connections are typically made through switches.
+Las conexiones típicamente se realizan a través de switches.
 
-### Data Transmission
+### Transmisión de datos
 
-Data is sent in packets called frames.
+Los datos se envían en paquetes llamados tramas.
 
-- Each frame contains source and destination addresses  
-- Devices use these addresses to route data correctly  
+- Cada trama contiene direcciones de origen y destino  
+- Los dispositivos utilizan estas direcciones para enrutar los datos correctamente  
 
-Communication occurs over shared or switched networks.
+La comunicación ocurre sobre redes compartidas o conmutadas.
 
-### Switching
+### Conmutación
 
-Modern Ethernet networks use switches.
+Las redes Ethernet modernas utilizan switches.
 
-- Devices are connected to a switch  
-- The switch directs traffic only to the intended destination  
-- Reduces collisions and improves performance  
+- Los dispositivos se conectan a un switch  
+- El switch dirige el tráfico solo al destino previsto  
+- Reduce colisiones y mejora el rendimiento  
 
-### Speed and Duplex
+### Velocidad y dúplex
 
-Ethernet supports different speeds.
+Ethernet admite diferentes velocidades.
 
-- 10 Mbps, 100 Mbps, 1 Gbps, or higher  
+- 10 Mbps, 100 Mbps, 1 Gbps o superior  
 
-Full duplex communication allows simultaneous sending and receiving of data.
+La comunicación en dúplex completo permite el envío y la recepción simultáneos de datos.
 
-## Applications
+## Aplicaciones
 
-Ethernet is used in most modern industrial networks.
+Ethernet se utiliza en la mayoría de las redes industriales modernas.
 
-Typical applications include:
+Las aplicaciones típicas incluyen:
 
-- Communication between PLCs and HMIs  
-- SCADA system connectivity  
-- Integration of drives and remote I O  
-- Connection to enterprise and IT systems  
+- Comunicación entre PLCs y HMIs  
+- Conectividad de sistemas SCADA  
+- Integración de variadores y E/S remotas  
+- Conexión a sistemas empresariales y de TI  
 
-It is the base for industrial protocols such as Ethernet IP and PROFINET.
+Es la base de protocolos industriales como EtherNet/IP y PROFINET.
 
-## Key Considerations
+## Consideraciones clave
 
-Network speed must match application requirements.
+La velocidad de red debe coincidir con los requisitos de la aplicación.
 
-Cable type and installation affect performance and reliability.
+El tipo de cable y la instalación afectan el rendimiento y la confiabilidad.
 
-Industrial environments may require shielded or rugged cables.
+Los entornos industriales pueden requerir cables blindados o robustos.
 
-Network topology impacts scalability and fault tolerance.
+La topología de red impacta la escalabilidad y la tolerancia a fallos.
 
-Deterministic communication may require specialized protocols on top of Ethernet.
+La comunicación determinista puede requerir protocolos especializados sobre Ethernet.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is using standard office grade equipment in industrial environments. Use industrial rated components when required.
+Un error común es utilizar equipos de grado de oficina en entornos industriales. Utilice componentes de grado industrial cuando sea necesario.
 
-Avoid excessive network traffic that can affect performance.
+Evite tráfico de red excesivo que pueda afectar el rendimiento.
 
-Use proper cable routing and separation from power lines to reduce interference.
+Utilice un tendido de cables adecuado y separación de líneas de potencia para reducir interferencias.
 
-Label network devices and connections clearly for maintenance.
+Etiquete dispositivos y conexiones de red con claridad para el mantenimiento.
 
-Test network performance during commissioning to verify reliability.
+Pruebe el rendimiento de la red durante la puesta en marcha para verificar la confiabilidad.

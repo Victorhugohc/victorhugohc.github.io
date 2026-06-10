@@ -6,7 +6,7 @@ Los estándares son documentos formales que definen requisitos, lineamientos y m
 
 Proporcionan un marco técnico común que garantiza que los sistemas sean seguros, compatibles y consistentes entre distintos fabricantes, industrias y regiones.
 
-## Purpose
+## Propósito
 
 Los estándares se utilizan para:
 
@@ -18,11 +18,11 @@ Los estándares se utilizan para:
 
 Sirven como una referencia que alinea a fabricantes, ingenieros e inspectores bajo los mismos criterios.
 
-## How It Works
+## Cómo funciona
 
 Los estándares establecen:
 
-- Requisitos técnicos (ratings, construcción, materiales)  
+- Requisitos técnicos (clasificaciones, construcción, materiales)  
 - Procedimientos de prueba y métodos de validación  
 - Reglas de instalación y uso  
 - Criterios de seguridad y protección  
@@ -41,7 +41,7 @@ Diferentes estándares aplican según:
 - Aplicación (sistemas eléctricos, maquinaria, seguridad)  
 - Tipo de equipo  
 
-## Applications
+## Aplicaciones
 
 Los estándares se aplican en todas las etapas de los sistemas industriales, incluyendo:
 
@@ -53,7 +53,7 @@ Los estándares se aplican en todas las etapas de los sistemas industriales, inc
 
 Son especialmente importantes en proyectos que requieren certificación, aprobación regulatoria o integración internacional.
 
-## Key Considerations
+## Consideraciones clave
 
 - Los requisitos regionales pueden definir qué estándares deben seguirse  
 - No todos los estándares son obligatorios, pero muchos son necesarios para aprobación  
@@ -61,7 +61,7 @@ Son especialmente importantes en proyectos que requieren certificación, aprobac
 - La certificación suele ser requerida además del cumplimiento  
 - Mezclar estándares sin verificación puede generar incompatibilidades  
 
-## Practical Notes
+## Notas prácticas
 
 - Identifica siempre los estándares aplicables desde la fase de diseño  
 - Verifica si el cumplimiento es suficiente o si se requiere certificación  

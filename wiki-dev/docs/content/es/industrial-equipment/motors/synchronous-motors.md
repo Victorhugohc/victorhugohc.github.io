@@ -1,73 +1,73 @@
-# Synchronous Motors
+# Motores síncronos
 
-## Overview
+## Descripción general
 
-Synchronous motors are electric motors that operate at a constant speed synchronized with the frequency of the power supply.
+Los motores síncronos son motores eléctricos que operan a velocidad constante sincronizada con la frecuencia del suministro de potencia.
 
-Unlike induction motors, the rotor rotates at the same speed as the rotating magnetic field, with no slip under normal operation.
+A diferencia de los motores de inducción, el rotor gira a la misma velocidad que el campo magnético rotativo, sin deslizamiento bajo operación normal.
 
-They are used in applications where precise speed and high efficiency are required.
+Se utilizan en aplicaciones donde se requiere velocidad precisa y alta eficiencia.
 
-## Purpose
+## Propósito
 
-The purpose of synchronous motors is to:
+El propósito de los motores síncronos es:
 
-- Maintain constant speed regardless of load variations  
-- Provide high efficiency in continuous operation  
-- Improve power factor when properly excited  
-- Drive large and critical industrial loads  
+- Mantener velocidad constante independientemente de las variaciones de carga  
+- Proporcionar alta eficiencia en operación continua  
+- Mejorar el factor de potencia cuando están correctamente excitados  
+- Accionar cargas industriales grandes y críticas  
 
-They are often selected for stable and high performance applications.
+A menudo se seleccionan para aplicaciones estables y de alto desempeño.
 
-## How It Works
+## Cómo funciona
 
-Synchronous motors have a stator and a rotor, similar to other motor types.
+Los motores síncronos tienen un estator y un rotor, similares a otros tipos de motores.
 
-- The stator is supplied with alternating current, creating a rotating magnetic field  
-- The rotor is excited either by direct current or permanent magnets  
-- The rotor magnetic field locks in with the stator field  
-- This causes the rotor to rotate at the same speed as the stator field  
+- El estator se alimenta con corriente alterna, creando un campo magnético rotativo  
+- El rotor se excita mediante corriente continua o imanes permanentes  
+- El campo magnético del rotor se acopla con el campo del estator  
+- Esto hace que el rotor gire a la misma velocidad que el campo del estator  
 
-Since the rotor follows the magnetic field exactly, there is no slip during normal operation.
+Dado que el rotor sigue exactamente al campo magnético, no hay deslizamiento durante la operación normal.
 
-Starting methods are required because the motor cannot start on its own under synchronous conditions.
+Se requieren métodos de arranque porque el motor no puede arrancar por sí solo bajo condiciones síncronas.
 
-## Applications
+## Aplicaciones
 
-Synchronous motors are used in:
+Los motores síncronos se utilizan en:
 
-- Large compressors and pumps  
-- High power industrial drives  
-- Applications requiring constant speed  
-- Systems where power factor correction is beneficial  
-- Heavy industries such as mining, cement, and steel  
+- Compresores y bombas de gran tamaño  
+- Accionamientos industriales de alta potencia  
+- Aplicaciones que requieren velocidad constante  
+- Sistemas donde la corrección del factor de potencia es beneficiosa  
+- Industrias pesadas como minería, cemento y acero  
 
-They are typically used in medium and high power applications.
+Típicamente se utilizan en aplicaciones de potencia media y alta.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Starting method**  
-  Requires auxiliary systems or special starting techniques  
+- **Método de arranque**  
+  Requiere sistemas auxiliares o técnicas de arranque especiales  
 
-- **Speed stability**  
-  Maintains constant speed independent of load  
+- **Estabilidad de velocidad**  
+  Mantiene velocidad constante independiente de la carga  
 
-- **Power factor control**  
-  Can operate at leading, lagging, or unity power factor  
+- **Control del factor de potencia**  
+  Puede operar con factor de potencia adelantado, atrasado o unitario  
 
-- **Complexity**  
-  More complex than induction motors in design and operation  
+- **Complejidad**  
+  Más complejos que los motores de inducción en diseño y operación  
 
-- **Cost**  
-  Higher initial cost compared to standard motors  
+- **Costo**  
+  Mayor costo inicial en comparación con motores estándar  
 
-- **Maintenance**  
-  Excitation systems may require additional maintenance  
+- **Mantenimiento**  
+  Los sistemas de excitación pueden requerir mantenimiento adicional  
 
-## Practical Notes
+## Notas prácticas
 
-- Synchronous motors are often used where efficiency and power factor are critical  
-- They are not typically used for simple applications due to complexity  
-- Improper starting can cause mechanical and electrical stress  
-- Power factor correction capability can reduce the need for external capacitors  
-- They are well suited for large, continuous duty applications  
+- Los motores síncronos a menudo se utilizan donde la eficiencia y el factor de potencia son críticos  
+- No se utilizan típicamente para aplicaciones simples debido a su complejidad  
+- Un arranque inadecuado puede causar estrés mecánico y eléctrico  
+- La capacidad de corrección del factor de potencia puede reducir la necesidad de capacitores externos  
+- Son adecuados para aplicaciones grandes de servicio continuo  

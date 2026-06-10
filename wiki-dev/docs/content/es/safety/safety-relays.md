@@ -1,101 +1,101 @@
-# Safety Relays
+# Relevadores de Seguridad
 
-## Overview
+## Descripción general
 
-Safety relays are devices used to monitor and control safety circuits in industrial systems.
+Los relevadores de seguridad son dispositivos utilizados para monitorear y controlar circuitos de seguridad en sistemas industriales.
 
-They ensure that safety functions such as emergency stops, safety gates, and interlocks operate correctly and reliably.
+Aseguran que funciones de seguridad como paros de emergencia, puertas de seguridad y enclavamientos operen correctamente y de forma confiable.
 
-Safety relays are designed with built in fault detection and fail safe behavior.
+Los relevadores de seguridad están diseñados con detección de fallas integrada y comportamiento a prueba de fallos.
 
-## Purpose
+## Propósito
 
-The purpose of a safety relay is to ensure that safety functions are executed reliably, even in the presence of faults.
+El propósito de un relevador de seguridad es asegurar que las funciones de seguridad se ejecuten de forma confiable, incluso en presencia de fallas.
 
-It is used to:
+Se utiliza para:
 
-- Monitor safety devices  
-- Detect faults in safety circuits  
-- Control safe shutdown of equipment  
-- Ensure compliance with safety requirements  
+- Monitorear dispositivos de seguridad  
+- Detectar fallas en circuitos de seguridad  
+- Controlar el apagado seguro del equipo  
+- Asegurar el cumplimiento de los requisitos de seguridad  
 
-Safety relays provide a higher level of reliability than standard relays.
+Los relevadores de seguridad proporcionan un nivel de confiabilidad superior al de los relevadores estándar.
 
-## How It Works
+## Cómo funciona
 
-Safety relays monitor inputs and control outputs based on safety conditions.
+Los relevadores de seguridad monitorean entradas y controlan salidas según las condiciones de seguridad.
 
-### Input Monitoring
+### Monitoreo de entradas
 
-The relay receives signals from safety devices.
+El relevador recibe señales de dispositivos de seguridad.
 
-- Emergency stop buttons  
-- Safety switches or light curtains  
+- Botones de paro de emergencia  
+- Interruptores de seguridad o cortinas de luz  
 
-Inputs are typically redundant and monitored for consistency.
+Las entradas típicamente son redundantes y se monitorean por consistencia.
 
-### Internal Logic
+### Lógica interna
 
-The safety relay evaluates input conditions.
+El relevador de seguridad evalúa las condiciones de entrada.
 
-- Checks for correct signal states  
-- Detects faults such as short circuits or wiring issues  
+- Verifica los estados correctos de las señales  
+- Detecta fallas como cortocircuitos o problemas de cableado  
 
-Internal diagnostics ensure proper operation.
+Los diagnósticos internos aseguran una operación adecuada.
 
-### Output Control
+### Control de salidas
 
-When safe conditions are met:
+Cuando se cumplen condiciones seguras:
 
-- Outputs allow the system to operate  
+- Las salidas permiten la operación del sistema  
 
-When a fault or unsafe condition is detected:
+Cuando se detecta una falla o condición insegura:
 
-- Outputs are deactivated  
-- Equipment is brought to a safe state  
+- Las salidas se desactivan  
+- El equipo se lleva a un estado seguro  
 
-### Reset Function
+### Función de reinicio
 
-After a safety event:
+Después de un evento de seguridad:
 
-- Manual reset is usually required  
-- Ensures that conditions are verified before restart  
+- Generalmente se requiere reinicio manual  
+- Asegura que las condiciones se verifiquen antes del arranque  
 
-This prevents unintended operation.
+Esto previene la operación no intencionada.
 
-## Applications
+## Aplicaciones
 
-Safety relays are used in many industrial systems.
+Los relevadores de seguridad se utilizan en muchos sistemas industriales.
 
-Typical applications include:
+Las aplicaciones típicas incluyen:
 
-- Emergency stop circuits  
-- Safety interlocks on guards and doors  
-- Light curtain protection systems  
-- Two hand control systems  
+- Circuitos de paro de emergencia  
+- Enclavamientos de seguridad en guardas y puertas  
+- Sistemas de protección con cortinas de luz  
+- Sistemas de control de dos manos  
 
-They are essential in systems requiring functional safety.
+Son esenciales en sistemas que requieren seguridad funcional.
 
-## Key Considerations
+## Consideraciones clave
 
-Safety level requirements must match the application.
+Los requisitos de nivel de seguridad deben coincidir con la aplicación.
 
-Proper wiring and configuration are critical.
+El cableado y la configuración adecuados son críticos.
 
-Compatibility with safety devices must be verified.
+La compatibilidad con dispositivos de seguridad debe verificarse.
 
-Diagnostics and fault detection improve reliability.
+El diagnóstico y la detección de fallas mejoran la confiabilidad.
 
-Compliance with safety standards is required.
+El cumplimiento de normas de seguridad es obligatorio.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is using standard relays for safety functions. Always use certified safety devices.
+Un error común es usar relevadores estándar para funciones de seguridad. Siempre utilizar dispositivos de seguridad certificados.
 
-Ensure correct wiring of redundant channels.
+Asegurar el cableado correcto de canales redundantes.
 
-Do not bypass safety relay circuits.
+No omitir los circuitos de relevadores de seguridad.
 
-Test safety functions regularly.
+Probar las funciones de seguridad regularmente.
 
-Document safety logic and connections clearly.
+Documentar claramente la lógica y las conexiones de seguridad.

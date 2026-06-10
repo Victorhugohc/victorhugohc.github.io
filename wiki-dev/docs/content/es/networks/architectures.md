@@ -1,113 +1,113 @@
-# Network Architectures
+# Arquitecturas de red
 
-## Overview
+## Descripción general
 
-Network architecture defines how devices are organized and connected within a communication network.
+La arquitectura de red define cómo se organizan y conectan los dispositivos dentro de una red de comunicación.
 
-It determines how data flows between devices, how reliable the system is, and how easily it can be expanded or maintained.
+Determina cómo fluyen los datos entre dispositivos, qué tan confiable es el sistema y con qué facilidad puede expandirse o mantenerse.
 
-A well designed architecture is essential for stable and efficient industrial communication.
+Una arquitectura bien diseñada es esencial para una comunicación industrial estable y eficiente.
 
-## Purpose
+## Propósito
 
-The purpose of network architecture is to ensure reliable, scalable, and manageable communication between devices.
+El propósito de la arquitectura de red es garantizar una comunicación confiable, escalable y manejable entre dispositivos.
 
-It is used to:
+Se utiliza para:
 
-- Organize network structure  
-- Optimize data flow  
-- Improve reliability and fault tolerance  
-- Support future expansion  
+- Organizar la estructura de la red  
+- Optimizar el flujo de datos  
+- Mejorar la confiabilidad y la tolerancia a fallos  
+- Admitir la expansión futura  
 
-Proper architecture reduces communication issues and simplifies maintenance.
+Una arquitectura adecuada reduce los problemas de comunicación y simplifica el mantenimiento.
 
-## How It Works
+## Cómo funciona
 
-Network architecture is based on how devices are physically and logically connected.
+La arquitectura de red se basa en cómo los dispositivos están conectados física y lógicamente.
 
-### Star Topology
+### Topología en estrella
 
-All devices are connected to a central switch.
+Todos los dispositivos se conectan a un switch central.
 
-- Easy to manage and expand  
-- Failure of one connection does not affect others  
-- Central device becomes a critical point  
+- Fácil de gestionar y expandir  
+- La falla de una conexión no afecta a las demás  
+- El dispositivo central se convierte en un punto crítico  
 
-Common in Ethernet based networks.
+Común en redes basadas en Ethernet.
 
-### Line or Bus Topology
+### Topología en línea o bus
 
-Devices are connected along a single communication line.
+Los dispositivos se conectan a lo largo de una sola línea de comunicación.
 
-- Simple wiring  
-- Lower installation cost  
-- A failure in the main line can affect the entire network  
+- Cableado simple  
+- Menor costo de instalación  
+- Una falla en la línea principal puede afectar a toda la red  
 
-Used in serial communication systems.
+Utilizada en sistemas de comunicación serial.
 
-### Ring Topology
+### Topología en anillo
 
-Devices are connected in a closed loop.
+Los dispositivos se conectan en un bucle cerrado.
 
-- Data travels in one or both directions  
-- Can provide redundancy if designed properly  
-- More complex than star topology  
+- Los datos viajan en una o ambas direcciones  
+- Puede proporcionar redundancia si se diseña correctamente  
+- Más compleja que la topología en estrella  
 
-Used in systems requiring higher availability.
+Utilizada en sistemas que requieren mayor disponibilidad.
 
-### Tree Topology
+### Topología en árbol
 
-Combination of multiple star networks.
+Combinación de múltiples redes en estrella.
 
-- Hierarchical structure  
-- Scalable for large systems  
-- Requires careful design to avoid bottlenecks  
+- Estructura jerárquica  
+- Escalable para sistemas grandes  
+- Requiere un diseño cuidadoso para evitar cuellos de botella  
 
-Common in large industrial networks.
+Común en redes industriales de gran escala.
 
-### Redundant Architectures
+### Arquitecturas redundantes
 
-Networks include backup paths or devices.
+Las redes incluyen rutas o dispositivos de respaldo.
 
-- Automatic failover in case of failure  
-- Increased reliability  
-- Higher cost and complexity  
+- Conmutación automática por error en caso de falla  
+- Mayor confiabilidad  
+- Mayor costo y complejidad  
 
-Used in critical systems.
+Utilizadas en sistemas críticos.
 
-## Applications
+## Aplicaciones
 
-Different architectures are used depending on system requirements.
+Se utilizan diferentes arquitecturas según los requisitos del sistema.
 
-Typical uses include:
+Los usos típicos incluyen:
 
-- Star topology in plant Ethernet networks  
-- Bus topology in serial communication systems  
-- Ring topology in high availability networks  
-- Tree structures in large facilities  
+- Topología en estrella en redes Ethernet de planta  
+- Topología en bus en sistemas de comunicación serial  
+- Topología en anillo en redes de alta disponibilidad  
+- Estructuras en árbol en instalaciones de gran tamaño  
 
-Selection depends on scale, reliability, and performance needs.
+La selección depende de la escala, la confiabilidad y las necesidades de rendimiento.
 
-## Key Considerations
+## Consideraciones clave
 
-Reliability requirements influence architecture choice.
+Los requisitos de confiabilidad influyen en la elección de la arquitectura.
 
-Network performance depends on topology and traffic distribution.
+El rendimiento de la red depende de la topología y la distribución del tráfico.
 
-Scalability must be considered for future expansion.
+La escalabilidad debe considerarse para la expansión futura.
 
-Failure points should be identified and minimized.
+Los puntos de falla deben identificarse y minimizarse.
 
-Cable routing and installation affect overall performance.
+El tendido de cables y la instalación afectan el rendimiento general.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is selecting architecture based only on simplicity without considering reliability.
+Un error común es seleccionar la arquitectura solo por simplicidad sin considerar la confiabilidad.
 
-Avoid single points of failure in critical systems.
+Evite puntos únicos de falla en sistemas críticos.
 
-Use redundancy where downtime is not acceptable.
+Utilice redundancia donde el tiempo de inactividad no sea aceptable.
 
-Keep network design as simple as possible while meeting requirements.
+Mantenga el diseño de red lo más simple posible mientras cumpla los requisitos.
 
-Document the architecture clearly for troubleshooting and maintenance.
+Documente la arquitectura con claridad para la resolución de problemas y el mantenimiento.

@@ -1,100 +1,100 @@
-# PID Basics
+# Fundamentos de PID
 
-## Overview
+## Descripción general
 
-PID control is a widely used method for closed loop control. It adjusts the control output based on the difference between a desired value and the measured value.
+El control PID es un método ampliamente utilizado en sistemas de control en lazo cerrado. Ajusta la salida de control en función de la diferencia entre un valor deseado y el valor medido.
 
-PID stands for Proportional, Integral, and Derivative. These three terms define how the controller reacts to error.
+PID significa Proporcional, Integral y Derivativo. Estos tres términos definen cómo el controlador responde al error.
 
-## Purpose
+## Propósito
 
-The purpose of PID control is to maintain a process variable at a desired setpoint with stability and accuracy.
+El propósito del control PID es mantener una variable de proceso en un valor deseado (setpoint) con estabilidad y precisión.
 
-It is used to:
+Se utiliza para:
 
-- Reduce steady state error  
-- Improve response speed  
-- Minimize oscillations  
-- Compensate for disturbances  
+- Reducir el error en estado estacionario  
+- Mejorar la velocidad de respuesta  
+- Minimizar oscilaciones  
+- Compensar perturbaciones  
 
-PID control provides a balance between responsiveness and stability.
+El control PID proporciona un balance entre rapidez de respuesta y estabilidad.
 
-## How It Works
+## Cómo funciona
 
-A PID controller calculates an output based on the error between the setpoint and the measured value.
+Un controlador PID calcula una salida basada en el error entre el setpoint y el valor medido.
 
-### Proportional (P)
+### Proporcional (P)
 
-The proportional term reacts to the current error.
+El término proporcional responde al error actual.
 
-- Larger error produces a larger correction  
-- Small error produces a small correction  
+- Un error grande produce una corrección grande  
+- Un error pequeño produce una corrección pequeña  
 
-It provides immediate response but cannot eliminate steady state error on its own.
+Proporciona una respuesta inmediata, pero por sí solo no elimina el error en estado estacionario.
 
 ### Integral (I)
 
-The integral term reacts to the accumulation of past error.
+El término integral responde a la acumulación del error en el tiempo.
 
-- It increases output over time if error persists  
-- Eliminates steady state offset  
+- Incrementa la salida si el error persiste  
+- Elimina el error en estado estacionario  
 
-Too much integral action can cause slow response or oscillations.
+Un exceso de acción integral puede provocar respuestas lentas u oscilaciones.
 
-### Derivative (D)
+### Derivativo (D)
 
-The derivative term reacts to the rate of change of the error.
+El término derivativo responde a la velocidad de cambio del error.
 
-- Predicts future behavior  
-- Reduces overshoot  
-- Improves stability  
+- Predice el comportamiento futuro  
+- Reduce el sobreimpulso (overshoot)  
+- Mejora la estabilidad  
 
-It is sensitive to noise and is often used with care.
+Es sensible al ruido y debe utilizarse con cuidado.
 
-### Combined Action
+### Acción combinada
 
-The controller output is the combination of the three terms.
+La salida del controlador es la combinación de los tres términos.
 
-- P handles present error  
-- I corrects past accumulated error  
-- D anticipates future error  
+- P actúa sobre el error presente  
+- I corrige el error acumulado  
+- D anticipa el error futuro  
 
-The balance between these terms determines system behavior.
+El balance entre estos términos determina el comportamiento del sistema.
 
-## Applications
+## Aplicaciones
 
-PID control is used in most industrial control loops, including:
+El control PID se utiliza en la mayoría de los lazos de control industrial, incluyendo:
 
-- Temperature control  
-- Flow and pressure regulation  
-- Motor speed control  
-- Level control in tanks  
-- Position control systems  
+- Control de temperatura  
+- Regulación de flujo y presión  
+- Control de velocidad de motores  
+- Control de nivel en tanques  
+- Sistemas de control de posición  
 
-It is the standard approach for continuous process control.
+Es el enfoque estándar para el control continuo de procesos.
 
-## Key Considerations
+## Consideraciones clave
 
-Tuning is critical. The gains for P, I, and D must be adjusted for each process.
+El ajuste (tuning) es crítico. Las ganancias de P, I y D deben adaptarse a cada proceso.
 
-Too much proportional gain can cause oscillations.
+Un exceso de ganancia proporcional puede causar oscilaciones.
 
-Too much integral action can lead to slow recovery and instability.
+Demasiada acción integral puede generar inestabilidad o recuperación lenta.
 
-Derivative action improves stability but can amplify measurement noise.
+La acción derivativa mejora la estabilidad, pero puede amplificar el ruido.
 
-Process dynamics affect tuning. Slow systems and fast systems require different settings.
+La dinámica del proceso afecta el ajuste. Sistemas rápidos y lentos requieren configuraciones distintas.
 
-Sensor accuracy and response time directly impact performance.
+La precisión y el tiempo de respuesta de los sensores impactan directamente el desempeño.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is using PID without understanding the process behavior. This leads to poor tuning and unstable control.
+Un error común es usar PID sin comprender el comportamiento del proceso, lo que conduce a un mal ajuste y control inestable.
 
-Not all systems require all three terms. Many applications use only PI control.
+No todos los sistemas requieren los tres términos. Muchas aplicaciones utilizan solo control PI.
 
-Start with simple tuning and increase complexity only if needed.
+Comienza con un ajuste simple y aumenta la complejidad solo si es necesario.
 
-Always verify performance under real operating conditions, not only during initial setup.
+Verifica el desempeño en condiciones reales de operación, no solo en pruebas iniciales.
 
-Noise filtering may be required when using derivative action.
+Puede ser necesario aplicar filtrado de señal cuando se utiliza acción derivativa.

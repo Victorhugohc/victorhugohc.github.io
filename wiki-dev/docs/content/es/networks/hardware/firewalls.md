@@ -1,109 +1,109 @@
 # Firewalls
 
-## Overview
+## Descripción general
 
-A firewall is a network security device that monitors and controls traffic between different network segments.
+Un firewall es un dispositivo de seguridad de red que monitorea y controla el tráfico entre diferentes segmentos de red.
 
-It acts as a barrier that allows or blocks communication based on defined rules, protecting industrial systems from unauthorized access and threats.
+Actúa como una barrera que permite o bloquea la comunicación según reglas definidas, protegiendo los sistemas industriales del acceso no autorizado y las amenazas.
 
-Firewalls are a critical component in industrial network security.
+Los firewalls son un componente crítico en la seguridad de redes industriales.
 
-## Purpose
+## Propósito
 
-The purpose of a firewall is to protect networks and devices from unwanted or harmful communication.
+El propósito de un firewall es proteger las redes y los dispositivos de comunicaciones no deseadas o dañinas.
 
-It is used to:
+Se utiliza para:
 
-- Control traffic between networks  
-- Prevent unauthorized access  
-- Protect control systems from external threats  
-- Enforce security policies  
+- Controlar el tráfico entre redes  
+- Prevenir el acceso no autorizado  
+- Proteger los sistemas de control de amenazas externas  
+- Aplicar políticas de seguridad  
 
-Firewalls help maintain system integrity and availability.
+Los firewalls ayudan a mantener la integridad y la disponibilidad del sistema.
 
-## How It Works
+## Cómo funciona
 
-A firewall inspects network traffic and applies rules to determine whether to allow or block it.
+Un firewall inspecciona el tráfico de red y aplica reglas para determinar si debe permitirlo o bloquearlo.
 
-### Traffic Filtering
+### Filtrado de tráfico
 
-The firewall evaluates packets based on criteria such as:
+El firewall evalúa los paquetes según criterios como:
 
-- Source and destination IP addresses  
-- Ports and protocols  
-- Direction of communication  
+- Direcciones IP de origen y destino  
+- Puertos y protocolos  
+- Dirección de la comunicación  
 
-Only permitted traffic is allowed to pass.
+Solo se permite pasar el tráfico autorizado.
 
-### Rule Configuration
+### Configuración de reglas
 
-Rules define what traffic is allowed or denied.
+Las reglas definen qué tráfico se permite o se deniega.
 
-- Allow rules permit specific communication  
-- Deny rules block unwanted traffic  
+- Las reglas de permitir autorizan comunicaciones específicas  
+- Las reglas de denegar bloquean tráfico no deseado  
 
-Rules are applied in a defined order.
+Las reglas se aplican en un orden definido.
 
-### Network Segmentation
+### Segmentación de red
 
-Firewalls are used to separate networks.
+Los firewalls se utilizan para separar redes.
 
-- Industrial network from corporate network  
-- Control systems from external access  
+- Red industrial de la red corporativa  
+- Sistemas de control del acceso externo  
 
-This limits the spread of potential threats.
+Esto limita la propagación de posibles amenazas.
 
-### Stateful Inspection
+### Inspección con estado
 
-Advanced firewalls track connection states.
+Los firewalls avanzados rastrean los estados de las conexiones.
 
-- Allow return traffic for established connections  
-- Block unexpected or invalid traffic  
+- Permiten el tráfico de retorno para conexiones establecidas  
+- Bloquean tráfico inesperado o inválido  
 
-This improves security and efficiency.
+Esto mejora la seguridad y la eficiencia.
 
-### Logging and Monitoring
+### Registro y monitoreo
 
-Firewalls can record network activity.
+Los firewalls pueden registrar la actividad de red.
 
-- Log allowed and blocked traffic  
-- Detect unusual patterns  
+- Registrar tráfico permitido y bloqueado  
+- Detectar patrones inusuales  
 
-This supports troubleshooting and security analysis.
+Esto respalda la resolución de problemas y el análisis de seguridad.
 
-## Applications
+## Aplicaciones
 
-Firewalls are used in all industrial networks connected to other systems.
+Los firewalls se utilizan en todas las redes industriales conectadas a otros sistemas.
 
-Typical applications include:
+Las aplicaciones típicas incluyen:
 
-- Protecting PLC networks  
-- Securing SCADA systems  
-- Controlling remote access  
-- Separating network zones  
+- Protección de redes de PLC  
+- Seguridad de sistemas SCADA  
+- Control del acceso remoto  
+- Separación de zonas de red  
 
-They are essential in systems with external connectivity.
+Son esenciales en sistemas con conectividad externa.
 
-## Key Considerations
+## Consideraciones clave
 
-Security rules must be carefully defined to avoid blocking required communication.
+Las reglas de seguridad deben definirse cuidadosamente para evitar bloquear la comunicación requerida.
 
-Network performance can be affected by inspection and filtering.
+El rendimiento de la red puede verse afectado por la inspección y el filtrado.
 
-Regular updates and maintenance are required to address new threats.
+Se requieren actualizaciones y mantenimiento regulares para abordar nuevas amenazas.
 
-Integration with overall cybersecurity strategy is important.
+La integración con la estrategia general de ciberseguridad es importante.
 
-Proper placement in the network architecture is critical.
+La ubicación adecuada en la arquitectura de red es crítica.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is allowing too much traffic for convenience. Apply the principle of minimum required access.
+Un error común es permitir demasiado tráfico por conveniencia. Aplique el principio del acceso mínimo requerido.
 
-Document all firewall rules clearly.
+Documente todas las reglas del firewall con claridad.
 
-Test rules to ensure necessary communication is not blocked.
+Pruebe las reglas para asegurar que la comunicación necesaria no quede bloqueada.
 
-Monitor firewall logs to detect issues or suspicious activity.
+Monitoree los registros del firewall para detectar problemas o actividad sospechosa.
 
-Use firewalls as part of a layered security approach, not as the only protection.
+Utilice los firewalls como parte de un enfoque de seguridad en capas, no como la única protección.

@@ -1,140 +1,140 @@
-# SCADA Architecture
+# Arquitectura SCADA
 
-## Overview
+## Descripción general
 
-SCADA architecture defines how the different components of a SCADA system are organized and interconnected.
+La arquitectura SCADA define cómo se organizan e interconectan los diferentes componentes de un sistema SCADA.
 
-It describes how data flows from field devices to operators and how control commands are distributed across the system.
+Describe cómo fluye la información desde los dispositivos de campo hasta los operadores y cómo se distribuyen los comandos de control en el sistema.
 
-## Purpose
+## Propósito
 
-The purpose of SCADA architecture is to provide reliable, scalable, and efficient monitoring and supervisory control.
+El propósito de la arquitectura SCADA es proporcionar monitoreo y control supervisado de manera confiable, escalable y eficiente.
 
-A well designed architecture ensures:
+Una arquitectura bien diseñada asegura:
 
-- Continuous data availability  
-- Reliable communication  
-- Scalable system growth  
-- Clear separation of system functions  
+- Disponibilidad continua de datos  
+- Comunicación confiable  
+- Crecimiento escalable del sistema  
+- Separación clara de funciones  
 
-## How It Works
+## Cómo funciona
 
-SCADA architecture is typically structured in layers, each with a specific role.
+La arquitectura SCADA generalmente se organiza en capas, cada una con un rol específico.
 
-### Field Level
+### Nivel de campo
 
-This is where the physical process exists.
+Es donde existe el proceso físico.
 
-- Sensors and instruments measure variables  
-- Actuators execute control actions  
+- Sensores e instrumentos miden variables  
+- Actuadores ejecutan acciones de control  
 
-These devices generate and receive real world signals.
+Estos dispositivos generan y reciben señales del mundo real.
 
-### Control Level
+### Nivel de control
 
-Controllers such as PLCs manage real time control.
+Los controladores como PLCs gestionan el control en tiempo real.
 
-- Execute control logic  
-- Process input and output signals  
-- Maintain local operation even if SCADA is unavailable  
+- Ejecutan la lógica de control  
+- Procesan señales de entrada y salida  
+- Mantienen operación local incluso si SCADA no está disponible  
 
-They act as the interface between the process and higher systems.
+Actúan como la interfaz entre el proceso y sistemas superiores.
 
-### Communication Layer
+### Capa de comunicación
 
-This layer connects controllers to the SCADA system.
+Esta capa conecta los controladores con el sistema SCADA.
 
-- Industrial networks such as Ethernet or serial communication  
-- Protocols such as Modbus, PROFINET, or OPC UA  
+- Redes industriales como Ethernet o comunicación serial  
+- Protocolos como Modbus, PROFINET u OPC UA  
 
-It ensures data transfer between devices.
+Asegura la transferencia de datos entre dispositivos.
 
-### SCADA Servers
+### Servidores SCADA
 
-Servers handle data processing and management.
+Los servidores gestionan el procesamiento y manejo de datos.
 
-- Collect data from controllers  
-- Manage alarms and events  
-- Store historical data  
-- Distribute information to clients  
+- Recopilan datos de los controladores  
+- Gestionan alarmas y eventos  
+- Almacenan datos históricos  
+- Distribuyen información a clientes  
 
-Servers are central to system operation.
+Son el núcleo de la operación del sistema.
 
-### Client Interfaces
+### Interfaces de usuario
 
-Operators interact with the system through clients.
+Los operadores interactúan con el sistema mediante clientes.
 
-- Operator workstations  
-- Engineering stations  
-- Web or remote access interfaces  
+- Estaciones de operador  
+- Estaciones de ingeniería  
+- Interfaces web o acceso remoto  
 
-Clients display information and allow supervisory control.
+Los clientes muestran información y permiten control supervisado.
 
-## Architecture Types
+## Tipos de arquitectura
 
-### Centralized Architecture
+### Arquitectura centralizada
 
-All data is processed in a single server.
+Todos los datos se procesan en un solo servidor.
 
-- Simple design  
-- Limited redundancy  
-- Suitable for small systems  
+- Diseño simple  
+- Redundancia limitada  
+- Adecuado para sistemas pequeños  
 
-### Distributed Architecture
+### Arquitectura distribuida
 
-Multiple servers share system functions.
+Múltiples servidores comparten funciones del sistema.
 
-- Improved scalability  
-- Better performance  
-- Common in medium to large systems  
+- Mayor escalabilidad  
+- Mejor desempeño  
+- Común en sistemas medianos y grandes  
 
-### Redundant Architecture
+### Arquitectura redundante
 
-Duplicate components ensure high availability.
+Componentes duplicados aseguran alta disponibilidad.
 
-- Backup servers and communication paths  
-- Automatic failover  
-- Used in critical systems  
+- Servidores y rutas de comunicación de respaldo  
+- Conmutación automática (failover)  
+- Usada en sistemas críticos  
 
-### Cloud Integrated Architecture
+### Arquitectura integrada a la nube
 
-Data is integrated with cloud platforms.
+Los datos se integran con plataformas en la nube.
 
-- Remote monitoring and analytics  
-- Scalable data storage  
-- Requires secure connectivity  
+- Monitoreo remoto y analítica  
+- Almacenamiento escalable  
+- Requiere conectividad segura  
 
-## Applications
+## Aplicaciones
 
-SCADA architecture is used in systems with multiple control points.
+La arquitectura SCADA se utiliza en sistemas con múltiples puntos de control.
 
-Typical applications include:
+Aplicaciones típicas incluyen:
 
-- Utility and infrastructure systems  
-- Large industrial plants  
-- Distributed processes  
-- Remote monitoring systems  
+- Sistemas de servicios e infraestructura  
+- Plantas industriales de gran escala  
+- Procesos distribuidos  
+- Sistemas de monitoreo remoto  
 
-## Key Considerations
+## Consideraciones clave
 
-Reliability is critical. Redundancy may be required in important systems.
+La confiabilidad es crítica. Puede requerirse redundancia en sistemas importantes.
 
-Network performance affects data latency and system responsiveness.
+El desempeño de la red afecta la latencia y la respuesta del sistema.
 
-Scalability should allow future expansion.
+La escalabilidad debe permitir expansión futura.
 
-Cybersecurity must be integrated into the design.
+La ciberseguridad debe integrarse desde el diseño.
 
-Separation between control and supervisory layers improves stability.
+La separación entre control y supervisión mejora la estabilidad.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is relying on a single server in critical systems without redundancy.
+Un error común es depender de un solo servidor en sistemas críticos sin redundancia.
 
-Keep control functions in controllers, not in SCADA.
+Mantén las funciones de control en los controladores, no en SCADA.
 
-Design networks with proper segmentation to improve performance and security.
+Diseña redes con segmentación adecuada para mejorar desempeño y seguridad.
 
-Test failover and recovery mechanisms to ensure system reliability.
+Prueba mecanismos de respaldo y recuperación para asegurar confiabilidad.
 
-Document architecture clearly to support maintenance and expansion.
+Documenta claramente la arquitectura para facilitar mantenimiento y expansión.

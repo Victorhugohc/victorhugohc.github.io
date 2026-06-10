@@ -1,70 +1,70 @@
 # Firewalls
 
-## Overview
+## Descripción general
 
-Firewalls are network security devices that control traffic between different parts of a network.
+Los firewalls son dispositivos de seguridad de red que controlan el tráfico entre diferentes partes de una red.
 
-They act as a barrier that allows or blocks communication based on defined rules. In industrial systems, firewalls are used to protect control networks and restrict access to critical devices.
+Actúan como una barrera que permite o bloquea la comunicación según reglas definidas. En sistemas industriales, se utilizan para proteger redes de control y restringir el acceso a dispositivos críticos.
 
-## Purpose
+## Propósito
 
-The purpose of firewalls is to:
+El propósito de los firewalls es:
 
-- Control which systems can communicate  
-- Block unauthorized or unnecessary traffic  
-- Protect critical assets from external networks  
-- Enforce network segmentation policies  
+- Controlar qué sistemas pueden comunicarse  
+- Bloquear tráfico no autorizado o innecesario  
+- Proteger activos críticos frente a redes externas  
+- Aplicar políticas de segmentación de red  
 
-Firewalls are a key component in maintaining controlled and predictable network behavior.
+Los firewalls son un componente clave para mantener un comportamiento de red controlado y predecible.
 
-## How It Works
+## Cómo funciona
 
-A firewall inspects network traffic and compares it against a set of rules.
+Un firewall inspecciona el tráfico de red y lo compara con un conjunto de reglas.
 
-These rules define:
+Estas reglas definen:
 
-- Source and destination addresses  
-- Communication ports and protocols  
-- Allowed or denied actions  
+- Direcciones de origen y destino  
+- Puertos y protocolos de comunicación  
+- Acciones permitidas o denegadas  
 
-When traffic matches a rule, the firewall either permits or blocks it.
+Cuando el tráfico coincide con una regla, el firewall permite o bloquea la comunicación.
 
-Common firewall capabilities include:
+Capacidades comunes incluyen:
 
-- Packet filtering based on basic parameters  
-- Stateful inspection that tracks active connections  
-- Deep inspection for more detailed traffic analysis  
+- Filtrado de paquetes basado en parámetros básicos  
+- Inspección con estado (stateful) que rastrea conexiones activas  
+- Inspección profunda para análisis más detallado del tráfico  
 
-In industrial systems, firewalls are typically configured to allow only required communication and block everything else.
+En sistemas industriales, los firewalls suelen configurarse para permitir solo la comunicación necesaria y bloquear todo lo demás.
 
-## Applications
+## Aplicaciones
 
-Firewalls are used in:
+Los firewalls se utilizan en:
 
-- Separation between enterprise and industrial networks  
-- Protection of PLC and control system networks  
-- Secure remote access architectures  
-- Segmented zones within industrial facilities  
-- Connections to external systems or cloud services  
+- Separación entre redes empresariales y redes industriales  
+- Protección de redes de PLC y sistemas de control  
+- Arquitecturas de acceso remoto seguro  
+- Segmentación de zonas dentro de instalaciones industriales  
+- Conexiones con sistemas externos o servicios en la nube  
 
-They are essential wherever controlled communication is required.
+Son esenciales en cualquier punto donde se requiera comunicación controlada.
 
-## Key Considerations
+## Consideraciones clave
 
-- Define rules based on required communication, not convenience  
-- Avoid overly permissive configurations  
-- Ensure compatibility with industrial protocols  
-- Consider latency and real time communication requirements  
-- Maintain clear and documented rule sets  
+- Definir reglas con base en la comunicación requerida, no en conveniencia  
+- Evitar configuraciones demasiado permisivas  
+- Asegurar compatibilidad con protocolos industriales  
+- Considerar latencia y requisitos de tiempo real  
+- Mantener reglas claras y documentadas  
 
-Incorrect configuration can either block critical communication or expose the system to risk.
+Una configuración incorrecta puede bloquear comunicación crítica o exponer el sistema a riesgos.
 
-## Practical Notes
+## Notas prácticas
 
-- Place firewalls at key boundaries between network segments  
-- Use a default deny approach and explicitly allow required traffic  
-- Regularly review and clean up unused rules  
-- Monitor firewall logs to detect abnormal activity  
-- Avoid using firewalls as the only security measure  
+- Coloca firewalls en puntos clave entre segmentos de red  
+- Utiliza una política de denegación por defecto y permite explícitamente el tráfico necesario  
+- Revisa y limpia periódicamente reglas no utilizadas  
+- Monitorea los registros del firewall para detectar actividad anormal  
+- Evita usar firewalls como única medida de seguridad  
 
-Firewalls are effective when combined with proper network design and access control.
+Los firewalls son más efectivos cuando se combinan con un buen diseño de red y control de accesos.

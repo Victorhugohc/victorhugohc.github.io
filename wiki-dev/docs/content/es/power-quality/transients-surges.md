@@ -1,82 +1,82 @@
-# Transients and Surges
+# Transitorios y sobretensiones
 
-## Overview
+## Descripción general
 
-Transients and surges are short duration overvoltage events that occur in electrical systems.
+Los transitorios y sobretensiones son eventos de sobrevoltaje de corta duración que ocurren en sistemas eléctricos.
 
-They are characterized by very fast changes in voltage that can reach high amplitudes in a very short time.
+Se caracterizan por cambios muy rápidos en el voltaje que pueden alcanzar amplitudes elevadas en un tiempo muy breve.
 
-These events can damage equipment, degrade insulation, and affect system reliability.
+Estos eventos pueden dañar el equipo, degradar el aislamiento y afectar la confiabilidad del sistema.
 
-## Purpose
+## Propósito
 
-Understanding transients and surges is important to:
+Comprender los transitorios y sobretensiones es importante para:
 
-- Protect equipment from high voltage spikes  
-- Prevent premature failure of insulation and components  
-- Maintain reliable operation of sensitive devices  
-- Reduce downtime caused by electrical disturbances  
+- Proteger el equipo de picos de alto voltaje  
+- Prevenir fallas prematuras del aislamiento y los componentes  
+- Mantener la operación confiable de dispositivos sensibles  
+- Reducir el tiempo de inactividad causado por perturbaciones eléctricas  
 
-Proper control of these events improves system durability and stability.
+El control adecuado de estos eventos mejora la durabilidad y estabilidad del sistema.
 
-## How It Works
+## Cómo funciona
 
-Transients and surges are caused by sudden changes in electrical conditions.
+Los transitorios y sobretensiones son causados por cambios súbitos en las condiciones eléctricas.
 
-Common causes include:
+Las causas comunes incluyen:
 
-- Switching operations such as turning loads on or off  
-- Energizing or de energizing transformers and capacitors  
-- Lightning strikes or external disturbances  
-- Fault clearing and protection device operation  
+- Operaciones de conmutación, como encender o apagar cargas  
+- Energización o desenergización de transformadores y capacitores  
+- Descargas atmosféricas o perturbaciones externas  
+- Eliminación de fallas y operación de dispositivos de protección  
 
-These events generate high frequency voltage spikes that travel through the system.
+Estos eventos generan picos de voltaje de alta frecuencia que se propagan a través del sistema.
 
-Their impact depends on:
+Su impacto depende de:
 
-- Peak voltage magnitude  
-- Rise time and duration  
-- System impedance and grounding  
-- Location relative to sensitive equipment  
+- Magnitud del voltaje pico  
+- Tiempo de subida y duración  
+- Impedancia del sistema y puesta a tierra  
+- Ubicación respecto al equipo sensible  
 
-Even very short events can cause damage due to high energy concentration.
+Incluso eventos muy breves pueden causar daños debido a la alta concentración de energía.
 
-## Applications
+## Aplicaciones
 
-Transients and surges are relevant in:
+Los transitorios y sobretensiones son relevantes en:
 
-- Industrial facilities with frequent switching operations  
-- Systems with sensitive electronic equipment  
-- Outdoor installations exposed to lightning  
-- Control panels and automation systems  
-- Power distribution networks  
+- Instalaciones industriales con operaciones de conmutación frecuentes  
+- Sistemas con equipos electrónicos sensibles  
+- Instalaciones exteriores expuestas a descargas atmosféricas  
+- Tableros de control y sistemas de automatización  
+- Redes de distribución de potencia  
 
-They must be considered in both design and operation stages.
+Deben considerarse tanto en las etapas de diseño como de operación.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Voltage magnitude**  
-  Higher peaks increase the risk of insulation breakdown  
+- **Magnitud de voltaje**  
+  Picos más altos incrementan el riesgo de ruptura del aislamiento  
 
-- **Frequency and repetition**  
-  Repeated events can cause cumulative damage  
+- **Frecuencia y repetición**  
+  Eventos repetidos pueden causar daños acumulativos  
 
-- **Source of disturbance**  
-  Internal and external sources require different mitigation approaches  
+- **Fuente de la perturbación**  
+  Las fuentes internas y externas requieren enfoques de mitigación diferentes  
 
-- **System grounding**  
-  Proper grounding helps control transient behavior  
+- **Puesta a tierra del sistema**  
+  Una puesta a tierra adecuada ayuda a controlar el comportamiento transitorio  
 
-- **Protection devices**  
-  Surge protection devices can limit voltage spikes  
+- **Dispositivos de protección**  
+  Los dispositivos de protección contra sobretensiones pueden limitar los picos de voltaje  
 
-- **Equipment sensitivity**  
-  Electronic systems are more vulnerable than resistive loads  
+- **Sensibilidad del equipo**  
+  Los sistemas electrónicos son más vulnerables que las cargas resistivas  
 
-## Practical Notes
+## Notas prácticas
 
-- Switching operations are a common internal source of transients  
-- Lightning protection is critical in exposed installations  
-- Surge protection devices should be installed close to sensitive equipment  
-- Poor grounding increases the impact of transient events  
-- Regular inspection ensures protection devices remain effective  
+- Las operaciones de conmutación son una fuente interna común de transitorios  
+- La protección contra descargas atmosféricas es crítica en instalaciones expuestas  
+- Los dispositivos de protección contra sobretensiones deben instalarse cerca del equipo sensible  
+- Una puesta a tierra deficiente incrementa el impacto de los eventos transitorios  
+- La inspección regular garantiza que los dispositivos de protección sigan siendo efectivos  

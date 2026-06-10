@@ -1,101 +1,99 @@
-# PLC Memory
+# Lógica Ladder
 
-## Overview
+## Descripción general
 
-PLC memory is used to store the control program, system data, and runtime variables.
+La lógica ladder es un lenguaje de programación gráfico utilizado en PLCs. Representa la lógica de control mediante símbolos similares a los circuitos eléctricos de relevadores.
 
-It allows the PLC to retain information needed to execute logic, track states, and manage operations during and between scan cycles.
+Los programas se organizan en líneas horizontales llamadas peldaños (rungs), que definen cómo las entradas y condiciones controlan las salidas.
 
-## Purpose
+## Propósito
 
-The purpose of PLC memory is to provide structured storage for all data required by the control system.
+El propósito de la lógica ladder es proporcionar una forma simple e intuitiva de implementar lógica de control.
 
-It enables:
+Permite a ingenieros y técnicos:
 
-- Execution of the control program  
-- Storage of input and output states  
-- Tracking of internal variables and conditions  
-- Retention of critical data after power loss  
+- Diseñar y comprender secuencias de control  
+- Traducir sistemas basados en relevadores a software  
+- Diagnosticar lógica utilizando un formato familiar  
 
-Proper memory management ensures stable and predictable system behavior.
+Es ampliamente utilizada por su claridad y aceptación en la industria.
 
-## How It Works
+## Cómo funciona
 
-PLC memory is divided into different areas, each with a specific function.
+La lógica ladder se basa en evaluar condiciones de izquierda a derecha en cada peldaño.
 
-### Program Memory
+### Elementos básicos
 
-Stores the user program and system configuration.
+- Los contactos representan condiciones de entrada  
+- Las bobinas representan salidas o acciones  
 
-- Typically non volatile  
-- Retains data after power loss  
-- Includes logic, functions, and control routines  
+Los contactos pueden ser:
 
-### Data Memory
+- Normalmente abiertos, verdaderos cuando la condición está activa  
+- Normalmente cerrados, verdaderos cuando la condición no está activa  
 
-Stores variables used during execution.
+### Ejecución de la lógica
 
-- Internal bits and registers  
-- Timer and counter values  
-- Intermediate calculations  
+Cada peldaño se evalúa durante el ciclo de escaneo.
 
-This memory is updated continuously during operation.
+- Si las condiciones del lado izquierdo son verdaderas  
+- Se completa el camino lógico  
+- La salida del lado derecho se energiza  
 
-### I/O Memory
+Si las condiciones son falsas, la salida se desactiva.
 
-Represents the status of inputs and outputs.
+### Operaciones lógicas
 
-- Input memory holds values read from field devices  
-- Output memory holds values to be sent to actuators  
+La lógica ladder soporta funciones lógicas básicas.
 
-The CPU reads and writes to this memory during the scan cycle.
+- Contactos en serie representan condiciones AND  
+- Ramas en paralelo representan condiciones OR  
 
-### Retentive Memory
+Esto permite construir lógica compleja a partir de elementos simples.
 
-Stores data that must be preserved after power loss.
+### Elementos internos
 
-- Setpoints  
-- Accumulated values  
-- Machine states  
+La lógica ladder también puede incluir:
 
-Retention can be configured depending on the application.
+- Bits internos  
+- Temporizadores  
+- Contadores  
+- Instrucciones de comparación  
 
-### Temporary Memory
+Estos elementos permiten comportamientos de control más avanzados.
 
-Used for intermediate calculations during program execution.
+## Aplicaciones
 
-- Cleared or overwritten during each scan  
-- Not intended for long term storage  
+La lógica ladder se utiliza en una amplia variedad de aplicaciones de PLC.
 
-## Applications
+Usos típicos incluyen:
 
-PLC memory is used in all control applications.
+- Secuencias de control de maquinaria  
+- Interbloqueos y condiciones de seguridad  
+- Circuitos de control de motores  
+- Lógica de alarmas  
+- Tareas básicas de automatización  
 
-Typical uses include:
+Es especialmente común en sistemas de control discreto.
 
-- Storing process values and system states  
-- Managing sequences and logic conditions  
-- Maintaining configuration parameters  
-- Recording accumulated or historical data  
+## Consideraciones clave
 
-## Key Considerations
+La legibilidad es fundamental. Una estructura clara facilita el diagnóstico.
 
-Memory capacity must match the size of the program and data requirements.
+La organización del programa debe seguir una agrupación lógica de funciones.
 
-Retentive memory should be used only for critical data. Excessive use can affect performance or memory life.
+La lógica compleja puede volverse difícil de mantener si no se estructura adecuadamente.
 
-Data organization improves readability and maintainability of the program.
+El orden de ejecución es importante. Los peldaños se evalúan secuencialmente.
 
-Different PLC brands use different memory structures and addressing schemes.
+La consistencia en nombres y estructura mejora la comprensión.
 
-Backup and recovery methods should be considered for critical systems.
+## Notas prácticas
 
-## Practical Notes
+Un error común es crear peldaños demasiado complejos. Divide la lógica en secciones más pequeñas para mayor claridad.
 
-A common mistake is not defining which data should be retentive. This can lead to unexpected behavior after power cycles.
+Evita duplicar lógica en múltiples peldaños. Usa variables internas cuando sea necesario.
 
-Avoid unnecessary use of large data structures. Keep memory usage efficient.
+Utiliza comentarios y etiquetado claro para documentar el propósito de cada peldaño.
 
-Document memory usage clearly to simplify troubleshooting and future modifications.
-
-Test system behavior after power loss to verify that critical data is retained correctly.
+Mantén una estructura similar al comportamiento real del sistema para facilitar el diagnóstico.

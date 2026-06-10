@@ -1,73 +1,73 @@
-# Cloud
+# Nube (Cloud)
 
-## Overview
+## Descripción general
 
-Cloud in industrial systems refers to the use of remote computing resources to store, process, and analyze data.
+La nube (*cloud*) en sistemas industriales se refiere al uso de recursos de cómputo remotos para almacenar, procesar y analizar datos.
 
-Instead of relying only on local infrastructure, data and applications are hosted on external platforms accessible through network connections. This enables scalable processing and centralized access to information.
+En lugar de depender únicamente de infraestructura local, los datos y aplicaciones se alojan en plataformas externas accesibles a través de conexiones de red. Esto permite un procesamiento escalable y acceso centralizado a la información.
 
-## Purpose
+## Propósito
 
-The purpose of using cloud systems is to:
+El propósito de utilizar sistemas en la nube es:
 
-- Provide scalable data storage and processing  
-- Enable access to data from multiple locations  
-- Support advanced analytics and visualization  
-- Facilitate integration between systems and services  
-- Reduce the need for local infrastructure  
+- Proporcionar almacenamiento y procesamiento de datos escalables  
+- Permitir acceso a los datos desde múltiples ubicaciones  
+- Soportar analítica avanzada y visualización  
+- Facilitar la integración entre sistemas y servicios  
+- Reducir la necesidad de infraestructura local  
 
-Cloud platforms allow industrial systems to extend beyond local limitations.
+Las plataformas cloud permiten a los sistemas industriales extenderse más allá de sus limitaciones locales.
 
-## How It Works
+## Cómo funciona
 
-Cloud systems receive data from industrial environments through secure communication channels.
+Los sistemas en la nube reciben datos de entornos industriales a través de canales de comunicación seguros.
 
-This typically involves:
+Esto generalmente implica:
 
-- Collecting data from field devices and control systems  
-- Transmitting data through networks to cloud platforms  
-- Storing data in centralized databases  
-- Processing data using cloud based applications  
-- Providing access through web interfaces or integrated systems  
+- Recolección de datos desde dispositivos de campo y sistemas de control  
+- Transmisión de datos a través de redes hacia plataformas cloud  
+- Almacenamiento en bases de datos centralizadas  
+- Procesamiento de datos mediante aplicaciones basadas en cloud  
+- Acceso a la información mediante interfaces web o sistemas integrados  
 
-Data can be processed in real time or stored for later analysis.
+Los datos pueden procesarse en tiempo real o almacenarse para análisis posterior.
 
-Cloud services often provide tools for:
+Los servicios cloud suelen proporcionar herramientas para:
 
-- Data analytics and visualization  
-- Machine learning and prediction  
-- System monitoring and reporting  
+- Analítica y visualización de datos  
+- Machine learning y predicción  
+- Monitoreo de sistemas y generación de reportes  
 
-The architecture usually combines local systems with cloud platforms rather than replacing them.
+La arquitectura generalmente combina sistemas locales con plataformas cloud, en lugar de reemplazarlos.
 
-## Applications
+## Aplicaciones
 
-Cloud systems are used in:
+Los sistemas cloud se utilizan en:
 
-- Centralized monitoring of multiple facilities  
-- Long term data storage and historical analysis  
-- Predictive maintenance and performance optimization  
-- Integration with business and enterprise systems  
-- Remote access to dashboards and reports  
+- Monitoreo centralizado de múltiples instalaciones  
+- Almacenamiento de datos a largo plazo y análisis histórico  
+- Mantenimiento predictivo y optimización del desempeño  
+- Integración con sistemas empresariales (IT)  
+- Acceso remoto a dashboards y reportes  
 
-They are common in distributed and data intensive operations.
+Son comunes en operaciones distribuidas y con alto volumen de datos.
 
-## Key Considerations
+## Consideraciones clave
 
-- Network reliability affects access to cloud services  
-- Latency may limit real time control applications  
-- Data security and access control are critical  
-- Not all data should be sent to the cloud  
-- Compliance and data ownership requirements must be considered  
+- La confiabilidad de la red afecta el acceso a servicios cloud  
+- La latencia puede limitar aplicaciones de control en tiempo real  
+- La seguridad de los datos y el control de acceso son críticos  
+- No todos los datos deben enviarse a la nube  
+- Deben considerarse requisitos de cumplimiento y propiedad de datos  
 
-Cloud should complement local systems, not replace critical control functions.
+La nube debe complementar los sistemas locales, no reemplazar funciones críticas de control.
 
-## Practical Notes
+## Notas prácticas
 
-- Use cloud for analysis, storage, and visualization rather than direct control  
-- Filter and preprocess data before sending it to the cloud  
-- Ensure secure communication and authentication  
-- Plan for operation during loss of connectivity  
-- Define clear data ownership and access policies  
+- Usar la nube para análisis, almacenamiento y visualización, no para control directo  
+- Filtrar y preprocesar datos antes de enviarlos a la nube  
+- Asegurar comunicación y autenticación seguras  
+- Planificar la operación ante pérdida de conectividad  
+- Definir políticas claras de propiedad y acceso a los datos  
 
-Cloud solutions provide flexibility and scalability when used with proper system design.
+Las soluciones cloud ofrecen flexibilidad y escalabilidad cuando se implementan con un diseño adecuado del sistema.

@@ -1,73 +1,73 @@
-# Data Collection
+# Recolección de datos
 
-## Overview
+## Descripción general
 
-Data collection in industrial systems is the process of acquiring information from equipment, sensors, and control systems.
+La recolección de datos en sistemas industriales es el proceso de adquirir información de equipos, sensores y sistemas de control.
 
-This data represents the state of processes, equipment performance, and operating conditions. It is the foundation for monitoring, analysis, and decision making.
+Estos datos representan el estado de los procesos, el desempeño de los equipos y las condiciones de operación. Son la base para el monitoreo, el análisis y la toma de decisiones.
 
-## Purpose
+## Propósito
 
-The purpose of data collection is to:
+El propósito de la recolección de datos es:
 
-- Provide visibility into system operation  
-- Support monitoring and control functions  
-- Enable analysis for optimization and improvement  
-- Detect anomalies and potential issues  
-- Supply data for reporting and integration with other systems  
+- Proporcionar visibilidad sobre la operación del sistema  
+- Soportar funciones de monitoreo y control  
+- Permitir análisis para optimización y mejora  
+- Detectar anomalías y posibles fallas  
+- Suministrar datos para reportes e integración con otros sistemas  
 
-Accurate data is essential for reliable operation and informed decisions.
+Los datos precisos son esenciales para una operación confiable y decisiones informadas.
 
-## How It Works
+## Cómo funciona
 
-Data collection involves capturing signals from field devices and making them available to other systems.
+La recolección de datos implica capturar señales de dispositivos de campo y hacerlas disponibles para otros sistemas.
 
-This typically includes:
+Esto generalmente incluye:
 
-- Sensors measuring physical variables such as temperature, pressure, or flow  
-- Controllers acquiring and processing input signals  
-- Communication networks transmitting data between devices  
-- Systems that store and organize collected data  
+- Sensores que miden variables físicas como temperatura, presión o flujo  
+- Controladores que adquieren y procesan señales de entrada  
+- Redes de comunicación que transmiten datos entre dispositivos  
+- Sistemas que almacenan y organizan los datos recolectados  
 
-Data can be collected continuously or at defined intervals, depending on the application.
+Los datos pueden recopilarse de forma continua o en intervalos definidos, dependiendo de la aplicación.
 
-Collected data may be:
+Los datos recolectados pueden:
 
-- Used locally for control decisions  
-- Displayed to operators through interfaces  
-- Stored for historical analysis  
-- Transferred to higher level systems for further processing  
+- Utilizarse localmente para decisiones de control  
+- Mostrarse a operadores a través de interfaces  
+- Almacenarse para análisis histórico  
+- Transferirse a sistemas de nivel superior para procesamiento adicional  
 
-The process focuses on ensuring that relevant data is available when needed.
+El proceso se enfoca en asegurar que los datos relevantes estén disponibles cuando se necesiten.
 
-## Applications
+## Aplicaciones
 
-Data collection is used in:
+La recolección de datos se utiliza en:
 
-- Process monitoring and control  
-- Equipment performance tracking  
-- Energy consumption analysis  
-- Predictive maintenance systems  
-- Integration with digital platforms and analytics tools  
+- Monitoreo y control de procesos  
+- Seguimiento del desempeño de equipos  
+- Análisis de consumo energético  
+- Sistemas de mantenimiento predictivo  
+- Integración con plataformas digitales y herramientas analíticas  
 
-It is present in all industrial sectors where measurement and control are required.
+Está presente en todos los sectores industriales donde se requiere medición y control.
 
-## Key Considerations
+## Consideraciones clave
 
-- Data accuracy and sensor quality directly affect results  
-- Sampling rate must match process dynamics  
-- Excessive data collection can create unnecessary complexity  
-- Communication reliability impacts data availability  
-- Data consistency and time synchronization are important  
+- La precisión de los datos y la calidad de los sensores afectan directamente los resultados  
+- La frecuencia de muestreo debe coincidir con la dinámica del proceso  
+- La recolección excesiva de datos puede generar complejidad innecesaria  
+- La confiabilidad de la comunicación impacta la disponibilidad de los datos  
+- La consistencia de los datos y la sincronización de tiempo son importantes  
 
-Collecting more data does not always provide more value.
+Recolectar más datos no siempre genera más valor.
 
-## Practical Notes
+## Notas prácticas
 
-- Define what data is needed before implementing collection systems  
-- Avoid collecting unused or redundant data  
-- Use appropriate sampling rates for each variable  
-- Validate sensor readings and calibration regularly  
-- Organize data with clear naming and structure  
+- Definir qué datos se necesitan antes de implementar sistemas de recolección  
+- Evitar recolectar datos innecesarios o redundantes  
+- Usar frecuencias de muestreo adecuadas para cada variable  
+- Validar lecturas y calibración de sensores de forma periódica  
+- Organizar los datos con una estructura y nomenclatura clara  
 
-Effective data collection focuses on relevance, accuracy, and usability.
+Una recolección de datos efectiva se enfoca en relevancia, precisión y utilidad.

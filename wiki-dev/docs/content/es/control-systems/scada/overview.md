@@ -1,102 +1,102 @@
-# SCADA Overview
+# SCADA
 
-## Overview
+## Descripción general
 
-SCADA stands for Supervisory Control and Data Acquisition. It is a system used to monitor, control, and collect data from industrial processes.
+SCADA significa Supervisión, Control y Adquisición de Datos (Supervisory Control and Data Acquisition). Es un sistema utilizado para monitorear, controlar y recopilar datos de procesos industriales.
 
-SCADA operates at a higher level than PLCs. It provides centralized visibility and supervisory control over one or multiple systems.
+SCADA opera a un nivel superior al de los PLC. Proporciona visibilidad centralizada y control supervisado sobre uno o múltiples sistemas.
 
-## Purpose
+## Propósito
 
-The purpose of SCADA is to give operators and engineers a complete view of the system and allow centralized management.
+El propósito de SCADA es brindar a operadores e ingenieros una visión completa del sistema y permitir una gestión centralizada.
 
-It is used to:
+Se utiliza para:
 
-- Monitor process conditions in real time  
-- Control systems remotely or centrally  
-- Collect and store operational data  
-- Analyze performance and events  
+- Monitorear condiciones del proceso en tiempo real  
+- Controlar sistemas de forma remota o centralizada  
+- Recopilar y almacenar datos operativos  
+- Analizar desempeño y eventos  
 
-SCADA enables better decision making and system optimization.
+SCADA permite una mejor toma de decisiones y optimización del sistema.
 
-## How It Works
+## Cómo funciona
 
-SCADA systems collect data from field devices and present it to users through software platforms.
+Los sistemas SCADA recopilan datos de dispositivos de campo y los presentan a los usuarios mediante plataformas de software.
 
-### Data Acquisition
+### Adquisición de datos
 
-Data is collected from controllers such as PLCs.
+Los datos se obtienen de controladores como PLCs.
 
-- Process variables  
-- Equipment status  
-- Alarm conditions  
+- Variables de proceso  
+- Estado de equipos  
+- Condiciones de alarma  
 
-This data is transmitted through industrial networks.
+Estos datos se transmiten a través de redes industriales.
 
-### Supervisory Control
+### Control supervisado
 
-Operators can send commands from the SCADA system.
+Los operadores pueden enviar comandos desde el sistema SCADA.
 
-- Start or stop equipment  
-- Adjust setpoints  
-- Change operating modes  
+- Arrancar o detener equipos  
+- Ajustar setpoints  
+- Cambiar modos de operación  
 
-Control actions are executed by the underlying controllers.
+Las acciones de control son ejecutadas por los controladores.
 
-### Data Processing
+### Procesamiento de datos
 
-SCADA systems process and organize data.
+Los sistemas SCADA procesan y organizan la información.
 
-- Real time values  
-- Historical records  
-- Event logs  
+- Valores en tiempo real  
+- Registros históricos  
+- Eventos y alarmas  
 
-This allows monitoring and analysis over time.
+Esto permite monitoreo y análisis a lo largo del tiempo.
 
-### Visualization
+### Visualización
 
-Information is displayed through graphical interfaces.
+La información se presenta mediante interfaces gráficas.
 
-- Process diagrams  
-- Dashboards  
-- Trends and reports  
+- Diagramas de proceso  
+- Tableros de control (dashboards)  
+- Tendencias y reportes  
 
-Operators can understand system status at a glance.
+Los operadores pueden entender el estado del sistema de forma rápida.
 
-## Applications
+## Aplicaciones
 
-SCADA systems are used in large and distributed systems.
+Los sistemas SCADA se utilizan en sistemas grandes y distribuidos.
 
-Typical applications include:
+Aplicaciones típicas incluyen:
 
-- Water and wastewater systems  
-- Power generation and distribution  
-- Oil and gas operations  
-- Manufacturing plants  
-- Infrastructure and utilities  
+- Sistemas de agua y tratamiento de aguas residuales  
+- Generación y distribución de energía  
+- Operaciones de petróleo y gas  
+- Plantas de manufactura  
+- Infraestructura y servicios  
 
-They are essential where multiple systems must be monitored and coordinated.
+Son esenciales donde múltiples sistemas deben ser monitoreados y coordinados.
 
-## Key Considerations
+## Consideraciones clave
 
-System scalability is important for large or growing operations.
+La escalabilidad del sistema es importante para operaciones grandes o en crecimiento.
 
-Communication reliability affects data accuracy and control.
+La confiabilidad de la comunicación afecta la precisión de datos y el control.
 
-Data storage and management must support long term analysis.
+El almacenamiento y manejo de datos deben soportar análisis a largo plazo.
 
-Cybersecurity is critical due to network connectivity.
+La ciberseguridad es crítica debido a la conectividad de red.
 
-Integration with existing systems must be carefully planned.
+La integración con sistemas existentes debe planificarse cuidadosamente.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is using SCADA for direct control instead of supervisory functions. Real time control should remain in the PLC.
+Un error común es usar SCADA para control directo en lugar de funciones supervisadas. El control en tiempo real debe permanecer en el PLC.
 
-Avoid collecting excessive data without a clear purpose.
+Evita recolectar datos en exceso sin un propósito claro.
 
-Design clear and focused screens to improve usability.
+Diseña pantallas claras y enfocadas para mejorar la usabilidad.
 
-Ensure proper backup and redundancy for critical systems.
+Asegura respaldos y redundancia en sistemas críticos.
 
-Regularly review data and alarms to extract useful insights.
+Revisa periódicamente datos y alarmas para obtener información útil.

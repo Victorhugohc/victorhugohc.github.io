@@ -1,129 +1,129 @@
-# Network Design
+# Diseño de red
 
-## Overview
+## Descripción general
 
-Network design defines how communication systems are planned, structured, and implemented to support industrial operations.
+El diseño de red define cómo se planifican, estructuran e implementan los sistemas de comunicación para respaldar las operaciones industriales.
 
-It includes topology, device selection, addressing, and data flow to ensure reliable and efficient communication.
+Incluye topología, selección de dispositivos, direccionamiento y flujo de datos para garantizar una comunicación confiable y eficiente.
 
-A well designed network is critical for stable control and system integration.
+Una red bien diseñada es fundamental para un control estable y la integración de sistemas.
 
-## Purpose
+## Propósito
 
-The purpose of network design is to create a communication system that meets performance, reliability, and scalability requirements.
+El propósito del diseño de red es crear un sistema de comunicación que cumpla los requisitos de rendimiento, confiabilidad y escalabilidad.
 
-It is used to:
+Se utiliza para:
 
-- Ensure reliable data exchange  
-- Support real time and non real time communication  
-- Enable system integration  
-- Prepare for future expansion  
+- Garantizar un intercambio de datos confiable  
+- Admitir comunicación en tiempo real y no en tiempo real  
+- Habilitar la integración de sistemas  
+- Preparar la expansión futura  
 
-Good design reduces failures and simplifies maintenance.
+Un buen diseño reduce las fallas y simplifica el mantenimiento.
 
-## How It Works
+## Cómo funciona
 
-Network design follows a structured approach based on system requirements.
+El diseño de red sigue un enfoque estructurado basado en los requisitos del sistema.
 
-### Define Requirements
+### Definir requisitos
 
-Identify system needs.
+Identificar las necesidades del sistema.
 
-- Number and type of devices  
-- Data volume and update rates  
-- Real time requirements  
-- Security needs  
+- Número y tipo de dispositivos  
+- Volumen de datos y tasas de actualización  
+- Requisitos en tiempo real  
+- Necesidades de seguridad  
 
-This defines the design constraints.
+Esto define las restricciones del diseño.
 
-### Select Architecture
+### Seleccionar arquitectura
 
-Choose the appropriate topology.
+Elegir la topología adecuada.
 
-- Star, ring, or tree structures  
-- Centralized or distributed systems  
+- Estructuras en estrella, anillo o árbol  
+- Sistemas centralizados o distribuidos  
 
-Architecture affects performance and reliability.
+La arquitectura afecta el rendimiento y la confiabilidad.
 
-### Device Selection
+### Selección de dispositivos
 
-Choose network components.
+Elegir los componentes de red.
 
-- Switches, routers, and gateways  
-- Industrial grade equipment when required  
+- Switches, routers y gateways  
+- Equipos de grado industrial cuando sea necesario  
 
-Devices must support required protocols and performance.
+Los dispositivos deben admitir los protocolos y el rendimiento requeridos.
 
-### Addressing and Segmentation
+### Direccionamiento y segmentación
 
-Define how devices are organized.
+Definir cómo se organizan los dispositivos.
 
-- IP addressing scheme  
-- Network segmentation using subnets or VLANs  
+- Esquema de direccionamiento IP  
+- Segmentación de red mediante subredes o VLANs  
 
-This improves organization and security.
+Esto mejora la organización y la seguridad.
 
-### Traffic Management
+### Gestión del tráfico
 
-Control how data flows through the network.
+Controlar cómo fluyen los datos a través de la red.
 
-- Prioritize critical communication  
-- Limit unnecessary traffic  
+- Priorizar la comunicación crítica  
+- Limitar el tráfico innecesario  
 
-Proper management ensures stable performance.
+Una gestión adecuada garantiza un rendimiento estable.
 
-### Redundancy
+### Redundancia
 
-Add backup paths or devices if needed.
+Agregar rutas o dispositivos de respaldo si es necesario.
 
-- Redundant links or switches  
-- Failover mechanisms  
+- Enlaces o switches redundantes  
+- Mecanismos de conmutación por error  
 
-This improves availability in critical systems.
+Esto mejora la disponibilidad en sistemas críticos.
 
-### Security Design
+### Diseño de seguridad
 
-Integrate security into the network.
+Integrar la seguridad en la red.
 
-- Firewalls and access control  
-- Secure remote access  
-- User authentication  
+- Firewalls y control de acceso  
+- Acceso remoto seguro  
+- Autenticación de usuarios  
 
-Security must be part of the design, not an afterthought.
+La seguridad debe formar parte del diseño, no ser un añadido posterior.
 
-## Applications
+## Aplicaciones
 
-Network design is required in all industrial systems.
+El diseño de red es necesario en todos los sistemas industriales.
 
-Typical applications include:
+Las aplicaciones típicas incluyen:
 
-- Machine networks  
-- Production lines  
-- Process control systems  
-- Distributed and remote systems  
+- Redes de máquinas  
+- Líneas de producción  
+- Sistemas de control de procesos  
+- Sistemas distribuidos y remotos  
 
-It is essential for both small and large installations.
+Es esencial tanto en instalaciones pequeñas como grandes.
 
-## Key Considerations
+## Consideraciones clave
 
-Reliability requirements define the level of redundancy.
+Los requisitos de confiabilidad definen el nivel de redundancia.
 
-Performance depends on proper traffic management.
+El rendimiento depende de una gestión adecuada del tráfico.
 
-Scalability should allow future expansion.
+La escalabilidad debe permitir la expansión futura.
 
-Security must be integrated at all levels.
+La seguridad debe integrarse en todos los niveles.
 
-Compatibility between devices and protocols is critical.
+La compatibilidad entre dispositivos y protocolos es crítica.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is designing networks without considering future growth.
+Un error común es diseñar redes sin considerar el crecimiento futuro.
 
-Avoid mixing critical and non critical traffic without control.
+Evite mezclar tráfico crítico y no crítico sin control.
 
-Use clear and consistent addressing schemes.
+Utilice esquemas de direccionamiento claros y consistentes.
 
-Document the network design thoroughly.
+Documente el diseño de red de forma exhaustiva.
 
-Test the network under real operating conditions before full deployment.
+Pruebe la red bajo condiciones operativas reales antes del despliegue completo.

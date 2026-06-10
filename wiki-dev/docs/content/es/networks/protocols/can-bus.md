@@ -1,102 +1,102 @@
-# CAN Bus
+# CAN bus
 
-## Overview
+## Descripción general
 
-CAN Bus is a serial communication protocol designed for reliable and real time data exchange between devices.
+CAN bus es un protocolo de comunicación serial diseñado para el intercambio de datos confiable y en tiempo real entre dispositivos.
 
-It was originally developed for automotive systems but is widely used in industrial automation due to its robustness and efficiency.
+Fue desarrollado originalmente para sistemas automotrices, pero se utiliza ampliamente en automatización industrial debido a su robustez y eficiencia.
 
-CAN Bus allows multiple devices to communicate over a shared network without a central controller.
+CAN bus permite que múltiples dispositivos se comuniquen a través de una red compartida sin un controlador central.
 
-## Purpose
+## Propósito
 
-The purpose of CAN Bus is to provide efficient and reliable communication in systems with multiple distributed devices.
+El propósito de CAN bus es proporcionar comunicación eficiente y confiable en sistemas con múltiples dispositivos distribuidos.
 
-It is used to:
+Se utiliza para:
 
-- Enable communication between controllers and field devices  
-- Support real time data exchange  
-- Reduce wiring complexity  
-- Provide fault tolerant communication  
+- Habilitar la comunicación entre controladores y dispositivos de campo  
+- Admitir el intercambio de datos en tiempo real  
+- Reducir la complejidad del cableado  
+- Proporcionar comunicación tolerante a fallos  
 
-It is well suited for systems requiring fast and reliable messaging.
+Es adecuado para sistemas que requieren mensajería rápida y confiable.
 
-## How It Works
+## Cómo funciona
 
-CAN Bus operates using a message based communication model over a shared bus.
+CAN bus opera mediante un modelo de comunicación basado en mensajes sobre un bus compartido.
 
-### Multi Master System
+### Sistema multi-maestro
 
-All devices on the network can transmit data.
+Todos los dispositivos en la red pueden transmitir datos.
 
-- No single master controls communication  
-- Devices compete for access to the bus  
-- Arbitration ensures that higher priority messages are transmitted first  
+- Ningún maestro único controla la comunicación  
+- Los dispositivos compiten por el acceso al bus  
+- El arbitraje garantiza que los mensajes de mayor prioridad se transmitan primero  
 
-This allows flexible and efficient communication.
+Esto permite una comunicación flexible y eficiente.
 
-### Message Based Communication
+### Comunicación basada en mensajes
 
-Data is transmitted in messages identified by an ID.
+Los datos se transmiten en mensajes identificados por un ID.
 
-- The message ID defines priority  
-- Lower ID values have higher priority  
-- Devices read messages based on relevance  
+- El ID del mensaje define la prioridad  
+- Los valores de ID más bajos tienen mayor prioridad  
+- Los dispositivos leen mensajes según su relevancia  
 
-There are no fixed device addresses in the same way as other protocols.
+No hay direcciones fijas de dispositivos de la misma forma que en otros protocolos.
 
-### Arbitration
+### Arbitraje
 
-When multiple devices transmit at the same time:
+Cuando múltiples dispositivos transmiten al mismo tiempo:
 
-- The bus resolves conflicts automatically  
-- Higher priority message continues  
-- Lower priority devices retry transmission  
+- El bus resuelve los conflictos automáticamente  
+- El mensaje de mayor prioridad continúa  
+- Los dispositivos de menor prioridad reintentan la transmisión  
 
-This prevents data collisions.
+Esto previene las colisiones de datos.
 
-### Physical Layer
+### Capa física
 
-CAN Bus typically uses differential signaling.
+CAN bus típicamente utiliza señalización diferencial.
 
-- Two wires improve noise immunity  
-- Termination resistors are required at both ends  
+- Dos conductores mejoran la inmunidad al ruido  
+- Se requieren resistencias de terminación en ambos extremos  
 
-This makes it suitable for noisy environments.
+Esto lo hace adecuado para entornos ruidosos.
 
-## Applications
+## Aplicaciones
 
-CAN Bus is used in various industrial and embedded systems.
+CAN bus se utiliza en diversos sistemas industriales y embebidos.
 
-Typical applications include:
+Las aplicaciones típicas incluyen:
 
-- Machine control systems  
-- Mobile equipment and vehicles  
-- Distributed control systems  
-- Sensors and actuator networks  
+- Sistemas de control de máquinas  
+- Equipos móviles y vehículos  
+- Sistemas de control distribuido  
+- Redes de sensores y actuadores  
 
-It is often used in systems with many small devices.
+A menudo se utiliza en sistemas con muchos dispositivos pequeños.
 
-## Key Considerations
+## Consideraciones clave
 
-Network length and speed must be balanced.
+La longitud de red y la velocidad deben equilibrarse.
 
-Proper termination is required for reliable communication.
+Se requiere terminación adecuada para una comunicación confiable.
 
-Message design and priority assignment affect performance.
+El diseño de mensajes y la asignación de prioridades afectan el rendimiento.
 
-Network load must be managed to avoid delays.
+La carga de red debe gestionarse para evitar retardos.
 
-Compatibility between devices must be verified.
+La compatibilidad entre dispositivos debe verificarse.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is incorrect termination of the bus. Always place termination resistors at both ends.
+Un error común es la terminación incorrecta del bus. Coloque siempre resistencias de terminación en ambos extremos.
 
-Avoid excessive network traffic that can delay critical messages.
+Evite tráfico de red excesivo que pueda retrasar mensajes críticos.
 
-Use proper cable types and maintain wiring quality.
+Utilice tipos de cable adecuados y mantenga la calidad del cableado.
 
-Plan message priorities carefully to ensure important data is transmitted first.
+Planifique las prioridades de mensajes cuidadosamente para garantizar que los datos importantes se transmitan primero.
 
-Test communication under real conditions to verify system performance.
+Pruebe la comunicación bajo condiciones reales para verificar el rendimiento del sistema.

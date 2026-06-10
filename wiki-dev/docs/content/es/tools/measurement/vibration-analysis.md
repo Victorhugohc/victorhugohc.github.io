@@ -1,71 +1,71 @@
-# Vibration Analysis
+# Análisis de vibración
 
-## Overview
+## Descripción general
 
-Vibration analysis is the process of measuring and evaluating the vibration of mechanical equipment to assess its condition.
+El análisis de vibración es el proceso de medir y evaluar la vibración del equipo mecánico para evaluar su condición.
 
-It is widely used to detect faults in rotating machinery and identify issues before they lead to failure.
+Se utiliza ampliamente para detectar fallas en maquinaria rotativa e identificar problemas antes de que conduzcan a una falla.
 
-## Purpose
+## Propósito
 
-The purpose of vibration analysis is to:
+El propósito del análisis de vibración es:
 
-- Detect early signs of mechanical problems  
-- Prevent unexpected equipment failures  
-- Support predictive maintenance strategies  
-- Improve reliability and equipment lifespan  
-- Reduce downtime and maintenance costs  
+- Detectar signos tempranos de problemas mecánicos  
+- Prevenir fallas inesperadas del equipo  
+- Respaldar estrategias de mantenimiento predictivo  
+- Mejorar la confiabilidad y la vida útil del equipo  
+- Reducir el tiempo de inactividad y los costos de mantenimiento  
 
-It provides insight into the mechanical health of equipment.
+Proporciona información sobre la salud mecánica del equipo.
 
-## How It Works
+## Cómo funciona
 
-Vibration analysis measures the movement of equipment using sensors such as accelerometers.
+El análisis de vibración mide el movimiento del equipo utilizando sensores como acelerómetros.
 
-The process includes:
+El proceso incluye:
 
-- Capturing vibration signals from machinery  
-- Converting signals into electrical data  
-- Analyzing frequency and amplitude of vibrations  
+- Capturar señales de vibración de la maquinaria  
+- Convertir las señales en datos eléctricos  
+- Analizar la frecuencia y la amplitud de las vibraciones  
 
-Different types of faults produce characteristic vibration patterns.
+Diferentes tipos de fallas producen patrones de vibración característicos.
 
-Common parameters include:
+Los parámetros comunes incluyen:
 
-- **Amplitude** indicating severity of vibration  
-- **Frequency** indicating the source of the issue  
-- **Velocity and acceleration** depending on analysis type  
+- **Amplitud** que indica la severidad de la vibración  
+- **Frecuencia** que indica la fuente del problema  
+- **Velocidad y aceleración** según el tipo de análisis  
 
-Data is often analyzed using frequency domain techniques to identify specific fault signatures.
+Los datos a menudo se analizan utilizando técnicas de dominio de frecuencia para identificar firmas de falla específicas.
 
-## Applications
+## Aplicaciones
 
-Vibration analysis is used in:
+El análisis de vibración se utiliza en:
 
-- Motors, pumps, and compressors  
-- Gearboxes and rotating equipment  
-- Fans and turbines  
-- Bearings and shafts  
-- Critical machinery in continuous processes  
+- Motores, bombas y compresores  
+- Cajas de engranajes y equipos rotativos  
+- Ventiladores y turbinas  
+- Rodamientos y ejes  
+- Maquinaria crítica en procesos continuos  
 
-It is essential in maintenance programs for rotating equipment.
+Es esencial en programas de mantenimiento para equipos rotativos.
 
-## Key Considerations
+## Consideraciones clave
 
-- Sensor placement affects measurement accuracy  
-- Baseline data is required for comparison  
-- Operating conditions influence vibration patterns  
-- Interpretation requires experience and knowledge  
-- Not all faults are detectable through vibration alone  
+- La colocación del sensor afecta la precisión de la medición  
+- Se requieren datos de referencia para la comparación  
+- Las condiciones operativas influyen en los patrones de vibración  
+- La interpretación requiere experiencia y conocimiento  
+- No todas las fallas son detectables solo mediante vibración  
 
-Incorrect analysis can lead to false diagnostics.
+El análisis incorrecto puede conducir a diagnósticos erróneos.
 
-## Practical Notes
+## Notas prácticas
 
-- Establish baseline vibration levels for equipment  
-- Monitor trends over time rather than single readings  
-- Focus on changes in vibration patterns  
-- Combine vibration analysis with other diagnostic methods  
-- Ensure proper sensor mounting and data collection  
+- Establecer niveles de vibración de referencia para el equipo  
+- Monitorear tendencias a lo largo del tiempo en lugar de lecturas individuales  
+- Centrarse en cambios en los patrones de vibración  
+- Combinar el análisis de vibración con otros métodos de diagnóstico  
+- Asegurar el montaje adecuado del sensor y la recopilación de datos  
 
-Vibration analysis enables early detection of mechanical issues and supports reliable operation.
+El análisis de vibración permite la detección temprana de problemas mecánicos y respalda una operación confiable.

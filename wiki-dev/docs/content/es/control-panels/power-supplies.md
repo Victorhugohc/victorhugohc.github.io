@@ -1,101 +1,101 @@
-# Power Supplies
+# Fuentes de Alimentación
 
-## Overview
+## Descripción general
 
-Power supplies convert incoming electrical power into the voltage and current required by control system components.
+Las fuentes de alimentación convierten la energía eléctrica de entrada en el voltaje y la corriente requeridos por los componentes del sistema de control.
 
-They provide stable and regulated power to devices such as PLCs, sensors, relays, and communication equipment.
+Proporcionan energía estable y regulada a dispositivos como PLCs, sensores, relevadores y equipos de comunicación.
 
-Power supplies are essential for reliable operation of control panels.
+Son esenciales para la operación confiable de los tableros de control.
 
-## Purpose
+## Propósito
 
-The purpose of a power supply is to provide consistent and suitable electrical power for control systems.
+El propósito de una fuente de alimentación es proporcionar energía eléctrica constante y adecuada para los sistemas de control.
 
-It is used to:
+Se utiliza para:
 
-- Convert voltage levels  
-- Regulate output voltage  
-- Supply power to control and instrumentation devices  
-- Protect sensitive electronics from fluctuations  
+- Convertir niveles de voltaje  
+- Regular el voltaje de salida  
+- Suministrar energía a dispositivos de control e instrumentación  
+- Proteger equipos electrónicos sensibles contra fluctuaciones  
 
-Stable power is critical for system reliability.
+Una alimentación estable es crítica para la confiabilidad del sistema.
 
-## How It Works
+## Cómo funciona
 
-Power supplies take input power and convert it into a controlled output.
+Las fuentes de alimentación toman la energía de entrada y la convierten en una salida controlada.
 
-### Input Conversion
+### Conversión de entrada
 
-The power supply receives incoming power.
+La fuente recibe la energía de entrada.
 
-- Typically AC voltage from the main supply  
-- Converts it to a lower DC voltage  
+- Generalmente voltaje AC de la red principal  
+- Se convierte a un voltaje DC más bajo  
 
-This prepares power for electronic devices.
+Esto prepara la energía para dispositivos electrónicos.
 
-### Regulation
+### Regulación
 
-The output is regulated to maintain a constant voltage.
+La salida se regula para mantener un voltaje constante.
 
-- Compensates for input variations  
-- Maintains stable output under changing load  
+- Compensa variaciones en la entrada  
+- Mantiene estabilidad bajo cambios de carga  
 
-This ensures consistent operation.
+Esto asegura una operación consistente.
 
-### Output Distribution
+### Distribución de salida
 
-The regulated output is distributed to devices.
+La energía regulada se distribuye a los dispositivos.
 
-- PLCs and controllers  
-- Sensors and transmitters  
-- Communication equipment  
+- PLCs y controladores  
+- Sensores y transmisores  
+- Equipos de comunicación  
 
-Each device receives the required voltage level.
+Cada dispositivo recibe el nivel de voltaje requerido.
 
-### Protection Features
+### Funciones de protección
 
-Power supplies include protection mechanisms.
+Las fuentes incluyen mecanismos de protección.
 
-- Overload protection  
-- Short circuit protection  
-- Overvoltage protection  
+- Protección contra sobrecarga  
+- Protección contra cortocircuito  
+- Protección contra sobretensión  
 
-These features protect both the power supply and connected devices.
+Estas funciones protegen tanto la fuente como los dispositivos conectados.
 
-## Applications
+## Aplicaciones
 
-Power supplies are used in all control panels.
+Las fuentes de alimentación se utilizan en todos los tableros de control.
 
-Typical applications include:
+Aplicaciones típicas incluyen:
 
-- Supplying PLC systems  
-- Powering sensors and actuators  
-- Supporting communication devices  
-- Providing control voltage for relays and contactors  
+- Alimentación de sistemas PLC  
+- Energización de sensores y actuadores  
+- Soporte de dispositivos de comunicación  
+- Provisión de voltaje de control para relevadores y contactores  
 
-They are fundamental in automation systems.
+Son fundamentales en sistemas de automatización.
 
-## Key Considerations
+## Consideraciones clave
 
-Output voltage must match device requirements.
+El voltaje de salida debe coincidir con los requerimientos de los dispositivos.
 
-Current capacity must support all connected loads.
+La capacidad de corriente debe soportar todas las cargas conectadas.
 
-Redundancy may be required in critical systems.
+Puede requerirse redundancia en sistemas críticos.
 
-Efficiency affects heat generation داخل the panel.
+La eficiencia afecta la generación de calor dentro del tablero.
 
-Environmental conditions influence selection.
+Las condiciones ambientales influyen en la selección.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is undersizing the power supply. Always include margin for future expansion.
+Un error común es subdimensionar la fuente de alimentación. Siempre considera margen para expansión futura.
 
-Separate power supplies for control and sensitive devices can improve reliability.
+Separar fuentes para control y dispositivos sensibles puede mejorar la confiabilidad.
 
-Ensure proper ventilation to avoid overheating.
+Asegura ventilación adecuada para evitar sobrecalentamiento.
 
-Verify output voltage before connecting devices.
+Verifica el voltaje de salida antes de conectar los dispositivos.
 
-Label power distribution clearly to simplify maintenance.
+Etiqueta claramente la distribución de energía para facilitar el mantenimiento.

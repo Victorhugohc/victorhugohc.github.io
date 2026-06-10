@@ -1,100 +1,100 @@
 # Modbus TCP
 
-## Overview
+## Descripción general
 
-Modbus TCP is an industrial communication protocol that operates over Ethernet networks.
+Modbus TCP es un protocolo de comunicación industrial que opera sobre redes Ethernet.
 
-It is an extension of Modbus that uses TCP/IP for data transmission, allowing communication between devices such as PLCs, HMIs, and instruments over standard network infrastructure.
+Es una extensión de Modbus que utiliza TCP/IP para la transmisión de datos, permitiendo la comunicación entre dispositivos como PLCs, HMIs e instrumentos a través de infraestructura de red estándar.
 
-It combines the simplicity of Modbus with the advantages of Ethernet.
+Combina la simplicidad de Modbus con las ventajas de Ethernet.
 
-## Purpose
+## Propósito
 
-The purpose of Modbus TCP is to provide a simple and widely compatible method for communication over Ethernet.
+El propósito de Modbus TCP es proporcionar un método simple y ampliamente compatible para la comunicación sobre Ethernet.
 
-It is used to:
+Se utiliza para:
 
-- Connect industrial devices over network infrastructure  
-- Replace serial Modbus in modern systems  
-- Enable faster data exchange  
-- Integrate devices from different manufacturers  
+- Conectar dispositivos industriales a través de infraestructura de red  
+- Reemplazar Modbus serial en sistemas modernos  
+- Habilitar un intercambio de datos más rápido  
+- Integrar dispositivos de diferentes fabricantes  
 
-It is commonly used in systems where simplicity and interoperability are important.
+Se utiliza comúnmente en sistemas donde la simplicidad y la interoperabilidad son importantes.
 
-## How It Works
+## Cómo funciona
 
-Modbus TCP follows a client server communication model over Ethernet.
+Modbus TCP sigue un modelo de comunicación cliente-servidor sobre Ethernet.
 
-### Client Server Structure
+### Estructura cliente-servidor
 
-- A client initiates requests  
-- A server responds with data  
+- Un cliente inicia las solicitudes  
+- Un servidor responde con datos  
 
-Devices such as PLCs, HMIs, or computers can act as clients or servers.
+Dispositivos como PLCs, HMIs o computadoras pueden actuar como clientes o servidores.
 
-### Data Transmission
+### Transmisión de datos
 
-Communication uses TCP/IP.
+La comunicación utiliza TCP/IP.
 
-- Data is encapsulated in TCP packets  
-- Each message includes addressing and function codes  
+- Los datos se encapsulan en paquetes TCP  
+- Cada mensaje incluye direccionamiento y códigos de función  
 
-Unlike Modbus RTU, there is no need for device addressing in the same way, as IP addresses identify devices.
+A diferencia de Modbus RTU, no es necesario el direccionamiento de dispositivos de la misma forma, ya que las direcciones IP identifican los dispositivos.
 
-### Function Codes
+### Códigos de función
 
-Modbus TCP uses the same function codes as Modbus RTU.
+Modbus TCP utiliza los mismos códigos de función que Modbus RTU.
 
-Examples include:
+Los ejemplos incluyen:
 
-- Reading holding registers  
-- Writing values  
-- Reading inputs  
+- Lectura de registros de retención  
+- Escritura de valores  
+- Lectura de entradas  
 
-This maintains compatibility with existing Modbus systems.
+Esto mantiene la compatibilidad con sistemas Modbus existentes.
 
-### Network Communication
+### Comunicación de red
 
-Devices communicate through Ethernet networks.
+Los dispositivos se comunican a través de redes Ethernet.
 
-- Switch based topology  
-- IP addressing for device identification  
+- Topología basada en switches  
+- Direccionamiento IP para identificación de dispositivos  
 
-Multiple devices can communicate simultaneously.
+Múltiples dispositivos pueden comunicarse simultáneamente.
 
-## Applications
+## Aplicaciones
 
-Modbus TCP is widely used in modern industrial systems.
+Modbus TCP se utiliza ampliamente en sistemas industriales modernos.
 
-Typical applications include:
+Las aplicaciones típicas incluyen:
 
-- PLC to PLC communication  
-- Integration of instruments and meters  
-- HMI and SCADA connectivity  
-- Energy monitoring systems  
+- Comunicación de PLC a PLC  
+- Integración de instrumentos y medidores  
+- Conectividad de HMI y SCADA  
+- Sistemas de monitoreo de energía  
 
-It is common in systems that require simple Ethernet based communication.
+Es común en sistemas que requieren comunicación simple basada en Ethernet.
 
-## Key Considerations
+## Consideraciones clave
 
-Network design affects communication performance.
+El diseño de red afecta el rendimiento de la comunicación.
 
-Latency and network load can impact response time.
+La latencia y la carga de red pueden impactar el tiempo de respuesta.
 
-IP addressing and network configuration must be managed carefully.
+El direccionamiento IP y la configuración de red deben gestionarse cuidadosamente.
 
-Security must be considered, as Modbus TCP has no built in encryption.
+La seguridad debe considerarse, ya que Modbus TCP no incluye cifrado incorporado.
 
-Compatibility with devices must be verified.
+La compatibilidad con los dispositivos debe verificarse.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is assuming Modbus TCP is deterministic. Network traffic can introduce delays.
+Un error común es asumir que Modbus TCP es determinista. El tráfico de red puede introducir retardos.
 
-Avoid mixing critical control traffic with general network traffic without proper design.
+Evite mezclar tráfico de control crítico con tráfico general de red sin un diseño adecuado.
 
-Use managed switches to improve network performance.
+Utilice switches gestionados para mejorar el rendimiento de la red.
 
-Document IP addresses and device roles clearly.
+Documente las direcciones IP y los roles de los dispositivos con claridad.
 
-Test communication under real network conditions to verify reliability.
+Pruebe la comunicación bajo condiciones reales de red para verificar la confiabilidad.

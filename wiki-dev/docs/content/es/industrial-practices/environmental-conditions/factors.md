@@ -1,73 +1,73 @@
-# Environmental Factors
+# Factores Ambientales
 
-## Overview
+## Descripción general
 
-Environmental factors are the specific conditions that influence how industrial equipment performs and degrades over time.
+Los factores ambientales son las condiciones específicas que influyen en cómo el equipo industrial funciona y se degrada con el tiempo.
 
-These factors determine the level of protection, materials, and installation methods required for reliable operation.
+Estos factores determinan el nivel de protección, los materiales y los métodos de instalación requeridos para una operación confiable.
 
-## Purpose
+## Propósito
 
-The purpose of identifying environmental factors is to match equipment and installation practices to real operating conditions.
+El propósito de identificar los factores ambientales es adaptar el equipo y las prácticas de instalación a las condiciones reales de operación.
 
-This helps to:
+Esto ayuda a:
 
-- Prevent damage and premature failure  
-- Maintain performance and reliability  
-- Ensure safe operation  
-- Reduce maintenance and downtime  
+- Prevenir daños y fallas prematuras  
+- Mantener el rendimiento y la confiabilidad  
+- Asegurar una operación segura  
+- Reducir el mantenimiento y el tiempo de inactividad  
 
-## How It Works
+## Cómo funciona
 
-Environmental factors affect equipment through physical, chemical, and mechanical interactions.
+Los factores ambientales afectan al equipo mediante interacciones físicas, químicas y mecánicas.
 
-Key factors include:
+Los factores clave incluyen:
 
-- Temperature  
-  High or low temperatures affect materials, electronics, and mechanical tolerances.
+- Temperatura  
+  Las temperaturas altas o bajas afectan materiales, electrónica y tolerancias mecánicas.
 
-- Humidity and moisture  
-  Can lead to corrosion, condensation, and insulation degradation.
+- Humedad y condensación  
+  Pueden conducir a corrosión, condensación y degradación del aislamiento.
 
-- Dust and particles  
-  Accumulate on surfaces, block ventilation, and interfere with moving parts.
+- Polvo y partículas  
+  Se acumulan en superficies, bloquean la ventilación e interfieren con partes móviles.
 
-- Chemicals and corrosive agents  
-  Degrade metals, plastics, and protective coatings.
+- Químicos y agentes corrosivos  
+  Degradan metales, plásticos y recubrimientos protectores.
 
-- Vibration and mechanical stress  
-  Cause loosening, fatigue, and structural damage.
+- Vibración y esfuerzo mecánico  
+  Causan aflojamiento, fatiga y daño estructural.
 
-- UV exposure  
-  Affects plastics, insulation, and label materials in outdoor installations.
+- Exposición a UV  
+  Afecta plásticos, aislamiento y materiales de etiquetas en instalaciones exteriores.
 
-- Altitude and pressure  
-  Influence cooling performance and electrical insulation behavior.
+- Altitud y presión  
+  Influyen en el rendimiento del enfriamiento y el comportamiento del aislamiento eléctrico.
 
-Each factor may act independently or in combination, increasing overall stress on the system.
+Cada factor puede actuar de forma independiente o en combinación, aumentando el esfuerzo total sobre el sistema.
 
-## Applications
+## Aplicaciones
 
-Environmental factors must be considered in:
+Los factores ambientales deben considerarse en:
 
-- Outdoor and exposed installations  
-- Industrial plants with dust or contaminants  
-- Chemical and processing facilities  
-- High temperature or cold storage environments  
-- Areas with heavy machinery and vibration  
+- Instalaciones exteriores y expuestas  
+- Plantas industriales con polvo o contaminantes  
+- Instalaciones químicas y de procesamiento  
+- Entornos de alta temperatura o almacenamiento en frío  
+- Áreas con maquinaria pesada y vibración  
 
-## Key Considerations
+## Consideraciones clave
 
-- Evaluate all relevant factors, not only the most obvious ones  
-- Consider worst case operating conditions  
-- Combine protection methods when multiple factors are present  
-- Ensure materials and components are compatible with the environment  
-- Verify environmental ratings of equipment  
+- Evalúe todos los factores relevantes, no solo los más obvios  
+- Considere las condiciones de operación en el peor caso  
+- Combine métodos de protección cuando estén presentes múltiples factores  
+- Asegure que los materiales y componentes sean compatibles con el entorno  
+- Verifique las clasificaciones ambientales del equipo  
 
-## Practical Notes
+## Notas prácticas
 
-- Environmental conditions often change over time and must be reassessed  
-- Small exposures can accumulate and cause long term damage  
-- Overlooking a single factor can compromise the entire system  
-- Protective measures should be applied during design, not after failure  
-- Field experience is valuable when evaluating real conditions  
+- Las condiciones ambientales a menudo cambian con el tiempo y deben reevaluarse  
+- Las exposiciones pequeñas pueden acumularse y causar daños a largo plazo  
+- Pasar por alto un solo factor puede comprometer todo el sistema  
+- Las medidas de protección deben aplicarse durante el diseño, no después de una falla  
+- La experiencia de campo es valiosa al evaluar condiciones reales

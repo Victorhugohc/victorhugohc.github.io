@@ -1,100 +1,100 @@
 # DeviceNet
 
-## Overview
+## Descripción general
 
-DeviceNet is an industrial communication protocol based on CAN Bus technology.
+DeviceNet es un protocolo de comunicación industrial basado en la tecnología CAN bus.
 
-It is used to connect controllers with field devices such as sensors, actuators, and drives using a single network for both communication and power.
+Se utiliza para conectar controladores con dispositivos de campo como sensores, actuadores y variadores mediante una sola red para comunicación y alimentación.
 
-DeviceNet is designed for device level communication in industrial automation systems.
+DeviceNet está diseñado para comunicación a nivel de dispositivo en sistemas de automatización industrial.
 
-## Purpose
+## Propósito
 
-The purpose of DeviceNet is to simplify wiring and enable reliable communication between devices.
+El propósito de DeviceNet es simplificar el cableado y habilitar comunicación confiable entre dispositivos.
 
-It is used to:
+Se utiliza para:
 
-- Connect multiple field devices on a single network  
-- Reduce wiring complexity by combining power and communication  
-- Enable standardized device communication  
-- Support distributed control systems  
+- Conectar múltiples dispositivos de campo en una sola red  
+- Reducir la complejidad del cableado al combinar alimentación y comunicación  
+- Habilitar comunicación estandarizada entre dispositivos  
+- Admitir sistemas de control distribuido  
 
-It is commonly used in machine level automation.
+Se utiliza comúnmente en automatización a nivel de máquina.
 
-## How It Works
+## Cómo funciona
 
-DeviceNet builds on CAN Bus and adds higher level communication features.
+DeviceNet se basa en CAN bus y añade funciones de comunicación de nivel superior.
 
-### Network Structure
+### Estructura de red
 
-DeviceNet uses a trunk and drop topology.
+DeviceNet utiliza una topología de troncal y derivaciones.
 
-- A main trunk cable runs through the system  
-- Devices connect through short drop lines  
+- Un cable troncal principal recorre el sistema  
+- Los dispositivos se conectan mediante líneas de derivación cortas  
 
-The same cable carries both power and communication signals.
+El mismo cable transporta señales de alimentación y comunicación.
 
-### Master Slave Model
+### Modelo maestro-esclavo
 
-Communication typically follows a master slave structure.
+La comunicación típicamente sigue una estructura maestro-esclavo.
 
-- A scanner or master device controls communication  
-- Slave devices respond with data  
+- Un escáner o dispositivo maestro controla la comunicación  
+- Los dispositivos esclavos responden con datos  
 
-The master manages data exchange and timing.
+El maestro gestiona el intercambio de datos y la temporización.
 
-### Data Communication
+### Comunicación de datos
 
-Data is transmitted using CAN based messaging.
+Los datos se transmiten mediante mensajería basada en CAN.
 
-- Messages include identifiers and data  
-- Devices are assigned node addresses  
-- Cyclic and event based communication are supported  
+- Los mensajes incluyen identificadores y datos  
+- Los dispositivos reciben direcciones de nodo  
+- Se admiten comunicación cíclica y basada en eventos  
 
-This allows flexible data exchange.
+Esto permite un intercambio de datos flexible.
 
-### Power Distribution
+### Distribución de alimentación
 
-DeviceNet provides power through the network cable.
+DeviceNet proporciona alimentación a través del cable de red.
 
-- Supplies power to connected devices  
-- Reduces the need for separate power wiring  
+- Suministra energía a los dispositivos conectados  
+- Reduce la necesidad de cableado de alimentación separado  
 
-Power capacity must be carefully managed.
+La capacidad de alimentación debe gestionarse cuidadosamente.
 
-## Applications
+## Aplicaciones
 
-DeviceNet is used in many industrial systems.
+DeviceNet se utiliza en muchos sistemas industriales.
 
-Typical applications include:
+Las aplicaciones típicas incluyen:
 
-- Sensors and actuators in machines  
-- Motor starters and drives  
-- Distributed I O systems  
-- Assembly and packaging equipment  
+- Sensores y actuadores en máquinas  
+- Arrancadores de motor y variadores  
+- Sistemas de E/S distribuidas  
+- Equipos de ensamble y empaque  
 
-It is common in systems requiring simple device level integration.
+Es común en sistemas que requieren integración simple a nivel de dispositivo.
 
-## Key Considerations
+## Consideraciones clave
 
-Network length and power capacity must be planned together.
+La longitud de red y la capacidad de alimentación deben planificarse conjuntamente.
 
-Proper termination is required at both ends of the trunk.
+Se requiere terminación adecuada en ambos extremos de la troncal.
 
-Voltage drop can affect device operation.
+La caída de voltaje puede afectar la operación de los dispositivos.
 
-Address management is necessary to avoid conflicts.
+La gestión de direcciones es necesaria para evitar conflictos.
 
-DeviceNet is less scalable compared to Ethernet based networks.
+DeviceNet es menos escalable en comparación con redes basadas en Ethernet.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is exceeding power limits on the network. Calculate load carefully.
+Un error común es exceder los límites de alimentación en la red. Calcule la carga cuidadosamente.
 
-Use proper trunk and drop lengths according to specifications.
+Utilice longitudes de troncal y derivación adecuadas según las especificaciones.
 
-Ensure correct termination to maintain signal integrity.
+Asegure la terminación correcta para mantener la integridad de la señal.
 
-Label node addresses clearly to simplify troubleshooting.
+Etiquete las direcciones de nodo con claridad para simplificar la resolución de problemas.
 
-DeviceNet simplifies wiring but requires careful design to ensure reliable operation.
+DeviceNet simplifica el cableado pero requiere un diseño cuidadoso para garantizar una operación confiable.

@@ -1,75 +1,75 @@
-# Distribution Systems
+# Sistemas de distribución
 
-## Overview
+## Descripción general
 
-Distribution systems define how electrical power is routed from the incoming supply to different areas and loads within an industrial facility.
+Los sistemas de distribución definen cómo se enruta la energía eléctrica desde el suministro de entrada hacia diferentes áreas y cargas dentro de una instalación industrial.
 
-They establish the structure of power flow, including how feeders are arranged, how loads are grouped, and how redundancy is implemented.
+Establecen la estructura del flujo de energía, incluyendo cómo se organizan los alimentadores, cómo se agrupan las cargas y cómo se implementa la redundancia.
 
-The chosen distribution system has a direct impact on reliability, safety, maintenance, and cost.
+El sistema de distribución elegido tiene un impacto directo en la confiabilidad, la seguridad, el mantenimiento y el costo.
 
-## Purpose
+## Propósito
 
-The purpose of a distribution system is to:
+El propósito de un sistema de distribución es:
 
-- Deliver power to all loads in a controlled and organized way  
-- Maintain system stability under normal and fault conditions  
-- Limit the impact of failures to a reduced portion of the system  
-- Enable safe operation, maintenance, and expansion  
+- Entregar energía a todas las cargas de manera controlada y organizada  
+- Mantener la estabilidad del sistema bajo condiciones normales y de falla  
+- Limitar el impacto de las fallas a una porción reducida del sistema  
+- Permitir operación, mantenimiento y expansión seguros  
 
-A well designed distribution system balances simplicity, reliability, and flexibility.
+Un sistema de distribución bien diseñado equilibra simplicidad, confiabilidad y flexibilidad.
 
-## How It Works
+## Cómo funciona
 
-A distribution system is built by dividing the facility into sections and supplying each section through feeders.
+Un sistema de distribución se construye dividiendo la instalación en secciones y alimentando cada sección a través de alimentadores.
 
-Power flows from the main incoming point to distribution equipment, and then to sub distribution points and final loads.
+La energía fluye desde el punto principal de entrada hacia el equipo de distribución, y luego hacia puntos de subdistribución y cargas finales.
 
-Common structural elements include:
+Los elementos estructurales comunes incluyen:
 
-- Main distribution point where power enters the facility  
-- Feeders that carry power to different zones or processes  
-- Sub distribution levels that further divide loads  
-- Final circuits that supply individual equipment  
+- Punto principal de distribución donde ingresa la energía a la instalación  
+- Alimentadores que transportan energía a diferentes zonas o procesos  
+- Niveles de subdistribución que dividen aún más las cargas  
+- Circuitos finales que alimentan equipos individuales  
 
-The way these elements are connected defines the distribution topology.
+La forma en que estos elementos se conectan define la topología de distribución.
 
-## Applications
+## Aplicaciones
 
-Distribution systems are used in all industrial environments, including:
+Los sistemas de distribución se utilizan en todos los entornos industriales, incluyendo:
 
-- Manufacturing lines with multiple production areas  
-- Process plants with continuous operation requirements  
-- Facilities with critical loads that require high availability  
-- Large sites with geographically distributed equipment  
+- Líneas de manufactura con múltiples áreas de producción  
+- Plantas de proceso con requisitos de operación continua  
+- Instalaciones con cargas críticas que requieren alta disponibilidad  
+- Sitios grandes con equipo distribuido geográficamente  
 
-Different applications require different levels of redundancy and segmentation.
+Diferentes aplicaciones requieren diferentes niveles de redundancia y segmentación.
 
-## Key Considerations
+## Consideraciones clave
 
-- **System topology**  
-  Radial systems are simple and low cost but less reliable  
-  Loop and ring systems improve continuity but increase complexity  
-  Network systems provide high reliability at higher cost  
+- **Topología del sistema**  
+  Los sistemas radiales son simples y de bajo costo pero menos confiables  
+  Los sistemas en lazo y en anillo mejoran la continuidad pero aumentan la complejidad  
+  Los sistemas en red proporcionan alta confiabilidad a mayor costo  
 
-- **Load grouping**  
-  Critical and non critical loads should be separated to avoid unnecessary shutdowns  
+- **Agrupación de cargas**  
+  Las cargas críticas y no críticas deben separarse para evitar paradas innecesarias  
 
-- **Fault isolation**  
-  The system must allow fast disconnection of faulty sections without affecting the entire facility  
+- **Aislamiento de fallas**  
+  El sistema debe permitir la desconexión rápida de secciones con falla sin afectar toda la instalación  
 
-- **Maintenance strategy**  
-  Systems that allow sections to be de energized independently simplify maintenance  
+- **Estrategia de mantenimiento**  
+  Los sistemas que permiten desenergizar secciones de forma independiente simplifican el mantenimiento  
 
-- **Expansion capability**  
-  Future loads should be considered when defining feeders and spare capacity  
+- **Capacidad de expansión**  
+  Las cargas futuras deben considerarse al definir alimentadores y capacidad de reserva  
 
-- **Coordination with protection**  
-  The distribution layout must support selective operation of protective devices  
+- **Coordinación con la protección**  
+  El diseño de distribución debe soportar la operación selectiva de los dispositivos de protección  
 
-## Practical Notes
+## Notas prácticas
 
-- Radial distribution is common in small and medium facilities due to its simplicity  
-- Ring or loop configurations are often used where downtime is costly  
-- Excessively complex systems increase installation and troubleshooting difficulty  
-- Poor load distribution can lead to unbalanced operation and overheating  
+- La distribución radial es común en instalaciones pequeñas y medianas debido a su simplicidad  
+- Las configuraciones en anillo o lazo se utilizan frecuentemente donde el tiempo de inactividad es costoso  
+- Los sistemas excesivamente complejos aumentan la dificultad de instalación y diagnóstico  
+- Una distribución deficiente de cargas puede provocar operación desbalanceada y sobrecalentamiento  

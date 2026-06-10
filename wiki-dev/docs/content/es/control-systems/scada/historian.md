@@ -1,107 +1,107 @@
-# Historian
+# Historiador de Datos
 
-## Overview
+## Descripción general
 
-A historian is a system used to collect, store, and manage time based data from industrial processes.
+Un historiador es un sistema utilizado para recopilar, almacenar y gestionar datos basados en el tiempo provenientes de procesos industriales.
 
-It records process variables, events, and system states over time, allowing analysis and traceability.
+Registra variables de proceso, eventos y estados del sistema a lo largo del tiempo, permitiendo análisis y trazabilidad.
 
-Historians are a key component in SCADA and industrial data systems.
+Los historiadores son un componente clave en sistemas SCADA y plataformas de datos industriales.
 
-## Purpose
+## Propósito
 
-The purpose of a historian is to provide long term data storage and enable analysis of system performance.
+El propósito de un historiador es proporcionar almacenamiento de datos a largo plazo y permitir el análisis del desempeño del sistema.
 
-It is used to:
+Se utiliza para:
 
-- Track process behavior over time  
-- Analyze trends and performance  
-- Support troubleshooting and root cause analysis  
-- Provide data for reporting and optimization  
+- Dar seguimiento al comportamiento del proceso en el tiempo  
+- Analizar tendencias y desempeño  
+- Apoyar el diagnóstico y análisis de causa raíz  
+- Proveer datos para reportes y optimización  
 
-A historian transforms raw data into useful information.
+Un historiador transforma datos en información útil.
 
-## How It Works
+## Cómo funciona
 
-A historian collects data from control systems and stores it in a structured format optimized for time series data.
+Un historiador recopila datos de sistemas de control y los almacena en un formato optimizado para series de tiempo.
 
-### Data Collection
+### Recolección de datos
 
-Data is gathered from sources such as PLCs and SCADA systems.
+Los datos se obtienen de fuentes como PLCs y sistemas SCADA.
 
-- Process variables  
-- Equipment status  
-- Alarm and event data  
+- Variables de proceso  
+- Estado de equipos  
+- Datos de alarmas y eventos  
 
-Collection can be cyclic or event based.
+La recolección puede ser cíclica o basada en eventos.
 
-### Data Storage
+### Almacenamiento de datos
 
-Data is stored with time stamps.
+Los datos se almacenan con marcas de tiempo.
 
-- Efficient compression methods are used  
-- Only relevant changes may be recorded  
-- Large volumes of data can be managed over long periods  
+- Se utilizan métodos eficientes de compresión  
+- Solo se registran cambios relevantes  
+- Se pueden manejar grandes volúmenes de datos por largos periodos  
 
-The storage system is optimized for fast retrieval.
+El sistema está optimizado para una recuperación rápida.
 
-### Data Retrieval
+### Recuperación de datos
 
-Users access historical data through tools and interfaces.
+Los usuarios acceden a los datos históricos mediante herramientas e interfaces.
 
-- Trend charts  
-- Reports  
-- Data export functions  
+- Gráficas de tendencia  
+- Reportes  
+- Funciones de exportación  
 
-This allows analysis of past system behavior.
+Esto permite analizar el comportamiento pasado del sistema.
 
-### Integration
+### Integración
 
-Historians can integrate with other systems.
+Los historiadores pueden integrarse con otros sistemas.
 
-- SCADA platforms  
-- Reporting tools  
-- Data analytics systems  
-- Cloud platforms  
+- Plataformas SCADA  
+- Herramientas de reporte  
+- Sistemas de analítica de datos  
+- Plataformas en la nube  
 
-This supports advanced analysis and decision making.
+Esto permite análisis avanzados y mejor toma de decisiones.
 
-## Applications
+## Aplicaciones
 
-Historians are used in systems where data tracking and analysis are important.
+Los historiadores se utilizan en sistemas donde el seguimiento y análisis de datos es importante.
 
-Typical applications include:
+Aplicaciones típicas incluyen:
 
-- Process industries  
-- Energy management systems  
-- Manufacturing performance monitoring  
-- Predictive maintenance  
-- Regulatory compliance  
+- Industrias de proceso  
+- Sistemas de gestión de energía  
+- Monitoreo de desempeño en manufactura  
+- Mantenimiento predictivo  
+- Cumplimiento normativo  
 
-They are essential for systems that require traceability.
+Son esenciales en sistemas que requieren trazabilidad.
 
-## Key Considerations
+## Consideraciones clave
 
-Data resolution must match the needs of the application.
+La resolución de datos debe ajustarse a las necesidades de la aplicación.
 
-Storage capacity and retention policies must be defined.
+La capacidad de almacenamiento y políticas de retención deben definirse.
 
-Data quality is critical. Poor input data leads to incorrect analysis.
+La calidad de los datos es crítica. Datos incorrectos generan análisis erróneos.
 
-System performance must support large data volumes.
+El desempeño del sistema debe soportar grandes volúmenes de información.
 
-Security and access control must protect sensitive data.
+La seguridad y el control de acceso deben proteger los datos sensibles.
 
-Integration capabilities affect long term usability.
+Las capacidades de integración afectan la utilidad a largo plazo.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is collecting excessive data without a clear purpose.
+Un error común es recolectar datos en exceso sin un propósito claro.
 
-Define which variables are important before configuring the historian.
+Define qué variables son importantes antes de configurar el sistema.
 
-Use appropriate sampling rates to balance detail and storage.
+Utiliza tasas de muestreo adecuadas para equilibrar detalle y almacenamiento.
 
-Regularly review stored data to ensure it remains useful.
+Revisa periódicamente los datos almacenados para asegurar su utilidad.
 
-Ensure time synchronization across systems to maintain accurate records.
+Asegura la sincronización de tiempo entre sistemas para mantener registros precisos.

@@ -1,108 +1,108 @@
-# Control Panel Wiring
+# Cableado de Tableros de Control
 
-## Overview
+## Descripción general
 
-Control panel wiring refers to the physical connections between components inside a panel and between the panel and field devices.
+El cableado de tableros de control se refiere a las conexiones físicas entre los componentes dentro de un tablero y entre el tablero y los dispositivos de campo.
 
-It ensures that power, signals, and communication are correctly transmitted throughout the system.
+Asegura que la energía, las señales y la comunicación se transmitan correctamente a lo largo del sistema.
 
-Proper wiring is essential for safe and reliable operation.
+Un cableado adecuado es esencial para una operación segura y confiable.
 
-## Purpose
+## Propósito
 
-The purpose of wiring is to establish all electrical connections required for the system to function.
+El propósito del cableado es establecer todas las conexiones eléctricas necesarias para el funcionamiento del sistema.
 
-It is used to:
+Se utiliza para:
 
-- Distribute power to components  
-- Connect control devices  
-- Interface with sensors and actuators  
-- Enable communication between systems  
+- Distribuir energía a los componentes  
+- Conectar dispositivos de control  
+- Interfaz con sensores y actuadores  
+- Permitir la comunicación entre sistemas  
 
-Correct wiring ensures that the control system operates as intended.
+Un cableado correcto asegura que el sistema de control funcione según lo previsto.
 
-## How It Works
+## Cómo funciona
 
-Wiring connects components according to electrical diagrams and system design.
+El cableado conecta los componentes de acuerdo con los diagramas eléctricos y el diseño del sistema.
 
-### Power Wiring
+### Cableado de potencia
 
-Power circuits supply energy to devices.
+Los circuitos de potencia suministran energía a los dispositivos.
 
-- High voltage or high current connections  
-- Feed breakers, contactors, and loads  
+- Conexiones de alto voltaje o alta corriente  
+- Alimentan interruptores, contactores y cargas  
 
-These circuits must be properly sized and protected.
+Estos circuitos deben dimensionarse y protegerse adecuadamente.
 
-### Control Wiring
+### Cableado de control
 
-Control circuits handle signals and logic.
+Los circuitos de control manejan señales y lógica.
 
-- Lower voltage signals  
-- Connections between PLCs, relays, and devices  
+- Señales de bajo voltaje  
+- Conexiones entre PLCs, relevadores y dispositivos  
 
-These circuits are more sensitive to noise and require careful routing.
+Estos circuitos son más sensibles al ruido y requieren un enrutamiento cuidadoso.
 
-### Signal Wiring
+### Cableado de señal
 
-Signals from instruments and sensors are connected to control systems.
+Las señales de instrumentos y sensores se conectan a los sistemas de control.
 
-- Analog and digital signals  
-- Requires proper shielding and grounding  
+- Señales analógicas y digitales  
+- Requieren blindaje y puesta a tierra adecuados  
 
-Signal quality is critical for accurate measurements.
+La calidad de la señal es crítica para mediciones precisas.
 
-### Terminal Connections
+### Conexiones en borneras
 
-Terminal blocks are used to organize connections.
+Se utilizan borneras para organizar las conexiones.
 
-- Provide clear connection points  
-- Simplify installation and maintenance  
+- Proporcionan puntos de conexión claros  
+- Facilitan la instalación y el mantenimiento  
 
-They separate internal wiring from field wiring.
+Separan el cableado interno del cableado de campo.
 
-### Cable Routing
+### Enrutamiento de cables
 
-Wires are routed through defined paths.
+Los cables se dirigen a través de rutas definidas.
 
-- Cable ducts or trays inside the panel  
-- Separation between power and control wiring  
+- Canaletas o bandejas dentro del tablero  
+- Separación entre cableado de potencia y control  
 
-Proper routing improves organization and reduces interference.
+Un buen enrutamiento mejora la organización y reduce interferencias.
 
-## Applications
+## Aplicaciones
 
-Wiring is required in all control panels.
+El cableado es necesario en todos los tableros de control.
 
-Typical applications include:
+Aplicaciones típicas incluyen:
 
-- Machine control systems  
-- Motor control panels  
-- Process automation systems  
-- Power distribution panels  
+- Sistemas de control de maquinaria  
+- Tableros de control de motores  
+- Sistemas de automatización de procesos  
+- Tableros de distribución de energía  
 
-It is fundamental to all electrical systems.
+Es fundamental en todos los sistemas eléctricos.
 
-## Key Considerations
+## Consideraciones clave
 
-Wire sizing must match current and voltage requirements.
+El calibre del conductor debe coincidir con los requerimientos de corriente y voltaje.
 
-Separation of power and control wiring reduces interference.
+La separación entre potencia y control reduce interferencias.
 
-Proper labeling is essential for troubleshooting.
+El etiquetado adecuado es esencial para el diagnóstico de fallas.
 
-Standards and codes must be followed for safety.
+Se deben cumplir normas y códigos para garantizar la seguridad.
 
-Connection quality affects reliability.
+La calidad de las conexiones afecta la confiabilidad.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is poor labeling. Always identify wires clearly.
+Un error común es un etiquetado deficiente. Identifica siempre los conductores claramente.
 
-Avoid tight bends or excessive stress on wires.
+Evita curvas muy cerradas o esfuerzos excesivos en los cables.
 
-Use proper ferrules and terminals for secure connections.
+Utiliza punteras y terminales adecuados para conexiones seguras.
 
-Keep wiring organized to simplify maintenance.
+Mantén el cableado organizado para facilitar el mantenimiento.
 
-Verify all connections during commissioning to prevent faults.
+Verifica todas las conexiones durante el comisionamiento para evitar fallas.

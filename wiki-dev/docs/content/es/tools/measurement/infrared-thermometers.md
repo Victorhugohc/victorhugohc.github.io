@@ -1,64 +1,64 @@
-# Infrared Thermometers
+# Termómetros infrarrojos
 
-## Overview
+## Descripción general
 
-Infrared thermometers are handheld instruments used to measure surface temperature without direct contact.
+Los termómetros infrarrojos son instrumentos portátiles utilizados para medir la temperatura superficial sin contacto directo.
 
-They detect infrared radiation emitted by an object and convert it into a temperature reading. They are commonly used for quick and safe temperature checks in industrial environments.
+Detectan la radiación infrarroja emitida por un objeto y la convierten en una lectura de temperatura. Se utilizan comúnmente para verificaciones rápidas y seguras de temperatura en entornos industriales.
 
-## Purpose
+## Propósito
 
-The purpose of infrared thermometers is to:
+El propósito de los termómetros infrarrojos es:
 
-- Measure temperature from a distance  
-- Perform quick inspections of equipment  
-- Detect abnormal heating conditions  
-- Improve safety by avoiding contact with hot or moving parts  
+- Medir la temperatura a distancia  
+- Realizar inspecciones rápidas de equipos  
+- Detectar condiciones de calentamiento anormales  
+- Mejorar la seguridad al evitar el contacto con partes calientes o en movimiento  
 
-They provide a simple and fast way to verify temperature conditions.
+Proporcionan una forma simple y rápida de verificar las condiciones de temperatura.
 
-## How It Works
+## Cómo funciona
 
-Infrared thermometers detect the infrared energy emitted by a surface and calculate its temperature.
+Los termómetros infrarrojos detectan la energía infrarroja emitida por una superficie y calculan su temperatura.
 
-The measurement depends on:
+La medición depende de:
 
-- The amount of infrared radiation emitted  
-- The emissivity of the surface  
-- The distance to the target  
+- La cantidad de radiación infrarroja emitida  
+- La emisividad de la superficie  
+- La distancia al objetivo  
 
-The instrument uses an optical system to focus on a specific area, often indicated by a laser pointer.
+El instrumento utiliza un sistema óptico para enfocar un área específica, a menudo indicada por un puntero láser.
 
-The result is an instantaneous temperature reading displayed to the user.
+El resultado es una lectura de temperatura instantánea mostrada al usuario.
 
-## Applications
+## Aplicaciones
 
-Infrared thermometers are used in:
+Los termómetros infrarrojos se utilizan en:
 
-- Quick inspection of electrical connections  
-- Checking temperature of motors and bearings  
-- Monitoring heating and cooling systems  
-- Verifying process temperatures  
-- Routine maintenance inspections  
+- Inspección rápida de conexiones eléctricas  
+- Verificación de la temperatura de motores y rodamientos  
+- Monitoreo de sistemas de calefacción y refrigeración  
+- Verificación de temperaturas de proceso  
+- Inspecciones de mantenimiento rutinarias  
 
-They are widely used for fast diagnostics and field checks.
+Se utilizan ampliamente para diagnósticos rápidos y verificaciones de campo.
 
-## Key Considerations
+## Consideraciones clave
 
-- Measurement represents an average over the target area  
-- Distance to target affects measurement accuracy  
-- Emissivity settings must match the material  
-- Reflective surfaces can cause incorrect readings  
-- Not suitable for measuring through glass or transparent materials  
+- La medición representa un promedio sobre el área objetivo  
+- La distancia al objetivo afecta la precisión de la medición  
+- La configuración de emisividad debe coincidir con el material  
+- Las superficies reflectantes pueden causar lecturas incorrectas  
+- No son adecuados para medir a través de vidrio o materiales transparentes  
 
-Improper use can lead to inaccurate temperature readings.
+El uso inadecuado puede conducir a lecturas de temperatura inexactas.
 
-## Practical Notes
+## Notas prácticas
 
-- Get as close as safely possible to improve accuracy  
-- Measure consistent points for comparison  
-- Avoid shiny or reflective surfaces when possible  
-- Use as a screening tool, not a precise measurement device  
-- Confirm critical measurements with contact sensors when needed  
+- Acercarse lo más posible de forma segura para mejorar la precisión  
+- Medir puntos consistentes para comparación  
+- Evitar superficies brillantes o reflectantes cuando sea posible  
+- Utilizar como herramienta de detección, no como dispositivo de medición precisa  
+- Confirmar mediciones críticas con sensores de contacto cuando sea necesario  
 
-Infrared thermometers are effective for rapid temperature checks but require proper understanding for accurate interpretation.
+Los termómetros infrarrojos son eficaces para verificaciones rápidas de temperatura, pero requieren comprensión adecuada para una interpretación precisa.

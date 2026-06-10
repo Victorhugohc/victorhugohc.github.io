@@ -1,136 +1,136 @@
-# PLC Architecture
+# Arquitectura de PLC
 
-## Overview
+## Descripción general
 
-PLC architecture defines how the different hardware components of a PLC system are organized and interconnected.
+La arquitectura de PLC define cómo se organizan e interconectan los diferentes componentes de hardware de un sistema PLC.
 
-It describes how processing, input and output handling, communication, and power distribution are structured within the system.
+Describe cómo se estructuran el procesamiento, el manejo de entradas y salidas, la comunicación y la distribución de energía dentro del sistema.
 
-## Purpose
+## Propósito
 
-The purpose of PLC architecture is to provide a reliable and scalable platform for control.
+El propósito de la arquitectura de PLC es proporcionar una plataforma confiable y escalable para el control.
 
-A well designed architecture ensures:
+Una arquitectura bien diseñada asegura:
 
-- Stable system operation  
-- Efficient signal handling  
-- Easy expansion and maintenance  
-- Clear separation of functions  
+- Operación estable del sistema  
+- Manejo eficiente de señales  
+- Facilidad de expansión y mantenimiento  
+- Separación clara de funciones  
 
-It also determines how the PLC integrates with the rest of the system.
+También determina cómo el PLC se integra con el resto del sistema.
 
-## How It Works
+## Cómo funciona
 
-A PLC is built from several key components that work together as a system.
+Un PLC está formado por varios componentes clave que trabajan en conjunto.
 
-### Power Supply
+### Fuente de alimentación
 
-The power supply converts incoming voltage to the required levels for the PLC.
+La fuente convierte el voltaje de entrada a los niveles requeridos por el PLC.
 
-It provides stable power to the CPU and I/O modules.
+Proporciona energía estable a la CPU y a los módulos de I/O.
 
-### CPU (Processor)
+### CPU (procesador)
 
-The CPU is the core of the PLC.
+La CPU es el núcleo del PLC.
 
-- Executes the control program  
-- Manages memory  
-- Handles communication  
-- Coordinates the scan cycle  
+- Ejecuta el programa de control  
+- Gestiona la memoria  
+- Maneja la comunicación  
+- Coordina el ciclo de escaneo  
 
-It determines the overall performance of the system.
+Define el desempeño general del sistema.
 
-### I/O Modules
+### Módulos de I/O
 
-I/O modules interface with field devices.
+Los módulos de I/O permiten la interfaz con dispositivos de campo.
 
-- Input modules receive signals from sensors  
-- Output modules send signals to actuators  
+- Los módulos de entrada reciben señales de sensores  
+- Los módulos de salida envían señales a actuadores  
 
-They can be digital or analog depending on the signal type.
+Pueden ser digitales o analógicos según el tipo de señal.
 
-### Communication Interfaces
+### Interfaces de comunicación
 
-Communication modules allow the PLC to exchange data with other systems.
+Los módulos de comunicación permiten el intercambio de datos con otros sistemas.
 
-- HMIs  
-- SCADA systems  
-- Other PLCs  
-- Remote I/O  
+- HMI  
+- Sistemas SCADA  
+- Otros PLCs  
+- I/O remotas  
 
-They support industrial communication protocols.
+Soportan protocolos de comunicación industrial.
 
-### Backplane or Bus
+### Backplane o bus interno
 
-The backplane connects all modules within the PLC.
+El backplane conecta todos los módulos dentro del PLC.
 
-It provides:
+Proporciona:
 
-- Data communication between modules  
-- Power distribution  
+- Comunicación de datos entre módulos  
+- Distribución de energía  
 
-All modules communicate through this internal bus.
+Todos los módulos se comunican a través de este bus interno.
 
-## Architecture Types
+## Tipos de arquitectura
 
-### Compact PLC
+### PLC compacto
 
-All components are integrated into a single unit.
+Todos los componentes están integrados en una sola unidad.
 
-- Fixed number of I/O  
-- Limited expansion  
-- Lower cost  
+- Número fijo de I/O  
+- Expansión limitada  
+- Menor costo  
 
-Used in small machines or simple control tasks.
+Se utiliza en máquinas pequeñas o aplicaciones simples.
 
-### Modular PLC
+### PLC modular
 
-Components are separate and mounted on a rack.
+Los componentes son independientes y se montan en un rack.
 
-- Flexible configuration  
-- Expandable I/O  
-- Higher performance  
+- Configuración flexible  
+- I/O expandible  
+- Mayor desempeño  
 
-Used in medium to large systems.
+Se utiliza en sistemas medianos a grandes.
 
-### Distributed Architecture
+### Arquitectura distribuida
 
-I/O is distributed across multiple locations.
+Las I/O se distribuyen en múltiples ubicaciones.
 
-- Remote I/O modules connected via network  
-- Reduced wiring  
-- Scalable systems  
+- Módulos remotos conectados por red  
+- Reducción de cableado  
+- Sistemas escalables  
 
-Used in large plants or geographically spread processes.
+Se utiliza en plantas grandes o procesos distribuidos.
 
-## Applications
+## Aplicaciones
 
-PLC architecture selection depends on system size and complexity.
+La selección de la arquitectura depende del tamaño y complejidad del sistema.
 
-Typical uses include:
+Usos típicos incluyen:
 
-- Small standalone machines using compact PLCs  
-- Production lines using modular PLCs  
-- Large facilities using distributed I/O systems  
+- Máquinas pequeñas con PLC compacto  
+- Líneas de producción con PLC modular  
+- Instalaciones grandes con sistemas de I/O distribuida  
 
-## Key Considerations
+## Consideraciones clave
 
-System size and I/O count define the architecture type.
+El tamaño del sistema y la cantidad de I/O definen el tipo de arquitectura.
 
-Expansion capability is important for future upgrades.
+La capacidad de expansión es importante para futuras actualizaciones.
 
-Communication requirements affect module selection and network design.
+Los requerimientos de comunicación influyen en la selección de módulos y diseño de red.
 
-Environmental conditions influence hardware selection and placement.
+Las condiciones ambientales afectan la selección y ubicación del hardware.
 
-Maintenance access should be considered when designing layout.
+El acceso para mantenimiento debe considerarse en el diseño.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is selecting a compact PLC for systems that will grow. This limits future expansion.
+Un error común es seleccionar un PLC compacto para sistemas que crecerán, limitando la expansión.
 
-Distributed architectures reduce wiring but require reliable network design.
+Las arquitecturas distribuidas reducen cableado, pero requieren un diseño de red confiable.
 
-Keep critical control functions close to the CPU when possible to reduce latency.
+Mantén funciones críticas de control cerca de la CPU cuando sea posible para reducir latencia.
 
-Plan spare slots and capacity for future modifications.
+Planea espacios y capacidad disponible para futuras modificaciones.

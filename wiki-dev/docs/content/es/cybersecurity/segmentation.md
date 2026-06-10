@@ -1,65 +1,65 @@
-# Network Segmentation
+# Segmentación de red
 
-## Overview
+## Descripción general
 
-Network segmentation is the practice of dividing an industrial network into smaller, isolated sections.
+La segmentación de red es la práctica de dividir una red industrial en secciones más pequeñas y aisladas.
 
-Each segment contains specific systems or functions, and communication between segments is controlled. This reduces the spread of cyber incidents and limits access to critical assets.
+Cada segmento contiene sistemas o funciones específicas, y la comunicación entre segmentos está controlada. Esto reduce la propagación de incidentes cibernéticos y limita el acceso a activos críticos.
 
-## Purpose
+## Propósito
 
-The purpose of network segmentation is to:
+El propósito de la segmentación de red es:
 
-- Limit the impact of security incidents  
-- Control communication between systems  
-- Protect critical control assets from less secure networks  
-- Improve visibility and monitoring of network traffic  
+- Limitar el impacto de incidentes de seguridad  
+- Controlar la comunicación entre sistemas  
+- Proteger activos críticos de control frente a redes menos seguras  
+- Mejorar la visibilidad y el monitoreo del tráfico de red  
 
-Segmentation is a fundamental strategy to reduce risk in industrial environments.
+La segmentación es una estrategia fundamental para reducir riesgos en entornos industriales.
 
-## How It Works
+## Cómo funciona
 
-Segmentation is implemented by grouping devices based on function, criticality, or trust level.
+La segmentación se implementa agrupando dispositivos según su función, criticidad o nivel de confianza.
 
-Communication between segments is controlled using network devices such as switches, routers, or firewalls. Rules define which systems can communicate and under what conditions.
+La comunicación entre segmentos se controla mediante dispositivos de red como switches, routers o firewalls. Las reglas definen qué sistemas pueden comunicarse y bajo qué condiciones.
 
-Typical segmentation approach includes:
+Un enfoque típico de segmentación incluye:
 
-- Separating control networks from enterprise networks  
-- Isolating critical systems such as PLCs and safety controllers  
-- Creating zones based on function or risk level  
-- Controlling data flow between zones  
+- Separar redes de control de redes empresariales (IT)  
+- Aislar sistemas críticos como PLC y controladores de seguridad  
+- Crear zonas basadas en función o nivel de riesgo  
+- Controlar el flujo de datos entre zonas  
 
-The goal is to allow only necessary communication while blocking all other traffic.
+El objetivo es permitir únicamente la comunicación necesaria y bloquear todo el tráfico restante.
 
-## Applications
+## Aplicaciones
 
-Network segmentation is applied in:
+La segmentación de red se aplica en:
 
-- Industrial control systems with multiple subsystems  
-- Facilities with integration between IT and OT networks  
-- Remote access architectures  
-- Systems requiring different security levels  
-- Critical infrastructure environments  
+- Sistemas de control industrial con múltiples subsistemas  
+- Instalaciones con integración entre redes IT y OT  
+- Arquitecturas de acceso remoto  
+- Sistemas que requieren diferentes niveles de seguridad  
+- Entornos de infraestructura crítica  
 
-It is essential in any system where reliability and security are priorities.
+Es esencial en cualquier sistema donde la confiabilidad y la seguridad sean prioritarias.
 
-## Key Considerations
+## Consideraciones clave
 
-- Define clear boundaries between network segments  
-- Allow only required communication paths  
-- Avoid excessive complexity in segmentation design  
-- Consider latency and performance requirements  
-- Maintain clear documentation of network architecture  
+- Definir límites claros entre segmentos de red  
+- Permitir únicamente las rutas de comunicación necesarias  
+- Evitar complejidad excesiva en el diseño de segmentación  
+- Considerar requisitos de latencia y desempeño  
+- Mantener documentación clara de la arquitectura de red  
 
-Poor segmentation can create operational issues or give a false sense of security.
+Una segmentación deficiente puede generar problemas operativos o una falsa sensación de seguridad.
 
-## Practical Notes
+## Notas prácticas
 
-- Start with simple segmentation based on system function  
-- Avoid flat networks where all devices can communicate freely  
-- Regularly review and validate communication rules  
-- Monitor traffic between segments to detect abnormal behavior  
-- Segment remote access separately from core control networks  
+- Comenzar con una segmentación simple basada en la función del sistema  
+- Evitar redes planas donde todos los dispositivos pueden comunicarse libremente  
+- Revisar y validar periódicamente las reglas de comunicación  
+- Monitorear el tráfico entre segmentos para detectar comportamientos anómalos  
+- Separar el acceso remoto de las redes principales de control  
 
-Effective segmentation reduces risk without affecting system operation.
+Una segmentación efectiva reduce el riesgo sin afectar la operación del sistema.

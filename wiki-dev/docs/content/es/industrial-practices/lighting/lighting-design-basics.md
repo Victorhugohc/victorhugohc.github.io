@@ -1,62 +1,62 @@
-# Lighting Design Basics
+# Fundamentos de Diseño de Iluminación
 
-## Overview
+## Descripción general
 
-Lighting design is the process of defining how illumination is provided in an industrial space to meet visibility, safety, and operational requirements.
+El diseño de iluminación es el proceso de definir cómo se proporciona la iluminación en un espacio industrial para cumplir con los requisitos de visibilidad, seguridad y operación.
 
-It involves selecting lighting types, determining placement, and ensuring that illumination levels are appropriate for the tasks performed.
+Involucra seleccionar tipos de iluminación, determinar la colocación y asegurar que los niveles de iluminación sean apropiados para las tareas realizadas.
 
-A well designed system provides uniform, reliable, and efficient lighting.
+Un sistema bien diseñado proporciona iluminación uniforme, confiable y eficiente.
 
-## Purpose
+## Propósito
 
-The purpose of lighting design is to create an environment where all activities can be performed safely and effectively.
+El propósito del diseño de iluminación es crear un entorno donde todas las actividades puedan realizarse de forma segura y efectiva.
 
-This helps to:
+Esto ayuda a:
 
-- Ensure adequate visibility for all tasks  
-- Improve safety and reduce errors  
-- Optimize energy usage  
-- Maintain consistent lighting conditions  
+- Asegurar visibilidad adecuada para todas las tareas  
+- Mejorar la seguridad y reducir errores  
+- Optimizar el uso de energía  
+- Mantener condiciones de iluminación consistentes  
 
-## How It Works
+## Cómo funciona
 
-Lighting design is based on balancing illumination level, distribution, and efficiency.
+El diseño de iluminación se basa en equilibrar el nivel de iluminación, la distribución y la eficiencia.
 
-The process typically includes:
+El proceso típicamente incluye:
 
-- Defining required illumination levels based on the task  
-- Selecting appropriate lighting technology and fixtures  
-- Determining mounting height and fixture spacing  
-- Ensuring uniform light distribution across the area  
-- Controlling glare and shadows  
+- Definir niveles de iluminación requeridos según la tarea  
+- Seleccionar tecnología y luminarias de iluminación apropiadas  
+- Determinar la altura de montaje y el espaciado de luminarias  
+- Asegurar una distribución uniforme de luz en el área  
+- Controlar el deslumbramiento y las sombras  
 
-Design decisions must consider both general lighting and task specific lighting where higher precision is required.
+Las decisiones de diseño deben considerar tanto la iluminación general como la iluminación específica de tarea donde se requiere mayor precisión.
 
-## Applications
+## Aplicaciones
 
-Lighting design is applied in:
+El diseño de iluminación se aplica en:
 
-- Production and manufacturing areas  
-- Warehouses and logistics spaces  
-- Control rooms and operator stations  
-- Maintenance and inspection zones  
-- Outdoor and perimeter lighting  
+- Áreas de producción y manufactura  
+- Almacenes y espacios logísticos  
+- Salas de control y estaciones de operador  
+- Zonas de mantenimiento e inspección  
+- Iluminación exterior y perimetral  
 
-Each application requires different levels of illumination and distribution.
+Cada aplicación requiere diferentes niveles de iluminación y distribución.
 
-## Key Considerations
+## Consideraciones clave
 
-- Illumination must match the task requirements  
-- Uniformity is critical to avoid dark areas  
-- Glare must be minimized to maintain visibility  
-- Fixture selection must consider environmental conditions  
-- Energy efficiency should be balanced with performance  
+- La iluminación debe coincidir con los requisitos de la tarea  
+- La uniformidad es crítica para evitar áreas oscuras  
+- El deslumbramiento debe minimizarse para mantener la visibilidad  
+- La selección de luminarias debe considerar las condiciones ambientales  
+- La eficiencia energética debe equilibrarse con el rendimiento  
 
-## Practical Notes
+## Notas prácticas
 
-- Over lighting increases cost without improving usability  
-- Poor design often results in shadows or uneven illumination  
-- Combining general and task lighting improves effectiveness  
-- Layout changes may require lighting adjustments  
-- Always validate design with real conditions after installation  
+- La sobre-iluminación aumenta el costo sin mejorar la usabilidad  
+- Un diseño deficiente a menudo resulta en sombras o iluminación desigual  
+- Combinar iluminación general y de tarea mejora la efectividad  
+- Los cambios de disposición pueden requerir ajustes de iluminación  
+- Siempre valide el diseño con condiciones reales después de la instalación

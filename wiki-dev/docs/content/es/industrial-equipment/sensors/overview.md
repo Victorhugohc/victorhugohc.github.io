@@ -1,77 +1,77 @@
-# Sensors Overview
+# Descripción general de sensores
 
-## Overview
+## Descripción general
 
-Sensors are devices used to detect physical conditions and convert them into electrical signals that can be measured and processed.
+Los sensores son dispositivos utilizados para detectar condiciones físicas y convertirlas en señales eléctricas que pueden medirse y procesarse.
 
-They are essential for monitoring, control, and automation in industrial systems.
+Son esenciales para monitoreo, control y automatización en sistemas industriales.
 
-Sensors provide the information required for systems to respond to changes in the environment or process.
+Los sensores proporcionan la información requerida para que los sistemas respondan a cambios en el entorno o el proceso.
 
-## Purpose
+## Propósito
 
-The purpose of sensors is to:
+El propósito de los sensores es:
 
-- Measure physical variables such as position, temperature, pressure, or flow  
-- Provide real time data to control systems  
-- Enable automation and decision making  
-- Improve accuracy and consistency of processes  
+- Medir variables físicas como posición, temperatura, presión o flujo  
+- Proporcionar datos en tiempo real a los sistemas de control  
+- Habilitar automatización y toma de decisiones  
+- Mejorar la precisión y consistencia de los procesos  
 
-Sensors are the primary source of input for control systems.
+Los sensores son la fuente principal de entrada para los sistemas de control.
 
-## How It Works
+## Cómo funciona
 
-Sensors detect a physical phenomenon and convert it into a usable signal.
+Los sensores detectan un fenómeno físico y lo convierten en una señal utilizable.
 
-This typically involves:
+Esto típicamente involucra:
 
-- Sensing element that reacts to a physical condition  
-- Conversion mechanism that transforms the response into an electrical signal  
-- Output signal that can be processed by controllers or monitoring systems  
+- Elemento sensor que reacciona a una condición física  
+- Mecanismo de conversión que transforma la respuesta en una señal eléctrica  
+- Señal de salida que puede procesarse por controladores o sistemas de monitoreo  
 
-Signals may be:
+Las señales pueden ser:
 
-- Analog, representing a continuous value  
-- Digital, representing discrete states  
+- Analógicas, representando un valor continuo  
+- Digitales, representando estados discretos  
 
-The control system uses this data to adjust operation as needed.
+El sistema de control utiliza estos datos para ajustar la operación según sea necesario.
 
-## Applications
+## Aplicaciones
 
-Sensors are used in:
+Los sensores se utilizan en:
 
-- Industrial automation and control systems  
-- Process industries such as chemical and food production  
-- Manufacturing and assembly lines  
-- Robotics and motion control  
-- Monitoring and safety systems  
+- Sistemas de automatización y control industrial  
+- Industrias de proceso como producción química y alimentaria  
+- Líneas de manufactura y ensamble  
+- Robótica y control de movimiento  
+- Sistemas de monitoreo y seguridad  
 
-They are present in nearly all automated systems.
+Están presentes en casi todos los sistemas automatizados.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Type of measurement**  
-  Must match the physical variable to be monitored  
+- **Tipo de medición**  
+  Debe coincidir con la variable física a monitorear  
 
-- **Accuracy and resolution**  
-  Determines quality of measurement  
+- **Precisión y resolución**  
+  Determina la calidad de la medición  
 
-- **Response time**  
-  Important for dynamic processes  
+- **Tiempo de respuesta**  
+  Importante para procesos dinámicos  
 
-- **Environmental conditions**  
-  Temperature, vibration, and contaminants affect performance  
+- **Condiciones ambientales**  
+  La temperatura, vibración y contaminantes afectan el desempeño  
 
-- **Signal type**  
-  Must be compatible with control systems  
+- **Tipo de señal**  
+  Debe ser compatible con los sistemas de control  
 
-- **Installation and placement**  
-  Affects measurement reliability  
+- **Instalación y ubicación**  
+  Afecta la confiabilidad de la medición  
 
-## Practical Notes
+## Notas prácticas
 
-- Incorrect sensor selection leads to poor system performance  
-- Proper placement is as important as sensor type  
-- Calibration is necessary to maintain accuracy  
-- Noise and interference can affect signal quality  
-- Redundant sensors are used in critical applications for reliability  
+- La selección incorrecta de sensores provoca mal desempeño del sistema  
+- La ubicación adecuada es tan importante como el tipo de sensor  
+- La calibración es necesaria para mantener la precisión  
+- El ruido y la interferencia pueden afectar la calidad de la señal  
+- Los sensores redundantes se utilizan en aplicaciones críticas para confiabilidad  

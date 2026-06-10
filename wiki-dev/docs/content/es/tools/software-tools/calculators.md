@@ -1,68 +1,68 @@
-# Calculators
+# Calculadoras
 
-## Overview
+## Descripción general
 
-Calculators are software tools used to perform engineering calculations quickly and consistently.
+Las calculadoras son herramientas de software utilizadas para realizar cálculos de ingeniería de forma rápida y consistente.
 
-They are designed to simplify common formulas and provide immediate results based on user input, reducing manual calculation effort.
+Están diseñadas para simplificar fórmulas comunes y proporcionar resultados inmediatos basados en la entrada del usuario, reduciendo el esfuerzo de cálculo manual.
 
-## Purpose
+## Propósito
 
-The purpose of calculators is to:
+El propósito de las calculadoras es:
 
-- Perform repetitive engineering calculations efficiently  
-- Reduce errors in manual calculations  
-- Support quick decision making in design and troubleshooting  
-- Provide standardized methods for common problems  
+- Realizar cálculos de ingeniería repetitivos de forma eficiente  
+- Reducir errores en cálculos manuales  
+- Respaldar la toma de decisiones rápida en diseño y resolución de problemas  
+- Proporcionar métodos estandarizados para problemas comunes  
 
-They help engineers and technicians obtain reliable results with minimal effort.
+Ayudan a ingenieros y técnicos a obtener resultados confiables con mínimo esfuerzo.
 
-## How It Works
+## Cómo funciona
 
-Calculators take input values and apply predefined formulas to generate results.
+Las calculadoras toman valores de entrada y aplican fórmulas predefinidas para generar resultados.
 
-This typically involves:
+Esto generalmente involucra:
 
-- User input of parameters such as voltage, current, dimensions, or flow  
-- Internal calculation using established equations  
-- Output of results in a clear and usable format  
+- Entrada del usuario de parámetros como voltaje, corriente, dimensiones o flujo  
+- Cálculo interno utilizando ecuaciones establecidas  
+- Salida de resultados en un formato claro y utilizable  
 
-Some calculators may include:
+Algunas calculadoras pueden incluir:
 
-- Unit conversions  
-- Validation of input ranges  
-- Multiple related outputs from a single input set  
+- Conversiones de unidades  
+- Validación de rangos de entrada  
+- Múltiples salidas relacionadas a partir de un solo conjunto de entrada  
 
-The accuracy depends on correct input and proper selection of the calculation.
+La precisión depende de la entrada correcta y la selección adecuada del cálculo.
 
-## Applications
+## Aplicaciones
 
-Calculators are used in:
+Las calculadoras se utilizan en:
 
-- Electrical calculations such as power, current, and voltage drop  
-- Mechanical calculations such as torque and force  
-- Fluid calculations such as flow and pressure  
-- Sizing of components and systems  
-- Quick field calculations during troubleshooting  
+- Cálculos eléctricos como potencia, corriente y caída de voltaje  
+- Cálculos mecánicos como par torsional y fuerza  
+- Cálculos de fluidos como flujo y presión  
+- Dimensionamiento de componentes y sistemas  
+- Cálculos rápidos de campo durante la resolución de problemas  
 
-They are widely used in both design and maintenance activities.
+Se utilizan ampliamente tanto en actividades de diseño como de mantenimiento.
 
-## Key Considerations
+## Consideraciones clave
 
-- Input values must be accurate and correctly interpreted  
-- Units must be consistent  
-- Calculators are based on simplified models and assumptions  
-- Results should be validated for critical applications  
-- Not all real world factors may be included  
+- Los valores de entrada deben ser precisos e interpretarse correctamente  
+- Las unidades deben ser consistentes  
+- Las calculadoras se basan en modelos y supuestos simplificados  
+- Los resultados deben validarse para aplicaciones críticas  
+- No todos los factores del mundo real pueden incluirse  
 
-Incorrect input leads to incorrect results.
+La entrada incorrecta conduce a resultados incorrectos.
 
-## Practical Notes
+## Notas prácticas
 
-- Double check input values before calculating  
-- Use calculators for quick estimation and validation  
-- Understand the underlying formula when possible  
-- Avoid using calculators blindly without context  
-- Cross check results when making important decisions  
+- Verificar los valores de entrada antes de calcular  
+- Utilizar calculadoras para estimación y validación rápidas  
+- Comprender la fórmula subyacente cuando sea posible  
+- Evitar utilizar calculadoras sin contexto  
+- Contrastar resultados al tomar decisiones importantes  
 
-Calculators are effective tools for fast and consistent engineering calculations.
+Las calculadoras son herramientas eficaces para cálculos de ingeniería rápidos y consistentes.

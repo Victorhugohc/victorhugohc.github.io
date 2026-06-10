@@ -1,71 +1,71 @@
-# Temperature Measurement
+# Medición de temperatura
 
-## Overview
+## Descripción general
 
-Temperature measurement is the process of determining the thermal condition of a system, material, or environment.
+La medición de temperatura es el proceso de determinar la condición térmica de un sistema, material o entorno.
 
-It is one of the most important variables in industrial systems, affecting performance, safety, and product quality.
+Es una de las variables más importantes en sistemas industriales, afectando el rendimiento, la seguridad y la calidad del producto.
 
-## Purpose
+## Propósito
 
-The purpose of temperature measurement is to:
+El propósito de la medición de temperatura es:
 
-- Monitor process conditions  
-- Ensure safe operating limits  
-- Control heating and cooling systems  
-- Maintain product quality and consistency  
-- Detect abnormal thermal conditions  
+- Monitorear las condiciones del proceso  
+- Garantizar límites operativos seguros  
+- Controlar sistemas de calefacción y refrigeración  
+- Mantener la calidad y consistencia del producto  
+- Detectar condiciones térmicas anormales  
 
-Accurate temperature measurement is essential for stable and efficient operation.
+La medición precisa de temperatura es esencial para una operación estable y eficiente.
 
-## How It Works
+## Cómo funciona
 
-Temperature is measured using sensors that respond to thermal changes and convert them into electrical signals.
+La temperatura se mide utilizando sensores que responden a cambios térmicos y los convierten en señales eléctricas.
 
-Common technologies include:
+Las tecnologías comunes incluyen:
 
-- **Thermocouples** that generate voltage based on temperature differences  
-- **RTDs** that change resistance with temperature  
-- **Thermistors** with high sensitivity over limited ranges  
-- **Infrared sensors** for non contact measurement  
+- **Termopares** que generan voltaje basado en diferencias de temperatura  
+- **RTD** que cambian la resistencia con la temperatura  
+- **Termistores** con alta sensibilidad en rangos limitados  
+- **Sensores infrarrojos** para medición sin contacto  
 
-The sensor output is processed and displayed or used by control systems.
+La salida del sensor se procesa y muestra o utiliza por los sistemas de control.
 
-Measurement can be:
+La medición puede ser:
 
-- **Contact based** using direct connection to the object  
-- **Non contact** using infrared detection  
+- **Por contacto**, utilizando conexión directa al objeto  
+- **Sin contacto**, utilizando detección infrarroja  
 
-The choice depends on the application and operating conditions.
+La elección depende de la aplicación y las condiciones operativas.
 
-## Applications
+## Aplicaciones
 
-Temperature measurement is used in:
+La medición de temperatura se utiliza en:
 
-- Industrial processes such as heating, cooling, and chemical reactions  
-- Monitoring motors, bearings, and electrical equipment  
-- HVAC and environmental control systems  
-- Food and pharmaceutical processing  
-- Energy systems and thermal management  
+- Procesos industriales como calefacción, refrigeración y reacciones químicas  
+- Monitoreo de motores, rodamientos y equipos eléctricos  
+- Sistemas HVAC y de control ambiental  
+- Procesamiento de alimentos y productos farmacéuticos  
+- Sistemas de energía y gestión térmica  
 
-It is present in almost all industrial sectors.
+Está presente en casi todos los sectores industriales.
 
-## Key Considerations
+## Consideraciones clave
 
-- Sensor type must match temperature range and application  
-- Response time affects control performance  
-- Installation method impacts accuracy  
-- Environmental conditions can influence readings  
-- Calibration is required for reliable measurement  
+- El tipo de sensor debe coincidir con el rango de temperatura y la aplicación  
+- El tiempo de respuesta afecta el rendimiento del control  
+- El método de instalación impacta la precisión  
+- Las condiciones ambientales pueden influir en las lecturas  
+- La calibración es necesaria para una medición confiable  
 
-Incorrect selection can lead to poor control or unsafe conditions.
+La selección incorrecta puede conducir a un control deficiente o condiciones inseguras.
 
-## Practical Notes
+## Notas prácticas
 
-- Place sensors where they represent actual process conditions  
-- Avoid locations with poor thermal contact or excessive interference  
-- Use protective elements when required, but consider response time  
-- Regularly verify calibration and sensor condition  
-- Compare readings with reference points when possible  
+- Colocar sensores donde representen las condiciones reales del proceso  
+- Evitar ubicaciones con contacto térmico deficiente o interferencia excesiva  
+- Utilizar elementos de protección cuando sea necesario, pero considerar el tiempo de respuesta  
+- Verificar regularmente la calibración y la condición del sensor  
+- Comparar lecturas con puntos de referencia cuando sea posible  
 
-Temperature measurement is fundamental for monitoring and controlling industrial systems.
+La medición de temperatura es fundamental para monitorear y controlar sistemas industriales.

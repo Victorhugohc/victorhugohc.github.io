@@ -1,126 +1,126 @@
-# PLC Basic Design
+# Diseño Básico de PLC
 
-## Overview
+## Descripción general
 
-PLC basic design defines how a control system is structured at a practical level before detailed implementation.
+El diseño básico de PLC define cómo se estructura un sistema de control a nivel práctico antes de la implementación detallada.
 
-It includes hardware layout, I O allocation, control strategy, and program organization.
+Incluye la disposición de hardware, la asignación de I/O, la estrategia de control y la organización del programa.
 
-A good design ensures the system is reliable, scalable, and easy to maintain.
+Un buen diseño asegura que el sistema sea confiable, escalable y fácil de mantener.
 
-## Purpose
+## Propósito
 
-The purpose of PLC basic design is to translate system requirements into a clear and implementable structure.
+El propósito del diseño básico de PLC es traducir los requisitos del sistema en una estructura clara e implementable.
 
-It helps to:
+Ayuda a:
 
-- Define system architecture  
-- Organize control logic  
-- Reduce implementation errors  
-- Simplify commissioning and maintenance  
+- Definir la arquitectura del sistema  
+- Organizar la lógica de control  
+- Reducir errores de implementación  
+- Simplificar el comisionamiento y el mantenimiento  
 
-A structured design reduces rework and improves system quality.
+Un diseño estructurado reduce retrabajos y mejora la calidad del sistema.
 
-## How It Works
+## Cómo funciona
 
-PLC design follows a logical process that connects process requirements to control implementation.
+El diseño de PLC sigue un proceso lógico que conecta los requisitos del proceso con la implementación del control.
 
-### Define Control Strategy
+### Definición de la estrategia de control
 
-Establish how the system should operate.
+Establece cómo debe operar el sistema.
 
-- Operating modes  
-- Sequences and interlocks  
-- Safety conditions  
-- Control loops  
+- Modos de operación  
+- Secuencias e interbloqueos  
+- Condiciones de seguridad  
+- Lazos de control  
 
-This defines the behavior of the system.
+Esto define el comportamiento del sistema.
 
-### I O Mapping
+### Mapeo de I/O
 
-Assign all field signals to PLC addresses.
+Asignación de todas las señales de campo a direcciones del PLC.
 
-- Inputs from sensors and devices  
-- Outputs to actuators  
-- Signal types and ranges  
+- Entradas de sensores y dispositivos  
+- Salidas hacia actuadores  
+- Tipos de señal y rangos  
 
-Create a clear and organized mapping structure.
+Se debe crear una estructura clara y organizada.
 
-### Hardware Layout
+### Distribución de hardware
 
-Define physical arrangement of components.
+Definición de la disposición física de los componentes.
 
-- PLC type and modules  
-- Panel layout  
-- Power supply and protection  
-- Communication interfaces  
+- Tipo de PLC y módulos  
+- Distribución en el tablero  
+- Fuente de alimentación y protección  
+- Interfaces de comunicación  
 
-Ensure proper spacing and accessibility.
+Debe garantizarse el espacio adecuado y la accesibilidad.
 
-### Program Structure
+### Estructura del programa
 
-Organize the control program into logical sections.
+Organización del programa de control en secciones lógicas.
 
-- Main routines  
-- Subroutines or function blocks  
-- Reusable components  
+- Rutinas principales  
+- Subrutinas o bloques de función  
+- Componentes reutilizables  
 
-Keep logic modular and easy to follow.
+La lógica debe ser modular y fácil de seguir.
 
-### Communication Design
+### Diseño de comunicación
 
-Define how the PLC interacts with other systems.
+Definición de cómo el PLC interactúa con otros sistemas.
 
-- HMI and SCADA integration  
-- Network structure  
-- Data exchange mapping  
+- Integración con HMI y SCADA  
+- Estructura de red  
+- Mapeo de intercambio de datos  
 
-Ensure reliable and efficient communication.
+Debe garantizarse una comunicación confiable y eficiente.
 
-### Documentation
+### Documentación
 
-Prepare clear documentation.
+Preparación de documentación clara.
 
-- I O lists  
-- Control descriptions  
-- Electrical drawings  
-- Naming conventions  
+- Listas de I/O  
+- Descripciones de control  
+- Diagramas eléctricos  
+- Convenciones de nomenclatura  
 
-Documentation supports implementation and maintenance.
+La documentación respalda la implementación y el mantenimiento.
 
-## Applications
+## Aplicaciones
 
-PLC basic design is used in all automation projects.
+El diseño básico de PLC se utiliza en todos los proyectos de automatización.
 
-Typical applications include:
+Aplicaciones típicas incluyen:
 
-- Machine control systems  
-- Process automation  
-- System upgrades and retrofits  
-- Integration of multiple subsystems  
+- Sistemas de control de maquinaria  
+- Automatización de procesos  
+- Actualizaciones y modernizaciones de sistemas  
+- Integración de múltiples subsistemas  
 
-It is essential for both small and large systems.
+Es esencial tanto en sistemas pequeños como grandes.
 
-## Key Considerations
+## Consideraciones clave
 
-Clarity and organization are critical for long term maintainability.
+La claridad y organización son críticas para el mantenimiento a largo plazo.
 
-Consistency in naming and structure improves understanding.
+La consistencia en nomenclatura y estructura mejora la comprensión.
 
-Allow space and capacity for future expansion.
+Debe dejarse espacio y capacidad para expansión futura.
 
-Ensure alignment between electrical design and control logic.
+Debe existir alineación entre el diseño eléctrico y la lógica de control.
 
-Consider real operating conditions during design.
+Se deben considerar las condiciones reales de operación.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is starting programming without a defined design. This leads to disorganized logic.
+Un error común es iniciar la programación sin un diseño definido, lo que genera lógica desorganizada.
 
-Keep I O naming consistent with electrical drawings.
+Mantén la nomenclatura de I/O consistente con los planos eléctricos.
 
-Avoid mixing unrelated functions in the same program section.
+Evita mezclar funciones no relacionadas en la misma sección del programa.
 
-Design for troubleshooting. Clear structure reduces downtime.
+Diseña pensando en el diagnóstico de fallas; una estructura clara reduce tiempos de paro.
 
-Validate the design before implementation to catch issues early.
+Valida el diseño antes de la implementación para detectar problemas de forma temprana.

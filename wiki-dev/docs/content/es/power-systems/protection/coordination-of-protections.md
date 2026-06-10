@@ -1,78 +1,78 @@
-# Coordination of Protections
+# Coordinación de protecciones
 
-## Overview
+## Descripción general
 
-Coordination of protections is the process of arranging and setting protective devices so that only the device closest to a fault operates.
+La coordinación de protecciones es el proceso de organizar y configurar los dispositivos de protección para que solo opere el dispositivo más cercano a una falla.
 
-It ensures that faults are isolated locally without unnecessarily interrupting power to the rest of the system.
+Asegura que las fallas se aíslen localmente sin interrumpir innecesariamente la energía al resto del sistema.
 
-Proper coordination is essential for maintaining system reliability and minimizing downtime.
+La coordinación adecuada es esencial para mantener la confiabilidad del sistema y minimizar el tiempo de inactividad.
 
-## Purpose
+## Propósito
 
-The purpose of coordination is to:
+El propósito de la coordinación es:
 
-- Isolate faults with minimal impact on the overall system  
-- Maintain continuity of service for unaffected loads  
-- Reduce equipment stress by limiting fault duration  
-- Ensure predictable and controlled operation of protective devices  
+- Aislar fallas con impacto mínimo en el sistema general  
+- Mantener la continuidad del servicio para las cargas no afectadas  
+- Reducir el estrés del equipo limitando la duración de la falla  
+- Asegurar operación predecible y controlada de los dispositivos de protección  
 
-Without coordination, a single fault can cause large portions of a facility to lose power.
+Sin coordinación, una sola falla puede provocar que grandes porciones de una instalación pierdan energía.
 
-## How It Works
+## Cómo funciona
 
-Protection devices are selected and adjusted using time current characteristics.
+Los dispositivos de protección se seleccionan y ajustan utilizando curvas tiempo-corriente.
 
-Each device is configured to operate at a specific current level and time delay.
+Cada dispositivo se configura para operar a un nivel de corriente específico y con un retardo de tiempo determinado.
 
-The coordination principle is based on hierarchy:
+El principio de coordinación se basa en la jerarquía:
 
-- Downstream devices operate first for local faults  
-- Upstream devices act as backup if downstream protection fails  
+- Los dispositivos aguas abajo operan primero para fallas locales  
+- Los dispositivos aguas arriba actúan como respaldo si la protección aguas abajo falla  
 
-This is achieved by:
+Esto se logra mediante:
 
-- Setting lower trip thresholds for downstream devices  
-- Introducing intentional time delays in upstream devices  
+- Configurar umbrales de disparo más bajos en dispositivos aguas abajo  
+- Introducir retardos de tiempo intencionales en dispositivos aguas arriba  
 
-Graphically, coordination is often verified using time current curves to ensure separation between devices.
+Gráficamente, la coordinación a menudo se verifica utilizando curvas tiempo-corriente para asegurar la separación entre dispositivos.
 
-## Applications
+## Aplicaciones
 
-Coordination is applied in:
+La coordinación se aplica en:
 
-- Low voltage distribution panels and switchboards  
-- Medium voltage switchgear and feeder systems  
-- Motor control circuits  
-- Transformer protection schemes  
-- Industrial facilities with multiple distribution levels  
+- Paneles de distribución y tableros de distribución en baja tensión  
+- Switchgear (celdas de media tensión) y sistemas de alimentadores  
+- Circuitos de control de motores  
+- Esquemas de protección de transformadores  
+- Instalaciones industriales con múltiples niveles de distribución  
 
-It is required wherever multiple protective devices are connected in series.
+Es requerida donde múltiples dispositivos de protección están conectados en serie.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Selectivity**  
-  Devices must operate in the correct sequence without overlap  
+- **Selectividad**  
+  Los dispositivos deben operar en la secuencia correcta sin superposición  
 
-- **Time current curves**  
-  Proper spacing between curves ensures coordination under different fault conditions  
+- **Curvas tiempo-corriente**  
+  El espaciado adecuado entre curvas asegura coordinación bajo diferentes condiciones de falla  
 
-- **Device types**  
-  Mixing fuses and breakers requires careful matching of characteristics  
+- **Tipos de dispositivos**  
+  Mezclar fusibles e interruptores automáticos requiere una comparación cuidadosa de características  
 
-- **System configuration**  
-  Radial and loop systems require different coordination approaches  
+- **Configuración del sistema**  
+  Los sistemas radiales y en lazo requieren enfoques de coordinación diferentes  
 
-- **Backup protection**  
-  Upstream devices must still operate if downstream devices fail  
+- **Protección de respaldo**  
+  Los dispositivos aguas arriba deben operar aún si los dispositivos aguas abajo fallan  
 
-- **Changes in the system**  
-  Adding loads or equipment may require re coordination  
+- **Cambios en el sistema**  
+  Agregar cargas o equipo puede requerir re-coordinación  
 
-## Practical Notes
+## Notas prácticas
 
-- Perfect coordination may not always be possible, especially at high fault levels  
-- Over coordination can result in slower fault clearing times  
-- Under coordination leads to unnecessary outages  
-- Documentation of settings is critical for maintenance and troubleshooting  
-- Coordination studies should be updated when the system changes  
+- La coordinación perfecta puede no ser siempre posible, especialmente a altos niveles de falla  
+- La sobre-coordinación puede resultar en tiempos de despeje de falla más lentos  
+- La sub-coordinación provoca interrupciones innecesarias  
+- La documentación de configuraciones es crítica para mantenimiento y diagnóstico  
+- Los estudios de coordinación deben actualizarse cuando el sistema cambia  

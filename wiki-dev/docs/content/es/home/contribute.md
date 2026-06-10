@@ -1,59 +1,59 @@
-# Contribute
+# Contribuir
 
-## Overview
+## Descripción general
 
-This handbook is a curated technical resource focused on clarity, consistency, and practical understanding.
+Este handbook es un recurso técnico curado enfocado en claridad, consistencia y comprensión práctica.
 
-Contributions are welcome, but they are reviewed to ensure the content maintains a consistent structure and engineering-focused approach.
+Las contribuciones son bienvenidas, pero se revisan para asegurar que el contenido mantenga una estructura consistente y un enfoque orientado a ingeniería.
 
-## Contribution Scope
+## Alcance de la contribución
 
-This page is intended for **direct contributions to the content**, such as:
+Esta página está destinada a **contribuciones directas al contenido**, como:
 
-- Editing existing pages  
-- Adding new topics  
-- Improving structure or technical clarity  
+- Edición de páginas existentes  
+- Adición de nuevos temas  
+- Mejora de la estructura o claridad técnica  
 
-For general comments, suggestions, or corrections, use the feedback page.
+Para comentarios generales, sugerencias o correcciones, utiliza la página de feedback.
 
-## How to Contribute
+## Cómo contribuir
 
-1. Fork the repository  
-2. Create a new branch  
-3. Make your changes  
-4. Submit a pull request  
+1. Hacer un fork del repositorio  
+2. Crear una nueva rama  
+3. Realizar los cambios  
+4. Enviar un pull request  
 
-## What to Expect
+## Qué esperar
 
-All contributions are reviewed before being accepted.
+Todas las contribuciones son revisadas antes de ser aceptadas.
 
-- Content may be edited to match the handbook style  
-- Structural adjustments may be applied  
-- Some contributions may not be accepted  
+- El contenido puede ser editado para ajustarse al estilo del handbook  
+- Pueden aplicarse ajustes estructurales  
+- Algunas contribuciones pueden no ser aceptadas  
 
-This process ensures consistency across all topics.
+Este proceso asegura consistencia en todos los temas.
 
-## Content Guidelines
+## Lineamientos de contenido
 
-When contributing, follow these principles:
+Al contribuir, sigue estos principios:
 
-- Keep explanations clear and practical  
-- Focus on understanding, not excessive theory  
-- Maintain a structured and consistent format  
-- Avoid redundancy with existing content  
+- Mantener explicaciones claras y prácticas  
+- Enfocarse en la comprensión, no en teoría excesiva  
+- Mantener un formato estructurado y consistente  
+- Evitar redundancia con contenido existente  
 
-## Writing Approach
+## Enfoque de redacción
 
-Content should help the reader:
+El contenido debe ayudar al lector a:
 
-- Understand what a component or concept is  
-- Understand why it is used  
-- Understand how to apply it in real scenarios  
+- Entender qué es un componente o concepto  
+- Entender por qué se utiliza  
+- Entender cómo aplicarlo en escenarios reales  
 
-The goal is not to replace manuals, but to make them easier to understand and use.
+El objetivo no es reemplazar manuales, sino hacerlos más fáciles de entender y utilizar.
 
-## Final Note
+## Nota final
 
-Well-structured contributions are more likely to be accepted.
+Las contribuciones bien estructuradas tienen mayor probabilidad de ser aceptadas.
 
-Small improvements, corrections, or clarifications are valuable and help improve the overall quality of the handbook.
+Pequeñas mejoras, correcciones o aclaraciones son valiosas y ayudan a mejorar la calidad general del handbook.

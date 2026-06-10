@@ -1,60 +1,60 @@
-# General Selection
+# Selección General
 
-## Overview
+## Descripción general
 
-General selection refers to the process of choosing equipment and protection levels based on environmental conditions.
+La selección general se refiere al proceso de elegir equipo y niveles de protección según las condiciones ambientales.
 
-It ensures that all components are suitable for the conditions in which they will operate, maintaining reliability and safety over time.
+Asegura que todos los componentes sean adecuados para las condiciones en las que operarán, manteniendo la confiabilidad y la seguridad con el tiempo.
 
-## Purpose
+## Propósito
 
-The purpose of proper selection is to match equipment characteristics to real environmental demands.
+El propósito de una selección adecuada es adaptar las características del equipo a las demandas ambientales reales.
 
-This helps to:
+Esto ayuda a:
 
-- Prevent premature failures  
-- Ensure consistent performance  
-- Reduce maintenance requirements  
-- Improve overall system reliability  
+- Prevenir fallas prematuras  
+- Asegurar un rendimiento consistente  
+- Reducir los requisitos de mantenimiento  
+- Mejorar la confiabilidad general del sistema  
 
-## How It Works
+## Cómo funciona
 
-Selection is based on evaluating environmental factors and matching them with equipment specifications.
+La selección se basa en evaluar los factores ambientales y hacerlos coincidir con las especificaciones del equipo.
 
-The process typically includes:
+El proceso típicamente incluye:
 
-- Identifying all relevant environmental conditions  
-- Determining the required level of protection  
-- Selecting materials and enclosures suitable for those conditions  
-- Verifying temperature, sealing, and resistance ratings  
-- Considering installation and maintenance requirements  
+- Identificar todas las condiciones ambientales relevantes  
+- Determinar el nivel de protección requerido  
+- Seleccionar materiales y gabinetes adecuados para esas condiciones  
+- Verificar clasificaciones de temperatura, sellado y resistencia  
+- Considerar requisitos de instalación y mantenimiento  
 
-The goal is to ensure that every component can operate within its specified limits.
+El objetivo es asegurar que cada componente pueda operar dentro de sus límites especificados.
 
-## Applications
+## Aplicaciones
 
-General selection is applied in:
+La selección general se aplica en:
 
-- Electrical panels and enclosures  
-- Field devices and instrumentation  
-- Lighting systems  
-- Mechanical equipment installations  
-- Outdoor and indoor industrial environments  
+- Tableros eléctricos y gabinetes  
+- Dispositivos de campo e instrumentación  
+- Sistemas de iluminación  
+- Instalaciones de equipo mecánico  
+- Entornos industriales exteriores e interiores  
 
-It is essential during design and specification stages.
+Es esencial durante las etapas de diseño y especificación.
 
-## Key Considerations
+## Consideraciones clave
 
-- Always consider worst case environmental conditions  
-- Match equipment ratings to actual exposure  
-- Avoid under specifying protection in harsh environments  
-- Avoid unnecessary over specification that increases cost  
-- Ensure compatibility between materials and environment  
+- Siempre considere las condiciones ambientales en el peor caso  
+- Haga coincidir las clasificaciones del equipo con la exposición real  
+- Evite sub-especificar la protección en entornos severos  
+- Evite la sobre-especificación innecesaria que aumenta el costo  
+- Asegure la compatibilidad entre materiales y entorno  
 
-## Practical Notes
+## Notas prácticas
 
-- Environmental mismatch is a common cause of failure  
-- Selection should consider long term conditions, not only initial installation  
-- Protective measures should be part of the design, not added later  
-- Verify manufacturer specifications carefully  
-- Field experience helps refine selection decisions  
+- La incompatibilidad ambiental es una causa común de fallas  
+- La selección debe considerar condiciones a largo plazo, no solo la instalación inicial  
+- Las medidas de protección deben ser parte del diseño, no agregarse después  
+- Verifique cuidadosamente las especificaciones del fabricante  
+- La experiencia de campo ayuda a refinar las decisiones de selección

@@ -1,61 +1,61 @@
-# Lighting Overview
+# Iluminación
 
-## Overview
+## Descripción general
 
-Industrial lighting refers to the systems used to provide adequate illumination in workplaces, equipment areas, and industrial facilities.
+La iluminación industrial se refiere a los sistemas utilizados para proporcionar iluminación adecuada en lugares de trabajo, áreas de equipo e instalaciones industriales.
 
-It is a critical part of system usability, affecting visibility, safety, and overall operational efficiency. Proper lighting allows personnel to clearly see equipment, read labels, and perform tasks accurately.
+Es una parte crítica de la usabilidad del sistema, afectando la visibilidad, la seguridad y la eficiencia operativa general. La iluminación adecuada permite al personal ver claramente el equipo, leer etiquetas y realizar tareas con precisión.
 
-## Purpose
+## Propósito
 
-The purpose of industrial lighting is to ensure that all work areas have sufficient and reliable illumination.
+El propósito de la iluminación industrial es asegurar que todas las áreas de trabajo tengan iluminación suficiente y confiable.
 
-This helps to:
+Esto ayuda a:
 
-- Improve visibility for operation and maintenance  
-- Reduce the risk of accidents and errors  
-- Support inspection and troubleshooting activities  
-- Maintain consistent working conditions  
+- Mejorar la visibilidad para operación y mantenimiento  
+- Reducir el riesgo de accidentes y errores  
+- Apoyar actividades de inspección y diagnóstico  
+- Mantener condiciones de trabajo consistentes  
 
-Poor lighting conditions can lead to mistakes, fatigue, and unsafe situations.
+Las condiciones de iluminación deficientes pueden conducir a errores, fatiga y situaciones inseguras.
 
-## How It Works
+## Cómo funciona
 
-Lighting systems provide illumination by converting electrical energy into visible light using different technologies.
+Los sistemas de iluminación proporcionan iluminación convirtiendo energía eléctrica en luz visible mediante diferentes tecnologías.
 
-These systems are designed based on:
+Estos sistemas se diseñan según:
 
-- Required illumination levels for specific tasks  
-- Distribution of light across the workspace  
-- Positioning of fixtures to minimize shadows and glare  
-- Environmental conditions such as dust, moisture, or temperature  
+- Niveles de iluminación requeridos para tareas específicas  
+- Distribución de luz en el espacio de trabajo  
+- Posicionamiento de luminarias para minimizar sombras y deslumbramiento  
+- Condiciones ambientales como polvo, humedad o temperatura  
 
-The goal is to deliver uniform and sufficient light where it is needed.
+El objetivo es entregar luz uniforme y suficiente donde se necesita.
 
-## Applications
+## Aplicaciones
 
-Industrial lighting is used in:
+La iluminación industrial se utiliza en:
 
-- Manufacturing and production areas  
-- Control rooms and electrical panels  
-- Warehouses and storage facilities  
-- Outdoor installations and yards  
-- Maintenance and inspection areas  
+- Áreas de manufactura y producción  
+- Salas de control y tableros eléctricos  
+- Almacenes e instalaciones de almacenamiento  
+- Instalaciones exteriores y patios  
+- Áreas de mantenimiento e inspección  
 
-Each application may require different lighting levels and configurations.
+Cada aplicación puede requerir diferentes niveles y configuraciones de iluminación.
 
-## Key Considerations
+## Consideraciones clave
 
-- Illumination must be adequate for the task being performed  
-- Light distribution should minimize shadows and dark areas  
-- Glare must be controlled to avoid visual discomfort  
-- Fixtures must be suitable for the environment  
-- Energy efficiency and maintenance requirements must be considered  
+- La iluminación debe ser adecuada para la tarea que se realiza  
+- La distribución de luz debe minimizar sombras y áreas oscuras  
+- El deslumbramiento debe controlarse para evitar molestia visual  
+- Las luminarias deben ser adecuadas para el entorno  
+- Deben considerarse la eficiencia energética y los requisitos de mantenimiento  
 
-## Practical Notes
+## Notas prácticas
 
-- Poor lighting is often overlooked until it affects performance or safety  
-- Uniform lighting is more important than high intensity in isolated areas  
-- Regular cleaning of fixtures improves performance  
-- LED lighting is commonly preferred due to efficiency and lifespan  
-- Lighting design should consider future maintenance and accessibility  
+- La iluminación deficiente a menudo se pasa por alto hasta que afecta el rendimiento o la seguridad  
+- La iluminación uniforme es más importante que la alta intensidad en áreas aisladas  
+- La limpieza regular de luminarias mejora el rendimiento  
+- La iluminación LED es comúnmente preferida por su eficiencia y vida útil  
+- El diseño de iluminación debe considerar el mantenimiento y la accesibilidad futuros

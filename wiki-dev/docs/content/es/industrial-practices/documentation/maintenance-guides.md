@@ -1,60 +1,60 @@
-# Maintenance Guides
+# Guías de Mantenimiento
 
-## Overview
+## Descripción general
 
-Maintenance guides are structured documents that define how to inspect, service, and maintain industrial equipment.
+Las guías de mantenimiento son documentos estructurados que definen cómo inspeccionar, dar servicio y mantener equipos industriales.
 
-They provide clear instructions to keep systems operating reliably and to prevent unexpected failures.
+Proporcionan instrucciones claras para mantener los sistemas operando de manera confiable y prevenir fallas inesperadas.
 
-## Purpose
+## Propósito
 
-The purpose of maintenance guides is to ensure that equipment is maintained in a consistent and effective way.
+El propósito de las guías de mantenimiento es asegurar que el equipo se mantenga de manera consistente y efectiva.
 
-This helps to:
+Esto ayuda a:
 
-- Prevent unplanned downtime  
-- Extend equipment lifespan  
-- Maintain safe operating conditions  
-- Standardize maintenance activities  
+- Prevenir tiempo de inactividad no planificado  
+- Extender la vida útil del equipo  
+- Mantener condiciones de operación seguras  
+- Estandarizar las actividades de mantenimiento  
 
-## How It Works
+## Cómo funciona
 
-Maintenance guides define tasks, intervals, and procedures required to keep equipment in proper condition.
+Las guías de mantenimiento definen las tareas, intervalos y procedimientos requeridos para mantener el equipo en condiciones adecuadas.
 
-They typically include:
+Típicamente incluyen:
 
-- Preventive maintenance tasks and schedules  
-- Inspection checklists  
-- Cleaning and lubrication procedures  
-- Replacement intervals for critical components  
-- Basic troubleshooting steps  
+- Tareas de mantenimiento preventivo y programas  
+- Listas de verificación de inspección  
+- Procedimientos de limpieza y lubricación  
+- Intervalos de reemplazo para componentes críticos  
+- Pasos básicos de diagnóstico  
 
-These guides are used by maintenance personnel to perform routine and corrective actions.
+Estas guías son utilizadas por el personal de mantenimiento para realizar acciones rutinarias y correctivas.
 
-## Applications
+## Aplicaciones
 
-Maintenance guides are used in:
+Las guías de mantenimiento se utilizan en:
 
-- Routine preventive maintenance programs  
-- Inspection and condition monitoring  
-- Repair and replacement activities  
-- Commissioning and system validation  
-- Asset management and reliability programs  
+- Programas rutinarios de mantenimiento preventivo  
+- Inspección y monitoreo de condición  
+- Actividades de reparación y reemplazo  
+- Puesta en marcha y validación del sistema  
+- Programas de gestión de activos y confiabilidad  
 
-They apply to all types of industrial equipment and systems.
+Se aplican a todo tipo de equipos y sistemas industriales.
 
-## Key Considerations
+## Consideraciones clave
 
-- Instructions must be clear and easy to follow  
-- Maintenance intervals must match operating conditions  
-- Safety procedures must be clearly defined  
-- Guides must reflect the actual installed equipment  
-- Documentation must be updated after modifications  
+- Las instrucciones deben ser claras y fáciles de seguir  
+- Los intervalos de mantenimiento deben corresponder a las condiciones de operación  
+- Los procedimientos de seguridad deben estar claramente definidos  
+- Las guías deben reflejar el equipo instalado real  
+- La documentación debe actualizarse después de modificaciones  
 
-## Practical Notes
+## Notas prácticas
 
-- Skipping preventive maintenance leads to higher long term costs  
-- Overly complex procedures reduce compliance  
-- Checklists improve consistency and reduce omissions  
-- Maintenance records help identify recurring issues  
-- Adjust maintenance frequency based on real operating conditions  
+- Omitir el mantenimiento preventivo conduce a mayores costos a largo plazo  
+- Los procedimientos excesivamente complejos reducen el cumplimiento  
+- Las listas de verificación mejoran la consistencia y reducen omisiones  
+- Los registros de mantenimiento ayudan a identificar problemas recurrentes  
+- Ajuste la frecuencia de mantenimiento según las condiciones reales de operación

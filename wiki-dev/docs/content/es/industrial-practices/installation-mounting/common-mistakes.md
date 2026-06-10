@@ -1,61 +1,61 @@
-# Common Mistakes
+# Errores Comunes
 
-## Overview
+## Descripción general
 
-Common mistakes in installation and mounting are errors that negatively affect system performance, reliability, and safety.
+Los errores comunes en instalación y montaje son fallas que afectan negativamente el rendimiento, la confiabilidad y la seguridad del sistema.
 
-These mistakes often occur due to lack of planning, poor execution, or ignoring basic principles.
+Estos errores a menudo ocurren por falta de planificación, mala ejecución o ignorar principios básicos.
 
-## Purpose
+## Propósito
 
-Understanding common mistakes helps prevent issues that can lead to failures, downtime, and increased maintenance costs.
+Comprender los errores comunes ayuda a prevenir problemas que pueden conducir a fallas, tiempo de inactividad y mayores costos de mantenimiento.
 
-This improves:
+Esto mejora:
 
-- System reliability  
-- Safety during operation  
-- Installation quality  
-- Long term performance  
+- La confiabilidad del sistema  
+- La seguridad durante la operación  
+- La calidad de la instalación  
+- El rendimiento a largo plazo  
 
-## How It Works
+## Cómo funciona
 
-Mistakes typically arise when installation practices do not follow design requirements or good engineering principles.
+Los errores típicamente surgen cuando las prácticas de instalación no siguen los requisitos de diseño o los buenos principios de ingeniería.
 
-Common examples include:
+Los ejemplos comunes incluyen:
 
-- Improper alignment of rotating equipment  
-- Inadequate or uneven mounting surfaces  
-- Incorrect fastening or torque application  
-- Poor support of equipment or structures  
-- Ignoring environmental conditions  
-- Routing cables or components under mechanical stress  
+- Alineación incorrecta de equipo rotativo  
+- Superficies de montaje inadecuadas o desiguales  
+- Sujeción o aplicación de torque incorrectos  
+- Soporte deficiente de equipo o estructuras  
+- Ignorar condiciones ambientales  
+- Tendido de cables o componentes bajo esfuerzo mecánico  
 
-These issues introduce stress, vibration, or instability into the system.
+Estos problemas introducen esfuerzo, vibración o inestabilidad en el sistema.
 
-## Applications
+## Aplicaciones
 
-These mistakes can occur in:
+Estos errores pueden ocurrir en:
 
-- Mechanical equipment installation  
-- Electrical panel mounting  
-- Field device installation  
-- Structural supports and frames  
-- Cable management systems  
+- Instalación de equipo mecánico  
+- Montaje de tableros eléctricos  
+- Instalación de dispositivos de campo  
+- Soportes estructurales y bastidores  
+- Sistemas de gestión de cables  
 
-They affect both small and large scale installations.
+Afectan tanto instalaciones pequeñas como de gran escala.
 
-## Key Considerations
+## Consideraciones clave
 
-- Small installation errors can lead to major failures over time  
-- Many issues are not immediately visible after installation  
-- Verification and inspection are critical before operation  
-- Installation must follow both design and practical constraints  
-- Corrective actions after installation are often costly  
+- Los pequeños errores de instalación pueden conducir a fallas mayores con el tiempo  
+- Muchos problemas no son inmediatamente visibles después de la instalación  
+- La verificación y la inspección son críticas antes de la operación  
+- La instalación debe seguir tanto el diseño como las restricciones prácticas  
+- Las acciones correctivas después de la instalación suelen ser costosas  
 
-## Practical Notes
+## Notas prácticas
 
-- Skipping alignment checks is a frequent source of failure  
-- Over tightening fasteners can damage components  
-- Poor planning leads to difficult maintenance access  
-- Ignoring vibration effects reduces equipment lifespan  
-- Always perform final inspection before commissioning  
+- Omitir verificaciones de alineación es una fuente frecuente de fallas  
+- El apriete excesivo de sujetadores puede dañar componentes  
+- La mala planificación conduce a un acceso difícil para mantenimiento  
+- Ignorar los efectos de vibración reduce la vida útil del equipo  
+- Siempre realice una inspección final antes de la puesta en marcha

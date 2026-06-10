@@ -1,104 +1,104 @@
-# PLC CPU
+# CPU de PLC
 
-## Overview
+## Descripción general
 
-The CPU is the central processing unit of a PLC. It executes the control program, manages system resources, and coordinates all PLC operations.
+La CPU es la unidad central de procesamiento de un PLC. Ejecuta el programa de control, gestiona los recursos del sistema y coordina todas las operaciones del PLC.
 
-It is the core component that defines the performance and capabilities of the control system.
+Es el componente principal que define el desempeño y las capacidades del sistema de control.
 
-## Purpose
+## Propósito
 
-The purpose of the PLC CPU is to process input data, execute control logic, and generate output commands in a reliable and deterministic way.
+El propósito de la CPU de un PLC es procesar datos de entrada, ejecutar la lógica de control y generar comandos de salida de forma confiable y determinística.
 
-It ensures that the system operates according to the defined control strategy.
+Asegura que el sistema opere de acuerdo con la estrategia de control definida.
 
-## How It Works
+## Cómo funciona
 
-The CPU performs several key functions during operation.
+La CPU realiza varias funciones clave durante la operación.
 
-### Program Execution
+### Ejecución del programa
 
-The CPU executes the user program in a defined sequence.
+La CPU ejecuta el programa del usuario en una secuencia definida.
 
-- Processes logic instructions  
-- Evaluates conditions  
-- Updates internal variables  
+- Procesa instrucciones lógicas  
+- Evalúa condiciones  
+- Actualiza variables internas  
 
-This execution is repeated continuously as part of the scan cycle.
+Esta ejecución se repite continuamente como parte del ciclo de escaneo.
 
-### Memory Management
+### Gestión de memoria
 
-The CPU manages different types of memory.
+La CPU administra diferentes tipos de memoria.
 
-- Stores the control program  
-- Maintains variable states  
-- Handles temporary data during execution  
+- Almacena el programa de control  
+- Mantiene el estado de las variables  
+- Maneja datos temporales durante la ejecución  
 
-Memory access must be fast and reliable for real time operation.
+El acceso a memoria debe ser rápido y confiable para operación en tiempo real.
 
-### Input and Output Handling
+### Manejo de entradas y salidas
 
-The CPU processes data from input modules and determines output states.
+La CPU procesa los datos de los módulos de entrada y determina el estado de las salidas.
 
-- Reads input data from memory  
-- Applies control logic  
-- Writes results to output memory  
+- Lee datos de entrada desde memoria  
+- Aplica la lógica de control  
+- Escribe resultados en la memoria de salida  
 
-The actual signal update occurs during the scan cycle.
+La actualización real de señales ocurre durante el ciclo de escaneo.
 
-### Communication
+### Comunicación
 
-The CPU manages communication with external systems.
+La CPU gestiona la comunicación con sistemas externos.
 
-- HMIs  
-- SCADA systems  
-- Other PLCs  
-- Network devices  
+- HMI  
+- Sistemas SCADA  
+- Otros PLCs  
+- Dispositivos de red  
 
-It handles data exchange and protocol execution.
+Se encarga del intercambio de datos y ejecución de protocolos.
 
-### Diagnostics and Monitoring
+### Diagnóstico y monitoreo
 
-The CPU continuously monitors system status.
+La CPU monitorea continuamente el estado del sistema.
 
-- Detects faults and errors  
-- Reports diagnostic information  
-- Manages system states such as run, stop, and fault  
+- Detecta fallas y errores  
+- Reporta información de diagnóstico  
+- Gestiona estados como ejecución, paro y falla  
 
-## Applications
+## Aplicaciones
 
-The CPU is used in all PLC based systems.
+La CPU se utiliza en todos los sistemas basados en PLC.
 
-Its capabilities determine suitability for:
+Sus capacidades determinan su uso en:
 
-- Simple machine control  
-- High speed automation  
-- Complex process control  
-- Networked and distributed systems  
+- Control de máquinas simples  
+- Automatización de alta velocidad  
+- Control de procesos complejos  
+- Sistemas en red y distribuidos  
 
-Different CPUs are selected based on application complexity.
+Se seleccionan diferentes CPUs según la complejidad de la aplicación.
 
-## Key Considerations
+## Consideraciones clave
 
-Processing power must match the application.
+La capacidad de procesamiento debe coincidir con la aplicación.
 
-- Larger programs require more capable CPUs  
-- High speed processes require faster execution  
+- Programas grandes requieren CPUs más potentes  
+- Procesos rápidos requieren ejecución más veloz  
 
-Memory capacity must support the program and data requirements.
+La capacidad de memoria debe soportar el programa y los datos.
 
-Communication capabilities depend on integrated ports and supported protocols.
+Las capacidades de comunicación dependen de los puertos integrados y protocolos soportados.
 
-Reliability and uptime are critical in industrial environments.
+La confiabilidad y disponibilidad son críticas en entornos industriales.
 
-Environmental conditions may require specific CPU ratings.
+Las condiciones ambientales pueden requerir especificaciones particulares.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is selecting a CPU with insufficient capacity. This limits performance and future expansion.
+Un error común es seleccionar una CPU con capacidad insuficiente, lo que limita el desempeño y la expansión futura.
 
-Avoid oversizing unnecessarily. Higher performance CPUs increase cost without benefit in simple systems.
+Evita sobredimensionar innecesariamente, ya que incrementa costos sin beneficio en sistemas simples.
 
-Monitor CPU load during operation. High utilization can lead to delays or instability.
+Monitorea la carga de la CPU durante la operación; una alta utilización puede generar retrasos o inestabilidad.
 
-Leave margin for future changes in program size and communication needs.
+Deja margen para futuros cambios en el tamaño del programa y necesidades de comunicación.

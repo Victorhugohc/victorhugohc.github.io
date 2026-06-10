@@ -1,70 +1,70 @@
-# Unit Conversions
+# Conversiones de unidades
 
-## Overview
+## Descripción general
 
-Unit conversions are the process of transforming a value from one unit of measurement to another while preserving its physical meaning.
+Las conversiones de unidades son el proceso de transformar un valor de una unidad de medida a otra preservando su significado físico.
 
-They are essential for working across different systems, standards, and engineering disciplines.
+Son esenciales para trabajar entre diferentes sistemas, normas y disciplinas de ingeniería.
 
-## Purpose
+## Propósito
 
-The purpose of unit conversions is to:
+El propósito de las conversiones de unidades es:
 
-- Ensure consistency in calculations and analysis  
-- Enable comparison between different measurement systems  
-- Support correct interpretation of technical data  
-- Avoid errors caused by unit mismatches  
-- Facilitate communication between systems and teams  
+- Garantizar consistencia en cálculos y análisis  
+- Habilitar la comparación entre diferentes sistemas de medición  
+- Respaldar la interpretación correcta de datos técnicos  
+- Evitar errores causados por incompatibilidad de unidades  
+- Facilitar la comunicación entre sistemas y equipos  
 
-Accurate unit conversion is fundamental for reliable engineering work.
+La conversión precisa de unidades es fundamental para un trabajo de ingeniería confiable.
 
-## How It Works
+## Cómo funciona
 
-Unit conversion applies a conversion factor that relates one unit to another.
+La conversión de unidades aplica un factor de conversión que relaciona una unidad con otra.
 
-This typically involves:
+Esto generalmente involucra:
 
-- Identifying the original unit and the target unit  
-- Applying the correct conversion factor  
-- Ensuring dimensional consistency  
-- Verifying the result  
+- Identificar la unidad original y la unidad objetivo  
+- Aplicar el factor de conversión correcto  
+- Asegurar la consistencia dimensional  
+- Verificar el resultado  
 
-Conversions may involve:
+Las conversiones pueden involucrar:
 
-- Linear relationships such as length or mass  
-- Derived units such as pressure or energy  
-- Offset conversions such as temperature  
+- Relaciones lineales como longitud o masa  
+- Unidades derivadas como presión o energía  
+- Conversiones con desplazamiento como temperatura  
 
-Some conversions require scaling factors, while others require both scaling and offset adjustments.
+Algunas conversiones requieren factores de escala, mientras que otras requieren tanto escalado como ajustes de desplazamiento.
 
-## Applications
+## Aplicaciones
 
-Unit conversions are used in:
+Las conversiones de unidades se utilizan en:
 
-- Electrical calculations involving voltage, current, and power  
-- Mechanical systems involving force, torque, and speed  
-- Fluid systems involving pressure and flow  
-- Data analysis and reporting  
-- International projects using different unit systems  
+- Cálculos eléctricos que involucran voltaje, corriente y potencia  
+- Sistemas mecánicos que involucran fuerza, par torsional y velocidad  
+- Sistemas de fluidos que involucran presión y flujo  
+- Análisis de datos e informes  
+- Proyectos internacionales que utilizan diferentes sistemas de unidades  
 
-They are required in nearly all engineering tasks.
+Son necesarias en casi todas las tareas de ingeniería.
 
-## Key Considerations
+## Consideraciones clave
 
-- Units must be clearly defined before conversion  
-- Conversion factors must be accurate  
-- Temperature conversions require special attention due to offsets  
-- Mixing unit systems can lead to critical errors  
-- Automated tools reduce risk but require correct input  
+- Las unidades deben definirse claramente antes de la conversión  
+- Los factores de conversión deben ser precisos  
+- Las conversiones de temperatura requieren atención especial debido a los desplazamientos  
+- Mezclar sistemas de unidades puede conducir a errores críticos  
+- Las herramientas automatizadas reducen el riesgo pero requieren entrada correcta  
 
-Incorrect conversions can lead to significant design or operational issues.
+Las conversiones incorrectas pueden conducir a problemas significativos de diseño u operación.
 
-## Practical Notes
+## Notas prácticas
 
-- Always include units in calculations and documentation  
-- Convert values before applying formulas when needed  
-- Use consistent unit systems within a project  
-- Double check conversions in critical applications  
-- Prefer standard units such as SI when possible  
+- Incluir siempre unidades en cálculos y documentación  
+- Convertir valores antes de aplicar fórmulas cuando sea necesario  
+- Utilizar sistemas de unidades consistentes dentro de un proyecto  
+- Verificar las conversiones en aplicaciones críticas  
+- Preferir unidades estándar como el SI cuando sea posible  
 
-Unit conversions ensure clarity, consistency, and accuracy in engineering calculations.
+Las conversiones de unidades garantizan claridad, consistencia y precisión en los cálculos de ingeniería.

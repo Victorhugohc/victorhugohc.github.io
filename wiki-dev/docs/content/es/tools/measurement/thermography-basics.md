@@ -1,70 +1,70 @@
-# Thermography Basics
+# Fundamentos de termografía
 
-## Overview
+## Descripción general
 
-Thermography is the technique of analyzing temperature patterns using infrared imaging.
+La termografía es la técnica de analizar patrones de temperatura utilizando imágenes infrarrojas.
 
-It allows detection of thermal anomalies that indicate potential issues in electrical, mechanical, or process systems. It is widely used as a diagnostic tool in maintenance and inspection.
+Permite detectar anomalías térmicas que indican posibles problemas en sistemas eléctricos, mecánicos o de proceso. Se utiliza ampliamente como herramienta de diagnóstico en mantenimiento e inspección.
 
-## Purpose
+## Propósito
 
-The purpose of thermography is to:
+El propósito de la termografía es:
 
-- Identify abnormal temperature conditions  
-- Detect early signs of equipment failure  
-- Support preventive and predictive maintenance  
-- Improve safety by identifying overheating risks  
+- Identificar condiciones de temperatura anormales  
+- Detectar signos tempranos de falla del equipo  
+- Respaldar el mantenimiento preventivo y predictivo  
+- Mejorar la seguridad al identificar riesgos de sobrecalentamiento  
 
-It provides insight into system condition without interrupting operation.
+Proporciona información sobre el estado del sistema sin interrumpir la operación.
 
-## How It Works
+## Cómo funciona
 
-Thermography uses infrared cameras to capture temperature distribution across surfaces.
+La termografía utiliza cámaras infrarrojas para capturar la distribución de temperatura en superficies.
 
-The process involves:
+El proceso involucra:
 
-- Detecting infrared radiation emitted by objects  
-- Converting radiation into temperature values  
-- Displaying results as a thermal image  
+- Detectar la radiación infrarroja emitida por los objetos  
+- Convertir la radiación en valores de temperatura  
+- Mostrar los resultados como una imagen térmica  
 
-Analysis focuses on identifying temperature differences rather than absolute values.
+El análisis se centra en identificar diferencias de temperatura en lugar de valores absolutos.
 
-Key factors affecting measurement include:
+Los factores clave que afectan la medición incluyen:
 
-- Emissivity of the surface  
-- Environmental conditions  
-- Load conditions during measurement  
+- Emisividad de la superficie  
+- Condiciones ambientales  
+- Condiciones de carga durante la medición  
 
-Thermal patterns are interpreted to determine if a condition is normal or abnormal.
+Los patrones térmicos se interpretan para determinar si una condición es normal o anormal.
 
-## Applications
+## Aplicaciones
 
-Thermography is used in:
+La termografía se utiliza en:
 
-- Electrical inspections of panels and connections  
-- Monitoring motors, bearings, and mechanical systems  
-- Detecting insulation issues  
-- Evaluating process temperature distribution  
-- Preventive maintenance programs  
+- Inspecciones eléctricas de tableros de control y conexiones  
+- Monitoreo de motores, rodamientos y sistemas mecánicos  
+- Detección de problemas de aislamiento  
+- Evaluación de la distribución de temperatura en procesos  
+- Programas de mantenimiento preventivo  
 
-It is common in industrial, commercial, and infrastructure systems.
+Es común en sistemas industriales, comerciales e infraestructura.
 
-## Key Considerations
+## Consideraciones clave
 
-- Interpretation requires understanding of system behavior  
-- Temperature differences are often more important than exact values  
-- Environmental factors can influence readings  
-- Measurements should be taken under normal operating conditions  
-- Consistent inspection methods improve reliability  
+- La interpretación requiere comprensión del comportamiento del sistema  
+- Las diferencias de temperatura suelen ser más importantes que los valores exactos  
+- Los factores ambientales pueden influir en las lecturas  
+- Las mediciones deben tomarse bajo condiciones operativas normales  
+- Los métodos de inspección consistentes mejoran la confiabilidad  
 
-Incorrect interpretation can lead to false diagnostics.
+La interpretación incorrecta puede conducir a diagnósticos erróneos.
 
-## Practical Notes
+## Notas prácticas
 
-- Compare similar components under similar load conditions  
-- Establish baseline measurements for reference  
-- Focus on trends over time rather than single measurements  
-- Combine thermography with other diagnostic methods  
-- Document findings with images and context  
+- Comparar componentes similares bajo condiciones de carga similares  
+- Establecer mediciones de referencia base  
+- Centrarse en tendencias a lo largo del tiempo en lugar de mediciones individuales  
+- Combinar la termografía con otros métodos de diagnóstico  
+- Documentar los hallazgos con imágenes y contexto  
 
-Thermography is effective when used as a comparative and trend based diagnostic tool.
+La termografía es eficaz cuando se utiliza como herramienta de diagnóstico comparativa y basada en tendencias.

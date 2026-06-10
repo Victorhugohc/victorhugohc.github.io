@@ -1,59 +1,59 @@
-# General Principles
+# Principios Generales
 
-## Overview
+## Descripción general
 
-General principles of installation and mounting define the fundamental rules that ensure equipment is installed correctly, safely, and reliably.
+Los principios generales de instalación y montaje definen las reglas fundamentales que aseguran que el equipo se instale de manera correcta, segura y confiable.
 
-These principles apply across different types of equipment and systems, providing a consistent approach to physical integration.
+Estos principios se aplican a diferentes tipos de equipo y sistemas, proporcionando un enfoque consistente para la integración física.
 
-## Purpose
+## Propósito
 
-The purpose of these principles is to reduce installation errors and ensure long term system performance.
+El propósito de estos principios es reducir errores de instalación y asegurar el rendimiento del sistema a largo plazo.
 
-This helps to:
+Esto ayuda a:
 
-- Maintain mechanical and electrical integrity  
-- Prevent premature failures  
-- Ensure safe operation  
-- Standardize installation practices  
+- Mantener la integridad mecánica y eléctrica  
+- Prevenir fallas prematuras  
+- Asegurar una operación segura  
+- Estandarizar las prácticas de instalación  
 
-## How It Works
+## Cómo funciona
 
-General principles guide how equipment should be handled, positioned, and secured.
+Los principios generales guían cómo debe manejarse, posicionarse y asegurarse el equipo.
 
-Key principles include:
+Los principios clave incluyen:
 
-- Install equipment according to design specifications and manufacturer requirements  
-- Ensure proper alignment between connected components  
-- Use appropriate fastening methods and torque values  
-- Provide adequate support for weight and mechanical loads  
-- Maintain clearances for ventilation, access, and safety  
-- Avoid introducing stress on cables, connections, or structures  
+- Instalar el equipo según especificaciones de diseño y requisitos del fabricante  
+- Asegurar la alineación adecuada entre componentes conectados  
+- Utilizar métodos de sujeción y valores de torque apropiados  
+- Proporcionar soporte adecuado para peso y cargas mecánicas  
+- Mantener espacios libres para ventilación, acceso y seguridad  
+- Evitar introducir esfuerzo en cables, conexiones o estructuras  
 
-These principles must be applied consistently during installation.
+Estos principios deben aplicarse de manera consistente durante la instalación.
 
-## Applications
+## Aplicaciones
 
-These principles are used in:
+Estos principios se utilizan en:
 
-- Mounting motors, pumps, and mechanical systems  
-- Installing control panels and electrical enclosures  
-- Securing field devices and instrumentation  
-- Supporting cable systems and routing infrastructure  
-- Integrating equipment into existing installations  
+- Montaje de motores, bombas y sistemas mecánicos  
+- Instalación de tableros de control y gabinetes eléctricos  
+- Fijación de dispositivos de campo e instrumentación  
+- Soporte de sistemas de cable y infraestructura de tendido  
+- Integración de equipo en instalaciones existentes  
 
-## Key Considerations
+## Consideraciones clave
 
-- Follow installation tolerances and specifications  
-- Ensure structural stability under operating conditions  
-- Account for environmental factors such as temperature and vibration  
-- Maintain accessibility for maintenance and inspection  
-- Verify installation before operation  
+- Siga las tolerancias y especificaciones de instalación  
+- Asegure la estabilidad estructural bajo condiciones de operación  
+- Considere factores ambientales como temperatura y vibración  
+- Mantenga accesibilidad para mantenimiento e inspección  
+- Verifique la instalación antes de la operación  
 
-## Practical Notes
+## Notas prácticas
 
-- Skipping basic installation steps often leads to long term issues  
-- Over tightening or under tightening fasteners can cause failures  
-- Poor support or uneven surfaces introduce stress and misalignment  
-- Allow space for future maintenance and adjustments  
-- Always perform final checks before commissioning  
+- Omitir pasos básicos de instalación a menudo conduce a problemas a largo plazo  
+- El apriete excesivo o insuficiente de sujetadores puede causar fallas  
+- El soporte deficiente o superficies desiguales introducen esfuerzo y desalineación  
+- Deje espacio para mantenimiento y ajustes futuros  
+- Siempre realice verificaciones finales antes de la puesta en marcha

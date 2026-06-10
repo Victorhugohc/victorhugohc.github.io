@@ -1,78 +1,78 @@
-# Motor Protection
+# Protección de motores
 
-## Overview
+## Descripción general
 
-Motor protection refers to the methods and devices used to prevent damage to motors caused by electrical and mechanical faults.
+La protección de motores se refiere a los métodos y dispositivos utilizados para prevenir daños a los motores causados por fallas eléctricas y mecánicas.
 
-Motors are exposed to conditions such as overload, short circuit, overheating, and voltage abnormalities.
+Los motores están expuestos a condiciones como sobrecarga, cortocircuito, sobrecalentamiento y anomalías de voltaje.
 
-Proper protection ensures safe operation, reduces downtime, and extends motor lifespan.
+La protección adecuada asegura operación segura, reduce el tiempo de inactividad y extiende la vida útil del motor.
 
-## Purpose
+## Propósito
 
-The purpose of motor protection is to:
+El propósito de la protección de motores es:
 
-- Prevent damage to motor windings and insulation  
-- Protect against abnormal operating conditions  
-- Reduce risk of unexpected failures  
-- Ensure safe operation of connected equipment  
+- Prevenir daño a los devanados y el aislamiento del motor  
+- Proteger contra condiciones de operación anormales  
+- Reducir el riesgo de fallas inesperadas  
+- Asegurar operación segura del equipo conectado  
 
-Effective protection minimizes both repair costs and production losses.
+La protección efectiva minimiza tanto los costos de reparación como las pérdidas de producción.
 
-## How It Works
+## Cómo funciona
 
-Motor protection systems monitor key parameters such as current, temperature, and voltage.
+Los sistemas de protección de motores monitorean parámetros clave como corriente, temperatura y voltaje.
 
-When abnormal conditions are detected:
+Cuando se detectan condiciones anormales:
 
-- Protection devices or relays identify the issue  
-- A trip signal is generated  
-- The motor is disconnected from the power supply  
+- Los dispositivos de protección o relevadores identifican el problema  
+- Se genera una señal de disparo  
+- El motor se desconecta del suministro de potencia  
 
-Protection can be implemented using:
+La protección puede implementarse utilizando:
 
-- Thermal overload devices that respond to sustained overcurrent  
-- Magnetic protection for short circuits  
-- Electronic relays that provide advanced monitoring and control  
+- Dispositivos de sobrecarga térmica que responden a sobrecorriente sostenida  
+- Protección magnética para cortocircuitos  
+- Relevadores electrónicos que proporcionan monitoreo y control avanzados  
 
-Protection may be integrated into motor starters, drives, or dedicated protection systems.
+La protección puede integrarse en arrancadores de motor, variadores o sistemas de protección dedicados.
 
-## Applications
+## Aplicaciones
 
-Motor protection is used in:
+La protección de motores se utiliza en:
 
-- Industrial motor driven systems  
-- Pumps, fans, and compressors  
-- Conveyor systems and production equipment  
-- High value or critical motors  
-- Systems requiring continuous operation  
+- Sistemas industriales accionados por motores  
+- Bombas, ventiladores y compresores  
+- Sistemas de transportadores y equipos de producción  
+- Motores de alto valor o críticos  
+- Sistemas que requieren operación continua  
 
-All motors require some level of protection.
+Todos los motores requieren algún nivel de protección.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Overload protection**  
-  Must match motor thermal limits  
+- **Protección contra sobrecarga**  
+  Debe coincidir con los límites térmicos del motor  
 
-- **Short circuit protection**  
-  Requires fast acting devices  
+- **Protección contra cortocircuito**  
+  Requiere dispositivos de acción rápida  
 
-- **Thermal protection**  
-  Temperature monitoring improves reliability  
+- **Protección térmica**  
+  El monitoreo de temperatura mejora la confiabilidad  
 
-- **Voltage conditions**  
-  Undervoltage and overvoltage affect performance and lifespan  
+- **Condiciones de voltaje**  
+  El subtensión y sobretensión afectan el desempeño y la vida útil  
 
-- **Starting conditions**  
-  Protection must allow normal starting without nuisance trips  
+- **Condiciones de arranque**  
+  La protección debe permitir arranque normal sin disparos espurios  
 
-- **Coordination with system protection**  
-  Must align with upstream devices  
+- **Coordinación con protección del sistema**  
+  Debe alinearse con dispositivos aguas arriba  
 
-## Practical Notes
+## Notas prácticas
 
-- Overload protection should be set based on motor nameplate current  
-- Incorrect settings can cause either damage or nuisance tripping  
-- Thermal protection is critical for continuous duty motors  
-- Drives often include built in motor protection features  
-- Regular testing ensures protection devices operate correctly  
+- La protección contra sobrecarga debe configurarse según la corriente de la placa del motor  
+- Configuraciones incorrectas pueden causar daño o disparos espurios  
+- La protección térmica es crítica para motores de servicio continuo  
+- Los variadores a menudo incluyen funciones integradas de protección de motor  
+- Las pruebas regulares aseguran que los dispositivos de protección operen correctamente  

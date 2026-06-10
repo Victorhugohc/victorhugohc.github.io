@@ -1,79 +1,79 @@
-# Electric Actuators
+# Actuadores eléctricos
 
-## Overview
+## Descripción general
 
-Electric actuators are devices that use electrical energy to produce mechanical motion.
+Los actuadores eléctricos son dispositivos que utilizan energía eléctrica para producir movimiento mecánico.
 
-They are commonly used in industrial systems for precise and controlled movement, either linear or rotational.
+Se utilizan comúnmente en sistemas industriales para movimiento preciso y controlado, ya sea lineal o rotativo.
 
-Electric actuators are widely adopted due to their accuracy, ease of control, and integration with automation systems.
+Los actuadores eléctricos son ampliamente adoptados debido a su precisión, facilidad de control e integración con sistemas de automatización.
 
-## Purpose
+## Propósito
 
-The purpose of electric actuators is to:
+El propósito de los actuadores eléctricos es:
 
-- Provide controlled motion based on electrical signals  
-- Enable precise positioning and repeatability  
-- Replace manual or fluid based actuation systems  
-- Support automated and programmable operations  
+- Proporcionar movimiento controlado basado en señales eléctricas  
+- Habilitar posicionamiento preciso y repetibilidad  
+- Reemplazar sistemas de actuación manual o basados en fluidos  
+- Soportar operaciones automatizadas y programables  
 
-They are ideal for applications requiring accuracy and control.
+Son ideales para aplicaciones que requieren precisión y control.
 
-## How It Works
+## Cómo funciona
 
-Electric actuators convert electrical energy into motion through a motor and mechanical transmission.
+Los actuadores eléctricos convierten energía eléctrica en movimiento mediante un motor y una transmisión mecánica.
 
-Typical components include:
+Los componentes típicos incluyen:
 
-- Electric motor that generates rotation  
-- Gearbox or screw mechanism that converts and adjusts motion  
-- Control interface that receives commands from a controller  
+- Motor eléctrico que genera rotación  
+- Caja reductora o mecanismo de tornillo que convierte y ajusta el movimiento  
+- Interfaz de control que recibe comandos de un controlador  
 
-The process is:
+El proceso es:
 
-- A control signal is sent to the actuator  
-- The motor generates motion  
-- The mechanism converts motion into the required output  
-- Position or movement is controlled based on input signals  
+- Se envía una señal de control al actuador  
+- El motor genera movimiento  
+- El mecanismo convierte el movimiento en la salida requerida  
+- La posición o el movimiento se controlan según las señales de entrada  
 
-Some actuators include feedback systems for precise control.
+Algunos actuadores incluyen sistemas de retroalimentación para control preciso.
 
-## Applications
+## Aplicaciones
 
-Electric actuators are used in:
+Los actuadores eléctricos se utilizan en:
 
-- Valve control and flow regulation  
-- Positioning systems and automation equipment  
-- Robotics and motion control applications  
-- Packaging and assembly systems  
-- HVAC and building automation  
+- Control de válvulas y regulación de flujo  
+- Sistemas de posicionamiento y equipos de automatización  
+- Robótica y aplicaciones de control de movimiento  
+- Sistemas de empaque y ensamble  
+- HVAC y automatización de edificios  
 
-They are common in systems requiring accurate and repeatable motion.
+Son comunes en sistemas que requieren movimiento preciso y repetible.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Force or torque output**  
-  Must match the load requirements  
+- **Salida de fuerza o torque**  
+  Debe coincidir con los requerimientos de la carga  
 
-- **Speed and stroke length**  
-  Defines how fast and how far the actuator moves  
+- **Velocidad y carrera**  
+  Define qué tan rápido y qué tan lejos se mueve el actuador  
 
-- **Control requirements**  
-  On off or precise positioning  
+- **Requerimientos de control**  
+  Encendido/apagado (*on/off*) o posicionamiento preciso  
 
-- **Duty cycle**  
-  Continuous or intermittent operation  
+- **Ciclo de trabajo**  
+  Operación continua o intermitente  
 
-- **Power supply**  
-  Voltage and current compatibility  
+- **Fuente de alimentación**  
+  Compatibilidad de voltaje y corriente  
 
-- **Environmental conditions**  
-  Temperature, dust, and moisture  
+- **Condiciones ambientales**  
+  Temperatura, polvo y humedad  
 
-## Practical Notes
+## Notas prácticas
 
-- Electric actuators provide higher precision compared to pneumatic systems  
-- They are easier to integrate with digital control systems  
-- Overloading can damage gears or motors  
-- Proper sizing ensures reliable and efficient operation  
-- Feedback enabled actuators improve accuracy and control  
+- Los actuadores eléctricos proporcionan mayor precisión en comparación con los sistemas neumáticos  
+- Son más fáciles de integrar con sistemas de control digital  
+- La sobrecarga puede dañar engranajes o motores  
+- Un dimensionamiento adecuado asegura operación confiable y eficiente  
+- Los actuadores con retroalimentación mejoran la precisión y el control  

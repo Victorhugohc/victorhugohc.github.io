@@ -1,80 +1,80 @@
-# Purdue Model
+# Modelo Purdue
 
-## Overview
+## Descripción general
 
-The Purdue Model is a reference architecture used to structure industrial systems into hierarchical levels.
+El Modelo Purdue es una arquitectura de referencia utilizada para estructurar sistemas industriales en niveles jerárquicos.
 
-It defines how systems are organized from physical processes up to enterprise systems. This structure helps manage communication, security, and system responsibilities.
+Define cómo se organizan los sistemas desde los procesos físicos hasta los sistemas empresariales. Esta estructura ayuda a gestionar la comunicación, la seguridad y las responsabilidades del sistema.
 
-## Purpose
+## Propósito
 
-The purpose of the Purdue Model is to:
+El propósito del Modelo Purdue es:
 
-- Provide a clear structure for industrial system design  
-- Separate functions based on their role and criticality  
-- Control data flow between different system levels  
-- Support secure integration between OT and IT systems  
+- Proporcionar una estructura clara para el diseño de sistemas industriales  
+- Separar funciones según su rol y criticidad  
+- Controlar el flujo de datos entre diferentes niveles del sistema  
+- Soportar la integración segura entre sistemas OT e IT  
 
-It helps engineers design systems that are easier to manage and protect.
+Ayuda a los ingenieros a diseñar sistemas más fáciles de gestionar y proteger.
 
-## How It Works
+## Cómo funciona
 
-The Purdue Model divides industrial systems into levels, each with a specific function.
+El Modelo Purdue divide los sistemas industriales en niveles, cada uno con una función específica.
 
-### Level 0 – Physical Process
+### Nivel 0 – Proceso físico
 
-- Sensors and actuators  
-- Direct interaction with the physical process  
+- Sensores y actuadores  
+- Interacción directa con el proceso físico  
 
-### Level 1 – Basic Control
+### Nivel 1 – Control básico
 
-- PLCs and local controllers  
-- Real time control of equipment  
+- PLC y controladores locales  
+- Control en tiempo real de los equipos  
 
-### Level 2 – Supervisory Control
+### Nivel 2 – Control supervisado
 
-- HMI and SCADA systems  
-- Monitoring and operator interaction  
+- Sistemas HMI y SCADA  
+- Monitoreo e interacción con operadores  
 
-### Level 3 – Operations Management
+### Nivel 3 – Gestión de operaciones
 
-- Production management systems  
-- Data aggregation and coordination of operations  
+- Sistemas de gestión de producción  
+- Agregación de datos y coordinación de operaciones  
 
-### Level 4 – Enterprise Systems
+### Nivel 4 – Sistemas empresariales
 
-- Business systems such as ERP  
-- Planning, analytics, and business processes  
+- Sistemas de negocio como ERP  
+- Planeación, analítica y procesos empresariales  
 
-Communication typically flows between adjacent levels. Direct communication across multiple levels is limited to reduce complexity and risk.
+La comunicación normalmente fluye entre niveles adyacentes. La comunicación directa entre niveles no contiguos se limita para reducir complejidad y riesgos.
 
-## Applications
+## Aplicaciones
 
-The Purdue Model is used in:
+El Modelo Purdue se utiliza en:
 
-- Design of industrial network architectures  
-- Integration between control systems and enterprise systems  
-- Cybersecurity planning and segmentation  
-- Standardization of system structure across facilities  
+- Diseño de arquitecturas de red industrial  
+- Integración entre sistemas de control y sistemas empresariales  
+- Planificación de ciberseguridad y segmentación  
+- Estandarización de estructuras de sistemas entre instalaciones  
 
-It is widely applied in manufacturing, energy, and infrastructure systems.
+Es ampliamente aplicado en manufactura, energía e infraestructura.
 
-## Key Considerations
+## Consideraciones clave
 
-- Not all systems strictly follow every level  
-- Modern architectures may combine or bypass levels  
-- Direct connections between distant levels increase risk  
-- The model is a guideline, not a strict requirement  
-- Integration with modern technologies must be carefully managed  
+- No todos los sistemas siguen estrictamente cada nivel  
+- Las arquitecturas modernas pueden combinar u omitir niveles  
+- Las conexiones directas entre niveles lejanos incrementan el riesgo  
+- El modelo es una guía, no una regla estricta  
+- La integración con tecnologías modernas debe gestionarse cuidadosamente  
 
-The model should be adapted to the specific needs of each system.
+El modelo debe adaptarse a las necesidades específicas de cada sistema.
 
-## Practical Notes
+## Notas prácticas
 
-- Use the model as a starting point for structuring systems  
-- Clearly define which devices belong to each level  
-- Control communication between levels using defined rules  
-- Avoid unnecessary connections between control and enterprise layers  
-- Keep documentation aligned with the defined architecture  
+- Utilizar el modelo como punto de partida para estructurar sistemas  
+- Definir claramente qué dispositivos pertenecen a cada nivel  
+- Controlar la comunicación entre niveles mediante reglas definidas  
+- Evitar conexiones innecesarias entre capas de control y empresariales  
+- Mantener la documentación alineada con la arquitectura definida  
 
-The Purdue Model provides a clear framework for organizing industrial systems and managing their interactions.
+El Modelo Purdue proporciona un marco claro para organizar sistemas industriales y gestionar sus interacciones.

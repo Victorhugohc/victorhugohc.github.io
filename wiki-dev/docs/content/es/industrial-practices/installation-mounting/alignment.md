@@ -1,63 +1,63 @@
-# Alignment
+# Alineación
 
-## Overview
+## Descripción general
 
-Alignment is the process of positioning connected components so that their axes, centers, or reference points are correctly matched.
+La alineación es el proceso de posicionar componentes conectados de modo que sus ejes, centros o puntos de referencia estén correctamente emparejados.
 
-It is especially critical in rotating equipment where shafts must be aligned to transmit power efficiently and avoid mechanical stress.
+Es especialmente crítica en equipo rotativo donde los ejes deben alinearse para transmitir potencia eficientemente y evitar esfuerzo mecánico.
 
-Proper alignment ensures smooth operation and reduces wear.
+La alineación adecuada asegura una operación suave y reduce el desgaste.
 
-## Purpose
+## Propósito
 
-The purpose of alignment is to ensure that connected components operate without introducing unnecessary forces or vibration.
+El propósito de la alineación es asegurar que los componentes conectados operen sin introducir fuerzas o vibración innecesarias.
 
-This helps to:
+Esto ayuda a:
 
-- Reduce mechanical stress on components  
-- Extend equipment lifespan  
-- Improve efficiency and performance  
-- Prevent premature failures  
+- Reducir el esfuerzo mecánico en los componentes  
+- Extender la vida útil del equipo  
+- Mejorar la eficiencia y el rendimiento  
+- Prevenir fallas prematuras  
 
-## How It Works
+## Cómo funciona
 
-Alignment involves adjusting the position of equipment so that connected parts are correctly oriented.
+La alineación implica ajustar la posición del equipo para que las partes conectadas estén correctamente orientadas.
 
-In rotating systems, this typically means aligning shafts in terms of:
+En sistemas rotativos, esto típicamente significa alinear ejes en términos de:
 
-- Angular alignment, where the axes are parallel  
-- Offset alignment, where the centers are on the same line  
+- Alineación angular, donde los ejes son paralelos  
+- Alineación de desplazamiento, donde los centros están en la misma línea  
 
-Adjustments are made by:
+Los ajustes se realizan mediante:
 
-- Shimming or adjusting mounting surfaces  
-- Moving equipment horizontally or vertically  
-- Using measurement tools such as dial indicators or laser alignment systems  
+- Calzas o ajuste de superficies de montaje  
+- Movimiento del equipo horizontal o verticalmente  
+- Uso de herramientas de medición como indicadores de carátula o sistemas de alineación láser  
 
-Alignment must be checked under real installation conditions.
+La alineación debe verificarse bajo condiciones reales de instalación.
 
-## Applications
+## Aplicaciones
 
-Alignment is critical in:
+La alineación es crítica en:
 
-- Motor and pump installations  
-- Gearboxes and drive systems  
-- Coupled rotating equipment  
-- Conveyor systems  
-- Any system with connected rotating parts  
+- Instalaciones de motores y bombas  
+- Cajas de engranajes y sistemas de accionamiento  
+- Equipo rotativo acoplado  
+- Sistemas de transportadores  
+- Cualquier sistema con partes rotativas conectadas  
 
-## Key Considerations
+## Consideraciones clave
 
-- Alignment tolerances depend on equipment type and speed  
-- Thermal expansion can affect alignment during operation  
-- Foundation stability influences alignment over time  
-- Misalignment increases vibration and energy loss  
-- Regular verification may be required in critical systems  
+- Las tolerancias de alineación dependen del tipo de equipo y la velocidad  
+- La expansión térmica puede afectar la alineación durante la operación  
+- La estabilidad de la cimentación influye en la alineación con el tiempo  
+- La desalineación aumenta la vibración y la pérdida de energía  
+- Puede requerirse verificación regular en sistemas críticos  
 
-## Practical Notes
+## Notas prácticas
 
-- Misalignment is a common cause of bearing and coupling failures  
-- Precision alignment reduces maintenance frequency  
-- Recheck alignment after tightening and during commissioning  
-- Soft foot conditions can affect alignment accuracy  
-- Always align under conditions close to actual operation  
+- La desalineación es una causa común de fallas en rodamientos y acoplamientos  
+- La alineación de precisión reduce la frecuencia de mantenimiento  
+- Vuelva a verificar la alineación después del apriete y durante la puesta en marcha  
+- Las condiciones de pie blando pueden afectar la precisión de la alineación  
+- Siempre alinee bajo condiciones cercanas a la operación real

@@ -1,103 +1,103 @@
-# Safety Basics
+# Fundamentos de Seguridad
 
-## Overview
+## Descripción general
 
-Safety in industrial systems involves protecting people, equipment, and processes from hazards.
+La seguridad en sistemas industriales implica proteger a las personas, el equipo y los procesos de los peligros.
 
-It includes identifying risks, implementing protective measures, and ensuring safe operation under all conditions.
+Incluye identificar riesgos, implementar medidas de protección y asegurar una operación segura bajo todas las condiciones.
 
-Safety is a fundamental part of system design and operation, not an optional addition.
+La seguridad es una parte fundamental del diseño y la operación del sistema, no un complemento opcional.
 
-## Purpose
+## Propósito
 
-The purpose of safety is to prevent accidents, injuries, and damage.
+El propósito de la seguridad es prevenir accidentes, lesiones y daños.
 
-It is used to:
+Se utiliza para:
 
-- Protect personnel from hazards  
-- Prevent equipment damage  
-- Maintain safe operation of processes  
-- Reduce operational risks  
+- Proteger al personal de los peligros  
+- Prevenir daños al equipo  
+- Mantener la operación segura de los procesos  
+- Reducir los riesgos operativos  
 
-Effective safety systems reduce the likelihood and impact of failures.
+Los sistemas de seguridad efectivos reducen la probabilidad y el impacto de las fallas.
 
-## How It Works
+## Cómo funciona
 
-Industrial safety is based on identifying hazards and applying protective measures.
+La seguridad industrial se basa en identificar peligros y aplicar medidas de protección.
 
-### Hazard Identification
+### Identificación de peligros
 
-Potential risks must be identified.
+Los riesgos potenciales deben identificarse.
 
-- Mechanical hazards  
-- Electrical hazards  
-- Thermal or chemical risks  
+- Peligros mecánicos  
+- Peligros eléctricos  
+- Riesgos térmicos o químicos  
 
-Understanding hazards is the first step in safety.
+Comprender los peligros es el primer paso en seguridad.
 
-### Risk Reduction
+### Reducción de riesgos
 
-Measures are applied to reduce risk.
+Se aplican medidas para reducir el riesgo.
 
-- Eliminate hazards when possible  
-- Reduce exposure to risks  
-- Implement protective devices  
+- Eliminar peligros cuando sea posible  
+- Reducir la exposición a riesgos  
+- Implementar dispositivos de protección  
 
-Risk cannot always be eliminated, but it can be controlled.
+El riesgo no siempre puede eliminarse, pero sí controlarse.
 
-### Protective Measures
+### Medidas de protección
 
-Different types of protection are used.
+Se utilizan diferentes tipos de protección.
 
-- Physical guards and barriers  
-- Safety devices such as emergency stops  
-- Control system based safety functions  
+- Guardas físicas y barreras  
+- Dispositivos de seguridad como paros de emergencia  
+- Funciones de seguridad basadas en el sistema de control  
 
-These measures prevent or mitigate accidents.
+Estas medidas previenen o mitigan accidentes.
 
-### Safe Operation
+### Operación segura
 
-Systems must operate safely under all conditions.
+Los sistemas deben operar de forma segura bajo todas las condiciones.
 
-- Normal operation  
-- Start up and shutdown  
-- Fault conditions  
+- Operación normal  
+- Arranque y parada  
+- Condiciones de falla  
 
-Safety must be considered in all scenarios.
+La seguridad debe considerarse en todos los escenarios.
 
-## Applications
+## Aplicaciones
 
-Safety is required in all industrial environments.
+La seguridad es requerida en todos los entornos industriales.
 
-Typical applications include:
+Las aplicaciones típicas incluyen:
 
-- Machinery and production lines  
-- Process industries  
-- Electrical systems  
-- Maintenance operations  
+- Maquinaria y líneas de producción  
+- Industrias de proceso  
+- Sistemas eléctricos  
+- Operaciones de mantenimiento  
 
-It applies to both operators and maintenance personnel.
+Aplica tanto a operadores como a personal de mantenimiento.
 
-## Key Considerations
+## Consideraciones clave
 
-Safety must be integrated during design, not added later.
+La seguridad debe integrarse durante el diseño, no añadirse después.
 
-Human interaction with the system must be considered.
+La interacción humana con el sistema debe considerarse.
 
-Failure modes must be analyzed.
+Los modos de falla deben analizarse.
 
-Compliance with standards and regulations is required.
+El cumplimiento de normas y regulaciones es obligatorio.
 
-Training and procedures are part of safety.
+La capacitación y los procedimientos son parte de la seguridad.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is focusing only on normal operation and ignoring fault conditions.
+Un error común es enfocarse solo en la operación normal e ignorar las condiciones de falla.
 
-Do not bypass safety devices during operation.
+No omitir dispositivos de seguridad durante la operación.
 
-Keep safety systems simple and reliable.
+Mantener los sistemas de seguridad simples y confiables.
 
-Regular inspection and testing are required.
+Se requieren inspección y pruebas regulares.
 
-Ensure operators understand safety procedures and risks.
+Asegurar que los operadores comprendan los procedimientos y riesgos de seguridad.

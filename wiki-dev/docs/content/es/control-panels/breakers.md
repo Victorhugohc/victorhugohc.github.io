@@ -1,99 +1,99 @@
-# Breakers
+# Interruptores Automáticos
 
-## Overview
+## Descripción general
 
-Breakers are protective devices used to interrupt electrical current in case of overloads or short circuits.
+Los interruptores automáticos (breakers) son dispositivos de protección utilizados para interrumpir la corriente eléctrica en caso de sobrecargas o cortocircuitos.
 
-They automatically disconnect power to prevent damage to equipment and reduce the risk of fire or electrical hazards.
+Desconectan automáticamente la energía para prevenir daños en los equipos y reducir el riesgo de incendios o peligros eléctricos.
 
-Breakers are a fundamental part of control panels and power distribution systems.
+Son una parte fundamental de los tableros de control y los sistemas de distribución eléctrica.
 
-## Purpose
+## Propósito
 
-The purpose of breakers is to protect electrical circuits and connected equipment.
+El propósito de los interruptores automáticos es proteger los circuitos eléctricos y los equipos conectados.
 
-They are used to:
+Se utilizan para:
 
-- Interrupt excessive current  
-- Protect wiring and components  
-- Isolate circuits for maintenance  
-- Improve system safety  
+- Interrumpir corrientes excesivas  
+- Proteger el cableado y los componentes  
+- Aislar circuitos para mantenimiento  
+- Mejorar la seguridad del sistema  
 
-Proper protection ensures reliable and safe operation.
+Una protección adecuada garantiza una operación segura y confiable.
 
-## How It Works
+## Cómo funciona
 
-Breakers monitor current flow and disconnect the circuit when abnormal conditions occur.
+Los interruptores automáticos monitorean el flujo de corriente y desconectan el circuito cuando se presentan condiciones anormales.
 
-### Overcurrent Protection
+### Protección contra sobrecorriente
 
-Breakers respond to excessive current levels.
+Los interruptores responden a niveles excesivos de corriente.
 
-- Overload conditions cause gradual heating  
-- Short circuits cause rapid current spikes  
+- Las sobrecargas provocan un calentamiento gradual  
+- Los cortocircuitos generan picos de corriente rápidos  
 
-The breaker trips to stop the flow of current.
+El interruptor se dispara para detener el flujo de corriente.
 
-### Tripping Mechanisms
+### Mecanismos de disparo
 
-Different mechanisms are used to detect faults.
+Se utilizan diferentes mecanismos para detectar fallas.
 
-- Thermal elements respond to sustained overloads  
-- Magnetic elements respond to short circuits  
+- Elementos térmicos responden a sobrecargas sostenidas  
+- Elementos magnéticos responden a cortocircuitos  
 
-Some breakers combine both methods.
+Algunos interruptores combinan ambos métodos.
 
-### Reset Operation
+### Operación de rearme
 
-After a trip:
+Después de un disparo:
 
-- The breaker can be reset manually  
-- Power is restored once the fault is cleared  
+- El interruptor puede restablecerse manualmente  
+- La energía se restablece una vez eliminada la falla  
 
-This allows quick recovery compared to fuses.
+Esto permite una recuperación rápida en comparación con los fusibles.
 
-### Isolation Function
+### Función de aislamiento
 
-Breakers can also be used as disconnect devices.
+Los interruptores también pueden utilizarse como dispositivos de desconexión.
 
-- Allow safe maintenance  
-- Provide visible circuit isolation  
+- Permiten un mantenimiento seguro  
+- Proporcionan aislamiento visible del circuito  
 
-This improves safety during operation.
+Esto mejora la seguridad durante la operación.
 
-## Applications
+## Aplicaciones
 
-Breakers are used in all electrical systems.
+Los interruptores automáticos se utilizan en todos los sistemas eléctricos.
 
-Typical applications include:
+Aplicaciones típicas incluyen:
 
-- Protection of control panel circuits  
-- Motor and equipment protection  
-- Distribution of power داخل panels  
-- Protection of power supplies and control devices  
+- Protección de circuitos en tableros de control  
+- Protección de motores y equipos  
+- Distribución de energía dentro de tableros  
+- Protección de fuentes de alimentación y dispositivos de control  
 
-They are essential in both low and high power systems.
+Son esenciales tanto en sistemas de baja como de alta potencia.
 
-## Key Considerations
+## Consideraciones clave
 
-Breaker rating must match the circuit requirements.
+La capacidad nominal del interruptor debe coincidir con los requerimientos del circuito.
 
-Short circuit capacity must be sufficient for the system.
+La capacidad de interrupción debe ser suficiente para el sistema.
 
-Coordination with other protective devices is important.
+La coordinación con otros dispositivos de protección es importante.
 
-Environmental conditions may affect breaker performance.
+Las condiciones ambientales pueden afectar el desempeño del interruptor.
 
-Proper selection ensures effective protection.
+Una selección adecuada asegura una protección efectiva.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is selecting breakers based only on current rating without considering fault levels.
+Un error común es seleccionar interruptores solo por su corriente nominal sin considerar niveles de falla.
 
-Ensure correct coordination with upstream and downstream devices.
+Asegura la correcta coordinación con dispositivos aguas arriba y aguas abajo.
 
-Label breakers clearly for identification.
+Etiqueta claramente los interruptores para su identificación.
 
-Do not reset a breaker without identifying the cause of the trip.
+No restablezcas un interruptor sin identificar la causa del disparo.
 
-Verify installation and connections during commissioning.
+Verifica la instalación y conexiones durante el comisionamiento.

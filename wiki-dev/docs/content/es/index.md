@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "Industrial Systems Handbook"
+  name: "Manual de Sistemas Industriales"
   text: "Documentación técnica"
   tagline: "Automatización industrial, PLCs y sistemas eléctricos"
   actions:

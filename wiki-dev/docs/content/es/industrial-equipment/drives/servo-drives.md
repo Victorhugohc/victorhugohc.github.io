@@ -1,78 +1,78 @@
-# Servo Drives
+# Variadores servo
 
-## Overview
+## Descripción general
 
-Servo drives are electronic devices used to control servo motors with high precision in position, speed, and torque.
+Los variadores servo son dispositivos electrónicos utilizados para controlar motores servo con alta precisión en posición, velocidad y torque.
 
-They operate as part of a closed loop system, continuously adjusting motor behavior based on feedback signals.
+Operan como parte de un sistema de lazo cerrado, ajustando continuamente el comportamiento del motor según señales de retroalimentación.
 
-Servo drives are essential in applications that require accurate and dynamic motion control.
+Los variadores servo son esenciales en aplicaciones que requieren control de movimiento preciso y dinámico.
 
-## Purpose
+## Propósito
 
-The purpose of servo drives is to:
+El propósito de los variadores servo es:
 
-- Control motion with high precision and repeatability  
-- Maintain accurate position, speed, and torque under varying conditions  
-- Provide fast response to changing commands  
-- Enable coordinated and complex movements  
+- Controlar el movimiento con alta precisión y repetibilidad  
+- Mantener posición, velocidad y torque precisos bajo condiciones variables  
+- Proporcionar respuesta rápida a comandos cambiantes  
+- Habilitar movimientos coordinados y complejos  
 
-They are used where performance and accuracy are critical.
+Se utilizan donde el desempeño y la precisión son críticos.
 
-## How It Works
+## Cómo funciona
 
-Servo drives receive commands from a control system and regulate power to the motor accordingly.
+Los variadores servo reciben comandos de un sistema de control y regulan la potencia al motor en consecuencia.
 
-The system includes:
+El sistema incluye:
 
-- A command input defining desired motion  
-- A feedback device such as an encoder  
-- A control algorithm that compares desired and actual values  
+- Una entrada de comando que define el movimiento deseado  
+- Un dispositivo de retroalimentación como un encoder  
+- Un algoritmo de control que compara los valores deseados y reales  
 
-The operation follows a closed loop process:
+La operación sigue un proceso de lazo cerrado:
 
-- The drive sends power to the motor  
-- The feedback device measures actual position or speed  
-- The drive continuously adjusts output to minimize error  
+- El variador envía potencia al motor  
+- El dispositivo de retroalimentación mide la posición o velocidad real  
+- El variador ajusta continuamente la salida para minimizar el error  
 
-Advanced control methods allow precise control of torque, speed, and position simultaneously.
+Los métodos de control avanzados permiten control preciso de torque, velocidad y posición simultáneamente.
 
-## Applications
+## Aplicaciones
 
-Servo drives are used in:
+Los variadores servo se utilizan en:
 
-- Robotics and automated systems  
-- CNC machines and precision manufacturing  
-- Packaging and assembly equipment  
-- Printing and material handling systems  
-- Motion systems requiring synchronization  
+- Robótica y sistemas automatizados  
+- Máquinas CNC y manufactura de precisión  
+- Equipos de empaque y ensamble  
+- Sistemas de impresión y manejo de materiales  
+- Sistemas de movimiento que requieren sincronización  
 
-They are common in high performance industrial applications.
+Son comunes en aplicaciones industriales de alto desempeño.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Control accuracy**  
-  Depends on feedback resolution and system tuning  
+- **Precisión de control**  
+  Depende de la resolución de retroalimentación y la sintonización del sistema  
 
-- **Dynamic performance**  
-  Ability to respond quickly to changes  
+- **Desempeño dinámico**  
+  Capacidad de responder rápidamente a cambios  
 
-- **Motor compatibility**  
-  Must match the servo motor characteristics  
+- **Compatibilidad con el motor**  
+  Debe coincidir con las características del motor servo  
 
-- **System integration**  
-  Requires communication with controllers and automation systems  
+- **Integración del sistema**  
+  Requiere comunicación con controladores y sistemas de automatización  
 
-- **Tuning requirements**  
-  Proper setup is necessary for stable operation  
+- **Requerimientos de sintonización**  
+  La configuración adecuada es necesaria para operación estable  
 
-- **Cost and complexity**  
-  Higher than basic drive solutions  
+- **Costo y complejidad**  
+  Mayor que las soluciones de variadores básicos  
 
-## Practical Notes
+## Notas prácticas
 
-- Servo drives require careful tuning to achieve optimal performance  
-- Poor tuning can lead to instability or oscillation  
-- Feedback devices are critical for accuracy and reliability  
-- Cable quality and shielding affect signal integrity  
-- They are best suited for applications where precision justifies the added complexity  
+- Los variadores servo requieren sintonización cuidadosa para lograr desempeño óptimo  
+- Una sintonización deficiente puede provocar inestabilidad u oscilación  
+- Los dispositivos de retroalimentación son críticos para precisión y confiabilidad  
+- La calidad del cable y el blindaje afectan la integridad de la señal  
+- Son más adecuados para aplicaciones donde la precisión justifica la complejidad adicional  

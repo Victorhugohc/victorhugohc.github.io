@@ -1,101 +1,101 @@
 # Modbus RTU
 
-## Overview
+## Descripción general
 
-Modbus RTU is an industrial communication protocol used for data exchange between devices over serial communication.
+Modbus RTU es un protocolo de comunicación industrial utilizado para el intercambio de datos entre dispositivos mediante comunicación serial.
 
-It is simple, widely supported, and commonly used in industrial systems to connect controllers, instruments, and field devices.
+Es simple, ampliamente compatible y se utiliza comúnmente en sistemas industriales para conectar controladores, instrumentos y dispositivos de campo.
 
-Modbus RTU operates over interfaces such as RS485 and RS232.
+Modbus RTU opera sobre interfaces como RS485 y RS232.
 
-## Purpose
+## Propósito
 
-The purpose of Modbus RTU is to provide a simple and reliable method for communication between devices.
+El propósito de Modbus RTU es proporcionar un método simple y confiable para la comunicación entre dispositivos.
 
-It is used to:
+Se utiliza para:
 
-- Connect PLCs with field devices  
-- Exchange measurement and control data  
-- Integrate equipment from different manufacturers  
-- Enable communication in simple and low cost systems  
+- Conectar PLCs con dispositivos de campo  
+- Intercambiar datos de medición y control  
+- Integrar equipos de diferentes fabricantes  
+- Habilitar comunicación en sistemas simples y de bajo costo  
 
-It is especially useful in systems where Ethernet is not required.
+Es especialmente útil en sistemas donde no se requiere Ethernet.
 
-## How It Works
+## Cómo funciona
 
-Modbus RTU follows a master slave communication model.
+Modbus RTU sigue un modelo de comunicación maestro-esclavo.
 
-### Master Slave Structure
+### Estructura maestro-esclavo
 
-- One master device controls communication  
-- Multiple slave devices respond to requests  
-- Slaves do not communicate unless requested  
+- Un dispositivo maestro controla la comunicación  
+- Múltiples dispositivos esclavos responden a las solicitudes  
+- Los esclavos no se comunican a menos que sean solicitados  
 
-The master initiates all data exchanges.
+El maestro inicia todos los intercambios de datos.
 
-### Data Transmission
+### Transmisión de datos
 
-Communication occurs over serial lines.
+La comunicación ocurre sobre líneas seriales.
 
-- Data is transmitted in binary format  
-- Messages include device address, function code, data, and error checking  
+- Los datos se transmiten en formato binario  
+- Los mensajes incluyen dirección del dispositivo, código de función, datos y verificación de errores  
 
-Each slave has a unique address.
+Cada esclavo tiene una dirección única.
 
-### Function Codes
+### Códigos de función
 
-Function codes define the operation.
+Los códigos de función definen la operación.
 
-Examples include:
+Los ejemplos incluyen:
 
-- Reading registers  
-- Writing values  
-- Reading input status  
+- Lectura de registros  
+- Escritura de valores  
+- Lectura del estado de entradas  
 
-This allows standardized interaction with devices.
+Esto permite una interacción estandarizada con los dispositivos.
 
-### Communication Timing
+### Temporización de comunicación
 
-Timing is important in Modbus RTU.
+La temporización es importante en Modbus RTU.
 
-- Messages are separated by silent intervals  
-- Devices must respond within defined time limits  
+- Los mensajes se separan por intervalos de silencio  
+- Los dispositivos deben responder dentro de límites de tiempo definidos  
 
-Proper timing ensures reliable communication.
+Una temporización adecuada garantiza una comunicación confiable.
 
-## Applications
+## Aplicaciones
 
-Modbus RTU is used in many industrial systems.
+Modbus RTU se utiliza en muchos sistemas industriales.
 
-Typical applications include:
+Las aplicaciones típicas incluyen:
 
-- Connecting sensors and instruments to PLCs  
-- Energy meters and monitoring devices  
-- Simple automation systems  
-- Legacy systems and retrofits  
+- Conexión de sensores e instrumentos a PLCs  
+- Medidores de energía y dispositivos de monitoreo  
+- Sistemas de automatización simples  
+- Sistemas heredados y retrofits  
 
-It is common in distributed and low bandwidth systems.
+Es común en sistemas distribuidos y de bajo ancho de banda.
 
-## Key Considerations
+## Consideraciones clave
 
-Communication speed is limited compared to Ethernet based protocols.
+La velocidad de comunicación es limitada en comparación con protocolos basados en Ethernet.
 
-Cable length and quality affect performance.
+La longitud y calidad del cable afectan el rendimiento.
 
-Network size is limited by serial communication constraints.
+El tamaño de la red está limitado por las restricciones de comunicación serial.
 
-Proper termination and wiring are critical for RS485 networks.
+La terminación y el cableado adecuados son críticos para redes RS485.
 
-Address management must be organized to avoid conflicts.
+La gestión de direcciones debe organizarse para evitar conflictos.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is incorrect wiring of RS485 networks. Follow proper polarity and termination rules.
+Un error común es el cableado incorrecto de redes RS485. Siga las reglas adecuadas de polaridad y terminación.
 
-Keep cable lengths within recommended limits.
+Mantenga las longitudes de cable dentro de los límites recomendados.
 
-Use shielded cables in noisy environments.
+Utilice cables blindados en entornos ruidosos.
 
-Verify communication parameters such as baud rate and parity.
+Verifique los parámetros de comunicación como velocidad en baudios y paridad.
 
-Modbus RTU is simple but requires careful setup to ensure reliability.
+Modbus RTU es simple pero requiere una configuración cuidadosa para garantizar la confiabilidad.

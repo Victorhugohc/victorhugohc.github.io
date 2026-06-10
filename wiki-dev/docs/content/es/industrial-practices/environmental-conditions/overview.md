@@ -1,62 +1,62 @@
-# Environmental Conditions Overview
+# Condiciones Ambientales
 
-## Overview
+## Descripción general
 
-Environmental conditions refer to the physical and ambient factors that affect the performance, reliability, and lifespan of industrial equipment.
+Las condiciones ambientales se refieren a los factores físicos y ambientales que afectan el rendimiento, la confiabilidad y la vida útil del equipo industrial.
 
-These conditions include temperature, humidity, dust, chemicals, and mechanical exposure. They must be considered when selecting, installing, and operating equipment.
+Estas condiciones incluyen temperatura, humedad, polvo, químicos y exposición mecánica. Deben considerarse al seleccionar, instalar y operar el equipo.
 
-## Purpose
+## Propósito
 
-The purpose of evaluating environmental conditions is to ensure that equipment can operate reliably under real working conditions.
+El propósito de evaluar las condiciones ambientales es asegurar que el equipo pueda operar de manera confiable bajo condiciones reales de trabajo.
 
-This helps to:
+Esto ayuda a:
 
-- Prevent premature equipment failure  
-- Maintain consistent performance  
-- Ensure safe operation  
-- Reduce maintenance requirements  
+- Prevenir fallas prematuras del equipo  
+- Mantener un rendimiento consistente  
+- Asegurar una operación segura  
+- Reducir los requisitos de mantenimiento  
 
-Ignoring environmental factors can lead to rapid degradation and unexpected issues.
+Ignorar los factores ambientales puede conducir a una degradación rápida y problemas inesperados.
 
-## How It Works
+## Cómo funciona
 
-Environmental conditions influence how materials and components behave over time.
+Las condiciones ambientales influyen en cómo se comportan los materiales y componentes con el tiempo.
 
-Key factors include:
+Los factores clave incluyen:
 
-- Temperature, which affects materials, electronics, and performance  
-- Humidity and moisture, which can cause corrosion or insulation failure  
-- Dust and particles, which can accumulate and interfere with operation  
-- Chemicals and corrosive agents, which can degrade materials  
-- Mechanical exposure such as vibration, impact, or movement  
+- Temperatura, que afecta materiales, electrónica y rendimiento  
+- Humedad y condensación, que pueden causar corrosión o falla de aislamiento  
+- Polvo y partículas, que pueden acumularse e interferir con la operación  
+- Químicos y agentes corrosivos, que pueden degradar materiales  
+- Exposición mecánica como vibración, impacto o movimiento  
 
-Equipment must be selected and installed with protection levels that match these conditions.
+El equipo debe seleccionarse e instalarse con niveles de protección que correspondan a estas condiciones.
 
-## Applications
+## Aplicaciones
 
-Environmental considerations are critical in:
+Las consideraciones ambientales son críticas en:
 
-- Outdoor installations exposed to weather  
-- Industrial plants with dust or airborne particles  
-- Chemical processing environments  
-- Food and beverage facilities with washdown conditions  
-- Heavy industry with vibration and mechanical stress  
+- Instalaciones exteriores expuestas al clima  
+- Plantas industriales con polvo o partículas en el aire  
+- Entornos de procesamiento químico  
+- Instalaciones de alimentos y bebidas con condiciones de lavado  
+- Industria pesada con vibración y esfuerzo mecánico  
 
-Each environment presents different challenges that must be addressed.
+Cada entorno presenta diferentes desafíos que deben abordarse.
 
-## Key Considerations
+## Consideraciones clave
 
-- Equipment ratings must match environmental exposure  
-- Protective enclosures may be required  
-- Materials must resist corrosion and degradation  
-- Cooling and ventilation must be appropriate  
-- Maintenance access must consider environmental constraints  
+- Las clasificaciones del equipo deben corresponder a la exposición ambiental  
+- Pueden requerirse gabinetes de protección  
+- Los materiales deben resistir la corrosión y la degradación  
+- El enfriamiento y la ventilación deben ser apropiados  
+- El acceso para mantenimiento debe considerar las restricciones ambientales  
 
-## Practical Notes
+## Notas prácticas
 
-- Many failures are caused by environmental mismatch rather than design issues  
-- Overlooking environmental factors increases long term costs  
-- Protective measures improve reliability but may increase initial cost  
-- Regular inspection helps detect environmental damage early  
-- Always consider worst case operating conditions during selection  
+- Muchas fallas son causadas por incompatibilidad ambiental más que por problemas de diseño  
+- Pasar por alto los factores ambientales aumenta los costos a largo plazo  
+- Las medidas de protección mejoran la confiabilidad pero pueden aumentar el costo inicial  
+- La inspección regular ayuda a detectar daños ambientales a tiempo  
+- Siempre considere las condiciones de operación en el peor caso durante la selección

@@ -1,72 +1,72 @@
-# Level Measurement
+# Medición de nivel
 
-## Overview
+## Descripción general
 
-Level measurement is the process of determining the amount of material contained in a tank, vessel, or silo.
+La medición de nivel es el proceso de determinar la cantidad de material contenido en un tanque, recipiente o silo.
 
-It is used for liquids, solids, and slurries, providing information about inventory, process control, and system safety.
+Se utiliza para líquidos, sólidos y lodos, proporcionando información sobre inventario, control de procesos y seguridad del sistema.
 
-## Purpose
+## Propósito
 
-The purpose of level measurement is to:
+El propósito de la medición de nivel es:
 
-- Monitor material quantity in storage or process vessels  
-- Prevent overfilling or empty conditions  
-- Support process control and automation  
-- Manage inventory and material flow  
-- Ensure safe operation of equipment  
+- Monitorear la cantidad de material en recipientes de almacenamiento o proceso  
+- Prevenir condiciones de sobrellenado o vacío  
+- Respaldar el control de procesos y la automatización  
+- Gestionar el inventario y el flujo de material  
+- Garantizar la operación segura del equipo  
 
-Accurate level measurement is critical for both operation and safety.
+La medición precisa de nivel es crítica tanto para la operación como para la seguridad.
 
-## How It Works
+## Cómo funciona
 
-Level is measured using sensors that detect the position of the material surface or the amount of material present.
+El nivel se mide utilizando sensores que detectan la posición de la superficie del material o la cantidad de material presente.
 
-Common measurement principles include:
+Los principios de medición comunes incluyen:
 
-- **Float based** systems that move with the liquid surface  
-- **Hydrostatic pressure** measurement based on fluid height  
-- **Ultrasonic** measurement using sound waves  
-- **Radar** measurement using electromagnetic waves  
-- **Capacitive** measurement based on material properties  
+- Sistemas basados en **flotador** que se mueven con la superficie del líquido  
+- Medición de **presión hidrostática** basada en la altura del fluido  
+- Medición **ultrasónica** utilizando ondas sonoras  
+- Medición por **radar** utilizando ondas electromagnéticas  
+- Medición **capacitiva** basada en las propiedades del material  
 
-The sensor converts the detected level into a signal that can be displayed or used by control systems.
+El sensor convierte el nivel detectado en una señal que puede mostrarse o utilizarse por los sistemas de control.
 
-Level measurement can be:
+La medición de nivel puede ser:
 
-- **Continuous**, providing a real time value  
-- **Point level**, indicating specific conditions such as high or low level  
+- **Continua**, proporcionando un valor en tiempo real  
+- **De nivel puntual**, indicando condiciones específicas como nivel alto o bajo  
 
-The choice depends on process requirements.
+La elección depende de los requisitos del proceso.
 
-## Applications
+## Aplicaciones
 
-Level measurement is used in:
+La medición de nivel se utiliza en:
 
-- Storage tanks and reservoirs  
-- Chemical and process vessels  
-- Water and wastewater systems  
-- Silos and bulk material handling  
-- Fuel and oil storage systems  
+- Tanques de almacenamiento y reservorios  
+- Recipientes químicos y de proceso  
+- Sistemas de agua y aguas residuales  
+- Silos y manejo de materiales a granel  
+- Sistemas de almacenamiento de combustible y aceite  
 
-It is essential in systems where material quantity must be controlled or monitored.
+Es esencial en sistemas donde la cantidad de material debe controlarse o monitorearse.
 
-## Key Considerations
+## Consideraciones clave
 
-- Material properties affect sensor selection  
-- Tank geometry and installation conditions impact accuracy  
-- Environmental factors such as temperature and pressure must be considered  
-- Required measurement type, continuous or point level  
-- Maintenance requirements vary by technology  
+- Las propiedades del material afectan la selección del sensor  
+- La geometría del tanque y las condiciones de instalación impactan la precisión  
+- Factores ambientales como temperatura y presión deben considerarse  
+- Tipo de medición requerido, continua o de nivel puntual  
+- Los requisitos de mantenimiento varían según la tecnología  
 
-Incorrect selection can lead to unreliable or unsafe operation.
+La selección incorrecta puede conducir a una operación poco confiable o insegura.
 
-## Practical Notes
+## Notas prácticas
 
-- Select measurement technology based on the material type  
-- Avoid sensor placement in areas with turbulence or buildup  
-- Consider cleaning and maintenance access  
-- Verify calibration and operation regularly  
-- Use redundancy in critical applications  
+- Seleccionar la tecnología de medición según el tipo de material  
+- Evitar la colocación del sensor en áreas con turbulencia o acumulación  
+- Considerar el acceso para limpieza y mantenimiento  
+- Verificar la calibración y la operación regularmente  
+- Utilizar redundancia en aplicaciones críticas  
 
-Level measurement ensures proper control and safe management of materials in industrial systems.
+La medición de nivel garantiza el control adecuado y la gestión segura de materiales en sistemas industriales.

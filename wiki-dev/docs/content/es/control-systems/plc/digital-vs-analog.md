@@ -1,110 +1,110 @@
-# Digital vs Analog Signals
+# Señales Digitales vs Analógicas
 
-## Overview
+## Descripción general
 
-Industrial control systems use signals to represent information from sensors and to control actuators.
+Los sistemas de control industrial utilizan señales para representar información de sensores y controlar actuadores.
 
-These signals are classified as digital or analog based on how they represent data.
+Estas señales se clasifican como digitales o analógicas según cómo representan los datos.
 
-Digital signals have discrete states. Analog signals vary continuously over a range.
+Las señales digitales tienen estados discretos. Las señales analógicas varían de forma continua dentro de un rango.
 
-## Purpose
+## Propósito
 
-The purpose of selecting digital or analog signals is to match the type of information required by the process.
+El propósito de elegir entre señales digitales o analógicas es adaptarse al tipo de información requerida por el proceso.
 
-- Digital signals are used for simple state detection  
-- Analog signals are used for measurement and control of continuous variables  
+- Las señales digitales se utilizan para detección de estados simples  
+- Las señales analógicas se utilizan para medición y control de variables continuas  
 
-Choosing the correct type ensures accurate control and efficient system design.
+Elegir el tipo correcto asegura un control preciso y un diseño eficiente del sistema.
 
-## How It Works
+## Cómo funciona
 
-### Digital Signals
+### Señales digitales
 
-Digital signals represent two distinct states.
+Las señales digitales representan dos estados definidos.
 
-- ON or OFF  
-- 1 or 0  
-- True or False  
+- Encendido o apagado  
+- 1 o 0  
+- Verdadero o falso  
 
-Typical voltage based examples:
+Ejemplos típicos basados en voltaje:
 
-- 24 V DC for ON  
-- 0 V for OFF  
+- 24 V DC para encendido  
+- 0 V para apagado  
 
-They are used to indicate conditions such as:
+Se utilizan para indicar condiciones como:
 
-- Switch position  
-- Sensor detection  
-- Equipment status  
+- Posición de interruptores  
+- Detección de sensores  
+- Estado de equipos  
 
-Digital outputs also operate in two states, such as energizing a relay or turning a device on or off.
+Las salidas digitales también operan en dos estados, como energizar un relevador o encender/apagar un dispositivo.
 
-### Analog Signals
+### Señales analógicas
 
-Analog signals represent a continuous range of values.
+Las señales analógicas representan un rango continuo de valores.
 
-Common industrial standards include:
+Estándares industriales comunes incluyen:
 
-- 4 to 20 mA current signals  
-- 0 to 10 V voltage signals  
+- Señales de corriente de 4 a 20 mA  
+- Señales de voltaje de 0 a 10 V  
 
-Each value within the range corresponds to a physical measurement, such as:
+Cada valor dentro del rango corresponde a una magnitud física, como:
 
-- Temperature  
-- Pressure  
-- Flow  
-- Level  
+- Temperatura  
+- Presión  
+- Flujo  
+- Nivel  
 
-The PLC converts these signals into numerical values for processing.
+El PLC convierte estas señales en valores numéricos para su procesamiento.
 
-### Resolution and Conversion
+### Resolución y conversión
 
-Analog signals require conversion between electrical signals and digital values.
+Las señales analógicas requieren conversión entre señales eléctricas y valores digitales.
 
-- Input modules use analog to digital conversion  
-- Output modules use digital to analog conversion  
+- Los módulos de entrada utilizan conversión analógico-digital  
+- Los módulos de salida utilizan conversión digital-analógico  
 
-Resolution determines how precise the measurement or control can be.
+La resolución determina la precisión de la medición o control.
 
-## Applications
+## Aplicaciones
 
-### Digital
+### Digitales
 
-- Start and stop commands  
-- Limit switches and safety signals  
-- Alarm indicators  
-- Discrete machine states  
+- Comandos de arranque y paro  
+- Interruptores de límite y señales de seguridad  
+- Indicadores de alarma  
+- Estados discretos de máquinas  
 
-### Analog
+### Analógicas
 
-- Process control loops  
-- Speed control of drives  
-- Monitoring environmental conditions  
-- Continuous regulation of variables  
+- Lazos de control de proceso  
+- Control de velocidad en variadores  
+- Monitoreo de condiciones ambientales  
+- Regulación continua de variables  
 
-Most industrial systems use a combination of both.
+La mayoría de los sistemas industriales utilizan una combinación de ambos tipos.
 
-## Key Considerations
+## Consideraciones clave
 
-Signal type must match the nature of the process variable.
+El tipo de señal debe coincidir con la naturaleza de la variable del proceso.
 
-Digital signals are simpler and more robust against noise.
+Las señales digitales son más simples y resistentes al ruido.
 
-Analog signals provide more information but are more sensitive to interference.
+Las señales analógicas proporcionan más información, pero son más sensibles a interferencias.
 
-Wiring and shielding are more critical for analog signals.
+El cableado y el blindaje son más críticos en señales analógicas.
 
-Accuracy and resolution are important when selecting analog modules.
+La precisión y resolución son importantes al seleccionar módulos analógicos.
 
-Conversion and scaling must be handled correctly in the control program.
+La conversión y el escalamiento deben manejarse correctamente en el programa de control.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is using digital signals where analog measurement is required. This reduces control accuracy.
+Un error común es usar señales digitales cuando se requiere medición analógica, lo que reduce la precisión del control.
 
-Analog signals require proper calibration and scaling to represent real values correctly.
+Las señales analógicas requieren calibración y escalamiento adecuados para representar valores reales.
 
-Noise can significantly affect analog signals. Proper grounding and shielding are essential.
+El ruido puede afectar significativamente las señales analógicas; una correcta puesta a tierra y blindaje es esencial.
 
-When possible, use current signals such as 4 to 20 mA for better noise immunity in industrial environments.
+Cuando sea posible, utiliza señales de corriente como 4 a 20 mA para mejorar la inmunidad al ruido en entornos industriales.

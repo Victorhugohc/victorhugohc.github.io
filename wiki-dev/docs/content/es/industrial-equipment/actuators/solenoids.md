@@ -1,77 +1,77 @@
-# Solenoids
+# Solenoides
 
-## Overview
+## Descripción general
 
-Solenoids are electromagnetic actuators that produce linear motion when energized.
+Los solenoides son actuadores electromagnéticos que producen movimiento lineal cuando se energizan.
 
-They are simple devices that convert electrical energy into a short, controlled mechanical movement.
+Son dispositivos simples que convierten energía eléctrica en un movimiento mecánico corto y controlado.
 
-Solenoids are commonly used for fast switching and on off actuation in industrial systems.
+Los solenoides se utilizan comúnmente para conmutación rápida y actuación de encendido/apagado (*on/off*) en sistemas industriales.
 
-## Purpose
+## Propósito
 
-The purpose of solenoids is to:
+El propósito de los solenoides es:
 
-- Provide rapid linear motion for switching or positioning  
-- Enable simple on off actuation  
-- Control valves, locks, and mechanical mechanisms  
-- Support automation with minimal complexity  
+- Proporcionar movimiento lineal rápido para conmutación o posicionamiento  
+- Habilitar actuación simple de encendido/apagado (*on/off*)  
+- Controlar válvulas, cerraduras y mecanismos mecánicos  
+- Soportar automatización con mínima complejidad  
 
-They are ideal for applications requiring quick and repeatable movement.
+Son ideales para aplicaciones que requieren movimiento rápido y repetible.
 
-## How It Works
+## Cómo funciona
 
-A solenoid consists of a coil of wire and a movable ferromagnetic core.
+Un solenoide consiste en una bobina de alambre y un núcleo ferromagnético móvil.
 
-The operation is:
+La operación es:
 
-- Electrical current flows through the coil  
-- A magnetic field is generated  
-- The magnetic field pulls or pushes the core  
-- This movement produces linear motion  
+- La corriente eléctrica fluye a través de la bobina  
+- Se genera un campo magnético  
+- El campo magnético atrae o empuja el núcleo  
+- Este movimiento produce movimiento lineal  
 
-When the current is removed:
+Cuando se elimina la corriente:
 
-- A spring or gravity returns the core to its original position  
+- Un resorte o la gravedad devuelve el núcleo a su posición original  
 
-The motion is typically short and limited in stroke.
+El movimiento es típicamente corto y limitado en carrera.
 
-## Applications
+## Aplicaciones
 
-Solenoids are used in:
+Los solenoides se utilizan en:
 
-- Valve actuation in fluid systems  
-- Locking and release mechanisms  
-- Switching devices and relays  
-- Automotive and industrial control systems  
-- Safety and interlock systems  
+- Actuación de válvulas en sistemas de fluidos  
+- Mecanismos de bloqueo y liberación  
+- Dispositivos de conmutación y relevadores  
+- Sistemas de control automotriz e industrial  
+- Sistemas de seguridad e interbloqueo  
 
-They are common in systems requiring simple actuation.
+Son comunes en sistemas que requieren actuación simple.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Force output**  
-  Limited compared to other actuator types  
+- **Salida de fuerza**  
+  Limitada en comparación con otros tipos de actuadores  
 
-- **Stroke length**  
-  Typically short and fixed  
+- **Longitud de carrera**  
+  Típicamente corta y fija  
 
-- **Duty cycle**  
-  Continuous energization can cause overheating  
+- **Ciclo de trabajo**  
+  La energización continua puede causar sobrecalentamiento  
 
-- **Response time**  
-  Very fast operation  
+- **Tiempo de respuesta**  
+  Operación muy rápida  
 
-- **Power consumption**  
-  Depends on coil design and operation  
+- **Consumo de potencia**  
+  Depende del diseño de la bobina y la operación  
 
-- **Environmental conditions**  
-  Temperature and contamination affect performance  
+- **Condiciones ambientales**  
+  La temperatura y la contaminación afectan el desempeño  
 
-## Practical Notes
+## Notas prácticas
 
-- Solenoids are simple, reliable, and cost effective  
-- They are not suitable for continuous or long stroke motion  
-- Overheating can occur if energized for long periods  
-- Proper voltage supply is important for correct operation  
-- They are best used for discrete on off actions rather than precise control  
+- Los solenoides son simples, confiables y rentables  
+- No son adecuados para movimiento continuo o de larga carrera  
+- El sobrecalentamiento puede ocurrir si se energizan por períodos prolongados  
+- El suministro de voltaje adecuado es importante para una operación correcta  
+- Son más adecuados para acciones discretas de encendido/apagado (*on/off*) que para control preciso  

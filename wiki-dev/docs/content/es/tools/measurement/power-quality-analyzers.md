@@ -1,71 +1,71 @@
-# Power Quality Analyzers
+# Analizadores de calidad de energía
 
-## Overview
+## Descripción general
 
-Power quality analyzers are instruments used to measure and evaluate electrical power conditions in a system.
+Los analizadores de calidad de energía son instrumentos utilizados para medir y evaluar las condiciones de energía eléctrica en un sistema.
 
-They provide detailed information about voltage, current, frequency, and disturbances that can affect equipment performance and reliability.
+Proporcionan información detallada sobre voltaje, corriente, frecuencia y perturbaciones que pueden afectar el rendimiento y la confiabilidad del equipo.
 
-## Purpose
+## Propósito
 
-The purpose of power quality analysis is to:
+El propósito del análisis de calidad de energía es:
 
-- Identify electrical disturbances and anomalies  
-- Diagnose issues affecting equipment performance  
-- Verify compliance with power quality standards  
-- Support troubleshooting and system optimization  
-- Prevent damage caused by poor power conditions  
+- Identificar perturbaciones y anomalías eléctricas  
+- Diagnosticar problemas que afectan el rendimiento del equipo  
+- Verificar el cumplimiento de normas de calidad de energía  
+- Respaldar la resolución de problemas y la optimización del sistema  
+- Prevenir daños causados por condiciones de energía deficientes  
 
-They are essential for understanding how electrical supply impacts industrial systems.
+Son esenciales para comprender cómo el suministro eléctrico impacta los sistemas industriales.
 
-## How It Works
+## Cómo funciona
 
-Power quality analyzers connect to electrical systems and continuously monitor voltage and current over time.
+Los analizadores de calidad de energía se conectan a sistemas eléctricos y monitorean continuamente el voltaje y la corriente a lo largo del tiempo.
 
-They capture and analyze parameters such as:
+Capturan y analizan parámetros como:
 
-- Voltage levels and variations  
-- Current consumption and imbalance  
-- Frequency stability  
-- Harmonics and waveform distortion  
-- Transients and short duration events  
+- Niveles y variaciones de voltaje  
+- Consumo de corriente y desequilibrio  
+- Estabilidad de frecuencia  
+- Armónicos y distorsión de forma de onda  
+- Transitorios y eventos de corta duración  
 
-The instrument records data and often provides:
+El instrumento registra datos y a menudo proporciona:
 
-- Event logging for disturbances  
-- Waveform visualization  
-- Statistical analysis over time  
+- Registro de eventos para perturbaciones  
+- Visualización de formas de onda  
+- Análisis estadístico a lo largo del tiempo  
 
-Advanced analyzers can store long term data for detailed analysis and reporting.
+Los analizadores avanzados pueden almacenar datos a largo plazo para análisis detallado e informes.
 
-## Applications
+## Aplicaciones
 
-Power quality analyzers are used in:
+Los analizadores de calidad de energía se utilizan en:
 
-- Troubleshooting equipment malfunctions  
-- Evaluating electrical distribution systems  
-- Diagnosing harmonics and distortion issues  
-- Analyzing voltage sags, swells, and interruptions  
-- Energy studies and load profiling  
+- Resolución de problemas de fallas de equipos  
+- Evaluación de sistemas de distribución eléctrica  
+- Diagnóstico de problemas de armónicos y distorsión  
+- Análisis de caídas, elevaciones e interrupciones de voltaje  
+- Estudios de energía y perfiles de carga  
 
-They are widely used in industrial plants, commercial facilities, and critical infrastructure.
+Se utilizan ampliamente en plantas industriales, instalaciones comerciales e infraestructura crítica.
 
-## Key Considerations
+## Consideraciones clave
 
-- Measurement accuracy must match system requirements  
-- Proper connection and setup are critical for valid results  
-- Monitoring duration should capture relevant events  
-- Interpretation of data requires understanding of power systems  
-- Safety precautions are essential when working on energized systems  
+- La precisión de la medición debe coincidir con los requisitos del sistema  
+- La conexión y configuración adecuadas son críticas para resultados válidos  
+- La duración del monitoreo debe capturar eventos relevantes  
+- La interpretación de datos requiere comprensión de sistemas de potencia  
+- Las precauciones de seguridad son esenciales al trabajar en sistemas energizados  
 
-Incorrect setup can lead to incomplete or misleading data.
+Una configuración incorrecta puede conducir a datos incompletos o engañosos.
 
-## Practical Notes
+## Notas prácticas
 
-- Monitor systems over sufficient time to capture intermittent issues  
-- Use proper voltage and current probes rated for the system  
-- Correlate events with equipment operation when analyzing data  
-- Store and document measurements for future comparison  
-- Combine measurements with system knowledge for accurate diagnosis  
+- Monitorear los sistemas durante tiempo suficiente para capturar problemas intermitentes  
+- Utilizar sondas de voltaje y corriente adecuadas clasificadas para el sistema  
+- Correlacionar eventos con la operación del equipo al analizar datos  
+- Almacenar y documentar las mediciones para comparación futura  
+- Combinar las mediciones con el conocimiento del sistema para un diagnóstico preciso  
 
-Power quality analyzers provide the insight needed to identify and resolve complex electrical issues.
+Los analizadores de calidad de energía proporcionan la información necesaria para identificar y resolver problemas eléctricos complejos.

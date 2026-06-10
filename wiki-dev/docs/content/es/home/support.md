@@ -1,40 +1,40 @@
-# Support this project
+# Apoya este proyecto
 
-## Overview
+## Descripción general
 
-This project is built to make industrial knowledge more accessible, practical, and easier to apply in real-world scenarios.
+Este proyecto está diseñado para hacer el conocimiento industrial más accesible, práctico y fácil de aplicar en escenarios reales.
 
-If you find it useful, you can support its development.
+Si te resulta útil, puedes apoyar su desarrollo.
 
-## Why Support
+## Por qué apoyar
 
-Creating and maintaining this handbook requires continuous effort.
+Crear y mantener este handbook requiere un esfuerzo continuo.
 
-Support helps to:
+El apoyo ayuda a:
 
-- Keep the content free and accessible  
-- Improve clarity and quality across topics  
-- Expand coverage into new areas  
-- Maintain and improve the platform  
+- Mantener el contenido gratuito y accesible  
+- Mejorar la claridad y calidad en todos los temas  
+- Expandir la cobertura a nuevas áreas  
+- Mantener y mejorar la plataforma  
 
-## Ways to Support
+## Formas de apoyar
 
-### Donations
+### Donaciones
 
-You can support the project directly through a donation.
+Puedes apoyar el proyecto directamente mediante una donación.
 
-This helps sustain ongoing development and improvement.
+Esto ayuda a sostener el desarrollo y la mejora continua.
 
-### Contribution
+### Contribución
 
-You can also support by improving the content:
+También puedes apoyar mejorando el contenido:
 
-- Reporting issues  
-- Suggesting improvements  
-- Contributing edits or new topics  
+- Reportando problemas  
+- Sugiriendo mejoras  
+- Contribuyendo con ediciones o nuevos temas  
 
-## Final Note
+## Nota final
 
-Support is optional, but it directly impacts how much the project can grow and improve.
+El apoyo es opcional, pero impacta directamente en cuánto puede crecer y mejorar el proyecto.
 
-Even small contributions help maintain this as a useful and reliable resource.
+Incluso pequeñas contribuciones ayudan a mantener este recurso útil y confiable.

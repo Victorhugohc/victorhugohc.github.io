@@ -1,65 +1,65 @@
-# Edge Computing
+# Computación en el borde (Edge Computing)
 
-## Overview
+## Descripción general
 
-Edge computing refers to processing data close to where it is generated, instead of sending all data to centralized systems.
+La computación en el borde (*edge computing*) se refiere al procesamiento de datos cerca de donde se generan, en lugar de enviar toda la información a sistemas centralizados.
 
-In industrial environments, this means analyzing and acting on data at or near the control system level. It reduces dependency on remote systems and improves response time.
+En entornos industriales, esto significa analizar y actuar sobre los datos en o cerca del nivel de control. Reduce la dependencia de sistemas remotos y mejora el tiempo de respuesta.
 
-## Purpose
+## Propósito
 
-The purpose of edge computing is to:
+El propósito de la computación en el borde es:
 
-- Reduce latency in data processing and decision making  
-- Minimize network bandwidth usage  
-- Enable local operation even with limited connectivity  
-- Improve system responsiveness and reliability  
+- Reducir la latencia en el procesamiento de datos y la toma de decisiones  
+- Minimizar el uso de ancho de banda de red  
+- Permitir operación local incluso con conectividad limitada  
+- Mejorar la capacidad de respuesta y confiabilidad del sistema  
 
-It allows critical functions to operate without relying on distant infrastructure.
+Permite que funciones críticas operen sin depender de infraestructura remota.
 
-## How It Works
+## Cómo funciona
 
-Edge computing places processing capabilities near field devices or control systems.
+La computación en el borde coloca capacidades de procesamiento cerca de los dispositivos de campo o sistemas de control.
 
-This typically involves:
+Esto generalmente implica:
 
-- Collecting data from sensors, PLCs, or local systems  
-- Processing and filtering data locally  
-- Executing actions or generating insights at the edge  
-- Sending only relevant data to higher level systems  
+- Recolección de datos desde sensores, PLC o sistemas locales  
+- Procesamiento y filtrado de datos a nivel local  
+- Ejecución de acciones o generación de información en el borde  
+- Envío únicamente de datos relevantes a sistemas de nivel superior  
 
-Edge devices can be industrial PCs, embedded systems, or controllers with additional processing capabilities.
+Los dispositivos edge pueden ser PCs industriales, sistemas embebidos o controladores con capacidades adicionales de procesamiento.
 
-Instead of transmitting all raw data, only selected or processed information is shared with central systems.
+En lugar de transmitir todos los datos en bruto, solo se comparte información seleccionada o procesada con sistemas centrales.
 
-## Applications
+## Aplicaciones
 
-Edge computing is used in:
+La computación en el borde se utiliza en:
 
-- Real time monitoring and control enhancements  
-- Predictive maintenance at the equipment level  
-- Local data aggregation and filtering  
-- Remote sites with limited connectivity  
-- Preprocessing data before sending it to cloud platforms  
+- Monitoreo en tiempo real y mejoras en control  
+- Mantenimiento predictivo a nivel de equipo  
+- Agregación y filtrado local de datos  
+- Sitios remotos con conectividad limitada  
+- Preprocesamiento de datos antes de enviarlos a plataformas cloud  
 
-It is common in manufacturing, energy systems, and distributed assets.
+Es común en manufactura, sistemas energéticos y activos distribuidos.
 
-## Key Considerations
+## Consideraciones clave
 
-- Processing capacity must match application requirements  
-- System reliability is critical at the edge level  
-- Data consistency between edge and central systems must be managed  
-- Cybersecurity must be applied to edge devices  
-- Maintenance of distributed devices can be challenging  
+- La capacidad de procesamiento debe ajustarse a los requisitos de la aplicación  
+- La confiabilidad del sistema es crítica a nivel edge  
+- La consistencia de datos entre sistemas edge y centrales debe gestionarse  
+- La ciberseguridad debe aplicarse a dispositivos edge  
+- El mantenimiento de dispositivos distribuidos puede ser complejo  
 
-Edge systems should be designed to operate independently when needed.
+Los sistemas edge deben diseñarse para operar de forma independiente cuando sea necesario.
 
-## Practical Notes
+## Notas prácticas
 
-- Use edge computing for time critical or high volume data  
-- Avoid sending unnecessary raw data to higher level systems  
-- Ensure local systems can operate safely without external connection  
-- Standardize edge devices to simplify maintenance  
-- Monitor performance and health of edge systems  
+- Usar edge computing para datos críticos en tiempo o de alto volumen  
+- Evitar enviar datos innecesarios en bruto a sistemas superiores  
+- Asegurar que los sistemas locales puedan operar de forma segura sin conexión externa  
+- Estandarizar dispositivos edge para simplificar mantenimiento  
+- Monitorear el desempeño y estado de los sistemas edge  
 
-Edge computing improves efficiency by processing data where it is most relevant.
+La computación en el borde mejora la eficiencia al procesar datos donde son más relevantes.

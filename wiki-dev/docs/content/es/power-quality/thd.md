@@ -1,81 +1,81 @@
-# Total Harmonic Distortion (THD)
+# Distorsión armónica total (THD)
 
-## Overview
+## Descripción general
 
-Total Harmonic Distortion, or THD, is a measure of how much a waveform is distorted by harmonics compared to the fundamental frequency.
+La distorsión armónica total, o THD, es una medida de cuánto una forma de onda está distorsionada por armónicos en comparación con la frecuencia fundamental.
 
-It is commonly used to quantify the quality of voltage or current waveforms in a power system.
+Se utiliza comúnmente para cuantificar la calidad de las formas de onda de voltaje o corriente en un sistema de potencia.
 
-A higher THD value indicates greater distortion and lower power quality.
+Un valor de THD más alto indica mayor distorsión y menor calidad de energía.
 
-## Purpose
+## Propósito
 
-The purpose of THD is to:
+El propósito de la THD es:
 
-- Evaluate the level of waveform distortion in the system  
-- Identify potential power quality issues  
-- Support design and selection of mitigation solutions  
-- Ensure compliance with acceptable distortion limits  
+- Evaluar el nivel de distorsión de la forma de onda en el sistema  
+- Identificar posibles problemas de calidad de energía  
+- Apoyar el diseño y la selección de soluciones de mitigación  
+- Garantizar el cumplimiento de límites de distorsión aceptables  
 
-THD provides a simple way to assess the impact of harmonics.
+La THD proporciona una forma sencilla de evaluar el impacto de los armónicos.
 
-## How It Works
+## Cómo funciona
 
-THD is calculated as the ratio of the sum of all harmonic components to the fundamental component.
+La THD se calcula como la relación entre la suma de todos los componentes armónicos y el componente fundamental.
 
-It is typically expressed as a percentage.
+Típicamente se expresa como un porcentaje.
 
-Two common forms are used:
+Se utilizan dos formas comunes:
 
-- Voltage THD  
-- Current THD  
+- THD de voltaje  
+- THD de corriente  
 
-A low THD value indicates a waveform close to a pure sine wave.
+Un valor bajo de THD indica una forma de onda cercana a una onda sinusoidal pura.
 
-A high THD value indicates significant distortion caused by harmonic components.
+Un valor alto de THD indica distorsión significativa causada por componentes armónicos.
 
-THD depends on:
+La THD depende de:
 
-- The number and magnitude of harmonic frequencies present  
-- The type of loads connected to the system  
-- The impedance of the electrical network  
+- El número y la magnitud de las frecuencias armónicas presentes  
+- El tipo de cargas conectadas al sistema  
+- La impedancia de la red eléctrica  
 
-## Applications
+## Aplicaciones
 
-THD is used in:
+La THD se utiliza en:
 
-- Power quality monitoring and analysis  
-- Evaluation of systems with nonlinear loads  
-- Design and verification of harmonic mitigation solutions  
-- Industrial facilities with drives, converters, and electronic equipment  
-- Compliance with power quality standards  
+- Monitoreo y análisis de calidad de energía  
+- Evaluación de sistemas con cargas no lineales  
+- Diseño y verificación de soluciones de mitigación armónica  
+- Instalaciones industriales con variadores, convertidores y equipos electrónicos  
+- Cumplimiento de normas de calidad de energía  
 
-It is a key parameter in modern power systems.
+Es un parámetro clave en los sistemas de potencia modernos.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Acceptable limits**  
-  Voltage THD is usually kept within defined limits for proper operation  
+- **Límites aceptables**  
+  La THD de voltaje generalmente se mantiene dentro de límites definidos para una operación adecuada  
 
-- **Load type**  
-  Nonlinear loads increase current distortion and can affect voltage THD  
+- **Tipo de carga**  
+  Las cargas no lineales incrementan la distorsión de corriente y pueden afectar la THD de voltaje  
 
-- **System strength**  
-  Strong systems are less affected by harmonic currents  
+- **Robustez del sistema**  
+  Los sistemas robustos se ven menos afectados por las corrientes armónicas  
 
-- **Measurement location**  
-  THD values vary depending on where they are measured  
+- **Ubicación de la medición**  
+  Los valores de THD varían según el punto donde se miden  
 
-- **Impact on equipment**  
-  High THD can cause overheating, losses, and malfunction  
+- **Impacto en el equipo**  
+  Una THD alta puede causar sobrecalentamiento, pérdidas y mal funcionamiento  
 
-- **Mitigation methods**  
-  Filters and system design improvements help reduce THD  
+- **Métodos de mitigación**  
+  Los filtros y las mejoras en el diseño del sistema ayudan a reducir la THD  
 
-## Practical Notes
+## Notas prácticas
 
-- Low current THD does not always guarantee low voltage THD  
-- High THD levels can lead to overheating of transformers and cables  
-- Monitoring THD over time helps detect changes in system behavior  
-- Adding nonlinear loads without analysis can degrade power quality  
-- Mitigation should focus on the main sources of distortion  
+- Una THD de corriente baja no siempre garantiza una THD de voltaje baja  
+- Niveles altos de THD pueden provocar sobrecalentamiento en transformadores y cables  
+- Monitorear la THD a lo largo del tiempo ayuda a detectar cambios en el comportamiento del sistema  
+- Agregar cargas no lineales sin análisis puede degradar la calidad de energía  
+- La mitigación debe enfocarse en las principales fuentes de distorsión  

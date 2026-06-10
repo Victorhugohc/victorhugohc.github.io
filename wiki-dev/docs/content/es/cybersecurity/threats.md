@@ -1,86 +1,86 @@
-# Cybersecurity Threats
+# Amenazas de ciberseguridad
 
-## Overview
+## Descripción general
 
-Cybersecurity threats in industrial systems are actions or conditions that can compromise system operation, data integrity, or safety.
+Las amenazas de ciberseguridad en sistemas industriales son acciones o condiciones que pueden comprometer la operación del sistema, la integridad de los datos o la seguridad.
 
-These threats can originate from external attackers, internal users, or unintended system behavior. In industrial environments, the impact is not limited to data loss. It can directly affect physical processes and equipment.
+Estas amenazas pueden originarse de atacantes externos, usuarios internos o comportamientos no intencionados del sistema. En entornos industriales, el impacto no se limita a la pérdida de datos, sino que puede afectar directamente procesos físicos y equipos.
 
-## Purpose
+## Propósito
 
-Understanding threats helps to:
+Comprender las amenazas ayuda a:
 
-- Identify vulnerabilities in the system  
-- Define appropriate protection measures  
-- Reduce the likelihood of system disruption  
-- Improve response and recovery strategies  
+- Identificar vulnerabilidades en el sistema  
+- Definir medidas de protección adecuadas  
+- Reducir la probabilidad de interrupciones del sistema  
+- Mejorar las estrategias de respuesta y recuperación  
 
-A clear view of threats is necessary to design effective cybersecurity controls.
+Una visión clara de las amenazas es necesaria para diseñar controles de ciberseguridad efectivos.
 
-## How It Works
+## Cómo funciona
 
-Threats exploit weaknesses in systems, networks, or human behavior.
+Las amenazas explotan debilidades en sistemas, redes o en el comportamiento humano.
 
-Common mechanisms include:
+Los mecanismos comunes incluyen:
 
-- Unauthorized access through weak credentials or exposed systems  
-- Malware that disrupts or manipulates system operation  
-- Network-based attacks that intercept or alter communications  
-- Misconfiguration of devices or security settings  
-- Human actions such as errors or misuse of access  
+- Acceso no autorizado mediante credenciales débiles o sistemas expuestos  
+- Malware que interrumpe o manipula la operación del sistema  
+- Ataques de red que interceptan o alteran las comunicaciones  
+- Configuración incorrecta de dispositivos o parámetros de seguridad  
+- Acciones humanas como errores o uso indebido de accesos  
 
-Threats are often a combination of technical and human factors rather than a single failure.
+Las amenazas suelen ser una combinación de factores técnicos y humanos, más que una sola falla.
 
-## Applications
+## Aplicaciones
 
-Threat analysis is relevant across all parts of an industrial system, including:
+El análisis de amenazas es relevante en todas las partes de un sistema industrial, incluyendo:
 
-- Control systems and PLCs  
-- SCADA and monitoring platforms  
-- Industrial communication networks  
-- Remote access infrastructure  
-- Engineering and maintenance workstations  
+- Sistemas de control y PLC  
+- Plataformas SCADA y de monitoreo  
+- Redes de comunicación industrial  
+- Infraestructura de acceso remoto  
+- Estaciones de ingeniería y mantenimiento  
 
-It is used during system design, operation, and maintenance.
+Se utiliza durante el diseño, la operación y el mantenimiento del sistema.
 
-## Key Considerations
+## Consideraciones clave
 
-- Industrial systems prioritize availability, making shutdowns difficult  
-- Many systems were not designed with cybersecurity in mind  
-- Legacy devices may lack authentication or encryption  
-- Increased connectivity expands the attack surface  
-- Insider access can bypass many technical protections  
+- Los sistemas industriales priorizan la disponibilidad, lo que dificulta paros o apagados  
+- Muchos sistemas no fueron diseñados pensando en ciberseguridad  
+- Dispositivos legacy pueden carecer de autenticación o cifrado  
+- El aumento de la conectividad amplía la superficie de ataque  
+- El acceso interno puede evadir muchas protecciones técnicas  
 
-Threats must be evaluated based on their potential impact on operations and safety.
+Las amenazas deben evaluarse en función de su impacto potencial en la operación y la seguridad.
 
-## Practical Notes
+## Notas prácticas
 
-### Common Threat Types
+### Tipos comunes de amenazas
 
 - **Malware**  
-  Software designed to disrupt, damage, or gain unauthorized control of systems  
+  Software diseñado para interrumpir, dañar o tomar control no autorizado de sistemas  
 
 - **Ransomware**  
-  Blocks access to systems or data until a payment is made  
+  Bloquea el acceso a sistemas o datos hasta que se realiza un pago  
 
-- **Unauthorized Access**  
-  Entry into systems using stolen or weak credentials  
+- **Acceso no autorizado**  
+  Entrada a sistemas mediante credenciales robadas o débiles  
 
-- **Network Attacks**  
-  Interception, modification, or flooding of network traffic  
+- **Ataques de red**  
+  Intercepción, modificación o saturación del tráfico de red  
 
-- **Insider Threats**  
-  Actions by authorized users that cause harm, intentionally or accidentally  
+- **Amenazas internas (Insider Threats)**  
+  Acciones de usuarios autorizados que causan daño, de forma intencional o accidental  
 
-- **Supply Chain Risks**  
-  Compromised software, hardware, or updates introduced from external sources  
+- **Riesgos en la cadena de suministro (Supply Chain)**  
+  Software, hardware o actualizaciones comprometidas provenientes de fuentes externas  
 
-### Common Mistakes
+### Errores comunes
 
-- Assuming industrial networks are isolated and safe  
-- Using default or shared passwords  
-- Ignoring updates due to fear of downtime  
-- Allowing unrestricted remote access  
-- Lack of monitoring and event logging  
+- Asumir que las redes industriales están aisladas y son seguras  
+- Usar contraseñas por defecto o compartidas  
+- Ignorar actualizaciones por temor a afectar la operación  
+- Permitir acceso remoto sin restricciones  
+- Falta de monitoreo y registro de eventos  
 
-Effective threat management requires continuous evaluation, not a one time effort.
+La gestión de amenazas efectiva requiere evaluación continua, no es un esfuerzo de una sola vez.

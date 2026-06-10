@@ -1,81 +1,81 @@
-# Power Quality Monitoring
+# Monitoreo de calidad de energía
 
-## Overview
+## Descripción general
 
-Power quality monitoring is the process of measuring and analyzing electrical parameters to detect disturbances and assess system performance.
+El monitoreo de calidad de energía es el proceso de medir y analizar parámetros eléctricos para detectar perturbaciones y evaluar el desempeño del sistema.
 
-It provides visibility into how voltage, current, and waveform conditions behave over time.
+Proporciona visibilidad sobre cómo se comportan el voltaje, la corriente y las condiciones de la forma de onda a lo largo del tiempo.
 
-Monitoring is essential for identifying issues such as sags, swells, harmonics, and transients.
+El monitoreo es esencial para identificar problemas como caídas de voltaje, sobretensiones, armónicos y transitorios.
 
-## Purpose
+## Propósito
 
-The purpose of power quality monitoring is to:
+El propósito del monitoreo de calidad de energía es:
 
-- Detect and record power quality disturbances  
-- Identify the source of electrical issues  
-- Support troubleshooting and corrective actions  
-- Verify system performance and compliance  
-- Improve reliability and reduce downtime  
+- Detectar y registrar perturbaciones de calidad de energía  
+- Identificar la fuente de problemas eléctricos  
+- Apoyar la resolución de problemas y las acciones correctivas  
+- Verificar el desempeño del sistema y el cumplimiento normativo  
+- Mejorar la confiabilidad y reducir el tiempo de inactividad  
 
-Without monitoring, many power quality problems remain unnoticed until failures occur.
+Sin monitoreo, muchos problemas de calidad de energía permanecen inadvertidos hasta que ocurren fallas.
 
-## How It Works
+## Cómo funciona
 
-Monitoring systems use measurement devices installed at key points in the electrical system.
+Los sistemas de monitoreo utilizan dispositivos de medición instalados en puntos clave del sistema eléctrico.
 
-These devices continuously record parameters such as:
+Estos dispositivos registran continuamente parámetros tales como:
 
-- Voltage and current levels  
-- Frequency  
-- Harmonic distortion  
-- Event based disturbances like sags or surges  
+- Niveles de voltaje y corriente  
+- Frecuencia  
+- Distorsión armónica  
+- Perturbaciones basadas en eventos como caídas de voltaje o sobretensiones  
 
-Data is stored and analyzed to identify patterns, trends, and abnormal events.
+Los datos se almacenan y analizan para identificar patrones, tendencias y eventos anormales.
 
-Advanced systems can trigger alarms or generate reports when thresholds are exceeded.
+Los sistemas avanzados pueden activar alarmas o generar informes cuando se superan los umbrales.
 
-Monitoring can be:
+El monitoreo puede ser:
 
-- Continuous for critical systems  
-- Temporary for troubleshooting specific issues  
+- Continuo para sistemas críticos  
+- Temporal para resolver problemas específicos  
 
-## Applications
+## Aplicaciones
 
-Power quality monitoring is used in:
+El monitoreo de calidad de energía se utiliza en:
 
-- Industrial facilities with sensitive equipment  
-- Systems experiencing frequent disturbances  
-- Critical infrastructure requiring high reliability  
-- Facilities with high levels of nonlinear loads  
-- Energy management and optimization programs  
+- Instalaciones industriales con equipos sensibles  
+- Sistemas que experimentan perturbaciones frecuentes  
+- Infraestructura crítica que requiere alta confiabilidad  
+- Instalaciones con altos niveles de cargas no lineales  
+- Programas de gestión y optimización de energía  
 
-It is valuable both during design validation and ongoing operation.
+Es valioso tanto durante la validación del diseño como en la operación continua.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Measurement location**  
-  Monitoring points should be selected to capture relevant data  
+- **Ubicación de la medición**  
+  Los puntos de monitoreo deben seleccionarse para capturar datos relevantes  
 
-- **Parameters tracked**  
-  Must align with expected issues such as harmonics or voltage events  
+- **Parámetros monitoreados**  
+  Deben alinearse con los problemas esperados, como armónicos o eventos de voltaje  
 
-- **Data resolution**  
-  High speed events require appropriate sampling rates  
+- **Resolución de datos**  
+  Los eventos de alta velocidad requieren tasas de muestreo adecuadas  
 
-- **Data analysis**  
-  Tools and expertise are needed to interpret results  
+- **Análisis de datos**  
+  Se necesitan herramientas y experiencia para interpretar los resultados  
 
-- **Integration**  
-  Monitoring systems may connect to SCADA or data platforms  
+- **Integración**  
+  Los sistemas de monitoreo pueden conectarse a SCADA o plataformas de datos  
 
-- **Cost and complexity**  
-  Must be balanced with the importance of the system  
+- **Costo y complejidad**  
+  Deben equilibrarse con la importancia del sistema  
 
-## Practical Notes
+## Notas prácticas
 
-- Installing monitors at main and critical loads provides better visibility  
-- Temporary monitoring is useful for diagnosing intermittent problems  
-- Long term data helps identify recurring patterns and root causes  
-- Poor data interpretation can lead to incorrect conclusions  
-- Monitoring should be combined with corrective actions for real improvement  
+- Instalar monitores en cargas principales y críticas proporciona mejor visibilidad  
+- El monitoreo temporal es útil para diagnosticar problemas intermitentes  
+- Los datos a largo plazo ayudan a identificar patrones recurrentes y causas raíz  
+- Una interpretación deficiente de los datos puede llevar a conclusiones incorrectas  
+- El monitoreo debe combinarse con acciones correctivas para lograr una mejora real  

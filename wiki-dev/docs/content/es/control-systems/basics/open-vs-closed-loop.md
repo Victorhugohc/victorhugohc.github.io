@@ -1,93 +1,93 @@
-# Open vs Closed Loop Control
+# Control en Lazo Abierto vs Lazo Cerrado
 
-## Overview
+## Descripción general
 
-Control systems can be classified based on how they use feedback.
+Los sistemas de control pueden clasificarse según el uso de retroalimentación.
 
-An open loop system operates without measuring the result. A closed loop system continuously measures the output and adjusts its behavior to reach a desired value.
+Un sistema en lazo abierto opera sin medir el resultado. Un sistema en lazo cerrado mide continuamente la salida y ajusta su comportamiento para alcanzar un valor deseado.
 
-This distinction defines how accurate and adaptive a control system can be.
+Esta diferencia define qué tan preciso y adaptable puede ser un sistema de control.
 
-## Purpose
+## Propósito
 
-The purpose of choosing between open and closed loop control is to balance simplicity, cost, and performance.
+El propósito de elegir entre control en lazo abierto o cerrado es equilibrar simplicidad, costo y desempeño.
 
-Open loop control is used when the relationship between input and output is predictable.
+El control en lazo abierto se utiliza cuando la relación entre entrada y salida es predecible.
 
-Closed loop control is used when accuracy, stability, or disturbance rejection is required.
+El control en lazo cerrado se utiliza cuando se requiere precisión, estabilidad o rechazo a perturbaciones.
 
-## How It Works
+## Cómo funciona
 
-### Open Loop Control
+### Control en lazo abierto
 
-In an open loop system, the control action is independent of the actual output.
+En un sistema en lazo abierto, la acción de control es independiente de la salida real.
 
-The system sends a command without verifying the result.
+El sistema envía una orden sin verificar el resultado.
 
-Basic concept:
+Concepto básico:
 
-- Input command is applied  
-- System executes action  
-- No feedback is used  
+- Se aplica una entrada  
+- El sistema ejecuta la acción  
+- No se utiliza retroalimentación  
 
-Example behavior:
+Ejemplos de comportamiento:
 
-- A motor runs for a fixed time  
-- A valve opens to a fixed position  
-- A heater runs for a preset duration  
+- Un motor funciona durante un tiempo fijo  
+- Una válvula se abre a una posición fija  
+- Un calentador opera por un tiempo predefinido  
 
-Any disturbance or variation is not corrected.
+Cualquier perturbación o variación no es corregida.
 
-### Closed Loop Control
+### Control en lazo cerrado
 
-In a closed loop system, the output is measured and compared to a desired value called the setpoint.
+En un sistema en lazo cerrado, la salida se mide y se compara con un valor deseado llamado punto de consigna (setpoint).
 
-The controller adjusts the input based on the difference between the measured value and the setpoint.
+El controlador ajusta la entrada con base en la diferencia entre el valor medido y el setpoint.
 
-Basic concept:
+Concepto básico:
 
-- Measure the process variable  
-- Compare with setpoint  
-- Calculate error  
-- Adjust control output  
+- Medir la variable del proceso  
+- Comparar con el setpoint  
+- Calcular el error  
+- Ajustar la salida de control  
 
-This continuous correction allows the system to maintain the desired condition even with disturbances.
+Esta corrección continua permite mantener la condición deseada incluso ante perturbaciones.
 
-## Applications
+## Aplicaciones
 
-### Open Loop
+### Lazo abierto
 
-- Simple timing based operations  
-- Conveyor systems with fixed speeds  
-- Basic sequencing where precision is not critical  
+- Operaciones simples basadas en tiempo  
+- Sistemas de bandas transportadoras con velocidad fija  
+- Secuencias básicas donde la precisión no es crítica  
 
-### Closed Loop
+### Lazo cerrado
 
-- Temperature control systems  
-- Pressure and flow regulation  
-- Motor speed control  
-- Position control in automation systems  
+- Sistemas de control de temperatura  
+- Regulación de presión y flujo  
+- Control de velocidad de motores  
+- Control de posición en sistemas de automatización  
 
-Closed loop control is standard in most industrial processes where conditions can vary.
+El control en lazo cerrado es estándar en la mayoría de procesos industriales donde las condiciones pueden variar.
 
-## Key Considerations
+## Consideraciones clave
 
-Open loop systems are simpler and less expensive but depend heavily on stable conditions.
+Los sistemas en lazo abierto son más simples y económicos, pero dependen de condiciones estables.
 
-Closed loop systems require sensors, tuning, and more complex logic.
+Los sistemas en lazo cerrado requieren sensores, ajuste (tuning) y lógica más compleja.
 
-Accuracy requirements drive the choice. High precision systems require feedback.
+Los requerimientos de precisión determinan la elección. Sistemas de alta precisión requieren retroalimentación.
 
-Response to disturbances is only possible in closed loop systems.
+La respuesta a perturbaciones solo es posible en sistemas de lazo cerrado.
 
-System stability must be considered in closed loop design. Poor tuning can cause oscillations or instability.
+La estabilidad del sistema debe considerarse en el diseño de lazo cerrado. Un mal ajuste puede provocar oscilaciones o inestabilidad.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is using open loop control in processes with high variability. This leads to inconsistent results.
+Un error común es usar control en lazo abierto en procesos con alta variabilidad, lo que genera resultados inconsistentes.
 
-Closed loop control improves performance but introduces complexity. Sensor reliability and signal quality become critical.
+El control en lazo cerrado mejora el desempeño, pero añade complejidad. La confiabilidad de sensores y la calidad de señal son críticas.
 
-Not all systems need full closed loop control. In some cases, a hybrid approach is used, where open loop actions are combined with feedback correction.
+No todos los sistemas requieren lazo cerrado completo. En algunos casos se utiliza un enfoque híbrido, combinando acciones en lazo abierto con correcciones por retroalimentación.
 
-When implementing closed loop control, proper tuning is essential to avoid slow response or excessive oscillation.
+Al implementar control en lazo cerrado, un ajuste adecuado es esencial para evitar respuestas lentas u oscilaciones excesivas.

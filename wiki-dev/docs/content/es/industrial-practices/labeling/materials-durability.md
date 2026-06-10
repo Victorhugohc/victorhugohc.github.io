@@ -1,64 +1,64 @@
-# Materials and Durability
+# Materiales y Durabilidad
 
-## Overview
+## Descripción general
 
-Label materials determine how well identification remains readable and attached over time.
+Los materiales de etiquetas determinan qué tan bien la identificación permanece legible y adherida con el tiempo.
 
-In industrial environments, labels are exposed to temperature changes, moisture, chemicals, mechanical stress, and UV radiation. The selected material must withstand these conditions without degrading.
+En entornos industriales, las etiquetas están expuestas a cambios de temperatura, humedad, químicos, esfuerzo mecánico y radiación UV. El material seleccionado debe resistir estas condiciones sin degradarse.
 
-Durability is a key factor in maintaining reliable identification throughout the system lifecycle.
+La durabilidad es un factor clave para mantener una identificación confiable a lo largo del ciclo de vida del sistema.
 
-## Purpose
+## Propósito
 
-The purpose of selecting proper materials is to ensure that labels:
+El propósito de seleccionar materiales adecuados es asegurar que las etiquetas:
 
-- Remain legible over time  
-- Stay attached under real operating conditions  
-- Resist environmental and mechanical stress  
-- Maintain consistency with system documentation  
+- Permanezcan legibles con el tiempo  
+- Permanezcan adheridas bajo condiciones reales de operación  
+- Resistan el esfuerzo ambiental y mecánico  
+- Mantengan la consistencia con la documentación del sistema  
 
-Poor material selection leads to fading, detachment, or loss of information.
+La selección deficiente de materiales conduce a desvanecimiento, desprendimiento o pérdida de información.
 
-## How It Works
+## Cómo funciona
 
-Label durability depends on the combination of material, printing method, and protective properties.
+La durabilidad de las etiquetas depende de la combinación de material, método de impresión y propiedades protectoras.
 
-Common material categories include:
+Las categorías comunes de materiales incluyen:
 
-- Plastic films such as polyester or vinyl for general industrial use  
-- Heat shrink tubing for cable identification with strong mechanical grip  
-- Laminated labels with protective layers against abrasion and chemicals  
-- Metal plates such as aluminum or stainless steel for harsh environments  
-- Paper based labels for temporary or indoor use  
+- Películas plásticas como poliéster o vinilo para uso industrial general  
+- Tubo termocontraíble para identificación de cables con fuerte agarre mecánico  
+- Etiquetas laminadas con capas protectoras contra abrasión y químicos  
+- Placas metálicas como aluminio o acero inoxidable para entornos severos  
+- Etiquetas de papel para uso temporal o en interiores  
 
-Each material has different resistance to heat, chemicals, moisture, and mechanical wear.
+Cada material tiene diferente resistencia al calor, químicos, humedad y desgaste mecánico.
 
-Printing methods also affect durability. Thermal transfer printing and engraving provide longer lasting results compared to ink based methods.
+Los métodos de impresión también afectan la durabilidad. La impresión por transferencia térmica y el grabado proporcionan resultados más duraderos comparados con métodos basados en tinta.
 
-## Applications
+## Aplicaciones
 
-Material selection is critical in environments such as:
+La selección de material es crítica en entornos como:
 
-- Outdoor installations exposed to sunlight and weather  
-- Industrial areas with oils, solvents, or cleaning agents  
-- High temperature zones near motors or power equipment  
-- Areas with vibration or frequent handling  
-- Control panels requiring long term readability  
+- Instalaciones exteriores expuestas a la luz solar y el clima  
+- Áreas industriales con aceites, solventes o agentes de limpieza  
+- Zonas de alta temperatura cerca de motores o equipo de potencia  
+- Áreas con vibración o manipulación frecuente  
+- Tableros de control que requieren legibilidad a largo plazo  
 
-## Key Considerations
+## Consideraciones clave
 
-- Temperature range of the environment  
-- Exposure to chemicals, oils, or cleaning processes  
-- Mechanical stress such as vibration or abrasion  
-- UV exposure in outdoor applications  
-- Expected lifespan of the system  
+- Rango de temperatura del entorno  
+- Exposición a químicos, aceites o procesos de limpieza  
+- Esfuerzo mecánico como vibración o abrasión  
+- Exposición a UV en aplicaciones exteriores  
+- Vida útil esperada del sistema  
 
-The material must be selected to match the most demanding condition expected.
+El material debe seleccionarse para coincidir con la condición más exigente esperada.
 
-## Practical Notes
+## Notas prácticas
 
-- Labels that fade or peel create long term maintenance problems  
-- Laminated labels provide additional protection in harsh conditions  
-- Metal labels are preferred for critical equipment identification  
-- Temporary labels should not be used in permanent installations  
-- Always verify material compatibility before large scale application  
+- Las etiquetas que se desvanecen o se desprenden crean problemas de mantenimiento a largo plazo  
+- Las etiquetas laminadas proporcionan protección adicional en condiciones severas  
+- Las etiquetas metálicas son preferidas para identificación de equipo crítico  
+- Las etiquetas temporales no deben utilizarse en instalaciones permanentes  
+- Siempre verifique la compatibilidad del material antes de una aplicación a gran escala

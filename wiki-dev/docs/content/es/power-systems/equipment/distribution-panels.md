@@ -1,74 +1,74 @@
-# Distribution Panels
+# Paneles de distribución
 
-## Overview
+## Descripción general
 
-Distribution panels are enclosures that divide electrical power into smaller branch circuits at low voltage.
+Los paneles de distribución son gabinetes que dividen la energía eléctrica en circuitos derivados más pequeños a baja tensión.
 
-They receive power from upstream equipment and distribute it to final loads such as lighting, outlets, small motors, and control systems.
+Reciben energía del equipo aguas arriba y la distribuyen a cargas finales como iluminación, contactos, motores pequeños y sistemas de control.
 
-Distribution panels are typically located close to the areas they serve to reduce cable length and improve system organization.
+Los paneles de distribución típicamente se ubican cerca de las áreas que sirven para reducir la longitud del cableado y mejorar la organización del sistema.
 
-## Purpose
+## Propósito
 
-The purpose of distribution panels is to:
+El propósito de los paneles de distribución es:
 
-- Distribute power to individual circuits and loads  
-- Provide localized protection and isolation  
-- Simplify wiring and reduce cable routing complexity  
-- Enable safe access for operation and maintenance  
+- Distribuir energía a circuitos y cargas individuales  
+- Proporcionar protección y aislamiento localizados  
+- Simplificar el cableado y reducir la complejidad del enrutamiento  
+- Permitir acceso seguro para operación y mantenimiento  
 
-They represent the final stage of power distribution before energy reaches end use equipment.
+Representan la etapa final de distribución de energía antes de que la energía llegue al equipo de uso final.
 
-## How It Works
+## Cómo funciona
 
-Power is supplied to the distribution panel through a feeder from a switchboard or similar source.
+La energía se suministra al panel de distribución a través de un alimentador desde un tablero de distribución o una fuente similar.
 
-Inside the panel:
+Dentro del panel:
 
-- Busbars distribute power across the panel  
-- Circuit breakers protect individual branch circuits  
-- Each outgoing circuit feeds a specific load or group of loads  
+- Las barras colectoras distribuyen energía a través del panel  
+- Los interruptores automáticos protegen los circuitos derivados individuales  
+- Cada circuito de salida alimenta una carga específica o un grupo de cargas  
 
-When a fault occurs in a branch circuit, the corresponding breaker trips, isolating only that circuit.
+Cuando ocurre una falla en un circuito derivado, el interruptor automático correspondiente se dispara, aislando solo ese circuito.
 
-This prevents faults from affecting other loads connected to the same panel.
+Esto evita que las fallas afecten otras cargas conectadas al mismo panel.
 
-## Applications
+## Aplicaciones
 
-Distribution panels are used in:
+Los paneles de distribución se utilizan en:
 
-- Lighting and receptacle circuits  
-- Small motor loads and auxiliary equipment  
-- Control panels and automation systems  
-- Commercial and industrial building services  
-- Local distribution in production areas  
+- Circuitos de iluminación y contactos  
+- Cargas de motores pequeños y equipo auxiliar  
+- Tableros de control y sistemas de automatización  
+- Servicios de edificios comerciales e industriales  
+- Distribución local en áreas de producción  
 
-They are installed throughout facilities to bring power closer to the point of use.
+Se instalan en toda la instalación para acercar la energía al punto de uso.
 
-## Key Considerations
+## Consideraciones clave
 
-- **Number of circuits**  
-  Must support current loads and allow spare capacity for expansion  
+- **Número de circuitos**  
+  Debe soportar las cargas actuales y permitir capacidad de reserva para expansión  
 
-- **Current rating**  
-  Panel and busbars must handle the total load demand  
+- **Capacidad de corriente**  
+  El panel y las barras colectoras deben manejar la demanda total de carga  
 
-- **Breaker selection**  
-  Proper ratings ensure protection and coordination with upstream devices  
+- **Selección de interruptores automáticos**  
+  Las capacidades adecuadas aseguran protección y coordinación con los dispositivos aguas arriba  
 
-- **Short circuit rating**  
-  Must match available fault current at the installation point  
+- **Capacidad de cortocircuito**  
+  Debe coincidir con la corriente de falla disponible en el punto de instalación  
 
-- **Location**  
-  Should minimize cable length and allow safe access  
+- **Ubicación**  
+  Debe minimizar la longitud del cableado y permitir acceso seguro  
 
-- **Environmental conditions**  
-  Enclosure type must match dust, moisture, and temperature conditions  
+- **Condiciones ambientales**  
+  El tipo de gabinete debe coincidir con las condiciones de polvo, humedad y temperatura  
 
-## Practical Notes
+## Notas prácticas
 
-- Overloaded panels are a common issue in expanding facilities  
-- Poor labeling makes troubleshooting and maintenance difficult  
-- Keeping spare breaker space reduces future installation effort  
-- Proper tightening of terminals prevents overheating and failures  
-- Panels should be installed at accessible heights for safe operation  
+- Los paneles sobrecargados son un problema común en instalaciones en expansión  
+- El etiquetado deficiente dificulta el diagnóstico y el mantenimiento  
+- Mantener espacio de reserva para interruptores automáticos reduce el esfuerzo de instalación futura  
+- El apriete adecuado de terminales previene sobrecalentamiento y fallas  
+- Los paneles deben instalarse a alturas accesibles para una operación segura  

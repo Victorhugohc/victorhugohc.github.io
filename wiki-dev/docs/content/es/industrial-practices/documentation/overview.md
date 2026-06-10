@@ -1,62 +1,62 @@
-# Documentation Overview
+# Documentación
 
-## Overview
+## Descripción general
 
-Documentation in industrial systems is the structured information that describes how a system is designed, built, and operated.
+La documentación en sistemas industriales es la información estructurada que describe cómo se diseña, construye y opera un sistema.
 
-It provides a clear representation of the system, allowing users to understand its structure, behavior, and requirements without relying on assumptions.
+Proporciona una representación clara del sistema, permitiendo a los usuarios comprender su estructura, comportamiento y requisitos sin depender de suposiciones.
 
-Documentation connects design intent with real world implementation.
+La documentación conecta la intención del diseño con la implementación en el mundo real.
 
-## Purpose
+## Propósito
 
-The purpose of documentation is to ensure that accurate and accessible information is available for all stages of the system lifecycle.
+El propósito de la documentación es asegurar que información precisa y accesible esté disponible para todas las etapas del ciclo de vida del sistema.
 
-This helps to:
+Esto ayuda a:
 
-- Support safe and correct operation  
-- Enable efficient maintenance and troubleshooting  
-- Preserve system knowledge over time  
-- Ensure consistency between design and installation  
+- Apoyar una operación segura y correcta  
+- Permitir un mantenimiento y diagnóstico eficientes  
+- Preservar el conocimiento del sistema con el tiempo  
+- Asegurar la consistencia entre el diseño y la instalación  
 
-## How It Works
+## Cómo funciona
 
-Documentation is created during design and updated throughout installation, commissioning, and operation.
+La documentación se crea durante el diseño y se actualiza a lo largo de la instalación, la puesta en marcha y la operación.
 
-It typically includes:
+Típicamente incluye:
 
-- System descriptions and functional information  
-- Drawings and diagrams  
-- Component identification and specifications  
-- Operating procedures  
-- Maintenance instructions  
+- Descripciones del sistema e información funcional  
+- Planos y diagramas  
+- Identificación y especificaciones de componentes  
+- Procedimientos de operación  
+- Instrucciones de mantenimiento  
 
-All documentation must reflect the actual system configuration. Changes in the field must be recorded to maintain accuracy.
+Toda la documentación debe reflejar la configuración real del sistema. Los cambios en campo deben registrarse para mantener la precisión.
 
-## Applications
+## Aplicaciones
 
-Documentation is used in:
+La documentación se utiliza en:
 
-- System design and engineering  
-- Installation and commissioning  
-- Daily operation  
-- Troubleshooting and maintenance  
-- System upgrades and modifications  
+- Diseño e ingeniería de sistemas  
+- Instalación y puesta en marcha  
+- Operación diaria  
+- Diagnóstico y mantenimiento  
+- Actualizaciones y modificaciones del sistema  
 
-It is essential for all personnel interacting with the system.
+Es esencial para todo el personal que interactúa con el sistema.
 
-## Key Considerations
+## Consideraciones clave
 
-- Documentation must match the real system exactly  
-- Information must be clear and easy to interpret  
-- Version control is required to avoid outdated data  
-- Documentation should be easily accessible  
-- Level of detail must match system complexity  
+- La documentación debe coincidir exactamente con el sistema real  
+- La información debe ser clara y fácil de interpretar  
+- Se requiere control de versiones para evitar datos desactualizados  
+- La documentación debe ser fácilmente accesible  
+- El nivel de detalle debe corresponder a la complejidad del sistema  
 
-## Practical Notes
+## Notas prácticas
 
-- Incomplete or outdated documentation leads to errors  
-- Clear structure improves usability under time pressure  
-- Standardized formats improve communication between teams  
-- Documentation reduces dependence on individual experience  
-- Always update documentation after any system change  
+- La documentación incompleta o desactualizada conduce a errores  
+- Una estructura clara mejora la usabilidad bajo presión de tiempo  
+- Los formatos estandarizados mejoran la comunicación entre equipos  
+- La documentación reduce la dependencia de la experiencia individual  
+- Siempre actualice la documentación después de cualquier cambio en el sistema

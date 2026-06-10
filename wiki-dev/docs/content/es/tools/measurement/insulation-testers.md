@@ -1,69 +1,69 @@
-# Insulation Testers
+# Probadores de aislamiento
 
-## Overview
+## Descripción general
 
-Insulation testers are instruments used to measure the resistance of electrical insulation in cables, motors, and equipment.
+Los probadores de aislamiento son instrumentos utilizados para medir la resistencia del aislamiento eléctrico en cables, motores y equipos.
 
-They help determine the condition of insulation by applying a high DC voltage and measuring leakage current. This provides an indication of insulation integrity and potential degradation.
+Ayudan a determinar el estado del aislamiento aplicando un voltaje CC elevado y midiendo la corriente de fuga. Esto proporciona una indicación de la integridad del aislamiento y la posible degradación.
 
-## Purpose
+## Propósito
 
-The purpose of insulation testing is to:
+El propósito de las pruebas de aislamiento es:
 
-- Verify the integrity of insulation in electrical systems  
-- Detect deterioration due to moisture, aging, or contamination  
-- Prevent electrical faults and short circuits  
-- Ensure safe operation of equipment  
+- Verificar la integridad del aislamiento en sistemas eléctricos  
+- Detectar el deterioro debido a humedad, envejecimiento o contaminación  
+- Prevenir fallas eléctricas y cortocircuitos  
+- Garantizar la operación segura del equipo  
 
-It is a critical tool for preventive maintenance and commissioning.
+Es una herramienta crítica para el mantenimiento preventivo y la puesta en marcha.
 
-## How It Works
+## Cómo funciona
 
-An insulation tester applies a controlled high DC voltage between conductors or between a conductor and ground.
+Un probador de aislamiento aplica un voltaje CC elevado controlado entre conductores o entre un conductor y tierra.
 
-The instrument measures the resulting leakage current and calculates insulation resistance using this relationship:
+El instrumento mide la corriente de fuga resultante y calcula la resistencia de aislamiento utilizando esta relación:
 
-- High resistance indicates good insulation  
-- Low resistance indicates potential insulation failure  
+- Alta resistencia indica buen aislamiento  
+- Baja resistencia indica posible falla de aislamiento  
 
-Test voltages vary depending on the system, commonly ranging from hundreds to several thousand volts.
+Los voltajes de prueba varían según el sistema, comúnmente desde cientos hasta varios miles de voltios.
 
-Some testers include advanced features such as:
+Algunos probadores incluyen funciones avanzadas como:
 
-- Timed tests to observe insulation behavior over time  
-- Polarization index and dielectric absorption measurements  
-- Automatic discharge after testing  
+- Pruebas temporizadas para observar el comportamiento del aislamiento a lo largo del tiempo  
+- Mediciones de índice de polarización y absorción dieléctrica  
+- Descarga automática después de la prueba  
 
-The test must be performed with the equipment de-energized.
+La prueba debe realizarse con el equipo desenergizado.
 
-## Applications
+## Aplicaciones
 
-Insulation testers are used in:
+Los probadores de aislamiento se utilizan en:
 
-- Testing power and control cables  
-- Evaluating motor winding insulation  
-- Commissioning electrical installations  
-- Maintenance of transformers and generators  
-- Troubleshooting insulation related faults  
+- Prueba de cables de potencia y control  
+- Evaluación del aislamiento de devanados de motores  
+- Puesta en marcha de instalaciones eléctricas  
+- Mantenimiento de transformadores y generadores  
+- Resolución de problemas relacionados con el aislamiento  
 
-They are essential in both low and medium voltage systems.
+Son esenciales tanto en sistemas de baja como de media tensión.
 
-## Key Considerations
+## Consideraciones clave
 
-- Equipment must be isolated and de-energized before testing  
-- Test voltage must match equipment rating  
-- Environmental conditions can affect results  
-- Results should be compared with baseline values or standards  
-- Repeated testing helps identify insulation degradation over time  
+- El equipo debe estar aislado y desenergizado antes de la prueba  
+- El voltaje de prueba debe coincidir con la clasificación del equipo  
+- Las condiciones ambientales pueden afectar los resultados  
+- Los resultados deben compararse con valores de referencia o normas  
+- Las pruebas repetidas ayudan a identificar la degradación del aislamiento a lo largo del tiempo  
 
-Incorrect test procedures can damage equipment or produce misleading results.
+Los procedimientos de prueba incorrectos pueden dañar el equipo o producir resultados engañosos.
 
-## Practical Notes
+## Notas prácticas
 
-- Always discharge equipment after testing  
-- Avoid testing sensitive electronic devices with high voltage  
-- Record results for trend analysis  
-- Clean and dry equipment before testing when possible  
-- Follow manufacturer guidelines for test voltage and duration  
+- Descargar siempre el equipo después de la prueba  
+- Evitar probar dispositivos electrónicos sensibles con alto voltaje  
+- Registrar los resultados para análisis de tendencias  
+- Limpiar y secar el equipo antes de la prueba cuando sea posible  
+- Seguir las directrices del fabricante para el voltaje y la duración de la prueba  
 
-Insulation testing provides early detection of failures that are not visible during normal operation.
+Las pruebas de aislamiento proporcionan detección temprana de fallas que no son visibles durante la operación normal.

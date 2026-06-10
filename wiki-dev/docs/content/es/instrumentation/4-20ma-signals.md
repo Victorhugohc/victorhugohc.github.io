@@ -1,96 +1,96 @@
-# 4-20 mA Signals
+# Señales 4-20 mA
 
-## Overview
+## Descripción general
 
-4-20 mA is a standard analog signal used in industrial instrumentation to transmit process variables.
+4-20 mA es una señal analógica estándar utilizada en instrumentación industrial para transmitir variables de proceso.
 
-It represents a measured value as an electrical current, where 4 mA corresponds to the minimum value and 20 mA to the maximum value.
+Representa un valor medido como una corriente eléctrica, donde 4 mA corresponde al valor mínimo y 20 mA al valor máximo.
 
-This standard is widely used due to its reliability and noise resistance.
+Este estándar se utiliza ampliamente debido a su confiabilidad y resistencia al ruido.
 
-## Purpose
+## Propósito
 
-The purpose of 4-20 mA signals is to provide a robust and consistent way to transmit analog measurements over distance.
+El propósito de las señales 4-20 mA es proporcionar una forma robusta y consistente de transmitir mediciones analógicas a distancia.
 
-It is used to:
+Se utiliza para:
 
-- Send process variables from field instruments to control systems  
-- Ensure signal integrity in industrial environments  
-- Standardize communication between devices  
+- Enviar variables de proceso desde instrumentos de campo a los sistemas de control  
+- Asegurar la integridad de la señal en entornos industriales  
+- Estandarizar la comunicación entre dispositivos  
 
-It is a key element in analog instrumentation systems.
+Es un elemento clave en los sistemas de instrumentación analógica.
 
-## How It Works
+## Cómo funciona
 
-A transmitter converts a physical measurement into a current signal within the 4-20 mA range.
+Un transmisor convierte una medición física en una señal de corriente dentro del rango 4-20 mA.
 
-### Signal Range
+### Rango de señal
 
-- 4 mA represents the minimum measurement value  
-- 20 mA represents the maximum measurement value  
+- 4 mA representa el valor mínimo de medición  
+- 20 mA representa el valor máximo de medición  
 
-Values between 4 and 20 mA correspond linearly to the measured variable.
+Los valores entre 4 y 20 mA corresponden linealmente a la variable medida.
 
-### Live Zero
+### Cero vivo
 
-The use of 4 mA instead of 0 mA allows detection of faults.
+El uso de 4 mA en lugar de 0 mA permite la detección de fallas.
 
-- 0 mA indicates a broken wire or loss of signal  
-- Values below 4 mA may indicate a fault condition  
+- 0 mA indica un cable roto o pérdida de señal  
+- Valores por debajo de 4 mA pueden indicar una condición de falla  
 
-This improves system reliability.
+Esto mejora la confiabilidad del sistema.
 
-### Current Loop
+### Lazo de corriente
 
-The signal is transmitted through a current loop.
+La señal se transmite a través de un lazo de corriente.
 
-- Current remains constant regardless of cable resistance  
-- Voltage varies as needed to maintain the current  
+- La corriente permanece constante independientemente de la resistencia del cable  
+- El voltaje varía según sea necesario para mantener la corriente  
 
-This makes the signal less sensitive to noise and voltage drops.
+Esto hace que la señal sea menos sensible al ruido y a las caídas de voltaje.
 
-### Conversion
+### Conversión
 
-At the receiving end, the current is converted into a usable value.
+En el extremo receptor, la corriente se convierte en un valor utilizable.
 
-- PLC analog input modules measure the current  
-- The signal is scaled to engineering units  
+- Los módulos de entrada analógica del PLC miden la corriente  
+- La señal se escala a unidades de ingeniería  
 
-This allows integration into control logic.
+Esto permite la integración en la lógica de control.
 
-## Applications
+## Aplicaciones
 
-4-20 mA signals are used in most industrial processes.
+Las señales 4-20 mA se utilizan en la mayoría de los procesos industriales.
 
-Typical applications include:
+Las aplicaciones típicas incluyen:
 
-- Temperature transmitters  
-- Pressure transmitters  
-- Flow measurement devices  
-- Level sensors  
+- Transmisores de temperatura  
+- Transmisores de presión  
+- Dispositivos de medición de flujo  
+- Sensores de nivel  
 
-They are standard in process control systems.
+Son estándar en los sistemas de control de procesos.
 
-## Key Considerations
+## Consideraciones clave
 
-Proper scaling is required to convert current into meaningful values.
+Se requiere un escalamiento adecuado para convertir la corriente en valores significativos.
 
-Loop power supply must be sufficient for all devices in the loop.
+La fuente de alimentación del lazo debe ser suficiente para todos los dispositivos en el lazo.
 
-Cable selection and routing affect signal quality.
+La selección y el tendido del cable afectan la calidad de la señal.
 
-Intrinsic safety may be required in hazardous environments.
+Puede requerirse seguridad intrínseca en entornos peligrosos.
 
-Input module compatibility must be verified.
+Debe verificarse la compatibilidad del módulo de entrada.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is incorrect scaling of the signal in the PLC. Always verify the measurement range.
+Un error común es el escalamiento incorrecto de la señal en el PLC. Siempre verifique el rango de medición.
 
-Check loop wiring carefully. Incorrect connections can prevent signal transmission.
+Revise cuidadosamente el cableado del lazo. Conexiones incorrectas pueden impedir la transmisión de la señal.
 
-Use proper grounding and shielding to reduce interference.
+Utilice una puesta a tierra y blindaje adecuados para reducir la interferencia.
 
-Verify loop current during commissioning to confirm correct operation.
+Verifique la corriente del lazo durante la puesta en marcha para confirmar el funcionamiento correcto.
 
-Label signal ranges clearly to avoid confusion during maintenance.
+Etiquete los rangos de señal claramente para evitar confusiones durante el mantenimiento.

@@ -1,75 +1,75 @@
-# Alignment Tools
+# Herramientas de alineación
 
-## Overview
+## Descripción general
 
-Alignment tools are used to ensure that rotating equipment such as motors, pumps, and gearboxes are properly aligned.
+Las herramientas de alineación se utilizan para garantizar que el equipo rotativo, como motores, bombas y cajas de engranajes, esté correctamente alineado.
 
-Correct alignment reduces mechanical stress, vibration, and wear, improving equipment reliability and efficiency.
+La alineación correcta reduce el estrés mecánico, la vibración y el desgaste, mejorando la confiabilidad y la eficiencia del equipo.
 
-## Purpose
+## Propósito
 
-The purpose of alignment is to:
+El propósito de la alineación es:
 
-- Ensure proper positioning of coupled equipment  
-- Reduce vibration and mechanical stress  
-- Extend bearing and seal life  
-- Improve energy efficiency  
-- Prevent premature equipment failure  
+- Garantizar el posicionamiento correcto del equipo acoplado  
+- Reducir la vibración y el estrés mecánico  
+- Prolongar la vida útil de rodamientos y sellos  
+- Mejorar la eficiencia energética  
+- Prevenir fallas prematuras del equipo  
 
-Proper alignment is essential for reliable operation of rotating machinery.
+La alineación adecuada es esencial para la operación confiable de maquinaria rotativa.
 
-## How It Works
+## Cómo funciona
 
-Alignment involves adjusting the position of connected shafts so that they are correctly aligned in both horizontal and vertical planes.
+La alineación implica ajustar la posición de los ejes conectados para que estén correctamente alineados tanto en planos horizontales como verticales.
 
-Common alignment methods include:
+Los métodos de alineación comunes incluyen:
 
-- **Straight edge and feeler gauge** for basic alignment  
-- **Dial indicators** for more precise measurement  
-- **Laser alignment tools** for high accuracy and ease of use  
+- **Regla recta y calibrador de espesores** para alineación básica  
+- **Indicadores de carátula** para medición más precisa  
+- **Herramientas de alineación láser** para alta precisión y facilidad de uso  
 
-The process typically includes:
+El proceso generalmente incluye:
 
-- Measuring misalignment between shafts  
-- Calculating required adjustments  
-- Adjusting equipment position using shims or movement  
-- Verifying alignment after correction  
+- Medir el desalineamiento entre ejes  
+- Calcular los ajustes requeridos  
+- Ajustar la posición del equipo mediante calzas o movimiento  
+- Verificar la alineación después de la corrección  
 
-Misalignment can be:
+El desalineamiento puede ser:
 
-- **Angular**, where shafts are at an angle  
-- **Parallel**, where shafts are offset but parallel  
+- **Angular**, donde los ejes forman un ángulo  
+- **Paralelo**, donde los ejes están desplazados pero son paralelos  
 
-Both types must be corrected for proper operation.
+Ambos tipos deben corregirse para una operación adecuada.
 
-## Applications
+## Aplicaciones
 
-Alignment tools are used in:
+Las herramientas de alineación se utilizan en:
 
-- Motor and pump installations  
-- Gearboxes and drive systems  
-- Fans and compressors  
-- Conveyor systems  
-- Any equipment with coupled rotating shafts  
+- Instalaciones de motores y bombas  
+- Cajas de engranajes y sistemas de transmisión  
+- Ventiladores y compresores  
+- Sistemas de transportadores  
+- Cualquier equipo con ejes rotativos acoplados  
 
-They are essential during installation and maintenance.
+Son esenciales durante la instalación y el mantenimiento.
 
-## Key Considerations
+## Consideraciones clave
 
-- Alignment should be performed under realistic operating conditions  
-- Thermal expansion can affect alignment  
-- Soft foot conditions must be corrected before alignment  
-- Precision requirements depend on equipment type  
-- Rechecking alignment after operation is recommended  
+- La alineación debe realizarse bajo condiciones operativas realistas  
+- La expansión térmica puede afectar la alineación  
+- Las condiciones de pie blando deben corregirse antes de la alineación  
+- Los requisitos de precisión dependen del tipo de equipo  
+- Se recomienda verificar la alineación después de la operación  
 
-Incorrect alignment can lead to increased vibration and equipment damage.
+La alineación incorrecta puede conducir a mayor vibración y daño al equipo.
 
-## Practical Notes
+## Notas prácticas
 
-- Always correct mechanical issues before performing alignment  
-- Use laser tools for higher accuracy and efficiency  
-- Verify base condition and eliminate soft foot  
-- Recheck alignment after tightening bolts  
-- Document alignment results for future reference  
+- Corregir siempre los problemas mecánicos antes de realizar la alineación  
+- Utilizar herramientas láser para mayor precisión y eficiencia  
+- Verificar la condición de la base y eliminar el pie blando  
+- Verificar la alineación después de apretar los pernos  
+- Documentar los resultados de alineación para referencia futura  
 
-Proper alignment reduces wear, improves performance, and increases equipment lifespan.
+La alineación adecuada reduce el desgaste, mejora el rendimiento y aumenta la vida útil del equipo.

@@ -1,120 +1,120 @@
-# Pre-Commissioning
+# Precomisionamiento
 
-## Overview
+## Descripción general
 
-Pre-commissioning is the phase before system startup where equipment, wiring, and installations are verified to ensure they are ready for operation.
+El precomisionamiento es la fase previa a la puesta en marcha en la que se verifica el equipo, el cableado y las instalaciones para asegurar que están listos para operar.
 
-It focuses on checking that everything is correctly installed and prepared before energizing or running the system.
+Se enfoca en comprobar que todo esté correctamente instalado y preparado antes de energizar o poner en funcionamiento el sistema.
 
-This stage reduces risks during commissioning and startup.
+Esta etapa reduce riesgos durante el comisionamiento y el arranque.
 
-## Purpose
+## Propósito
 
-The purpose of pre-commissioning is to confirm that the system is complete, correct, and safe to energize.
+El propósito del precomisionamiento es confirmar que el sistema esté completo, correcto y seguro para energizarse.
 
-It is used to:
+Se utiliza para:
 
-- Verify installation quality  
-- Detect and correct issues early  
-- Ensure readiness for commissioning  
-- Reduce startup delays and failures  
+- Verificar la calidad de la instalación  
+- Detectar y corregir problemas de forma temprana  
+- Asegurar la preparación para el comisionamiento  
+- Reducir retrasos y fallas en el arranque  
 
-Proper pre-commissioning improves overall project reliability.
+Un precomisionamiento adecuado mejora la confiabilidad general del proyecto.
 
-## How It Works
+## Cómo funciona
 
-Pre-commissioning involves systematic inspection and verification of all system elements.
+El precomisionamiento implica una inspección y verificación sistemática de todos los elementos del sistema.
 
-### Visual Inspection
+### Inspección visual
 
-Check physical installation.
+Revisión de la instalación física.
 
-- Equipment is properly mounted  
-- Components are correctly installed  
-- No visible damage or missing parts  
+- El equipo está correctamente montado  
+- Los componentes están bien instalados  
+- No hay daños visibles ni piezas faltantes  
 
-This ensures basic installation quality.
+Esto asegura la calidad básica de la instalación.
 
-### Wiring Verification
+### Verificación de cableado
 
-Confirm all electrical connections.
+Confirmación de todas las conexiones eléctricas.
 
-- Correct wiring according to diagrams  
-- Proper labeling of wires and terminals  
-- Tight and secure connections  
+- Cableado correcto según los diagramas  
+- Etiquetado adecuado de cables y terminales  
+- Conexiones firmes y seguras  
 
-Incorrect wiring is a common source of issues.
+El cableado incorrecto es una fuente común de problemas.
 
-### Continuity and Insulation Checks
+### Pruebas de continuidad y aislamiento
 
-Test electrical integrity.
+Evaluación de la integridad eléctrica.
 
-- Continuity of circuits  
-- Insulation resistance of cables  
+- Continuidad de los circuitos  
+- Resistencia de aislamiento de los cables  
 
-These tests verify safe electrical conditions.
+Estas pruebas verifican condiciones eléctricas seguras.
 
-### I O Verification
+### Verificación de I/O
 
-Check input and output signals.
+Revisión de señales de entrada y salida.
 
-- Correct mapping of field devices  
-- Signal types and ranges  
-- Proper termination  
+- Mapeo correcto de dispositivos de campo  
+- Tipos de señal y rangos  
+- Terminación adecuada  
 
-Ensures signals are correctly connected.
+Asegura que las señales estén correctamente conectadas.
 
-### Power Checks
+### Verificación de energía
 
-Verify power distribution.
+Comprobación de la distribución eléctrica.
 
-- Voltage levels are correct  
-- Protection devices are properly installed  
-- No short circuits or faults  
+- Niveles de voltaje correctos  
+- Dispositivos de protección correctamente instalados  
+- Ausencia de cortocircuitos o fallas  
 
-System must be safe before energizing.
+El sistema debe ser seguro antes de energizarse.
 
-### Documentation Review
+### Revisión de documentación
 
-Confirm all documentation is complete.
+Confirmación de que toda la documentación esté completa.
 
-- Electrical drawings  
-- I O lists  
-- Configuration data  
+- Planos eléctricos  
+- Listas de I/O  
+- Datos de configuración  
 
-Documentation must match the actual installation.
+La documentación debe coincidir con la instalación real.
 
-## Applications
+## Aplicaciones
 
-Pre-commissioning is required in all industrial projects.
+El precomisionamiento es necesario en todos los proyectos industriales.
 
-Typical applications include:
+Aplicaciones típicas incluyen:
 
-- New installations  
-- System upgrades  
-- Panel assembly verification  
-- Large automation projects  
+- Nuevas instalaciones  
+- Actualizaciones de sistemas  
+- Verificación de tableros eléctricos  
+- Proyectos de automatización a gran escala  
 
-It is essential before any system startup.
+Es esencial antes de cualquier puesta en marcha.
 
-## Key Considerations
+## Consideraciones clave
 
-All checks must be completed before energizing the system.
+Todas las verificaciones deben completarse antes de energizar el sistema.
 
-Safety must be prioritized during all tests.
+La seguridad debe ser prioritaria durante todas las pruebas.
 
-Coordination between electrical, control, and mechanical teams is required.
+Se requiere coordinación entre equipos eléctricos, de control y mecánicos.
 
-Documentation accuracy is critical.
+La precisión de la documentación es crítica.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is rushing pre-commissioning to save time. This often leads to delays during startup.
+Un error común es apresurar el precomisionamiento para ahorrar tiempo. Esto suele generar retrasos durante el arranque.
 
-Use checklists to ensure all items are verified.
+Utiliza listas de verificación para asegurar que todos los puntos se revisen.
 
-Correct issues immediately to avoid accumulation of problems.
+Corrige los problemas inmediatamente para evitar acumulación de fallas.
 
-Do not energize equipment until all critical checks are complete.
+No energices el equipo hasta completar todas las verificaciones críticas.
 
-Record all test results for future reference.
+Registra todos los resultados de prueba para futuras referencias.

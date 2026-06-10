@@ -1,108 +1,108 @@
-# Loop Checks
+# Pruebas de Lazo (Loop Checks)
 
-## Overview
+## Descripción general
 
-Loop checks are tests performed to verify that each control loop is correctly wired, configured, and functioning from the field device to the control system and back to the final element.
+Las pruebas de lazo (loop checks) son ensayos realizados para verificar que cada lazo de control esté correctamente cableado, configurado y funcionando desde el dispositivo de campo hasta el sistema de control y de regreso al elemento final.
 
-They confirm that signals are properly transmitted and interpreted across the entire loop.
+Confirman que las señales se transmiten e interpretan correctamente a lo largo de todo el lazo.
 
-Loop checks are a critical step before system startup.
+Las pruebas de lazo son un paso crítico antes de la puesta en marcha del sistema.
 
-## Purpose
+## Propósito
 
-The purpose of loop checks is to ensure that all signals and control paths work as intended.
+El propósito de las pruebas de lazo es asegurar que todas las señales y rutas de control funcionen como se espera.
 
-They are used to:
+Se utilizan para:
 
-- Verify correct wiring and signal flow  
-- Confirm I O configuration  
-- Detect installation or configuration errors  
-- Ensure readiness for operation  
+- Verificar el cableado correcto y el flujo de señal  
+- Confirmar la configuración de entradas y salidas (I/O)  
+- Detectar errores de instalación o configuración  
+- Asegurar la preparación para la operación  
 
-Proper loop checks reduce issues during commissioning.
+Una correcta ejecución de pruebas de lazo reduce problemas durante la puesta en marcha.
 
-## How It Works
+## Cómo funciona
 
-Loop checks are performed by testing each loop individually.
+Las pruebas de lazo se realizan verificando cada lazo de manera individual.
 
-### Signal Verification
+### Verificación de señal
 
-Each signal is tested from source to destination.
+Cada señal se prueba desde su origen hasta su destino.
 
-- Apply a known input at the field device  
-- Verify correct reading in the control system  
+- Aplicar una señal conocida en el dispositivo de campo  
+- Verificar la lectura correcta en el sistema de control  
 
-This confirms proper signal transmission.
+Esto confirma la correcta transmisión de la señal.
 
-### Output Testing
+### Prueba de salidas
 
-Outputs are tested in the opposite direction.
+Las salidas se prueban en dirección opuesta.
 
-- Activate output from the control system  
-- Verify response at the field device  
+- Activar la salida desde el sistema de control  
+- Verificar la respuesta en el dispositivo de campo  
 
-Ensures correct actuation.
+Asegura una correcta actuación.
 
-### Scaling and Configuration
+### Escalamiento y configuración
 
-Check signal interpretation.
+Se verifica la interpretación de la señal.
 
-- Verify analog scaling  
-- Confirm correct units and ranges  
+- Validar el escalamiento analógico  
+- Confirmar unidades y rangos correctos  
 
-Incorrect scaling can lead to wrong operation.
+Un escalamiento incorrecto puede provocar un funcionamiento erróneo.
 
-### End to End Validation
+### Validación de extremo a extremo
 
-Each loop is tested as a complete path.
+Cada lazo se prueba como una ruta completa.
 
-- Sensor to controller  
-- Controller to actuator  
+- Sensor a controlador  
+- Controlador a actuador  
 
-This ensures full loop functionality.
+Esto asegura la funcionalidad total del lazo.
 
-### Documentation
+### Documentación
 
-Results are recorded.
+Los resultados se registran.
 
-- Pass or fail status  
-- Observations and corrections  
+- Estado de aprobado o rechazado  
+- Observaciones y correcciones  
 
-Documentation supports commissioning and troubleshooting.
+La documentación respalda la puesta en marcha y la solución de problemas.
 
-## Applications
+## Aplicaciones
 
-Loop checks are used in all control systems.
+Las pruebas de lazo se utilizan en todos los sistemas de control.
 
-Typical applications include:
+Aplicaciones típicas incluyen:
 
-- Process instrumentation loops  
-- Machine control systems  
-- Motor control circuits  
-- Safety related loops  
+- Lazos de instrumentación de proceso  
+- Sistemas de control de maquinaria  
+- Circuitos de control de motores  
+- Lazos relacionados con seguridad  
 
-They are essential before system startup.
+Son esenciales antes de la puesta en marcha del sistema.
 
-## Key Considerations
+## Consideraciones clave
 
-Each loop must be tested individually.
+Cada lazo debe probarse individualmente.
 
-Signal types and ranges must be verified.
+Se deben verificar los tipos de señal y sus rangos.
 
-Coordination between field and control teams is required.
+Se requiere coordinación entre los equipos de campo y control.
 
-Documentation must be accurate and complete.
+La documentación debe ser precisa y completa.
 
-Issues must be corrected before proceeding.
+Los problemas deben corregirse antes de continuar.
 
-## Practical Notes
+## Notas prácticas
 
-A common mistake is skipping loop checks for simple signals. Every loop should be verified.
+Un error común es omitir pruebas de lazo en señales simples. Todos los lazos deben verificarse.
 
-Use calibrated instruments for accurate testing.
+Utiliza instrumentos calibrados para obtener resultados precisos.
 
-Check both directions for control loops.
+Verifica ambas direcciones en los lazos de control.
 
-Label loops clearly to avoid confusion.
+Etiqueta claramente los lazos para evitar confusiones.
 
-Complete loop checks before dynamic testing or startup.
+Completa las pruebas de lazo antes de pruebas dinámicas o la puesta en marcha.

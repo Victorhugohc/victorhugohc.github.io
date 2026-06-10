@@ -1,64 +1,64 @@
-# Labeling Overview
+# Etiquetado
 
-## Overview
+## Descripción general
 
-Labeling is the process of identifying equipment, components, cables, and interfaces within an industrial system using clear and standardized markings.
+El etiquetado es el proceso de identificar equipos, componentes, cables e interfaces dentro de un sistema industrial mediante marcas claras y estandarizadas.
 
-It provides a direct way to understand what each element is, how it relates to the system, and how it should be handled during operation and maintenance.
+Proporciona una forma directa de comprender qué es cada elemento, cómo se relaciona con el sistema y cómo debe manejarse durante la operación y el mantenimiento.
 
-Labeling is a fundamental practice that supports clarity, traceability, and safe interaction with the system.
+El etiquetado es una práctica fundamental que apoya la claridad, la trazabilidad y la interacción segura con el sistema.
 
-## Purpose
+## Propósito
 
-The purpose of labeling is to ensure that every relevant element in a system can be quickly and accurately identified.
+El propósito del etiquetado es asegurar que cada elemento relevante en un sistema pueda identificarse de forma rápida y precisa.
 
-This helps to:
+Esto ayuda a:
 
-- Reduce errors during installation, operation, and maintenance  
-- Improve troubleshooting speed  
-- Support safe work practices  
-- Maintain consistency between physical systems and documentation  
+- Reducir errores durante la instalación, operación y mantenimiento  
+- Mejorar la velocidad de diagnóstico  
+- Apoyar prácticas de trabajo seguras  
+- Mantener la consistencia entre los sistemas físicos y la documentación  
 
-Without proper labeling, systems become difficult to interpret and more prone to mistakes.
+Sin un etiquetado adecuado, los sistemas se vuelven difíciles de interpretar y más propensos a errores.
 
-## How It Works
+## Cómo funciona
 
-Labeling works by assigning unique and meaningful identifiers to system elements.
+El etiquetado funciona asignando identificadores únicos y significativos a los elementos del sistema.
 
-These identifiers are applied physically using tags, printed labels, engravings, or markers. They are typically aligned with naming conventions used in drawings and documentation.
+Estos identificadores se aplican físicamente mediante etiquetas, marcadores impresos, grabados o rotuladores. Típicamente se alinean con las convenciones de nomenclatura utilizadas en planos y documentación.
 
-Common elements that are labeled include:
+Los elementos comunes que se etiquetan incluyen:
 
-- Cables and wires  
-- Terminal blocks and connections  
-- Devices such as sensors, actuators, and controllers  
-- Panels, enclosures, and sections of equipment  
+- Cables y conductores  
+- Bloques de terminales y conexiones  
+- Dispositivos como sensores, actuadores y controladores  
+- Tableros, gabinetes y secciones de equipo  
 
-The labeling system must be consistent so that the same identifier refers to the same element across the entire system.
+El sistema de etiquetado debe ser consistente para que el mismo identificador se refiera al mismo elemento en todo el sistema.
 
-## Applications
+## Aplicaciones
 
-Labeling is used in all types of industrial systems, including:
+El etiquetado se utiliza en todo tipo de sistemas industriales, incluyendo:
 
-- Control panels and electrical cabinets  
-- Field installations with distributed equipment  
-- Process systems with instrumentation  
-- Power distribution systems  
-- Automation and control networks  
+- Tableros de control y gabinetes eléctricos  
+- Instalaciones de campo con equipo distribuido  
+- Sistemas de proceso con instrumentación  
+- Sistemas de distribución de energía  
+- Redes de automatización y control  
 
-It is essential during installation, commissioning, maintenance, and troubleshooting.
+Es esencial durante la instalación, la puesta en marcha, el mantenimiento y el diagnóstico.
 
-## Key Considerations
+## Consideraciones clave
 
-- Labels must be clear and easy to read under real conditions  
-- Identification must match drawings and documentation exactly  
-- Labeling schemes should follow a consistent structure  
-- Placement must allow visibility without interfering with operation  
-- Materials must withstand the environmental conditions  
+- Las etiquetas deben ser claras y fáciles de leer bajo condiciones reales  
+- La identificación debe coincidir exactamente con planos y documentación  
+- Los esquemas de etiquetado deben seguir una estructura consistente  
+- La colocación debe permitir visibilidad sin interferir con la operación  
+- Los materiales deben resistir las condiciones ambientales  
 
-## Practical Notes
+## Notas prácticas
 
-- Inconsistent naming is a common source of confusion and errors  
-- Handwritten labels tend to degrade and should be avoided in permanent installations  
-- Labels that are difficult to access or read reduce their effectiveness  
-- A well labeled system significantly reduces troubleshooting time  
+- La nomenclatura inconsistente es una fuente común de confusión y errores  
+- Las etiquetas manuscritas tienden a degradarse y deben evitarse en instalaciones permanentes  
+- Las etiquetas difíciles de acceder o leer reducen su efectividad  
+- Un sistema bien etiquetado reduce significativamente el tiempo de diagnóstico

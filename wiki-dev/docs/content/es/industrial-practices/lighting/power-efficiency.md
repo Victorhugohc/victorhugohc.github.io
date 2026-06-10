@@ -1,57 +1,57 @@
-# Power and Efficiency
+# Potencia y Eficiencia
 
-## Overview
+## Descripción general
 
-Power and efficiency in lighting refer to how much electrical energy is consumed and how effectively that energy is converted into useful light.
+La potencia y la eficiencia en iluminación se refieren a cuánta energía eléctrica se consume y qué tan efectivamente esa energía se convierte en luz útil.
 
-Efficient lighting systems provide the required illumination while minimizing energy consumption and operational cost.
+Los sistemas de iluminación eficientes proporcionan la iluminación requerida mientras minimizan el consumo de energía y el costo operativo.
 
-## Purpose
+## Propósito
 
-The purpose of optimizing power and efficiency is to reduce energy usage without compromising lighting quality.
+El propósito de optimizar la potencia y la eficiencia es reducir el uso de energía sin comprometer la calidad de la iluminación.
 
-This helps to:
+Esto ayuda a:
 
-- Lower operating costs  
-- Reduce heat generation  
-- Improve system sustainability  
-- Minimize maintenance requirements  
+- Reducir los costos operativos  
+- Reducir la generación de calor  
+- Mejorar la sostenibilidad del sistema  
+- Minimizar los requisitos de mantenimiento  
 
-## How It Works
+## Cómo funciona
 
-Lighting efficiency is typically expressed as luminous efficacy, which indicates how much light is produced per unit of electrical power.
+La eficiencia de la iluminación se expresa típicamente como eficacia luminosa, que indica cuánta luz se produce por unidad de potencia eléctrica.
 
-Key factors include:
+Los factores clave incluyen:
 
-- Lighting technology, such as LED, fluorescent, or discharge lamps  
-- Driver or ballast efficiency  
-- Optical design of the fixture  
-- Losses due to heat and aging  
+- Tecnología de iluminación, como LED, fluorescente o lámparas de descarga  
+- Eficiencia del driver o balasto  
+- Diseño óptico de la luminaria  
+- Pérdidas debido al calor y el envejecimiento  
 
-Efficient systems produce more light with less power and maintain performance over time.
+Los sistemas eficientes producen más luz con menos potencia y mantienen el rendimiento con el tiempo.
 
-## Applications
+## Aplicaciones
 
-Power and efficiency are important in:
+La potencia y la eficiencia son importantes en:
 
-- Large industrial facilities with continuous operation  
-- Warehouses and production areas  
-- Outdoor lighting systems  
-- Retrofit projects replacing older lighting technologies  
-- Energy management and optimization programs  
+- Grandes instalaciones industriales con operación continua  
+- Almacenes y áreas de producción  
+- Sistemas de iluminación exterior  
+- Proyectos de retrofit que reemplazan tecnologías de iluminación antiguas  
+- Programas de gestión y optimización de energía  
 
-## Key Considerations
+## Consideraciones clave
 
-- Energy consumption must be balanced with required illumination levels  
-- Higher efficiency reduces long term operating costs  
-- Heat generation can affect equipment and environment  
-- Initial cost may be higher for more efficient technologies  
-- System performance must remain stable over time  
+- El consumo de energía debe equilibrarse con los niveles de iluminación requeridos  
+- Mayor eficiencia reduce los costos operativos a largo plazo  
+- La generación de calor puede afectar al equipo y al entorno  
+- El costo inicial puede ser mayor para tecnologías más eficientes  
+- El rendimiento del sistema debe permanecer estable con el tiempo  
 
-## Practical Notes
+## Notas prácticas
 
-- LED lighting provides high efficiency and long lifespan  
-- Replacing outdated systems often results in significant energy savings  
-- Over lighting increases energy consumption without added benefit  
-- Regular maintenance helps maintain efficiency  
-- Evaluate total cost of ownership, not only initial cost  
+- La iluminación LED proporciona alta eficiencia y larga vida útil  
+- Reemplazar sistemas obsoletos a menudo resulta en ahorros significativos de energía  
+- La sobre-iluminación aumenta el consumo de energía sin beneficio adicional  
+- El mantenimiento regular ayuda a mantener la eficiencia  
+- Evalúe el costo total de propiedad, no solo el costo inicial

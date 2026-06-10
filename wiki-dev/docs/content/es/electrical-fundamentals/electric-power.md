@@ -1,6 +1,6 @@
 # Potencia Eléctrica
 
-## Overview
+## Descripción general
 
 La potencia eléctrica representa la tasa a la cual la energía eléctrica es transferida o convertida en trabajo útil. Indica cuánta energía se está utilizando o entregando a lo largo del tiempo en un sistema eléctrico.
 

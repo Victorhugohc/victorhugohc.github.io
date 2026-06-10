@@ -1,61 +1,61 @@
-# Labeling Standards
+# Estándares de Etiquetado
 
-## Overview
+## Descripción general
 
-Labeling standards define how components, cables, and equipment are identified within an industrial system.
+Los estándares de etiquetado definen cómo se identifican los componentes, cables y equipo dentro de un sistema industrial.
 
-They establish rules for naming, formatting, placement, and consistency. These standards ensure that labels are understood by anyone working on the system, regardless of who designed or installed it.
+Establecen reglas para nomenclatura, formato, colocación y consistencia. Estos estándares aseguran que las etiquetas sean comprendidas por cualquier persona que trabaje en el sistema, independientemente de quién lo diseñó o instaló.
 
-## Purpose
+## Propósito
 
-The purpose of labeling standards is to create a uniform identification system that reduces confusion and errors.
+El propósito de los estándares de etiquetado es crear un sistema de identificación uniforme que reduzca la confusión y los errores.
 
-They help to:
+Ayudan a:
 
-- Ensure consistency across projects and teams  
-- Align physical labeling with drawings and documentation  
-- Improve communication between engineering, installation, and maintenance  
-- Support safe and efficient system operation  
+- Asegurar consistencia entre proyectos y equipos  
+- Alinear el etiquetado físico con planos y documentación  
+- Mejorar la comunicación entre ingeniería, instalación y mantenimiento  
+- Apoyar una operación segura y eficiente del sistema  
 
-## How It Works
+## Cómo funciona
 
-Labeling standards define structured naming conventions and formatting rules.
+Los estándares de etiquetado definen convenciones de nomenclatura estructuradas y reglas de formato.
 
-This typically includes:
+Esto típicamente incluye:
 
-- Tagging systems for devices and instruments  
-- Wire and cable identification formats  
-- Panel and location identifiers  
-- Standard abbreviations and codes  
+- Sistemas de etiquetado para dispositivos e instrumentos  
+- Formatos de identificación de cables y conductores  
+- Identificadores de tableros y ubicaciones  
+- Abreviaturas y códigos estándar  
 
-Each element is assigned a unique identifier based on its function, location, or sequence. These identifiers are then applied physically and used consistently in documentation.
+Cada elemento se le asigna un identificador único basado en su función, ubicación o secuencia. Estos identificadores se aplican físicamente y se utilizan de manera consistente en la documentación.
 
-Standards may be based on international norms, industry practices, or internal company guidelines.
+Los estándares pueden basarse en normas internacionales, prácticas de la industria o directrices internas de la empresa.
 
-## Applications
+## Aplicaciones
 
-Labeling standards are applied in:
+Los estándares de etiquetado se aplican en:
 
-- Control panels and electrical assemblies  
-- Field wiring and instrumentation systems  
-- Power distribution installations  
-- Automation systems and networks  
-- Large scale industrial facilities  
+- Tableros de control y ensamblajes eléctricos  
+- Cableado de campo y sistemas de instrumentación  
+- Instalaciones de distribución de energía  
+- Sistemas de automatización y redes  
+- Instalaciones industriales de gran escala  
 
-They are especially important in systems with many components or multiple teams involved.
+Son especialmente importantes en sistemas con muchos componentes o múltiples equipos involucrados.
 
-## Key Considerations
+## Consideraciones clave
 
-- The naming structure must be simple and scalable  
-- Identifiers must be unique and avoid duplication  
-- Labels must match documentation exactly  
-- Standards should be defined before installation begins  
-- All stakeholders must follow the same conventions  
+- La estructura de nomenclatura debe ser simple y escalable  
+- Los identificadores deben ser únicos y evitar duplicación  
+- Las etiquetas deben coincidir exactamente con la documentación  
+- Los estándares deben definirse antes de que comience la instalación  
+- Todas las partes interesadas deben seguir las mismas convenciones  
 
-## Practical Notes
+## Notas prácticas
 
-- Mixing different labeling styles within the same system creates confusion  
-- Overly complex naming schemes are difficult to maintain  
-- Clear and structured tags improve troubleshooting speed  
-- A well defined standard reduces dependency on individual knowledge  
-- Consistency is more important than the specific format chosen  
+- Mezclar diferentes estilos de etiquetado dentro del mismo sistema crea confusión  
+- Los esquemas de nomenclatura excesivamente complejos son difíciles de mantener  
+- Las etiquetas claras y estructuradas mejoran la velocidad de diagnóstico  
+- Un estándar bien definido reduce la dependencia del conocimiento individual  
+- La consistencia es más importante que el formato específico elegido
